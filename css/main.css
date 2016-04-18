@@ -1,18 +1,6 @@
-/*h4 {
-    color: #0099ff;
-}/*
-
-/* using alert styling in blockqute */
-/*blockquote {
-	background-color: #5cb85c;
-	border-color: transparent;
-	padding: 15px;
-	margin-bottom: 21px;
-	border: 1px solid transparent;
-	border-radius: 0;
-	font-size: 15px;
-	color: #fff;
-}*/
+footer {
+  background-color: #f9f9f9;
+}
 
 .cell-center {
   text-align: center;
