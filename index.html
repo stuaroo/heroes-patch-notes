@@ -2,12 +2,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="View patch notes by hero for Heroes of the Storm">
+    <meta name="description" content="Patch note history by hero for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.">
     
     <title>Heroes Patch Notes.com</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://heroespatchnotes.com/css/front.css" type="text/css" />
+    <style>
+      .list-unstyled { list-style: none; padding-left: 0; }
+      .list-unstyled > li { line-height: 1.75em; }
+      .list-unstyled > li > a:hover { text-decoration: none; }
+      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
+    </style>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <style>
+      .cell-center { text-align: center; }
+      .hero-heading { width: 40%; }
+      .tab-heading { width: 20%; }
+      .search { width: 40%; }
+      .sort { color: #2c3e50; }
+      table a:not(.btn), .table a:not(.btn) { text-decoration: none; }
+    </style>
 
   </head>
   <body>
@@ -23,11 +36,8 @@
           <a class="navbar-brand" href="http://heroespatchnotes.com">Heroes Patch Notes</a>
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
-          <ul class="nav navbar-nav">
-            <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">&beta;eta</a></li>
+            <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
           </ul>
         </div>
       </div>
@@ -35,15 +45,15 @@
     <article class="container">
       <div class="row">
         <div id="hero-list" class="col-lg-12">
-          <p>Patch notes for Heroes of the Storm relating to Heroes by abilities, talents, and hero names.  <a href="faq.html">What is this?</a></p>
+          <p>Patch note history by hero for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.  <a href="faq.html">What is this?</a></p>
           <input class="search form-control" placeholder="Search" />
           <table class="table table-striped table-hover">
             <thead>
               <tr>
                 <th class="hero-heading"><a class="sort" data-sort="hero">Hero <i class="fa fa-sort" aria-hidden="true"></i></a></th>
                 <th class="tab-heading cell-center"><a class="sort" data-sort="last-update">Last Updated <i class="fa fa-sort" aria-hidden="true"></i></a></th>
-                <th class="tab-heading cell-center hidden-xs"># of Patches Affecting</th>
-                <th class="tab-heading cell-center hidden-xs"># of Direct Hero Updates</th>
+                <th class="tab-heading cell-center hidden-xs"># of Patch Changes</th>
+                <th class="tab-heading cell-center hidden-xs"># of Hero Updates</th>
               </tr>
             </thead>
             <tbody class="list">
@@ -413,7 +423,18 @@
     </article>
     <footer>
       <div class="container">
-        <p>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</p>
+        <div class="row">
+          <div class="col-lg-2">
+            <ul class="list-unstyled">
+              <li><a href="http://heroespatchnotes.com">Home</a></li>
+              <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
+              <li><a href="mailto:admin@heroespatchnotes.com">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-10">
+            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
       </div>
     </footer>
     

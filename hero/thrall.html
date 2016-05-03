@@ -2,11 +2,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="View patch notes by hero for Heroes of the Storm">
+    <meta name="description" content="Patch note history by hero for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.">
     
     <title>Thrall Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://heroespatchnotes.com/css/main.css" type="text/css" />
+    <style>
+      .list-unstyled { list-style: none; padding-left: 0; }
+      .list-unstyled > li { line-height: 1.75em; }
+      .list-unstyled > li > a:hover { text-decoration: none; }
+      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
+    </style>
+    <style>
+      p { margin: 0; }
+      h3 { margin-top: 10.5px; }
+      blockquote { font-size: 14px; }
+      .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
+      table { border-collapse: collapse !important; }
+      table td, table th { background-color: #fff !important; }
+      table { width: 100%; max-width: 100%; margin-bottom: 21px; }
+      table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
+        padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
+      table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #ecf0f1; }
+      table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
+      table > tbody + tbody { border-top: 2px solid #ecf0f1; }
+      table > tbody > tr:nth-of-type(odd) { background-color: #f9f9f9; }
+      table > tbody > tr:hover { background-color: #ecf0f1; }
+      .panel > table, .panel > .panel-collapse > table { margin-bottom: 0; }
+      .panel > table:first-child { border-top-right-radius: 3px; border-top-left-radius: 3px; }
+      .panel > table:first-child > thead:first-child > tr:first-child, .panel > table:first-child > tbody:first-child > tr:first-child {
+        border-top-left-radius: 3px; border-top-right-radius: 3px; }
+      .panel > table:first-child > thead:first-child > tr:first-child td:first-child, .panel > table:first-child > tbody:first-child > tr:first-child td:first-child,
+      .panel > table:first-child > thead:first-child > tr:first-child th:first-child, .panel > table:first-child > tbody:first-child > tr:first-child th:first-child {
+        border-top-left-radius: 3px; }
+      .panel > table:first-child > thead:first-child > tr:first-child td:last-child, .panel > table:first-child > tbody:first-child > tr:first-child td:last-child,
+      .panel > table:first-child > thead:first-child > tr:first-child th:last-child, .panel > table:first-child > tbody:first-child > tr:first-child th:last-child {
+        border-top-right-radius: 3px; }
+      .panel > table:last-child { border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
+      .panel > table:last-child > tbody:last-child > tr:last-child, .panel > table:last-child > tfoot:last-child > tr:last-child {
+        border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; }
+      .panel > table:last-child > tbody:last-child > tr:last-child td:first-child, .panel > table:last-child > tfoot:last-child > tr:last-child td:first-child,
+      .panel > table:last-child > tbody:last-child > tr:last-child th:first-child, .panel > table:last-child > tfoot:last-child > tr:last-child th:first-child {
+        border-bottom-left-radius: 3px; }
+      .panel > table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > table:last-child > tfoot:last-child > tr:last-child td:last-child,
+      .panel > table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > table:last-child > tfoot:last-child > tr:last-child th:last-child {
+        border-bottom-right-radius: 3px; }
+      .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
+      .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+    </style>
 
   </head>
   <body>
@@ -22,11 +64,8 @@
           <a class="navbar-brand" href="http://heroespatchnotes.com">Heroes Patch Notes</a>
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
-          <ul class="nav navbar-nav">
-            <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">&beta;eta</a></li>
+            <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
           </ul>
         </div>
       </div>
@@ -564,7 +603,18 @@
     </article>
     <footer>
       <div class="container">
-        <p>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</p>
+        <div class="row">
+          <div class="col-lg-2">
+            <ul class="list-unstyled">
+              <li><a href="http://heroespatchnotes.com">Home</a></li>
+              <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
+              <li><a href="mailto:admin@heroespatchnotes.com">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-10">
+            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
       </div>
     </footer>
     

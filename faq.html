@@ -2,11 +2,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="View patch notes by hero for Heroes of the Storm">
+    <meta name="description" content="Patch note history by hero for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.">
     
     <title>FAQ - Heroes Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://heroespatchnotes.com/css/front.css" type="text/css" />
+    <style>
+      .list-unstyled { list-style: none; padding-left: 0; }
+      .list-unstyled > li { line-height: 1.75em; }
+      .list-unstyled > li > a:hover { text-decoration: none; }
+      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
+    </style>
+    <style>
+      p { margin: 0; }
+    </style>
 
   </head>
   <body>
@@ -22,11 +30,8 @@
           <a class="navbar-brand" href="http://heroespatchnotes.com">Heroes Patch Notes</a>
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
-          <ul class="nav navbar-nav">
-            <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">&beta;eta</a></li>
+            <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
           </ul>
         </div>
       </div>
@@ -58,7 +63,7 @@
               <strong>I already read the patch notes, will this help me?</strong>
             </div>
             <div class="panel-body">
-              <p>Probably not, this is aimed more at player's who want to quickly see why a hero feels different.  Let's say I haven't played Raynor in a while (which is true), I can quickly go back through his most recent changes without digging through several long patch note files.</p>
+              <p>Probably not, this is aimed more at player's who want to quickly see why a hero feels different.  Let's say I haven't played Jaina in a while (which is sadly true), I can quickly go back through her most recent changes without digging through several long patch note files.</p>
             </div>
           </div>
           <hr>
@@ -76,7 +81,7 @@
               <strong>I've found a problem, how can I get it fixed?</strong>
             </div>
             <div class="panel-body">
-              <p>Excellent, send me an email at <a href="mailto:heroespatchnotes@gmail.com">heroespatchnotes@gmail.com</a> with as much detail as possible and it'll get updated.</p>
+              <p>Excellent, send me an email at <a href="mailto:admin@heroespatchnotes.com">admin@heroespatchnotes.com</a> with as much detail as possible and it'll get updated.</p>
             </div>
           </div>
           <hr>
@@ -85,7 +90,7 @@
               <strong>Why is there no mention of scaling changes/increased structure damage/battleground changes?</strong>
             </div>
             <div class="panel-body">
-              <p>If a change doesn't mention a hero, talent, or ability, it is not linked to a hero.  This site shows changes related to heroes.  If the community desires sections with these more 'meta' changes, I may find a way to add them in the future.</p>
+              <p>If a change doesn't mention a hero, talent, or ability, it is not linked to a hero.  This site currently shows changes related to heroes.  However, one of the first feature requests I received was "do this for battlegrounds too," so that will likely be next on the development docket.</p>
             </div>
           </div>
           <hr>
@@ -97,13 +102,33 @@
               <p>In my mind, bug fixes occasionally change gameplay (Ex: Chen's Flying Kick) but more often correct things that are not normal gameplay (Ex: Zeratul's Void Prison causing the Punisher to fly off the map).  If there are strong feelings toward including bug fixes I might look to do this in the future.</p>
             </div>
           </div>
+          <hr>
+          <h2>Thanks</h2>
+          <p>Special thanks to the following people and projects for making my life easier:</p>
+          <ul>
+            <li><a href="https://www.reddit.com/user/Vekkul">Vekkul</a> and his awesome list of <a href="http://us.battle.net/heroes/en/forum/topic/18301004598">The Patch History</a>, without which I would not even have considered this project</li>
+            <li><a href="http://heroesjson.com/">Heroesjson.com</a>, which made development and matching up heroes, talents, and abilities much easier</li>
+            <li><a href="http://www.ign.com/wikis/heroes-of-the-storm">IGN's 6.5/10 wiki</a> for having 2 year old data that helped identify removed talents</li>
+            <li>And finally <a href="us.battle.net/heroes/en/">Blizzard</a> for making a fine, fine game</li>
+          </ul>
         </div>
       </div>
 
     </article>
     <footer>
       <div class="container">
-        <p>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</p>
+        <div class="row">
+          <div class="col-lg-2">
+            <ul class="list-unstyled">
+              <li><a href="http://heroespatchnotes.com">Home</a></li>
+              <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
+              <li><a href="mailto:admin@heroespatchnotes.com">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-10">
+            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
       </div>
     </footer>
     
