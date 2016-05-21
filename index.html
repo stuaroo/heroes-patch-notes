@@ -2,9 +2,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Patch note history by hero for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.">
-    
-    <title>Heroes Patch Notes.com</title>
+    <meta name="description" content="Patch note history by hero and battleground for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.">
+        <title>Heroes Patch Notes.com</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <style>
       .list-unstyled { list-style: none; padding-left: 0; }
@@ -12,6 +11,7 @@
       .list-unstyled > li > a:hover { text-decoration: none; }
       footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
     </style>
+
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
     <style>
       .cell-center { text-align: center; }
@@ -20,8 +20,8 @@
       .search { width: 40%; }
       .sort { color: #2c3e50; }
       table a:not(.btn), .table a:not(.btn) { text-decoration: none; }
+      th > a { cursor: pointer; }
     </style>
-
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -37,6 +37,8 @@
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li><a href="http://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
             <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
           </ul>
         </div>
@@ -45,9 +47,9 @@
     <article class="container">
       <div class="row">
         <div id="hero-list" class="col-lg-12">
-          <p>Patch note history by hero for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.  <a href="faq.html">What is this?</a></p>
+          <p>Patch note history by hero and battleground for Heroes of the Storm.  Patch notes are linked based on hero names, abilities, and talents.  <a href="faq.html">What is this?</a></p>
           <input class="search form-control" placeholder="Search" />
-          <table class="table table-striped table-hover">
+          <table id="heroes" class="table table-striped table-hover">
             <thead>
               <tr>
                 <th class="hero-heading"><a class="sort" data-sort="hero">Hero <i class="fa fa-sort" aria-hidden="true"></i></a></th>
@@ -57,369 +59,399 @@
               </tr>
             </thead>
             <tbody class="list">
-              
               <tr>
                 <td class="hero"><a href="hero/tracer.html">Tracer</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160504</span> 2016-05-04</td>
                 <td class="cell-center hidden-xs">2</td>
                 <td class="cell-center hidden-xs">1</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/butcher.html">Butcher</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160427</span> 2016-04-27</td>
                 <td class="cell-center hidden-xs">6</td>
                 <td class="cell-center hidden-xs">4</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/kaelthas.html">Kael'thas</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160427</span> 2016-04-27</td>
                 <td class="cell-center hidden-xs">10</td>
                 <td class="cell-center hidden-xs">6</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/nazeebo.html">Nazeebo</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160427</span> 2016-04-27</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">10</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/rexxar.html">Rexxar</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160427</span> 2016-04-27</td>
                 <td class="cell-center hidden-xs">6</td>
                 <td class="cell-center hidden-xs">4</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/artanis.html">Artanis</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160419</span> 2016-04-19</td>
                 <td class="cell-center hidden-xs">5</td>
                 <td class="cell-center hidden-xs">3</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/greymane.html">Greymane</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160419</span> 2016-04-19</td>
                 <td class="cell-center hidden-xs">5</td>
                 <td class="cell-center hidden-xs">4</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/abathur.html">Abathur</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">16</td>
                 <td class="cell-center hidden-xs">15</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/brightwing.html">Brightwing</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">10</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/etc.html">E.T.C.</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">8</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/falstad.html">Falstad</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">19</td>
                 <td class="cell-center hidden-xs">11</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/illidan.html">Illidan</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">15</td>
                 <td class="cell-center hidden-xs">10</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/johanna.html">Johanna</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">8</td>
                 <td class="cell-center hidden-xs">5</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/lili.html">Li Li</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">14</td>
                 <td class="cell-center hidden-xs">10</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/liming.html">Li-Ming</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">4</td>
                 <td class="cell-center hidden-xs">3</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/malfurion.html">Malfurion</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">9</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/muradin.html">Muradin</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">15</td>
                 <td class="cell-center hidden-xs">11</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/stitches.html">Stitches</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">11</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/thrall.html">Thrall</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">11</td>
                 <td class="cell-center hidden-xs">5</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/tychus.html">Tychus</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">12</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/tyrande.html">Tyrande</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">16</td>
                 <td class="cell-center hidden-xs">11</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/uther.html">Uther</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
                 <td class="cell-center hidden-xs">18</td>
                 <td class="cell-center hidden-xs">9</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/arthas.html">Arthas</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">14</td>
                 <td class="cell-center hidden-xs">7</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/azmodan.html">Azmodan</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">10</td>
                 <td class="cell-center hidden-xs">9</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/chen.html">Chen</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">9</td>
                 <td class="cell-center hidden-xs">7</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/dehaka.html">Dehaka</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">1</td>
                 <td class="cell-center hidden-xs">None</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/diablo.html">Diablo</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">16</td>
                 <td class="cell-center hidden-xs">9</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/gall.html">Gall</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">3</td>
                 <td class="cell-center hidden-xs">2</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/gazlowe.html">Gazlowe</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">14</td>
                 <td class="cell-center hidden-xs">8</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/jaina.html">Jaina</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">10</td>
                 <td class="cell-center hidden-xs">8</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/kerrigan.html">Kerrigan</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">15</td>
                 <td class="cell-center hidden-xs">10</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/kharazim.html">Kharazim</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">7</td>
                 <td class="cell-center hidden-xs">2</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/leoric.html">Leoric</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">6</td>
                 <td class="cell-center hidden-xs">3</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/lunara.html">Lunara</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">4</td>
                 <td class="cell-center hidden-xs">3</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/murky.html">Murky</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">14</td>
                 <td class="cell-center hidden-xs">8</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/raynor.html">Raynor</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">16</td>
                 <td class="cell-center hidden-xs">9</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/rehgar.html">Rehgar</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">12</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/sgthammer.html">Sgt. Hammer</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">15</td>
                 <td class="cell-center hidden-xs">8</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/sonya.html">Sonya</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">11</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/sylvanas.html">Sylvanas</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">6</td>
                 <td class="cell-center hidden-xs">4</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/thelostvikings.html">The Lost Vikings</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">7</td>
                 <td class="cell-center hidden-xs">4</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/tyrael.html">Tyrael</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">14</td>
                 <td class="cell-center hidden-xs">9</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/valla.html">Valla</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">14</td>
                 <td class="cell-center hidden-xs">7</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/xul.html">Xul</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">3</td>
                 <td class="cell-center hidden-xs">2</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/zagara.html">Zagara</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">13</td>
                 <td class="cell-center hidden-xs">8</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/zeratul.html">Zeratul</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
                 <td class="cell-center hidden-xs">15</td>
                 <td class="cell-center hidden-xs">8</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/nova.html">Nova</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160316</span> 2016-03-16</td>
                 <td class="cell-center hidden-xs">17</td>
                 <td class="cell-center hidden-xs">13</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/anubarak.html">Anub'arak</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160217</span> 2016-02-17</td>
                 <td class="cell-center hidden-xs">11</td>
                 <td class="cell-center hidden-xs">5</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/cho.html">Cho</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160202</span> 2016-02-02</td>
                 <td class="cell-center hidden-xs">3</td>
                 <td class="cell-center hidden-xs">2</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/ltmorales.html">Lt. Morales</a></td>
                 <td class="cell-center last-update"><span class="hidden">20160202</span> 2016-02-02</td>
                 <td class="cell-center hidden-xs">5</td>
                 <td class="cell-center hidden-xs">1</td>
               </tr>
-              
               <tr>
                 <td class="hero"><a href="hero/tassadar.html">Tassadar</a></td>
                 <td class="cell-center last-update"><span class="hidden">20151215</span> 2015-12-15</td>
                 <td class="cell-center hidden-xs">14</td>
                 <td class="cell-center hidden-xs">11</td>
               </tr>
-              
             </tbody>
           </table>
         </div>
       </div>
-
+      <div class="row">
+        <div id="bg-list" class="col-lg-12">
+          <h3 id="battlegrounds">Battlegrounds</h3>
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th class="hero-heading"><a class="sort" data-sort="bg">Battleground <i class="fa fa-sort" aria-hidden="true"></i></a></th>
+                <th class="tab-heading cell-center"><a class="sort" data-sort="bg-last-update">Last Updated <i class="fa fa-sort" aria-hidden="true"></i></a></th>
+                <th class="tab-heading cell-center hidden-xs"># of Patch Changes</th>
+                <th class="tab-heading cell-center hidden-xs"># of Battleground Updates</th>
+              </tr>
+            </thead>
+            <tbody class="list">
+              <tr>
+                <td class="bg"><a href="battleground/infernalshrines.html">Infernal Shrines</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160419</span> 2016-04-19</td>
+                <td class="cell-center hidden-xs">5</td>
+                <td class="cell-center hidden-xs">4</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/towersofdoom.html">Towers of Doom</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160419</span> 2016-04-19</td>
+                <td class="cell-center hidden-xs">3</td>
+                <td class="cell-center hidden-xs">3</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/dragonshire.html">Dragon Shire</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160329</span> 2016-03-29</td>
+                <td class="cell-center hidden-xs">13</td>
+                <td class="cell-center hidden-xs">6</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/gardenofterror.html">Garden of Terror</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160329</span> 2016-03-29</td>
+                <td class="cell-center hidden-xs">11</td>
+                <td class="cell-center hidden-xs">7</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/lostcavern.html">Lost Cavern</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160329</span> 2016-03-29</td>
+                <td class="cell-center hidden-xs">1</td>
+                <td class="cell-center hidden-xs">1</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/battlefieldofeternity.html">Battlefield of Eternity</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160202</span> 2016-02-02</td>
+                <td class="cell-center hidden-xs">5</td>
+                <td class="cell-center hidden-xs">3</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/blackheartsbay.html">Blackheart's Bay</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160202</span> 2016-02-02</td>
+                <td class="cell-center hidden-xs">12</td>
+                <td class="cell-center hidden-xs">2</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/cursedhollow.html">Cursed Hollow</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160202</span> 2016-02-02</td>
+                <td class="cell-center hidden-xs">12</td>
+                <td class="cell-center hidden-xs">2</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/hauntedmines.html">Haunted Mines</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160202</span> 2016-02-02</td>
+                <td class="cell-center hidden-xs">14</td>
+                <td class="cell-center hidden-xs">7</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/skytemple.html">Sky Temple</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160202</span> 2016-02-02</td>
+                <td class="cell-center hidden-xs">7</td>
+                <td class="cell-center hidden-xs">4</td>
+              </tr>
+              <tr>
+                <td class="bg"><a href="battleground/tombofthespiderqueen.html">Tomb of the Spider Queen</a></td>
+                <td class="cell-center bg-last-update"><span class="hidden">20160202</span> 2016-02-02</td>
+                <td class="cell-center hidden-xs">5</td>
+                <td class="cell-center hidden-xs">2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </article>
     <footer>
       <div class="container">
@@ -437,8 +469,7 @@
         </div>
       </div>
     </footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script>
@@ -449,13 +480,18 @@
       ga('create', 'UA-76608065-1', 'auto');
       ga('send', 'pageview');
     </script>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
     <script>
       var options = {
         valueNames: [ 'hero', 'last-update' ]
       };
-      var userList = new List('hero-list', options);
-    </script>
+      var heroList = new List('hero-list', options);
 
+      var bgOptions = {
+        valueNames: [ 'bg', 'bg-last-update' ]
+      };
+      var bgList = new List('bg-list', bgOptions);
+    </script>
   </body>
 </html>
