@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Diablo, Melee Warrior, patch note history.  Last relevent patch: 2016-05-17">
         <title>Diablo Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,198 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Block</td>
+                    <td>Every 5 seconds, reduce the damage taken from the next Hero Basic Attack by 75%.  Stores up to 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Soul Feast</td>
+                    <td>Black Soulstone increases your Health Regeneration by 3% per Soul.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Devil's Due</td>
+                    <td>Reduces Black Soulstone's resurrection cost to 60 Souls.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Overwhelming Force</td>
+                    <td>Increases the range and knockback of Shadow Charge by 25%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Demonic Strength</td>
+                    <td>Once Overpower's stun expires, the target is slowed by 25% for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Soul Catcher</td>
+                    <td>Black Soulstone passively generates a Soul every 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Fire Devil</td>
+                    <td>Fire Stomp also surrounds you in flames that deal 17 (+0.04 per level) damage every second for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Essence of the Slain</td>
+                    <td>When enemy Minions and Heroes die near you, gain 26.4687 (+0.04 per level) Health and 10 Mana.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Diabolical Momentum</td>
+                    <td>Basic Attacks reduce your Basic Ability cooldowns by 0.75 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Soul Steal</td>
+                    <td>Increases the amount of Health gained from Black Soulstone by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>From the Shadows</td>
+                    <td>Enemies knocked against unpathable locations are stunned for an additional 0.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Devastating Charge</td>
+                    <td>Shadow Charge reduces the duration of silences, stuns, slows, and roots against you by 50% for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Apocalypse</td>
+                    <td>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+0.04 per level) damage and stunning for 1.75 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Lightning Breath</td>
+                    <td>Become Unstoppable while channeling lightning that deals 800 (+0.32 per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Life Leech</td>
+                    <td>Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal you for the same amount.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Firestorm</td>
+                    <td>Fire Stomp waves return to you, dealing 125% damage.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Spell Shield</td>
+                    <td>Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds.  Can only trigger once every 30 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Siphon the Dead</td>
+                    <td>Activate to heal 15.6% of your maximum Health over 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Rampage</td>
+                    <td>Fire Stomp increases Diablo's Movement Speed by 20% and Basic Attack damage by 50% for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Continuous Overpower</td>
+                    <td>Overpower can store 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Domination</td>
+                    <td>Overpower reduces the cooldown of Shadow Charge by 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Imposing Presence</td>
+                    <td>Heroes and Summons that attack you have their Attack Speed slowed by 40%.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Dying Breath</td>
+                    <td>Apocalypse's cooldown is reduced by 20 seconds and is cast for free when you die.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Hellstorm</td>
+                    <td>Lightning Breath lasts and reaches 50% longer.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Lord of Terror</td>
+                    <td>Activate to steal 10% of the maximum Health of nearby enemy Heroes.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Bolt of the Storm</td>
+                    <td>Activate to teleport to a nearby location.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Shadow Charge</td>
+                    <td>Charge an enemy, knocking them back, dealing 94 (+0.04 per level) damage. If the enemy collides with terrain, they are stunned for 1 second instead.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Fire Stomp</td>
+                    <td>Unleashes fire waves in all directions that deal 106 (+0.04 per level) damage each.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Overpower</td>
+                    <td>Grabs the target and slams it behind Diablo, dealing 73 (+0.04 per level) damage and stunning for 0.25 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Apocalypse</td>
+                    <td>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+0.04 per level) damage and stunning for 1.75 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Lightning Breath</td>
+                    <td>Become Unstoppable while channeling lightning that deals 800 (+0.32 per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Black Soulstone</td>
+                    <td>Gain 10 Souls per Hero killed and 1 Soul per Minion. For each Soul, gain 0.2% maximum Health. If you have 100 Souls upon dying, you resurrect in 5 seconds and lose 100 Souls.  Maximum 100 Souls.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -805,7 +1000,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -822,5 +1017,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

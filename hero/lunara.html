@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Lunara, Ranged Assassin, patch note history.  Last relevent patch: 2016-03-29">
         <title>Lunara Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,198 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Blossom Swell</td>
+                    <td>Increases Noxious Blossom's radius by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Photosynthesis</td>
+                    <td>Crippling Spores returns 8 Mana per enemy hit, up to 40 Mana.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Natural Perspective</td>
+                    <td>Nature's Toxin reveals enemies for its duration.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Cruel Spores</td>
+                    <td>When Crippling Spores hits only Minions or Mercenaries, its cooldown is reduced by 80% and 20 Mana is restored.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Nimble Wisp</td>
+                    <td>Increases Wisp Movement Speed by 100% and vision radius by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Timelost Wisp</td>
+                    <td>Wisp costs no Mana and its cooldown recharges 100% faster while no Wisp is active.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Skybound Wisp</td>
+                    <td>Wisp can see over obstacles and reveals the area for 4 seconds after dying.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Dividing Wisp</td>
+                    <td>The first time you relocate a Wisp it leaves a copy of itself in the previous location. Only one Dividing Wisp can be active at a time.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Siphoning Toxin</td>
+                    <td>As long as you have Nature's Toxin active on an enemy you heal for 18 (+0.04 per level) Health a second.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Wild Vigor</td>
+                    <td>Using Crippling Spores increases the damage of your next 4 Basic Attacks by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Splintered Spear</td>
+                    <td>Using Noxious Blossom causes your next Basic Attack to hit up to 3 enemies. These extra attacks can apply Nature's Toxin.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Nature's Culling</td>
+                    <td>Increases Nature's Toxin's damage by 200% to non-Heroes.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Thornwood Vine</td>
+                    <td>Send forth vines that deal 164 (+0.04 per level) damage to all enemies in a line. Can hold 3 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Leaping Strike</td>
+                    <td>Leap over an enemy, slowing them by 80% for 0.35 seconds and attacking for 246 (+0.04 per level) damage. Has 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Pestering Blossom</td>
+                    <td>Increases Noxious Blossom's range by 40%.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Unfair Advantage</td>
+                    <td>Nature's Toxin deals 50% more damage to Heroes that are slowed.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Giant Killer</td>
+                    <td>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Greater Spell Shield</td>
+                    <td>Upon taking Ability Damage, reduce that damage and further Ability Damage by 75% for 3 seconds.  Can only trigger once every 30 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Choking Pollen</td>
+                    <td>Increases Noxious Blossom damage by 100% against enemies afflicted with Nature's Toxin.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Star Wood Spear</td>
+                    <td>Using Crippling Spores increases your Basic Attack range by 50% for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Invigorating Spores</td>
+                    <td>Using Crippling Spores increases your Attack Speed by 50% for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Let Them Wither</td>
+                    <td>Increases Crippling Spores' slow to 50% and causes it to no longer decay.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Forest's Wrath</td>
+                    <td>Increases Thornwood Vine's range by 30%, its speed by 20%, and your vision radius by 35%.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Boundless Stride</td>
+                    <td>All Leaping Strike charges are returned every 20 seconds. You can also use Leaping Strike on allies.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Galloping Gait</td>
+                    <td>Activate to increase the Movement Speed bonus of Dryad's Swiftness to 80% for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Abolish Magic</td>
+                    <td>Activate to remove all stuns, roots, silences, slows, and damage over time effects from yourself and an ally. For 2 seconds after, the duration of stuns, roots, silences and slows is reduced by 50%.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Noxious Blossom</td>
+                    <td>After 0.5 seconds, cause an area to explode with pollen dealing 160 (+0.04 per level) damage.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Crippling Spores</td>
+                    <td>Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are slowed by 40% decaying over 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Wisp</td>
+                    <td>Spawn a Wisp to scout an area. Can be redirected once active. Lasts 45 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Thornwood Vine</td>
+                    <td>Send forth vines that deal 164 (+0.04 per level) damage to all enemies in a line. Can hold 3 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Leaping Strike</td>
+                    <td>Leap over an enemy, slowing them by 80% for 0.35 seconds and attacking for 246 (+0.04 per level) damage. Has 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Nature's Toxin</td>
+                    <td>Your Basic Attacks and damaging Abilities poison their target, dealing 34 (+0.05 per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -283,7 +478,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -300,5 +495,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

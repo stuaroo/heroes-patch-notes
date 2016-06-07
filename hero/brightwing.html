@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Brightwing, Ranged Support, patch note history.  Last relevent patch: 2016-05-17">
         <title>Brightwing Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,204 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Unfurling Spray</td>
+                    <td>Increases Soothing Mist's range by 33.3%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Hyper Shift</td>
+                    <td>Every time you heal a Hero with Soothing Mist, reduce the cooldown of Phase Shift by 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Bribe</td>
+                    <td>Enemy Minions killed near you grant stacks of Bribe.  Use 20 stacks to bribe a Mercenary, instantly defeating them.  Does not work on Bosses.  Maximum of 50 stacks.
+Current number of Bribe stacks: 0</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Manic Pixie</td>
+                    <td>When Soothing Mist heals an ally with Pixie Dust on them, they heal for an additional 104 (+0.16 per level) over 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Arcane Barrage</td>
+                    <td>Increases the range of Arcane Flare by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Peekaboo!</td>
+                    <td>Phase Shifting to an ally reveals a large area around them and all enemies in it for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Unstable Anomaly</td>
+                    <td>When Polymorph ends, deal 114 (+0.04 per level) damage to the target and all nearby enemies.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Mistified</td>
+                    <td>Reduces the cooldown of Soothing Mist by 1 second every time you cast a Basic Ability.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Phase Shield</td>
+                    <td>After finishing the teleport, the target of your Phase Shift gains a 548 (+0.04 per level) point Shield for 20 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Dream Shot</td>
+                    <td>Reduces the cooldown of Arcane Flare by 1 second for each enemy Hero hit by the outer radius, and 3 seconds for each hit by the inner radius.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Cleanse</td>
+                    <td>Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Blink Heal</td>
+                    <td>Teleport to a nearby ally, healing them for 204 (+0.04 per level).  Can store 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Emerald Wind</td>
+                    <td>Create an expanding nova of wind, dealing 319 (+0.04 per level) damage and pushing enemies away. Also passively increases the healing of Soothing Mist by 8%.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Sticky Flare</td>
+                    <td>Targets are slowed by 40% Movement Speed for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Pixie Boost</td>
+                    <td>Pixie Dust gives 50% bonus Move Speed, decaying to 20% over 1.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Shield Dust</td>
+                    <td>Pixie Dust reduces Ability damage taken by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Ice Block</td>
+                    <td>Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Greater Polymorph</td>
+                    <td>Increases the duration of Polymorph by 0.75 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Bouncy Dust</td>
+                    <td>Pixie Dust bounces to another nearby ally upon impact.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Critterize</td>
+                    <td>Polymorph makes enemies Vulnerable, increasing the damage they take by 25%.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Hardened Focus</td>
+                    <td>While above 80% life, your Basic Ability cooldowns regenerate 50% faster.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Double Wyrmhole</td>
+                    <td>Blink Heal can be cast a second time on a different target within 2 seconds without consuming a charge.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Continuous Winds</td>
+                    <td>Emerald Wind releases two additional novas that deal 25% damage.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Revitalizing Mist</td>
+                    <td>Healing another Hero with Soothing Mist increases their healing received from Soothing Mist by 25% for 6 seconds. Stacks 3 times.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Storm Shield</td>
+                    <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Rewind</td>
+                    <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Arcane Flare</td>
+                    <td>Deal 274 (+0.04 per level) damage in a small area and 91 (+0.04 per level) damage in a larger area.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Polymorph</td>
+                    <td>Target is slowed by 25% Movement Speed, and cannot attack and is Silenced making them unable to use Abilities for 1.25 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Pixie Dust</td>
+                    <td>Increase targets Movement Speed by 20%, and reduces their damage taken from the next 2 Hero Basic Attacks by 75%. Lasts 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Blink Heal</td>
+                    <td>Teleport to a nearby ally, healing them for 204 (+0.04 per level).  Can store 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Emerald Wind</td>
+                    <td>Create an expanding nova of wind, dealing 319 (+0.04 per level) damage and pushing enemies away. Also passively increases the healing of Soothing Mist by 8%.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Soothing Mist</td>
+                    <td>Brightwing heals nearby allied Heroes for 96 (+0.04 per level) every 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>Z</td>
+                    <td>Phase Shift</td>
+                    <td>Instead of mounting, teleport to an allied Hero.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -858,7 +1059,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -875,5 +1076,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Abathur, Melee Specialist, patch note history.  Last relevent patch: 2016-04-12">
         <title>Abathur Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,221 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Pressurized Glands</td>
+                    <td>Increases the range of Symbiote's Spike Burst by 25% and decreases the cooldown by 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Survival Instincts</td>
+                    <td>Increases Locust's Health by 50% and duration by 40%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Regenerative Microbes</td>
+                    <td>Symbiote's Carapace heals the target for 31 (+0.04 per level) Health per second.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Envenomed Nest</td>
+                    <td>Toxic Nests deal 75% (+0.0588% per level) more damage over 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Prolific Dispersal</td>
+                    <td>Reduces the cooldown of Toxic Nest by 2 seconds and adds 2 additional charges.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Ballistospores</td>
+                    <td>Increases Toxic Nest's range to global and increases duration by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Sustained Carapace</td>
+                    <td>Increases the duration of Symbiote's Carapace by 50% and allows it to persist after Symbiote ends.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Adrenal Overload</td>
+                    <td>Symbiote host gains 25% increased Attack Speed.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Needlespine</td>
+                    <td>Increases the damage and range of Symbiote's Stab by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Vile Nest</td>
+                    <td>Toxic Nests slow enemy Movement Speed by 40% for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Networked Carapace</td>
+                    <td>Using Symbiote's Carapace also applies a Shield to all nearby allied Minions and Mercenaries.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Calldown: MULE</td>
+                    <td>Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second.  Grants 1 ammo every  3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Ultimate Evolution</td>
+                    <td>Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Ability Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Evolve Monstrosity</td>
+                    <td>Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.
+Using Symbiote on the Monstrosity allows you to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on your Monstrosity.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Assault Strain</td>
+                    <td>Locust Basic Attacks cleave for 50% (+0.0588% per level) damage, and explode on death for 68 (+0.04 per level) damage.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Bombard Strain</td>
+                    <td>Locust's Basic Attacks become a long-range siege attack that deal 70% (-0.0823% per level) more damage.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Spatial Efficiency</td>
+                    <td>Symbiote's Stab gains 1 additional charge.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Soma Transference</td>
+                    <td>Symbiote's Spike Burst heals the host for 64 (+0.04000000000001 per level) Health per enemy Hero hit.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Envenomed Spikes</td>
+                    <td>Your Symbiote's Spike Burst also slows enemy Movement Speed by 40% for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Adrenaline Boost</td>
+                    <td>Symbiote's Carapace increases the Movement Speed of the target by 40% for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Locust Brood</td>
+                    <td>Activate to spawn 3 Locusts at a nearby location.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Volatile Mutation</td>
+                    <td>Ultimate Evolution clones and Monstrosities deal 114 (+0.04 per level) damage to nearby enemies every 3 seconds and when they die.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Evolutionary Link</td>
+                    <td>As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to 20% of their maximum Health.  Refreshes every 5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Evolution Complete</td>
+                    <td>Monstrosity gains the ability to Deep Tunnel to any visible location once every 30 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Hivemind</td>
+                    <td>Symbiote creates an additional Symbiote on a nearby allied Hero.  This Symbiote mimics the commands of the first, but does half damage and shielding.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Locust Nest</td>
+                    <td>Activate to create a nest that periodically spawns Locusts. Only one Locust Nest can be active at a time.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Symbiote</td>
+                    <td>Assist another allied Unit or Combat Structure, allowing you to shield them and use new Abilities.
+Cannot be used on another Hero's Summons.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Toxic Nest</td>
+                    <td>Spawn a mine that becomes active after a short time. Deals 153 (+0.04 per level) damage and reveals the enemy for 4 seconds. Lasts 90 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Evolve Monstrosity</td>
+                    <td>Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.
+Using Symbiote on the Monstrosity allows you to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on your Monstrosity.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Ultimate Evolution</td>
+                    <td>Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Ability Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Locust Strain</td>
+                    <td>Spawns a Locust to attack down the nearest lane every 15 seconds. Locusts last for 25 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>Z</td>
+                    <td>Deep Tunnel</td>
+                    <td>Quickly tunnel to a visible location</td>
+                  </tr>
+                  <tr>
+                    <td>Q</td>
+                    <td>Stab</td>
+                    <td>Shoots a spike towards target area that deals 113 (+0.04 per level) damage to the first enemy it contacts.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Spike Burst</td>
+                    <td>Deals 111 (+0.04 per level) damage to nearby enemies.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Carapace</td>
+                    <td>Shields the assisted ally for 150 (+0.04 per level). Lasts for 8 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Cancel Symbiote</td>
+                    <td>Cancels the Symbiote ability. Releases your ally and returns to controlling Abathur.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -734,7 +952,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -751,5 +969,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

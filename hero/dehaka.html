@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Dehaka, Melee Warrior, patch note history.  Last relevent patch: 2016-03-29">
         <title>Dehaka Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -133,6 +136,189 @@
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
           </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Enduring Swarm</td>
+                    <td>Dark Swarm reduces the damage of the next two Abilities made against you by 25%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Primal Aggression</td>
+                    <td>Dark Swarm deals 100% bonus damage to Minions and Mercenaries.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Enhanced Agility</td>
+                    <td>Quest: Each time you collect 50 Essence, permanently increase your Movement Speed by 1.5%, up to 15%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Tissue Regeneration</td>
+                    <td>Quest: Each time you collect 50 Essence, permanently increase your Health Regeneration by 5, up to 50.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Lurker Strain</td>
+                    <td>Burrow grants Stealth for 5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Numbing Eruption</td>
+                    <td>Emerging from Burrow knocks nearby enemies back and slows them by 30% for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>One-Who-Collects</td>
+                    <td>Increases Essence collected from Minions by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Hero Stalker</td>
+                    <td>Increases Essence gained from Takedowns by 150%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Feeding Frenzy</td>
+                    <td>Basic Attacks reduce Drag's cooldown by 1.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Constriction</td>
+                    <td>Increases Drag duration by 0.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Symbiosis</td>
+                    <td>Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Essence Devourer</td>
+                    <td>Gathering Regeneration Globes grant 10 Essence.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Isolation</td>
+                    <td>Launch biomass that hits the first enemy Hero dealing 200 (+0.04 per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Adaptation</td>
+                    <td>After 5 seconds, heal for 60% of the damage you took over this period.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Swift Pursuit</td>
+                    <td>Increases your Movement Speed by 20% while in a bush and 2 seconds after leaving.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Ferocious Stalker</td>
+                    <td>Brushstalker increases your Movement Speed by 60% decaying over 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Whirling Dervish</td>
+                    <td>Reduces the duration of silences, stuns, slows, and roots against your Hero while Dark Swarm is active by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Paralyzing Enzymes</td>
+                    <td>Drag slows enemies by 50% for 2 seconds after it ends.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Elongated Tongue</td>
+                    <td>Increase Drag range by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Rapid Regeneration</td>
+                    <td>Burrow heals you for 304 (+0.16 per level) Health over 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Contagion</td>
+                    <td>Isolation hits all Heroes near the first target.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Change Is Survival</td>
+                    <td>Increases Adaptation healing to 125% of the damage received.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Apex Predator</td>
+                    <td>Reduces Brushstalker's cooldown by 30 seconds and the cast time by 0.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Hardened Shield</td>
+                    <td>Activate to reduce damage taken by 75% for 4 seconds.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Drag</td>
+                    <td>Lash out with your tongue, dealing 160 (+0.04 per level) damage to the first enemy hit, stunning and dragging them with you for 1.75 seconds.
+If you are stunned or silenced while using Drag, the effect ends.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Dark Swarm</td>
+                    <td>Deal 60 (+0.04 per level) damage a second to nearby enemies for 3 seconds, and become able to move through units.  Deals double damage to Heroes.  Can be cast during Drag and Burrow.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Burrow</td>
+                    <td>Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Isolation</td>
+                    <td>Launch biomass that hits the first enemy Hero dealing 200 (+0.04 per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Adaptation</td>
+                    <td>After 5 seconds, heal for 60% of the damage you took over this period.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Essence Collection</td>
+                    <td>Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying.  Activate to consume all Essence and heal yourself for 29 (+0.04 per level) Health over 5 seconds for each Essence stored.  Maximum of 50 Essence.  Can be cast during Drag and Burrow.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -165,7 +351,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -182,5 +368,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

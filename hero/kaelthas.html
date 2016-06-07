@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Kael'thas, Ranged Assassin, patch note history.  Last relevent patch: 2016-05-17">
         <title>Kael'thas Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,178 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Convection</td>
+                    <td>Quest: Every time Flamestrike damages an enemy Hero increase its damage by 5, up to 100. Lose all damage bonuses if you die.
+Reward: After gaining 100 Flamestrike damage, increase Flamestrike damage by an additional 75 and no longer lose any bonuses if you die.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Fel Infusion</td>
+                    <td>Increases your Ability Power by 4%. Heal for 94 (+0.04 per level) Health when you activate Verdant Spheres.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Mana Addict</td>
+                    <td>Quest: Gathering a Regeneration Globe increases your maximum Mana by 15.
+Reward: After gathering 20 Globes, you can also activate Arcane Barrier to gain a Shield equal to 100% of your maximum Mana for 4 seconds. 45 second cooldown.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Nether Wind</td>
+                    <td>Increases Gravity Lapse's range by 30%. When Gravity Lapse hits an enemy Hero, refund 80 Mana.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Energy Roil</td>
+                    <td>When Gravity Lapse hits a Hero, reduce its cooldown by 7 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Mana Tap</td>
+                    <td>Activating Verdant Spheres restores 3.9% of your maximum Mana.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Burned Flesh</td>
+                    <td>When Flamestrike damages 2 or more Heroes, they take additional damage equal to 8% of their maximum Health.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Gravity Crush</td>
+                    <td>Gravity Lapse causes enemies to take 30% additional damage from Kael'thas for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Sunfire Enchantment</td>
+                    <td>Activating Verdant Spheres causes your next Basic Attack to instead shoot a spell dealing 183 (+0.04 per level) damage.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Phoenix</td>
+                    <td>Launch a Phoenix to an area, dealing 78 (+0.04 per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+0.04 per level) damage and splashing for 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Pyroblast</td>
+                    <td>After 2 seconds, cast a slow-moving fireball that deals 810 (+0.05 per level) damage to an enemy Hero and 405 (+0.05 per level) damage to enemies nearby.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Pyromaniac</td>
+                    <td>Each time Living Bomb deals periodic damage, your Basic Ability cooldowns are reduced by 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Backdraft</td>
+                    <td>Living Bomb's explosion slows enemy Movement Speed by 30% for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Fission Bomb</td>
+                    <td>Increases Living Bomb's explosion radius by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Fury of the Sunwell</td>
+                    <td>Flamestrike will explode a second time 1.5 seconds later.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Sun King's Fury</td>
+                    <td>Your Basic Attacks do 137 (+0.04 per level) bonus damage to enemies affected by Living Bomb.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Twin Spheres</td>
+                    <td>Verdant Spheres gains a second charge.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Rebirth</td>
+                    <td>Increases Phoenix duration by 100%. You may order the Phoenix to move to a different location once while the Phoenix is alive.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Presence Of Mind</td>
+                    <td>Increases Pyroblast's explosion radius by 50% and reduces its cooldown by 25 seconds per enemy Hero hit.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Master of Flames</td>
+                    <td>Living Bomb's spread from explosions can now also spread Living Bomb.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Arcane Power</td>
+                    <td>Activate to instantly restore 400 Mana and increase Ability Power by 15% for 10 seconds.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Flamestrike</td>
+                    <td>After 1 second, deal 320 (+0.04 per level) damage in an area. 
+Verdant Spheres increases the radius by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Living Bomb</td>
+                    <td>Deal 252 (+0.12 per level) damage over 3 seconds to an enemy, then they explode dealing 138 (+0.04 per level) damage to all nearby enemies.  Other Heroes damaged by this explosion are also affected by Living Bomb, though the secondary explosions cannot spread.
+Verdant Spheres makes this Ability cost no Mana and have no cooldown.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Gravity Lapse</td>
+                    <td>Stun the first enemy hit for 1 second. 
+Verdant Spheres causes Gravity Lapse to stun the first 3 enemies hit and increases the stun duration by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Pyroblast</td>
+                    <td>After 2 seconds, cast a slow-moving fireball that deals 810 (+0.05 per level) damage to an enemy Hero and 405 (+0.05 per level) damage to enemies nearby.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Phoenix</td>
+                    <td>Launch a Phoenix to an area, dealing 78 (+0.04 per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+0.04 per level) damage and splashing for 50%.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Verdant Spheres</td>
+                    <td>Activate to make your next Basic Ability more powerful.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -766,7 +941,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -783,5 +958,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

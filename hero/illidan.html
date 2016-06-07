@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Illidan, Melee Assassin, patch note history.  Last relevent patch: 2016-04-12">
         <title>Illidan Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,174 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Immolation</td>
+                    <td>After using Sweeping Strike, burn nearby enemies for 22 (+0.04 per level) damage a second for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Battered Assault</td>
+                    <td>If you hit 2 or more Heroes with Sweeping Strike, increase its damage bonus from 35% to 125%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Unending Hatred</td>
+                    <td>Quest: Every Minion you kill gives you 0.1 Attack Damage. Every Takedown gives 1 Attack Damage.
+Reward: Once you reach 20 Attack Damage, receive an additional 10 Attack damage.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Rapid Chase</td>
+                    <td>Dive grants 15% Movement Speed for 2.1875 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Friend or Foe</td>
+                    <td>Increases the range of Dive by 20% and allows it to be used on allied Heroes without damaging them.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Unbound</td>
+                    <td>Allows Sweeping Strike to go over walls and terrain. If Sweeping Strike doesn't hit any Heroes, the cooldown is reduced by 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Reflexive Block</td>
+                    <td>Dive reduces the damage taken from the next 2 Hero Basic Attacks by 75%. Lasts 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Thirsting Blade</td>
+                    <td>Betrayer's Thirst's healing from Basic Attacks is increased from 30% to 50% while Sweeping Strike's damage bonus is active.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Hunter's Onslaught</td>
+                    <td>Basic Abilities heal for 25% of the damage they deal. Double this bonus versus Heroes.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Metamorphosis</td>
+                    <td>Transform into Demon Form at the target location, dealing 46 (+0.04 per level) damage in the area. Temporarily increase your maximum Health by 200 (+0.04 per level) for each Hero hit. Lasts for 18 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>The Hunt</td>
+                    <td>Charge to target unit, dealing 251 (+0.04 per level) damage on impact and stunning for 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Nimble Defender</td>
+                    <td>If Sweeping Strikes hits an enemy Hero you gain Resistant for 2 seconds, reducing damage taken by 25%.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Elusive Strike</td>
+                    <td>Sweeping Strike reduces the cooldown of Evasion by 3 seconds every time it damages an enemy Hero.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Sixth Sense</td>
+                    <td>Evasion reduces the damage you take from the next 2 Abilities by 75% while it's active.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Marked for Death</td>
+                    <td>Dive deals an extra 225 damage if you hit a target consecutively within 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Fiery Brand</td>
+                    <td>Every 4th attack against the same Hero deals an additional 6% of their maximum Health as damage.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Blades of Azzinoth</td>
+                    <td>Hitting 5 Heroes with Sweeping Strike allows you to activate Blades of Azzinoth to increase your Basic Attack damage by 75% for 8 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Demonic Form</td>
+                    <td>Permanently remain in Demonic Form. Metamorphosis also increases your Attack Speed by 20% and reduces the duration of disabling effects against you by 50%. You can now mount in Demonic Form.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Nowhere to Hide</td>
+                    <td>The Hunt gains unlimited range. You passively reveal enemy Heroes below 25% Health anywhere on the Battleground.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Nexus Blades</td>
+                    <td>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Bolt of the Storm</td>
+                    <td>Activate to teleport to a nearby location.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Dive</td>
+                    <td>Dive at the target, dealing 66 (+0.04 per level) damage and flipping to the other side of the target.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Sweeping Strike</td>
+                    <td>Dash towards target point, dealing 119 (+0.04 per level) damage to enemies along the way. Hitting an enemy increases your Basic Attack damage by 35% for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Evasion</td>
+                    <td>Evade enemy Basic Attacks for 2.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>The Hunt</td>
+                    <td>Charge to target unit, dealing 251 (+0.04 per level) damage on impact and stunning for 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Metamorphosis</td>
+                    <td>Transform into Demon Form at the target location, dealing 46 (+0.04 per level) damage in the area. Temporarily increase your maximum Health by 200 (+0.04 per level) for each Hero hit. Lasts for 18 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Betrayer's Thirst</td>
+                    <td>Basic Attacks heal for 30% of damage dealt and reduce your Ability cooldowns by 1 second.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -952,13 +1123,6 @@
 <li>Damage bonus decreased from 50% to 40%</li>
 </ul>
 
-              <p><strong>Follow Through (Level 7)</strong></p>
-
-<ul>
-<li>After using an ability, the next basic attack deals 25% more damage.</li>
-<li>Currently only available on Nova</li>
-</ul>
-
             </div>
           </div>
           <hr>
@@ -976,7 +1140,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -993,5 +1157,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Xul, Melee Specialist, patch note history.  Last relevent patch: 2016-05-17">
         <title>Xul Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,178 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Backlash</td>
+                    <td>When Bone Armor expires, nearby enemy Heroes take damage equal to 15% of their maximum Health.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Shackler</td>
+                    <td>While Bone Armor is active, you slow nearby enemies by 30% for 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Shade</td>
+                    <td>While Bone Armor is active, you evade all Basic Attacks, but increases the cooldown of Bone Armor by 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Death's Reach</td>
+                    <td>Increases Spectral Scythe range by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Jailors</td>
+                    <td>Bone Prison spawns 2 Skeletal Warriors that fixate on the enemy for 15 seconds. These do not count towards your Raise Skeleton maximum.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Trag'Oul's Essence</td>
+                    <td>Gain 8 Mana when you raise a Skeletal Warrior.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Harvest Vitality</td>
+                    <td>Cursed Strikes heals you for 66 (+0.04 per level) for each Hero hit.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Weaken</td>
+                    <td>Increases Cursed Strikes Attack Speed slow from 40% to 75%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Rathma's Blessing</td>
+                    <td>Raising a Skeletal Warrior heals you for 66 (+0.04 per level).</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Poison Nova</td>
+                    <td>After a short delay, release poisonous missiles that deal 570 (+0.4 per level) damage to all enemies hit over 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Skeletal Mages</td>
+                    <td>Summons 4 Frost Mages in a line that attack nearby enemies for 46.875 (+0.04 per level) damage a second and slow them by 30% for 2 seconds. Last up to 15 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Decrepify</td>
+                    <td>Spectral Scythe slows enemies by 40% for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Giant's Curse</td>
+                    <td>Cursed Strikes deals an additional 2% of maximum Health as damage to Heroes.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Corpse Explosion</td>
+                    <td>When Skeletal Warriors die they explode for 55 (+0.04 per level) damage in a small area. Deals 100% increased damage to non-Heroic enemies.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Executioner</td>
+                    <td>After hitting a slowed, rooted, or stunned target with a Basic Attack, increase your Basic Attack damage by 30% for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Flowing Wounds</td>
+                    <td>Reduces Spectral Scythe's cooldown by 4 seconds if you hit an enemy Hero.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Amplify Damage</td>
+                    <td>Enemies rooted by Bone Prison become Vulnerable for 1.75 seconds, taking 25% increased damage.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Skeleton Mastery</td>
+                    <td>Increases the maximum Skeletal Warriors you can have to 6 and increases their damage by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Call of the Grave</td>
+                    <td>Poison Nova deals an additional 1% of the target's maximum life as damage every second.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Raised Mage</td>
+                    <td>When a nearby enemy Hero dies, a Frost Mage appears from their corpse to fight for you.  Also increases the slow of Frost Mages from 30% to 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Mortal Wound</td>
+                    <td>Enemies hit by Spectral Scythe receive 75% less healing for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Bone Spear</td>
+                    <td>Deal 260 (+0.04 per level) damage to enemies in a line.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Spectral Scythe</td>
+                    <td>Summon a scythe that travels to you after 1 second, dealing 240 (+0.04 per level) damage to enemies.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Cursed Strikes</td>
+                    <td>Your Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Bone Prison</td>
+                    <td>After a 2 second delay, deals 80 (+0.04 per level) damage and roots the target enemy Hero for 1.75 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Skeletal Mages</td>
+                    <td>Summons 4 Frost Mages in a line that attack nearby enemies for 46.875 (+0.04 per level) damage a second and slow them by 30% for 2 seconds. Last up to 15 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Poison Nova</td>
+                    <td>After a short delay, release poisonous missiles that deal 570 (+0.4 per level) damage to all enemies hit over 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Raise Skeleton</td>
+                    <td>When a nearby enemy Minion dies, it becomes a Skeletal Warrior that attacks for 30 (+0.04 per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -272,7 +447,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -289,5 +464,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

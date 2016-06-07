@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Raynor, Ranged Assassin, patch note history.  Last relevent patch: 2016-05-17">
         <title>Raynor Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,195 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Give Me More!</td>
+                    <td>Increases Adrenaline Rush healing by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Seasoned Marksman</td>
+                    <td>Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage, to a max of 40 damage.
+Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 30% for 3 seconds. 60 second cooldown.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Raiders' "Recruitment"</td>
+                    <td>Enemy Minions or captured Mercenaries killed near your Hero grant you stacks of Recruitment.  Use 15 stacks to "recruit" a Mercenary, instantly defeating them. Does not work on Bosses.  Maximum 50 stacks.
+Current number of Recruitment stacks: 0</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Scouting Drone</td>
+                    <td>Places a Scouting Drone at target location, granting vision of a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks.  Stores up to 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Focused Attack</td>
+                    <td>Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Vigorous Assault</td>
+                    <td>Basic Attacks heal for 15% of the damage dealt to the primary target.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Confident Aim</td>
+                    <td>Lowers the cooldown of Penetrating Round by 4 seconds if it hits an enemy Hero.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Hamstring Shot</td>
+                    <td>Enemies hit by Penetrating Round have a 20% Movement Speed slow for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Revolution Overdrive</td>
+                    <td>Gain 10% Movement Speed while affected by Inspire.  Increase this bonus by 5% for each allied Hero nearby when Inspire is cast.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Fight or Flight</td>
+                    <td>Whenever Adrenaline Rush activates it also grants Resistant, reducing damage taken by 25% for 4 seconds.  Adrenaline Rush can also be manually activated.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Puttin' On a Clinic</td>
+                    <td>Whenever an enemy Minion you have recently damaged is destroyed, your Ability cooldowns are reduced by 1.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Hyperion</td>
+                    <td>Order the Hyperion to make a strafing run dealing 66 (+0.04 per level) damage a second, hitting up to 4 enemies. Also occasionally fires its Yamato Cannon on Structures for 794 (+0.04 per level) damage. Lasts 12 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Raynor's Raiders</td>
+                    <td>Summon two Stealthed Banshees that attack an enemy. Each Banshee deals 43.2 (+0.064 per level) damage a second and lasts 22 seconds. Can reactivate the Ability to retarget the Banshees.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Giant Killer</td>
+                    <td>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Double-Barreled</td>
+                    <td>Penetrating Round gains a second charge.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Steel Resolve</td>
+                    <td>Increases Inspire's duration by 50% and causes Adrenaline Rush to also apply Inspire.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Relentless Leader</td>
+                    <td>Reduces the duration of silences, stuns, slows, and roots against you by 50%. Once every 5 seconds, if you are stunned you knock nearby enemies away.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Executioner</td>
+                    <td>Attacking an enemy that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Cluster Round</td>
+                    <td>Penetrating Round damage is increased by 20% (-0.0033% per level) for each additional target hit up to 100%, and the width is increased by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Bullseye</td>
+                    <td>The first enemy hit by Penetrating Round is stunned for 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Scorched Earth</td>
+                    <td>An additional set of lasers blast the ground 5 times per second, dealing 40 (+0.04 per level) damage in an area.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Dusk Wings</td>
+                    <td>Banshees remain Stealthed while attacking and fire 50% more frequently.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>A Card to Play</td>
+                    <td>Whenever a Hero (ally or enemy) is killed, the cooldown of your Heroic Ability is reduced by 15 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Nexus Frenzy</td>
+                    <td>Increases Attack Speed by 20% and Attack Range by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Bolt of the Storm</td>
+                    <td>Activate to teleport to a nearby location.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Penetrating Round</td>
+                    <td>Deals 240 (+0.04 per level) damage and knocks enemies back.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Inspire</td>
+                    <td>Gain 30% bonus Attack Speed for 6 seconds. Nearby allies gain half of the bonus.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Adrenaline Rush</td>
+                    <td>Automatically activates to heal for 440 (+0.16 per level) when you are below 30% Health.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Hyperion</td>
+                    <td>Order the Hyperion to make a strafing run dealing 66 (+0.04 per level) damage a second, hitting up to 4 enemies. Also occasionally fires its Yamato Cannon on Structures for 794 (+0.04 per level) damage. Lasts 12 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Raynor's Raiders</td>
+                    <td>Summon two Stealthed Banshees that attack an enemy. Each Banshee deals 43.2 (+0.064 per level) damage a second and lasts 22 seconds. Can reactivate the Ability to retarget the Banshees.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Advanced Optics</td>
+                    <td>Basic Attack range is 20% further than other ranged Heroes, and you see 10% further than other Heroes.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -815,7 +1007,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -832,5 +1024,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

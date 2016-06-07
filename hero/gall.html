@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Gall, Ranged Assassin, patch note history.  Last relevent patch: 2016-03-29">
         <title>Gall Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,173 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Spurred Onward</td>
+                    <td>Increase the initial speed boost of Hurry Up, Oaf! to 70%. Hurry Up, Oaf! cooldown reduced by 2 seconds when hitting an enemy Hero with an Ability.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Shove</td>
+                    <td>Nudge Cho a small distance in the direction you choose.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Eye of Kilrogg</td>
+                    <td>Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Bomb's Away</td>
+                    <td>Increases Cho's Rune Bomb range by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Runic Persistence</td>
+                    <td>Using Runic Blast no longer destroys Rune Bomb.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Double Back</td>
+                    <td>Dread Orb's third bounce instead bounces backwards.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Edge of Madness</td>
+                    <td>Increases Shadowflame damage by 20% to nearby targets, and 10% to mid-range targets. Distant targets take normal damage.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Double Trouble</td>
+                    <td>If Shadowflame hits an enemy Hero afflicted with Cho's Consuming Blaze, its cooldown is reduced by 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Dark Descent</td>
+                    <td>Increases Runic Blast's damage by 5% everytime you get a Hero takedown, up to 20%. These bonuses are lost upon dying.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Shadow Bolt Volley</td>
+                    <td>After 1 second, unleash 19.375 Shadow Bolts over 3.875 seconds, each dealing 103 (+0.04 per level) damage to the first target hit. The bolts fire towards your mouse.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Twisting Nether</td>
+                    <td>After 1 second, nearby enemies are slowed by 50% while you channel, up to 5 seconds. Activate to deal 415 (+0.05 per level) damage.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Rising Dread</td>
+                    <td>Dread Orb does 25% more damage on the second bounce and 75% more damage the third bounce.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Speed of Twilight</td>
+                    <td>When Dread Orb hits an enemy Hero, gain 20% Movement Speed for 5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Dread Shield</td>
+                    <td>When Dread Orb hits an enemy Hero, gain a Shield absorbing 256 (+0.04 per level) damage for 5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Twilight Nova</td>
+                    <td>After the first bounce, 2 extra bombs bounce to the sides once.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Giant Scorcher</td>
+                    <td>Shadowflame also does 3% of a Hero's maximum Health.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Shadowflare</td>
+                    <td>Increases Shadowflame's width by 50%. Enemies hit are slowed by 25% for 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Shadowfury</td>
+                    <td>Shadow Bolt Volley hits all enemies in its path.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>The Nether Calls</td>
+                    <td>Increases Twisting Nether's slow by 10% and damage by 10% for every second channeled, to a maximum of 40% increase.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Psychotic Break</td>
+                    <td>Increases your Ability Damage by 5%. Upon dying, the cooldown on your Heroic Ability is reset and you can continue to use Abilities for 10 seconds.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Shadowflame</td>
+                    <td>Deal 147 (+0.05 per level) damage to enemies in the area.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Dread Orb</td>
+                    <td>Throw a bomb that will bounce three times, dealing 148 (+0.05 per level) damage to enemies.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Runic Blast</td>
+                    <td>Detonate Cho's Rune Bomb, dealing 274 (+0.04 per level) damage around it.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Twisting Nether</td>
+                    <td>After 1 second, nearby enemies are slowed by 50% while you channel, up to 5 seconds. Activate to deal 415 (+0.05 per level) damage.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Shadow Bolt Volley</td>
+                    <td>After 1 second, unleash 19.375 Shadow Bolts over 3.875 seconds, each dealing 103 (+0.04 per level) damage to the first target hit. The bolts fire towards your mouse.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Two-Headed</td>
+                    <td>Permanently attached to Cho, going where he goes. You are immune to Stun and Silence effects.</td>
+                  </tr>
+                  <tr>
+                    <td>Z</td>
+                    <td>Hurry Up, Oaf!</td>
+                    <td>Increases your Movement Speed by 59.52%. This effect decays over 3 seconds.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -243,7 +413,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -260,5 +430,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Tassadar, Ranged Support, patch note history.  Last relevent patch: 2016-05-17">
         <title>Tassadar Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,199 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Conjurer's Pursuit</td>
+                    <td>Quest: Gathering Regeneration Globes increases your Mana Regeneration by 0.1015 per second, up to 2.5375 per second. 
+Reward: After gathering 25 Globes, also increase your maximum Mana by 100.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Overload</td>
+                    <td>Increases Psionic Storm's range by 33%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Psi-Infusion</td>
+                    <td>Psionic Storm returns 5 Mana for each target initially hit.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Reinforce Structure</td>
+                    <td>Plasma Shield is 100% stronger and lasts 100% longer when cast on Structures.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Leeching Plasma</td>
+                    <td>While Plasma Shield is active, 30% of the target's Basic Attack damage against the primary target is returned as Health.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Mental Acuity</td>
+                    <td>Reduces the cooldown of Oracle by 20 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Healing Ward</td>
+                    <td>Activate to place a ward on the ground that heals allies in an area for 1.95% of their maximum Health every second for 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Promote</td>
+                    <td>Activate to cause an allied lane Minion to take 75% reduced damage from non-Heroic targets and deal 100% bonus damage to non-Heroic targets for 30 seconds. Has 2 charges.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Khala's Embrace</td>
+                    <td>If Plasma Shield expires, 50% of the Shield remains indefinitely. This effect does not stack.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Deep Shift</td>
+                    <td>Dimensional Shift duration increased by 1.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Static Charge</td>
+                    <td>Enemies damaged by Psionic Storm are marked with Static Charge. Your Basic Attacks consume the Static Charge to deal 52 (+0.04 per level) damage.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Calldown: MULE</td>
+                    <td>Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second.  Grants 1 ammo every  3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Archon</td>
+                    <td>Transform into an Archon, gaining a 456 (+0.04 per level) point Shield, causing Basic Attacks to deal 111 (+0.04 per level) damage and splash for 55 (+0.04 per level) additional damage. Lasts for 12.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Force Wall</td>
+                    <td>Create a wall that blocks all units from moving through it for 2.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Distortion Beam</td>
+                    <td>Basic Attacks slow enemies by 20% for 1.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Prescience</td>
+                    <td>Dimensional Shift will automatically activate when you fall below 15% Health. This effect has a separate 45 second cooldown.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Scryer</td>
+                    <td>Oracle duration increased by 3 seconds and grants 20% increased Movement Speed.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Shrink Ray</td>
+                    <td>Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Evasive Shielding</td>
+                    <td>The target of your Plasma Shield also gains 25% Movement Speed for 5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Dimensional Warp</td>
+                    <td>While Dimensional Shifted, gain 50% Movement Speed and heal for 384 (+0.08 per level) Health.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Resonation</td>
+                    <td>Psionic Storm targets are slowed by 25% for 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Second Strike</td>
+                    <td>After casting Psionic Storm, you may cast Psionic Storm again for free within 3 seconds. The damage does not stack.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Twilight Archon</td>
+                    <td>Increases Archon's initial Shield and Attack Damage by 50%, and increases Basic Attack range in Archon form by 35%.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Force Barrier</td>
+                    <td>Force Wall range increased by 50% and duration by 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Storm Shield</td>
+                    <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Rewind</td>
+                    <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Plasma Shield</td>
+                    <td>Grant a Shield that absorbs 342 (+0.04 per level) damage over 5 seconds. The Shield is 50% stronger when cast on another allied Hero.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Psionic Storm</td>
+                    <td>Deal 110 (+0.08 per level) damage per second to enemies in target area for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Dimensional Shift</td>
+                    <td>Become invulnerable and fully invisible for 1.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Archon</td>
+                    <td>Transform into an Archon, gaining a 456 (+0.04 per level) point Shield, causing Basic Attacks to deal 111 (+0.04 per level) damage and splash for 55 (+0.04 per level) additional damage. Lasts for 12.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Force Wall</td>
+                    <td>Create a wall that blocks all units from moving through it for 2.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Oracle</td>
+                    <td>Greatly increases your vision radius and allows you to detect enemy Heroes. Lasts for 5 seconds.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -724,7 +920,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -741,5 +937,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

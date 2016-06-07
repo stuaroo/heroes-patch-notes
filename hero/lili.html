@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Li Li, Ranged Support, patch note history.  Last relevent patch: 2016-05-17">
         <title>Li Li Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,204 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Conjurer's Pursuit</td>
+                    <td>Quest: Gathering Regeneration Globes increases your Mana Regeneration by 0.1015 per second, up to 2.5375 per second. 
+Reward: After gathering 25 Globes, also increase your maximum Mana by 100.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Pro Toss</td>
+                    <td>Increases the range of Healing Brew by 30%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Timeless Creature</td>
+                    <td>Increases the duration of Cloud Serpent by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Gale Force</td>
+                    <td>Increases Blinding Wind damage by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Healing Ward</td>
+                    <td>Activate to place a ward on the ground that heals allies in an area for 1.95% of their maximum Health every second for 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Mending Serpent</td>
+                    <td>Cloud Serpent heals the friendly unit for 22 (+0.04 per level) Health each time it attacks.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Mass Vortex</td>
+                    <td>Increases the number of enemies hit by Blinding Wind from 2 to 4.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Lingering Blind</td>
+                    <td>Increases the duration of Blinding Wind by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Pitch Perfect</td>
+                    <td>After casting Healing Brew, its cost is reduced by 10 Mana for 6 seconds.  This effect does not stack.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>The Good Stuff</td>
+                    <td>Healing Brew heals for an additional 60 (+0.24 per level) Health over 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Lightning Serpent</td>
+                    <td>Cloud Serpent's attacks bounce to 3 nearby enemy targets, dealing 15 (+0.04 per level) damage each.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Cleanse</td>
+                    <td>Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Jug of 1,000 Cups</td>
+                    <td>Rapidly tosses brew to the most injured nearby allies, prioritizing Heroes, restoring a total of 1632 (+0.96 per level) Health over 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Water Dragon</td>
+                    <td>Summon a Water Dragon that after a delay hits the nearest enemy Hero and all enemies near them, dealing 318 (+0.04 per level) damage and slowing their Movement Speed by 70% for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Elusive Feet</td>
+                    <td>When Fast Feet is triggered, the damage of the next 2 Basic Attacks from enemy Heroes is reduced by 75% for 10 seconds. Can only trigger once every 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Hindering Winds</td>
+                    <td>Blinding Wind also slows enemy Movement Speed by 25% for 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Surging Winds</td>
+                    <td>Gain 5% Ability Power for 8 seconds for every enemy hit by Blinding Wind. Additional enemies hit refresh the duration of this buff and further increase Ability Power. Stacks up to 4 times.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Shrink Ray</td>
+                    <td>Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Shake It Off</td>
+                    <td>Reduces the duration of the next Stun or Root against you by 75%. Can only trigger once every 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Safety Sprint</td>
+                    <td>Increases Fast Feet's Movement Speed bonus from 10% to 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Two For One</td>
+                    <td>Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Serpent Sidekick</td>
+                    <td>You also gain a Cloud Serpent whenever you cast it on another ally.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Jug of 1,000,000 Cups</td>
+                    <td>Jug of 1,000 Cups hits two targets at a time.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Double Dragon</td>
+                    <td>After hitting a target with Water Dragon, another dragon is summoned at the point of impact.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Kung Fu Hustle</td>
+                    <td>Ability cooldowns refresh 150% faster while Fast Feet is active.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Storm Shield</td>
+                    <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Bolt of the Storm</td>
+                    <td>Activate to teleport to a nearby location.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Healing Brew</td>
+                    <td>Heal lowest Health ally (prioritizing Heroes) for 196 (+0.04 per level) Health.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Cloud Serpent</td>
+                    <td>Summon a Cloud Serpent on an allied Hero that attacks nearby enemies for 29 (+0.04 per level) damage per attack. Lasts for 8 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Blinding Wind</td>
+                    <td>Throw a cloud of Blinding Wind at the 2 nearest enemies (prioritizing Heroes), dealing 132 (+0.04 per level) damage. Affected targets miss all Basic Attacks for the next 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Jug of 1,000 Cups</td>
+                    <td>Rapidly tosses brew to the most injured nearby allies, prioritizing Heroes, restoring a total of 1632 (+0.96 per level) Health over 6 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Water Dragon</td>
+                    <td>Summon a Water Dragon that after a delay hits the nearest enemy Hero and all enemies near them, dealing 318 (+0.04 per level) damage and slowing their Movement Speed by 70% for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Fast Feet</td>
+                    <td>Upon taking damage, gain 10% Movement Speed for 1 second.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -688,7 +889,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -705,5 +906,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>

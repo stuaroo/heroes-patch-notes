@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="Greymane, Ranged Assassin, patch note history.  Last relevent patch: 2016-05-17">
         <title>Greymane Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -20,7 +22,6 @@
       blockquote > p:not(:last-child) { margin-bottom: 10px; }
       .scrollable-menu { height: auto; max-height: 275px; overflow-x: hidden; }
       table { border-collapse: collapse !important; }
-      table td, table th { background-color: #fff !important; }
       table { width: 100%; max-width: 100%; margin-bottom: 21px; }
       table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
         padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
@@ -50,6 +51,8 @@
         border-bottom-right-radius: 3px; }
       .panel > .panel-body + table, .panel > table + .panel-body{ border-top: 1px solid #ecf0f1; }
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
+      ul.nav-tabs { display: inline-block; vertical-align: bottom; }
+      div.tab-content { font-size: 14px; }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@
     <article class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="btn-group">
+          <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
@@ -132,6 +135,214 @@
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zeratul.html">Zeratul</a></li>
             </ul>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class=""><a href="#talents" data-toggle="tab" aria-expanded="false">Talents <i class="fa fa-table" aria-hidden="true"></i></a></li>
+            <li class=""><a href="#abilities" data-toggle="tab" aria-expanded="false">Abilities <i class="fa fa-table" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade" id="talents">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Level</th>
+                    <th class="col-lg-3">Talent Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Wolfheart</td>
+                    <td>While Inner Beast is active, each Basic Attack lowers its cooldown by 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Perfect Aim</td>
+                    <td>Increases Gilnean Cocktail's range by 30.3571% and refunds 50 Mana if it hits an enemy Hero.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Scented Tincture</td>
+                    <td>Gilnean Cocktail reveals enemy Heroes for 10 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Viciousness</td>
+                    <td>Increases Inner Beast's duration to 4 seconds, and causes Ability damage to also refresh its duration.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Thick Skin</td>
+                    <td>Using Darkflight reduces the damage taken from the next 2 Hero Basic Attacks by 50% while a Worgen.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Eyes in the Dark</td>
+                    <td>Disengage grants Stealth for 4 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Insatiable</td>
+                    <td>Inner Beast causes Basic Attacks to restore 5 Mana, up to 140.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Draught Overflow</td>
+                    <td>Increases Gilnean Cocktail's explosion length by 35%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Quicksilver Bullets</td>
+                    <td>Increases Human Basic Attack range by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Incendiary Elixir</td>
+                    <td>Quest: Every time you hit an enemy Hero with the explosion damage from Gilnean Cocktail increase its impact damage by 2, up to 40,  and the explosion damage by 6, up to 120.
+Reward: After hitting 20 Heroes, the cooldown is also reduced by 2 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Wizened Duelist</td>
+                    <td>Quest: Hero takedowns increase Basic Attack damage by 3%, up to 30%. This bonus is lost on death.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Go for the Throat</td>
+                    <td>Leap at an enemy Hero and shapeshift into a Worgen, slashing 3 times for 375 (+0.12 per level) total damage. If this kills them, the Ability can be used a second time within 10 seconds for free.</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Marked for the Kill</td>
+                    <td>Shapeshift into a Human and fire a shot hitting the first enemy Hero for 68 (+0.04 per level) damage. For 5 seconds, they are Vulnerable, taking 25% more damage, and you can re-activate this to leap at them and shapeshift into a Worgen.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Running Wild</td>
+                    <td>Increases Darkflight and Disengage's range by 35%.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Visceral Attacks</td>
+                    <td>Worgen Basic Attacks reduce Razor Swipe's cooldown by 1 second.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>On the Prowl</td>
+                    <td>Inner Beast increases your Movement Speed by 30% once it has been active for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Unfettered Assault</td>
+                    <td>Increases Razor Swipe's lunge distance by 60%.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Concentrated Blast</td>
+                    <td>Increases Gilnean Cocktail's damage by 80% while Inner Beast is active.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Relentless Predator</td>
+                    <td>Reduces the duration of silences, stuns, slows, roots, and polymorphs against you by 75% while in Worgen form.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Executioner</td>
+                    <td>Attacking an enemy that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Alpha Killer</td>
+                    <td>Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Unleashed</td>
+                    <td>If the free cast of Go for the Throat kills its target, another free cast is provided.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Gilnean Roulette</td>
+                    <td>Marked for the Kill passes through enemy Heroes, making all of them Vulnerable and allowing Leap to be used on each marked target once. The closest target is preferred.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Hunter's Blunderbuss</td>
+                    <td>Human Basic Attacks splash for 100% damage behind the target.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Tooth and Claw</td>
+                    <td>Worgen Basic Attacks cleave for 100% damage.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="abilities">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th class="col-lg-1">Shortcut</th>
+                    <th class="col-lg-3">Ability Name</th>
+                    <th class="col-lg-8">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Q</td>
+                    <td>Razor Swipe</td>
+                    <td>Swipe towards the area in front of you for 159 (+0.04 per level) damage.
+Human: Gilnean Cocktail
+Damage the first enemy hit and deal heavy damage behind them.</td>
+                  </tr>
+                  <tr>
+                    <td>Q</td>
+                    <td>Gilnean Cocktail</td>
+                    <td>Hurl a flask that deals 59 (+0.04 per level) damage to the first enemy hit and explodes for 177 (+0.04 per level) damage to enemies in a cone behind them.
+Worgen: Razor Swipe
+Swipe forward and damage enemies you pass through.</td>
+                  </tr>
+                  <tr>
+                    <td>W</td>
+                    <td>Inner Beast</td>
+                    <td>Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Disengage</td>
+                    <td>Roll away and shapeshift into a Human.
+Human: Darkflight
+Leap at an enemy and shapeshift into a Worgen.</td>
+                  </tr>
+                  <tr>
+                    <td>E</td>
+                    <td>Darkflight</td>
+                    <td>Shapeshift into a Worgen and leap at an enemy dealing 88 (+0.04 per level) damage.
+Worgen: Disengage
+Roll away and shapeshift into a Human.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Go for the Throat</td>
+                    <td>Leap at an enemy Hero and shapeshift into a Worgen, slashing 3 times for 375 (+0.12 per level) total damage. If this kills them, the Ability can be used a second time within 10 seconds for free.</td>
+                  </tr>
+                  <tr>
+                    <td>R</td>
+                    <td>Marked for the Kill</td>
+                    <td>Shapeshift into a Human and fire a shot hitting the first enemy Hero for 68 (+0.04 per level) damage. For 5 seconds, they are Vulnerable, taking 25% more damage, and you can re-activate this to leap at them and shapeshift into a Worgen.</td>
+                  </tr>
+                  <tr>
+                    <td> </td>
+                    <td>Curse of the Worgen</td>
+                    <td>Use certain Abilities to shapeshift between a Human and a Worgen.
+While Human, your Basic Attack is ranged.
+While Worgen, your Basic Attack is melee but deals 40% (-0.011% per level) more damage.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -322,7 +533,7 @@
             </ul>
           </div>
           <div class="col-lg-10">
-            <p><small>All patch notes and character info copyright &copy; Blizzard Entertainment &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc. &middot; This website is not affiliated with Blizzard Entertainment in any way</small></p>
           </div>
         </div>
       </div>
@@ -339,5 +550,14 @@
       ga('send', 'pageview');
     </script>
 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle=tab]').click(function(){
+        if ($(this).parent().hasClass('active')){
+          $($(this).attr("href")).toggleClass('active');
+        }
+      });
+    });
+    </script>
   </body>
 </html>
