@@ -89,6 +89,11 @@
       .battlefieldofeternity { background-position: -316px 0px; }
       .infernalshrines { background-position: -361px 0px; }
       .towersofdoom { background-position: -406px 0px; }
+      a.sort > i.fa-sort-asc, a.sort > i.fa-sort-desc { display: none; }
+      a.sort.asc > i.fa-sort { display: none; }
+      a.sort.asc > i.fa-sort-asc { display: inherit; }
+      a.sort.desc > i.fa-sort { display: none; }
+      a.sort.desc > i.fa-sort-desc { display: inherit; }
     </style>
   </head>
   <body>
@@ -120,10 +125,10 @@
           <table id="heroes" class="table table-striped table-hover">
             <thead>
               <tr>
-                <th class="col-lg-6"><a class="sort" data-sort="hero">Hero <i class="fa fa-sort" aria-hidden="true"></i></a></th>
-                <th class="col-lg-2 cell-center"><a class="sort" data-sort="last-update">Last Updated <i class="fa fa-sort" aria-hidden="true"></i></a></th>
-                <th class="col-lg-2 cell-center hidden-xs"># of Patch Changes</th>
-                <th class="col-lg-2 cell-center hidden-xs"># of Hero Updates</th>
+                <th class="col-lg-6"><a class="sort" data-sort="hero">Hero <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
+                <th class="col-lg-2 cell-center"><a class="sort" data-sort="last-update">Last Updated <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
+                <th class="col-lg-2 cell-center hidden-xs"><a class="sort" data-sort="patch-changes"># of Patch Changes <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
+                <th class="col-lg-2 cell-center hidden-xs"><a class="sort" data-sort="hero-updates"># of Hero Updates <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
               </tr>
             </thead>
             <tbody class="list">
@@ -133,8 +138,8 @@
                   <div><a href="hero/chromie.html">Chromie</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160602</span> 2016-06-02</td>
-                <td class="cell-center hidden-xs">2</td>
-                <td class="cell-center hidden-xs">1</td>
+                <td class="cell-center hidden-xs patch-changes">2</td>
+                <td class="cell-center hidden-xs hero-updates">1</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -142,8 +147,8 @@
                   <div><a href="hero/anubarak.html">Anub'arak</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">12</td>
-                <td class="cell-center hidden-xs">6</td>
+                <td class="cell-center hidden-xs patch-changes">12</td>
+                <td class="cell-center hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -151,8 +156,8 @@
                   <div><a href="hero/artanis.html">Artanis</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">3</td>
+                <td class="cell-center hidden-xs patch-changes">6</td>
+                <td class="cell-center hidden-xs hero-updates">3</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -160,8 +165,8 @@
                   <div><a href="hero/arthas.html">Arthas</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">8</td>
+                <td class="cell-center hidden-xs patch-changes">15</td>
+                <td class="cell-center hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -169,8 +174,8 @@
                   <div><a href="hero/brightwing.html">Brightwing</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">18</td>
-                <td class="cell-center hidden-xs">11</td>
+                <td class="cell-center hidden-xs patch-changes">18</td>
+                <td class="cell-center hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -178,8 +183,8 @@
                   <div><a href="hero/chen.html">Chen</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">10</td>
-                <td class="cell-center hidden-xs">8</td>
+                <td class="cell-center hidden-xs patch-changes">10</td>
+                <td class="cell-center hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -187,8 +192,8 @@
                   <div><a href="hero/diablo.html">Diablo</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">17</td>
-                <td class="cell-center hidden-xs">10</td>
+                <td class="cell-center hidden-xs patch-changes">17</td>
+                <td class="cell-center hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -196,8 +201,8 @@
                   <div><a href="hero/falstad.html">Falstad</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">20</td>
-                <td class="cell-center hidden-xs">12</td>
+                <td class="cell-center hidden-xs patch-changes">20</td>
+                <td class="cell-center hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -205,8 +210,8 @@
                   <div><a href="hero/gazlowe.html">Gazlowe</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">9</td>
+                <td class="cell-center hidden-xs patch-changes">15</td>
+                <td class="cell-center hidden-xs hero-updates">9</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -214,8 +219,8 @@
                   <div><a href="hero/greymane.html">Greymane</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs patch-changes">6</td>
+                <td class="cell-center hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -223,8 +228,8 @@
                   <div><a href="hero/jaina.html">Jaina</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">11</td>
-                <td class="cell-center hidden-xs">8</td>
+                <td class="cell-center hidden-xs patch-changes">11</td>
+                <td class="cell-center hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -232,8 +237,8 @@
                   <div><a href="hero/johanna.html">Johanna</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">9</td>
-                <td class="cell-center hidden-xs">6</td>
+                <td class="cell-center hidden-xs patch-changes">9</td>
+                <td class="cell-center hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -241,8 +246,8 @@
                   <div><a href="hero/kaelthas.html">Kael'thas</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">11</td>
-                <td class="cell-center hidden-xs">7</td>
+                <td class="cell-center hidden-xs patch-changes">11</td>
+                <td class="cell-center hidden-xs hero-updates">7</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -250,8 +255,8 @@
                   <div><a href="hero/kerrigan.html">Kerrigan</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">16</td>
-                <td class="cell-center hidden-xs">11</td>
+                <td class="cell-center hidden-xs patch-changes">16</td>
+                <td class="cell-center hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -259,8 +264,8 @@
                   <div><a href="hero/leoric.html">Leoric</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">7</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs patch-changes">7</td>
+                <td class="cell-center hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -268,8 +273,8 @@
                   <div><a href="hero/lili.html">Li Li</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">11</td>
+                <td class="cell-center hidden-xs patch-changes">15</td>
+                <td class="cell-center hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -277,8 +282,8 @@
                   <div><a href="hero/liming.html">Li-Ming</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">5</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs patch-changes">5</td>
+                <td class="cell-center hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -286,8 +291,8 @@
                   <div><a href="hero/ltmorales.html">Lt. Morales</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">2</td>
+                <td class="cell-center hidden-xs patch-changes">6</td>
+                <td class="cell-center hidden-xs hero-updates">2</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -295,8 +300,8 @@
                   <div><a href="hero/malfurion.html">Malfurion</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">18</td>
-                <td class="cell-center hidden-xs">10</td>
+                <td class="cell-center hidden-xs patch-changes">18</td>
+                <td class="cell-center hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -304,8 +309,8 @@
                   <div><a href="hero/muradin.html">Muradin</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">16</td>
-                <td class="cell-center hidden-xs">12</td>
+                <td class="cell-center hidden-xs patch-changes">16</td>
+                <td class="cell-center hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -313,8 +318,8 @@
                   <div><a href="hero/nazeebo.html">Nazeebo</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">18</td>
-                <td class="cell-center hidden-xs">10</td>
+                <td class="cell-center hidden-xs patch-changes">18</td>
+                <td class="cell-center hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -322,8 +327,8 @@
                   <div><a href="hero/raynor.html">Raynor</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">17</td>
-                <td class="cell-center hidden-xs">9</td>
+                <td class="cell-center hidden-xs patch-changes">17</td>
+                <td class="cell-center hidden-xs hero-updates">9</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -331,8 +336,8 @@
                   <div><a href="hero/rehgar.html">Rehgar</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">17</td>
-                <td class="cell-center hidden-xs">13</td>
+                <td class="cell-center hidden-xs patch-changes">17</td>
+                <td class="cell-center hidden-xs hero-updates">13</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -340,8 +345,8 @@
                   <div><a href="hero/rexxar.html">Rexxar</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">7</td>
-                <td class="cell-center hidden-xs">5</td>
+                <td class="cell-center hidden-xs patch-changes">7</td>
+                <td class="cell-center hidden-xs hero-updates">5</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -349,8 +354,8 @@
                   <div><a href="hero/sgthammer.html">Sgt. Hammer</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">16</td>
-                <td class="cell-center hidden-xs">8</td>
+                <td class="cell-center hidden-xs patch-changes">16</td>
+                <td class="cell-center hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -358,8 +363,8 @@
                   <div><a href="hero/sonya.html">Sonya</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">18</td>
-                <td class="cell-center hidden-xs">12</td>
+                <td class="cell-center hidden-xs patch-changes">18</td>
+                <td class="cell-center hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -367,8 +372,8 @@
                   <div><a href="hero/stitches.html">Stitches</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">18</td>
-                <td class="cell-center hidden-xs">12</td>
+                <td class="cell-center hidden-xs patch-changes">18</td>
+                <td class="cell-center hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -376,8 +381,8 @@
                   <div><a href="hero/tassadar.html">Tassadar</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">11</td>
+                <td class="cell-center hidden-xs patch-changes">15</td>
+                <td class="cell-center hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -385,8 +390,8 @@
                   <div><a href="hero/thelostvikings.html">The Lost Vikings</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">8</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs patch-changes">8</td>
+                <td class="cell-center hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -394,8 +399,8 @@
                   <div><a href="hero/thrall.html">Thrall</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">12</td>
-                <td class="cell-center hidden-xs">5</td>
+                <td class="cell-center hidden-xs patch-changes">12</td>
+                <td class="cell-center hidden-xs hero-updates">5</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -403,8 +408,8 @@
                   <div><a href="hero/tyrael.html">Tyrael</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">14</td>
-                <td class="cell-center hidden-xs">10</td>
+                <td class="cell-center hidden-xs patch-changes">14</td>
+                <td class="cell-center hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -412,8 +417,8 @@
                   <div><a href="hero/tyrande.html">Tyrande</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">17</td>
-                <td class="cell-center hidden-xs">11</td>
+                <td class="cell-center hidden-xs patch-changes">17</td>
+                <td class="cell-center hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -421,8 +426,8 @@
                   <div><a href="hero/uther.html">Uther</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">19</td>
-                <td class="cell-center hidden-xs">10</td>
+                <td class="cell-center hidden-xs patch-changes">19</td>
+                <td class="cell-center hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -430,8 +435,8 @@
                   <div><a href="hero/valla.html">Valla</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">7</td>
+                <td class="cell-center hidden-xs patch-changes">15</td>
+                <td class="cell-center hidden-xs hero-updates">7</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -439,8 +444,8 @@
                   <div><a href="hero/xul.html">Xul</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">4</td>
-                <td class="cell-center hidden-xs">3</td>
+                <td class="cell-center hidden-xs patch-changes">4</td>
+                <td class="cell-center hidden-xs hero-updates">3</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -448,8 +453,8 @@
                   <div><a href="hero/zagara.html">Zagara</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">13</td>
-                <td class="cell-center hidden-xs">8</td>
+                <td class="cell-center hidden-xs patch-changes">13</td>
+                <td class="cell-center hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -457,8 +462,8 @@
                   <div><a href="hero/zeratul.html">Zeratul</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">16</td>
-                <td class="cell-center hidden-xs">9</td>
+                <td class="cell-center hidden-xs patch-changes">16</td>
+                <td class="cell-center hidden-xs hero-updates">9</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -466,8 +471,8 @@
                   <div><a href="hero/tracer.html">Tracer</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160504</span> 2016-05-04</td>
-                <td class="cell-center hidden-xs">2</td>
-                <td class="cell-center hidden-xs">1</td>
+                <td class="cell-center hidden-xs patch-changes">2</td>
+                <td class="cell-center hidden-xs hero-updates">1</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -475,8 +480,8 @@
                   <div><a href="hero/butcher.html">Butcher</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160427</span> 2016-04-27</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs patch-changes">6</td>
+                <td class="cell-center hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -484,8 +489,8 @@
                   <div><a href="hero/abathur.html">Abathur</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
-                <td class="cell-center hidden-xs">16</td>
-                <td class="cell-center hidden-xs">15</td>
+                <td class="cell-center hidden-xs patch-changes">16</td>
+                <td class="cell-center hidden-xs hero-updates">15</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -493,8 +498,8 @@
                   <div><a href="hero/etc.html">E.T.C.</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">8</td>
+                <td class="cell-center hidden-xs patch-changes">15</td>
+                <td class="cell-center hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -502,8 +507,8 @@
                   <div><a href="hero/illidan.html">Illidan</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">10</td>
+                <td class="cell-center hidden-xs patch-changes">15</td>
+                <td class="cell-center hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -511,8 +516,8 @@
                   <div><a href="hero/tychus.html">Tychus</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160412</span> 2016-04-12</td>
-                <td class="cell-center hidden-xs">17</td>
-                <td class="cell-center hidden-xs">12</td>
+                <td class="cell-center hidden-xs patch-changes">17</td>
+                <td class="cell-center hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -520,8 +525,8 @@
                   <div><a href="hero/azmodan.html">Azmodan</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
-                <td class="cell-center hidden-xs">10</td>
-                <td class="cell-center hidden-xs">9</td>
+                <td class="cell-center hidden-xs patch-changes">10</td>
+                <td class="cell-center hidden-xs hero-updates">9</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -529,8 +534,8 @@
                   <div><a href="hero/dehaka.html">Dehaka</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
-                <td class="cell-center hidden-xs">1</td>
-                <td class="cell-center hidden-xs">None</td>
+                <td class="cell-center hidden-xs patch-changes">1</td>
+                <td class="cell-center hidden-xs hero-updates">0</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -538,8 +543,8 @@
                   <div><a href="hero/gall.html">Gall</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
-                <td class="cell-center hidden-xs">3</td>
-                <td class="cell-center hidden-xs">2</td>
+                <td class="cell-center hidden-xs patch-changes">3</td>
+                <td class="cell-center hidden-xs hero-updates">2</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -547,8 +552,8 @@
                   <div><a href="hero/kharazim.html">Kharazim</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
-                <td class="cell-center hidden-xs">7</td>
-                <td class="cell-center hidden-xs">2</td>
+                <td class="cell-center hidden-xs patch-changes">7</td>
+                <td class="cell-center hidden-xs hero-updates">2</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -556,8 +561,8 @@
                   <div><a href="hero/lunara.html">Lunara</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
-                <td class="cell-center hidden-xs">4</td>
-                <td class="cell-center hidden-xs">3</td>
+                <td class="cell-center hidden-xs patch-changes">4</td>
+                <td class="cell-center hidden-xs hero-updates">3</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -565,8 +570,8 @@
                   <div><a href="hero/murky.html">Murky</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
-                <td class="cell-center hidden-xs">13</td>
-                <td class="cell-center hidden-xs">8</td>
+                <td class="cell-center hidden-xs patch-changes">13</td>
+                <td class="cell-center hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -574,8 +579,8 @@
                   <div><a href="hero/sylvanas.html">Sylvanas</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160329</span> 2016-03-29</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs patch-changes">6</td>
+                <td class="cell-center hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -583,8 +588,8 @@
                   <div><a href="hero/nova.html">Nova</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160316</span> 2016-03-16</td>
-                <td class="cell-center hidden-xs">17</td>
-                <td class="cell-center hidden-xs">13</td>
+                <td class="cell-center hidden-xs patch-changes">17</td>
+                <td class="cell-center hidden-xs hero-updates">13</td>
               </tr>
               <tr>
                 <td class="hero">
@@ -592,8 +597,8 @@
                   <div><a href="hero/cho.html">Cho</a></div>
                 </td>
                 <td class="cell-center last-update"><span class="hidden">20160202</span> 2016-02-02</td>
-                <td class="cell-center hidden-xs">3</td>
-                <td class="cell-center hidden-xs">2</td>
+                <td class="cell-center hidden-xs patch-changes">3</td>
+                <td class="cell-center hidden-xs hero-updates">2</td>
               </tr>
             </tbody>
           </table>
@@ -605,10 +610,10 @@
           <table class="table table-striped table-hover">
             <thead>
               <tr>
-                <th class="col-lg-6"><a class="sort" data-sort="bg">Battleground <i class="fa fa-sort" aria-hidden="true"></i></a></th>
-                <th class="col-lg-2 cell-center"><a class="sort" data-sort="bg-last-update">Last Updated <i class="fa fa-sort" aria-hidden="true"></i></a></th>
-                <th class="col-lg-2 cell-center hidden-xs"># of Patch Changes</th>
-                <th class="col-lg-2 cell-center hidden-xs"># of Battleground Updates</th>
+                <th class="col-lg-6"><a class="sort" data-sort="bg">Battleground <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
+                <th class="col-lg-2 cell-center"><a class="sort" data-sort="bg-last-update">Last Updated <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
+                <th class="col-lg-2 cell-center hidden-xs"><a class="sort" data-sort="bg-patch-changes"># of Patch Changes <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
+                <th class="col-lg-2 cell-center hidden-xs"><a class="sort" data-sort="bg-updates"># of Battleground Updates <i class="fa fa-sort" aria-hidden="true"></i><i class="fa fa-sort-asc" aria-hidden="true"></i><i class="fa fa-sort-desc" aria-hidden="true"></i></a></th>
               </tr>
             </thead>
             <tbody class="list">
@@ -618,8 +623,8 @@
                   <div><a href="battleground/battlefieldofeternity.html">Battlefield of Eternity</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">3</td>
+                <td class="cell-center hidden-xs bg-patch-changes">6</td>
+                <td class="cell-center hidden-xs bg-updates">3</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -627,8 +632,8 @@
                   <div><a href="battleground/blackheartsbay.html">Blackheart's Bay</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">13</td>
-                <td class="cell-center hidden-xs">2</td>
+                <td class="cell-center hidden-xs bg-patch-changes">13</td>
+                <td class="cell-center hidden-xs bg-updates">2</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -636,8 +641,8 @@
                   <div><a href="battleground/cursedhollow.html">Cursed Hollow</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">13</td>
-                <td class="cell-center hidden-xs">2</td>
+                <td class="cell-center hidden-xs bg-patch-changes">13</td>
+                <td class="cell-center hidden-xs bg-updates">2</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -645,8 +650,8 @@
                   <div><a href="battleground/dragonshire.html">Dragon Shire</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">14</td>
-                <td class="cell-center hidden-xs">6</td>
+                <td class="cell-center hidden-xs bg-patch-changes">14</td>
+                <td class="cell-center hidden-xs bg-updates">6</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -654,8 +659,8 @@
                   <div><a href="battleground/gardenofterror.html">Garden of Terror</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">12</td>
-                <td class="cell-center hidden-xs">7</td>
+                <td class="cell-center hidden-xs bg-patch-changes">12</td>
+                <td class="cell-center hidden-xs bg-updates">7</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -663,8 +668,8 @@
                   <div><a href="battleground/hauntedmines.html">Haunted Mines</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">15</td>
-                <td class="cell-center hidden-xs">7</td>
+                <td class="cell-center hidden-xs bg-patch-changes">15</td>
+                <td class="cell-center hidden-xs bg-updates">7</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -672,8 +677,8 @@
                   <div><a href="battleground/infernalshrines.html">Infernal Shrines</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs bg-patch-changes">6</td>
+                <td class="cell-center hidden-xs bg-updates">4</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -681,8 +686,8 @@
                   <div><a href="battleground/lostcavern.html">Lost Cavern</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">2</td>
-                <td class="cell-center hidden-xs">1</td>
+                <td class="cell-center hidden-xs bg-patch-changes">2</td>
+                <td class="cell-center hidden-xs bg-updates">1</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -690,8 +695,8 @@
                   <div><a href="battleground/skytemple.html">Sky Temple</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">8</td>
-                <td class="cell-center hidden-xs">4</td>
+                <td class="cell-center hidden-xs bg-patch-changes">8</td>
+                <td class="cell-center hidden-xs bg-updates">4</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -699,8 +704,8 @@
                   <div><a href="battleground/tombofthespiderqueen.html">Tomb of the Spider Queen</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">6</td>
-                <td class="cell-center hidden-xs">2</td>
+                <td class="cell-center hidden-xs bg-patch-changes">6</td>
+                <td class="cell-center hidden-xs bg-updates">2</td>
               </tr>
               <tr>
                 <td class="bg">
@@ -708,8 +713,8 @@
                   <div><a href="battleground/towersofdoom.html">Towers of Doom</a></div>
                 </td>
                 <td class="cell-center bg-last-update"><span class="hidden">20160517</span> 2016-05-17</td>
-                <td class="cell-center hidden-xs">4</td>
-                <td class="cell-center hidden-xs">3</td>
+                <td class="cell-center hidden-xs bg-patch-changes">4</td>
+                <td class="cell-center hidden-xs bg-updates">3</td>
               </tr>
             </tbody>
           </table>
@@ -747,12 +752,12 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
     <script>
       var options = {
-        valueNames: [ 'hero', 'last-update' ]
+        valueNames: [ 'hero', 'last-update', 'patch-changes', 'hero-updates' ]
       };
       var heroList = new List('hero-list', options);
 
       var bgOptions = {
-        valueNames: [ 'bg', 'bg-last-update' ]
+        valueNames: [ 'bg', 'bg-last-update', 'bg-patch-changes', 'bg-updates' ]
       };
       var bgList = new List('bg-list', bgOptions);
     </script>
