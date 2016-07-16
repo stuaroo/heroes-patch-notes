@@ -1,3 +1,4 @@
+/* Sprite positions for front for heroes, battlegrounds */
 .thelostvikings { background-position: -7px -7px; }
 .anubarak { background-position: -7px -66px; }
 .arthas { background-position: -7px -125px; }
@@ -53,8 +54,6 @@
 .medivh { background-position: -7px -3001px; }
 
 
-
-
 .skytemple { background-position: 0px 0px; }
 .gardenofterror { background-position: -45px 0px; }
 .blackheartsbay { background-position: -90px 0px; }
@@ -68,5 +67,89 @@
 .towersofdoom { background-position: -406px 0px; }
 
 
+/* Sprite positions for headers on hero pages */
+.hero-sprite {
+    background: url("../images/hero-sprite.png") 0px 0px no-repeat;
+    background-size: 92px 5200px;
+    height: 77px;
+    width: 68px;
+    margin-right: 5px;
+}
 
 
+.thelostvikings { background-position: -12px -12px; }
+.anubarak { background-position: -12px -112px; }
+.arthas { background-position: -12px -212px; }
+.abathur { background-position: -12px -312px; }
+.chen { background-position: -12px -412px; }
+.diablo { background-position: -12px -512px; }
+.falstad { background-position: -12px -612px; }
+.illidan { background-position: -12px -712px; }
+.jaina { background-position: -12px -812px; }
+.kaelthas { background-position: -12px -912px; }
+.kerrigan { background-position: -12px -1012px; }
+.lili { background-position: -12px -1112px; }
+.etc { background-position: -12px -1212px; }
+.muradin { background-position: -12px -1312px; }
+.murky { background-position: -12px -1412px; }
+.nazeebo { background-position: -12px -1512px; }
+.nova { background-position: -12px -1612px; }
+.raynor { background-position: -12px -1712px; }
+.rehgar { background-position: -12px -1812px; }
+.malfurion { background-position: -12px -1912px; }
+.gazlowe { background-position: -12px -2012px; }
+.tychus { background-position: -12px -2112px; }
+.tyrael { background-position: -12px -2212px; }
+.uther { background-position: -12px -2312px; }
+.valla { background-position: -12px -2412px; }
+.zagara { background-position: -12px -2512px; }
+.zeratul { background-position: -12px -2612px; }
+.thrall { background-position: -12px -2712px; }
+.sgthammer { background-position: -12px -2812px; }
+.sonya { background-position: -12px -2912px; }
+.stitches { background-position: -12px -3012px; }
+.sylvanas { background-position: -12px -3112px; }
+.azmodan { background-position: -12px -3212px; }
+.brightwing { background-position: -12px -3312px; }
+.tassadar { background-position: -12px -3412px; }
+.tyrande { background-position: -12px -3512px; }
+.johanna { background-position: -12px -3612px; }
+.butcher { background-position: -12px -3712px; }
+.leoric { background-position: -12px -3812px; }
+.kharazim { background-position: -12px -3912px; }
+.rexxar { background-position: -12px -4012px; }
+.artanis { background-position: -12px -4112px; }
+.ltmorales { background-position: -12px -4212px; }
+.cho { background-position: -12px -4312px; }
+.gall { background-position: -12px -4312px; }
+.lunara { background-position: -12px -4412px; }
+.greymane { background-position: -12px -4512px; }
+.liming { background-position: -12px -4612px; }
+.xul { background-position: -12px -4712px; }
+.dehaka { background-position: -12px -4812px; }
+.tracer { background-position: -12px -4912px; }
+.chromie { background-position: -12px -5012px; }
+.medivh { background-position: -12px -5112px; }
+.guldan {background-position: -12px -5212px; }
+
+
+/* Sprite positions for headers on battleground pages */
+.bg-sprite { 
+    background:url("images/bg-sprite.png") 0px 0px no-repeat; 
+    background-size: 789.073px 77px; 
+    width: 78px; 
+    height: 77px; 
+    margin-right: 5px;
+}
+
+.skytemple { background-position: 0px 0px; }
+.gardenofterror { background-position: -79px 0px; }
+.blackheartsbay { background-position: -158px 0px; }
+.dragonshire { background-position: -237px 0px; }
+.hauntedmines { background-position: -316px 0px; }
+.cursedhollow { background-position: -396px 0px; }
+.tombofthespiderqueen { background-position: -475px 0px; }
+.lostcavern { background-position: -475px 0px; }
+.battlefieldofeternity { background-position: -553px 0px; }
+.infernalshrines { background-position: -633px 0px; }
+.towersofdoom { background-position: -712px 0px; }
