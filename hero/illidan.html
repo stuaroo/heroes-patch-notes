@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Illidan, Melee Assassin, patch note history.  Last relevant patch: 2016-04-12">
+    <meta name="description" content="Illidan, Melee Assassin, patch note history.  Last relevant patch: 2016-07-12">
         <title>Illidan Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -712px; }
     </style>
   </head>
@@ -317,6 +318,32 @@
             <div class="hero-sprite hero-position"></div>
             <div>Illidan</div>
           </h2>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-07-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20164442/heroes-of-the-storm-patch-notes-july-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Illidan:</strong> Issuing an attack command on an enemy while using Sweeping Strike in the opposite direction will now always cause Illidan to travel the full Sweeping Strike distance, both before and after learning the Unbound Talent.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-04-19 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20099322/heroes-of-the-storm-patch-notes-april-19-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Illidan’s Betrayer’s Thirst Trait will no longer provide cooldown reduction for Basic Attacks that miss due to Blind or Evasion effects.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-04-12 Balance Update <a href="http://us.battle.net/heroes/en/blog/20090404/heroes-of-the-storm-balance-update-notes-april-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
@@ -660,6 +687,11 @@
 <li>Players within a Dragon Knight or Garden Terror can now also accumulate stacks for Talents such as Seasoned Marksman, Gathering Power, Regeneration Master, etc.</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Illidan's Sweeping Strike will now properly deal damage when the Immolation Talent damages the target at the same moment.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -715,6 +747,15 @@
 <li>Only Minions, captured enemy Mercenaries, and Heroes will grant stacks upon death</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which Ability effects, such as Giant Killer, Focused Attack, and Zagara’s Envenomed Spines, could be applied while Blinded.</li>
+</ul>
+
+              <ul>
+<li>Illidan will no longer fly to the enemy Hall of Storms if the target of The Hunt is killed before the Ability completes.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -737,18 +778,6 @@
 </ul></li>
 </ul>
 
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Metamorphosis (R)</strong>
-<ul>
-<li>Radius decreased by 25%</li>
-<li>Damage decreased from 200 (+10 per level) to 20 (+4 per level)
-<ul>
-<li>Check out the recent <a href="http://us.battle.net/heroes/en/blog/19802336"><em>Patch Preview blog</em></a> for more information about this change</li>
-</ul></li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Blood for Blood</strong></p>
 
@@ -763,6 +792,18 @@
 <ul>
 <li>Initial +4.0 Health Regeneration removed </li>
 <li>Each Health Globe now grants +1.5 Health Regeneration </li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Metamorphosis (R)</strong>
+<ul>
+<li>Radius decreased by 25%</li>
+<li>Damage decreased from 200 (+10 per level) to 20 (+4 per level)
+<ul>
+<li>Check out the recent <a href="http://us.battle.net/heroes/en/blog/19802336"><em>Patch Preview blog</em></a> for more information about this change</li>
+</ul></li>
+</ul></li>
 </ul>
 
             </div>
@@ -780,6 +821,11 @@
 <li>Bonus to Basic Attack damage increased from 25% to 40% </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Illidan’s Hero model will no longer disappear when casting The Hunt immediately after Dive.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -795,6 +841,11 @@
 <li>This Talent has received a visual update. It should now be much easier to identify both the target and caster of Blood for Blood. </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Casting The Hunt against a flying Hero will no longer cause Illidan to become stuck outside the playable area.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -803,9 +854,11 @@
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Executioner (Talent) removed</li>
+              <h4>Talents</h4>
+              <p><strong>Regeneration Master</strong></p>
+
+<ul>
+<li>Now grants 4 Health regeneration upon learning the Talent</li>
 </ul>
 
               <h4>New Level 20 Talents</h4>
@@ -819,11 +872,9 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Regeneration Master</strong></p>
-
-<ul>
-<li>Now grants 4 Health regeneration upon learning the Talent</li>
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Executioner (Talent) removed</li>
 </ul>
 
             </div>
@@ -834,6 +885,13 @@
               <h3>2015-01-13 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17345414/heroes-closed-beta-patch-notes-january-13-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Resurgence of the Storm</strong></p>
+
+<ul>
+<li>This Talent has been removed from the game. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Metamorphosis (R)</strong>
@@ -846,11 +904,17 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Resurgence of the Storm</strong></p>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Bolt of the Storm and Zeratul’s Blink can no longer be cast while rooted.</li>
+</ul>
 
-<ul>
-<li>This Talent has been removed from the game. </li>
+              <ul>
+<li>Fixed an issue in which Illidan’s The Hunt could cause unexpected behavior with Zeratul’s Cloak.</li>
+</ul>
+
+              <ul>
+<li>Fixed an issue that could cause Illidan to fly out of the playable area when casting the Hunt and then shift-queuing Dive into Zeratul’s Void Prison.</li>
 </ul>
 
             </div>
@@ -861,6 +925,13 @@
               <h3>2014-12-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16467431/heroes-technical-alpha-patch-notes-december-2-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Resurgence of the Storm</strong></p>
+
+<ul>
+<li>Cooldown increased from 120 to 180 seconds</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Sweeping Strike (W)</strong>
@@ -874,11 +945,9 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Resurgence of the Storm</strong></p>
-
-<ul>
-<li>Cooldown increased from 120 to 180 seconds</li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Rooting Illidan just as he casts Dive will no longer drastically change his vertical position for the remainder of the match.</li>
 </ul>
 
             </div>
@@ -899,6 +968,15 @@
 <li>Six stacks permanently add +1 to Basic Attack damage</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Illidan will no longer drastically change elevation if he becomes rooted or snared while casting Dive.</li>
+</ul>
+
+              <ul>
+<li>Illidan’s Hero model no longer remains visible for the duration of the Spore Queen’s Curse if he is transformed while casting The Hunt.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -907,6 +985,24 @@
               <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>New Talent (Level 1): Seasoned Marksman</strong></p>
+
+<ul>
+<li>Grants +1 Basic Attack Damage permanently for every 5 Minions killed. </li>
+<li>This effect stacks. </li>
+<li>Only Minions damaged by Basic Attacks within moments of their death will count toward this bonus. </li>
+</ul>
+
+              <p><strong>With the addition of Artifacts, the following generic Talents have been removed:</strong></p>
+
+<ul>
+<li>Minion Killer </li>
+<li>Path of the Assassin </li>
+<li>Path of the Warrior </li>
+<li>Path of the Wizard </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Follow Through (Talent) added at Level 7</li>
@@ -948,22 +1044,21 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>New Talent (Level 1): Seasoned Marksman</strong></p>
-
-<ul>
-<li>Grants +1 Basic Attack Damage permanently for every 5 Minions killed. </li>
-<li>This effect stacks. </li>
-<li>Only Minions damaged by Basic Attacks within moments of their death will count toward this bonus. </li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Illidan can no longer undo the effects of Shrink Ray by casting Dive.</li>
 </ul>
 
-              <p><strong>With the addition of Artifacts, the following generic Talents have been removed:</strong></p>
+              <ul>
+<li>Illidan will no longer change elevation when casting Dive just before coming under the effects of the Grave Golem’s Binding Roots ability.</li>
+</ul>
 
-<ul>
-<li>Minion Killer </li>
-<li>Path of the Assassin </li>
-<li>Path of the Warrior </li>
-<li>Path of the Wizard </li>
+              <ul>
+<li>Illidan will no longer follow his target to the opposing Altar after using The Hunt on a Hero that dies before impact.</li>
+</ul>
+
+              <ul>
+<li>Illidan will now appropriately issue an attack order on an enemy after using Dive on the target.</li>
 </ul>
 
             </div>
@@ -974,6 +1069,19 @@
               <h3>2014-06-25 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14537490/heroes-technical-alpha-patch-notes-june-25-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>First Aid</strong></p>
+
+<ul>
+<li>Healing amount increased from <strong>20%</strong> over <strong>4</strong> seconds to <strong>35%</strong> over <strong>6</strong> seconds. </li>
+</ul>
+
+              <p><strong>Regeneration Master</strong></p>
+
+<ul>
+<li>Health regeneration increased from 3 to 4 per stack </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Basic Attack damage gain per level increased from <strong>6</strong> to <strong>7</strong></li>
@@ -1004,17 +1112,13 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>First Aid</strong></p>
-
-<ul>
-<li>Healing amount increased from <strong>20%</strong> over <strong>4</strong> seconds to <strong>35%</strong> over <strong>6</strong> seconds. </li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could cause a player to lose control of Illidan if The Hunt was cast on a Tychus using Overkill.</li>
 </ul>
 
-              <p><strong>Regeneration Master</strong></p>
-
-<ul>
-<li>Health regeneration increased from 3 to 4 per stack </li>
+              <ul>
+<li>Fixed an issue that could cause Illidan to become untargetable in Metamorphosis form after being struck by Sonya’s Ancient Spear.</li>
 </ul>
 
             </div>
@@ -1025,6 +1129,13 @@
               <h3>2014-05-22 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14227686/heroes-technical-alpha-patch-notes-may-22-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Executioner</strong></p>
+
+<ul>
+<li>Damage bonus decreased from 50% to 40%</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Now has a flat attack speed of 0.6 and Illidan no longer gains attack speed per level</li>
@@ -1124,11 +1235,22 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Executioner</strong></p>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>An Illidan clone created by Abathur’s Ultimate Evolution now receives the appropriate Health bonus after casting Metamorphosis.</li>
+</ul>
 
-<ul>
-<li>Damage bonus decreased from 50% to 40%</li>
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2014-04-15 Patch Notes <a href="http://us.battle.net/heroes/en/blog/13789932/heroes-technical-alpha-patch-notes-april-15-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The Blood for Blood Talent can no longer target summoned Grave Golems on the Haunted Mines.</li>
 </ul>
 
             </div>

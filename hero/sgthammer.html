@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -2812px; }
     </style>
   </head>
@@ -417,6 +418,19 @@
 <li>The Executioner Talent effect will now only trigger after attacking disabled Heroes. The bonus damage gained through this talent will still apply to anything attacked after the effect is triggered.</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Battlefield of Eternity:</strong> AI Heroes can now halt their attacks on Immortals at the center of the Battleground in order to gank an enemy Sgt. Hammer that is attacking inner-Towers and Keeps.</li>
+</ul>
+
+              <ul>
+<li><strong>Sgt. Hammer:</strong> Enemy AI players will no longer immediately dive Sgt. Hammer if she enters Siege Mode while hidden in a Shrub or Vent.</li>
+</ul>
+
+              <ul>
+<li><strong>Sgt. Hammer:</strong> The targeting reticule for Blunt Force Gun will no longer highlight targets that are outside its area of effect.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -469,6 +483,19 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2016-04-12 Balance Update <a href="http://us.battle.net/heroes/en/blog/20090404/heroes-of-the-storm-balance-update-notes-april-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The tooltip for Sgt. Hammer’s Siege Mode will no longer reference a nonexistent Talent.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2016-03-29 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20063493/heroes-of-the-storm-patch-notes-march-29-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -501,6 +528,11 @@
 <li>Has been renamed to Vigorous Assault</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Regeneration Globes will now properly grant healing and Regeneration Master stacks when collected as a Shield expires.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -521,6 +553,11 @@
   course of the game. We like that it is a highly contested pick on Basic Attack
   Heroes, but want to bring its overall power down a bit.</p>
 </blockquote>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Sgt. Hammer’s Siege Mode will no longer visually persist if she is interrupted while casting Siege Mode.</li>
+</ul>
 
             </div>
           </div>
@@ -565,6 +602,15 @@
 <li>Players within a Dragon Knight or Garden Terror can now also accumulate stacks for Talents such as Seasoned Marksman, Gathering Power, Regeneration Master, etc.</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>A Sgt. Hammer clone created by Abathur’s Ultimate Evolution will no longer be granted the Napalm Strike Heroic Ability after entering Siege Mode.</li>
+</ul>
+
+              <ul>
+<li>The Focused Attack Talent now properly uses a 10 second cooldown between bonuses to Basic Attack damage.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -604,6 +650,22 @@
 </ul></li>
 </ul>
 
+              <h4>Talents</h4>
+              <p><strong>Focused Attacks</strong></p>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> This could be viewed as a buff or nerf depending
+  on how players perceive it. You can still reduce the cooldown by attacking
+  Minions, but won’t accidently waste a burst of damage on an unintended target.
+  This talent will no longer be as effective at sieging, but it should be
+  significantly better at harassing in lane. We will continue to monitor the
+  talent, and tune as necessary.</p>
+</blockquote>
+
+<ul>
+<li>The increased damage effect will now only trigger when hitting Heroes</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <blockquote>
   <p><em><strong>Developer Comments:</strong></em> Hammer is one of our lowest win rate characters so
@@ -629,20 +691,16 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Focused Attacks</strong></p>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which Ability effects, such as Giant Killer, Focused Attack, and Zagara’s Envenomed Spines, could be applied while Blinded.</li>
+</ul>
 
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> This could be viewed as a buff or nerf depending
-  on how players perceive it. You can still reduce the cooldown by attacking
-  Minions, but won’t accidently waste a burst of damage on an unintended target.
-  This talent will no longer be as effective at sieging, but it should be
-  significantly better at harassing in lane. We will continue to monitor the
-  talent, and tune as necessary.</p>
-</blockquote>
-
+              <ul>
+<li>Fixed an issue in which the following Abilities and Talents were not damaging or destroying Zagara's Creep Tumors:
 <ul>
-<li>The increased damage effect will now only trigger when hitting Heroes</li>
+<li>Brightwing's Peekaboo, Diablo's Firestorm (returning fireballs), Johanna's Blessed Hammer, Leoric's Buried Alive, Nova's Railgun, Sgt. Hammer's Napalm Strike (impact damage) and Tychus' Big Red Button (the nuke portion)</li>
+</ul></li>
 </ul>
 
             </div>
@@ -690,6 +748,11 @@
 <li>Each Health Globe now grants +1.5 Health Regeneration </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Sgt. Hammer’s Blunt Force Gun will no longer be placed on reduced cooldown when coming under the effects of Anub'arak Web Blast during Blunt Force Gun’s casting time.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -726,15 +789,11 @@
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Spider Mines (Q)</strong>
+              <h4>Talents</h4>
+              <p><strong>Regeneration Master</strong></p>
+
 <ul>
-<li>Bullhead Mines (Talent)
-<ul>
-<li>Enemies are now knocked back slightly farther, but only the center of the three Spider Mines will knock the target back.</li>
-</ul></li>
-</ul></li>
+<li>Now grants 4 Health regeneration upon learning the Talent</li>
 </ul>
 
               <h4>New Level 20 Talents</h4>
@@ -758,11 +817,24 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Regeneration Master</strong></p>
-
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Spider Mines (Q)</strong>
 <ul>
-<li>Now grants 4 Health regeneration upon learning the Talent</li>
+<li>Bullhead Mines (Talent)
+<ul>
+<li>Enemies are now knocked back slightly farther, but only the center of the three Spider Mines will knock the target back.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>A Sgt. Hammer in Siege Mode now properly becomes mobile while under the effects of Brightwing’s Polymorph, and will no longer be in Siege Mode when Polymorph expires.</li>
+</ul>
+
+              <ul>
+<li>Visual explosion effects from Sgt. Hammer's Basic Attacks while in Siege Mode now appear at the appropriate location when attacking flying enemies.</li>
 </ul>
 
             </div>
@@ -851,6 +923,36 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Sgt. Hammer can now move appropriately after being transformed by the Garden Terror’s Spore Queen’s Curse Ability while in Siege Mode.</li>
+</ul>
+
+              <ul>
+<li>Sgt. Hammer now properly earns experience points when killing Minions that are outside of her normal experience range.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that caused damage dealt by Sgt. Hammer in Siege Mode to count toward the Tab Screen’s Healing stat.</li>
+</ul>
+
+              <ul>
+<li>Sgt. Hammer's Siege Mode targeting graphic is no longer visible through the Fog of War.</li>
+</ul>
+
+              <ul>
+<li>Sgt. Hammer's Thruster effects no longer detach from her model when switching Camera Follow on and off again.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -859,18 +961,6 @@
               <h3>2014-06-25 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14537490/heroes-technical-alpha-patch-notes-june-25-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Thrusters (Z)</strong>
-<ul>
-<li>Movement Speed bonus increased from <strong>50%</strong> to <strong>60%</strong></li>
-</ul></li>
-<li><strong>Ambush (Talent)</strong>
-<ul>
-<li>Bonus to Basic Attack damage increased from <strong>50%</strong> to <strong>100%</strong></li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>First Aid</strong></p>
 
@@ -884,6 +974,27 @@
 <li>Health regeneration increased from 3 to 4 per stack </li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Thrusters (Z)</strong>
+<ul>
+<li>Movement Speed bonus increased from <strong>50%</strong> to <strong>60%</strong></li>
+</ul></li>
+<li><strong>Ambush (Talent)</strong>
+<ul>
+<li>Bonus to Basic Attack damage increased from <strong>50%</strong> to <strong>100%</strong></li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Sgt. Hammer clones created by Abathur’s Ultimate Evolution Heroic Ability now receive an appropriate initial cooldown timer on Blunt Force Gun.</li>
+</ul>
+
+              <ul>
+<li>Sgt. Hammer’s First Strike Talent no longer stops functioning upon reviving after death.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -892,6 +1003,20 @@
               <h3>2014-05-22 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14227686/heroes-technical-alpha-patch-notes-may-22-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Executioner</strong></p>
+
+<ul>
+<li>Damage bonus decreased from 50% to 40%</li>
+</ul>
+
+              <p><strong>Focused Attack</strong></p>
+
+<ul>
+<li>Base cooldown has been increased from 5 to 10 seconds.</li>
+<li>Each basic attack reduces this cooldown by 1 second.</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Hotkey changes</strong>
@@ -945,20 +1070,6 @@
 <li>Sgt. Hammer’s range while in Siege Mode increases by 1 every 3 seconds, up to a maximum increase of 5.</li>
 </ul></li>
 </ul></li>
-</ul>
-
-              <h4>Talents</h4>
-              <p><strong>Executioner</strong></p>
-
-<ul>
-<li>Damage bonus decreased from 50% to 40%</li>
-</ul>
-
-              <p><strong>Focused Attack</strong></p>
-
-<ul>
-<li>Base cooldown has been increased from 5 to 10 seconds.</li>
-<li>Each basic attack reduces this cooldown by 1 second.</li>
 </ul>
 
             </div>

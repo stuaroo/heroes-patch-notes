@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -2712px; }
     </style>
   </head>
@@ -541,12 +542,6 @@
 <li>Talents and Abilities that gain bonus effects from kills will now only trigger from Minions and Mercenaries, and will no longer gain benefit from killing neutral Mercenaries, map event creatures, summoned units, etc.</li>
 </ul>
 
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Thrall’s Basic Attacks have received improvements in responsiveness, especially when stutter-stepping</li>
-<li>Thrall’s first Basic Attack after Windfury ends will no longer have an abnormally long weapon period</li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Bolt of the Storm</strong></p>
 
@@ -577,6 +572,17 @@
 <ul>
 <li>Stacks earned by killing enemy Heroes increased from 2 to 3</li>
 <li>Only Minions, captured enemy Mercenaries, and Heroes will grant stacks upon death</li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Thrall’s Basic Attacks have received improvements in responsiveness, especially when stutter-stepping</li>
+<li>Thrall’s first Basic Attack after Windfury ends will no longer have an abnormally long weapon period</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which Ability effects, such as Giant Killer, Focused Attack, and Zagara’s Envenomed Spines, could be applied while Blinded.</li>
 </ul>
 
             </div>
@@ -631,6 +637,13 @@
               <h3>2015-03-24 Patch Notes <a href="http://us.battle.net/heroes/en/blog/18401781/heroes-closed-beta-patch-notes-march-24-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Blood for Blood</strong></p>
+
+<ul>
+<li>This Talent has received a visual update. It should now be much easier to identify both the target and caster of Blood for Blood. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Frostwolf Resilience (Trait)</strong>
@@ -657,11 +670,9 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Blood for Blood</strong></p>
-
-<ul>
-<li>This Talent has received a visual update. It should now be much easier to identify both the target and caster of Blood for Blood. </li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Thrall’s Earthquake will no longer instantly kill Zagara's Banelings.</li>
 </ul>
 
             </div>
@@ -672,6 +683,17 @@
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>New Level 20 Talents</h4>
+              <p><strong>Nexus Blades</strong></p>
+
+<ul>
+<li>Provides 20% increased Attack Damage, and Basic Attacks slow enemies by 20% for 1 second</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Illidan, Kerrigan, Sonya, Thrall, Tyrael, Zeratul</li>
+</ul></li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Battle Momentum (Talent) removed</li>
@@ -685,15 +707,13 @@
 </ul></li>
 </ul>
 
-              <h4>New Level 20 Talents</h4>
-              <p><strong>Nexus Blades</strong></p>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed a rare issue in which Earthquake could still be cast, and then receive a reduced cooldown, if Thrall was stunned while channeling the Ability.</li>
+</ul>
 
-<ul>
-<li>Provides 20% increased Attack Damage, and Basic Attacks slow enemies by 20% for 1 second</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Illidan, Kerrigan, Sonya, Thrall, Tyrael, Zeratul</li>
-</ul></li>
+              <ul>
+<li>Thrall's Chain Lightning will no longer bounce to, or reveal, Cloaked units.</li>
 </ul>
 
             </div>
@@ -707,6 +727,11 @@
               <h4>New Hero</h4>
               <ul>
 <li>Thrall has been added to Heroes of the Storm and is now available for play!</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Bolt of the Storm and Zeratul’s Blink can no longer be cast while rooted.</li>
 </ul>
 
             </div>

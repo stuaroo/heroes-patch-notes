@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -1612px; }
     </style>
   </head>
@@ -334,6 +335,82 @@
 <li>The in-game AFK detection system has received adjustments that will help prevent cases in which Medivh in Raven Form, as well as Nova and Zeratul in Stealth, could receive AFK notifications despite actively participating in the game.</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Nova:</strong> Holo Decoys can now use Basic Attacks against enemy Monsters and Mercenaries. After taking the Lethal Decoy Talent, Holo Decoys will also be able to use Basic Attacks against enemy Minions.</li>
+</ul>
+
+              <ul>
+<li><strong>Nova:</strong> The buff icon for the Snipe Master Talent will now properly display in the buff bar.</li>
+</ul>
+
+              <ul>
+<li><strong>Nova:</strong> Triple Tap’s visual effects will no longer persist during an enemy Hero’s post-death effect, such as Tyrael’s Archangel’s Wrath.</li>
+</ul>
+
+              <ul>
+<li><strong>Nova:</strong> Will no longer receive an Invulnerability overlay on-screen if a Holo Decoy is affected by Tyrael’s Sanctification, but Nova herself is outside its area of effect.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-05-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20120032/heroes-of-the-storm-patch-notes-may-17-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Attempting to cast Nova’s Pinning Shot or Tyrande’s Hunter’s Mark on an enemy just as the target enters a Bush or Vent will no longer cause the Ability’s sound effects and animations to play as though it were successfully cast.</li>
+</ul>
+
+              <ul>
+<li>Casting Dehaka’s Isolation on a summoned unit or Heroic pet, such as Misha, Gargantuan, or a Holo Decoy, will no longer also cause the Hero who owns that unit to lose allied vision.
+<ul>
+<li>Additionally, if one of The Lost Vikings or Chen’s Storm, Earth, Fire Spirits are hit by Isolation, only the affected unit will have reduced personal vision, but the player should retain allied vision.</li>
+<li>Alternatively, if the only living Viking or Spirit is hit by Isolation, the player will have reduced personal vision and lose allied vision for Isolation’s full duration. <span class="hidden">Rexxar, Nazeebo, Nova</span></li>
+</ul></li>
+</ul>
+
+              <ul>
+<li>Enemies will now be able to more easily distinguish Nova's Holo Decoys from the real Nova when the Decoys are revealed.</li>
+</ul>
+
+              <ul>
+<li>Fixed an issue that caused Nova’s Holo Decoys to deal more damage than intended after learning the Anti-Armor Shells Talent.</li>
+</ul>
+
+              <ul>
+<li>Fixed an issue that could cancel Nova’s Triple Tap when attempting to cast it on an enemy Nova who is already channeling Triple Tap on a different target.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-04-19 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20099322/heroes-of-the-storm-patch-notes-april-19-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The graphic effects for Dehaka’s Isolation will no longer visually persist on the Battleground if it deals the killing blow to one of Nova’s Holo Decoys.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-03-29 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20063493/heroes-of-the-storm-patch-notes-march-29-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that prevented Nova from entering Stealth when activating the Ghost Protocol Talent while affected by damage over time effects.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -398,6 +475,11 @@
   <p><em><strong>Developer Comments:</strong></em> We are continuing to tune Snipe Master to make it
   a more attractive choice, assuming you are consistently landing your Snipes.</p>
 </blockquote>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The effects of Nova’s Explosive Round Talent will now be properly applied to Snipe after casting Rewind and Snipe in rapid succession.</li>
+</ul>
 
             </div>
           </div>
@@ -558,6 +640,15 @@
   accordingly.</p>
 </blockquote>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Murky’s Egg will no longer briefly display on the minimap if he is killed by Nova’s Pinning Shot.</li>
+</ul>
+
+              <ul>
+<li>Nova’s Crippling Shot Talent will no longer allow Holo Decoys’ Pinning Shots to make the target Vulnerable without the Lethal Decoy Talent.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -581,6 +672,11 @@
   Gathering Power to reset their stacks.</p>
 </blockquote>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed a bug that could cause Stealthed Heroes to fire a Basic Attack at a nearby enemy immediately after Mounting.<span class="hidden">Nova</span></li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -598,6 +694,11 @@
 <li>Instead, Regeneration Globe effects will now be applied directly to the Hero inside the Dragon Knight or Garden Terror.</li>
 </ul></li>
 <li>Players within a Dragon Knight or Garden Terror can now also accumulate stacks for Talents such as Seasoned Marksman, Gathering Power, Regeneration Master, etc.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Holo Decoy status bar frames are now more visually consistent with Nova’s.</li>
 </ul>
 
             </div>
@@ -674,6 +775,14 @@
 <li>Instead of losing all stacks on death, players will now only lose half their stacks (rounding up)</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which the following Abilities and Talents were not damaging or destroying Zagara's Creep Tumors:
+<ul>
+<li>Brightwing's Peekaboo, Diablo's Firestorm (returning fireballs), Johanna's Blessed Hammer, Leoric's Buried Alive, Nova's Railgun, Sgt. Hammer's Napalm Strike (impact damage) and Tychus' Big Red Button (the nuke portion)</li>
+</ul></li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -682,14 +791,6 @@
               <h3>2015-06-30 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19803324/heroes-of-the-storm-patch-notes-june-30-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Holo Decoy (E)</strong>
-<ul>
-<li>Nova’s allies will now see Minion-sized Health bars for her Holo Decoys</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Envenom</strong></p>
 
@@ -701,6 +802,19 @@
 
 <ul>
 <li>Duration increased from 2 to 3 seconds </li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Holo Decoy (E)</strong>
+<ul>
+<li>Nova’s allies will now see Minion-sized Health bars for her Holo Decoys</li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed a bug in which certain ranged attacks were not dealing damage to Heroes that entered Stealth after the projectile was already in flight. In these cases, damage will now be properly dealt, and the Hero will be revealed, thus resetting the time needed to re-enter Stealth.<span class="hidden">Nova, Zeratul</span></li>
 </ul>
 
             </div>
@@ -717,6 +831,19 @@
 <ul>
 <li>Bonus to Basic Attack damage increased from 50% to 80%</li>
 </ul></li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2015-03-24 Patch Notes <a href="http://us.battle.net/heroes/en/blog/18401781/heroes-closed-beta-patch-notes-march-24-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The cooldown for Nova's Triple Tap after learning the Fast Reload Talent will now be appropriately reset upon killing any of The Lost Vikings.</li>
 </ul>
 
             </div>
@@ -750,6 +877,15 @@
 <ul>
 <li>Anub'arak, Arthas, Brightwing, Nova, Malfurion, Muradin, Murky, Tassadar, Tyrande, Rehgar, Zeratul</li>
 </ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Nova’s Holo Decoy will no longer pick up Doubloons if Nova is killed before the Decoy expires.</li>
+</ul>
+
+              <ul>
+<li>Nova's Holo Decoy now appropriately displays any Doubloons it collects on Blackheart’s Bay.</li>
 </ul>
 
             </div>
@@ -805,6 +941,15 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Bolt of the Storm and Zeratul’s Blink can no longer be cast while rooted.</li>
+</ul>
+
+              <ul>
+<li>Nova’s Holo Decoy will now appropriately use Basic Attacks even if it does not have enough Mana to cast Abilities when it is spawned.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -813,6 +958,20 @@
               <h3>2014-12-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16467431/heroes-technical-alpha-patch-notes-december-2-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Conjurer's Pursuit</strong></p>
+
+<ul>
+<li>Now also increases Mana regeneration by 0.5 per second in addition to its other effects</li>
+</ul>
+
+              <p><strong>Rewind</strong></p>
+
+<ul>
+<li>Now refreshes all Basic Ability cooldowns rather than reducing them by 10 seconds</li>
+<li>Cooldown increased from 60 to 90 seconds</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Booster Shot has been renamed to Perfect Shot</li>
@@ -828,18 +987,17 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Conjurer's Pursuit</strong></p>
-
-<ul>
-<li>Now also increases Mana regeneration by 0.5 per second in addition to its other effects</li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Activating the Rewind Talent will no longer refresh cooldowns for certain activated Traits.</li>
 </ul>
 
-              <p><strong>Rewind</strong></p>
+              <ul>
+<li>Heroes with a permanent Cloak will now properly Decloak when exiting the Dragon Knight or Garden Terror. <span class="hidden">Zeratul, Nova</span></li>
+</ul>
 
-<ul>
-<li>Now refreshes all Basic Ability cooldowns rather than reducing them by 10 seconds</li>
-<li>Cooldown increased from 60 to 90 seconds</li>
+              <ul>
+<li>Nova's Triple Tap will now be placed on reduced cooldown if the ability becomes cancelled before any shots are fired.</li>
 </ul>
 
             </div>
@@ -959,6 +1117,11 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Bonuses provided by Nova’s Advanced Cloaking Talent are now appropriately lost upon breaking Cloak.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -986,6 +1149,27 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Cloaked Heroes no longer become visible when standing on or passing through a Gate.<span class="hidden">Zeratul, Nova</span></li>
+</ul>
+
+              <ul>
+<li>Heroes are no longer automatically dismounted when attempting to cast Envenom on a target that is out of range.</li>
+</ul>
+
+              <ul>
+<li>Nova no longer becomes stuck for the duration of her Triple Tap Heroic Ability animation if the target is killed by the first shot.</li>
+</ul>
+
+              <ul>
+<li>Nova’s Triple Tap damage can no longer be nullified by short and medium ranged teleport effects.</li>
+</ul>
+
+              <ul>
+<li>Nova’s Triple Tap Heroic Ability can now properly be blocked by the Dragon Knight, the Garden Terror, and Hero clones created by Abathur’s Ultimate Evolution.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -994,12 +1178,6 @@
               <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Onslaught of the Storm (Talent) has been removed.</li>
-<li>Fury of the Storm (Talent) added at Level 20.</li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>New Talent (Level 4): Gathering Power</strong></p>
 
@@ -1036,6 +1214,54 @@
 <li>Path of the Wizard </li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Onslaught of the Storm (Talent) has been removed.</li>
+<li>Fury of the Storm (Talent) added at Level 20.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Cloaked Heroes now properly emerge decloaked when released from Stitches' Gorge ability.<span class="hidden">Zeratul, Nova</span></li>
+</ul>
+
+              <ul>
+<li>Fixed an issue that caused Nova to become stuck in her Triple Tap animation if the target was killed by its first or second shot.</li>
+</ul>
+
+              <ul>
+<li>Kill Streak effects are now properly displayed on the nameplate for Nova’s Holo Decoy.</li>
+</ul>
+
+              <ul>
+<li>Nova's Holo Drone now appropriately attacks Treasure Chests on Blackheart's Bay.</li>
+</ul>
+
+              <ul>
+<li>The cooldown timer for Nova’s Precision Strike Heroic Ability is now appropriately reduced when issuing Basic Attacks with the Battle Momentum Talent selected.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2014-06-25 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14537490/heroes-technical-alpha-patch-notes-june-25-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could cause Nova’s Triple Tap Heroic Ability to reset in certain unintended situations.</li>
+</ul>
+
+              <ul>
+<li>Nova’s Follow Through Talent will no longer stop functioning upon reviving after death.</li>
+</ul>
+
+              <ul>
+<li>Nova's Holo Decoys and Drones now correctly use a decloak animation when they are spawned.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -1044,6 +1270,20 @@
               <h3>2014-05-22 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14227686/heroes-technical-alpha-patch-notes-may-22-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Follow Through (Level 7)</strong></p>
+
+<ul>
+<li>After using an ability, the next basic attack deals 25% more damage.</li>
+<li>Currently only available on Nova</li>
+</ul>
+
+              <p><strong>Path of the Wizard</strong></p>
+
+<ul>
+<li>Mana regeneration per level decreased from 0.2 to 0.1.</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Nova has received significant Talent changes</strong></li>
@@ -1071,18 +1311,13 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Follow Through (Level 7)</strong></p>
-
-<ul>
-<li>After using an ability, the next basic attack deals 25% more damage.</li>
-<li>Currently only available on Nova</li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Graphic effects for Nova’s Triple Tap no longer persist on screen when Triple Tap is cast on a hero that dies before the ability completes.</li>
 </ul>
 
-              <p><strong>Path of the Wizard</strong></p>
-
-<ul>
-<li>Mana regeneration per level decreased from 0.2 to 0.1.</li>
+              <ul>
+<li>Nova’s Triple Tap missiles no longer stop chasing a target that has moved a long distance from Nova after the ability is cast.</li>
 </ul>
 
             </div>
@@ -1097,6 +1332,15 @@
               <ul>
 <li>Holo Decoy sight radius increased from <strong>3</strong> to <strong>6</strong>.</li>
 <li>Wounding Shot damage amplification reduced from <strong>30%</strong> to <strong>25%</strong>.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Nova’s Fast Reload Talent now correctly resets her Triple Tap cooldown when an enemy with a post-death state is killed shortly after being struck by Triple Tap.</li>
+</ul>
+
+              <ul>
+<li>Nova’s Triple Tap can no longer be absorbed by Abathur’s Toxic Nests.</li>
 </ul>
 
             </div>

@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -2212px; }
     </style>
   </head>
@@ -428,6 +429,19 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2016-07-27 Balance Update <a href="http://us.battle.net/heroes/en/blog/20184555/heroes-of-the-storm-balance-update-july-27-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Tyrael:</strong> It is no longer possible to deal damage with Basic Abilities while in Archangel's Wrath after choosing the Even in Death talent.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2016-07-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20164442/heroes-of-the-storm-patch-notes-july-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -550,6 +564,27 @@
   abilities.</p>
 </blockquote>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Nova:</strong> Triple Tap’s visual effects will no longer persist during an enemy Hero’s post-death effect, such as Tyrael’s Archangel’s Wrath.</li>
+</ul>
+
+              <ul>
+<li><strong>Nova:</strong> Will no longer receive an Invulnerability overlay on-screen if a Holo Decoy is affected by Tyrael’s Sanctification, but Nova herself is outside its area of effect.</li>
+</ul>
+
+              <ul>
+<li><strong>Tyrael:</strong> Casting Judgement on an enemy just as the target is killed will no longer teleport Tyrael to the enemy safe zone.</li>
+</ul>
+
+              <ul>
+<li><strong>Tyrael:</strong> The duration bar for El’Druin’s Might can no longer display during Archangel’s Wrath.</li>
+</ul>
+
+              <ul>
+<li><strong>Valla:</strong> Using Rain of Vengeance to score a killing blow on Tyrael or Uther will no longer cause an extraordinarily long respawn timer to appear while in Eternal Devotion or Archangel’s Wrath form.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -585,6 +620,11 @@
 <li>Mana cost reduced from 100 to 80</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Tyrael: Fixed a bug that caused Archangel’s Wrath to explode immediately in specific situations. </li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -593,12 +633,6 @@
               <h3>2016-05-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20120032/heroes-of-the-storm-patch-notes-may-17-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Health increased from 2373 (+4% per level) to 2468 (+4% per level).</li>
-<li>Health Regeneration increased from approximately 4.95 (+4% per level) to 5.14 (+4% per level).</li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Battle Momentum</strong></p>
 
@@ -687,6 +721,25 @@
   pushes this Talent to closer align with that goal.</p>
 </blockquote>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Health increased from 2373 (+4% per level) to 2468 (+4% per level).</li>
+<li>Health Regeneration increased from approximately 4.95 (+4% per level) to 5.14 (+4% per level).</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Angelic Flash will no longer allow Tyrael to teleport out of Root effects.</li>
+</ul>
+
+              <ul>
+<li>Casting Teleport just as Tyrael’s Judgment is about to hit Li-Ming will no longer cause her to slide a long distance.</li>
+</ul>
+
+              <ul>
+<li>Tyrael’s Status bar will no longer persist on-screen during Archangel’s Wrath if he is killed by Zagara’s Devouring Maw.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -700,6 +753,11 @@
 
 <ul>
 <li>Has been renamed to Vigorous Strikes</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Regeneration Globes will now properly grant healing and Regeneration Master stacks when collected as a Shield expires.</li>
 </ul>
 
             </div>
@@ -719,6 +777,11 @@
 <li>Instead, Regeneration Globe effects will now be applied directly to the Hero inside the Dragon Knight or Garden Terror.</li>
 </ul></li>
 <li>Players within a Dragon Knight or Garden Terror can now also accumulate stacks for Talents such as Seasoned Marksman, Gathering Power, Regeneration Master, etc.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The Battle Momentum Talent will now properly reduce Tyrael's Sanctification cooldown.</li>
 </ul>
 
             </div>
@@ -763,6 +826,27 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Casting Abathur’s Ultimate Evolution on Tyrael just as Tyrael is killed will now properly place Ultimate Evolution on a reduced cooldown.</li>
+</ul>
+
+              <ul>
+<li>Fixed an issue that could occasionally cause Tyrael's Judgment to fail to cast properly on the intended target.</li>
+</ul>
+
+              <ul>
+<li>Heroes that are struck by Tyrael’s Judgment and another knockback effect, such as The Butcher’s Ruthless Onslaught, in rapid succession will no longer be pushed farther than intended.</li>
+</ul>
+
+              <ul>
+<li>Tyrael will no longer fly to the enemy Hall of Storms if his Judgment target is killed before the Ability completes.</li>
+</ul>
+
+              <ul>
+<li>Tyrael's Judgment will no longer affect Heroes inside Zagara's Devouring Maw.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -771,16 +855,6 @@
               <h3>2015-06-30 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19803324/heroes-of-the-storm-patch-notes-june-30-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Vampiric Assault (Talent) removed</li>
-<li>Vampiric Strike (Talent) added at Level 4</li>
-<li><strong>Judgment (R)</strong>
-<ul>
-<li>Can no longer be cast on non-Heroic targets</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Blood for Blood</strong></p>
 
@@ -807,6 +881,16 @@
 <li>Each Health Globe now grants +1.5 Health Regeneration </li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Vampiric Assault (Talent) removed</li>
+<li>Vampiric Strike (Talent) added at Level 4</li>
+<li><strong>Judgment (R)</strong>
+<ul>
+<li>Can no longer be cast on non-Heroic targets</li>
+</ul></li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -830,24 +914,11 @@
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Cast Aside (Talent) removed</li>
-<li><strong>Righteousness (W)</strong>
+              <h4>Talents</h4>
+              <p><strong>Regeneration Master</strong></p>
+
 <ul>
-<li>Angelic Absorption (Talent)
-<ul>
-<li>Moved from Level 4 to Level 13</li>
-<li>Healing increased from 10 (+2 per level) to 20 (+4 per level) each second for 3 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Smite (E)</strong>
-<ul>
-<li>Purge Evil (Talent)
-<ul>
-<li>Damage bonus decreased from 30% to 25%</li>
-</ul></li>
-</ul></li>
+<li>Now grants 4 Health regeneration upon learning the Talent</li>
 </ul>
 
               <h4>New Level 20 Talents</h4>
@@ -871,11 +942,24 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Regeneration Master</strong></p>
-
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Cast Aside (Talent) removed</li>
+<li><strong>Righteousness (W)</strong>
 <ul>
-<li>Now grants 4 Health regeneration upon learning the Talent</li>
+<li>Angelic Absorption (Talent)
+<ul>
+<li>Moved from Level 4 to Level 13</li>
+<li>Healing increased from 10 (+2 per level) to 20 (+4 per level) each second for 3 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Smite (E)</strong>
+<ul>
+<li>Purge Evil (Talent)
+<ul>
+<li>Damage bonus decreased from 30% to 25%</li>
+</ul></li>
+</ul></li>
 </ul>
 
             </div>
@@ -893,6 +977,15 @@
 <li>This Talent has been removed from the game. </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>If Tyrael’s Judgment is cancelled prior to reaching the target, he will now continue to fly toward the target’s previous location rather than drop into unpathable terrain.</li>
+</ul>
+
+              <ul>
+<li>The Burning Rage Talent no longer deals double damage to towers affected by the Raven Lord’s Curse on the Cursed Hollow Battleground.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -901,14 +994,6 @@
               <h3>2014-12-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16467431/heroes-technical-alpha-patch-notes-december-2-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Judgment (R)</strong>
-<ul>
-<li>Damage reduced from 125 (+10 per level) to 60 (+8 per level)</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Resurgence of the Storm</strong></p>
 
@@ -920,6 +1005,27 @@
 
 <ul>
 <li>While active, Basic Attacks will now display “Crit!” floating text on impact</li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Judgment (R)</strong>
+<ul>
+<li>Damage reduced from 125 (+10 per level) to 60 (+8 per level)</li>
+</ul></li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2014-10-07 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16081848/heroes-technical-alpha-patch-notes-oct-7-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Kerrigan can no longer become invulnerable for the duration of her Assimilation Shield buff after landing the killing blow on an enemy Tyrael or Uther.</li>
 </ul>
 
             </div>
@@ -964,6 +1070,16 @@
               <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>With the addition of Artifacts, the following generic Talents have been removed:</strong></p>
+
+<ul>
+<li>Minion Killer </li>
+<li>Path of the Assassin </li>
+<li>Path of the Warrior </li>
+<li>Path of the Wizard </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>El’Druin’s Might (Q)</strong>
@@ -979,14 +1095,13 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>With the addition of Artifacts, the following generic Talents have been removed:</strong></p>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Tyrael will no longer follow his target to the opposing Altar when Judgment is cast just as the Hero is killed or finishes channeling Hearthstone.</li>
+</ul>
 
-<ul>
-<li>Minion Killer </li>
-<li>Path of the Assassin </li>
-<li>Path of the Warrior </li>
-<li>Path of the Wizard </li>
+              <ul>
+<li>Tyrael’s Righteousness ability can no longer apply its graphic effects on Raynor's Hyperion.</li>
 </ul>
 
             </div>
@@ -997,15 +1112,6 @@
               <h3>2014-06-25 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14537490/heroes-technical-alpha-patch-notes-june-25-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Archangel’s Wrath (Trait)</strong>
-<ul>
-<li>Movement Speed is no longer slowed during the Archangel’s Wrath death effect</li>
-<li>Tyrael’s Death Timer is no longer reduced for each Hero hit by Archangel’s Wrath</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Regeneration Master</strong></p>
 
@@ -1019,6 +1125,36 @@
 <li>Mana cost reduced from <strong>20</strong> to <strong>15</strong> per Basic Attack. </li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Archangel’s Wrath (Trait)</strong>
+<ul>
+<li>Movement Speed is no longer slowed during the Archangel’s Wrath death effect</li>
+<li>Tyrael’s Death Timer is no longer reduced for each Hero hit by Archangel’s Wrath</li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Li Li’s Healing Brew will no longer target or heal Tyrael in his Archangel’s Wrath form.</li>
+</ul>
+
+              <ul>
+<li>Li Li's Jug of 1,000 Cups Heroic Ability will no longer target or heal Tyrael in his Archangel’s Wrath form.</li>
+</ul>
+
+              <ul>
+<li>Tyrael will no longer become visually stuck at an elevated height after using Judgement on a mid-air target that was punted by the Dragon Knight.</li>
+</ul>
+
+              <ul>
+<li>Tyrael’s El’Druin’s Might ability no longer creates Scrap for Gazlowe when it expires.</li>
+</ul>
+
+              <ul>
+<li>Tyrael's Judgement Heroic Ability is now interrupted appropriately by Zeratul's Void Prison.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -1027,6 +1163,13 @@
               <h3>2014-05-22 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14227686/heroes-technical-alpha-patch-notes-may-22-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Path of the Warrior</strong></p>
+
+<ul>
+<li>Health gained per level increased from 25 to 35. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Archangel’s Wrath (Trait)</strong>
@@ -1087,11 +1230,9 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Path of the Warrior</strong></p>
-
-<ul>
-<li>Health gained per level increased from 25 to 35. </li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Searing Attacks no longer drains mana for each target hit by attacks that cleave.</li>
 </ul>
 
             </div>
@@ -1111,6 +1252,11 @@
 <li>Righteousness explosion radius increased from <strong>2</strong> to <strong>3</strong>.</li>
 </ul></li>
 <li>Judgment cooldown reduced from <strong>100</strong> to <strong>80</strong> seconds.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The Blood for Blood Talent can no longer target summoned Grave Golems on the Haunted Mines.</li>
 </ul>
 
             </div>

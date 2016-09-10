@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -1412px; }
     </style>
   </head>
@@ -367,6 +368,36 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2016-05-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20120032/heroes-of-the-storm-patch-notes-may-17-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Murky’s Egg will no longer be destroyed if Murky is Stuck by Tracer’s Pulse Bomb, but killed before the Pulse Bomb explodes.</li>
+</ul>
+
+              <ul>
+<li>When Murky’s Pufferfish is cast in a Bush or Vent, its explosion radius will now briefly appear to enemies with its area of effect before the Pufferfish explodes.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-04-27 Balance Update <a href="http://us.battle.net/heroes/en/blog/20102776/heroes-of-the-storm-balance-update-notes-april-27-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Murky’s Egg location will no longer be revealed if he is killed by Tracer’s Melee Ability.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2016-03-29 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20063493/heroes-of-the-storm-patch-notes-march-29-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -404,6 +435,28 @@
 <li>Block charges are now tracked in the buff bar next to the Hero portrait, and a timer has been added to show the time remaining until a new charge is generated.</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Murky’s Egg will no longer briefly display on the minimap if he is killed by Nova’s Pinning Shot.</li>
+</ul>
+
+              <ul>
+<li>Murky’s Pufferfish should now be easier to click when attempting to destroy it with Basic Attacks</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2015-12-15 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19981657/heroes-of-the-storm-patch-notes-december-15-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Artanis’ Purifier Beam will no longer track Murky back to his Egg if Murky was killed just as the Ability was cast.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -418,6 +471,11 @@
 <ul>
 <li>Summoned unit Basic Attacks will now miss if that Summon is Blinded or the target is Evading.</li>
 <li>Summoned unit Basic Attacks will no longer consume Block Talent stacks.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The visual and sound effects for Murky’s Octo-Grab will no longer persist if the target is killed at the same moment that the Ability is cast.</li>
 </ul>
 
             </div>
@@ -460,6 +518,11 @@
 <li>Only Minions, captured enemy Mercenaries, and Heroes will grant stacks upon death</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Murky can no longer use Pufferfish to permanently reveal parts of the fog of war before the match starts.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -468,6 +531,21 @@
               <h3>2015-06-30 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19803324/heroes-of-the-storm-patch-notes-june-30-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Blood for Blood</strong></p>
+
+<ul>
+<li>No longer slows the target </li>
+<li>Damage decreased from 15% to 10% of the target’s maximum Health </li>
+<li>Heal amount increased from 100% to 200% of damage dealt </li>
+</ul>
+
+              <p><strong>Envenom</strong></p>
+
+<ul>
+<li>Duration increased from 5 to 10 seconds, but damage has not been changed </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Living the Dream (Talent)
@@ -484,19 +562,9 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Blood for Blood</strong></p>
-
-<ul>
-<li>No longer slows the target </li>
-<li>Damage decreased from 15% to 10% of the target’s maximum Health </li>
-<li>Heal amount increased from 100% to 200% of damage dealt </li>
-</ul>
-
-              <p><strong>Envenom</strong></p>
-
-<ul>
-<li>Duration increased from 5 to 10 seconds, but damage has not been changed </li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could prevent Murky’s Egg from being placed on diagonal paths.</li>
 </ul>
 
             </div>
@@ -507,6 +575,13 @@
               <h3>2015-05-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19067455/heroes-closed-beta-patch-notes-may-12-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Clairvoyance</strong></p>
+
+<ul>
+<li>Now breaks units within its radius out of Stealth, rather than revealing them </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Spawn Egg (Trait)</strong>
@@ -517,13 +592,6 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Clairvoyance</strong></p>
-
-<ul>
-<li>Now breaks units within its radius out of Stealth, rather than revealing them </li>
-</ul>
-
             </div>
           </div>
           <hr>
@@ -532,6 +600,13 @@
               <h3>2015-03-24 Patch Notes <a href="http://us.battle.net/heroes/en/blog/18401781/heroes-closed-beta-patch-notes-march-24-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Blood for Blood</strong></p>
+
+<ul>
+<li>This Talent has received a visual update. It should now be much easier to identify both the target and caster of Blood for Blood. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Health Regeneration increased from 5 (+0.125 per level) to 10 (+2.4 per level)</li>
@@ -559,13 +634,6 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Blood for Blood</strong></p>
-
-<ul>
-<li>This Talent has received a visual update. It should now be much easier to identify both the target and caster of Blood for Blood. </li>
-</ul>
-
             </div>
           </div>
           <hr>
@@ -579,6 +647,24 @@
 
 <ul>
 <li>Abathur's Ultimate Evolution clones, Murky, and The Lost Vikings’ deaths are now represented in 0.25 increments on score screens, as killing them awards 25% of the normal XP amount earned by killing another hero.</li>
+</ul>
+
+              <h4>Talents</h4>
+              <p><strong>General</strong></p>
+
+<ul>
+<li>All Heroes (including Murky and The Lost Vikings) now count as full credit toward Talents which require Hero kills (such as Gathering Power).</li>
+</ul>
+
+              <p><strong>Rewind</strong></p>
+
+<ul>
+<li>Has been moved from Level 13 to Level 20</li>
+<li>Has been removed from many Heroes</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Anub'arak, Arthas, Brightwing, Nova, Malfurion, Muradin, Murky, Tassadar, Tyrande, Rehgar, Zeratul</li>
+</ul></li>
 </ul>
 
               <h4>Hero Updates</h4>
@@ -606,22 +692,26 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>General</strong></p>
-
-<ul>
-<li>All Heroes (including Murky and The Lost Vikings) now count as full credit toward Talents which require Hero kills (such as Gathering Power).</li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Internal text will no longer display when Azmodan's Demons kill Murky's Egg.</li>
 </ul>
 
-              <p><strong>Rewind</strong></p>
+              <ul>
+<li>Lighting issues will no longer occur when Murky is revived at an Egg placed in the Haunted Mines.</li>
+</ul>
 
-<ul>
-<li>Has been moved from Level 13 to Level 20</li>
-<li>Has been removed from many Heroes</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Anub'arak, Arthas, Brightwing, Nova, Malfurion, Muradin, Murky, Tassadar, Tyrande, Rehgar, Zeratul</li>
-</ul></li>
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2015-01-13 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17345414/heroes-closed-beta-patch-notes-january-13-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Bolt of the Storm and Zeratul’s Blink can no longer be cast while rooted.</li>
 </ul>
 
             </div>
@@ -638,6 +728,36 @@
 <ul>
 <li>Now refreshes all Basic Ability cooldowns rather than reducing them by 10 seconds</li>
 <li>Cooldown increased from 60 to 90 seconds</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Activating the Rewind Talent will no longer refresh cooldowns for certain activated Traits.</li>
+</ul>
+
+              <ul>
+<li>Murky's Octo-Grab now properly reveals the target throughout its duration. </li>
+</ul>
+
+              <ul>
+<li>The damage over time component of Murky’s March of the Murlocs is now properly paused, and the movement speed reduction effect of the Ability removed, when the target becomes invulnerable.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2014-10-07 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16081848/heroes-technical-alpha-patch-notes-oct-7-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>If Murky’s Egg is destroyed at the exact time he would have respawned, he will now respawn at the Egg’s former location.</li>
+</ul>
+
+              <ul>
+<li>Murky no longer benefits from the Zagara’s Creep Tumor Movement Speed bonus.</li>
 </ul>
 
             </div>
@@ -718,6 +838,19 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Heroes are no longer automatically dismounted when attempting to cast Envenom on a target that is out of range.</li>
+</ul>
+
+              <ul>
+<li>Murky will no longer instantly respawn in base if he is killed just before his Egg is destroyed.</li>
+</ul>
+
+              <ul>
+<li>Murky’s Octo-Grab Heroic Ability now appropriately receives a reduced cooldown timer if it does not cast properly.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -726,6 +859,26 @@
               <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Block</strong></p>
+
+<ul>
+<li>Has been moved from Level 7 to Level 1 </li>
+</ul>
+
+              <p><strong>New Talent (Level 4): Gathering Power</strong></p>
+
+<ul>
+<li>Passively grants +8% Ability Power </li>
+<li>Each Hero takedown grants an additional 2% Ability Power, up to a maximum of 12%. This bonus is lost on death. </li>
+</ul>
+
+              <p><strong>Rewind</strong></p>
+
+<ul>
+<li>Has been moved from Level 16 to Level 13 </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Demolitionist (Talent) has been removed.</li>
@@ -782,24 +935,17 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Block</strong></p>
-
-<ul>
-<li>Has been moved from Level 7 to Level 1 </li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Murky no longer instantly respawns when he and his Egg are destroyed simultaneously.</li>
 </ul>
 
-              <p><strong>New Talent (Level 4): Gathering Power</strong></p>
-
-<ul>
-<li>Passively grants +8% Ability Power </li>
-<li>Each Hero takedown grants an additional 2% Ability Power, up to a maximum of 12%. This bonus is lost on death. </li>
+              <ul>
+<li>Murky’s deaths are now appropriately recorded on the Tab screen when his Egg is destroyed before Murky respawns.</li>
 </ul>
 
-              <p><strong>Rewind</strong></p>
-
-<ul>
-<li>Has been moved from Level 16 to Level 13 </li>
+              <ul>
+<li>Murlocs created by Murky’s March of the Murlocs ability can no longer attach to or damage destructible barrels.</li>
 </ul>
 
             </div>
@@ -810,6 +956,13 @@
               <h3>2014-06-25 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14537490/heroes-technical-alpha-patch-notes-june-25-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Demolitionist</strong></p>
+
+<ul>
+<li>Ammo destruction reduced from <strong>2</strong> to <strong>1</strong> per Basic Attack to compensate for Attack Speed changes. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Murky is now revealed and his current location is pinged on the minimap for 10 seconds following the death of his Egg.</li>
@@ -867,13 +1020,6 @@
 <li>Murloc Movement Speed decreased by <strong>25%</strong></li>
 <li>Casting width has been increased, but the number of Murlocs spawned is unchanged</li>
 </ul></li>
-</ul>
-
-              <h4>Talents</h4>
-              <p><strong>Demolitionist</strong></p>
-
-<ul>
-<li>Ammo destruction reduced from <strong>2</strong> to <strong>1</strong> per Basic Attack to compensate for Attack Speed changes. </li>
 </ul>
 
             </div>

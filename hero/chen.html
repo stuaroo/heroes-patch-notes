@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -412px; }
     </style>
   </head>
@@ -347,16 +348,6 @@
               <h3>2016-07-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20164442/heroes-of-the-storm-patch-notes-july-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fortifying Brew (Trait)</strong>
-<ul>
-<li>Can no longer be cancelled by reactivating the hotkey (default D)</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Relentless</strong></p>
 
@@ -373,6 +364,34 @@
   it can reduce.</p>
 </blockquote>
 
+              <h4>Hero Updates</h4>
+              <p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Fortifying Brew (Trait)</strong>
+<ul>
+<li>Can no longer be cancelled by reactivating the hotkey (default D)</li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Zeratul:</strong> Void Prison will now properly interrupt Flying Kick if the target moves too far out of range while Chen is in Stasis. </li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-06-14 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20143449/heroes-of-the-storm-patch-notes-june-14-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Chen: The leap distances of the Storm Earth, Fire clones should now be consistent. </li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -381,12 +400,6 @@
               <h3>2016-05-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20120032/heroes-of-the-storm-patch-notes-may-17-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Health increased from 2556 (+4% per level) to 2658 (+4% per level).</li>
-<li>Health Regeneration increased from approximately 5.32 (+4% per level) to 5.54 (+4% per level).</li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Regeneration Master</strong></p>
 
@@ -408,6 +421,21 @@
   team composition has always been an important goal for us, and this change
   pushes this Talent to closer align with that goal.</p>
 </blockquote>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Health increased from 2556 (+4% per level) to 2658 (+4% per level).</li>
+<li>Health Regeneration increased from approximately 5.32 (+4% per level) to 5.54 (+4% per level).</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Casting Dehaka’s Isolation on a summoned unit or Heroic pet, such as Misha, Gargantuan, or a Holo Decoy, will no longer also cause the Hero who owns that unit to lose allied vision.
+<ul>
+<li>Additionally, if one of The Lost Vikings or Chen’s Storm, Earth, Fire Spirits are hit by Isolation, only the affected unit will have reduced personal vision, but the player should retain allied vision.</li>
+<li>Alternatively, if the only living Viking or Spirit is hit by Isolation, the player will have reduced personal vision and lose allied vision for Isolation’s full duration. <span class="hidden">Rexxar, Nazeebo, Nova</span></li>
+</ul></li>
+</ul>
 
             </div>
           </div>
@@ -445,6 +473,45 @@
 <ul>
 <li>A 0.5 second cooldown has been added between activation and cancellation of Fortifying Brew channeling</li>
 </ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Regeneration Globes will now properly grant healing and Regeneration Master stacks when collected as a Shield expires.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-02-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19995509/heroes-of-the-storm-patch-notes-february-2-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Chen’s Abilities will no longer grant him 3 extra Brew when using an Ability while channeling Fortifying Brew.</li>
+</ul>
+
+              <ul>
+<li>Fixed an issue that prevented Chen from traveling through the intended target using Flying Kick.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2015-11-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19960704/heroes-of-the-storm-patch-notes-november-17-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Chen’s Spirit forms will now properly leave Stealth after casting an Ability during Storm, Earth, Fire.</li>
+</ul>
+
+              <ul>
+<li>Heroes with the Relentless Talent that become Polymorphed will now properly receive damage from Brightwing’s Unstable Anomaly Talent when Polymorph expires.</li>
 </ul>
 
             </div>
@@ -534,6 +601,11 @@
   help him at competitive levels.</p>
 </blockquote>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Chen will no longer earn three extra Brew after casting another Ability during Fortifying Brew.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -542,14 +614,6 @@
               <h3>2015-08-18 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19818499/heroes-of-the-storm-patch-notes-august-18-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Flying Kick (Q)</strong>
-<ul>
-<li>Flying Kick is now much more accurate and will hit enemies much more consistently.</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Bolt of the Storm</strong></p>
 
@@ -565,6 +629,23 @@
 
 <ul>
 <li>Cooldown increased from 40 to 70 seconds</li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Flying Kick (Q)</strong>
+<ul>
+<li>Flying Kick is now much more accurate and will hit enemies much more consistently.</li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Chen’s Flying Kick will now be properly canceled when cast on an enemy that is transitioning between levels on the Haunted Mines. </li>
+</ul>
+
+              <ul>
+<li>Fixed an issue in which certain movement-based Abilities, such as Kerrigan’s Ravage or Chen’s Flying Kick, could not target the Doubloon Chests on Blackheart’s Bay, or Plant Terror Overgrowths on Garden of Terror.</li>
 </ul>
 
             </div>
@@ -637,9 +718,40 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2015-03-24 Patch Notes <a href="http://us.battle.net/heroes/en/blog/18401781/heroes-closed-beta-patch-notes-march-24-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Tassadar's Distortion Beam will now more appropriately track Chen and The Lost Vikings when they are in their Wandering Keg and Longboat Raid! forms.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Regeneration Master</strong></p>
+
+<ul>
+<li>Now grants 4 Health regeneration upon learning the Talent</li>
+</ul>
+
+              <h4>New Level 20 Talents</h4>
+              <p><strong>Hardened Shield</strong></p>
+
+<ul>
+<li>Activate to reduce all incoming damage by 75% for 4 seconds; 60 second cooldown</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Anub’arak, Arthas, Chen, Gazlowe, Muradin, Sonya, Stitches, Tyrael</li>
+</ul></li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>The color of Chen’s Brew resource bar has been changed to yellow.</li>
@@ -712,22 +824,17 @@
 </ul></li>
 </ul>
 
-              <h4>New Level 20 Talents</h4>
-              <p><strong>Hardened Shield</strong></p>
-
-<ul>
-<li>Activate to reduce all incoming damage by 75% for 4 seconds; 60 second cooldown</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Anub’arak, Arthas, Chen, Gazlowe, Muradin, Sonya, Stitches, Tyrael</li>
-</ul></li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Spirits created by Chen’s Storm, Earth, Fire Heroic Ability can no longer capture the Dragon Knight on Dragon Shire. </li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Regeneration Master</strong></p>
+              <ul>
+<li>Spirits created by Chen’s Storm, Earth, Fire Heroic Ability will no longer fly across the Battleground after using their Triple Attack or Split Up Abilities to cross an enemy Zeratul’s Void Prison.</li>
+</ul>
 
-<ul>
-<li>Now grants 4 Health regeneration upon learning the Talent</li>
+              <ul>
+<li>Visual effects for Chen's Brewmaster's Balance Talent will no longer persist after Chen is killed.</li>
 </ul>
 
             </div>
@@ -744,6 +851,15 @@
 <ul>
 <li>Now has a 1 second cast time, during which the Ability can be interrupted.</li>
 </ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Bolt of the Storm and Zeratul’s Blink can no longer be cast while rooted.</li>
+</ul>
+
+              <ul>
+<li>Chen’s Storm, Earth, Fire Spirits no longer become unable to cast Abilities if Triple Attack is used to jump into the enemy Altar of Storms.</li>
 </ul>
 
             </div>
@@ -767,12 +883,34 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2014-10-07 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16081848/heroes-technical-alpha-patch-notes-oct-7-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Chen can now properly enter the Haunted Mines while using his Storm, Earth, Fire Heroic Ability.</li>
+</ul>
+
+              <ul>
+<li>Chen's Flying Kick will no longer stop working after Stitches’ Hook pulls him to an impassable object.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2014-09-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/15787795/heroes-technical-alpha-patch-notes-sept-10-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
               <h4>New Hero</h4>
               <ul>
 <li>Chen has been added to Heroes of the Storm and is now available for play!</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue which could prevent Chen from turning in additional Doubloons on subsequent turn-in attempts after successfully bribing Blackheart.</li>
 </ul>
 
             </div>

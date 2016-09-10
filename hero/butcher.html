@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -3712px; }
     </style>
   </head>
@@ -298,7 +299,7 @@
                   <tr>
                     <td>Q</td>
                     <td>Hamstring</td>
-                    <td>Deal 110 (+4% per level) damage and slow enemies by 49.92% fading over 2 seconds.  Your next Basic Attack will strike immediately.</td>
+                    <td>Deal 110 (+4% per level) damage and slow enemies by 50% fading over 2 seconds.  Your next Basic Attack will strike immediately.</td>
                   </tr>
                   <tr>
                     <td>W</td>
@@ -363,6 +364,23 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2016-06-14 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20143449/heroes-of-the-storm-patch-notes-june-14-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The Butcher: Hamstring now deals the correct amount of damage to Heroic targets when both the Cheap Shot and Chop Meat talents are selected. </li>
+</ul>
+
+              <ul>
+<li>The Butcher: The cooldown of the Enraged talent now accurately matches the tooltip at 25 seconds. </li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2016-04-27 Balance Update <a href="http://us.battle.net/heroes/en/blog/20102776/heroes-of-the-storm-balance-update-notes-april-27-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -419,6 +437,25 @@
               <h3>2016-03-29 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20063493/heroes-of-the-storm-patch-notes-march-29-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Block</strong></p>
+
+<ul>
+<li>Damage reduction increased from 50% to 75%</li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> We want to improve counter-pick talents like Block
+  that are meant to be strong against certain hero types. We’re hoping that
+  these kinds of Talents will have a more meaningful impact in games in which
+  they are picked, and that there are more situations where the enemy team’s
+  composition drives intelligent Talent choices.  </p>
+  
+  <p>Other effects similar to Block have been evaluated on a case-by-case basis for
+  all Heroes, with some gaining increased Block damage reduction, while others
+  stayed at 50%.</p>
+</blockquote>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Lamb to the Slaughter (R)</strong>
@@ -440,24 +477,10 @@
   some counter-play through Talents and abilities that grant Unstoppable.</p>
 </blockquote>
 
-              <h4>Talents</h4>
-              <p><strong>Block</strong></p>
-
-<ul>
-<li>Damage reduction increased from 50% to 75%</li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed a bug affecting Stitches and The Butcher that could cause performance issues under certain circumstances.</li>
 </ul>
-
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> We want to improve counter-pick talents like Block
-  that are meant to be strong against certain hero types. We’re hoping that
-  these kinds of Talents will have a more meaningful impact in games in which
-  they are picked, and that there are more situations where the enemy team’s
-  composition drives intelligent Talent choices.  </p>
-  
-  <p>Other effects similar to Block have been evaluated on a case-by-case basis for
-  all Heroes, with some gaining increased Block damage reduction, while others
-  stayed at 50%.</p>
-</blockquote>
 
             </div>
           </div>
@@ -494,6 +517,13 @@
 <li>Damage dealt by splash and cleave attacks will no longer trigger effects that would otherwise require a direct attack to trigger (ex: Block, Spell Shield, Imposing Presence, etc.)</li>
 </ul>
 
+              <h4>Talents</h4>
+              <p><strong>Block</strong></p>
+
+<ul>
+<li>Block charges are now tracked in the buff bar next to the Hero portrait, and a timer has been added to show the time remaining until a new charge is generated.</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Lamb to the Slaughter (R)</strong>
@@ -511,11 +541,17 @@
   bound to a stake: scared and helpless.</p>
 </blockquote>
 
-              <h4>Talents</h4>
-              <p><strong>Block</strong></p>
-
-<ul>
-<li>Block charges are now tracked in the buff bar next to the Hero portrait, and a timer has been added to show the time remaining until a new charge is generated.</li>
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2015-11-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19960704/heroes-of-the-storm-patch-notes-november-17-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The visual effects for Butcher’s Brand will no longer persist on a target that is protected from death by Kharazim’s Divine Palm.</li>
 </ul>
 
             </div>
@@ -556,6 +592,15 @@
   damage will be much more consistent with this change.</p>
 </blockquote>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Falstad’s Hinterland Blast will no longer be placed on reduced cooldown when it is successfully cast at the same moment that Falstad is stunned by The Butcher’s Ruthless Onslaught.</li>
+</ul>
+
+              <ul>
+<li>The Butcher will no longer stop his Ruthless Onslaught charge if Abathur's Ultimate Evolution clone charges the target first.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -579,6 +624,19 @@
 
 <ul>
 <li>Cooldown increased from 40 to 70 seconds</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Heroes that are struck by Tyrael’s Judgment and another knockback effect, such as The Butcher’s Ruthless Onslaught, in rapid succession will no longer be pushed farther than intended.</li>
+</ul>
+
+              <ul>
+<li>Ruthless Onslaught will no longer cause The Butcher to continue searching for the target even after losing vision of that Hero.</li>
+</ul>
+
+              <ul>
+<li>The Butcher’s Savage Charge Talent will now properly apply its damage bonus when using Ruthless Onslaught on an enemy Hero that has less than 50% Health remaining.</li>
 </ul>
 
             </div>

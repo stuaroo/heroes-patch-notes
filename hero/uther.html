@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -2312px; }
     </style>
   </head>
@@ -443,6 +444,15 @@
   from on various talent tiers.</p>
 </blockquote>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Uther:</strong> Can no longer use Healing Wells while in Eternal Devotion form.</li>
+</ul>
+
+              <ul>
+<li><strong>Valla:</strong> Using Rain of Vengeance to score a killing blow on Tyrael or Uther will no longer cause an extraordinarily long respawn timer to appear while in Eternal Devotion or Archangel’s Wrath form.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -451,29 +461,6 @@
               <h3>2016-05-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20120032/heroes-of-the-storm-patch-notes-may-17-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Hammer of Justice (E)</strong>
-<ul>
-<li>Stun duration reduced from 1 to 0.75 seconds.</li>
-<li>Cooldown reduced from 10 to 8 seconds.</li>
-<li>Mana cost reduced from 50 to 40.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> We’ve received a lot of feedback from players
-  regarding the popular strategy of chaining movement impairing effects, like
-  Stuns and Roots, on an enemy Hero. While we want this to be a viable way to
-  play, we feel it’s currently too prominent and powerful at higher levels of
-  play. As a result, we are reducing the duration of many of these effects in
-  the game. In scenarios where this change nerfs a character we don’t otherwise
-  want to nerf, we’re coupling it with a buff to help offset the difference.
-  While this change hasn’t reduced all effects that might make you lose control
-  of your Hero, we feel these are some of the more egregious ones. As always, we
-  will make further changes if necessary.</p>
-</blockquote>
-
               <h4>Talents</h4>
               <p><strong>Conjurer's Pursuit</strong></p>
 
@@ -501,6 +488,42 @@
 <ul>
 <li>The Health bar next to the Hero Portrait will now display a marker that indicates whether the Hero is above or below 80% Health.</li>
 <li>Will now display an icon in the Buff bar next to the Hero Portrait while its effects are active.</li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Hammer of Justice (E)</strong>
+<ul>
+<li>Stun duration reduced from 1 to 0.75 seconds.</li>
+<li>Cooldown reduced from 10 to 8 seconds.</li>
+<li>Mana cost reduced from 50 to 40.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> We’ve received a lot of feedback from players
+  regarding the popular strategy of chaining movement impairing effects, like
+  Stuns and Roots, on an enemy Hero. While we want this to be a viable way to
+  play, we feel it’s currently too prominent and powerful at higher levels of
+  play. As a result, we are reducing the duration of many of these effects in
+  the game. In scenarios where this change nerfs a character we don’t otherwise
+  want to nerf, we’re coupling it with a buff to help offset the difference.
+  While this change hasn’t reduced all effects that might make you lose control
+  of your Hero, we feel these are some of the more egregious ones. As always, we
+  will make further changes if necessary.</p>
+</blockquote>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that caused the Hardened Focus Talent to reduce cooldowns for Uther’s Holy Light and Holy Shock more quickly than intended.</li>
+</ul>
+
+              <ul>
+<li>Fixed an issue that prevented Uther’s Holy Shock from revealing the target if it was cast just as they entered a Bush or Vent.</li>
+</ul>
+
+              <ul>
+<li>Holy Radiance will no longer return Mana or have its cooldown reduced when cast on non-Heroic units after learning the Wave of Light Talent.<span class="hidden">Uther</span></li>
 </ul>
 
             </div>
@@ -565,6 +588,19 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2016-03-01 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20049139/heroes-of-the-storm-patch-notes-march-1-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could cause Uther to become stuck in a death state if he was killed while the Redemption Talent’s cooldown expired. </li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2016-02-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19995509/heroes-of-the-storm-patch-notes-february-2-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -575,19 +611,19 @@
 <li>Damage dealt by splash and cleave attacks will no longer trigger effects that would otherwise require a direct attack to trigger (ex: Block, Spell Shield, Imposing Presence, etc.)</li>
 </ul>
 
+              <h4>Talents</h4>
+              <p><strong>Block</strong></p>
+
+<ul>
+<li>Block charges are now tracked in the buff bar next to the Hero portrait, and a timer has been added to show the time remaining until a new charge is generated.</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Hammer of Justice (E)</strong>
 <ul>
 <li>Can no longer be cast on Structures</li>
 </ul></li>
-</ul>
-
-              <h4>Talents</h4>
-              <p><strong>Block</strong></p>
-
-<ul>
-<li>Block charges are now tracked in the buff bar next to the Hero portrait, and a timer has been added to show the time remaining until a new charge is generated.</li>
 </ul>
 
             </div>
@@ -671,6 +707,11 @@
 <li>Summoned unit Basic Attacks will no longer consume Block Talent stacks.</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Uther will no longer be teleported back to the Hall of Storms if his Redemption Talent cooldown expires while he is in Eternal Devotion form.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -732,6 +773,15 @@
 
 <ul>
 <li>Duration increased from 2 to 3 seconds </li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could cause the Mana costs for Uther’s Basic Abilities to permanently increase under certain circumstances.</li>
+</ul>
+
+              <ul>
+<li>Uther’s Holy Radiance will now properly damage Abathur’s Toxic Nests and Zagara’s Creep Tumors.</li>
 </ul>
 
             </div>
@@ -866,6 +916,11 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which Shrink Ray could fail to apply its 50% damage reduction if the target had already begun casting an Ability prior to coming under Shrink Ray’s effects.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -881,6 +936,11 @@
 <li>This Talent has been removed from the game. </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>The Burning Rage Talent no longer deals double damage to towers affected by the Raven Lord’s Curse on the Cursed Hollow Battleground.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -889,22 +949,6 @@
               <h3>2014-12-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16467431/heroes-technical-alpha-patch-notes-december-2-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Holy Light (Q)</strong>
-<ul>
-<li>Heal amount reduced from 150 (+44 per level) to 135 (+40 per level)</li>
-</ul></li>
-<li><strong>Holy Radiance (W)</strong>
-<ul>
-<li>Gathering Radiance (Talent)
-<ul>
-<li>The damage and healing bonuses for each target hit are no longer separate. </li>
-<li>Now increases damage and healing by 5% for each target hit, retaining its previous 50% maximum.</li>
-</ul></li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Conjurer's Pursuit</strong></p>
 
@@ -924,6 +968,22 @@
 <li>Cooldown increased from 120 to 180 seconds</li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Holy Light (Q)</strong>
+<ul>
+<li>Heal amount reduced from 150 (+44 per level) to 135 (+40 per level)</li>
+</ul></li>
+<li><strong>Holy Radiance (W)</strong>
+<ul>
+<li>Gathering Radiance (Talent)
+<ul>
+<li>The damage and healing bonuses for each target hit are no longer separate. </li>
+<li>Now increases damage and healing by 5% for each target hit, retaining its previous 50% maximum.</li>
+</ul></li>
+</ul></li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -939,6 +999,11 @@
 <li>Shield value changed from <strong>300 (+30 per level)</strong> to <strong>185 (+35 per level)</strong></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Kerrigan can no longer become invulnerable for the duration of her Assimilation Shield buff after landing the killing blow on an enemy Tyrael or Uther.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -947,19 +1012,6 @@
               <h3>2014-09-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/15787795/heroes-technical-alpha-patch-notes-sept-10-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li>Rewind (Talent) has been removed from Uther.</li>
-<li><strong>Divine Shield (R)</strong>
-<ul>
-<li>Bulwark of Light (Talent)
-<ul>
-<li>No longer heals the target for 40% of its maximum Health</li>
-<li>Uther now also gains Divine Shield when Divine Shield is cast on an ally.​</li>
-</ul></li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Cleanse</strong></p>
 
@@ -973,6 +1025,36 @@
 <li>Target search radius increased from <strong>5</strong> to <strong>8</strong></li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li>Rewind (Talent) has been removed from Uther.</li>
+<li><strong>Divine Shield (R)</strong>
+<ul>
+<li>Bulwark of Light (Talent)
+<ul>
+<li>No longer heals the target for 40% of its maximum Health</li>
+<li>Uther now also gains Divine Shield when Divine Shield is cast on an ally.​</li>
+</ul></li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>AI-controlled Heroes that are attempting to cast Hearthstone will now react more appropriately to an attacking Uther ghost.</li>
+</ul>
+
+              <ul>
+<li>Uther’s Holy Light Ability is now properly affected by the Rewind Activated Talent.</li>
+</ul>
+
+              <ul>
+<li>Uther’s Holy Shock Talent no longer allows his Holy Light Ability to target allied Structures.</li>
+</ul>
+
+              <ul>
+<li>Uther’s Protect the Weak Talent can no longer be triggered by casting Holy Shock on enemy Minions or Mercenaries.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -981,14 +1063,6 @@
               <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Holy Radiance (W)</strong>
-<ul>
-<li>Width reduced from 3 to 2.5</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Hardened Focus</strong></p>
 
@@ -1018,6 +1092,14 @@
 <li>Path of the Wizard </li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Holy Radiance (W)</strong>
+<ul>
+<li>Width reduced from 3 to 2.5</li>
+</ul></li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -1026,6 +1108,26 @@
               <h3>2014-05-22 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14227686/heroes-technical-alpha-patch-notes-may-22-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Cleanse</strong></p>
+
+<ul>
+<li>Cooldown decreased from 60 to 30 seconds</li>
+</ul>
+
+              <p><strong>Hardened Focus (Level 13)</strong></p>
+
+<ul>
+<li>Ability cooldowns recharge 50% faster while above 80% Health.</li>
+<li>Currently only available on Uther</li>
+</ul>
+
+              <p><strong>Path of the Wizard</strong></p>
+
+<ul>
+<li>Mana regeneration per level decreased from 0.2 to 0.1.</li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Has received significant Talent changes</strong>
@@ -1064,24 +1166,9 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Cleanse</strong></p>
-
-<ul>
-<li>Cooldown decreased from 60 to 30 seconds</li>
-</ul>
-
-              <p><strong>Hardened Focus (Level 13)</strong></p>
-
-<ul>
-<li>Ability cooldowns recharge 50% faster while above 80% Health.</li>
-<li>Currently only available on Uther</li>
-</ul>
-
-              <p><strong>Path of the Wizard</strong></p>
-
-<ul>
-<li>Mana regeneration per level decreased from 0.2 to 0.1.</li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>A.I. heroes should now respond more appropriately to an enemy Uther in Eternal Devotion form.</li>
 </ul>
 
             </div>

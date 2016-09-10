@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Diablo, Melee Warrior, patch note history.  Last relevant patch: 2016-07-12">
+    <meta name="description" content="Diablo, Melee Warrior, patch note history.  Last relevant patch: 2016-07-27">
         <title>Diablo Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -512px; }
     </style>
   </head>
@@ -344,6 +345,19 @@
           </h2>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2016-07-27 Balance Update <a href="http://us.battle.net/heroes/en/blog/20184555/heroes-of-the-storm-balance-update-july-27-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Greymane:</strong> Will no longer become stuck if Darkflight is interrupted by Diablo’s Shadow Charge or Stitches’ Hook. </li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2016-07-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20164442/heroes-of-the-storm-patch-notes-july-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -371,43 +385,6 @@
               <h3>2016-05-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20120032/heroes-of-the-storm-patch-notes-may-17-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Shadow Charge (Q)</strong>
-<ul>
-<li>The implementation for this Ability has been reworked.
-<ul>
-<li>No longer automatically Stuns the target at the end of the knockback phase, and instead applies a Daze for the duration of the knockback.</li>
-<li>Targets that collide with terrain will still be stunned for 1 second.</li>
-<li>Diablo will now continue travelling toward the enemy target for the duration of the knockback phase.</li>
-</ul></li>
-</ul></li>
-<li><strong>Apocalypse (R)</strong>
-<ul>
-<li>Stun duration reduced from 2 to 1.75 seconds.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> Shadow Charge seems like a really simple Ability,
-  but on the backend there were a lot of technical manipulations to make
-  everything work the way they were intended. These were starting to create odd
-  gameplay and bugs, so we’ve simplified the design of the Ability so that
-  Diablo travels right alongside his victim as they are knocked back, instead of
-  walking really fast toward them. </p>
-  
-  <p>Additionally, we’ve received a lot of feedback from players
-  regarding the popular strategy of chaining movement impairing effects, like
-  Stuns and Roots, on an enemy Hero. While we want this to be a viable way to
-  play, we feel it’s currently too prominent and powerful at higher levels of
-  play. As a result, we are reducing the duration of many of these effects in
-  the game. In scenarios where this change nerfs a character we don’t otherwise
-  want to nerf, we’re coupling it with a buff to help offset the difference.
-  While this change hasn’t reduced all effects that might make you lose control
-  of your Hero, we feel these are some of the more egregious ones. As always, we
-  will make further changes if necessary.</p>
-</blockquote>
-
               <h4>Talents</h4>
               <p><strong>Battle Momentum</strong></p>
 
@@ -473,6 +450,43 @@
   also made Battle Momentum Hero-specific, so that we can tune each one without
   affecting all the rest, since Attack Speed, melee versus range, and the nature
   of your Basic Abilities can all drastically change what is balanced.</p>
+</blockquote>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Shadow Charge (Q)</strong>
+<ul>
+<li>The implementation for this Ability has been reworked.
+<ul>
+<li>No longer automatically Stuns the target at the end of the knockback phase, and instead applies a Daze for the duration of the knockback.</li>
+<li>Targets that collide with terrain will still be stunned for 1 second.</li>
+<li>Diablo will now continue travelling toward the enemy target for the duration of the knockback phase.</li>
+</ul></li>
+</ul></li>
+<li><strong>Apocalypse (R)</strong>
+<ul>
+<li>Stun duration reduced from 2 to 1.75 seconds.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> Shadow Charge seems like a really simple Ability,
+  but on the backend there were a lot of technical manipulations to make
+  everything work the way they were intended. These were starting to create odd
+  gameplay and bugs, so we’ve simplified the design of the Ability so that
+  Diablo travels right alongside his victim as they are knocked back, instead of
+  walking really fast toward them. </p>
+  
+  <p>Additionally, we’ve received a lot of feedback from players
+  regarding the popular strategy of chaining movement impairing effects, like
+  Stuns and Roots, on an enemy Hero. While we want this to be a viable way to
+  play, we feel it’s currently too prominent and powerful at higher levels of
+  play. As a result, we are reducing the duration of many of these effects in
+  the game. In scenarios where this change nerfs a character we don’t otherwise
+  want to nerf, we’re coupling it with a buff to help offset the difference.
+  While this change hasn’t reduced all effects that might make you lose control
+  of your Hero, we feel these are some of the more egregious ones. As always, we
+  will make further changes if necessary.</p>
 </blockquote>
 
             </div>
@@ -576,6 +590,19 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2015-11-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19960704/heroes-of-the-storm-patch-notes-november-17-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Heroes that are simultaneously struck by Diablo’s Overpower and Stitches’ Hook will no longer be thrown outside the playable area.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2015-10-06 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19893628/heroes-of-the-storm-patch-notes-october-6-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -665,6 +692,14 @@
 <li>The Attack Speed slow will now be removed when attacking a target that has not learned the Imposing Presence Talent</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which the following Abilities and Talents were not damaging or destroying Zagara's Creep Tumors:
+<ul>
+<li>Brightwing's Peekaboo, Diablo's Firestorm (returning fireballs), Johanna's Blessed Hammer, Leoric's Buried Alive, Nova's Railgun, Sgt. Hammer's Napalm Strike (impact damage) and Tychus' Big Red Button (the nuke portion)</li>
+</ul></li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -678,6 +713,19 @@
 
 <ul>
 <li>Duration increased from 2 to 3 seconds </li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Diablo’s Fire Stomp can now properly damage and reveal Zagara’s Creep Tumors.</li>
+</ul>
+
+              <ul>
+<li>Fixed several issues affecting Diablo’s Overpower Ability that could cause Heroes to fly out of the Battleground's playable area.</li>
+</ul>
+
+              <ul>
+<li>Using Diablo’s Shadow Charge on Raynor’s Banshees near the edge of a Battleground will no longer cause Diablo to leave the playable area.</li>
 </ul>
 
             </div>
@@ -789,6 +837,11 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Casting Diablo's Shadow Charge on a Structure at melee range will no longer move him to that Structure’s opposite side.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -807,6 +860,11 @@
 <ul>
 <li>Diablo will now cast Lightning Breath in the direction of the cursor, rather than the direction he is facing at the time of the cast.</li>
 </ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Diablo will now cast Lightning Breath in the direction of the cursor, rather than the direction he is facing at the time of the cast.</li>
 </ul>
 
             </div>
@@ -837,6 +895,19 @@
 <ul>
 <li>Issuing additional commands after casting Overpower should now be much more responsive.</li>
 </ul></li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2015-01-13 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17345414/heroes-closed-beta-patch-notes-january-13-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Bolt of the Storm and Zeratul’s Blink can no longer be cast while rooted.</li>
 </ul>
 
             </div>
@@ -918,6 +989,20 @@
               <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Block</strong></p>
+
+<ul>
+<li>Has been moved from Level 7 to Level 1 </li>
+</ul>
+
+              <p><strong>Spell Shield</strong></p>
+
+<ul>
+<li>The functionality of this talent has changed. </li>
+<li>Upon taking Ability Damage, now gain a shield that reduces all Ability Damage taken by 50% for 2 seconds. This can only occur once every 30 seconds. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Regeneration Master (Talent) has been removed.</li>
@@ -946,18 +1031,9 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Block</strong></p>
-
-<ul>
-<li>Has been moved from Level 7 to Level 1 </li>
-</ul>
-
-              <p><strong>Spell Shield</strong></p>
-
-<ul>
-<li>The functionality of this talent has changed. </li>
-<li>Upon taking Ability Damage, now gain a shield that reduces all Ability Damage taken by 50% for 2 seconds. This can only occur once every 30 seconds. </li>
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Diablo's Shadow Charge and Fire Stomp abilities now appropriately cause Shielded Heroes to dismount.</li>
 </ul>
 
             </div>

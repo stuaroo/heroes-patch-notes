@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -612px; }
     </style>
   </head>
@@ -380,6 +381,11 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Falstad:</strong> Will no longer be struck by ground-level objects, such as Abathur’s Toxic Nests, while using Flight.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -388,6 +394,28 @@
               <h3>2016-05-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20120032/heroes-of-the-storm-patch-notes-may-17-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Seasoned Marksman</strong></p>
+
+<ul>
+<li>A reward has been added to this Questing Talent.
+<ul>
+<li><strong>Quest:</strong> Increases Attack Damage by 0.2 for each enemy Minion killed nearby, and 0.5 for each Hero Takedown, up to a maximum of 40.</li>
+<li><strong>Reward:</strong> After gaining 40 bonus Attack Damage, Seasoned Marksman can be activated to increase Attack Speed by 30% for 3 seconds. 60 second cooldown. </li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> We’ve added a completion point to this Talent.
+  Upon completing its quest, players will be provided with some additional
+  power. This allows us to offer spikes of power in-between Talent levels, or
+  even for a single player on a team. Now, simply picking the Talent and only
+  partially completing it is worse, but finishing the quest will return a larger
+  reward. Choosing the right Talents on the right Battleground or with the right
+  team composition has always been an important goal for us, and this change
+  pushes this Talent to closer align with that goal.</p>
+</blockquote>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Battle Momentum (Talent) removed.</li>
@@ -445,28 +473,6 @@
   while opening some new and exciting combinations. Overall, we are not hoping
   for a huge swing in power in one direction or the other, but to open up more
   compelling choices at each Talent tier.</p>
-</blockquote>
-
-              <h4>Talents</h4>
-              <p><strong>Seasoned Marksman</strong></p>
-
-<ul>
-<li>A reward has been added to this Questing Talent.
-<ul>
-<li><strong>Quest:</strong> Increases Attack Damage by 0.2 for each enemy Minion killed nearby, and 0.5 for each Hero Takedown, up to a maximum of 40.</li>
-<li><strong>Reward:</strong> After gaining 40 bonus Attack Damage, Seasoned Marksman can be activated to increase Attack Speed by 30% for 3 seconds. 60 second cooldown. </li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> We’ve added a completion point to this Talent.
-  Upon completing its quest, players will be provided with some additional
-  power. This allows us to offer spikes of power in-between Talent levels, or
-  even for a single player on a team. Now, simply picking the Talent and only
-  partially completing it is worse, but finishing the quest will return a larger
-  reward. Choosing the right Talents on the right Battleground or with the right
-  team composition has always been an important goal for us, and this change
-  pushes this Talent to closer align with that goal.</p>
 </blockquote>
 
             </div>
@@ -652,6 +658,22 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2015-12-15 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19981657/heroes-of-the-storm-patch-notes-december-15-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Azmodan’s Globe of Annihilation will now deal the correct amount of damage while under the effects of Black Pool and the Taste for Blood Talent.
+<ul>
+<li>This fix will also resolve incorrect damage amounts for similar Talent interactions, such as Muradin’s Storm Bolt with the Sledgehammer and Perfect Storm Talents, as well as Falstad’s Gathering Storm and Overdrive Talents.</li>
+</ul></li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2015-11-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19960704/heroes-of-the-storm-patch-notes-november-17-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -698,6 +720,11 @@
 <li>Instead, Regeneration Globe effects will now be applied directly to the Hero inside the Dragon Knight or Garden Terror.</li>
 </ul></li>
 <li>Players within a Dragon Knight or Garden Terror can now also accumulate stacks for Talents such as Seasoned Marksman, Gathering Power, Regeneration Master, etc.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Falstad’s Hinterland Blast will no longer be placed on reduced cooldown when it is successfully cast at the same moment that Falstad is stunned by The Butcher’s Ruthless Onslaught.</li>
 </ul>
 
             </div>
@@ -753,23 +780,6 @@
 <li>Talents and Abilities that gain bonus effects from kills will now only trigger from Minions and Mercenaries, and will no longer gain benefit from killing neutral Mercenaries, map event creatures, summoned units, etc.</li>
 </ul>
 
-              <h4>Hero Updates</h4>
-              <blockquote>
-  <p><em><strong>Developer Comments:</strong></em> Mighty Gust can be a great disengagement tool, but
-  it is often outshined by the pure power of Hinterland Blast. We feel we can
-  bring this Heroic into play more often with some simple tuning changes.
-  Internally, it’s been much more powerful and can even be used as a counter to
-  a hard engagement or aggressive dive teams.</p>
-</blockquote>
-
-<ul>
-<li><strong>Mighty Gust (R)</strong>
-<ul>
-<li>Cooldown decreased from 50 to 40 seconds</li>
-<li>Slow duration increased from 2 to 5 seconds </li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Gathering Power</strong></p>
 
@@ -802,6 +812,28 @@
 <ul>
 <li>Stacks earned by killing enemy Heroes increased from 2 to 3</li>
 <li>Only Minions, captured enemy Mercenaries, and Heroes will grant stacks upon death</li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <blockquote>
+  <p><em><strong>Developer Comments:</strong></em> Mighty Gust can be a great disengagement tool, but
+  it is often outshined by the pure power of Hinterland Blast. We feel we can
+  bring this Heroic into play more often with some simple tuning changes.
+  Internally, it’s been much more powerful and can even be used as a counter to
+  a hard engagement or aggressive dive teams.</p>
+</blockquote>
+
+<ul>
+<li><strong>Mighty Gust (R)</strong>
+<ul>
+<li>Cooldown decreased from 50 to 40 seconds</li>
+<li>Slow duration increased from 2 to 5 seconds </li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which Ability effects, such as Giant Killer, Focused Attack, and Zagara’s Envenomed Spines, could be applied while Blinded.</li>
 </ul>
 
             </div>
@@ -893,17 +925,6 @@
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>New Level 20 Talents</h4>
-              <p><strong>Nexus Frenzy</strong></p>
-
-<ul>
-<li>Increases both Attack Speed and Basic Attack range by 20%</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Falstad, Jaina, Raynor, Sgt. Hammer, Tychus, Valla</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Gathering Power</strong></p>
 
@@ -916,6 +937,17 @@
 
 <ul>
 <li>All Heroes (including Murky and The Lost Vikings) now count as full credit toward Talents which require Hero kills (such as Gathering Power).</li>
+</ul>
+
+              <h4>New Level 20 Talents</h4>
+              <p><strong>Nexus Frenzy</strong></p>
+
+<ul>
+<li>Increases both Attack Speed and Basic Attack range by 20%</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Falstad, Jaina, Raynor, Sgt. Hammer, Tychus, Valla</li>
+</ul></li>
 </ul>
 
             </div>
@@ -1030,6 +1062,28 @@
 <li>Cooldown increased from 60 to 90 seconds</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Activating the Rewind Talent will no longer refresh cooldowns for certain activated Traits.</li>
+</ul>
+
+              <ul>
+<li>Falstad can no longer use Fly to escape root effects.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2014-10-07 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16081848/heroes-technical-alpha-patch-notes-oct-7-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Dealing fatal damage to the Dragon Knight or Garden Terror with Falstad's Stormhammer Talent no longer causes the player that was inside to permanently lose control of their hero.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -1093,6 +1147,11 @@
 <li>Path of the Wizard </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Falstad's BOOMerang explosion no longer occasionally occurs in a location separate from the hammer when it is activated.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -1101,6 +1160,13 @@
               <h3>2014-06-25 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14537490/heroes-technical-alpha-patch-notes-june-25-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>First Aid</strong></p>
+
+<ul>
+<li>Healing amount increased from <strong>20%</strong> over <strong>4</strong> seconds to <strong>35%</strong> over <strong>6</strong> seconds. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Flight (Z)</strong>
@@ -1125,13 +1191,6 @@
 <ul>
 <li>Cooldown reduced from <strong>110</strong> to <strong>100</strong> seconds</li>
 </ul></li>
-</ul>
-
-              <h4>Talents</h4>
-              <p><strong>First Aid</strong></p>
-
-<ul>
-<li>Healing amount increased from <strong>20%</strong> over <strong>4</strong> seconds to <strong>35%</strong> over <strong>6</strong> seconds. </li>
 </ul>
 
             </div>

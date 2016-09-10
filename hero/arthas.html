@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -212px; }
     </style>
   </head>
@@ -322,6 +323,22 @@
               <h3>2016-07-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20164442/heroes-of-the-storm-patch-notes-july-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Relentless</strong></p>
+
+<ul>
+<li>Relentless and similar Hero-specific Talents will now only reduce the duration of Slows, Stuns and Roots. Silence effects will no longer be reduced by this talent.  <span class="hidden">Hero-specific talents include: Enraged, Devastating Charge, Just Keep Rockin', Relentless Soldier, Wrath of the Berserker, Icebound Fortitude, Whirling Dervish, Relentless Predator, Relentless Leader</span></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> With an increasing number of CC effects entering
+  the Nexus we found ourselves constantly asking ourselves “Should Relentless
+  work against this?” which quickly turned into a rabbit hole of ‘what-ifs’ and
+  ‘how comes’. We agreed that the talent was going to continue to become
+  stronger as we moved forward and decided to limit the number of effects that
+  it can reduce.</p>
+</blockquote>
+
               <h4>Hero Updates</h4>
               <p><strong>Talents</strong></p>
 
@@ -355,22 +372,6 @@
   from simply buffing or nerfing numbers to changing functionality. We’re
   excited to keep our heroes feeling fresh, and you can look forward to
   additional changes to more of our heroes in upcoming patches.</p>
-</blockquote>
-
-              <h4>Talents</h4>
-              <p><strong>Relentless</strong></p>
-
-<ul>
-<li>Relentless and similar Hero-specific Talents will now only reduce the duration of Slows, Stuns and Roots. Silence effects will no longer be reduced by this talent.  <span class="hidden">Hero-specific talents include: Enraged, Devastating Charge, Just Keep Rockin', Relentless Soldier, Wrath of the Berserker, Icebound Fortitude, Whirling Dervish, Relentless Predator, Relentless Leader</span></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> With an increasing number of CC effects entering
-  the Nexus we found ourselves constantly asking ourselves “Should Relentless
-  work against this?” which quickly turned into a rabbit hole of ‘what-ifs’ and
-  ‘how comes’. We agreed that the talent was going to continue to become
-  stronger as we moved forward and decided to limit the number of effects that
-  it can reduce.</p>
 </blockquote>
 
             </div>
@@ -600,6 +601,11 @@
   stayed at 50%.</p>
 </blockquote>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Regeneration Globes will now properly grant healing and Regeneration Master stacks when collected as a Shield expires.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -672,6 +678,19 @@
           <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
+              <h3>2015-11-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19960704/heroes-of-the-storm-patch-notes-november-17-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Heroes with the Relentless Talent that become Polymorphed will now properly receive damage from Brightwing’s Unstable Anomaly Talent when Polymorph expires.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
               <h3>2015-10-06 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19893628/heroes-of-the-storm-patch-notes-october-6-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
@@ -691,6 +710,11 @@
 <li>Instead, Regeneration Globe effects will now be applied directly to the Hero inside the Dragon Knight or Garden Terror.</li>
 </ul></li>
 <li>Players within a Dragon Knight or Garden Terror can now also accumulate stacks for Talents such as Seasoned Marksman, Gathering Power, Regeneration Master, etc.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could allow Arthas’ Summon Sindragosa to be placed on reduced cooldown despite being successfully cast.</li>
 </ul>
 
             </div>
@@ -757,6 +781,35 @@
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Regeneration Master</strong></p>
+
+<ul>
+<li>Now grants 4 Health regeneration upon learning the Talent</li>
+</ul>
+
+              <p><strong>Rewind</strong></p>
+
+<ul>
+<li>Has been moved from Level 13 to Level 20</li>
+<li>Has been removed from many Heroes</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Anub'arak, Arthas, Brightwing, Nova, Malfurion, Muradin, Murky, Tassadar, Tyrande, Rehgar, Zeratul</li>
+</ul></li>
+</ul>
+
+              <h4>New Level 20 Talents</h4>
+              <p><strong>Hardened Shield</strong></p>
+
+<ul>
+<li>Activate to reduce all incoming damage by 75% for 4 seconds; 60 second cooldown</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Anub’arak, Arthas, Chen, Gazlowe, Muradin, Sonya, Stitches, Tyrael</li>
+</ul></li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Envenom (Talent) removed</li>
@@ -828,35 +881,6 @@
 </ul></li>
 </ul>
 
-              <h4>New Level 20 Talents</h4>
-              <p><strong>Hardened Shield</strong></p>
-
-<ul>
-<li>Activate to reduce all incoming damage by 75% for 4 seconds; 60 second cooldown</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Anub’arak, Arthas, Chen, Gazlowe, Muradin, Sonya, Stitches, Tyrael</li>
-</ul></li>
-</ul>
-
-              <h4>Talents</h4>
-              <p><strong>Regeneration Master</strong></p>
-
-<ul>
-<li>Now grants 4 Health regeneration upon learning the Talent</li>
-</ul>
-
-              <p><strong>Rewind</strong></p>
-
-<ul>
-<li>Has been moved from Level 13 to Level 20</li>
-<li>Has been removed from many Heroes</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Anub'arak, Arthas, Brightwing, Nova, Malfurion, Muradin, Murky, Tassadar, Tyrande, Rehgar, Zeratul</li>
-</ul></li>
-</ul>
-
             </div>
           </div>
           <hr>
@@ -882,6 +906,19 @@
 <li>This Talent has been removed from the game. </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Arthas Ghouls no longer instantly die to Anub'arak’s Web Blast</li>
+</ul>
+
+              <ul>
+<li>Fixed an issue which caused summoned units to deal half damage to Heroes with the Superiority Talent.</li>
+</ul>
+
+              <ul>
+<li>Glow effects for Arthas’ Frostmourne Hungers no longer visually persist through polymorph-type abilities. </li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -890,14 +927,6 @@
               <h3>2014-12-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16467431/heroes-technical-alpha-patch-notes-december-2-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Frozen Tempest (E)</strong>
-<ul>
-<li>Mana cost increased from 10 per second to 12 per second</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Resurgence of the Storm</strong></p>
 
@@ -910,6 +939,19 @@
 <ul>
 <li>Now refreshes all Basic Ability cooldowns rather than reducing them by 10 seconds</li>
 <li>Cooldown increased from 60 to 90 seconds</li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Frozen Tempest (E)</strong>
+<ul>
+<li>Mana cost increased from 10 per second to 12 per second</li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Activating the Rewind Talent will no longer refresh cooldowns for certain activated Traits.</li>
 </ul>
 
             </div>
@@ -928,6 +970,28 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Ghouls summoned by Arthas’ Army of the Dead will no longer instantly die when Arthas is caught by Zagara’s Devouring Maw.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2014-09-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/15787795/heroes-technical-alpha-patch-notes-sept-10-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Heroes are no longer automatically dismounted when attempting to cast Envenom on a target that is out of range.</li>
+</ul>
+
+              <ul>
+<li>Mercenary Camps that are captured simultaneously by one team with the Mercenary Lord Talent, and one without, no longer causes the Mercenaries from both Camps to gain the Mercenary Lord buff.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -936,18 +1000,6 @@
               <h3>2014-07-23 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14742016/heroes-technical-alpha-patch-notes-july-23-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Death Coil (Q)</strong>
-<ul>
-<li>Death Touch (Talent)
-<ul>
-<li>Moved from Level 1 to Level 7</li>
-<li>Now deals 100% splash damage in small radius around the target Minion</li>
-</ul></li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Block</strong></p>
 
@@ -977,6 +1029,18 @@
 <li>Path of the Wizard </li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Death Coil (Q)</strong>
+<ul>
+<li>Death Touch (Talent)
+<ul>
+<li>Moved from Level 1 to Level 7</li>
+<li>Now deals 100% splash damage in small radius around the target Minion</li>
+</ul></li>
+</ul></li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -1000,6 +1064,13 @@
               <h3>2014-05-22 Patch Notes <a href="http://us.battle.net/heroes/en/blog/14227686/heroes-technical-alpha-patch-notes-may-22-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Path of the Warrior</strong></p>
+
+<ul>
+<li>Health gained per level increased from 25 to 35. </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li><strong>Frostmourne Hungers (Trait)</strong> has been changed
@@ -1047,13 +1118,6 @@
 <ul>
 <li>Health restore reduced from 8% to 6%</li>
 </ul></li>
-</ul>
-
-              <h4>Talents</h4>
-              <p><strong>Path of the Warrior</strong></p>
-
-<ul>
-<li>Health gained per level increased from 25 to 35. </li>
 </ul>
 
             </div>

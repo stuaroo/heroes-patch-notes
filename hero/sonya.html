@@ -55,6 +55,7 @@
       div.tab-content { font-size: 14px; }
       .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
+      .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -2912px; }
     </style>
   </head>
@@ -342,6 +343,22 @@
               <h3>2016-07-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20164442/heroes-of-the-storm-patch-notes-july-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Relentless</strong></p>
+
+<ul>
+<li>Relentless and similar Hero-specific Talents will now only reduce the duration of Slows, Stuns and Roots. Silence effects will no longer be reduced by this talent.  <span class="hidden">Hero-specific talents include: Enraged, Devastating Charge, Just Keep Rockin', Relentless Soldier, Wrath of the Berserker, Icebound Fortitude, Whirling Dervish, Relentless Predator, Relentless Leader</span></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> With an increasing number of CC effects entering
+  the Nexus we found ourselves constantly asking ourselves “Should Relentless
+  work against this?” which quickly turned into a rabbit hole of ‘what-ifs’ and
+  ‘how comes’. We agreed that the talent was going to continue to become
+  stronger as we moved forward and decided to limit the number of effects that
+  it can reduce.</p>
+</blockquote>
+
               <h4>Hero Updates</h4>
               <p><strong>Talents</strong></p>
 
@@ -424,22 +441,6 @@
   additional changes to more of our heroes in upcoming patches.</p>
 </blockquote>
 
-              <h4>Talents</h4>
-              <p><strong>Relentless</strong></p>
-
-<ul>
-<li>Relentless and similar Hero-specific Talents will now only reduce the duration of Slows, Stuns and Roots. Silence effects will no longer be reduced by this talent.  <span class="hidden">Hero-specific talents include: Enraged, Devastating Charge, Just Keep Rockin', Relentless Soldier, Wrath of the Berserker, Icebound Fortitude, Whirling Dervish, Relentless Predator, Relentless Leader</span></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> With an increasing number of CC effects entering
-  the Nexus we found ourselves constantly asking ourselves “Should Relentless
-  work against this?” which quickly turned into a rabbit hole of ‘what-ifs’ and
-  ‘how comes’. We agreed that the talent was going to continue to become
-  stronger as we moved forward and decided to limit the number of effects that
-  it can reduce.</p>
-</blockquote>
-
             </div>
           </div>
           <hr>
@@ -469,6 +470,11 @@
   of your Hero, we feel these are some of the more egregious ones. As always, we
   will make further changes if necessary.</p>
 </blockquote>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could occasionally cause Sonya to stutter and fail to issue a Basic Attack.</li>
+</ul>
 
             </div>
           </div>
@@ -579,20 +585,6 @@
 <li>Damage dealt by splash and cleave attacks will no longer trigger effects that would otherwise require a direct attack to trigger (ex: Block, Spell Shield, Imposing Presence, etc.)</li>
 </ul>
 
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Seismic Slam (W)</strong>
-<ul>
-<li>Primary target damage reduced from 192 (+4% per level) to 176 (+4% per level)</li>
-<li>Splash damage decreased from 48 (+4% per level) to 44 (+4% per level)</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comments:</strong></em> Overall, we are really happy with Sonya, but her
-  burst potential was a bit higher than we were comfortable with.</p>
-</blockquote>
-
               <h4>Talents</h4>
               <p><strong>Block</strong></p>
 
@@ -612,6 +604,33 @@
   Heroes, but want to bring its overall power down a bit.</p>
 </blockquote>
 
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Seismic Slam (W)</strong>
+<ul>
+<li>Primary target damage reduced from 192 (+4% per level) to 176 (+4% per level)</li>
+<li>Splash damage decreased from 48 (+4% per level) to 44 (+4% per level)</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> Overall, we are really happy with Sonya, but her
+  burst potential was a bit higher than we were comfortable with.</p>
+</blockquote>
+
+            </div>
+          </div>
+          <hr>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2015-11-17 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19960704/heroes-of-the-storm-patch-notes-november-17-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Sonya’s next Basic Attack after casting Ancient Spear will now properly benefit from the Follow Through Talent.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -628,6 +647,15 @@
 <li>Summoned unit Basic Attacks will no longer consume Block Talent stacks.</li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Sonya’s Seismic Slam, Tyrande’s Light of Elune, and Zeratul’s Cleave will no longer place the Hero’s Basic Attack on cooldown.</li>
+</ul>
+
+              <ul>
+<li>The Focused Attack Talent now properly uses a 10 second cooldown between bonuses to Basic Attack damage.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -636,35 +664,6 @@
               <h3>2015-08-18 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19818499/heroes-of-the-storm-patch-notes-august-18-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <blockquote>
-  <p><em><strong>Developer Comments:</strong></em> Overall, we’re looking to tune Sonya up slightly.
-  With the health increases, she’ll be a bit more tanky. Previously, Whirlwind
-  could be very frustrating to lane against if you didn’t have a stun. With the
-  shift of less healing from minions and more from heroes, this will make Sonya
-  less of a lane bully and more of an effective skirmisher.</p>
-</blockquote>
-
-<ul>
-<li>Health increased from 930 (+210 per level) to 950 (+220 per level)</li>
-<li><strong>Fury (Trait)</strong>
-<ul>
-<li>Shot of Fury (Talent)
-<ul>
-<li>No longer dismounts Sonya on activation</li>
-</ul></li>
-</ul></li>
-<li><strong>Whirlwind (E)</strong>
-<ul>
-<li>Healing reduced from 25% to 20% of damage dealt</li>
-<li>Healing for damage dealt to Heroes has increased from double to triple</li>
-<li>Life Funnel (Talent)
-<ul>
-<li>Healing bonus decreased from +10% to +5% of damage dealt</li>
-</ul></li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Focused Attacks</strong></p>
 
@@ -720,6 +719,40 @@
 <li>This Talent has been removed, and its functionality has been rolled into the revamped Mercenary Lord Talent</li>
 </ul>
 
+              <h4>Hero Updates</h4>
+              <blockquote>
+  <p><em><strong>Developer Comments:</strong></em> Overall, we’re looking to tune Sonya up slightly.
+  With the health increases, she’ll be a bit more tanky. Previously, Whirlwind
+  could be very frustrating to lane against if you didn’t have a stun. With the
+  shift of less healing from minions and more from heroes, this will make Sonya
+  less of a lane bully and more of an effective skirmisher.</p>
+</blockquote>
+
+<ul>
+<li>Health increased from 930 (+210 per level) to 950 (+220 per level)</li>
+<li><strong>Fury (Trait)</strong>
+<ul>
+<li>Shot of Fury (Talent)
+<ul>
+<li>No longer dismounts Sonya on activation</li>
+</ul></li>
+</ul></li>
+<li><strong>Whirlwind (E)</strong>
+<ul>
+<li>Healing reduced from 25% to 20% of damage dealt</li>
+<li>Healing for damage dealt to Heroes has increased from double to triple</li>
+<li>Life Funnel (Talent)
+<ul>
+<li>Healing bonus decreased from +10% to +5% of damage dealt</li>
+</ul></li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue in which Ability effects, such as Giant Killer, Focused Attack, and Zagara’s Envenomed Spines, could be applied while Blinded.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -743,6 +776,19 @@
               <h3>2015-05-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/19067455/heroes-closed-beta-patch-notes-may-12-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Focused Attack</strong></p>
+
+<ul>
+<li>Bonus to Basic Attack damage increased from 50% to 75% </li>
+</ul>
+
+              <p><strong>Follow Through</strong></p>
+
+<ul>
+<li>Bonus to Basic Attack damage increased from 25% to 40% </li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>Follow Through (Talent) added at Level 7</li>
@@ -820,19 +866,6 @@
 </ul></li>
 </ul>
 
-              <h4>Talents</h4>
-              <p><strong>Focused Attack</strong></p>
-
-<ul>
-<li>Bonus to Basic Attack damage increased from 50% to 75% </li>
-</ul>
-
-              <p><strong>Follow Through</strong></p>
-
-<ul>
-<li>Bonus to Basic Attack damage increased from 25% to 40% </li>
-</ul>
-
             </div>
           </div>
           <hr>
@@ -853,6 +886,11 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Zagara's Devouring Maw will no longer push Heroes through the wall created by Sonya's Arreat Crater Talent.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -861,6 +899,27 @@
               <h3>2015-02-10 Patch Notes <a href="http://us.battle.net/heroes/en/blog/17906504/heroes-closed-beta-patch-notes-february-10-2015"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
+              <h4>New Level 20 Talents</h4>
+              <p><strong>Hardened Shield</strong></p>
+
+<ul>
+<li>Activate to reduce all incoming damage by 75% for 4 seconds; 60 second cooldown</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Anub’arak, Arthas, Chen, Gazlowe, Muradin, Sonya, Stitches, Tyrael</li>
+</ul></li>
+</ul>
+
+              <p><strong>Nexus Blades</strong></p>
+
+<ul>
+<li>Provides 20% increased Attack Damage, and Basic Attacks slow enemies by 20% for 1 second</li>
+<li>Found on the following Heroes:
+<ul>
+<li>Illidan, Kerrigan, Sonya, Thrall, Tyrael, Zeratul</li>
+</ul></li>
+</ul>
+
               <h4>Hero Updates</h4>
               <ul>
 <li>The color of Sonya’s Fury resource bar has been changed to orange.</li>
@@ -907,27 +966,6 @@
 </ul></li>
 </ul>
 
-              <h4>New Level 20 Talents</h4>
-              <p><strong>Hardened Shield</strong></p>
-
-<ul>
-<li>Activate to reduce all incoming damage by 75% for 4 seconds; 60 second cooldown</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Anub’arak, Arthas, Chen, Gazlowe, Muradin, Sonya, Stitches, Tyrael</li>
-</ul></li>
-</ul>
-
-              <p><strong>Nexus Blades</strong></p>
-
-<ul>
-<li>Provides 20% increased Attack Damage, and Basic Attacks slow enemies by 20% for 1 second</li>
-<li>Found on the following Heroes:
-<ul>
-<li>Illidan, Kerrigan, Sonya, Thrall, Tyrael, Zeratul</li>
-</ul></li>
-</ul>
-
             </div>
           </div>
           <hr>
@@ -953,6 +991,11 @@
 <li>This Talent has been removed from the game. </li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue which caused summoned units to deal half damage to Heroes with the Superiority Talent.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -961,18 +1004,6 @@
               <h3>2014-12-02 Patch Notes <a href="http://us.battle.net/heroes/en/blog/16467431/heroes-technical-alpha-patch-notes-december-2-2014"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body table-responsive">
-              <h4>Hero Updates</h4>
-              <ul>
-<li><strong>Whirlwind (E)</strong>
-<ul>
-<li>Lifesteal amount increased from 30% to 40%</li>
-</ul></li>
-<li><strong>Leap (R)</strong>
-<ul>
-<li>Cooldown increased from 50 to 70 seconds</li>
-</ul></li>
-</ul>
-
               <h4>Talents</h4>
               <p><strong>Imposing Presence</strong></p>
 
@@ -984,6 +1015,18 @@
 
 <ul>
 <li>Cooldown increased from 120 to 180 seconds</li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <ul>
+<li><strong>Whirlwind (E)</strong>
+<ul>
+<li>Lifesteal amount increased from 30% to 40%</li>
+</ul></li>
+<li><strong>Leap (R)</strong>
+<ul>
+<li>Cooldown increased from 50 to 70 seconds</li>
+</ul></li>
 </ul>
 
             </div>
@@ -1023,6 +1066,23 @@
 <li>Cooldown increased from <strong>1</strong> to <strong>10</strong> seconds</li>
 <li>Fury cost increased from <strong>20</strong> to <strong>30</strong></li>
 </ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Kerrigan’s Ultralisk no longer ignores the barrier created by Sonya’s Arreat Crater Heroic Ability.</li>
+</ul>
+
+              <ul>
+<li>Mercenary Camps that are captured simultaneously by one team with the Mercenary Lord Talent, and one without, no longer causes the Mercenaries from both Camps to gain the Mercenary Lord buff.</li>
+</ul>
+
+              <ul>
+<li>Right-clicking an enemy while using Sonya’s Whirlwind or controlling Nazeebo’s Ravenous Spirit now causes them to move toward the target.</li>
+</ul>
+
+              <ul>
+<li>Sonya’s Ancient Spear can no longer strike more than one enemy with a single use when cast within melee range.</li>
 </ul>
 
             </div>
@@ -1104,6 +1164,15 @@
 </ul></li>
 </ul>
 
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Fixed an issue that could cause Illidan to become untargetable in Metamorphosis form after being struck by Sonya’s Ancient Spear.</li>
+</ul>
+
+              <ul>
+<li>Floating combat text will now correctly display Health returned to Sonya upon striking an enemy with Whirlwind.</li>
+</ul>
+
             </div>
           </div>
           <hr>
@@ -1168,6 +1237,11 @@
 <li>Now gains a <strong>30%</strong> bonus to all damage dealt.</li>
 </ul></li>
 <li>Many Talents were tweaked in order to account for the above changes.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li>Ancient Spear now properly pulls the Barbarian when cast on Grave Golems.<span class="hidden">Sonya</span></li>
 </ul>
 
             </div>
