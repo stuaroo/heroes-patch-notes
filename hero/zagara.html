@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Zagara, Ranged Specialist, patch note history.  Last relevant patch: 2016-08-09">
+    <meta name="description" content="Zagara, Ranged Specialist, patch note history.  Last relevant patch: 2016-09-13">
         <title>Zagara Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
@@ -53,7 +53,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5600px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -2512px; }
@@ -87,6 +87,7 @@
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
+              <li><a href="alarak.html">Alarak</a></li>
               <li><a href="anubarak.html">Anub'arak</a></li>
               <li><a href="artanis.html">Artanis</a></li>
               <li><a href="arthas.html">Arthas</a></li>
@@ -226,7 +227,7 @@
                   <tr>
                     <td>13</td>
                     <td>Spell Shield</td>
-                    <td>Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds.  Can only trigger once every 30 seconds.</td>
+                    <td>Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. This can only trigger once every 30 seconds.  Can be toggled to allow or prevent this talent from triggering.</td>
                   </tr>
                   <tr>
                     <td>16</td>
@@ -241,12 +242,12 @@
                   <tr>
                     <td>16</td>
                     <td>Mutalisk</td>
-                    <td>Your Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack and last for 60 seconds.</td>
+                    <td>Your Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack and last for 45 seconds.</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Endless Creep</td>
-                    <td>The cast range for Creep Tumor is increased by 2000%. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 20% Movement Speed.</td>
+                    <td>The cast range for Creep Tumor is increased by 2000%. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 15% Movement Speed.</td>
                   </tr>
                   <tr>
                     <td>20</td>
@@ -274,22 +275,17 @@
                   <tr>
                     <td>Q</td>
                     <td>Baneling Barrage</td>
-                    <td>Launch 1 Baneling that deals 91 (+4% per level) splash damage.</td>
+                    <td>Launch 1 Baneling that deals 86 (+4% per level) splash damage.</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Hunter Killer</td>
-                    <td>Summon a Hydralisk to attack a single target, dealing 68 (+4% per level) damage per second. Lasts 8 seconds.</td>
+                    <td>Summon a Hydralisk to attack a single target, dealing 62 (+4% per level) damage per second. Lasts 8 seconds.</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Infested Drop</td>
-                    <td>Bombard target area with a Zerg Drop Pod for 155 (+3% per level) damage.   The pod spawns 2 Roachlings that deal 29 (+3% per level) damage per second and last for 8 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>R</td>
-                    <td>Devouring Maw</td>
-                    <td>Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 80 (+4% per level) damage per second.  Usable on Unstoppable enemies.</td>
+                    <td>Bombard target area with a Zerg Drop Pod for 147 (+3% per level) damage.   The pod spawns 2 Roachlings that deal 29 (+3% per level) damage per second and last for 8 seconds.</td>
                   </tr>
                   <tr>
                     <td>R</td>
@@ -297,9 +293,14 @@
                     <td>Passive: Creep spreads 15% farther.  Passive: While on Creep, each Basic Attack reduces all of Zagara's cooldowns by 0.75 second.  Summon a Nydus Worm on Creep anywhere that Zagara has vision of. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates 10% Health and Mana per second.  Stores 2 charges. Maximum of 10 Nydus Worms at a time.</td>
                   </tr>
                   <tr>
+                    <td>R</td>
+                    <td>Devouring Maw</td>
+                    <td>Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 80 (+4% per level) damage per second.  Usable on Unstoppable enemies.</td>
+                  </tr>
+                  <tr>
                     <td>D</td>
                     <td>Creep Tumor</td>
-                    <td>Lay a Creep Tumor that generates Creep. While on Creep, Zagara gains 20% additional attack range and both Zagara and her summons move 20% faster. Tumors last 240 seconds.</td>
+                    <td>Lay a Creep Tumor that generates Creep. While on Creep, Zagara gains 20% additional attack range and both Zagara and her summons move 15% faster. Tumors last 240 seconds.</td>
                   </tr>
                 </tbody>
               </table>
@@ -313,6 +314,76 @@
             <div class="hero-sprite hero-position"></div>
             <div>Zagara</div>
           </h2>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-09-13 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20243513/heroes-of-the-storm-patch-notes-september-13-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Talents</h4>
+              <p><strong>Spell Shield</strong> <strong>(Passive)</strong></p>
+
+<ul>
+<li>Added functionality:
+<ul>
+<li>Spell Shield can now be toggled on or off to allow for better control of which Abilities you want to mitigate</li>
+</ul></li>
+</ul>
+
+              <h4>Hero Updates</h4>
+              <p><strong>Stats</strong></p>
+
+<ul>
+<li>Attack Damage reduced from 86 to 82</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Creep Tumor (Trait)</strong>
+<ul>
+<li>Movement Speed on Creep bonus reduced from 20 to 15%</li>
+</ul></li>
+<li>​<strong>Baneling Barrage (Q)</strong>
+<ul>
+<li>Damage reduced from 91 to 86</li>
+</ul></li>
+<li><strong>Hunter Killer (W)</strong>
+<ul>
+<li>Damage reduced from 68 to 62</li>
+</ul></li>
+<li><strong>Infested Drop (E)</strong>
+<ul>
+<li>Damage reduced from 155 to 147</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Mutalisk (W)
+<ul>
+<li>Duration reduced from 60 to 45 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Endless Creep (Passive)
+<ul>
+<li>Movement Speed reduced from 40 to 30%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Zagara:</strong> After learning Medusa Blades, Zagara will now deal the correct amount of damage to her secondary Basic Attack targets.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-08-09 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20212896/heroes-of-the-storm-patch-notes-august-9-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>

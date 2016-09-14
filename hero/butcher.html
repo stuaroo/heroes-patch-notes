@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Butcher, Melee Assassin, patch note history.  Last relevant patch: 2016-07-12">
+    <meta name="description" content="Butcher, Melee Assassin, patch note history.  Last relevant patch: 2016-09-13">
         <title>Butcher Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
@@ -53,7 +53,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5600px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -3712px; }
@@ -87,6 +87,7 @@
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
+              <li><a href="alarak.html">Alarak</a></li>
               <li><a href="anubarak.html">Anub'arak</a></li>
               <li><a href="artanis.html">Artanis</a></li>
               <li><a href="arthas.html">Arthas</a></li>
@@ -160,13 +161,18 @@
                 <tbody>
                   <tr>
                     <td>1</td>
+                    <td>Abattoir</td>
+                    <td>Decreases the amount of Fresh Meat lost on death from 10 to 5. Once you complete the Fresh Meat quest, Heroes continue to drop Meat that grants Attack Damage. This bonus Meat is not lost on death.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
                     <td>Block</td>
                     <td>Every 5 seconds, reduce the damage taken from the next Hero Basic Attack by 75%.  Stores up to 2 charges.</td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Chop Meat</td>
-                    <td>Increases Hamstring damage by 100% to Minions and Mercenaries, and Minions killed shortly after being hit by Hamstring drop 3 stacks of meat.</td>
+                    <td>Increases Hamstring damage by 100% to Minions and Mercenaries</td>
                   </tr>
                   <tr>
                     <td>1</td>
@@ -174,19 +180,9 @@
                     <td>If Hamstring hits a Hero, half of the Mana cost is refunded and the cooldown is reduced by 1 second.</td>
                   </tr>
                   <tr>
-                    <td>1</td>
-                    <td>Victuals</td>
-                    <td>Heal for 3% of your Maximum Health when you collect Fresh Meat. Meat continues to drop at maximum stacks.</td>
-                  </tr>
-                  <tr>
                     <td>4</td>
                     <td>Cheap Shot</td>
                     <td>Hamstring does 100% more damage to targets affected by a slow, root, or stun.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Envenom</td>
-                    <td>Activate to poison an enemy Hero, dealing 352 (+4% per level) damage over 10 seconds.</td>
                   </tr>
                   <tr>
                     <td>4</td>
@@ -200,23 +196,18 @@
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Abattoir</td>
-                    <td>Increases the maximum number of Fresh Meat to 35, and you only lose half upon death.</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>Brutal Strike</td>
-                    <td>After using Hamstring, your next Basic Attack within 5 seconds deals an additional 50% damage.</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>Final Assault</td>
-                    <td>Increases Ruthless Onslaught's range by 33%, and causes you to lunge at the enemy when close to impact.</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
                     <td>Insatiable Blade</td>
-                    <td>Increases Butcher's Brand's healing from 75% to 125% of your Basic Attack damage.</td>
+                    <td>Increases Butcher's Brand's healing from 75% to 100% of your Basic Attack damage. While facing the branded enemy, your Movement Speed is increased by 20%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Meat Shield</td>
+                    <td>When Ruthless Onslaught impacts an enemy Hero, you take 50% reduced Ability Damage for 2.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Victuals</td>
+                    <td>Every time a nearby minion dies, you regain 4% of your maximum health.</td>
                   </tr>
                   <tr>
                     <td>10</td>
@@ -230,13 +221,13 @@
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Burning Rage</td>
-                    <td>Deal 23 (+4% per level) damage per second to nearby enemies.</td>
+                    <td>Brutal Strike</td>
+                    <td>After using Hamstring, your next 3 Basic Attacks within 5 seconds deal an additional 15% damage.</td>
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Crave Flesh</td>
-                    <td>While an enemy is affected by Butcher's Brand, you gain 30% Movement Speed.</td>
+                    <td>Cleaver</td>
+                    <td>Basic Attacks deal 35% of your Basic Attack Damage in an area around the target.</td>
                   </tr>
                   <tr>
                     <td>13</td>
@@ -244,14 +235,9 @@
                     <td>Ruthless Onslaught deals bonus damage to Heroes equal to 10% of their maximum Health.</td>
                   </tr>
                   <tr>
-                    <td>13</td>
-                    <td>Spell Shield</td>
-                    <td>Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds.  Can only trigger once every 30 seconds.</td>
-                  </tr>
-                  <tr>
                     <td>16</td>
                     <td>Blood Frenzy</td>
-                    <td>Fresh Meat also increases your Attack Speed by 1% per stack.</td>
+                    <td>Basic Attacks against enemy Heroes increase your Attack and Movement Speed by 5% for 3 seconds, stacking up to 5 times.</td>
                   </tr>
                   <tr>
                     <td>16</td>
@@ -261,7 +247,7 @@
                   <tr>
                     <td>16</td>
                     <td>Enraged</td>
-                    <td>Receiving damage that reduces you below 50% of your maximum Health causes you to become Enraged for 10 seconds. You gain 40% Attack Speed and reduce the duration of slows, stuns, and roots against you by 75% while Enraged.</td>
+                    <td>Receiving damage that reduces you below 50% of your maximum Health causes you to become Enraged for 10 seconds. You gain 40% Attack Speed and become Resistant, reducing damage taken by 25%.</td>
                   </tr>
                   <tr>
                     <td>20</td>
@@ -304,7 +290,7 @@
                   <tr>
                     <td>W</td>
                     <td>Butcher's Brand</td>
-                    <td>Deal 37 (+4% per level) damage to an enemy and cause your Basic Attacks against them to heal you for 75% of the damage done for 5 seconds. Healing doubled versus Heroes.</td>
+                    <td>Deal 37 (+4% per level) damage to an enemy and cause your Basic Attacks against them to heal you for 75% of the damage done. Healing doubled versus Heroes. Lasts 4 seconds. Your Basic Attacks against a branded Hero increase the duration by 0.5 seconds.</td>
                   </tr>
                   <tr>
                     <td>E</td>
@@ -324,7 +310,7 @@
                   <tr>
                     <td>None</td>
                     <td>Fresh Meat</td>
-                    <td>Nearby Minions drop 1 and Heroes drop 3 Fresh Meat when they die, which you can pick up to gain 1% bonus Attack Damage. Can hold up to 25 Meat. All Meat is lost on dying.</td>
+                    <td>Quest: Nearby Minions drop 1 Fresh Meat and Heroes drop 5 Fresh Meat when they die. You can pick up Fresh Meat to gain 1 Attack Damage per Meat. Can hold up to 125 Meat. You drop up to 10 Fresh Meat upon dying.  Reward: After acquiring 125 pieces of Fresh Meat, gain an additional 100 Attack Damage and 25% increased Attack Speed. You also no longer lose Fresh Meat on death.</td>
                   </tr>
                 </tbody>
               </table>
@@ -338,6 +324,211 @@
             <div class="hero-sprite hero-position"></div>
             <div>Butcher</div>
           </h2>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-09-13 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20243513/heroes-of-the-storm-patch-notes-september-13-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Hero Updates</h4>
+              <p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage reduced from 169 to 140</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Fresh Meat (Trait)</strong>
+<ul>
+<li>New functionality:
+<ul>
+<li><strong>Quest:</strong> Nearby Minions drop 1 Fresh Meat and Heroes drop 5 Fresh Meat when they die. You can pick up Fresh Meat to gain 1 Basic Attack damage per Meat. Can hold up to 125 Meat. You drop up to 10 Fresh Meat upon dying.</li>
+<li><strong>Reward:</strong> After acquiring 125 pieces of Fresh Meat, gain and additional 100 Basic Attack damage and 25% increased Attack Speed. You also no longer lose Fresh Meat on death.</li>
+</ul></li>
+</ul></li>
+<li><strong>Hamstring (Q)</strong>
+<ul>
+<li>Mana cost reduced from 50 to 40</li>
+</ul></li>
+<li><strong>Butcher’s Brand (W)</strong>
+<ul>
+<li>Base duration decreased from 5 to 4 seconds</li>
+<li>Mana cost increased from 60 to 65</li>
+<li>Added functionality:
+<ul>
+<li>Basic Attacks against enemy Heroes affected by Butcher’s Brand will increase the duration by .5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Ruthless Onslaught (E)</strong>
+<ul>
+<li>Slightly reduced the time between The Butcher hitting his target and his first Basic Attack</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Victuals
+<ul>
+<li>New functionality:</li>
+<li>Every time a nearby Minion dies, regain 4% of maximum Health.</li>
+<li>Moved to level 7</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Envenom (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Final Assault (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Abattoir (Trait)
+<ul>
+<li>Decreased the reduced amount of Meat lost on death from 10 to 5. Once you complete the Fresh Meat quest, Heroes will continue to drop Meat. This bonus Meat is not lost on death.</li>
+<li>Moved to Level 1</li>
+</ul></li>
+<li>Insatiable Blade (W)
+<ul>
+<li>Reduced the amount of bonus healing gained from 125 to 100%</li>
+<li>New functionality:</li>
+<li>While an enemy is affected by Butcher’s Brand, you move 20% faster towards them</li>
+</ul></li>
+<li><strong>New Talent: Meat Shield (E)</strong>
+<ul>
+<li>Hitting an enemy Hero with Ruthless Onslaught grants Spell Shield, reducing damage from enemy spells by 50% for 2.5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Burning Rage (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Crave Flesh (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Spell Shield (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Cleaver (Passive)</strong>
+<ul>
+<li>Basic Attacks deal 35% of your Basic Attack damage to nearby enemies.</li>
+</ul></li>
+<li>Brutal Strikes (Q)
+<ul>
+<li>New Functionality:</li>
+<li>After using Hamstring, your next 3 Basic Attacks within 5 seconds deal an additional 15% bonus damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Blood Frenzy (Passive)
+<ul>
+<li>New Functionality:</li>
+<li>Basic Attacks against enemy heroes increase your Basic Attack and Movement Speed by 5% for 3 seconds. Stacks up to 5 times.</li>
+</ul></li>
+<li>Enraged (Passive)
+<ul>
+<li>No longer reduces the duration of disabling effects by 75%</li>
+<li>Added functionality:</li>
+<li>Now provides Resistant, reducing all damage taken by 25% for the duration of Enraged.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> We’ve redefined The Butcher to have a more unique
+  role as a powerful late-game hero who feeds on the flesh of his victims via
+  his Fresh Meat Trait. His early game is weaker than before, but if he can
+  complete his quest he will become an incredibly potent force that the enemy
+  team must answer. We had a ton of fun testing him, and hope you all enjoy the
+  new Butcher!</p>
+</blockquote>
+
+<p><strong>The Butcher Talents</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th><strong>Level (Tier)</strong></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>1 (1)</strong></td>
+  <td>Invigoration (Q)</td>
+  <td>Block (Passive)</td>
+  <td>Chop Meat (Q)</td>
+  <td><strong>Abattoir (Trait)</strong></td>
+</tr>
+<tr>
+  <td><strong>4 (2)</strong></td>
+  <td>Flail Axe (Q)</td>
+  <td>Unrelenting Pursuit (E)</td>
+  <td><strong>Cheap Shot (Q)</strong></td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>7 (3)</strong></td>
+  <td>Insatiable Blade (W)</td>
+  <td><strong>Victuals (Passive)</strong></td>
+  <td><em>NEW: Meat Shield (E)</em></td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>10 (4)</strong></td>
+  <td>Furnace Blast (R)</td>
+  <td>Lamb to the Slaughter (R)</td>
+  <td>—</td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>13 (5)</strong></td>
+  <td><em>NEW: Cleaver (Passive)</em></td>
+  <td>Savage Charge (E)</td>
+  <td>Brutal Strike (Q)</td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>16 (6)</strong></td>
+  <td>Crippling Slam (Q)</td>
+  <td>Enraged (Passive)</td>
+  <td>Blood Frenzy (Passive)</td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>20 (7)</strong></td>
+  <td>Fires of Hell (R)</td>
+  <td>Slaughterhouse (R)</td>
+  <td>Nexus Blades (Passive)</td>
+  <td>Bolt of the Storm (Active)</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em><strong>NEW</strong></em> Talent.</li>
+<li><strong>Bold text</strong> indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-07-12 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20164442/heroes-of-the-storm-patch-notes-july-12-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Falstad, Ranged Assassin, patch note history.  Last relevant patch: 2016-07-27">
+    <meta name="description" content="Falstad, Ranged Assassin, patch note history.  Last relevant patch: 2016-09-13">
         <title>Falstad Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
@@ -53,7 +53,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5400px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5600px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -612px; }
@@ -87,6 +87,7 @@
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Choose Hero <span class="caret"></span></button>
             <ul class="dropdown-menu scrollable-menu" role="menu">
               <li><a href="abathur.html">Abathur</a></li>
+              <li><a href="alarak.html">Alarak</a></li>
               <li><a href="anubarak.html">Anub'arak</a></li>
               <li><a href="artanis.html">Artanis</a></li>
               <li><a href="arthas.html">Arthas</a></li>
@@ -160,11 +161,6 @@
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Bribe</td>
-                    <td>Enemy Minions killed near you grant a stack of Bribe. Use 20 stacks to bribe a Mercenary, instantly defeating them.  Does not work on Bosses.  Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
                     <td>Gathering Storm</td>
                     <td>Quest: Every time Hammerang hits a Hero increase its damage by 1.5.</td>
                   </tr>
@@ -172,6 +168,11 @@
                     <td>1</td>
                     <td>Seasoned Marksman</td>
                     <td>Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage, to a max of 40 damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 30% for 3 seconds. 60 second cooldown.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Wingman</td>
+                    <td>Enemy Minions killed near you grant a stack of Bribe. Use 20 stacks to Bribe a Mercenary, instantly defeating them and permanently increasing the damage of Lightning Rod by 5%. Does not work on Bosses. Maximum of 80 stacks.</td>
                   </tr>
                   <tr>
                     <td>4</td>
@@ -186,17 +187,17 @@
                   <tr>
                     <td>4</td>
                     <td>Updraft</td>
-                    <td>Increases Barrel Roll's range and Shield amount by 40%.</td>
+                    <td>Increases Barrel Roll's range, Shield amount and Shield duration by 40%.</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>BOOMerang</td>
-                    <td>Reactivate Hammerang mid-flight to deal 175 (+4% per level) damage around the Hammer.</td>
+                    <td>Reactivate Hammerang mid-flight to deal 165 (+4% per level) damage around the Hammer.</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Charged Up</td>
-                    <td>Increases the number of Lightning Rod strikes by 2 and its range by 15%.</td>
+                    <td>Increases the number of Lightning Rod strikes by 2 and its range by 25%.</td>
                   </tr>
                   <tr>
                     <td>7</td>
@@ -231,7 +232,7 @@
                   <tr>
                     <td>16</td>
                     <td>Aerie Gusts</td>
-                    <td>Reduces the activation time for Tailwind from 6 to 2 seconds, and increases the Movement Speed bonus from 20% to 30%.</td>
+                    <td>Reduces the activation time for Tailwind from 6 to 3 seconds, and increases the Movement Speed bonus from 15% to 25%.</td>
                   </tr>
                   <tr>
                     <td>16</td>
@@ -279,7 +280,7 @@
                   <tr>
                     <td>Q</td>
                     <td>Hammerang</td>
-                    <td>Throw out a Hammer that returns to you, dealing 132 (+4% per level) damage and slowing enemies by 25% for 2 seconds.</td>
+                    <td>Throw out a Hammer that returns to you, dealing 121 (+4% per level) damage and slowing enemies by 25% for 2 seconds.</td>
                   </tr>
                   <tr>
                     <td>W</td>
@@ -309,7 +310,7 @@
                   <tr>
                     <td>None</td>
                     <td>Tailwind</td>
-                    <td>Gain 20% increased Movement Speed after not taking damage for 6 seconds.</td>
+                    <td>Gain 15% increased Movement Speed after not taking damage for 6 seconds.</td>
                   </tr>
                 </tbody>
               </table>
@@ -323,6 +324,81 @@
             <div class="hero-sprite hero-position"></div>
             <div>Falstad</div>
           </h2>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-09-13 Patch Notes <a href="http://us.battle.net/heroes/en/blog/20243513/heroes-of-the-storm-patch-notes-september-13-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Hero Updates</h4>
+              <p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Tailwind (Trait)</strong>
+<ul>
+<li>Movement Speed reduced from 20 to 15%</li>
+</ul></li>
+<li>​​<strong>Hammerang (Q)</strong>
+<ul>
+<li>Damage reduced from 132 to 121</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>New Talent: Wingman (Active)</strong>
+<ul>
+<li>Enemy Minions killed near you grant a stack of Bribe. Use 20 stacks to Bribe a Mercenary, instantly defeating them and permanently increasing the damage of Lightning Rod by 5%. Does not work on Bosses. Maximum of 80 stacks.</li>
+</ul></li>
+<li>Bribe (Active)
+<ul>
+<li>Replaced by Wingman</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Updraft (E)
+<ul>
+<li>Now also increases Shield duration by 40% (1.2 seconds)</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>BOOMerang (Q)
+<ul>
+<li>Detonation damage reduced from 175 to 165</li>
+</ul></li>
+<li>Charged Up (W)
+<ul>
+<li>Range bonus increased from 15 to 25%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Aerie Gusts (Passive)
+<ul>
+<li>Movement speed bonus reduced from 30 to 25%</li>
+<li>Cooldown reduction for Tailwind activation decreased from 4 to 3 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> In our ongoing pursuit to create meaningful and
+  Hero-specific generic Talent choices, Bribe was a Talent that got caught in
+  our crosshairs this patch. We have removed it from a few Heroes and have added
+  new flavorful versions to a few others. We have always liked the design and
+  gameplay behind the Talent, but also realize how much players had to give up
+  in order to pick them. Wingman, Pixie Charm, and Covert Mission are being
+  reintroduced to Falstad, Brightwing, and Nova, respectively, with design
+  mechanics more suited to each Hero’s unique style of play.</p>
+</blockquote>
+
+            </div>
+          </div>
+          <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-07-27 Balance Update <a href="http://us.battle.net/heroes/en/blog/20184555/heroes-of-the-storm-balance-update-july-27-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
