@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Kharazim, Melee Support, patch note history.  Last relevant patch: 2016-10-18">
+    <meta name="description" content="Kharazim, Melee Support, patch note history.  Last relevant patch: 2016-11-15">
         <title>Kharazim Patch Notes</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
@@ -60,7 +60,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5700px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("../images/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5900px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       .hero-position { background-position: -12px -3912px; }
@@ -159,6 +159,7 @@
               <li><a href="tyrande.html">Tyrande</a></li>
               <li><a href="uther.html">Uther</a></li>
               <li><a href="valla.html">Valla</a></li>
+              <li><a href="varian.html">Varian</a></li>
               <li><a href="xul.html">Xul</a></li>
               <li><a href="zagara.html">Zagara</a></li>
               <li><a href="zarya.html">Zarya</a></li>
@@ -188,7 +189,7 @@
                   <tr>
                     <td>1</td>
                     <td>Iron Fists</td>
-                    <td>Every 3rd Basic Attack deals 125% bonus damage.</td>
+                    <td>Every 3rd Basic Attack deals 125% bonus damage and gives 30% increased Move Speed for 2 seconds.</td>
                   </tr>
                   <tr>
                     <td>1</td>
@@ -197,43 +198,33 @@
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Foresight</td>
-                    <td>Radiant Dash reveals the area around the target for 3 seconds. Only one area can be revealed at a time.</td>
+                    <td>Air Ally</td>
+                    <td>Place an Air Ally that grants vision and reveals a large area around it. Has 75 Health, lasts 40 seconds, and stores up to 2 charges. Kharazim can Radiant Dash to Air Allies.</td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Healing Ward</td>
-                    <td>Activate to place a ward on the ground that heals allies in an area for 2% of their maximum Health every second for 10 seconds.</td>
+                    <td>Earth Ally</td>
+                    <td>Place an Earth Ally that reduces Heroic Basic Attack damage nearby allied Heroes received by 50%. Has 400 Health and lasts 10 seconds. Kharazim can Radiant Dash to Earth Allies.</td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Overtake</td>
-                    <td>Basic Attacks while Deadly Reach is active increase your Movement Speed by 30% for 2 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Protective Shield</td>
-                    <td>Activate to shield an allied Hero for 15% of their max Health for 5 seconds.</td>
+                    <td>Spirit Ally</td>
+                    <td>Place a Spirit Ally that heals allies in a large area around it for 2% of their maximum Health every second. Has 150 Health and lasts 10 seconds. Kharazim can Radiant Dash to Spirit Allies.</td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Clairvoyance</td>
-                    <td>Activate to reveal an area for 10 seconds.  Enemies in the area are revealed for 4 seconds.</td>
+                    <td>Blazing Fists</td>
+                    <td>Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 0.75 seconds.</td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Cleanse</td>
-                    <td>Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.</td>
+                    <td>Blinding Speed</td>
+                    <td>Decreases Radiant Dash's cooldown by 2 seconds and increases the maximum number of charges by 1.</td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Echo of Heaven</td>
-                    <td>Breath of Heaven heals a second time 2 seconds later for 35% (+4% per level).</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>Way of the Hundred Fists</td>
-                    <td>Radiant Dashing to an enemy causes you to launch a volley of blows dealing 246 (+4% per level) total damage instead of a Basic Attack.</td>
+                    <td>Heavenly Zeal</td>
+                    <td>Increases Breath of Heaven's Movement Speed bonus from 10% to 25%.</td>
                   </tr>
                   <tr>
                     <td>10</td>
@@ -267,23 +258,23 @@
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Blazing Fists</td>
-                    <td>Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 1 second.</td>
+                    <td>Cleansing Touch</td>
+                    <td>Radiant Dashing to an ally makes them Unstoppable for 1 second.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Blinding Speed</td>
-                    <td>Decreases Radiant Dash's cooldown by 2 seconds and increases the maximum number of charges by 1.</td>
+                    <td>Dash of Light</td>
+                    <td>Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3 seconds.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Circle of Life</td>
-                    <td>Increases Breath of Heaven's healing by 10% for each allied Hero in the cast range.</td>
+                    <td>Echo of Heaven</td>
+                    <td>Breath of Heaven heals 75% of its normal amount, but heals a second time 3 seconds later.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Soothing Breeze</td>
-                    <td>Breath of Heaven removes silences, blinds, slows and roots.</td>
+                    <td>Way of the Hundred Fists</td>
+                    <td>Radiant Dashing to an enemy launches a rapid volley of 6 Basic Attacks dealing 50% damage each.</td>
                   </tr>
                   <tr>
                     <td>20</td>
@@ -326,7 +317,7 @@
                   <tr>
                     <td>W</td>
                     <td>Breath of Heaven</td>
-                    <td>Heal nearby Heroes for 280 (+4% per level) and give them 10% Movement Speed for 3 seconds.</td>
+                    <td>Heal nearby Heroes for 290 (+4% per level) and give them 10% Movement Speed for 3 seconds.</td>
                   </tr>
                   <tr>
                     <td>E</td>
@@ -360,6 +351,208 @@
             <div class="hero-sprite hero-position"></div>
             <div>Kharazim</div>
           </h2>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2016-11-15 Patch Notes <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20372990"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Hero Updates</h4>
+              <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Healing increased from 280 to 290</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Iron Fists (Trait)
+<ul>
+<li>Added Functionality:
+<ul>
+<li>Every third Basic Attack now also increases your Movement Speed by 30% for 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>New Talent: Spirit Ally (Active)</strong>
+<ul>
+<li>Place a Spirit Ally that heals allies in a large area around it for 2% of their maximum Health every second for 10 seconds. Has 150 Health. You can Radiant Dash to Spirit Allies. 45 second cooldown.</li>
+</ul></li>
+<li><strong>New Talent: Earth Ally (Active)</strong>
+<ul>
+<li>Place an Earth Ally that reduces Heroic Basic Attack damage nearby allied Heroes receive by 50%. Has 400 Health and lasts 10 seconds. You can Radiant Dash to Earth Allies. 30 second cooldown.</li>
+</ul></li>
+<li><strong>New Talent: Air Ally (Active)</strong>
+<ul>
+<li>Place an Air Ally that grants vision of a large area around it for 40 seconds. Has 70 Health. You can Radiant Dash to Air Allies. 20 second cooldown. 2 charges.</li>
+</ul></li>
+<li>Healing Ward (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Foresight (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Overtake (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Protective Shield (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>New Talent: Heavenly Zeal (W)</strong>
+<ul>
+<li>Increases the Movement Speed bonus of Breath of Heaven on other allies from 10 to 25%</li>
+</ul></li>
+<li>Blinding Speed (Q)
+<ul>
+<li>Moved from level 16</li>
+</ul></li>
+<li>Blazing Fists (E)
+<ul>
+<li>Moved from level 16</li>
+<li>Cooldown reduction per Basic Attack reduced from 1 to .75 seconds.</li>
+</ul></li>
+<li>Clairvoyance (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Cleanse (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Fists of Fury
+<ul>
+<li>Deadly Reach duration bonus increased from 50 to 100%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>New Talent: Cleansing Touch (Q)</strong>
+<ul>
+<li>Radiant Dashing to an allied Hero grants them Unstoppable for 1 second</li>
+</ul></li>
+<li><strong>New Talent: Dash of Light (W)</strong>
+<ul>
+<li>Radiant Dashing to an ally increases the healing they received from Breath of Heaven by 50% for 3 seconds</li>
+</ul></li>
+<li>Echo of Heaven (W)
+<ul>
+<li>Moved from level 7</li>
+<li>Delay between heals increased from 2 to 3 seconds</li>
+<li>Second heal amount increased from 35 to 75%</li>
+<li>Now also reduces the initial heal amount of Breath of Heaven to 75%</li>
+</ul></li>
+<li>Way of the Hundred Fists (Q)
+<ul>
+<li>Moved from level 7</li>
+<li>Now deals a volley of 6 Basic Attacks that each deal 50% of your Basic Attack damage.</li>
+</ul></li>
+<li>Circle of Life (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Soothing Breeze (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> Kharazim’s Talents have been updated to create
+  more compelling choices at every tier. To do this, we’ve made sure that Iron
+  Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
+  removed a lot of the generic Talents and replaced them with Kharazim specific
+  options like Mystic Allies, and re-arranged a lot of the tree so that you
+  don’t have to sacrifice as much healing to pick mobility, utility or damage.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>Level (Tier)</strong></th>
+<th></th>
+<th><strong>Kharazim Talents</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 (1)</strong></td>
+<td>Transcendence</td>
+<td>Iron Fists</td>
+<td>(!) Insight</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>4 (2)</strong></td>
+<td><em>Spirit Ally (Active)</em></td>
+<td><em>Earth Ally (Active)</em></td>
+<td><em>Air Ally (Active)</em></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>7 (3)</strong></td>
+<td><strong><em>Blinding Speed (Q)</em></strong></td>
+<td><em>Heavenly Zeal (W)</em></td>
+<td><strong>Blazing Fists (E)</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>10 (4)</strong></td>
+<td>Divine Palm (R)</td>
+<td>Seven-Sided Strike (R)</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>13 (5)</strong></td>
+<td>Quicksilver (Q)</td>
+<td>Fists of Fury (E)</td>
+<td>Spell Shield (Active)</td>
+<td>Sixth Sense (Passive)</td>
+</tr>
+<tr>
+<td><strong>16 (6)</strong></td>
+<td><em>Cleansing Touch (Q)</em></td>
+<td><strong>Way of the Hundred Fists (Q)</strong></td>
+<td><strong>Echo of Heaven (W)</strong></td>
+<td><em>Dash of Light (W)</em></td>
+</tr>
+<tr>
+<td><strong>20 (7)</strong></td>
+<td>Peaceful Repose (R)</td>
+<td>Trasngression (R)</td>
+<td><strong>Storm Shield (Active)</strong></td>
+<td><em>Epiphany (Active)</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em><strong>NEW</strong></em> Talent.</li>
+<li><strong>Bold text</strong> indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Spell Shield:</strong> A cooldown timer will now properly appear when Spell Shield’s effects are triggered in the same moment that the Talent was activated.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
           <div class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-10-18 Patch Notes <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20328243/heroes-of-the-storm-patch-notes-october-18-2016"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
