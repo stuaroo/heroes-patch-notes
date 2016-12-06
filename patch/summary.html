@@ -22,145 +22,7 @@
       footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
     </style>
 
-    <link href="../css/patch.css" rel="stylesheet">
-    <style>
-      .small-hero { background:url("../images/hero-sprite.png") -7px -7px no-repeat; background-size: 54px 3463.043px; height: 44px; width: 41px; }
-      .medium-hero { background:url("../images/hero-sprite.png") -10px -11px no-repeat; background-size: 85.610px 5490.207px; height: 70px; width: 65px; }
-      .hero-sprite { background:url("../images/hero-sprite.png") -6px -8px no-repeat; background-size: 54px 3463.043px; height: 44px; width: 41px; }
-      .bg-sprite { background:url("../images/bg-sprite.png") 0px 0px no-repeat; background-size: 541.321px 44px; width: 45px; height: 44px; }
-      .medium-battleground { background:url("../images/bg-sprite.png") 0px 0px no-repeat; background-size: 738.165px 60px; width: 60px; height: 60px; }
-      .small-abathur{ background-position: -7px -184px; }
-      .medium-abathur{ background-position: -10px -290px; }
-      .small-alarak{ background-position: -7px -3236px; }
-      .medium-alarak{ background-position: -10px -5130px; }
-      .small-anubarak{ background-position: -7px -66px; }
-      .medium-anubarak{ background-position: -10px -104px; }
-      .small-artanis{ background-position: -7px -2414px; }
-      .medium-artanis{ background-position: -10px -3827px; }
-      .small-arthas{ background-position: -7px -125px; }
-      .medium-arthas{ background-position: -10px -197px; }
-      .small-auriel{ background-position: -7px -3118px; }
-      .medium-auriel{ background-position: -10px -4941px; }
-      .small-azmodan{ background-position: -7px -1885px; }
-      .medium-azmodan{ background-position: -10px -2989px; }
-      .small-brightwing{ background-position: -7px -1943px; }
-      .medium-brightwing{ background-position: -10px -3082px; }
-      .small-butcher{ background-position: -7px -2178px; }
-      .medium-butcher{ background-position: -10px -3455px; }
-      .small-chen{ background-position: -7px -242px; }
-      .medium-chen{ background-position: -10px -383px; }
-      .small-cho{ background-position: -7px -2531px; }
-      .medium-cho{ background-position: -10px -4013px; }
-      .small-chromie{ background-position: -7px -2942px; }
-      .medium-chromie{ background-position: -10px -4665px; }
-      .small-dehaka{ background-position: -7px -2824px; }
-      .medium-dehaka{ background-position: -10px -4479px; }
-      .small-diablo{ background-position: -7px -301px; }
-      .medium-diablo{ background-position: -10px -477px; }
-      .small-etc{ background-position: -7px -712px; }
-      .medium-etc{ background-position: -10px -1128px; }
-      .small-falstad{ background-position: -7px -359px; }
-      .medium-falstad{ background-position: -10px -570px; }
-      .small-gall{ background-position: -7px -2531px; }
-      .medium-gall{ background-position: -10px -4013px; }
-      .small-gazlowe{ background-position: -7px -1181px; }
-      .medium-gazlowe{ background-position: -10px -1873px; }
-      .small-greymane{ background-position: -7px -2648px; }
-      .medium-greymane{ background-position: -10px -4199px; }
-      .small-guldan{ background-position: -7px -3059px; }
-      .medium-guldan{ background-position: -10px -4848px; }
-      .small-illidan{ background-position: -7px -418px; }
-      .medium-illidan{ background-position: -10px -663px; }
-      .small-jaina{ background-position: -7px -477px; }
-      .medium-jaina{ background-position: -10px -756px; }
-      .small-johanna{ background-position: -7px -2120px; }
-      .medium-johanna{ background-position: -10px -3362px; }
-      .small-kaelthas{ background-position: -7px -535px; }
-      .medium-kaelthas{ background-position: -10px -849px; }
-      .small-kerrigan{ background-position: -7px -594px; }
-      .medium-kerrigan{ background-position: -10px -942px; }
-      .small-kharazim{ background-position: -7px -2296px; }
-      .medium-kharazim{ background-position: -10px -3641px; }
-      .small-leoric{ background-position: -7px -2237px; }
-      .medium-leoric{ background-position: -10px -3548px; }
-      .small-lili{ background-position: -7px -653px; }
-      .medium-lili{ background-position: -10px -1035px; }
-      .small-liming{ background-position: -7px -2707px; }
-      .medium-liming{ background-position: -10px -4292px; }
-      .small-ltmorales{ background-position: -7px -2472px; }
-      .medium-ltmorales{ background-position: -10px -3920px; }
-      .small-lunara{ background-position: -7px -2590px; }
-      .medium-lunara{ background-position: -10px -4106px; }
-      .small-malfurion{ background-position: -7px -1122px; }
-      .medium-malfurion{ background-position: -10px -1779px; }
-      .small-medivh{ background-position: -7px -3001px; }
-      .medium-medivh{ background-position: -10px -4758px; }
-      .small-muradin{ background-position: -7px -770px; }
-      .medium-muradin{ background-position: -10px -1221px; }
-      .small-murky{ background-position: -7px -829px; }
-      .medium-murky{ background-position: -10px -1314px; }
-      .small-nazeebo{ background-position: -7px -888px; }
-      .medium-nazeebo{ background-position: -10px -1407px; }
-      .small-nova{ background-position: -7px -946px; }
-      .medium-nova{ background-position: -10px -1500px; }
-      .small-raynor{ background-position: -7px -1005px; }
-      .medium-raynor{ background-position: -10px -1593px; }
-      .small-rehgar{ background-position: -7px -1064px; }
-      .medium-rehgar{ background-position: -10px -1686px; }
-      .small-rexxar{ background-position: -7px -2355px; }
-      .medium-rexxar{ background-position: -10px -3734px; }
-      .small-samuro{ background-position: -7px -3294px; }
-      .medium-samuro{ background-position: -10px -5223px; }
-      .small-sgthammer{ background-position: -7px -1651px; }
-      .medium-sgthammer{ background-position: -10px -2617px; }
-      .small-sonya{ background-position: -7px -1709px; }
-      .medium-sonya{ background-position: -10px -2710px; }
-      .small-stitches{ background-position: -7px -1768px; }
-      .medium-stitches{ background-position: -10px -2803px; }
-      .small-sylvanas{ background-position: -7px -1827px; }
-      .medium-sylvanas{ background-position: -10px -2896px; }
-      .small-tassadar{ background-position: -7px -2002px; }
-      .medium-tassadar{ background-position: -10px -3176px; }
-      .small-thelostvikings{ background-position: -7px -7px; }
-      .medium-thelostvikings{ background-position: -10px -11px; }
-      .small-thrall{ background-position: -7px -1592px; }
-      .medium-thrall{ background-position: -10px -2524px; }
-      .small-tracer{ background-position: -7px -2883px; }
-      .medium-tracer{ background-position: -10px -4572px; }
-      .small-tychus{ background-position: -7px -1240px; }
-      .medium-tychus{ background-position: -10px -1966px; }
-      .small-tyrael{ background-position: -7px -1298px; }
-      .medium-tyrael{ background-position: -10px -2059px; }
-      .small-tyrande{ background-position: -7px -2061px; }
-      .medium-tyrande{ background-position: -10px -3269px; }
-      .small-uther{ background-position: -7px -1357px; }
-      .medium-uther{ background-position: -10px -2152px; }
-      .small-valla{ background-position: -7px -1416px; }
-      .medium-valla{ background-position: -10px -2245px; }
-      .small-varian{ background-position: -7px -3412px; }
-      .medium-varian{ background-position: -10px -5409px; }
-      .small-xul{ background-position: -7px -2766px; }
-      .medium-xul{ background-position: -10px -4385px; }
-      .small-zagara{ background-position: -7px -1475px; }
-      .medium-zagara{ background-position: -10px -2338px; }
-      .small-zarya{ background-position: -7px -3177px; }
-      .medium-zarya{ background-position: -10px -5037px; }
-      .small-zeratul{ background-position: -7px -1534px; }
-      .medium-zeratul{ background-position: -10px -2431px; }
-      .medium-battlefieldofeternity{ background-position: -430px 0px; }
-      .medium-blackheartsbay{ background-position: -123px 0px; }
-      .medium-braxisholdout{ background-position: -616px 0px; }
-      .medium-cursedhollow{ background-position: -308px 0px; }
-      .medium-dragonshire{ background-position: -184px 0px; }
-      .medium-gardenofterror{ background-position: -61px 0px; }
-      .medium-hauntedmines{ background-position: -246px 0px; }
-      .medium-infernalshrines{ background-position: -493px 0px; }
-      .medium-lostcavern{ background-position: -370px 0px; }
-      .medium-skytemple{ background-position: 0px 0px; }
-      .medium-tombofthespiderqueen{ background-position: -370px 0px; }
-      .medium-towersofdoom{ background-position: -554px 0px; }
-      .medium-warheadjunction{ background-position: -678px 0px; }
-    </style>
+    <link href="../css/patch.min.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -176,18 +38,24 @@
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
           <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="http://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+              </ul>
+            </li>
             <li><a href="http://heroespatchnotes.com/#heroes">Heroes</a></li>
             <li><a href="http://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" role="menu">
                 <li><a href="http://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
                 <li><a href="http://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" role="menu">
                 <li><a href="http://heroespatchnotes.com/faq.html">FAQ</a></li>
               </ul>
             </li>
@@ -197,41 +65,85 @@
     </nav>
     <article class="container">
       <ol class="timeline">
-        <li>
-          <div class="date">2016-11-22</div>
-          <div class="line-icon"><i class="fa fa-wrench"></i></div>
+        <li id="patch2016-12-06">
+          <div class="date">2016-12-06</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Hotfix Patch <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20379409" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20379599" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Heroes Affected</h4>
               <ul>
-                <li>"Fixed an issue that could cause the game client to crash after exiting a Custom Game."</li>
+                <li><p>Global ability cooldowns increased</p>
+</li>
+                <li><p>Li-Ming's Calamity talent now "only deals damage to Heroic targets"</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-12-06" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2016-12-06" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2016-12-06" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-12-06" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/guldan.html#patch2016-12-06" target="_blank">Gul'dan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2016-12-06" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/liming.html#patch2016-12-06" target="_blank">Li-Ming</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2016-12-06" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/samuro.html#patch2016-12-06" target="_blank">Samuro</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2016-12-06" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2016-12-06" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/varian.html#patch2016-12-06" target="_blank">Varian</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2016-12-06" target="_blank">Zeratul</a>
+                </li>
               </ul>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-11-22">
+          <div class="date">2016-11-22</div>
+          <div class="line-icon"><i class="fa fa-wrench"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Hotfix Patch<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20379409" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>General</h4>
+              <ul>
+                <li><p>"Fixed an issue that could cause the game client to crash after exiting a Custom Game."</p>
+</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-11-15">
           <div class="date">2016-11-15</div>
           <a href="http://us.battle.net/heroes/en/heroes/varian/" class="medium-hero medium-varian line-hero-img" alt="Varian" title="Varian" target="_blank"></a>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Patch Notes <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20372990" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20372990" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Gameplay</h4>
               <ul>
-                <li>Changes to Stealth: Scouting Drone now reveals, but revealing does not affect talents that proc when leaving Stealth</li>
-                <li>Seasoned Marksman now uncapped and with increased attack speed activatable</li>
-                <li>Blinds now half duration on Dragon Knight, Garden Terror</li>
+                <li><p>Changes to Stealth: Scouting Drone now reveals, but revealing does not affect talents that proc when leaving Stealth</p>
+</li>
+                <li><p>Seasoned Marksman now uncapped and with increased attack speed activatable</p>
+</li>
+                <li><p><a href="http://us.battle.net/forums/en/heroes/topic/20752266255">Damage Mitigation and Vulnerable changes</a>: damage buffs and debuffs stack additively, with caps of +75% damage reduction and +25% damage amplification</p>
+</li>
               </ul>
-              <h4>Play Mode Changes</h4>
+              <h4>Play Mode</h4>
               <ul>
-                <li>QM/AI: Preferred role option for auto-select added</li>
-                <li>New Brawl, <a href="http://us.battle.net/heroes/en/blog/20374411" target="_blank">Blackheart's Revenge</a>, added</li>
+                <li><p><abbr title="Quick Match">QM</abbr>/AI: Preferred role option for auto-select added</p>
+</li>
+                <li><p>New Brawl, <a href="http://us.battle.net/heroes/en/blog/20374411">Blackheart's Revenge</a>, added</p>
+</li>
               </ul>
-              <h4>Heroes Tweaked</h4>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Blinds now half duration on Dragon Knight, Garden Terror</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
               <ul>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/abathur.html#patch2016-11-15" target="_blank">Abathur</a>, 
@@ -258,21 +170,21 @@
               </ul>
               <h4>Reworks</h4>
               <div class="reworks">
-                <a href="http://heroespatchnotes.com/hero/kharazim.html" class="small-hero small-kharazim" alt="Kharazim" title="Kharazim" target="_blank"></a>
-                <a href="http://heroespatchnotes.com/hero/zeratul.html" class="small-hero small-zeratul" alt="Zeratul" title="Zeratul" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2016-11-15" class="small-hero small-kharazim" alt="Kharazim" title="Kharazim" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2016-11-15" class="small-hero small-zeratul" alt="Zeratul" title="Zeratul" target="_blank"></a>
               </div>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-11-10">
           <div class="date">2016-11-10</div>
           <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Balance Update <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20352063" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20352063" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Heroes Tweaked</h4>
+              <h4>Heroes Affected</h4>
               <ul>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/etc.html#patch2016-11-10" target="_blank">E.T.C.</a>, 
@@ -288,15 +200,15 @@
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-10-25">
           <div class="date">2016-10-25</div>
           <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Balance Update <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20324866" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20324866" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Heroes Tweaked</h4>
+              <h4>Heroes Affected</h4>
               <ul>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/samuro.html#patch2016-10-25" target="_blank">Samuro</a>
@@ -305,37 +217,45 @@
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-10-18">
           <div class="date">2016-10-18</div>
           <a href="http://us.battle.net/heroes/en/heroes/samuro/" class="medium-hero medium-samuro line-hero-img" alt="Samuro" title="Samuro" target="_blank"></a>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Patch Notes <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20328243" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20328243" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Play Mode Changes</h4>
+              <h4>Play Mode</h4>
               <ul>
-                <li><a href="http://battle.net/heroes/game/heroes-brawl/" target="_blank">Heroes Brawl</a> mode added</li>
-                <li>Changes to XP bonuses for playing with friends; first win of the day XP and gold bonus added</li>
-                <li>"Hover the cursor over the VS icon found in the top-center of the screen to display the amount of XP earned by each team from various sources, including: Takedowns, Mercenaries, Structures, and more."</li>
-                <li>MVP screen gets Exit button, adjustments made to several Commendations</li>
+                <li><p><a href="http://battle.net/heroes/game/heroes-brawl/">Heroes Brawl</a> mode added</p>
+</li>
+                <li><p>Changes to XP bonuses for playing with friends; first win of the day XP and gold bonus added</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>"Hover the cursor over the VS icon found in the top-center of the screen to display the amount of XP earned by each team from various sources, including: Takedowns, Mercenaries, Structures, and more."</p>
+</li>
+                <li><p>MVP screen gets Exit button, adjustments made to several Commendations</p>
+</li>
               </ul>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-10-12">
           <div class="date">2016-10-12</div>
           <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Balance Update <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20307801" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20307801" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Battleground</h4>
               <ul>
-                <li>Warhead Junction: Nuke inner damage reduced and Nuke damage boost pushed to later game</li>
+                <li><p>Warhead Junction: Nuke inner damage reduced and Nuke damage boost pushed to later game</p>
+</li>
               </ul>
-              <h4>Heroes Tweaked</h4>
+              <h4>Heroes Affected</h4>
               <ul>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/chen.html#patch2016-10-12" target="_blank">Chen</a>, 
@@ -349,23 +269,26 @@
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-09-27">
           <div class="date">2016-09-27</div>
           <a href="http://us.battle.net/heroes/en/heroes/zarya/" class="medium-hero medium-zarya line-hero-img" alt="Zarya" title="Zarya" target="_blank"></a>
           <a href="http://us.battle.net/heroes/en/game/events/machines-of-war/#warhead-junction" class="medium-battleground medium-warheadjunction line-bg-img second-img" alt="Warhead Junction" title="Warhead Junction" target="_blank"></a>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Patch Notes <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20285864" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20285864" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Battleground</h4>
               <ul>
-                <li>Braxis Holdout: reduced zerg early and mid game damage/scaling</li>
+                <li><p>Braxis Holdout: reduced zerg early and mid game damage/scaling</p>
+</li>
               </ul>
-              <h4>Heroes Tweaked</h4>
+              <h4>Heroes Affected</h4>
               <ul>
-                <li>Baseline changes: Chromie gets partial Reaching Through Time, ETC gets Powerslide range, Malfurion gets CD reduction on trait</li>
-                <li>Tychus gets Resistant on Odin heroic</li>
+                <li><p>Baseline changes: Chromie gets partial Reaching Through Time, E.T.C. gets Powerslide range, Malfurion gets CD reduction on trait</p>
+</li>
+                <li><p>Tychus gets Resistant on Odin heroic</p>
+</li>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/alarak.html#patch2016-09-27" target="_blank">Alarak</a>, 
                   <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-09-27" target="_blank">Anub'arak</a>, 
@@ -386,57 +309,70 @@
               </ul>
               <h4>Reworks</h4>
               <div class="reworks">
-                <a href="http://heroespatchnotes.com/hero/chen.html" class="small-hero small-chen" alt="Chen" title="Chen" target="_blank"></a>
-                <a href="http://heroespatchnotes.com/hero/etc.html" class="small-hero small-etc" alt="E.T.C." title="E.T.C." target="_blank"></a>
-                <a href="http://heroespatchnotes.com/hero/nazeebo.html" class="small-hero small-nazeebo" alt="Nazeebo" title="Nazeebo" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/chen.html#patch2016-09-27" class="small-hero small-chen" alt="Chen" title="Chen" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/etc.html#patch2016-09-27" class="small-hero small-etc" alt="E.T.C." title="E.T.C." target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2016-09-27" class="small-hero small-nazeebo" alt="Nazeebo" title="Nazeebo" target="_blank"></a>
               </div>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-09-20">
           <div class="date">2016-09-20</div>
           <div class="line-icon"><i class="fa fa-wrench"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Hotfix Patch <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20285862" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Hotfix Patch<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20285862" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>UI/Hotkey</h4>
               <ul>
-                <li>Fix for: "Pressing an Ability hotkey several times in quick succession will no longer cancel targeting mode."</li>
+                <li><p>Fix for: "Pressing an Ability hotkey several times in quick succession will no longer cancel targeting mode."</p>
+</li>
               </ul>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-09-13">
           <div class="date">2016-09-13</div>
           <a href="http://us.battle.net/heroes/en/heroes/alarak/" class="medium-hero medium-alarak line-hero-img" alt="Alarak" title="Alarak" target="_blank"></a>
           <a href="http://us.battle.net/heroes/en/game/events/machines-of-war/#braxis-holdout" class="medium-battleground medium-braxisholdout line-bg-img second-img" alt="Braxis Holdout" title="Braxis Holdout" target="_blank"></a>
-          <a href="http://us.battle.net/heroes/en/blog/20271419" class="line-other-img third-img ranked-ring" alt="Ranked Season 2 begins" title="Ranked Season 2 begins" target="_blank"><h3>2</h3></a>
+          <a href="http://us.battle.net/heroes/en/blog/20271419" class="ranked-ring third-img" alt="Ranked Season 2 begins" title="Ranked Season 2 begins" target="_blank"><h3>2</h3></a>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
               <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20243513" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Gameplay</h4>
               <ul>
-                <li>Mount movement speed decreased from 40% to 30%</li>
-                <li>Regen globe despawn reduced from 8 to 6 seconds; Mercenary spawn times changed</li>
-                <li>Imposing Presence gets activatable function; Spell Shield now toggleable to control when you'd like to reduce ability damage</li>
-                <li>Relentless talent removed from most Heroes; Bribe talent removed from some Heroes, made Hero-specific for others</li>
-                <li>Map pool reduced to 6 "to increase the frequency with which players encounter the new Battleground, Braxis Holdout"; lasts until October 17</li>
+                <li><p>Mount movement speed decreased from 40% to 30%</p>
+</li>
+                <li><p>Regen globe despawn reduced from 8 to 6 seconds; Mercenary spawn times changed</p>
+</li>
+                <li><p>Imposing Presence gets activatable function; Spell Shield now toggleable to control when you'd like to reduce ability damage</p>
+</li>
+                <li><p>Relentless talent removed from most Heroes; Bribe talent removed from some Heroes, made Hero-specific for others</p>
+</li>
               </ul>
-              <h4>Play Mode Changes</h4>
+              <h4>Play Mode</h4>
               <ul>
-                <li>MVP system added: "Five players will receive awards for their in-game performance and individual achievements" at end of each game</li>
-                <li>Ranked changes to promotion and demotion matches; points in excess of division cap are stored until results of promo match, then applied</li>
-                <li>Quest changes for Draft modes: "Any Hero selected...will now count toward progression of any role or universe-specific Daily Quest"</li>
-                <li>Hero League Grandmaster players has been reduced from 500 to 200</li>
-                <li>Try Mode gets Boss camp, can now change enemy hero and/or game speed</li>
+                <li><p>Ranked changes to promotion and demotion matches; points in excess of division cap are stored until results of promo match, then applied</p>
+</li>
+                <li><p>Quest changes for Draft modes: "Any Hero selected...will now count toward progression of any role or universe-specific Daily Quest"</p>
+</li>
+                <li><p><abbr title="Hero League">HL</abbr> Grandmaster players have been reduced from 500 to 200</p>
+</li>
+                <li><p>Try Mode gets Boss camp, can now change enemy hero and/or game speed</p>
+</li>
               </ul>
-              <h4>Heroes Tweaked</h4>
+              <h4>UI/Hotkey</h4>
               <ul>
-                <li>Baseline changes: Johanna gets partial KtP baseline; Muradin gets partial Reverberation baseline</li>
+                <li><p>MVP system added: "Five players will receive awards for their in-game performance and individual achievements" at end of each game</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>Baseline changes: Johanna gets partial Knight Takes Pawn baseline; Muradin gets partial Reverberation baseline</p>
+</li>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-09-13" target="_blank">Anub'arak</a>, 
                   <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2016-09-13" target="_blank">Azmodan</a>, 
@@ -473,23 +409,24 @@
               </ul>
               <h4>Reworks</h4>
               <div class="reworks">
-                <a href="http://heroespatchnotes.com/hero/butcher.html" class="small-hero small-butcher" alt="Butcher" title="Butcher" target="_blank"></a>
-                <a href="http://heroespatchnotes.com/hero/valla.html" class="small-hero small-valla" alt="Valla" title="Valla" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/butcher.html#patch2016-09-13" class="small-hero small-butcher" alt="Butcher" title="Butcher" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/valla.html#patch2016-09-13" class="small-hero small-valla" alt="Valla" title="Valla" target="_blank"></a>
               </div>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-08-24">
           <div class="date">2016-08-24</div>
           <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Balance Update <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20245464" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20245464" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Heroes Tweaked</h4>
+              <h4>Heroes Affected</h4>
               <ul>
-                <li>Baseline changes: Sgt. Hammer gets 20% basic attack range baseline and thrusters active in Hall of Storms</li>
+                <li><p>Baseline changes: Sgt. Hammer gets 20% basic attack range baseline and thrusters active in Hall of Storms</p>
+</li>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/auriel.html#patch2016-08-24" target="_blank">Auriel</a>, 
                   <a href="http://heroespatchnotes.com/hero/cho.html#patch2016-08-24" target="_blank">Cho</a>, 
@@ -504,19 +441,20 @@
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-08-09">
           <div class="date">2016-08-09</div>
           <a href="http://us.battle.net/heroes/en/heroes/auriel/" class="medium-hero medium-auriel line-hero-img" alt="Auriel" title="Auriel" target="_blank"></a>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Patch Notes <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20212896" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20212896" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Gameplay</h4>
               <ul>
-                <li>Bug fixes for Mercenary body blocking issues</li>
+                <li><p>Bug fixes for Mercenary body blocking issues</p>
+</li>
               </ul>
-              <h4>Heroes Tweaked</h4>
+              <h4>Heroes Affected</h4>
               <ul>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2016-08-09" target="_blank">Gazlowe</a>, 
@@ -532,19 +470,20 @@
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-07-27">
           <div class="date">2016-07-27</div>
           <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Balance Update <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20184555" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20184555" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Gameplay</h4>
               <ul>
-                <li>Bug fixes for Hero body blocking issues</li>
+                <li><p>Bug fixes for Hero body blocking issues</p>
+</li>
               </ul>
-              <h4>Heroes Tweaked</h4>
+              <h4>Heroes Affected</h4>
               <ul>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/artanis.html#patch2016-07-27" target="_blank">Artanis</a>, 
@@ -564,64 +503,79 @@
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-07-21">
           <div class="date">2016-07-21</div>
           <div class="line-icon"><i class="fa fa-wrench"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Hotfix Patch <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20185029" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Hotfix Patch<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20185029" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>General</h4>
               <ul>
-                <li>"Fixed an issue that could cause Heroes of the Storm to crash on startup."</li>
+                <li><p>"Fixed an issue that could cause Heroes of the Storm to crash on startup."</p>
+</li>
               </ul>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-07-20">
           <div class="date">2016-07-20</div>
           <div class="line-icon"><i class="fa fa-wrench"></i></div>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Hotfix Patch <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20176357" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Hotfix Patch<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20176357" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Gameplay</h4>
               <ul>
-                <li>Fixes for Azmodan's Taste for Blood not stacking correctly, Zagara's Devouring Maw cast area not pulling in Heroes</li>
-                <li>"Heroes who have unique Mounts, such as Zagara and Anub’arak, will no longer occasionally receive Horse Mounts in-game."</li>
+                <li><p>Fixes for Azmodan's Taste for Blood not stacking correctly, Zagara's Devouring Maw cast area not pulling in Heroes</p>
+</li>
               </ul>
             </div>
           </div>
         </li>
-        <li>
+        <li id="patch2016-07-12">
           <div class="date">2016-07-12</div>
           <a href="http://us.battle.net/heroes/en/heroes/guldan/" class="medium-hero medium-guldan line-hero-img" alt="Gul'dan" title="Gul'dan" target="_blank"></a>
           <div class="panel panel-primary detail">
             <div class="panel-heading">
-              <h3>Patch Notes <a class="pull-right" href="http://us.battle.net/heroes/en/blog/20164442" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20164442" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
             </div>
             <div class="panel-body">
-              <h4>Gameplay Changes</h4>
+              <h4>Gameplay</h4>
               <ul>
-                <li>Health sustain changes: regen globes grant more health/mana, longer cooldowns on healing wells</li>
-                <li>Minion Buffs: Lane minions "now deal an additional 50% damage to Structures"</li>
-                <li>Catapults will not acquire a new target after fixating until the target is destroyed or the Catapult is killed</li>
-                <li>Relentless talent more narrowly defined as only stuns, slows, and roots; Executioner bonus damage applied "to anything attacked after the effect is triggered"</li>
-                <li>Healing wells now displayed on mini-map as a '+' icon</li>
-                <li>Garden Terrors now deal more damage to Structures</li>
+                <li><p>Health sustain changes: regen globes grant more health/mana, longer cooldowns on healing wells</p>
+</li>
+                <li><p>Minion Buffs: Lane minions "now deal an additional 50% damage to Structures"</p>
+</li>
+                <li><p>Catapults will not acquire a new target after fixating until the target is destroyed or the Catapult is killed</p>
+</li>
+                <li><p>Relentless talent more narrowly defined as only stuns, slows, and roots; Executioner bonus damage applied "to anything attacked after the effect is triggered"</p>
+</li>
+                <li><p>Healing wells now displayed on mini-map as a '+' icon</p>
+</li>
               </ul>
-              <h4>Play Mode Changes</h4>
+              <h4>Play Mode</h4>
               <ul>
-                <li>QM: Bonus XP for auto select when "system detects lengthy queue times for one or more Heroes"</li>
-                <li>Gameplay tips will now display on loading screens when entering a match</li>
-                <li>Rejoin is now optional for Training, Single Player Versus AI, and Custom Games</li>
+                <li><p><abbr title="Quick Match">QM</abbr>: Bonus XP for auto select when "system detects lengthy queue times for one or more Heroes"</p>
+</li>
+                <li><p>Gameplay tips will now display on loading screens when entering a match</p>
+</li>
+                <li><p>Rejoin is now optional for Training, Single Player Versus AI, and Custom Games</p>
+</li>
               </ul>
-              <h4>Heroes Tweaked</h4>
+              <h4>Battleground</h4>
               <ul>
-                <li>Baseline changes: Jaina gets 3 waves of Blizzard baseline; Stitches gets Helping Hand baseline</li>
-                <li>Many changes from devs "doing a pass on all heroes...to increase the health of their talent trees"</li>
+                <li><p>Garden Terrors now deal more damage to Structures</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>Baseline changes: Jaina gets 3 waves of Blizzard baseline; Stitches gets Helping Hand baseline</p>
+</li>
+                <li><p>Many changes from devs "doing a pass on all heroes...to increase the health of their talent trees"</p>
+</li>
                 <li>
                   <a href="http://heroespatchnotes.com/hero/abathur.html#patch2016-07-12" target="_blank">Abathur</a>, 
                   <a href="http://heroespatchnotes.com/hero/arthas.html#patch2016-07-12" target="_blank">Arthas</a>, 
@@ -666,8 +620,1670 @@
               </ul>
               <h4>Reworks</h4>
               <div class="reworks">
-                <a href="http://heroespatchnotes.com/hero/zagara.html" class="small-hero small-zagara" alt="Zagara" title="Zagara" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/zagara.html#patch2016-07-12" class="small-hero small-zagara" alt="Zagara" title="Zagara" target="_blank"></a>
               </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-06-29">
+          <div class="date">2016-06-29</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20167050" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>Baseline changes: Medivh gets Mana Adept baseline</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-06-29" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/leoric.html#patch2016-06-29" target="_blank">Leoric</a>, 
+                  <a href="http://heroespatchnotes.com/hero/medivh.html#patch2016-06-29" target="_blank">Medivh</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-06-21">
+          <div class="date">2016-06-21</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20157260" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/chromie.html#patch2016-06-21" target="_blank">Chromie</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2016-06-21" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-06-21" target="_blank">Rehgar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-06-14">
+          <div class="date">2016-06-14</div>
+          <a href="http://us.battle.net/heroes/en/heroes/medivh/" class="medium-hero medium-medivh line-hero-img" alt="Medivh" title="Medivh" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/blog/20142851" class="ranked-ring second-img" alt="Ranked Season 1 begins" title="Ranked Season 1 begins" target="_blank"><h3>1</h3></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20143449" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Hero League">HL</abbr> switched to tiers instead of 50 Ranks: "There are seven League Tiers in total: Bronze, Silver, Gold, Platinum, Diamond, Master, and Grand Master"</p>
+</li>
+                <li><p>Unranked Draft mode added: "There will be no party size restrictions in this new game mode"</p>
+</li>
+                <li><p>MMR Seeding: first timers in <abbr title="Hero League">HL</abbr> Season 1 and Unranked Draft will seed from <abbr title="Quick Match">QM</abbr> MMR; future <abbr title="Hero League">HL</abbr> seasons will seed from Unranked Draft MMR; Team League uses <abbr title="Hero League">HL</abbr> MMR to seed</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2016-06-14" target="_blank">Tyrael</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-06-02">
+          <div class="date">2016-06-02</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20131418" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/chromie.html#patch2016-06-02" target="_blank">Chromie</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-05-25">
+          <div class="date">2016-05-25</div>
+          <div class="line-icon"><i class="fa fa-wrench"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Hotfix Patch<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20131411" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>General</h4>
+              <ul>
+                <li><p>"Fixed an issue that could prevent the client from fully shutting down after exiting the game"</p>
+</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-05-17">
+          <div class="date">2016-05-17</div>
+          <a href="http://us.battle.net/heroes/en/heroes/chromie/" class="medium-hero medium-chromie line-hero-img" alt="Chromie" title="Chromie" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20120032" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Stun, root, and polymorph duration nerfs for most heroes</p>
+</li>
+                <li><p>Several generic level 1 talents changed to Quest Talents (Conjurer's, Regen, Seasoned); Quest talents hard-capped, but give completion bonus</p>
+</li>
+                <li><p>Executioner talent reworked: "increases Basic Attack damage by 30% for 3 seconds after hitting a Stunned, Slowed, or Rooted target with a Basic Attack"</p>
+</li>
+                <li><p>Battle Momentum has been made Hero-specific, and now only applies to Basic Ability cooldowns</p>
+</li>
+                <li><p>"25% of a Healing Well’s maximum Health has been converted into a Shield. Shield Regeneration delay of 8 seconds"</p>
+</li>
+              </ul>
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Hero League">HL</abbr> matchmaking update for "extremely high MMR's"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-05-17" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/artanis.html#patch2016-05-17" target="_blank">Artanis</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2016-05-17" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2016-05-17" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2016-05-17" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2016-05-17" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-05-17" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2016-05-17" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/greymane.html#patch2016-05-17" target="_blank">Greymane</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2016-05-17" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2016-05-17" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2016-05-17" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2016-05-17" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/leoric.html#patch2016-05-17" target="_blank">Leoric</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2016-05-17" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/liming.html#patch2016-05-17" target="_blank">Li-Ming</a>, 
+                  <a href="http://heroespatchnotes.com/hero/ltmorales.html#patch2016-05-17" target="_blank">Lt. Morales</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2016-05-17" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2016-05-17" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2016-05-17" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2016-05-17" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-05-17" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rexxar.html#patch2016-05-17" target="_blank">Rexxar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2016-05-17" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2016-05-17" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2016-05-17" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2016-05-17" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2016-05-17" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2016-05-17" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2016-05-17" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2016-05-17" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2016-05-17" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2016-05-17" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/xul.html#patch2016-05-17" target="_blank">Xul</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2016-05-17" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2016-05-17" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-05-17" class="small-hero small-anubarak" alt="Anub'arak" title="Anub'arak" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/arthas.html#patch2016-05-17" class="small-hero small-arthas" alt="Arthas" title="Arthas" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-05-17" class="small-hero small-falstad" alt="Falstad" title="Falstad" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-05-04">
+          <div class="date">2016-05-04</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20097945" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/tracer.html#patch2016-05-04" target="_blank">Tracer</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-04-27">
+          <div class="date">2016-04-27</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20102776" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/butcher.html#patch2016-04-27" target="_blank">Butcher</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2016-04-27" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2016-04-27" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rexxar.html#patch2016-04-27" target="_blank">Rexxar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-04-19">
+          <div class="date">2016-04-19</div>
+          <a href="http://us.battle.net/heroes/en/heroes/tracer/" class="medium-hero medium-tracer line-hero-img" alt="Tracer" title="Tracer" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20099322" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Quick Match">QM</abbr> "matchmaking system will now account for each player's Hero level in order to better define match quality"</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>"Mute Player Pings button has been added to the in-game Score Screen (TAB)"</p>
+</li>
+                <li><p>Hotkeys: "Hold Position Hotkey (Default: H) now also functions as a Hold Fire command" and "/Taunt and /Dance hotkey settings default to Numpad 1 and 2"</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Towers of Doom: "Events in which three Altars spawn at once will now only occur twice per game, during the first and fifth Altar events"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>Baseline changes: Artanis gets 50% Zealot Charge baseline</p>
+</li>
+                <li><p>Greymane's Incendiary Elixir talent turned into a Quest talent</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/artanis.html#patch2016-04-19" target="_blank">Artanis</a>, 
+                  <a href="http://heroespatchnotes.com/hero/greymane.html#patch2016-04-19" target="_blank">Greymane</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-04-12">
+          <div class="date">2016-04-12</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20090404" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>Buffs to "lesser-picked/lower win-rate Heroic Abilities" on Abathur, Brightwing, Li Li, Malfurion, E.T.C., Tyrande, Uther, Johanna, Muradin</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2016-04-12" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2016-04-12" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2016-04-12" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-04-12" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2016-04-12" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2016-04-12" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2016-04-12" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2016-04-12" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/liming.html#patch2016-04-12" target="_blank">Li-Ming</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2016-04-12" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2016-04-12" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2016-04-12" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2016-04-12" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2016-04-12" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2016-04-12" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2016-04-12" target="_blank">Uther</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-03-29">
+          <div class="date">2016-03-29</div>
+          <a href="http://us.battle.net/heroes/en/heroes/dehaka/" class="medium-hero medium-dehaka line-hero-img" alt="Dehaka" title="Dehaka" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/blog/20064917" class="medium-battleground medium-lostcavern line-bg-img second-img" alt="Lost Cavern" title="Lost Cavern" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20063493" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Block: "Damage reduction increased from 50% to 75%"; Dampen Magic redesigned to reduce Ability Damage by 50% for 1 second</p>
+</li>
+              </ul>
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p>Bans added to <abbr title="Hero League">HL</abbr> and <abbr title="Team League">TL</abbr></p>
+</li>
+                <li><p>Ranked requirements updated: account level 30 no longer needed, need access to 14 heroes over level 5 to queue, free week heroes can now also be selected</p>
+</li>
+                <li><p>Draft Lobby re-worked to show hero models, favorites bar</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>Death recaps added: "briefly summarize the cause of death, list the player's killer, and the source of damage that scored the killing blow."</p>
+</li>
+                <li><p>Hotkeys update to set Quick Cast for Individual Abilities</p>
+</li>
+                <li><p>"All generic Talents have received updated button art; All remaining Talents that modify the same Ability and coexist on the same Talent tier have received new color tints"</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Garden Terror's Overgrowth no longer deals damage to Structures, Minions, or Mercenaries; Dragon Knight immune to Attack Speed slows from Forts and Keeps</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2016-03-29" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2016-03-29" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2016-03-29" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2016-03-29" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/butcher.html#patch2016-03-29" target="_blank">Butcher</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2016-03-29" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2016-03-29" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2016-03-29" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-03-29" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gall.html#patch2016-03-29" target="_blank">Gall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2016-03-29" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/greymane.html#patch2016-03-29" target="_blank">Greymane</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2016-03-29" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2016-03-29" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2016-03-29" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2016-03-29" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2016-03-29" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2016-03-29" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/leoric.html#patch2016-03-29" target="_blank">Leoric</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2016-03-29" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lunara.html#patch2016-03-29" target="_blank">Lunara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2016-03-29" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2016-03-29" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2016-03-29" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2016-03-29" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-03-29" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rexxar.html#patch2016-03-29" target="_blank">Rexxar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2016-03-29" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2016-03-29" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2016-03-29" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sylvanas.html#patch2016-03-29" target="_blank">Sylvanas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2016-03-29" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2016-03-29" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2016-03-29" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2016-03-29" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2016-03-29" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2016-03-29" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/xul.html#patch2016-03-29" target="_blank">Xul</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2016-03-29" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2016-03-29" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2016-03-29" class="small-hero small-gazlowe" alt="Gazlowe" title="Gazlowe" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/illidan.html#patch2016-03-29" class="small-hero small-illidan" alt="Illidan" title="Illidan" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2016-03-29" class="small-hero small-kaelthas" alt="Kael'thas" title="Kael'thas" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/sylvanas.html#patch2016-03-29" class="small-hero small-sylvanas" alt="Sylvanas" title="Sylvanas" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/tychus.html#patch2016-03-29" class="small-hero small-tychus" alt="Tychus" title="Tychus" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-03-16">
+          <div class="date">2016-03-16</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20057110" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>Rehgar can no longer self-cast Ancestral Healing</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2016-03-16" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-03-16" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/xul.html#patch2016-03-16" target="_blank">Xul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-03-09">
+          <div class="date">2016-03-09</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20058183" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2016-03-09" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/artanis.html#patch2016-03-09" target="_blank">Artanis</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-03-09" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/greymane.html#patch2016-03-09" target="_blank">Greymane</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2016-03-09" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/liming.html#patch2016-03-09" target="_blank">Li-Ming</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2016-03-09" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2016-03-09" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2016-03-09" target="_blank">Zagara</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-03-01">
+          <div class="date">2016-03-01</div>
+          <a href="http://us.battle.net/heroes/en/heroes/xul/" class="medium-hero medium-xul line-hero-img" alt="Xul" title="Xul" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20049139" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>Alt+click abilities to indicate "remaining Ability cooldown durations", "current number of charges on Abilities", and "below 25% of their total Health or Mana"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2016-03-01" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-03-01" target="_blank">Rehgar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-02-17">
+          <div class="date">2016-02-17</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20038832" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-02-17" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/liming.html#patch2016-02-17" target="_blank">Li-Ming</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-02-17" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2016-02-17" target="_blank">Stitches</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-02-10">
+          <div class="date">2016-02-10</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20008204" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>"Dying will no longer cause the player's Healing Well cooldown to reset"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2016-02-10" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-02-10" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2016-02-10" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2016-02-10" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2016-02-10" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-02-10" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2016-02-10" target="_blank">Thrall</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-02-02">
+          <div class="date">2016-02-02</div>
+          <a href="http://us.battle.net/heroes/en/heroes/li-ming/" class="medium-hero medium-liming line-hero-img" alt="Li-Ming" title="Li-Ming" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19995509" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Structure Buffs: structures now deal 50% bonus damage to Heroes, can no longer be made Vulnerable</p>
+</li>
+                <li><p>Battleground-specific creatures are now universally defined as "Monsters," changes how they work with certain talents</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>Killstreak flames removed</p>
+</li>
+                <li><p>Floating combat text reworked to be more visually apparent</p>
+</li>
+                <li><p>Updates to talent icons for similar icons on same tier</p>
+</li>
+                <li><p>Ping Spam Reduction: "Reduced the frequency at which players can issue pings before they become unable to issue additional pings for a period of time"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2016-02-02" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2016-02-02" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/artanis.html#patch2016-02-02" target="_blank">Artanis</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2016-02-02" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2016-02-02" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/butcher.html#patch2016-02-02" target="_blank">Butcher</a>, 
+                  <a href="http://heroespatchnotes.com/hero/cho.html#patch2016-02-02" target="_blank">Cho</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2016-02-02" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2016-02-02" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-02-02" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gall.html#patch2016-02-02" target="_blank">Gall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2016-02-02" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2016-02-02" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2016-02-02" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2016-02-02" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2016-02-02" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2016-02-02" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/leoric.html#patch2016-02-02" target="_blank">Leoric</a>, 
+                  <a href="http://heroespatchnotes.com/hero/ltmorales.html#patch2016-02-02" target="_blank">Lt. Morales</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lunara.html#patch2016-02-02" target="_blank">Lunara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2016-02-02" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2016-02-02" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2016-02-02" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2016-02-02" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2016-02-02" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2016-02-02" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-02-02" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rexxar.html#patch2016-02-02" target="_blank">Rexxar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2016-02-02" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2016-02-02" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2016-02-02" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sylvanas.html#patch2016-02-02" target="_blank">Sylvanas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2016-02-02" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2016-02-02" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2016-02-02" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2016-02-02" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2016-02-02" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2016-02-02" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2016-02-02" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2016-02-02" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/nova.html#patch2016-02-02" class="small-hero small-nova" alt="Nova" title="Nova" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-02-02" class="small-hero small-rehgar" alt="Rehgar" title="Rehgar" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-01-27">
+          <div class="date">2016-01-27</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/20021838" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>Buffs to under-picked Heroics: "increase the impact that some Heroic Abilities have at the moment they are cast"</p>
+</li>
+                <li><p>Muradin's Avatar has mini-stuns removed</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2016-01-27" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2016-01-27" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2016-01-27" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2016-01-27" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/greymane.html#patch2016-01-27" target="_blank">Greymane</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2016-01-27" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2016-01-27" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/ltmorales.html#patch2016-01-27" target="_blank">Lt. Morales</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2016-01-27" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2016-01-27" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-01-27" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2016-01-27" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2016-01-27" target="_blank">Uther</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-01-20">
+          <div class="date">2016-01-20</div>
+          <div class="line-icon"><i class="fa fa-balance-scale"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Balance Update<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19996517" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Cleanse reworked: "Target ally now becomes Unstoppable for 1 second. Cannot be self-cast"</p>
+</li>
+              </ul>
+              <h4>General</h4>
+              <ul>
+                <li><p>First smaller balance update to be released</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2016-01-20" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2016-01-20" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/ltmorales.html#patch2016-01-20" target="_blank">Lt. Morales</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lunara.html#patch2016-01-20" target="_blank">Lunara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2016-01-20" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2016-01-20" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2016-01-20" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2016-01-20" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2016-01-20" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2016-01-20" target="_blank">Uther</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2016-01-12">
+          <div class="date">2016-01-12</div>
+          <a href="http://us.battle.net/heroes/en/heroes/greymane/" class="medium-hero medium-greymane line-hero-img" alt="Greymane" title="Greymane" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19993879" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>General</h4>
+              <ul>
+                <li><p>Cho'gall Buddy Brawl has ended; Cho'gall now available for purchase from the in-game Shop</p>
+</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-12-15">
+          <div class="date">2015-12-15</div>
+          <a href="http://us.battle.net/heroes/en/heroes/lunara/" class="medium-hero medium-lunara line-hero-img" alt="Lunara" title="Lunara" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19981657" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Quick Match">QM</abbr> rule added to matchmaker "prevents teams that do not have a Warrior hero from being matched with teams that do have a Warrior"</p>
+</li>
+                <li><p>Players in Custom Game lobbies can now create a clickable link and share it in chat channels</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>Loading Screens will now only display portrait borders that are relevant to each play mode</p>
+</li>
+                <li><p>Party Indicator Icons have been added to indicate which players queued together</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/artanis.html#patch2015-12-15" target="_blank">Artanis</a>, 
+                  <a href="http://heroespatchnotes.com/hero/cho.html#patch2015-12-15" target="_blank">Cho</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-12-15" target="_blank">Tassadar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-12-08">
+          <div class="date">2015-12-08</div>
+          <div class="line-icon"><i class="fa fa-wrench"></i></div>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19984162" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Talent gating removed: "players will now have access to all Hero Talents regardless of their account levels"</p>
+</li>
+              </ul>
+              <h4>General</h4>
+              <ul>
+                <li><p>Recruit a Friend introduced: recruiter can get mount, recruitees can get two heroes free</p>
+</li>
+                <li><p>Free-to-play weekly Hero Rotation has been expanded from 7 to 10 free Hero slots</p>
+</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-11-17">
+          <div class="date">2015-11-17</div>
+          <a href="http://us.battle.net/heroes/en/heroes/chogall/" class="medium-hero medium-cho line-hero-img" alt="Cho'gall" title="Cho'gall" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/battlegrounds/towers-of-doom/" class="medium-battleground medium-towersofdoom line-bg-img second-img" alt="Towers of Doom" title="Towers of Doom" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19960704" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p><a href="http://us.battle.net/heroes/en/blog/19906095">Scaling changes</a>: "A large portion of Heroes' total scaling amounts, which were previously gained over the course of a game, have been added to their base values."</p>
+</li>
+                <li><p>"<a href="http://us.battle.net/heroes/en/blog/19906095">Respawn timers</a> have been increased for levels 1 - 10"</p>
+</li>
+              </ul>
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Hero League">HL</abbr>: 2-player parties will always select heroes simultaneously (for Cho'gall)</p>
+</li>
+              </ul>
+              <h4>General</h4>
+              <ul>
+                <li><p>Replays from this patch and later "will remain viewable after future patches are released"</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>UI Score-Screen: Takedowns replaced with Kills and Assists</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Haunted Mines map removed from matchmaking queues</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-11-17" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2015-11-17" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2015-11-17" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2015-11-17" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/leoric.html#patch2015-11-17" target="_blank">Leoric</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-11-17" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2015-11-17" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rexxar.html#patch2015-11-17" target="_blank">Rexxar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-11-17" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2015-11-17" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-10-20">
+          <div class="date">2015-10-20</div>
+          <a href="http://us.battle.net/heroes/en/heroes/artanis/" class="medium-hero medium-artanis line-hero-img" alt="Artanis" title="Artanis" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19923883" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Hero League">HL</abbr>: AFK and leaver penalties for failing to select hero before timer expires</p>
+</li>
+                <li><p>Matchmaker max queue time increased from 360 to 600 seconds</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/ltmorales.html#patch2015-10-20" target="_blank">Lt. Morales</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-10-06">
+          <div class="date">2015-10-06</div>
+          <a href="http://us.battle.net/heroes/en/heroes/lt-morales/" class="medium-hero medium-ltmorales line-hero-img" alt="Lt. Morales" title="Lt. Morales" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19893628" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p>Try Mode updated with merc camps and toggles for level, talents, cooldowns and ally</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>Loading screens now show player names, portrait, and selected hero</p>
+</li>
+                <li><p>Visual effects added when targeted by structures</p>
+</li>
+                <li><p>End of game surveys added</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Battlefield of Eternity: increased late-game scaling for immortals</p>
+</li>
+                <li><p>Garden Terror's Overgrowth now disables enemy Core</p>
+</li>
+                <li><p>Sky Temple: triple active Temple events will no longer occur</p>
+</li>
+                <li><p>Infernal Shrines: Skeletal Defenders needed to summon Punisher increased from 30 to 40</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-10-06" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2015-10-06" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2015-10-06" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/butcher.html#patch2015-10-06" target="_blank">Butcher</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2015-10-06" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2015-10-06" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-10-06" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-10-06" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2015-10-06" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2015-10-06" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2015-10-06" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2015-10-06" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2015-10-06" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/leoric.html#patch2015-10-06" target="_blank">Leoric</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2015-10-06" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2015-10-06" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-10-06" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2015-10-06" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-10-06" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rexxar.html#patch2015-10-06" target="_blank">Rexxar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2015-10-06" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2015-10-06" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2015-10-06" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-10-06" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2015-10-06" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2015-10-06" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2015-10-06" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2015-10-06" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-10-06" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2015-10-06" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-09-08">
+          <div class="date">2015-09-08</div>
+          <a href="http://us.battle.net/heroes/en/heroes/rexxar/" class="medium-hero medium-rexxar line-hero-img" alt="Rexxar" title="Rexxar" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19883680" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Hero League">HL</abbr>: now limited to <a href="http://us.battle.net/heroes/en/blog/19883523">parties of two or fewer</a></p>
+</li>
+              </ul>
+              <h4>General</h4>
+              <ul>
+                <li><p>"Players who are frequently reported for Abusive Chat will be given a Silence Penalty": first penalty is 24 hours, successive penalties double in duration</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2015-09-08" target="_blank">Kael'thas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-08-18">
+          <div class="date">2015-08-18</div>
+          <a href="http://us.battle.net/heroes/en/heroes/kharazim/" class="medium-hero medium-kharazim line-hero-img" alt="Kharazim" title="Kharazim" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/battlegrounds/infernal-shrines/" class="medium-battleground medium-infernalshrines line-bg-img second-img" alt="Infernal Shrines" title="Infernal Shrines" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19818499" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Cleanse reworked: "No longer makes the target Unstoppable for 1 second. Now adds Relentless to the target for 2 seconds (50% shorter CC duration)"</p>
+</li>
+                <li><p>Many other tweaks to generic talents, including Focused Attacks "only trigger when hitting Heroes"</p>
+</li>
+                <li><p>"Clarify the rules for temporary Ability Power gains": dynamic updates for some, snapshots for others</p>
+</li>
+              </ul>
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p><abbr title="Hero League">HL</abbr> &amp; <abbr title="Team League">TL</abbr>: ranks reset (MMR not reset), and 20 placement matches needed to receive initial ranking</p>
+</li>
+                <li><p><abbr title="Hero League">HL</abbr>: "now limited to a maximum party size of four players"</p>
+</li>
+                <li><p><abbr title="Team League">TL</abbr>: "ability to create a named team has been removed"</p>
+</li>
+              </ul>
+              <h4>General</h4>
+              <ul>
+                <li><p><a href="http://us.battle.net/heroes/en/blog/19828056">Dynamic Bundles</a> added for 3+ items bundled: "price will be automatically reduced if the player already owns one or more of the items"</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Tomb of the Spider Queen: increased scaling for late-game Webweavers</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-08-18" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2015-08-18" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2015-08-18" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2015-08-18" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2015-08-18" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/butcher.html#patch2015-08-18" target="_blank">Butcher</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2015-08-18" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2015-08-18" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-08-18" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-08-18" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2015-08-18" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2015-08-18" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2015-08-18" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2015-08-18" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2015-08-18" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2015-08-18" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kharazim.html#patch2015-08-18" target="_blank">Kharazim</a>, 
+                  <a href="http://heroespatchnotes.com/hero/leoric.html#patch2015-08-18" target="_blank">Leoric</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2015-08-18" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2015-08-18" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2015-08-18" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2015-08-18" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-08-18" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2015-08-18" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-08-18" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2015-08-18" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2015-08-18" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2015-08-18" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2015-08-18" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sylvanas.html#patch2015-08-18" target="_blank">Sylvanas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-08-18" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2015-08-18" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2015-08-18" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2015-08-18" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2015-08-18" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2015-08-18" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-08-18" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2015-08-18" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2015-08-18" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2015-08-18" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-06-30">
+          <div class="date">2015-06-30</div>
+          <a href="http://us.battle.net/heroes/en/heroes/the-butcher/" class="medium-hero medium-butcher line-hero-img" alt="The Butcher" title="The Butcher" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/battlegrounds/battlefield-of-eternity/" class="medium-battleground medium-battlefieldofeternity line-bg-img second-img" alt="Battlefield of Eternity" title="Battlefield of Eternity" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/heroes/leoric/" class="medium-hero medium-leoric line-hero-img third-img" alt="Leoric" title="Leoric" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19803324" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Tweaks to most generic talents, including Spell Shield "duration increased from 2 to 3 seconds"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>See <a href="http://us.battle.net/heroes/en/blog/19802336">Developer Insights</a> for more details on reworks and balance changes</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-06-30" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2015-06-30" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2015-06-30" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2015-06-30" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2015-06-30" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/butcher.html#patch2015-06-30" target="_blank">Butcher</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2015-06-30" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2015-06-30" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-06-30" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-06-30" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2015-06-30" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2015-06-30" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2015-06-30" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/johanna.html#patch2015-06-30" target="_blank">Johanna</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2015-06-30" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2015-06-30" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2015-06-30" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2015-06-30" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2015-06-30" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2015-06-30" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-06-30" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2015-06-30" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-06-30" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2015-06-30" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2015-06-30" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2015-06-30" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2015-06-30" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sylvanas.html#patch2015-06-30" target="_blank">Sylvanas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-06-30" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2015-06-30" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2015-06-30" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2015-06-30" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2015-06-30" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2015-06-30" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-06-30" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2015-06-30" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2015-06-30" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2015-06-30" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2015-06-30" class="small-hero small-brightwing" alt="Brightwing" title="Brightwing" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2015-06-30" class="small-hero small-malfurion" alt="Malfurion" title="Malfurion" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2015-06-30" class="small-hero small-rehgar" alt="Rehgar" title="Rehgar" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2015-06-30" class="small-hero small-thelostvikings" alt="The Lost Vikings" title="The Lost Vikings" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-06-02">
+          <div class="date">2015-06-02</div>
+          <a href="http://us.battle.net/heroes/en/heroes/johanna/" class="medium-hero medium-johanna line-hero-img" alt="Johanna" title="Johanna" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19529833" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>General</h4>
+              <ul>
+                <li><p>"Heroes of the Storm has officially launched!"</p>
+</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-05-12">
+          <div class="date">2015-05-12</div>
+          <a href="http://us.battle.net/heroes/en/heroes/kaelthas/" class="medium-hero medium-kaelthas line-hero-img" alt="Kael'thas" title="Kael'thas" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/19067455" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Generic talent updates, including Focused Attack "bonus to Basic Attack damage increased from 50% to 75%" and Follow Through "bonus to Basic Attack damage increased from 25% to 40%"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-05-12" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2015-05-12" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2015-05-12" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2015-05-12" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2015-05-12" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2015-05-12" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-05-12" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2015-05-12" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2015-05-12" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kaelthas.html#patch2015-05-12" target="_blank">Kael'thas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2015-05-12" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2015-05-12" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2015-05-12" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2015-05-12" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2015-05-12" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-05-12" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2015-05-12" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-05-12" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2015-05-12" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2015-05-12" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2015-05-12" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sylvanas.html#patch2015-05-12" target="_blank">Sylvanas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-05-12" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2015-05-12" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2015-05-12" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2015-05-12" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2015-05-12" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-05-12" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2015-05-12" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2015-05-12" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/diablo.html#patch2015-05-12" class="small-hero small-diablo" alt="Diablo" title="Diablo" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-05-12" class="small-hero small-etc" alt="E.T.C." title="E.T.C." target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-03-24">
+          <div class="date">2015-03-24</div>
+          <a href="http://us.battle.net/heroes/en/heroes/sylvanas/" class="medium-hero medium-sylvanas line-hero-img" alt="Sylvanas" title="Sylvanas" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/battlegrounds/tomb-of-the-spider-queen/" class="medium-battleground medium-tombofthespiderqueen line-bg-img second-img" alt="Tomb of the Spider Queen" title="Tomb of the Spider Queen" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/18401781" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Structure health changes: "Gate, Tower, Town Hall, and Wall Health reduced by approximately 10%"</p>
+</li>
+                <li><p>Generic talent tweaks, including Healing Ward "duration increased from 10 to 15 seconds...heal amount reduced from 3% to 2% of max Health per second"</p>
+</li>
+              </ul>
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p>"Initial implementation for Team League...has been added to the game"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-03-24" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2015-03-24" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2015-03-24" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2015-03-24" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2015-03-24" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-03-24" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-03-24" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2015-03-24" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2015-03-24" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2015-03-24" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2015-03-24" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2015-03-24" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2015-03-24" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-03-24" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-03-24" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2015-03-24" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2015-03-24" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2015-03-24" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sylvanas.html#patch2015-03-24" target="_blank">Sylvanas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-03-24" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2015-03-24" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2015-03-24" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2015-03-24" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2015-03-24" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2015-03-24" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-03-24" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2015-03-24" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2015-03-24" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-03-24" class="small-hero small-uther" alt="Uther" title="Uther" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-02-10">
+          <div class="date">2015-02-10</div>
+          <a href="http://us.battle.net/heroes/en/heroes/the-lost-vikings/" class="medium-hero medium-thelostvikings line-hero-img" alt="The Lost Vikings" title="The Lost Vikings" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/17906504" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Generic level 20 talents added: Nexus Blades, Nexus Frenzy, Hardened Shield, Fury of the Storm; Rewind moved to 20</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-02-10" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2015-02-10" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2015-02-10" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2015-02-10" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2015-02-10" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2015-02-10" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2015-02-10" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-02-10" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-02-10" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2015-02-10" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2015-02-10" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2015-02-10" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2015-02-10" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2015-02-10" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2015-02-10" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2015-02-10" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-02-10" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2015-02-10" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-02-10" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2015-02-10" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2015-02-10" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2015-02-10" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2015-02-10" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-02-10" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thelostvikings.html#patch2015-02-10" target="_blank">The Lost Vikings</a>, 
+                  <a href="http://heroespatchnotes.com/hero/thrall.html#patch2015-02-10" target="_blank">Thrall</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2015-02-10" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2015-02-10" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2015-02-10" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-02-10" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2015-02-10" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2015-02-10" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2015-02-10" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-02-10" class="small-hero small-raynor" alt="Raynor" title="Raynor" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2015-01-13">
+          <div class="date">2015-01-13</div>
+          <a href="http://us.battle.net/heroes/en/heroes/thrall/" class="medium-hero medium-thrall line-hero-img" alt="Thrall" title="Thrall" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/battlegrounds/sky-temple/" class="medium-battleground medium-skytemple line-bg-img second-img" alt="Sky Temple" title="Sky Temple" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/17345414" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Resurgence of the Storm talent removed from the game</p>
+</li>
+              </ul>
+              <h4>Play Mode</h4>
+              <ul>
+                <li><p>"Initial implementation for Hero League, the first Ranked Play mode in Heroes of the Storm, has been added to the game"</p>
+</li>
+              </ul>
+              <h4>General</h4>
+              <ul>
+                <li><p>Weekly sales of three items added to in-game Shop</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-01-13" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2015-01-13" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2015-01-13" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2015-01-13" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2015-01-13" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2015-01-13" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2015-01-13" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-01-13" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2015-01-13" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2015-01-13" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2015-01-13" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2015-01-13" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2015-01-13" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2015-01-13" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2015-01-13" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2015-01-13" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2015-01-13" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2015-01-13" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2015-01-13" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2015-01-13" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2015-01-13" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2015-01-13" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2015-01-13" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2015-01-13" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2015-01-13" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2015-01-13" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2015-01-13" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2015-01-13" target="_blank">Zagara</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/abathur.html#patch2015-01-13" class="small-hero small-abathur" alt="Abathur" title="Abathur" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/falstad.html#patch2015-01-13" class="small-hero small-falstad" alt="Falstad" title="Falstad" target="_blank"></a>
+                <a href="http://heroespatchnotes.com/hero/lili.html#patch2015-01-13" class="small-hero small-lili" alt="Li Li" title="Li Li" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2014-12-02">
+          <div class="date">2014-12-02</div>
+          <a href="http://us.battle.net/heroes/en/heroes/jaina/" class="medium-hero medium-jaina line-hero-img" alt="Jaina" title="Jaina" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/16467431" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Many generic talent changes, including Rewind rework: "now refreshes all Basic Ability cooldowns rather than reducing them by 10 seconds"</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>"Line skillshots can no longer be self-cast using the Alt key"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2014-12-02" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/anubarak.html#patch2014-12-02" target="_blank">Anub'arak</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2014-12-02" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/azmodan.html#patch2014-12-02" target="_blank">Azmodan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2014-12-02" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/chen.html#patch2014-12-02" target="_blank">Chen</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2014-12-02" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2014-12-02" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2014-12-02" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2014-12-02" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2014-12-02" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/jaina.html#patch2014-12-02" target="_blank">Jaina</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2014-12-02" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2014-12-02" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2014-12-02" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2014-12-02" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2014-12-02" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2014-12-02" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2014-12-02" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2014-12-02" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2014-12-02" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2014-12-02" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2014-12-02" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2014-12-02" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2014-12-02" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2014-12-02" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2014-12-02" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2014-12-02" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2014-12-02" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2014-12-02" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2014-12-02" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2014-12-02" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2014-10-07">
+          <div class="date">2014-10-07</div>
+          <a href="http://us.battle.net/heroes/en/heroes/anubarak/" class="medium-hero medium-anubarak line-hero-img" alt="Anub'arak" title="Anub'arak" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/heroes/azmodan/" class="medium-hero medium-azmodan line-hero-img second-img" alt="Azmodan" title="Azmodan" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/16081848" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>"The Core now regenerates Shields after it has not taken damage for 8 seconds, rather than 10 seconds"</p>
+</li>
+              </ul>
+              <h4>General</h4>
+              <ul>
+                <li><p>"Initial implementation for the Heroes of the Storm Replay System has been added."</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Knight Mercenary updates: "The Healer Mercenary no longer heals other Mercenaries or Minions, and now casts a damaging Arcane Bolt on enemies instead"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2014-10-07" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2014-10-07" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2014-10-07" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2014-10-07" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2014-10-07" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2014-10-07" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2014-10-07" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2014-10-07" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2014-10-07" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2014-10-07" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2014-10-07" target="_blank">Valla</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/nova.html#patch2014-10-07" class="small-hero small-nova" alt="Nova" title="Nova" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2014-09-10">
+          <div class="date">2014-09-10</div>
+          <a href="http://us.battle.net/heroes/en/heroes/chen/" class="medium-hero medium-chen line-hero-img" alt="Chen" title="Chen" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/15787795" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>Seasoned Marksman: "No longer requires last hits to gain stacks"</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>"Health regeneration when Siege Giants are out of combat for 8 or more seconds has been removed"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2014-09-10" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2014-09-10" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2014-09-10" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2014-09-10" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2014-09-10" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2014-09-10" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2014-09-10" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2014-09-10" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2014-09-10" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2014-09-10" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2014-09-10" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2014-09-10" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2014-09-10" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2014-09-10" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2014-09-10" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2014-09-10" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2014-09-10" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2014-09-10" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2014-09-10" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2014-09-10" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2014-09-10" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2014-09-10" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2014-09-10" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2014-07-23">
+          <div class="date">2014-07-23</div>
+          <a href="http://us.battle.net/heroes/en/heroes/rehgar/" class="medium-hero medium-rehgar line-hero-img" alt="Rehgar" title="Rehgar" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/battlegrounds/garden-of-terror/" class="medium-battleground medium-gardenofterror line-bg-img second-img" alt="Garden of Terror" title="Garden of Terror" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/14742016" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>"<a href="http://us.battle.net/heroes/en/blog/14833869">Artifacts</a> have been added to Heroes of the Storm"; One week later, <a href="http://us.battle.net/heroes/en/blog/15056492">Artifacts were removed on August 1</a></p>
+</li>
+                <li><p>Many generic talents moved levels or removed, new generic talents added: Seasoned Marksman, Conjurer's Pursuit, Scouting Drone, Gathering Power</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2014-07-23" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2014-07-23" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2014-07-23" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2014-07-23" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2014-07-23" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2014-07-23" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2014-07-23" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2014-07-23" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2014-07-23" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2014-07-23" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2014-07-23" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2014-07-23" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2014-07-23" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2014-07-23" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2014-07-23" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2014-07-23" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/rehgar.html#patch2014-07-23" target="_blank">Rehgar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2014-07-23" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2014-07-23" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2014-07-23" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2014-07-23" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2014-07-23" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2014-07-23" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2014-07-23" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2014-07-23" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2014-07-23" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2014-07-23" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2014-06-25">
+          <div class="date">2014-06-25</div>
+          <a href="http://us.battle.net/heroes/en/heroes/zagara/" class="medium-hero medium-zagara line-hero-img" alt="Zagara" title="Zagara" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/14537490" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p><a href="http://us.battle.net/heroes/en/blog/14502320">Underdog Bonus</a> added: "A team that is behind in levels - the 'underdog' - now earns bonus XP whenever an enemy hero is killed, while a team that is ahead in levels receives reduced XP for killing enemy heroes"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li><p>"All Heroes now have flat Attack Speeds that no longer scale with level"</p>
+</li>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2014-06-25" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2014-06-25" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2014-06-25" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2014-06-25" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2014-06-25" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2014-06-25" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2014-06-25" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2014-06-25" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2014-06-25" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2014-06-25" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2014-06-25" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2014-06-25" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2014-06-25" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2014-06-25" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2014-06-25" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2014-06-25" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2014-06-25" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2014-06-25" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2014-06-25" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2014-06-25" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2014-06-25" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2014-06-25" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zagara.html#patch2014-06-25" target="_blank">Zagara</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2014-06-25" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+              <h4>Reworks</h4>
+              <div class="reworks">
+                <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2014-06-25" class="small-hero small-tassadar" alt="Tassadar" title="Tassadar" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li id="patch2014-05-22">
+          <div class="date">2014-05-22</div>
+          <a href="http://us.battle.net/heroes/en/heroes/murky/" class="medium-hero medium-murky line-hero-img" alt="Murky" title="Murky" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/14227686" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>Gameplay</h4>
+              <ul>
+                <li><p>"Mount speed has been increased from 20% to 40% and mounts no longer gain speed per level"</p>
+</li>
+                <li><p>"The team level cap has been increased from 25 to 30"</p>
+</li>
+              </ul>
+              <h4>UI/Hotkey</h4>
+              <ul>
+                <li><p>"A Quick Cast option has been added and can be accessed in the Gameplay Options menu"</p>
+</li>
+              </ul>
+              <h4>Battleground</h4>
+              <ul>
+                <li><p>Cursed Hollow: "to reduce the snowballing on this Battleground the Curse no longer reduces building health by 50% when the Curse is active"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2014-05-22" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2014-05-22" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2014-05-22" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2014-05-22" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2014-05-22" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2014-05-22" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/illidan.html#patch2014-05-22" target="_blank">Illidan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2014-05-22" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/lili.html#patch2014-05-22" target="_blank">Li Li</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2014-05-22" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2014-05-22" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/murky.html#patch2014-05-22" target="_blank">Murky</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2014-05-22" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2014-05-22" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2014-05-22" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2014-05-22" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2014-05-22" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2014-05-22" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2014-05-22" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2014-05-22" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2014-05-22" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2014-05-22" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/uther.html#patch2014-05-22" target="_blank">Uther</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2014-05-22" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2014-05-22" target="_blank">Zeratul</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li id="patch2014-04-15">
+          <div class="date">2014-04-15</div>
+          <a href="http://us.battle.net/heroes/en/heroes/brightwing/" class="medium-hero medium-brightwing line-hero-img" alt="Brightwing" title="Brightwing" target="_blank"></a>
+          <a href="http://us.battle.net/heroes/en/heroes/lili/" class="medium-hero medium-lili line-hero-img second-img" alt="Li Li" title="Li Li" target="_blank"></a>
+          <div class="panel panel-primary detail">
+            <div class="panel-heading">
+              <h3>Patch Notes<a class="pull-right" href="http://us.battle.net/heroes/en/blog/13789932" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body">
+              <h4>General</h4>
+              <ul>
+                <li><p>"All Technical Alpha accounts have been reset"</p>
+</li>
+              </ul>
+              <h4>Heroes Affected</h4>
+              <ul>
+                <li>
+                  <a href="http://heroespatchnotes.com/hero/abathur.html#patch2014-04-15" target="_blank">Abathur</a>, 
+                  <a href="http://heroespatchnotes.com/hero/arthas.html#patch2014-04-15" target="_blank">Arthas</a>, 
+                  <a href="http://heroespatchnotes.com/hero/brightwing.html#patch2014-04-15" target="_blank">Brightwing</a>, 
+                  <a href="http://heroespatchnotes.com/hero/diablo.html#patch2014-04-15" target="_blank">Diablo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/etc.html#patch2014-04-15" target="_blank">E.T.C.</a>, 
+                  <a href="http://heroespatchnotes.com/hero/falstad.html#patch2014-04-15" target="_blank">Falstad</a>, 
+                  <a href="http://heroespatchnotes.com/hero/gazlowe.html#patch2014-04-15" target="_blank">Gazlowe</a>, 
+                  <a href="http://heroespatchnotes.com/hero/kerrigan.html#patch2014-04-15" target="_blank">Kerrigan</a>, 
+                  <a href="http://heroespatchnotes.com/hero/malfurion.html#patch2014-04-15" target="_blank">Malfurion</a>, 
+                  <a href="http://heroespatchnotes.com/hero/muradin.html#patch2014-04-15" target="_blank">Muradin</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nazeebo.html#patch2014-04-15" target="_blank">Nazeebo</a>, 
+                  <a href="http://heroespatchnotes.com/hero/nova.html#patch2014-04-15" target="_blank">Nova</a>, 
+                  <a href="http://heroespatchnotes.com/hero/raynor.html#patch2014-04-15" target="_blank">Raynor</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sgthammer.html#patch2014-04-15" target="_blank">Sgt. Hammer</a>, 
+                  <a href="http://heroespatchnotes.com/hero/sonya.html#patch2014-04-15" target="_blank">Sonya</a>, 
+                  <a href="http://heroespatchnotes.com/hero/stitches.html#patch2014-04-15" target="_blank">Stitches</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tassadar.html#patch2014-04-15" target="_blank">Tassadar</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tychus.html#patch2014-04-15" target="_blank">Tychus</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrael.html#patch2014-04-15" target="_blank">Tyrael</a>, 
+                  <a href="http://heroespatchnotes.com/hero/tyrande.html#patch2014-04-15" target="_blank">Tyrande</a>, 
+                  <a href="http://heroespatchnotes.com/hero/valla.html#patch2014-04-15" target="_blank">Valla</a>, 
+                  <a href="http://heroespatchnotes.com/hero/zeratul.html#patch2014-04-15" target="_blank">Zeratul</a>
+                </li>
+              </ul>
             </div>
           </div>
         </li>
