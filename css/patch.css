@@ -61,7 +61,7 @@
   float: right;
   top: 0;
   left: auto;
-  background: url("../images/rankedring.png") 0px 0px no-repeat; 
+  background: url("http://res.cloudinary.com/heroespatches/image/upload/v1481355437/ranked-ring.png") 0px 0px no-repeat; 
   background-size: 70px 70px; 
   height: 70px; 
   width: 70px; 
@@ -232,17 +232,17 @@ div.reworks a {
 }
 
 .small-hero { 
-  background:url("../images/hero-sprite.png") -7px -7px no-repeat; 
+  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/hero-sprite.png") -7px -7px no-repeat; 
   background-size: 54px 3463.043px; height: 44px; width: 41px; 
 }
 
 .medium-hero { 
-  background:url("../images/hero-sprite.png") -10px -11px no-repeat; 
+  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/hero-sprite.png") -10px -11px no-repeat; 
   background-size: 85.610px 5490.207px; height: 70px; width: 65px; 
 }
 
 .medium-battleground { 
-  background:url("../images/bg-sprite.png") 0px 0px no-repeat; 
+  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/battleground-sprite.png") 0px 0px no-repeat; 
   background-size: 738.165px 60px; width: 60px; height: 60px; 
 }
 
