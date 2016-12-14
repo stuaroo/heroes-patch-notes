@@ -408,7 +408,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .line-hero-img:before {
     content: "";
     position: absolute;
-    top: -5px;
+    top: -6px;
     left: -6px;
     width: 76px;
     height: 82px;

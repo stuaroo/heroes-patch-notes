@@ -3,5 +3,5 @@
      viewBox="0 0 110 118">
   <title>Hexagon cover</title>
   <desc>Hexagon with a transparent center.</desc>
-  <polygon class="hexagon" points="55,9 105,34 105,84 55,109 9,84 9,34" stroke="#3498db" stroke-width="11" fill="none" />
+  <polygon class="hexagon" points="55,9 101,34 101,84 55,109 9,84 9,34" stroke="#3498db" stroke-width="11" fill="none" />
 </svg>
