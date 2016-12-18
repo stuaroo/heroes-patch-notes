@@ -35,18 +35,17 @@
       table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
       table > tbody + tbody { border-top: 2px solid #ecf0f1; } 
       .moved-from { font-weight: bold; }
-      .code-deletion { background-color: #ffecec; }
-      .code-addition { background-color: #eaffea; }
+      .code-deletion { background-color: #ffdddd; }
+      .code-addition { background-color: #dbffdb; }
       .no-change { background-color: inherit; }
-      .code-deletion-box { background-color: #ffecec; border: 1px solid #E8CFCB; }
-      .code-addition-box { background-color: #eaffea; border: 1px solid #C9E8D2; }
-      .no-change-box { background-color: inherit; border: 1px solid #ddd; }
+      .code-deletion-box { background-color: #ffdddd; border: 1px solid #CCB1B1; }
+      .code-addition-box { background-color: #dbffdb; border: 1px solid #AFCCAF; }
+      .regular-box { background-color: inherit; border: 1px solid #C6BCC1; }
       .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
       .hero-sprite { background: url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5900px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .kharazim{ background-position: -12px -3912px; }
       .zeratul{ background-position: -12px -2612px; }
-      .bordered { border-top: 1px solid #ecf0f1; border-bottom: 1px solid #ecf0f1; }
       h1, div.row>p { padding: 0 10px; }
       .stats-label { font-size: 26px; }
       .stats { font-size: 13px; }
@@ -93,15 +92,19 @@
 
       .flex-item {
         border-radius: 5px;
-        padding: 5px;
+        padding: 5px 10px;
         width: 200px;
         /*height: 250px;*/
         flex: 1 1 auto;
         margin: 2px;
       }
+      .flex-item>h5 { 
+        font-weight: bold; 
+        display: inline-block;
+      }
 
       .flex-item > div {
-        font-size: 13px;
+        font-size: 14px;
       }
 
       @media (min-width: 768px) {
@@ -166,18 +169,17 @@
           <h5>New</h5>
           <div>This talent is all shiny and new, and completely green in color</div>
         </li>
-        <li class="flex-item code-addition-box">
-          <h5>Moved</h5>
-          <div>This talent has been moved levels; the box is green and will have this:</div>
-          <div class="moved-from">Moved from level X</div>
-          <div class="code-deletion">And generally be followed by a red section listing the old description</div>
-        </li>
-        <li class="flex-item no-change-box">
-          <h5>Changed</h5>
+        <li class="flex-item regular-box">
+          <h5>Changed <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">The green highlights indicate the new description</div>
           <div class="code-deletion">While the red highlights show what the description used to say</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
+          <h5>Moved <span class="label label-info">Moved from level X</span></h5>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box">
           <h5>Unchanged</h5>
           <div>These white boxes are exactly as they were before; nothing changed here</div>
         </li>
@@ -187,7 +189,7 @@
         </li>
       </ul>
       <hr>
-      <div class="row">
+      <div id="Kharazim" class="row">
         <div class="col-xs-12">
           <h2>
             <div class="hero-sprite kharazim"></div>
@@ -207,7 +209,7 @@
 
       <h3>Abilities</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(Q) Radiant Dash</h5>
           <div>
             <span>Mana: 30 
@@ -217,18 +219,17 @@
           </div>
           <div>Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack. Stores 2 charges.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>(W) Breath of Heaven</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>(W) Breath of Heaven <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 60 
             </span>
             &nbsp;<span class="pull-right">CD: 8s 
             </span>
           </div>
-          <div class="code-addition">Heal nearby Heroes for 290 (+4% per level) and give them 10% Movement Speed for 3 seconds.</div>
-          <div class="code-deletion">Heal nearby Heroes for 280 (+4% per level) and give them 10% Movement Speed for 3 seconds.</div>
+          <div>Heal nearby Heroes for <span class="code-addition">290</span> <span class="code-deletion">280</span> (+4% per level) and give them 10% Movement Speed for 3 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(E) Deadly Reach</h5>
           <div>
             <span>Mana: 50 
@@ -238,7 +239,7 @@
           </div>
           <div>Your next Basic Attack increases your Attack Speed and Attack Range by 100% for 2 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Seven-Sided Strike</h5>
           <div>
             <span>Mana: 77 
@@ -248,7 +249,7 @@
           </div>
           <div>Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Divine Palm</h5>
           <div>
             <span>Mana: 50 
@@ -258,7 +259,7 @@
           </div>
           <div>Protect an allied Hero from death, causing them to be healed for 1141 (+4% per level) if they take fatal damage in the next 3 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(Trait) Pick Your Trait</h5>
           <div>
           </div>
@@ -269,24 +270,23 @@
       <h3>Talents</h3>
       <h3 class="line-with-text">1</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Insight</h5>
+        <li class="flex-item regular-box">
+          <h5>Insight (Trait)</h5>
           <div>Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana and grants a stack of Insight.  Reward: Once you have 100 stacks of Insight, every 3rd attack also reduces the cooldown of all your Basic Abilities by 1 second.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Iron Fists</h5>
-          <div class="code-addition">Every 3rd Basic Attack deals 125% bonus damage and gives 30% increased Move Speed for 2 seconds.</div>
-          <div class="code-deletion">Every 3rd Basic Attack deals 125% bonus damage.</div>
+        <li class="flex-item regular-box">
+          <h5>Iron Fists (Trait) <span class="label label-primary">Updated</span></h5>
+          <div class="no-change">Every 3rd Basic Attack deals 125% bonus damage <span class="code-addition">and gives 30% increased Move Speed for 2 seconds.</span></div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Transcendence</h5>
+        <li class="flex-item regular-box">
+          <h5>Transcendence (Trait)</h5>
           <div>Every 3rd Basic Attack heals the lowest nearby allied Hero for 73 (+4% per level).</div>
         </li>
       </ul>
       <h3 class="line-with-text">4</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Air Ally</h5>
+          <h5>Air Ally (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 20s 
             </span>
@@ -294,7 +294,7 @@
           <div>Place an Air Ally that grants vision and reveals a large area around it. Has 75 Health, lasts 40 seconds, and stores up to 2 charges. Kharazim can Radiant Dash to Air Allies.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Earth Ally</h5>
+          <h5>Earth Ally (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 30s 
             </span>
@@ -302,7 +302,7 @@
           <div>Place an Earth Ally that reduces Heroic Basic Attack damage nearby allied Heroes received by 50%. Has 400 Health and lasts 10 seconds. Kharazim can Radiant Dash to Earth Allies.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Spirit Ally</h5>
+          <h5>Spirit Ally (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 45s 
             </span>
@@ -310,11 +310,11 @@
           <div>Place a Spirit Ally that heals allies in a large area around it for 2% of their maximum Health every second. Has 150 Health and lasts 10 seconds. Kharazim can Radiant Dash to Spirit Allies.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Foresight</h5>
+          <h5>Foresight (Q)</h5>
           <div>Radiant Dash reveals the area around the target for 3 seconds. Only one area can be revealed at a time.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Healing Ward</h5>
+          <h5>Healing Ward (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -322,11 +322,11 @@
           <div>Activate to place a ward on the ground that heals allies in an area for 2% of their maximum Health every second for 10 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Overtake</h5>
+          <h5>Overtake (E)</h5>
           <div>Basic Attacks while Deadly Reach is active increase your Movement Speed by 30% for 2 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Protective Shield</h5>
+          <h5>Protective Shield (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -336,23 +336,20 @@
       </ul>
       <h3 class="line-with-text">7</h3>
       <ul class="flex-container">
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Blazing Fists</h5>
-          <div class="code-addition">Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 0.75 seconds.</div>
-          <div class="moved-from">Moved from level 16</div>
-          <div class="code-deletion">Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 1 second.</div>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Blazing Fists (E) <span class="label label-info">Moved from level 16</span></h5>
+          <div>Every 3rd Basic Attack reduces the cooldown of Deadly Reach by <span class="code-addition">0.75</span> <span class="code-deletion">1</span> seconds.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Blinding Speed</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Blinding Speed (Q) <span class="label label-info">Moved from level 16</span></h5>
           <div>Decreases Radiant Dash's cooldown by 2 seconds and increases the maximum number of charges by 1.</div>
-          <div class="moved-from">Moved from level 16</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Heavenly Zeal</h5>
+          <h5>Heavenly Zeal (W)</h5>
           <div>Increases Breath of Heaven's Movement Speed bonus from 10% to 25%.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Clairvoyance</h5>
+          <h5>Clairvoyance (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 45s 
             </span>
@@ -360,7 +357,7 @@
           <div>Activate to reveal an area for 10 seconds.  Enemies in the area are revealed for 4 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Cleanse</h5>
+          <h5>Cleanse (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -370,16 +367,16 @@
       </ul>
       <h3 class="line-with-text">10</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box heroic">
-          <h5>Divine Palm</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Divine Palm (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
           </div>
           <div>Protect an allied Hero from death, causing them to be healed for 1141 (+4% per level) if they take fatal damage in the next 3 seconds.</div>
         </li>
-        <li class="flex-item no-change-box heroic">
-          <h5>Seven-Sided Strike</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Seven-Sided Strike (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 50s 
             </span>
@@ -389,83 +386,81 @@
       </ul>
       <h3 class="line-with-text">13</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Fists of Fury</h5>
+        <li class="flex-item regular-box">
+          <h5>Fists of Fury (E)</h5>
           <div>Increases Deadly Reach's duration by 50%.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Quicksilver</h5>
+        <li class="flex-item regular-box">
+          <h5>Quicksilver (Q)</h5>
           <div>Radiant Dashing to an ally gives you and the target 30% bonus Movement Speed for 3 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Sixth Sense</h5>
+        <li class="flex-item regular-box">
+          <h5>Sixth Sense (Passive)</h5>
           <div>When you are stunned or rooted, you Block all Basic Attacks, reducing their damage by 75% for 4 seconds.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>Spell Shield</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Spell Shield (Active)</h5>
           <div>Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. This can only trigger once every 30 seconds.  Can be toggled to allow or prevent this talent from triggering.</div>
         </li>
       </ul>
       <h3 class="line-with-text">16</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Cleansing Touch</h5>
+          <h5>Cleansing Touch (Q)</h5>
           <div>Radiant Dashing to an ally makes them Unstoppable for 1 second.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Dash of Light</h5>
+          <h5>Dash of Light (W)</h5>
           <div>Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3 seconds.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Echo of Heaven</h5>
+        <li class="flex-item regular-box">
+          <h5>Echo of Heaven (W) <span class="label label-info">Moved from level 7</span></h5>
           <div class="code-addition">Breath of Heaven heals 75% of its normal amount, but heals a second time 3 seconds later.</div>
-          <div class="moved-from">Moved from level 7</div>
-          <div class="code-deletion">Breath of Heaven heals a second time 2 seconds later for 35% (+4% per level).</div>
+          <div class="code-deletion">Breath of Heaven heals a second time 2 seconds later for 35%.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-3">
-          <h5>Way of the Hundred Fists</h5>
+        <li class="flex-item regular-box flex-grow-3">
+          <h5>Way of the Hundred Fists (Q) <span class="label label-info">Moved from level 7</span></h5>
           <div class="code-addition">Radiant Dashing to an enemy launches a rapid volley of 6 Basic Attacks dealing 50% damage each.</div>
-          <div class="moved-from">Moved from level 7</div>
           <div class="code-deletion">Radiant Dashing to an enemy causes you to launch a volley of blows dealing 246 (+4% per level) total damage instead of a Basic Attack.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Circle of Life</h5>
+          <h5>Circle of Life (W)</h5>
           <div>Increases Breath of Heaven's healing by 10% for each allied Hero in the cast range.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Soothing Breeze</h5>
+          <h5>Soothing Breeze (W)</h5>
           <div>Breath of Heaven removes silences, blinds, slows and roots.</div>
         </li>
       </ul>
       <h3 class="line-with-text">20</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Epiphany</h5>
+        <li class="flex-item regular-box">
+          <h5>Epiphany (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
           </div>
           <div>Activate to restore 33% of your maximum Mana and refill 2 charges of Radiant Dash.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Peaceful Repose</h5>
+        <li class="flex-item regular-box">
+          <h5>Peaceful Repose (R)</h5>
           <div>Divine Palm's cooldown is set to 5 seconds if the Hero does not die.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Storm Shield</h5>
+        <li class="flex-item regular-box">
+          <h5>Storm Shield (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 45s 
             </span>
           </div>
           <div>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Transgression</h5>
+        <li class="flex-item regular-box">
+          <h5>Transgression (R)</h5>
           <div>Seven-Sided Strike hits 4 additional times.</div>
         </li>
       </ul>
       <hr>
-      <div class="row">
+      <div id="Zeratul" class="row">
         <div class="col-xs-12">
           <h2>
             <div class="hero-sprite zeratul"></div>
@@ -496,7 +491,7 @@
 
       <h3>Abilities</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(Q) Cleave</h5>
           <div>
             <span>Mana: 40 
@@ -506,8 +501,8 @@
           </div>
           <div>Deal 200 (+4% per level) damage to nearby enemies.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>(W) Singularity Spike</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>(W) Singularity Spike <span class="label label-primary">Updated</span></h5>
           <div>
             <span class="code-addition">Mana: 80 
 <span class="code-deletion">60</span>            </span>
@@ -516,8 +511,8 @@
           </div>
           <div>Flings a Singularity Spike that sticks to the first enemy hit. Deals 228 (+4% per level) damage after 1 second and slows the enemy by 40% for 3 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(E) Blink</h5>
+        <li class="flex-item regular-box">
+          <h5>(E) Blink <span class="label label-primary">Updated</span></h5>
           <div>
             <span class="code-addition">Mana: 50 
 <span class="code-deletion">75</span>            </span>
@@ -526,7 +521,7 @@
           </div>
           <div>Teleport to the target location.   Using this Ability does not break cloak.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Shadow Assault</h5>
           <div>
             <span>Mana: 50 
@@ -536,7 +531,7 @@
           </div>
           <div>Your Basic Attacks cause you to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Void Prison</h5>
           <div>
             <span>Mana: 100 
@@ -546,7 +541,7 @@
           </div>
           <div>Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(Trait) Permanent Cloak</h5>
           <div>
           </div>
@@ -557,86 +552,82 @@
       <h3>Talents</h3>
       <h3 class="line-with-text">1</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Greater Cleave</h5>
+        <li class="flex-item regular-box">
+          <h5>Greater Cleave (Q)</h5>
           <div>Increases the radius of Cleave by 33%.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Shadow Hunter</h5>
+          <h5>Shadow Hunter (E)</h5>
           <div>Quest: Gather Regeneration Globes to lower the Mana cost of Blink by 2.  Reward: Upon gathering 20 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 0.75 seconds.</div>
         </li>
-        <li class="flex-item code-addition-box">
-          <h5>Vorpal Blade</h5>
+        <li class="flex-item regular-box">
+          <h5>Vorpal Blade (Active) <span class="label label-info">Moved from level 4</span></h5>
           <div>
             &nbsp;<span class="pull-right">CD: 15s 
             </span>
           </div>
           <div>Activate to teleport to the last non-structure target you attacked within 3 seconds.</div>
-          <div class="moved-from">Moved from level 4</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Block</h5>
+          <h5>Block (Passive)</h5>
           <div>Every 5 seconds, reduce the damage taken from the next Hero Basic Attack by 75%.  Stores up to 2 charges.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Rapid Displacement</h5>
+          <h5>Rapid Displacement (E)</h5>
           <div>Reduces the cooldown of Blink by 1.5 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Regeneration Master</h5>
+          <h5>Regeneration Master (Passive)</h5>
           <div>Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.   Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.</div>
         </li>
         <li class="flex-item code-deletion-box flex-grow-2">
-          <h5>Seasoned Marksman</h5>
+          <h5>Seasoned Marksman (Active)</h5>
           <div>Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage, to a max of 40 damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 30% for 3 seconds. 60 second cooldown.</div>
         </li>
       </ul>
       <h3 class="line-with-text">4</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Combo Slash</h5>
+          <h5>Combo Slash (Passive)</h5>
           <div>After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 40% additional damage.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Grim Task</h5>
+          <h5>Grim Task (Passive)</h5>
           <div>Quest: Hero Takedowns increase Ability Power by 4% up to 40%. This bonus Ability Power is lost on death.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Rending Cleave</h5>
-          <div class="code-addition">Cleave deals an additional 40% damage over 3 seconds.</div>
-          <div class="moved-from">Moved from level 16</div>
-          <div class="code-deletion">Cleave deals an additional 50% damage over 5 seconds.</div>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Rending Cleave (Q) <span class="label label-info">Moved from level 16</span></h5>
+          <div>Cleave deals an additional <span class="code-addition">40% damage over 3 seconds</span> <span class="code-deletion">50% damage over 5 seconds</span>.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Gathering Power</h5>
+          <h5>Gathering Power (Passive)</h5>
           <div>Quest: Hero Takedowns increase Ability Power by 2%, up to 30%. This bonus Ability Power is lost on death.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Sustained Anomaly</h5>
+          <h5>Sustained Anomaly (W)</h5>
           <div>The Singularity Spike explodes for area damage and slows, regardless if it hits a target or not.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Vigorous Strike</h5>
+          <h5>Vigorous Strike (Passive)</h5>
           <div>Basic Attacks heal for 25% of the damage dealt to the primary target.</div>
         </li>
       </ul>
       <h3 class="line-with-text">7</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Seeker in the Dark</h5>
+          <h5>Seeker in the Dark (W)</h5>
           <div>Singularity Spike takes 50% longer to explode. It can be reactivated to Blink to the target, granting 30% increased Movement Speed for 3 seconds.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Slip into Shadow</h5>
+          <h5>Slip into Shadow (E)</h5>
           <div>Blink gains an additional charge, but its cooldown is increased by 8 seconds.</div>
         </li>
-        <li class="flex-item code-addition-box">
-          <h5>Wormhole</h5>
+        <li class="flex-item regular-box">
+          <h5>Wormhole (E) <span class="label label-info">Moved from level 13</span></h5>
           <div>For 2 seconds, you can activate Blink again to return to the point where it was cast from.</div>
-          <div class="moved-from">Moved from level 13</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>First Aid</h5>
+          <h5>First Aid (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -644,11 +635,11 @@
           <div>Activate to heal 35% of your max Health over 6 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Follow Through</h5>
+          <h5>Follow Through (Passive)</h5>
           <div>After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Searing Attacks</h5>
+          <h5>Searing Attacks (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 25s 
             </span>
@@ -656,22 +647,22 @@
           <div>Activate to increase Basic Attack damage by 50% for 5 seconds. Each attack costs 15 Mana.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Shadow Spike</h5>
+          <h5>Shadow Spike (W)</h5>
           <div>No longer decloak when using Singularity Spike. Range increased by 20%.</div>
         </li>
       </ul>
       <h3 class="line-with-text">10</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box heroic">
-          <h5>Shadow Assault</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Shadow Assault (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 45s 
             </span>
           </div>
           <div>Your Basic Attacks cause you to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.</div>
         </li>
-        <li class="flex-item no-change-box heroic">
-          <h5>Void Prison</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Void Prison (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 100s 
             </span>
@@ -682,54 +673,51 @@
       <h3 class="line-with-text">13</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Mending Strikes</h5>
+          <h5>Mending Strikes (Passive)</h5>
           <div>Basic Attacks heal for 40% of the damage dealt.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Shroud of Adun</h5>
+          <h5>Shroud of Adun (Passive)</h5>
           <div>Zeratul gains a shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>Spell Shield</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Spell Shield (Active)</h5>
           <div>Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. This can only trigger once every 30 seconds.  Can be toggled to allow or prevent this talent from triggering.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Assassin's Blade</h5>
+          <h5>Assassin's Blade (Passive)</h5>
           <div>Gain 25% Basic Attack damage for 5 seconds when breaking Permanent Cloak. 10% increased Movement Speed while Stealthed from Permanent Cloak.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Burning Rage</h5>
+          <h5>Burning Rage (Passive)</h5>
           <div>Deal 23 (+4% per level) damage per second to nearby enemies.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Giant Killer</h5>
+          <h5>Giant Killer (Passive)</h5>
           <div>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</div>
         </li>
       </ul>
       <h3 class="line-with-text">16</h3>
       <ul class="flex-container">
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Master Warp-Blade</h5>
-          <div class="code-addition">Every third consecutive Basic Attack against the same target deals 125% bonus damage.</div>
-          <div class="moved-from">Moved from level 4</div>
-          <div class="code-deletion">Every third consecutive Basic Attack against the same target deals 100% bonus damage.</div>
+        <li class="flex-item regular-box">
+          <h5>Master Warp-Blade (Passive) <span class="label label-info">Moved from level 4</span></h5>
+          <div>Every third consecutive Basic Attack against the same target deals <span class="code-addition">125%</span> <span class="code-deletion">100%</span> bonus damage.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Sentenced to Death</h5>
+          <h5>Sentenced to Death (W)</h5>
           <div>Deal 50% increased damage to enemies while they have a Singularity Spike attached to them.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Void Slash</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Void Slash (Q) <span class="label label-info">Moved from level 7</span></h5>
           <div class="code-addition">If Cleave hits more than one enemy Hero, it deals 40% increased damage and its cooldown is reduced by 3 seconds.</div>
-          <div class="moved-from">Moved from level 7</div>
           <div class="code-deletion">Cleave deals 30% increased damage if used from Cloak or within 1 second of being Cloaked.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Double Bombs</h5>
+          <h5>Double Bombs (W)</h5>
           <div>After you cast Singularity Spike, you can cast a second one for free within 3 seconds for 50% normal damage.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Stoneskin</h5>
+          <h5>Stoneskin (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -740,19 +728,19 @@
       <h3 class="line-with-text">20</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Gift of the Xel'naga</h5>
+          <h5>Gift of the Xel'naga (R)</h5>
           <div>Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Nerazim Fury</h5>
+        <li class="flex-item regular-box">
+          <h5>Nerazim Fury (R)</h5>
           <div>Shadow Assault grants 30% Life Steal, and the duration is increased by 50%.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Nexus Blades</h5>
+        <li class="flex-item regular-box">
+          <h5>Nexus Blades (Passive)</h5>
           <div>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Rewind</h5>
+        <li class="flex-item regular-box">
+          <h5>Rewind (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -760,7 +748,7 @@
           <div>Activate to reset the cooldowns of your Basic Abilities.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Protective Prison</h5>
+          <h5>Protective Prison (R)</h5>
           <div>Allies are also no longer affected by Void Prison.</div>
         </li>
       </ul>

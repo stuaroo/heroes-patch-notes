@@ -36,19 +36,18 @@
       table > tbody + tbody { border-top: 2px solid #ecf0f1; } 
       .moved-from { font-weight: bold; }
       .stats { font-size: 14px; }
-      .code-deletion { background-color: #ffecec; }
-      .code-addition { background-color: #eaffea; }
+      .code-deletion { background-color: #ffdddd; }
+      .code-addition { background-color: #dbffdb; }
       .no-change { background-color: inherit; }
-      .code-deletion-box { background-color: #ffecec; border: 1px solid #E8CFCB; }
-      .code-addition-box { background-color: #eaffea; border: 1px solid #C9E8D2; }
-      .no-change-box { background-color: inherit; border: 1px solid #ddd; }
+      .code-deletion-box { background-color: #ffdddd; border: 1px solid #CCB1B1; }
+      .code-addition-box { background-color: #dbffdb; border: 1px solid #AFCCAF; }
+      .regular-box { background-color: inherit; border: 1px solid #C6BCC1; }
       .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
       .hero-sprite { background: url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5900px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .artanis{ background-position: -12px -4112px; }
       .dehaka{ background-position: -12px -4812px; }
       .diablo{ background-position: -12px -512px; }
-      .bordered { border-top: 1px solid #ecf0f1; border-bottom: 1px solid #ecf0f1; }
       h1, div.row>p { padding: 0 10px; }
       .stats>ul { list-style-type: none; }
       footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
@@ -93,15 +92,19 @@
 
       .flex-item {
         border-radius: 5px;
-        padding: 5px;
+        padding: 5px 10px;
         width: 200px;
         /*height: 250px;*/
         flex: 1 1 auto;
         margin: 2px;
       }
+      .flex-item>h5 { 
+        font-weight: bold;
+        display: inline-block; 
+      }
 
       .flex-item > div {
-        font-size: 13px;
+        font-size: 14px;
       }
 
       @media (min-width: 768px) {
@@ -166,18 +169,17 @@
           <h5>New</h5>
           <div>This talent is all shiny and new, and completely green in color</div>
         </li>
-        <li class="flex-item code-addition-box">
-          <h5>Moved</h5>
-          <div>This talent has been moved levels; the box is green and will have this:</div>
-          <div class="moved-from">Moved from level X</div>
-          <div class="code-deletion">And generally be followed by a red section listing the old description</div>
-        </li>
-        <li class="flex-item no-change-box">
-          <h5>Changed</h5>
+        <li class="flex-item regular-box">
+          <h5>Changed <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">The green highlights indicate the new description</div>
           <div class="code-deletion">While the red highlights show what the description used to say</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
+          <h5>Moved <span class="label label-info">Moved from level X</span></h5>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box">
           <h5>Unchanged</h5>
           <div>These white boxes are exactly as they were before; nothing changed here</div>
         </li>
@@ -187,7 +189,7 @@
         </li>
       </ul>
       <hr>
-      <div class="row">
+      <div id="Artanis" class="row">
         <div class="col-xs-12">
           <h2>
             <div class="hero-sprite artanis"></div>
@@ -207,19 +209,18 @@
 
       <h3>Abilities</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>(Q) Blade Dash</h5>
+        <li class="flex-item regular-box">
+          <h5>(Q) Blade Dash <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 65 
             </span>
             &nbsp;<span class="pull-right">CD: 10s 
             </span>
           </div>
-          <div class="code-addition">Dash forward and deal 57 (+4% per level) damage to enemies, then return and deal 171 (+4% per level) damage. Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.</div>
-          <div class="code-deletion">Dash forward and deal 57 (+4% per level) damage to enemies, then return and deal 171 (+4% per level) damage.</div>
+          <div>Dash forward and deal 57 (+4% per level) damage to enemies, then return and deal 171 (+4% per level) damage. <span class="code-addition">Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.</span></div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(W) Twin Blades</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>(W) Twin Blades <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 25 
             </span>
@@ -229,18 +230,17 @@
           <div>Your next Basic Attack immediately causes you to charge a short distance and strike the enemy 2 times.</div>
           <div class="code-addition">Charge range is now checked against the edge of target units, instead of their center. This increases the effective range of Twin Blades and should generally create more consistent behavior.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(E) Phase Prism</h5>
+        <li class="flex-item regular-box">
+          <h5>(E) Phase Prism <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 70 
             </span>
             &nbsp;<span class="pull-right code-addition">CD: 16s 
 <span class="code-deletion">14s</span>            </span>
           </div>
-          <div class="code-addition">Fire a Phase Prism that deals 66 (+4% per level) damage to Heroes and swaps your position with theirs. Can be used during Blade Dash.</div>
-          <div class="code-deletion">Fire a Phase Prism that deals 66 (+4% per level) damage to Heroes and swaps your position with theirs.</div>
+          <div>Fire a Phase Prism that deals 66 (+4% per level) damage to Heroes and swaps your position with theirs. <span class="code-addition">Can be used during Blade Dash.</span></div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Purifier Beam</h5>
           <div>
             <span>Mana: 80 
@@ -250,7 +250,7 @@
           </div>
           <div>Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Suppression Pulse</h5>
           <div>
             <span>Mana: 40 
@@ -260,90 +260,84 @@
           </div>
           <div>Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(Trait) Shield Overload</h5>
+        <li class="flex-item regular-box">
+          <h5>(Trait) Shield Overload <span class="label label-primary">Updated</span></h5>
           <div>
             &nbsp;<span class="pull-right code-addition">CD: 24s 
 <span class="code-deletion">20s</span>            </span>
           </div>
-          <div class="code-addition">If you take damage while below 75% Health, gain a 360 (+4% per level) point Shield for 5 seconds. Your Basic Attacks lower the cooldown of Shield Overload by 4 seconds.</div>
-          <div class="code-deletion">If you take damage while below 50% Health, gain a 449 (+4% per level) point Shield for 5 seconds. Your Basic Attacks lower the cooldown of Shield Overload by 4 seconds.</div>
+          <div>If you take damage while below <span class="code-addition">75%</span> <span class="code-deletion">50%</span> Health, gain a <span class="code-addition">360</span> <span class="code-deletion">449</span> (+4% per level) point Shield for 5 seconds. Your Basic Attacks lower the cooldown of Shield Overload by 4 seconds.</div>
         </li>
       </ul>
       <hr>
       <h3>Talents</h3>
       <h3 class="line-with-text">1</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Amateur Opponent</h5>
+        <li class="flex-item regular-box">
+          <h5>Amateur Opponent (W)</h5>
           <div>Twin Blades attacks deal 150% bonus damage to non-Heroes.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Reactive Parry</h5>
+        <li class="flex-item regular-box">
+          <h5>Reactive Parry (W)</h5>
           <div>Using Twin Blades reduces damage taken from the next Hero Basic Attack by 50%.  Stores up to 2 charges.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-3">
-          <h5>Seasoned Marksman</h5>
+        <li class="flex-item regular-box flex-grow-3">
+          <h5>Seasoned Marksman (Active)</h5>
           <div>Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.</div>
         </li>
       </ul>
       <h3 class="line-with-text">4</h3>
       <ul class="flex-container">
-        <li class="flex-item code-addition-box">
-          <h5>Psionic Synergy</h5>
-          <div class="code-addition">Increases Blade Dash's cooldown reduction of Shield Overload by hitting Heroes by 2 seconds.</div>
-          <div class="moved-from">Moved from level 7</div>
-          <div class="code-deletion">Every time Blade Dash hits an enemy Hero, it reduces Shield Overload's cooldown by 4 seconds.</div>
+        <li class="flex-item regular-box">
+          <h5>Psionic Synergy (Q) <span class="label label-info">Moved from level 7</span></h5>
+          <div>Increases Blade Dash's cooldown reduction of Shield Overload by hitting Heroes by <span class="code-addition">2</span> <span class="code-deletion">4</span> seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Shield Battery</h5>
+        <li class="flex-item regular-box">
+          <h5>Shield Battery (Trait) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">Shield Overload's cooldown recharges 50% faster while its shield is active, and the shield duration is increased by 1 second.</div>
           <div class="code-deletion">Reduces Shield Overload's cooldown by 8 seconds if it lasts for the full duration.</div>
         </li>
-        <li class="flex-item code-addition-box">
-          <h5>Shield Surge</h5>
+        <li class="flex-item regular-box">
+          <h5>Shield Surge (Trait) <span class="label label-info">Moved from level 16</span></h5>
           <div class="code-addition">Increases Shield Overload's Shields by 80% while below 25% Health.</div>
-          <div class="moved-from">Moved from level 16</div>
           <div class="code-deletion">Increases Shield Overload's Shields by 100%, but decays to the normal amount over 3 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Lethal Alacrity</h5>
+          <h5>Lethal Alacrity (Q)</h5>
           <div>Increases Blade Dash range and speed by 30%.</div>
         </li>
       </ul>
       <h3 class="line-with-text">7</h3>
       <ul class="flex-container">
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Chrono Surge</h5>
-          <div class="code-addition">Hitting an enemy Hero with Phase Prism grants 50% bonus Attack Speed for 4 seconds.</div>
-          <div class="moved-from">Moved from level 4</div>
-          <div class="code-deletion">Hitting an enemy Hero with Phase Prism grants 40% bonus Attack Speed for 4 seconds.</div>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Chrono Surge (E) <span class="label label-info">Moved from level 4</span></h5>
+          <div>Hitting an enemy Hero with Phase Prism grants <span class="code-addition">50%</span> <span class="code-deletion">40%</span> bonus Attack Speed for 4 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Follow Through</h5>
+        <li class="flex-item regular-box">
+          <h5>Follow Through (Passive)</h5>
           <div>After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Solarite Reaper</h5>
+        <li class="flex-item regular-box">
+          <h5>Solarite Reaper (Q)</h5>
           <div>Increases the damage of the first dash of Blade Dash by 150%.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Warp Sickness</h5>
+        <li class="flex-item regular-box">
+          <h5>Warp Sickness (E)</h5>
           <div>Phase Prism also slows the enemy's Movement Speed by 35% for 4 seconds.</div>
         </li>
       </ul>
       <h3 class="line-with-text">10</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box heroic">
-          <h5>Purifier Beam</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Purifier Beam (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 80s 
             </span>
           </div>
           <div>Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.</div>
         </li>
-        <li class="flex-item no-change-box heroic">
-          <h5>Suppression Pulse</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Suppression Pulse (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 50s 
             </span>
@@ -353,70 +347,67 @@
       </ul>
       <h3 class="line-with-text">13</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Graviton Vortex</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Graviton Vortex (E)</h5>
           <div>Phase Prism pulls and damages an additional enemy Hero near the first, and its cooldown is reduced by 6 seconds.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>Phase Bulwark</h5>
-          <div class="code-addition">When Shield Overload activates, take 40% less damage from Spells for 4 seconds.</div>
-          <div class="code-deletion">When Shield Overload activates, you take 50% less damage from Abilities for 4 seconds.</div>
+        <li class="flex-item regular-box">
+          <h5>Phase Bulwark (Trait) <span class="label label-primary">Updated</span></h5>
+          <div>When Shield Overload activates, take <span class="code-addition">40%</span> <span class="code-deletion">50%</span> less damage from Spells for 4 seconds.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-3">
-          <h5>Templar's Zeal</h5>
-          <div class="code-addition">Blade Dash cooldown recharges 150% faster while you are below 50% Health.</div>
-          <div class="moved-from">Moved from level 4</div>
-          <div class="code-deletion">Blade Dash cooldown recharges 100% faster while you are below 50% Health.</div>
+        <li class="flex-item regular-box">
+          <h5>Templar's Zeal (Q) <span class="label label-info">Moved from level 4</span></h5>
+          <div>Blade Dash cooldown recharges <span class="code-addition">150%</span> <span class="code-deletion">100%</span> faster while you are below 50% Health.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Triple Strike</h5>
+        <li class="flex-item regular-box">
+          <h5>Triple Strike (W)</h5>
           <div>Increases Twin Blades's number of Basic Attacks to 3, but increase its cooldown by 1 second.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Burning Rage</h5>
+          <h5>Burning Rage (Passive)</h5>
           <div>Deal 23 (+4% per level) damage per second to nearby enemies.</div>
         </li>
       </ul>
       <h3 class="line-with-text">16</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Plasma Burn</h5>
+          <h5>Plasma Burn (Passive)</h5>
           <div>While Shield Overload is active, deal 50 (+4% per level) damage per second to nearby enemies.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Psionic Wound</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Psionic Wound (W)</h5>
           <div>Twin Blades final strike causes enemy Heroes to become Vulnerable for 2 seconds, increasing all damage taken by 25%.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Titan Killer</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Titan Killer (W)</h5>
           <div>Twin Blades attacks against Heroes deal an additional 2.5% of the target's maximum Health in damage.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Zealot Charge</h5>
+        <li class="flex-item regular-box">
+          <h5>Zealot Charge (W)</h5>
           <div>Increase Twin Blades' charge distance by 100%.</div>
         </li>
       </ul>
       <h3 class="line-with-text">20</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Force of Will</h5>
+        <li class="flex-item regular-box">
+          <h5>Force of Will (Trait)</h5>
           <div>Increases Shield Overload's cooldown reduction from Basic Attacks to 6 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Nexus Blades</h5>
+        <li class="flex-item regular-box">
+          <h5>Nexus Blades (Passive)</h5>
           <div>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Orbital Bombardment</h5>
+        <li class="flex-item regular-box">
+          <h5>Orbital Bombardment (R)</h5>
           <div>Suppression Pulse gains an additional charge.  There is a 10 second cooldown between uses.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Target Purified</h5>
+        <li class="flex-item regular-box">
+          <h5>Target Purified (R)</h5>
           <div>If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.</div>
         </li>
       </ul>
       <hr>
-      <div class="row">
+      <div id="Dehaka" class="row">
         <div class="col-xs-12">
           <h2>
             <div class="hero-sprite dehaka"></div>
@@ -438,7 +429,7 @@
 
       <h3>Abilities</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(Q) Drag</h5>
           <div>
             <span>Mana: 75 
@@ -448,7 +439,7 @@
           </div>
           <div>Lash out with your tongue, dealing 160 (+4% per level) damage to the first enemy hit, stunning and dragging them with you for 1.75 seconds.  If you are stunned or silenced while using Drag, the effect ends.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(W) Dark Swarm</h5>
           <div>
             <span>Mana: 50 
@@ -458,8 +449,8 @@
           </div>
           <div>Deal 60 (+4% per level) damage a second to nearby enemies for 3 seconds, and become able to move through units.  Deals double damage to Heroes.  Can be cast during Drag and Burrow.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(E) Burrow</h5>
+        <li class="flex-item regular-box">
+          <h5>(E) Burrow <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 65 
             </span>
@@ -469,7 +460,7 @@
           <div>Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.</div>
           <div class="code-addition">Burrow can now be cancelled early by pressing the hotkey again</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Isolation</h5>
           <div>
             <span>Mana: 100 
@@ -479,111 +470,107 @@
           </div>
           <div>Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(R) Adaptation</h5>
+        <li class="flex-item regular-box">
+          <h5>(R) Adaptation <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 85 
             </span>
             &nbsp;<span class="pull-right">CD: 90s 
             </span>
           </div>
-          <div class="code-addition">After 4 seconds, heal for 100% of the damage Dehaka took over this period.</div>
-          <div class="code-deletion">After 4 seconds, heal for 60% of the damage you took over this period.</div>
+          <div>After 4 seconds, heal for <span class="code-addition">100%</span> <span class="code-deletion">60%</span> of the damage Dehaka took over this period.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(D) Essence Collection</h5>
           <div>
-            &nbsp;<span class="pull-right">CD: 1s 
+            &nbsp;<span class="pull-right code-addition">CD: 5s 
+<span class="code-deletion">1s</span>            </span>
             </span>
           </div>
           <div>Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying.  Activate to consume all Essence and heal yourself for 29 (+4% per level) Health over 5 seconds for each Essence stored.  Maximum of 50 Essence.  Can be cast during Drag and Burrow.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(Z) Brushstalker</h5>
+        <li class="flex-item regular-box">
+          <h5>(Z) Brushstalker <span class="label label-primary">Updated</span></h5>
           <div>
             &nbsp;<span class="pull-right code-addition">CD: 50s 
 <span class="code-deletion">40s</span>            </span>
           </div>
-          <div class="code-addition">Activate to burrow to a bush on the battleground.  Passive: Gain 15% movement speed while in a bush and for 1 second after leaving.</div>
-          <div class="code-deletion">Activate to burrow to a bush on the battleground.</div>
+          <div>Activate to burrow to a bush on the battleground.  <span class="code-addition">Passive: Gain 15% movement speed while in a bush and for 1 second after leaving.</span></div>
         </li>
       </ul>
       <hr>
       <h3>Talents</h3>
       <h3 class="line-with-text">1</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Enduring Swarm</h5>
+        <li class="flex-item regular-box">
+          <h5>Enduring Swarm (W) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">While active, Dark Swarm reduces damage taken from Spells by 40%.</div>
           <div class="code-deletion">Dark Swarm reduces the damage of the next two Abilities made against you by 50%.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>Enhanced Agility</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Enhanced Agility (Trait) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">Quest: Each time Dehaka collects 50 Essence, his Brushstalker Movement Speed bonus is permanently increased by 1%, up to 10%.</div>
           <div class="code-deletion">Quest: Each time you collect 50 Essence, permanently increase your Movement Speed by 1.5%, up to 15%.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Primal Aggression</h5>
+        <li class="flex-item regular-box">
+          <h5>Primal Aggression (W)</h5>
           <div>Dark Swarm duration increased by 0.5 seconds and it deals 100% bonus damage to Minions and Mercenaries.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Tissue Regeneration</h5>
+        <li class="flex-item regular-box">
+          <h5>Tissue Regeneration (Trait)</h5>
           <div>Quest: Each time you collect 50 Essence, permanently increase your Health Regeneration by 5, up to 50.</div>
         </li>
       </ul>
       <h3 class="line-with-text">4</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Hero Stalker</h5>
-          <div class="code-addition">Increases Essence gained from Takedowns by 100%.</div>
-          <div class="code-deletion">Increases Essence gained from Takedowns by 150%.</div>
+        <li class="flex-item regular-box">
+          <h5>Hero Stalker (Trait) <span class="label label-primary">Updated</span></h5>
+          <div>Increases Essence gained from Takedowns by <span class="code-addition">100%</span> <span class="code-deletion">150%</span>.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>Lurker Strain</h5>
-          <div class="code-addition">Burrow grants Stealth for 5 seconds. Emerging from Burrow knocks nearby enemies back and slows them by 30% for 2 seconds.</div>
-          <div class="code-deletion">Burrow grants Stealth for 5 seconds.</div>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Lurker Strain (E) <span class="label label-primary">Updated</span></h5>
+          <div>Burrow grants Stealth for 5 seconds. <span class="code-addition">Emerging from Burrow knocks nearby enemies back and slows them by 30% for 2 seconds.</span></div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>One-Who-Collects</h5>
+        <li class="flex-item regular-box">
+          <h5>One-Who-Collects (Trait)</h5>
           <div>Increases Essence collected from Minions by 50%.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Numbing Eruption</h5>
+          <h5>Numbing Eruption (E)</h5>
           <div>Emerging from Burrow knocks nearby enemies back and slows them by 30% for 2 seconds.</div>
         </li>
       </ul>
       <h3 class="line-with-text">7</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Constriction</h5>
+        <li class="flex-item regular-box">
+          <h5>Constriction (Q)</h5>
           <div>Increases Drag duration by 0.5 seconds.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>Essence Devourer</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Essence Devourer (Trait)</h5>
           <div>Quest: Regeneration Globes grant 10 Essence and increases maximum Essence by 1, up to 10.  Reward: After collecting 10, Regeneration Globes will instead grant 15 Essence.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Feeding Frenzy</h5>
+        <li class="flex-item regular-box">
+          <h5>Feeding Frenzy (Q)</h5>
           <div>Basic Attacks reduce Drag's cooldown by 1.5 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Symbiosis</h5>
+        <li class="flex-item regular-box">
+          <h5>Symbiosis (W)</h5>
           <div>Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.5 seconds.</div>
         </li>
       </ul>
       <h3 class="line-with-text">10</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box heroic">
-          <h5>Adaptation</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Adaptation (R) <span class="label label-primary">Updated</span></h5>
           <div>
             &nbsp;<span class="pull-right">CD: 90s 
             </span>
           </div>
-          <div class="code-addition">After 4 seconds, heal for 100% of the damage Dehaka took over this period.</div>
-          <div class="code-deletion">After 4 seconds, heal for 60% of the damage you took over this period.</div>
+          <div>After 4 seconds, heal for <span class="code-addition">100%</span> <span class="code-deletion">60%</span> of the damage Dehaka took over this period.</div>
         </li>
-        <li class="flex-item no-change-box heroic">
-          <h5>Isolation</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Isolation (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -593,65 +580,64 @@
       </ul>
       <h3 class="line-with-text">13</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Ferocious Stalker</h5>
+        <li class="flex-item regular-box">
+          <h5>Ferocious Stalker (Z) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">Brushstalker increases Dehaka's damage by 25% for 10 seconds.</div>
           <div class="code-deletion">Brushstalker increases your Movement Speed by 60% decaying over 3 seconds.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Primal Swarm</h5>
+          <h5>Primal Swarm (W)</h5>
           <div>Dark Swarm causes enemies hit to take 15% extra damage for 0.75 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Swift Pursuit</h5>
+        <li class="flex-item regular-box">
+          <h5>Swift Pursuit (Z) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">Brushstalker's bush movement speed bonus now lasts for 3 seconds after leaving the bush.</div>
           <div class="code-deletion">Increases your Movement Speed by 20% while in a bush and 2 seconds after leaving.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Whirling Dervish</h5>
+          <h5>Whirling Dervish (W)</h5>
           <div>Reduces the duration of stuns, slows, and roots against your Hero while Dark Swarm is active by 50%.</div>
         </li>
       </ul>
       <h3 class="line-with-text">16</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Elongated Tongue</h5>
+        <li class="flex-item regular-box">
+          <h5>Elongated Tongue (Q)</h5>
           <div>Increase Drag range by 20%.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Paralyzing Enzymes</h5>
+        <li class="flex-item regular-box">
+          <h5>Paralyzing Enzymes (Q)</h5>
           <div>Drag slows enemies by 50% for 2 seconds after it ends.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Tunneling Claws</h5>
+          <h5>Tunneling Claws (E)</h5>
           <div>Dehaka can move while Burrowed.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Rapid Regeneration</h5>
+          <h5>Rapid Regeneration (E)</h5>
           <div>Burrow heals you for 360 (+4% per level) Health over 2 seconds.</div>
         </li>
       </ul>
       <h3 class="line-with-text">20</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Apex Predator</h5>
+        <li class="flex-item regular-box">
+          <h5>Apex Predator (Z)</h5>
           <div>Reduces Brushstalker's cooldown by 25 seconds and the cast time by 0.5 seconds.</div>
         </li>
-        <li class="flex-item no-change-box flex-grow-2">
-          <h5>Change Is Survival</h5>
-          <div class="code-addition">Increases Adaptation healing to 200% of the damage received and reduces the cooldown by 30 seconds.</div>
-          <div class="code-deletion">Increases Adaptation healing to 125% of the damage received and reduces the cooldown by 30 seconds.</div>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Change Is Survival (R) <span class="label label-primary">Updated</span></h5>
+          <div>Increases Adaptation healing to <span class="code-addition">200%</span> <span class="code-deletion">125%</span> of the damage received and reduces the cooldown by 30 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Contagion</h5>
+        <li class="flex-item regular-box">
+          <h5>Contagion (R)</h5>
           <div>Isolation hits all Heroes near the first target.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Essence Claws</h5>
+          <h5>Essence Claws (Trait)</h5>
           <div>Dehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Hardened Shield</h5>
+          <h5>Hardened Shield (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -660,7 +646,7 @@
         </li>
       </ul>
       <hr>
-      <div class="row">
+      <div id="Diablo" class="row">
         <div class="col-xs-12">
           <h2>
             <div class="hero-sprite diablo"></div>
@@ -682,29 +668,27 @@
 
       <h3>Abilities</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>(Q) Shadow Charge</h5>
+        <li class="flex-item regular-box">
+          <h5>(Q) Shadow Charge <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 60 
             </span>
             &nbsp;<span class="pull-right">CD: 12s 
             </span>
           </div>
-          <div class="code-addition">Charge an enemy, knocking them back, dealing 75 (+4% per level) damage and granting Resistant, reducing damage taken by 25% for 2 seconds. If the enemy collides with terrain, they are stunned for 1 second instead and take 150 (+4% per level) additional damage.</div>
-          <div class="code-deletion">Charge an enemy, knocking them back, dealing 94 (+4% per level) damage. If the enemy collides with terrain, they are stunned for 1 second instead.</div>
+          <div>Charge an enemy, knocking them back, dealing <span class="code-addition">75 <span class="code-deletion">94</span> (+4% per level) damage and granting Resistant, reducing damage taken by 25% for 2 seconds.</span> If the enemy collides with terrain, they are stunned for 1 second instead <span class="code-addition">and take 150 (+4% per level) additional damage</span>.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(W) Fire Stomp</h5>
+        <li class="flex-item regular-box">
+          <h5>(W) Fire Stomp <span class="label label-primary">Updated</span></h5>
           <div>
             <span>Mana: 40 
             </span>
             &nbsp;<span class="pull-right">CD: 6s 
             </span>
           </div>
-          <div class="code-addition">Unleashes fire waves in all directions that deal 60 (+4% per level) damage each. Once they reach maximum range, they return dealing an additional 90 (+4% per level) damage.</div>
-          <div class="code-deletion">Unleashes fire waves in all directions that deal 106 (+4% per level) damage each.</div>
+          <div>Unleashes fire waves in all directions that deal <span class="code-addition">60</span> <span class="code-deletion">106</span> (+4% per level) damage each. <span class="code-addition">Once they reach maximum range, they return dealing an additional 90 (+4% per level) damage.</span></div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(E) Overpower</h5>
           <div>
             <span>Mana: 60 
@@ -714,7 +698,7 @@
           </div>
           <div>Grabs the target and slams it behind Diablo, dealing 73 (+4% per level) damage and stunning for 0.25 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Apocalypse</h5>
           <div>
             <span>Mana: 100 
@@ -724,7 +708,7 @@
           </div>
           <div>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
+        <li class="flex-item regular-box">
           <h5>(R) Lightning Breath</h5>
           <div>
             <span>Mana: 80 
@@ -734,14 +718,13 @@
           </div>
           <div>Become Unstoppable while channeling lightning that deals 800 (+4% per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>(Trait) Black Soulstone</h5>
+        <li class="flex-item regular-box">
+          <h5>(Trait) Black Soulstone <span class="label label-primary">Updated</span></h5>
           <div>
             &nbsp;<span class="pull-right">CD: 30s 
             </span>
           </div>
-          <div class="code-addition">Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.4% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.</div>
-          <div class="code-deletion">Gain 10 Souls per Hero killed and 1 Soul per Minion. For each Soul, gain 0.2% maximum Health. If you have 100 Souls upon dying, you resurrect in 5 seconds and lose 100 Souls.  Maximum 100 Souls.</div>
+          <div>Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain <span class="code-addition">0.4%</span> <span class="code-deletion">0.2%</span> maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.</div>
         </li>
       </ul>
       <hr>
@@ -749,89 +732,82 @@
       <h3 class="line-with-text">1</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Bulwark</h5>
+          <h5>Bulwark (Q)</h5>
           <div>Increases the duration of Resistant granted by Shadow Charge from 2 seconds to 5 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Devil's Due</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Devil's Due (Trait) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2% per Soul.</div>
           <div class="code-deletion">Reduces Black Soulstone's resurrection cost to 60 Souls.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Life Leech</h5>
-          <div class="code-addition">Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal Diablo for the same amount.</div>
-          <div class="moved-from">Moved from level 13</div>
-          <div class="code-deletion">Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal you for the same amount.</div>
+        <li class="flex-item regular-box">
+          <h5>Life Leech (Passive) <span class="label label-info">Moved from level 13</span></h5>
+          <div>Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal Diablo for the same amount.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Block</h5>
+          <h5>Block (Passive)</h5>
           <div>Every 5 seconds, reduce the damage taken from the next Hero Basic Attack by 75%.  Stores up to 2 charges.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Overwhelming Force</h5>
+          <h5>Overwhelming Force (Q)</h5>
           <div>Increases the range and knockback of Shadow Charge by 25%.</div>
         </li>
       </ul>
       <h3 class="line-with-text">4</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Demonic Strength</h5>
-          <div class="code-addition">Once Overpower's stun expires, the target is slowed by 30% for 3 seconds.</div>
-          <div class="code-deletion">Once Overpower's stun expires, the target is slowed by 25% for 2 seconds.</div>
+        <li class="flex-item regular-box">
+          <h5>Demonic Strength (E) <span class="label label-primary">Updated</span></h5>
+          <div>Once Overpower's stun expires, the target is slowed by <span class="code-addition">30% for 3 seconds</span> <span class="code-deletion">25% for 2 seconds</span>.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-3">
-          <h5>From the Shadows</h5>
-          <div class="code-addition">Increases the range of Shadow Charge by 33%. Enemies knocked against terrain are stunned for an additional 0.5 seconds.</div>
-          <div class="moved-from">Moved from level 7</div>
-          <div class="code-deletion">Enemies knocked against unpathable locations are stunned for an additional 0.5 seconds.</div>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>From the Shadows (Q) <span class="label label-info">Moved from level 7</span></h5>
+          <div><span class="code-addition">Increases the range of Shadow Charge by 33%.</span> Enemies knocked against terrain are stunned for an additional 0.5 seconds.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Speed Demon</h5>
+          <h5>Speed Demon (Passive)</h5>
           <div>Being Stunned or Rooted increases Diablo's Movement Speed by 30% for 5 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Essence of the Slain</h5>
+          <h5>Essence of the Slain (Passive)</h5>
           <div>When enemy Minions and Heroes die near you, gain 26 (+4% per level) Health and 10 Mana.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Soul Catcher</h5>
+          <h5>Soul Catcher (Trait)</h5>
           <div>Black Soulstone passively generates a Soul every 4 seconds.</div>
         </li>
       </ul>
       <h3 class="line-with-text">7</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Diabolical Momentum</h5>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Diabolical Momentum (Passive) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">Basic Attacks reduce the cooldown of Overpower and Shadow Charge by 1.5 seconds.</div>
           <div class="code-deletion">Basic Attacks reduce your Basic Ability cooldowns by 0.75 seconds.</div>
         </li>
-        <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Soul Feast</h5>
-          <div class="code-addition">Black Soulstone increases Diablo's Health Regeneration by 0.4 per second per Soul.</div>
-          <div class="moved-from">Moved from level 1</div>
-          <div class="code-deletion">Black Soulstone increases your Health Regeneration by 3% per Soul.</div>
+        <li class="flex-item regular-box">
+          <h5>Soul Feast (Trait) <span class="label label-info">Moved from level 1</span></h5>
+          <div>Black Soulstone increases Diablo's Health Regeneration by <span class="code-addition">0.4 per second per Soul</span> <span class="code-deletion">3% per Soul</span>.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Soul Shield</h5>
+          <h5>Soul Shield (Trait)</h5>
           <div>Black Soulstone reduces Ability Damage taken by .35% per Soul.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Soul Steal</h5>
+          <h5>Soul Steal (Trait)</h5>
           <div>Increases the amount of Health gained from Black Soulstone by 50%.</div>
         </li>
       </ul>
       <h3 class="line-with-text">10</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box heroic">
-          <h5>Apocalypse</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Apocalypse (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 100s 
             </span>
           </div>
           <div>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.</div>
         </li>
-        <li class="flex-item no-change-box heroic">
-          <h5>Lightning Breath</h5>
+        <li class="flex-item regular-box heroic">
+          <h5>Lightning Breath (R)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -841,28 +817,25 @@
       </ul>
       <h3 class="line-with-text">13</h3>
       <ul class="flex-container">
-        <li class="flex-item code-addition-box flex-grow-3">
-          <h5>Devastating Charge</h5>
+        <li class="flex-item regular-box flex-grow-3">
+          <h5>Devastating Charge (Q) <span class="label label-info">Moved from level 7</span></h5>
           <div class="code-addition">Shadow Charge's terrain collision against Heroes deals an additional 5% of the target's maximum life.  Quest: Each time an enemy Hero takes terrain collision damage, increase the maximum life damage by 2%, to a maximum 10% bonus.</div>
-          <div class="moved-from">Moved from level 7</div>
           <div class="code-deletion">Shadow Charge grants Resistant, reducing all damage taken by 25% for 4 seconds.</div>
         </li>
-        <li class="flex-item code-addition-box">
-          <h5>Fire Devil</h5>
-          <div class="code-addition">Fire Stomp increases Diablo's Basic Attack damage by 25% and surrounds Diablo in flames that deal 22 (+4% per level) damage every second. Lasts 6 seconds.</div>
-          <div class="moved-from">Moved from level 4</div>
-          <div class="code-deletion">Fire Stomp also surrounds you in flames that deal 17 (+4% per level) damage every second for 6 seconds.</div>
+        <li class="flex-item regular-box">
+          <h5>Fire Devil (W) <span class="label label-info">Moved from level 4</span></h5>
+          <div>Fire Stomp <span class="code-addition">increases Diablo's Basic Attack damage by 25% and</span> surrounds Diablo in flames that deal <span class="code-addition">22</span> <span class="code-deletion">17</span> (+4% per level) damage every second. Lasts 6 seconds.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Hellfire</h5>
+          <h5>Hellfire (W)</h5>
           <div>Each enemy Hero hit by Fire Stomp increases the damage of the next Fire Stomp by 10%, up to 100%.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Firestorm</h5>
+          <h5>Firestorm (W)</h5>
           <div>Fire Stomp waves return to you, dealing 125% damage.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Siphon the Dead</h5>
+          <h5>Siphon the Dead (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 30s 
             </span>
@@ -870,23 +843,23 @@
           <div>Activate to heal 16% of your maximum Health over 3 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Spell Shield</h5>
+          <h5>Spell Shield (Active)</h5>
           <div>Upon taking Ability Damage, reduce that damage and further Ability Damage by 50% for 3 seconds. This can only trigger once every 30 seconds.  Can be toggled to allow or prevent this talent from triggering.</div>
         </li>
       </ul>
       <h3 class="line-with-text">16</h3>
       <ul class="flex-container">
         <li class="flex-item code-addition-box">
-          <h5>Debilitating Flames</h5>
+          <h5>Debilitating Flames (W)</h5>
           <div>Enemy Heroes hit by Fire Stomp are slowed by 15% for 2 seconds, up to 30%.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Domination</h5>
+        <li class="flex-item regular-box">
+          <h5>Domination (E) <span class="label label-primary">Updated</span></h5>
           <div class="code-addition">Reduces the cooldown of Overpower by 4 seconds. Casting Overpower resets the cooldown of Shadow Charge.</div>
           <div class="code-deletion">Overpower reduces the cooldown of Shadow Charge by 10 seconds.</div>
         </li>
         <li class="flex-item code-addition-box">
-          <h5>Fearful Presence</h5>
+          <h5>Fearful Presence (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 20s 
             </span>
@@ -894,11 +867,11 @@
           <div>Activate to reduce the damage dealt by nearby enemy Heroes by 30% for 3 seconds.  Passive: Heroes and Summons that attack Diablo have their Attack Speed slowed by 20% for 2.5 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Continuous Overpower</h5>
+          <h5>Continuous Overpower (E)</h5>
           <div>Overpower can store 2 charges.</div>
         </li>
-        <li class="flex-item code-deletion-box">
-          <h5>Imposing Presence</h5>
+        <li class="flex-item code-deletion-box flex-grow-2">
+          <h5>Imposing Presence (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 20s 
             </span>
@@ -906,30 +879,30 @@
           <div>Heroes that attack you have their Attack Speed slowed by 20% for 2.5 seconds. Activate to Slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Rampage</h5>
+          <h5>Rampage (W)</h5>
           <div>Fire Stomp increases Diablo's Movement Speed by 20% and Basic Attack damage by 50% for 2 seconds.</div>
         </li>
       </ul>
       <h3 class="line-with-text">20</h3>
       <ul class="flex-container">
-        <li class="flex-item no-change-box">
-          <h5>Dying Breath</h5>
+        <li class="flex-item regular-box">
+          <h5>Dying Breath (R)</h5>
           <div>Apocalypse's cooldown is reduced by 20 seconds and is cast for free when you die.</div>
         </li>
         <li class="flex-item code-addition-box flex-grow-2">
-          <h5>Hellgate</h5>
+          <h5>Hellgate (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 70s 
             </span>
           </div>
           <div>Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Hellstorm</h5>
+        <li class="flex-item regular-box">
+          <h5>Hellstorm (R)</h5>
           <div>Lightning Breath lasts and reaches 50% longer.</div>
         </li>
-        <li class="flex-item no-change-box">
-          <h5>Lord of Terror</h5>
+        <li class="flex-item regular-box">
+          <h5>Lord of Terror (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 60s 
             </span>
@@ -937,7 +910,7 @@
           <div>Activate to steal 10% of the maximum Health of nearby enemy Heroes.</div>
         </li>
         <li class="flex-item code-deletion-box">
-          <h5>Bolt of the Storm</h5>
+          <h5>Bolt of the Storm (Active)</h5>
           <div>
             &nbsp;<span class="pull-right">CD: 70s 
             </span>
