@@ -1,12 +1,12 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero { 
-  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/hero-sprite.png") -7px -7px no-repeat; 
-  background-size: 54px 3463.043px; height: 44px; width: 41px; 
+  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") -7px -7px no-repeat; 
+  background-size: 54px 3521.739px; height: 44px; width: 41px; 
 }
 
 .medium-hero { 
-  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/hero-sprite.png") -10px -11px no-repeat; 
-  background-size: 54px 3463.043px; height: 44px; width: 41px;
+  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") -10px -11px no-repeat; 
+  background-size: 54px 3521.739px; height: 44px; width: 41px;
 }
 
 .small-battleground {
@@ -93,8 +93,8 @@
 .medium-nazeebo{ background-position: -10px -888px; }
 .small-nova{ background-position: -7px -946px; }
 .medium-nova{ background-position: -10px -946px; }
-.small-ragnaros{ background-position: -7px -3353px; }
-.medium-ragnaros{ background-position: -10px -3353px; }
+.small-ragnaros{ background-position: -7px -3412px; }
+.medium-ragnaros{ background-position: -10px -3412px; }
 .small-raynor{ background-position: -7px -1005px; }
 .medium-raynor{ background-position: -10px -1005px; }
 .small-rehgar{ background-position: -7px -1064px; }
@@ -129,8 +129,8 @@
 .medium-uther{ background-position: -10px -1357px; }
 .small-valla{ background-position: -7px -1416px; }
 .medium-valla{ background-position: -10px -1416px; }
-.small-varian{ background-position: -7px -3412px; }
-.medium-varian{ background-position: -10px -3412px; }
+.small-varian{ background-position: -7px -3353px; }
+.medium-varian{ background-position: -10px -3353px; }
 .small-xul{ background-position: -7px -2766px; }
 .medium-xul{ background-position: -10px -2766px; }
 .small-zagara{ background-position: -7px -1475px; }
@@ -139,6 +139,8 @@
 .medium-zarya{ background-position: -10px -3177px; }
 .small-zeratul{ background-position: -7px -1534px; }
 .medium-zeratul{ background-position: -10px -1534px; }
+.small-zuljin{ background-position: -7px -3470px; }
+.medium-zuljin{ background-position: -10px -3470px; }
 .small-battlefieldofeternity{ background-position: -316px 0px; }
 .medium-battlefieldofeternity{ background-position: -316px 0px; }
 .small-blackheartsbay{ background-position: -90px 0px; }
@@ -298,7 +300,7 @@ div.panel-heading>h3>a>i.fa-external-link {
 
 @media (min-width: 360px) {
   .medium-hero { 
-    background-size: 85.610px 5490.207px; height: 70px; width: 65px; 
+    background-size: 85.610px 5583.261px; height: 70px; width: 65px; 
   }
 
   .medium-battleground { 
@@ -342,7 +344,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-murky{ background-position: -10px -1314px; }
   .medium-nazeebo{ background-position: -10px -1407px; }
   .medium-nova{ background-position: -10px -1500px; }
-  .medium-ragnaros{ background-position: -10px -5315px; }
+  .medium-ragnaros{ background-position: -10px -5409px; }
   .medium-raynor{ background-position: -10px -1593px; }
   .medium-rehgar{ background-position: -10px -1686px; }
   .medium-rexxar{ background-position: -10px -3734px; }
@@ -360,11 +362,12 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-tyrande{ background-position: -10px -3269px; }
   .medium-uther{ background-position: -10px -2152px; }
   .medium-valla{ background-position: -10px -2245px; }
-  .medium-varian{ background-position: -10px -5409px; }
+  .medium-varian{ background-position: -10px -5315px; }
   .medium-xul{ background-position: -10px -4385px; }
   .medium-zagara{ background-position: -10px -2338px; }
   .medium-zarya{ background-position: -10px -5037px; }
   .medium-zeratul{ background-position: -10px -2431px; }
+  .medium-zuljin{ background-position: -10px -5501px; }
   .medium-battlefieldofeternity{ background-position: -431px 0px; }
   .medium-blackheartsbay{ background-position: -123px 0px; }
   .medium-braxisholdout{ background-position: -616px 0px; }
