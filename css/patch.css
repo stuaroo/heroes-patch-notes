@@ -1,21 +1,21 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero { 
-  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") -7px -7px no-repeat; 
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") -7px -7px no-repeat; 
   background-size: 54px 3521.739px; height: 44px; width: 41px; 
 }
 
 .medium-hero { 
-  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") -10px -11px no-repeat; 
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") -10px -11px no-repeat; 
   background-size: 54px 3521.739px; height: 44px; width: 41px;
 }
 
 .small-battleground {
-  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/battleground-sprite.png") 0px 0px no-repeat; 
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1481355436/battleground-sprite.png") 0px 0px no-repeat; 
   background-size: 541.321px 44px; width: 45px; height: 44px;
 }
 
 .medium-battleground { 
-  background:url("http://res.cloudinary.com/heroespatches/image/upload/v1481355436/battleground-sprite.png") 0px 0px no-repeat; 
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1481355436/battleground-sprite.png") 0px 0px no-repeat; 
   background-size: 541.321px 44px; width: 45px; height: 44px;
 }
 
@@ -230,7 +230,7 @@
   float: right;
   top: 0;
   left: auto;
-  background: url("http://res.cloudinary.com/heroespatches/image/upload/v1481355437/ranked-ring.png") 0px 0px no-repeat; 
+  background: url("//res.cloudinary.com/heroespatches/image/upload/v1481355437/ranked-ring.png") 0px 0px no-repeat; 
   background-size: 70px 70px; 
   height: 70px; 
   width: 70px; 
