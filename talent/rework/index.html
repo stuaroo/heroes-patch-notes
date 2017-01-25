@@ -32,7 +32,7 @@
 
     <style>
       p { margin: 0; }
-      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") 0px 0px no-repeat; background-size: 92px 6000px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1485313185/hero-sprite-v20170124.png") 0px 0px no-repeat; background-size: 92px 6100px; height: 77px; width: 68px; margin-right: 5px; }
       .butcher{ background-position: -12px -3712px; }
       .valla{ background-position: -12px -2412px; }
       .chen{ background-position: -12px -412px; }
@@ -73,7 +73,13 @@
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://heroespatchnotes.com/patch/summary.html">Patches</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
             <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
             <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
             <li class="dropdown">

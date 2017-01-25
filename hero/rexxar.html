@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Rexxar, Ranged Warrior, patch note history.  Last relevant patch: 2016-10-18">
+    <meta name="description" content="Rexxar, Ranged Warrior, patch note history.  Last relevant patch: 2017-01-24">
     <link rel="canonical" href="https://heroespatchnotes.com/hero/rexxar.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@heroespatches" />
     <meta property="og:url" content="https://heroespatchnotes.com/hero/rexxar.html" />
     <meta property="og:title" content="Rexxar - Heroes Patch Notes" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Rexxar, Ranged Warrior, patch note history.  Last relevant patch: 2016-10-18" />
+    <meta property="og:description" content="Rexxar, Ranged Warrior, patch note history.  Last relevant patch: 2017-01-24" />
     <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483417096/hero/rexxar.jpg" />
         <title>Rexxar Patch Notes</title>
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -68,7 +68,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") 0px 0px no-repeat; background-size: 92px 6000px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1485313185/hero-sprite-v20170124.png") 0px 0px no-repeat; background-size: 92px 6100px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
@@ -90,7 +90,13 @@
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://heroespatchnotes.com/patch/summary.html">Patches</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
             <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
             <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
             <li class="dropdown">
@@ -171,6 +177,7 @@
               <li><a href="tyrael.html">Tyrael</a></li>
               <li><a href="tyrande.html">Tyrande</a></li>
               <li><a href="uther.html">Uther</a></li>
+              <li><a href="valeera.html">Valeera</a></li>
               <li><a href="valla.html">Valla</a></li>
               <li><a href="varian.html">Varian</a></li>
               <li><a href="xul.html">Xul</a></li>
@@ -197,33 +204,28 @@
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Flare</td>
-                    <td>Fire a flare at an area, revealing it for 5 seconds.</td>
+                    <td>Bird of Prey</td>
+                    <td>Increases Spirit Swoop's damage by 150% to Minions.</td>
                   </tr>
                   <tr>
                     <td>1</td>
-                    <td>Grizzled Bear</td>
-                    <td>Every 5 seconds, Misha gains 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Hunter-Gatherer</td>
-                    <td>Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30 per second.  Reward: After gathering 30 Globes, Rexxar gains 600 maximum Health.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Survivalist Training</td>
-                    <td>Regeneration Globes restore 100% more Mana.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Crippling Talons</td>
-                    <td>Increases Spirit Swoop's slow amount to 40% and its duration to 3 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
                     <td>Easy Prey</td>
                     <td>Increases Misha's damage to Minions and Mercenaries by 150%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Flare</td>
+                    <td>Fire a flare at an area, revealing it for 20 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Animal Husbandry</td>
+                    <td>Rexxar and Misha gain 2 Maximum Health every second Rexxar remains alive. These bonuses are lost on Rexxar's death.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Grizzled Fortitude</td>
+                    <td>Every 7 seconds, Rexxar and Misha gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges. Both Rexxar and Misha have their own charges.</td>
                   </tr>
                   <tr>
                     <td>4</td>
@@ -232,8 +234,8 @@
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Taking Flight</td>
-                    <td>Increases Spirit Swoop's range by 20%. If Spirit Swoop hits an enemy Hero, the Mana cost is refunded.</td>
+                    <td>Hunter-Gatherer</td>
+                    <td>Quest: Gathering a Regeneration Globe increases Rexxar's Health Regeneration by 1.25 per second, up to 25 per second. Reward: After gathering 20 Globes, Rexxar and Misha gain 10 Armor.</td>
                   </tr>
                   <tr>
                     <td>7</td>
@@ -242,13 +244,13 @@
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Bird of Prey</td>
-                    <td>Increases Spirit Swoop's damage by 200% to Minions and Mercenaries.</td>
+                    <td>Crippling Talons</td>
+                    <td>Increases Spirit Swoop's slow amount to 50% and its duration to 3 seconds.</td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Blood of the Rhino</td>
-                    <td>Increases Mend Pet's duration by 5 seconds.</td>
+                    <td>Taking Flight</td>
+                    <td>Increases Spirit Swoop's range by 20%. If Spirit Swoop hits an enemy Hero, the Mana cost is refunded and its cooldown is reduced by 2 seconds.</td>
                   </tr>
                   <tr>
                     <td>10</td>
@@ -262,33 +264,18 @@
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Barkskin</td>
-                    <td>Misha gains 50 Spell Armor for 5 seconds after using Misha, Charge!, taking 50% less damage from Abilities.</td>
+                    <td>Aspect of the Hawk</td>
+                    <td>When Spirit Swoop hits an enemy Hero, Rexxar gains 100% Attack Speed for 3 seconds. Misha's Basic Attacks increase the duration of this buff by 0.5 seconds.</td>
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Bear Necessities</td>
-                    <td>If Misha, Charge! doesn't hit an enemy Hero, it can be cast again for free for the next 3 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>13</td>
-                    <td>Thrill of the Hunt</td>
-                    <td>Your Basic Attacks increase both you and Misha's Movement Speed by 25% for 2 seconds.</td>
+                    <td>Dire Beast</td>
+                    <td>Rexxar and Misha's Basic Attacks increase the damage of the next Misha, Charge! by 40%, stacking up to a 400% bonus.</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Wildfire Bear</td>
                     <td>Misha deals 28 (+4% per level) damage per second to nearby enemies.</td>
-                  </tr>
-                  <tr>
-                    <td>16</td>
-                    <td>Aspect of the Hawk</td>
-                    <td>When Spirit Swoop hits an enemy Hero, you gain 100% Attack Speed for 3 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>16</td>
-                    <td>Critical Care</td>
-                    <td>Increases the healing of Mend Pet by 50% while Misha is under 50% health.</td>
                   </tr>
                   <tr>
                     <td>16</td>
@@ -299,6 +286,11 @@
                     <td>16</td>
                     <td>Primal Intimidation</td>
                     <td>Heroes and Summons that attack you or Misha have their Attack Speed slowed by 20% for 2.5 seconds. Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons near Rexxar and Misha for 2.5 seconds.</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Thrill of the Hunt</td>
+                    <td>Your Basic Attacks increase both you and Misha's Movement Speed by 25% for 2 seconds.</td>
                   </tr>
                   <tr>
                     <td>20</td>
@@ -360,13 +352,8 @@
                   </tr>
                   <tr>
                     <td>D</td>
-                    <td>Misha, Attack!</td>
-                    <td>Activate to command Misha to attack your enemies.  If Misha dies, she will revive in 14 (+0.5 per level) seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>D</td>
-                    <td>Misha, Follow!</td>
-                    <td>Activate to command Misha to stay by your side.  If Misha dies, she will revive in 14 (+0.5 per level) seconds.</td>
+                    <td>Misha, Focus!</td>
+                    <td>Passive: Misha gains 15% move speed. Command Misha to attack a specific enemy or move to a point and wait. Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar. Targeting Misha commands her to hold her current position.</td>
                   </tr>
                 </tbody>
               </table>
@@ -380,6 +367,222 @@
             <div class="hero-sprite hero-position"></div>
             <div>Rexxar</div>
           </h2>
+          <div id="patch2017-01-24" class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2017-01-24 Patch Notes <a class="permalink" href="#patch2017-01-24" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20481262" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Hero Updates</h4>
+              <p><strong>General</strong></p>
+<ul>
+<li><strong>Misha</strong>
+<ul>
+<li>Movement Speed has been increased from 100% to 115% when Misha has been issued an order to attack targets or when she is by Rexxar’s side.</li>
+</ul></li>
+</ul>
+<p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Misha, Attack! (D)</strong> / <strong>Misha, Follow! (D)</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Misha, Focus! (1)</strong>
+<ul>
+<li>Moved to the Trait button (Default Hotkey: D)</li>
+<li>Self-casting Misha, Focus! now calls Misha to Rexxar. Once she reaches Rexxar, she will go to her neutral state.</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Survivalist Training (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Grizzled Bear (Passive)
+<ul>
+<li>Moved to Level 4</li>
+<li>Renamed to Grizzled Fortitude</li>
+<li>Added functionality:
+<ul>
+<li>Block charge gain rate increased from 5 to 7 seconds</li>
+<li>Added functionality:
+<ul>
+<li>Rexxar now gains the Block charges in addition to Misha</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Hunter-Gatherer (Passive)
+<ul>
+<li>Moved to Level 4</li>
+<li>Regeneration Globes required to complete the quest decreased from 30 to 20</li>
+<li>Rexxar's Health Regeneration amount increased from 1 to 1.25 per second</li>
+<li>New Functionality:
+<ul>
+<li>Upon Quest completion, Rexxar and Misha now gain 10 Armor</li>
+</ul></li>
+</ul></li>
+<li>Flare (Active)
+<ul>
+<li>Cooldown increased from 20 to 30 seconds</li>
+<li>Reveal duration increased from 5 seconds to 20 seconds</li>
+</ul></li>
+<li>Bird of Prey (Q)
+<ul>
+<li>Bonus damage reduced from 200% to 150%</li>
+<li>Now only does bonus damage to enemy Minions</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Easy Prey (Passive)
+<ul>
+<li>Moved to Level 1</li>
+</ul></li>
+<li>Crippling Talons (Q)
+<ul>
+<li>Slow amount increased from 40 to 50%</li>
+</ul></li>
+<li>Taking Flight (Q)
+<ul>
+<li>Added functionality:
+<ul>
+<li>If Spirit Swoop hits an enemy Hero, the cooldown is also reduced by 2 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent: Animal Husbandry (Passive)</strong>
+<ul>
+<li>Rexxar and Misha gain 2 Maximum Health every second Rexxar remains alive. These bonuses are lost on Rexxar's death.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Blood of the Rhino (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Bird of Prey (Q)
+<ul>
+<li>Moved to Level 1</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Bear Necessities (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Barkskin (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Aspect of the Hawk (Q)
+<ul>
+<li>Added functionality:
+<ul>
+<li>Misha Basic Attacks now increase the duration of the Attack Speed buff by 0.5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent: Dire Beast (W)</strong>
+<ul>
+<li>Rexxar and Misha's Basic Attacks increase the damage of the next Misha, Charge! by 40%, stacking up to 400% bonus.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Critical Care (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> Our goals for Misha Rexxar were twofold: to
+  streamline his control scheme as much as we could and to give his talents some
+  love. All of Misha’s controls should now be centralized on the D button, which
+  should make it easier overall to play the hero. While this does result in a
+  tiny loss of control (Rexxar no longer has the ability to recall Misha to his
+  side and to keep her in a passive state), we felt that overall this
+  functionality was not that huge of a loss for Rexxar and was worth the gain of
+  making his controls centered around one button instead of two. We also made
+  Misha’s Movement Speeds during her various states more consistent so that she
+  feels better when being commanded by Rexxar, and we’ve added some talents that
+  should help better sell the fantasy of Rexxar and Misha working together to
+  take down their prey. We’ve had a blast playing with the new and improved
+  Rexxar, and hope that you enjoy it as much as we have!</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>Level (Tier)</strong></th>
+<th></th>
+<th><strong>Rexxar TALENTS</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 (1)</strong></td>
+<td><strong>Easy Prey (Passive)</strong></td>
+<td><strong>Bird of Prey (Q)</strong></td>
+<td>Flare (Active)</td>
+</tr>
+<tr>
+<td><strong>4 (2)</strong></td>
+<td>Hungry Bear (Passive)</td>
+<td><strong>(!) Hunter-Gatherer (Passive)</strong></td>
+<td><strong>Grizzled Fortitude (Passive)</strong></td>
+<td><em>Animal Husbandry (Passive)</em></td>
+</tr>
+<tr>
+<td><strong>7 (3)</strong></td>
+<td>Aspect of the Beast (W)</td>
+<td>Crippling Talons (Q)</td>
+<td><strong>Taking Flight (Q)</strong></td>
+</tr>
+<tr>
+<td><strong>10 (4)</strong></td>
+<td>Bestial Wrath</td>
+<td>Unleash the Boars</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>13 (5)</strong></td>
+<td>Wildfire Bear (Passive)</td>
+<td>Aspect of the Hawk (Q)</td>
+<td><em>Dire Beast (W)</em></td>
+</tr>
+<tr>
+<td><strong>16 (6)</strong></td>
+<td>Thrill of the Hunt (Passive)</td>
+<td>Primal Intimidation (Active)</td>
+<td>Feign Death (Active)</td>
+</tr>
+<tr>
+<td><strong>20 (7)</strong></td>
+<td>Spirit Bond (R)</td>
+<td>Kill Command (R)</td>
+<td>Frenzy of Kalimdor (Passive)</td>
+<td>Hardened Skin (Active)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em><strong>NEW</strong></em> Talent.</li>
+<li><strong>Bold text</strong> indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Rexxar:</strong> Fixed an issue with using the Hold Position (Hotkey: H) command causing Misha to move in an unintended way.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
           <div id="patch2016-10-18" class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-10-18 Patch Notes <a class="permalink" href="#patch2016-10-18" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20328243" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
@@ -706,7 +909,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Rexxar Patch Notes",
-        "description": "Rexxar, Ranged Warrior, patch note history.  Last relevant patch: 2016-10-18",
+        "description": "Rexxar, Ranged Warrior, patch note history.  Last relevant patch: 2017-01-24",
         "url": "https://heroespatchnotes.com/hero/rexxar.html",
         "keywords": "Rexxar patch notes, Rexxar patch history, hots Rexxar patch notes, Rexxar patches",
         "mainEntity": {

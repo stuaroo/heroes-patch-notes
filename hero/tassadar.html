@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Tassadar, Ranged Support, patch note history.  Last relevant patch: 2016-11-15">
+    <meta name="description" content="Tassadar, Ranged Support, patch note history.  Last relevant patch: 2017-01-24">
     <link rel="canonical" href="https://heroespatchnotes.com/hero/tassadar.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@heroespatches" />
     <meta property="og:url" content="https://heroespatchnotes.com/hero/tassadar.html" />
     <meta property="og:title" content="Tassadar - Heroes Patch Notes" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Tassadar, Ranged Support, patch note history.  Last relevant patch: 2016-11-15" />
+    <meta property="og:description" content="Tassadar, Ranged Support, patch note history.  Last relevant patch: 2017-01-24" />
     <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483417095/hero/tassadar.jpg" />
         <title>Tassadar Patch Notes</title>
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -68,7 +68,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1483564003/hero-sprite-v20170104.png") 0px 0px no-repeat; background-size: 92px 6000px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1485313185/hero-sprite-v20170124.png") 0px 0px no-repeat; background-size: 92px 6100px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
@@ -90,7 +90,13 @@
         </div>
         <div class="collapse navbar-collapse" id="collapsed-nav">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://heroespatchnotes.com/patch/summary.html">Patches</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
             <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
             <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
             <li class="dropdown">
@@ -171,6 +177,7 @@
               <li><a href="tyrael.html">Tyrael</a></li>
               <li><a href="tyrande.html">Tyrande</a></li>
               <li><a href="uther.html">Uther</a></li>
+              <li><a href="valeera.html">Valeera</a></li>
               <li><a href="valla.html">Valla</a></li>
               <li><a href="varian.html">Varian</a></li>
               <li><a href="xul.html">Xul</a></li>
@@ -197,133 +204,108 @@
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Conjurer's Pursuit</td>
-                    <td>Quest: Gathering Regeneration Globes increases your Mana Regeneration by 0.1 per second, up to 2.5 per second.  Reward: After gathering 25 Globes, also increase your maximum Mana by 100.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Overload</td>
-                    <td>Increases Psionic Storm's range by 33%.</td>
+                    <td>Khaydarin Resonance</td>
+                    <td>Quest: Regeneration Globes grant an additional 50% Mana. Reward: After collecting 20 Regeneration Globes, Plasma Shield retains 50% of its value after it expires. Reward: After collecting 40 Regeneration Globes, Plasma Shield persists indefinitely.</td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Psi-Infusion</td>
-                    <td>Psionic Storm returns 5 Mana for each target initially hit.</td>
+                    <td>Quest: Gain 1 Mana for every Non-Structure enemy hit by Psionic Storm. Reward: After hitting 500 enemies, increase the size of Psionic Storm by 20%. Reward: After hitting 1000 enemies, increase the damage of Psionic Storm by 20%.</td>
                   </tr>
                   <tr>
                     <td>1</td>
-                    <td>Reinforce Structure</td>
-                    <td>Plasma Shield is 100% stronger and lasts 100% longer when cast on Structures.</td>
+                    <td>Templar's Will</td>
+                    <td>Quest: Attacking enemy Heroes restores 4 mana per second. Reward: After spending 30 seconds attacking Heroes, Distortion Beam's range is increased by 20%. Reward: After spending 60 seconds attacking Heroes, Distortion Beam's range is increased by an additional 20%.</td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Healing Ward</td>
-                    <td>Activate to place a ward on the ground that heals allies in an area for 2% of their maximum Health every second for 10 seconds.</td>
+                    <td>Khala's Celerity</td>
+                    <td>Plasma Shield also grants 25% Movement Speed for 5 seconds.</td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Leeching Plasma</td>
-                    <td>While Plasma Shield is active, 30% of the target's Basic Attack damage against the primary target is returned as Health.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Mental Acuity</td>
-                    <td>Reduces the cooldown of Oracle by 20 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Promote</td>
-                    <td>Activate to cause an allied lane Minion to take 75% reduced damage from non-Heroic targets and deal 100% bonus damage to non-Heroic targets for 30 seconds. Has 2 charges.</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>Calldown: MULE</td>
-                    <td>Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second.  Grants 1 ammo every 3 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>Deep Shift</td>
-                    <td>Dimensional Shift duration increased by 1.5 seconds.</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
                     <td>Khala's Embrace</td>
-                    <td>If Plasma Shield expires, 50% of the Shield remains indefinitely. This effect does not stack.</td>
+                    <td>Increase the Life Steal of Plasma Shield to 40%.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Khala's Light</td>
+                    <td>Upon expiration or breaking, the target of Plasma Shield gains 25 Armor for 3 seconds, causing them to take 25% less damage.</td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Static Charge</td>
-                    <td>Enemies damaged by Psionic Storm are marked with Static Charge. Your Basic Attacks consume the Static Charge to deal 52 (+4% per level) damage.</td>
+                    <td>Mental Acuity</td>
+                    <td>Quest: Each Takedown earned lowers the cooldown of Oracle by 3 seconds, to a maximum of 15 seconds. Reward: Upon getting 5 Takedowns, the sight range of Oracle is increased by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Psionic Projection</td>
+                    <td>Increases the cast range of Plasma Shield and Psionic Storm by 40%.</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Resonation</td>
+                    <td>Distortion Beam slows enemies affected by Psionic Storm by 40%.</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Archon</td>
-                    <td>Transform into an Archon, gaining a 456 (+4% per level) point Shield, causing Basic Attacks to deal 111 (+4% per level) damage and splash for 55 (+4% per level) additional damage. Lasts for 12.5 seconds.</td>
+                    <td>Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 175 (+4% per level) damage, slow the target by 40% for 1 second and splash for 88 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Force Wall</td>
-                    <td>Create a wall that blocks all units from moving through it for 2.5 seconds.</td>
+                    <td>Create a wall that blocks all units from moving through it for 2.5 seconds. Passive: Increases the slow amount of Distortion Beam to 30%.</td>
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Distortion Beam</td>
-                    <td>Basic Attacks slow enemies by 20% for 1.5 seconds.</td>
+                    <td>Adun's Wisdom</td>
+                    <td>While Oracle is active, Basic Abilities cooldown 50% faster.</td>
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Prescience</td>
-                    <td>Dimensional Shift will automatically activate when you fall below 15% Health. This effect has a separate 45 second cooldown.</td>
+                    <td>Deep Shift</td>
+                    <td>Dimensional Shift's duration and Movement Speed bonuses are increased by 50%.</td>
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Scryer</td>
-                    <td>Oracle duration increased by 3 seconds and grants 20% increased Movement Speed.</td>
-                  </tr>
-                  <tr>
-                    <td>13</td>
-                    <td>Shrink Ray</td>
-                    <td>Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.</td>
+                    <td>Nullification</td>
+                    <td>Activate to reduce the damage the target enemy Hero deals by 75% for 3 seconds.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Dimensional Warp</td>
-                    <td>While Dimensional Shifted, gain 50% Movement Speed and heal for 384 (+4% per level) Health.</td>
+                    <td>Focused Beam</td>
+                    <td>While Oracle is active, Basic Attacks against Heroes deal an additional 1% of the target's maximum Health as damage.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Evasive Shielding</td>
-                    <td>The target of your Plasma Shield also gains 25% Movement Speed for 5 seconds.</td>
+                    <td>Phase Disruption</td>
+                    <td>Enemy Heroes being hit by Psionic Storm have their Physical Armor reduced by 25, causing them to take 25% more damage from Basic Attacks.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Resonation</td>
-                    <td>Psionic Storm targets are slowed by 25% for 1 second.</td>
-                  </tr>
-                  <tr>
-                    <td>16</td>
-                    <td>Second Strike</td>
-                    <td>After casting Psionic Storm, you may cast Psionic Storm again for free within 3 seconds. The damage does not stack.</td>
+                    <td>Psionic Echo</td>
+                    <td>A second Psionic Storm can be cast within 1.5 seconds of casting the first.</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Force Barrier</td>
-                    <td>Force Wall range increased by 50% and duration by 1 second.</td>
+                    <td>Force Wall's Range is increased by 100% and its cooldown is reduced by 6 seconds.</td>
                   </tr>
                   <tr>
                     <td>20</td>
-                    <td>Rewind</td>
-                    <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                    <td>Prismatic Link</td>
+                    <td>Basic Attacks bounce to hit 2 additional targets for 50% damage.</td>
                   </tr>
                   <tr>
                     <td>20</td>
-                    <td>Storm Shield</td>
-                    <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                    <td>Shield Battery</td>
+                    <td>Activate to give all nearby allied Heroes an untalented Plasma Shield.</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Twilight Archon</td>
-                    <td>Increases Archon's initial Shield and Attack Damage by 50%, and increases Basic Attack range in Archon form by 35%.</td>
+                    <td>Basic Attacks while in Archon form refresh its duration.</td>
                   </tr>
                 </tbody>
               </table>
@@ -341,32 +323,32 @@
                   <tr>
                     <td>Q</td>
                     <td>Plasma Shield</td>
-                    <td>Grant a Shield that absorbs 342 (+4% per level) damage over 5 seconds. The Shield is 50% stronger when cast on another allied Hero.</td>
+                    <td>Grant a Shield that absorbs 510 (+4% per level) damage over 8 seconds. Heroes gain 20% Life Steal from Basic Attacks while Shielded.</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Psionic Storm</td>
-                    <td>Deal 110 (+4% per level) damage per second to enemies in target area for 3 seconds.</td>
+                    <td>Deal 84 (+4% per level) damage per second to enemies in target area for 3 seconds. Damage increases by 10% for each consecutive instance of damage.</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Dimensional Shift</td>
-                    <td>Become invulnerable and fully invisible for 1.5 seconds.</td>
+                    <td>Tassadar becomes invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Archon</td>
-                    <td>Transform into an Archon, gaining a 456 (+4% per level) point Shield, causing Basic Attacks to deal 111 (+4% per level) damage and splash for 55 (+4% per level) additional damage. Lasts for 12.5 seconds.</td>
+                    <td>Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 175 (+4% per level) damage, slow the target by 40% for 1 second and splash for 88 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Force Wall</td>
-                    <td>Create a wall that blocks all units from moving through it for 2.5 seconds.</td>
+                    <td>Create a wall that blocks all units from moving through it for 2.5 seconds. Passive: Increases the slow amount of Distortion Beam to 30%.</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Oracle</td>
-                    <td>Greatly increases your vision radius and allows you to detect enemy Heroes. Lasts for 5 seconds.</td>
+                    <td>Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds. Passive: Tassadar's Basic Attack is a Distortion Beam that slows enemy units by 20%.</td>
                   </tr>
                 </tbody>
               </table>
@@ -380,6 +362,378 @@
             <div class="hero-sprite hero-position"></div>
             <div>Tassadar</div>
           </h2>
+          <div id="patch2017-01-24" class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2017-01-24 Patch Notes <a class="permalink" href="#patch2017-01-24" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20481262" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Hero Updates</h4>
+              <p><strong>Stats</strong></p>
+<ul>
+<li><strong>Basic Attack</strong>
+<ul>
+<li>Damage reduced from 69 to 10</li>
+<li>Attack speed increased by 400%</li>
+<li>Tether range has been slightly increased</li>
+<li>Added Functionality:
+<ul>
+<li>Your basic attacks are channeled and slow the target’s Movement Speed by 20%</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Oracle (Trait)</strong>
+<ul>
+<li>No longer costs Mana</li>
+<li>Cooldown reduced from 40 to 30 seconds</li>
+<li>Radius decreased by roughly 16%</li>
+</ul></li>
+<li><strong>Plasma Shield (Q)</strong>
+<ul>
+<li>Cooldown increased from 5 to 8 seconds</li>
+<li>Duration increased from 5 to 8 seconds</li>
+<li>Mana cost increased from 40 to 50</li>
+<li>Shield amount increased from 342 to 550</li>
+<li>Removed Functionality:
+<ul>
+<li>No longer gains 50% strength on allied Heroes</li>
+</ul></li>
+<li>Added Functionality:
+<ul>
+<li>Now grants the target 20% Life Steal on Basic Attacks (while Shielded)</li>
+</ul></li>
+</ul></li>
+<li><strong>Psionic Storm (W)</strong>
+<ul>
+<li>Damage decreased from 55 to 44</li>
+<li>Added Functionality:
+<ul>
+<li>Damage increases by 12% for each consecutive instance of damage</li>
+</ul></li>
+</ul></li>
+<li><strong>Dimensional Shift (E)</strong>
+<ul>
+<li>Cooldown increased from 20 to 30 seconds</li>
+<li>Duration increased from 1.5 to 2 seconds</li>
+<li>Added Functionality:
+<ul>
+<li>Now grants 25% Movement Speed for the duration</li>
+</ul></li>
+<li>You can now cancel out of Dimensional Shift early by re-activating the hotkey (Default: E)</li>
+</ul></li>
+<li><strong>Archon (R)</strong>
+<ul>
+<li>Attack Damage increased from 111 to 175</li>
+<li>Duration decreased from 12 to 10 seconds</li>
+<li>Added Functionality:
+<ul>
+<li>Your Basic Attacks slow enemies by 40% for 1 second</li>
+</ul></li>
+<li>Added Functionality:
+<ul>
+<li>Passively refreshes the cooldown of Dimensional Shift on activation</li>
+</ul></li>
+<li>Removed Functionality:
+<ul>
+<li>No longer grants a generic Shield on activation</li>
+</ul></li>
+<li>Added Functionality:
+<ul>
+<li>Now grants Tassadar a Plasma Shield on activation</li>
+</ul></li>
+</ul></li>
+<li><strong>Force Wall (R)</strong>
+<ul>
+<li>Range increased from 8 to 10</li>
+<li>Added Functionality:
+<ul>
+<li>Passively increases the slow amount of Tassadar’s Basic Attacks from 20 to 30%</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Conjurer’s Pursuit (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Reinforce Structure (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Overload (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Psi-Infusion (W)
+<ul>
+<li>New functionality:
+<ul>
+<li>Quest: Restores 1 Mana for every non-Structure enemy damaged by Psionic Storm</li>
+<li>Quest Reward: After restoring 500 Mana, increase the area of Psionic Storm by 20%</li>
+<li>Quest Reward: After restoring 1000 Mana, increase the damage of your Psionic Storm by 20%</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent: Templar’s Will (Passive)</strong>
+<ul>
+<li>Quest: Attacking enemy Heroes restores 4 Mana per second</li>
+<li>Quest Reward: After slowing Heroes for 30 seconds, increase your Basic Attack range by 20%</li>
+<li>Quest Reward: After slowing Heroes for 60 seconds, increase your Basic Attack range by an additional 20%</li>
+</ul></li>
+<li><strong>New Talent: Khaydarin Resonance (Passive)</strong>
+<ul>
+<li>Quest: Regeneration Globes grant an additional 50% Mana</li>
+<li>Quest Reward: After collecting 20 Regeneration Globes, 50% of your Plasma Shield’s value remains after expiration</li>
+<li>Quest Reward: After collecting 40 Regeneration Globes, your Plasma Shield’s no longer have a duration</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Leeching Plasma (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Healing Ward (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Promote (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Mental Acuity (Trait)
+<ul>
+<li>Moved to Level 7</li>
+<li>New functionality:
+<ul>
+<li>Quest: Each takedown lowers the cooldown of Oracle by 3 seconds, to a max of 15 seconds</li>
+<li>Quest Reward: Upon reaching 15 seconds of cooldown reduction, increase the sight range of Oracle by 50%</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent: Khala's Embrace (Q)</strong>
+<ul>
+<li>Increases the Life Steal of your Plasma Shield by an additional 20%</li>
+</ul></li>
+<li><strong>New Talent: Khala’s Light(Q)</strong>
+<ul>
+<li>Upon the expiration or breaking of Plasma Shield, grant the target 25 Armor for 3 seconds</li>
+</ul></li>
+<li><strong>New Talent: Khala’s Celerity (Q)</strong>
+<ul>
+<li>Plasma Shield grants 25% Movement Speed for 5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Khala’s Embrace (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Static Charge (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Calldown: MULE (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Deep Shift (E)
+<ul>
+<li>Moved to Tier 5</li>
+<li>New functionality:
+<ul>
+<li>Dimensional Shift’s Movement Speed and duration are increased by 50%</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent: Psionic Projection (Q, W)</strong>
+<ul>
+<li>Increases the range of your Plasma Shield and Psionic Storm abilities by 40%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Distortion Beam (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Prescience (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Scryer (Trait)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Shrink Ray (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Nullification (Active)</strong>
+<ul>
+<li>Activate to reduce target Hero's damage by 75% for 3 seconds</li>
+</ul></li>
+<li><strong>New Talent: Adun's Wisdom (Trait)</strong>
+<ul>
+<li>While Oracle is active, your Basic Abilities cooldown 50% faster</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Evasive Shielding (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Dimensional Warp (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Resonation (W)
+<ul>
+<li>Moved to Level 7</li>
+<li>New functionality:
+<ul>
+<li>Distortion Beam’s slow amount is increased to 40% while attacking an enemy affected by Psionic Storm</li>
+</ul></li>
+</ul></li>
+<li>Second Strike (W)
+<ul>
+<li>Renamed to Psionic Echo</li>
+<li>The window to cast the second Psionic Storm has been reduced from 3 to 1.5 seconds</li>
+</ul></li>
+<li><strong>New Talent: Phase Disruption (W)</strong>
+<ul>
+<li>Enemies affected by Psionic Storm have their Physical Armor reduced by 25</li>
+</ul></li>
+<li><strong>New Talent: Focused Beam (Trait)</strong>
+<ul>
+<li>While Oracle is active, your Basic Attacks deal an additional 1% of an enemy Heroes maximum Health</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Storm Shield (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Rewind (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Twilight Archon (R)
+<ul>
+<li>New functionality:
+<ul>
+<li>Basic Attacks while in Archon refresh the duration of Archon</li>
+</ul></li>
+</ul></li>
+<li>Force Barrier (R)
+<ul>
+<li>New functionality:
+<ul>
+<li>Decreases the cooldown by 50% and increases the range by 100%</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent: Shield Battery (Active)</strong>
+<ul>
+<li>Activate to grant all nearby allies a base version Plasma Shield</li>
+</ul></li>
+<li><strong>New Talent: Prismatic Link (Passive)</strong>
+<ul>
+<li>Basic Attacks can now bounce to two nearby enemy targets for 50% damage</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We absolutely love releasing reworks and this one
+  was a long-time-coming, as Tassadar has had a bit of an identity crisis from
+  the moment he stepped foot into the Nexus. We knew that the design direction
+  and changes were going to need to be a bit more expansive in scope compared to
+  most of our other reworks, but we did our best to keep him as true to his High
+  Templar heritage as possible. Our goals were to embrace him as a true utility-
+  based support mage. The new "Distortion Beam" Basic Attack should allow you to
+  help peel for your allies as well as secure kills that would be otherwise
+  unobtainable. Plasma Shield has gained baseline utility that will continue to
+  empower Basic Attackers, while also offering more diverse talents in order to
+  better react to enemy and ally compositions. Archon has been surgically buffed
+  and given a passive reset for Dimensional Shift which should be great news for
+  our old-school fans as we fully expect to see a resurgence of back-line
+  infiltration play. Overall, we hope the changes reinvigorate our steadfast
+  Tassadar players while integrating many new ones into the Khala. En Taro
+  Tassadar.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>Level (Tier)</strong></th>
+<th></th>
+<th><strong>Tassadar TALENTS</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 (1)</strong></td>
+<td>(!)Psi-Infusion (W)</td>
+<td><em>(!)The Templar's Will (Passive)</em></td>
+<td><em>(!)Khaydarin Resonance (Q)</em></td>
+</tr>
+<tr>
+<td><strong>4 (2)</strong></td>
+<td><em>Khala's Momentum (Q)</em></td>
+<td><em>Khala's Cradle (Q)</em></td>
+<td><em>Khala's Touch (Q)</em></td>
+</tr>
+<tr>
+<td><strong>7 (3)</strong></td>
+<td><em>Psionic Projection (Q, W)</em></td>
+<td><strong>Resonation (Passive)</strong></td>
+<td><strong>(!)Mental Acuity (Trait)</strong></td>
+</tr>
+<tr>
+<td><strong>10 (4)</strong></td>
+<td>Archon</td>
+<td>Force Wall</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>13 (5)</strong></td>
+<td><em>Adun's Wisdom (Trait)</em></td>
+<td>Deep Shift (E)</td>
+<td><em>Nullification (Active)</em></td>
+</tr>
+<tr>
+<td><strong>16 (6)</strong></td>
+<td>Phase Disruption (W)</td>
+<td><em>Psionic Echo (W)</em></td>
+<td><em>Focused Beam (Trait)</em></td>
+</tr>
+<tr>
+<td><strong>20 (7)</strong></td>
+<td>Twilight Archon (R)</td>
+<td>Force Barrier (R)</td>
+<td><em>Shield Battery (Active)</em></td>
+<td><em>Prismatic Link (Passive)</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em><strong>NEW</strong></em> Talent.</li>
+<li><strong>Bold text</strong> indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+              <h4 class="bug-fixes">Bug Fixes</h4>
+              <ul>
+<li><strong>Tassadar:</strong> Distortion Beam will now correctly play sound effects when attacking enemy Walls, Gates, and Towers.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
           <div id="patch2016-11-15" class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-11-15 Patch Notes <a class="permalink" href="#patch2016-11-15" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20372990" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
@@ -1215,7 +1569,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Tassadar Patch Notes",
-        "description": "Tassadar, Ranged Support, patch note history.  Last relevant patch: 2016-11-15",
+        "description": "Tassadar, Ranged Support, patch note history.  Last relevant patch: 2017-01-24",
         "url": "https://heroespatchnotes.com/hero/tassadar.html",
         "keywords": "Tassadar patch notes, Tassadar patch history, hots Tassadar patch notes, Tassadar patches",
         "mainEntity": {
