@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="2016-10-18 Patch Notes for Heroes of the Storm (HotS).">
+    <link rel="canonical" href="https://heroespatchnotes.com/patch/2016-10-18-patch-notes.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/patch/2016-10-18-patch-notes.html" />
+    <meta property="og:title" content="2016-10-18 Patch Notes - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="2016-10-18 Patch Notes for Heroes of the Storm (HotS)." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1485045593/officialpatchlogo.jpg" />
+        <title>2016-10-18 Patch Notes - Heroes Patch Notes</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+    <style>
+      footer>div.container>div.row>div.col-sm-3>ul { list-style: none; padding-left: 0; }
+      footer>div.container>div.row>div.col-sm-3>ul>li { line-height: 1.75em; }
+      footer>div.container>div.row>div.col-sm-3>ul>li>a:hover { text-decoration: none; }
+      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
+    </style>
+
+    <style>
+      p { margin: 0; }
+      h3 { margin-top: 10.5px; }
+      blockquote { font-size: 14px; }
+      blockquote > p:not(:last-child) { margin-bottom: 10px; }
+      table { border-collapse: collapse !important; }
+      table { width: 100%; max-width: 100%; margin-bottom: 21px; }
+      table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
+        padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
+      table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #ecf0f1; }
+      table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
+      table > tbody + tbody { border-top: 2px solid #ecf0f1; }
+      table > tbody > tr:nth-of-type(odd) { background-color: #f9f9f9; }
+      table > tbody > tr:hover { background-color: #ecf0f1; }
+      table a:not(.btn), .table a:not(.btn) { text-decoration: none; }
+      table>tbody>tr>td, .table>tbody>tr>td, table>thead>tr>th, .table>thead>tr>th { text-align: center; }
+      h4 { background: url("//res.cloudinary.com/heroespatches/image/upload/v1485313185/hero-sprite-v20170124.png") 0px 0px no-repeat; background-size: 92px 6100px; height: 77px; padding-left: 75px; padding-top: 29px; }
+      #abathur{ background-position: -12px -312px; }
+      #alarak{ background-position: -12px -5512px; }
+      #anubarak{ background-position: -12px -112px; }
+      #artanis{ background-position: -12px -4112px; }
+      #arthas{ background-position: -12px -212px; }
+      #auriel{ background-position: -12px -5312px; }
+      #azmodan{ background-position: -12px -3212px; }
+      #brightwing{ background-position: -12px -3312px; }
+      #the-butcher, #butcher{ background-position: -12px -3712px; }
+      #chen{ background-position: -12px -412px; }
+      #cho{ background-position: -12px -4312px; }
+      #chromie{ background-position: -12px -5012px; }
+      #dehaka{ background-position: -12px -4812px; }
+      #diablo{ background-position: -12px -512px; }
+      #etc{ background-position: -12px -1212px; }
+      #falstad{ background-position: -12px -612px; }
+      #gall{ background-position: -12px -4312px; }
+      #gazlowe{ background-position: -12px -2012px; }
+      #greymane{ background-position: -12px -4512px; }
+      #guldan{ background-position: -12px -5212px; }
+      #illidan{ background-position: -12px -712px; }
+      #jaina{ background-position: -12px -812px; }
+      #johanna{ background-position: -12px -3612px; }
+      #kaelthas{ background-position: -12px -912px; }
+      #kerrigan{ background-position: -12px -1012px; }
+      #kharazim{ background-position: -12px -3912px; }
+      #leoric{ background-position: -12px -3812px; }
+      #li-li, #lili{ background-position: -12px -1112px; }
+      #li-ming, #liming{ background-position: -12px -4612px; }
+      #lt-morales, #ltmorales{ background-position: -12px -4212px; }
+      #lunara{ background-position: -12px -4412px; }
+      #malfurion{ background-position: -12px -1912px; }
+      #medivh{ background-position: -12px -5112px; }
+      #muradin{ background-position: -12px -1312px; }
+      #murky{ background-position: -12px -1412px; }
+      #nazeebo{ background-position: -12px -1512px; }
+      #nova{ background-position: -12px -1612px; }
+      #ragnaros{ background-position: -12px -5812px; }
+      #raynor{ background-position: -12px -1712px; }
+      #rehgar{ background-position: -12px -1812px; }
+      #rexxar{ background-position: -12px -4012px; }
+      #samuro{ background-position: -12px -5612px; }
+      #sgt-hammer, #sgthammer{ background-position: -12px -2812px; }
+      #sonya{ background-position: -12px -2912px; }
+      #stitches{ background-position: -12px -3012px; }
+      #sylvanas{ background-position: -12px -3112px; }
+      #tassadar{ background-position: -12px -3412px; }
+      #the-lost-vikings, #thelostvikings{ background-position: -12px -12px; }
+      #thrall{ background-position: -12px -2712px; }
+      #tracer{ background-position: -12px -4912px; }
+      #tychus{ background-position: -12px -2112px; }
+      #tyrael{ background-position: -12px -2212px; }
+      #tyrande{ background-position: -12px -3512px; }
+      #uther{ background-position: -12px -2312px; }
+      #valeera{ background-position: -12px -6012px; }
+      #valla{ background-position: -12px -2412px; }
+      #varian{ background-position: -12px -5712px; }
+      #xul{ background-position: -12px -4712px; }
+      #zagara{ background-position: -12px -2512px; }
+      #zarya{ background-position: -12px -5412px; }
+      #zeratul{ background-position: -12px -2612px; }
+      #zuljin{ background-position: -12px -5912px; }
+      footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
+      footer { margin-top: 25px; }
+      a.permalink { color: #95a5a6; }
+      div.official-link>a { display: inline-block; vertical-align: middle; }
+      a.official { background: url("https://res.cloudinary.com/heroespatches/image/upload/c_scale,h_32/v1484894834/hotslogo.png") 0px 0px no-repeat; background-size: 30px 32px; width: 30px; height: 32px; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div id="top" class="row">
+        <div class="col-lg-12">
+          <h1 id="heroes-of-the-storm-patch-notes-october-18-2016">Heroes of the Storm Patch Notes — October 18, 2016</h1>
+
+<div markdown="1"><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485045593/officialpatchlogo.jpg"></div><div markdown="1" class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/20328243" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/20328243" target="_blank">Official Patch Notes</a></div>
+
+<p>We just released a new patch for Heroes of the Storm, which brings a new game
+mode, a new hero, UI improvements, and more to the Nexus! Check out today’s
+patch notes below.</p>
+
+<p><strong>NOTE:</strong> Orange text indicates an addition that was made between the Public Test Realm and final versions of the patch notes.</p>
+
+<h3 id="general">General</h3>
+
+<p><strong>Hallow’s End Arrives October 25!</strong></p>
+
+<ul>
+<li><strong>50% XP Bonus!</strong>
+<ul>
+<li>The Nexus will be haunted by a 50% XP bonus from October 25 until Hallow’s End concludes during the week of November 8!</li>
+</ul></li>
+<li><strong>Hallow’s End Event Quest</strong>
+<ul>
+<li><strong>Quest:</strong> Play 15 games during Hallow’s End in any mode except Custom Games, Training, or Heroes Brawl.</li>
+<li><strong>Reward:</strong> Deputy Valla Portrait</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="new-hero-samuro">New Hero: Samuro</h3>
+
+<p>Samuro, the last remaining blademaster to wear the banner of the Burning
+Blade, is on a warrior’s pilgrimage in search of vengeance and redemption for
+this fallen clan. It will be a long journey, but he has sworn an oath to
+restore his clan’s honor.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Advancing Strike</strong>
+<ul>
+<li>Basic Attacks against enemy Heroes increase your Movement Speed by 25% for 2 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Mirror Image (Q)</strong>
+<ul>
+<li>Create 2 Mirror Images that deal 30% of your damage and have 50% of your current Health. Images last up to 16 seconds, and only 2 can be active at once.</li>
+</ul></li>
+<li><strong>Critical Strike (W)</strong>
+<ul>
+<li>Your next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Mirror Images and does not break Wind Walk.</li>
+<li><strong>Passive:</strong> You and your Mirror Images deal a Critical Strike every 4th Basic Attack.</li>
+</ul></li>
+<li><strong>Wind Walk (E)</strong>
+<ul>
+<li>Enter Stealth for up to 8 seconds or until you attack, use an Ability, or take damage. While Stealthed, your Movement Speed is increased by 30% and you can pass through other units.</li>
+<li>Damage taken during the first 1 second will not break Wind Walk.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Bladestorm (R)</strong>
+<ul>
+<li>Become an unstoppable whirlwind, dealing moderate damage to nearby enemies every second for 4 seconds.</li>
+</ul></li>
+<li><strong>Illusion Master (R)</strong>
+<ul>
+<li>Switch places with the target Mirror Image.</li>
+<li><strong>Passive:</strong> You can control Mirror Images separately or as a group, and they deal an additional 20% of your damage.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="new-game-mode-heroes-brawl">New Game Mode: Heroes Brawl</h3>
+
+<p>Heroes Brawl is an action-packed new game mode that breaks all the rules and
+offers a fresh take on Heroes of the Storm's gameplay each week. Learn more by
+visiting the <a href="http://battle.net/heroes/game/heroes-
+brawl/">Heroes Brawl website</a>.</p>
+
+<p><strong>The Basics</strong></p>
+
+<ul>
+<li>Heroes Brawl offers three distinct match types, with endless possibilities for twisted rulesets and wild mechanics each week:
+<ul>
+<li><strong>Arenas:</strong> Pick one of three randomly selected Heroes, and then duke it out against the enemy team to complete objectives. The first team to complete the objective twice will claim victory.</li>
+<li><strong>Mutators:</strong> Wild rulesets and unique mechanics change the way you play on Battlegrounds you’re already familiar with.</li>
+<li><strong>Single-Lanes:</strong> One-lane Battlegrounds with no objectives, Mercenaries, or Hearthstone to distract you from destroying the enemy Core.</li>
+</ul></li>
+<li>Click the Brawl Info button in the lower-left corner of the screen to learn detailed information about the currently active Brawl.</li>
+</ul>
+
+<p><strong>How to Brawl</strong></p>
+
+<ul>
+<li>Find Heroes Brawl in-game by heading to the Play screen, click Brawl on the far left side of the navigation bar, then queue up and have a blast!</li>
+<li>Anyone can dive into the action! Heroes Brawl is not restricted by account level or the number of Heroes owned, and you can queue up alone or in a party of any size.</li>
+<li>The current weekly Brawl will also be available through Custom Games - though replays, observer mode, and score screens may not function as expected for some of the unique Brawl types.
+<ul>
+<li>Heroes Brawl custom games will also discard Hero drafts and pre-selections once players enter the match.</li>
+</ul></li>
+</ul>
+
+<p><strong>Reap the Rewards</strong></p>
+
+<ul>
+<li>Participate in three Brawls each week to receive in-game rewards!</li>
+<li>Hover the cursor over the Weekly Rewards icon in the lower-left corner of the Brawl screen for a breakdown of the available rewards each week.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="art">Art</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>The following Heroes have received additional facial animation polish:
+<ul>
+<li>E.T.C.</li>
+<li>Illidan</li>
+<li>Valla</li>
+</ul></li>
+<li>Diablo has received additional idle animation polish.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li>Core attacks have received update visual effects in order to better visually indicate that they deal splash damage.</li>
+<li>Cannonballs that fire on the minimap for Blackheart’s Bay have received visual effects polish.</li>
+<li>Sky Temple has received additional optimization polish.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li>The following Heroes have received custom Hearthstone animations:
+<ul>
+<li>Diablo</li>
+<li>E.T.C.</li>
+</ul></li>
+<li>The following Heroes, Abilities, and Talents have received updated visual effects:
+<ul>
+<li>Cleanse (Talent)</li>
+<li>Gul’dan: Fel Flame (Q), Corruption (E)</li>
+<li>Illidan: Evasion (E)</li>
+<li>Lunar Illidan: The Hunt (R)</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="shop">Shop</h3>
+
+<p><strong>Bundles</strong></p>
+
+<ul>
+<li><strong>New Bundles</strong>
+<ul>
+<li>Hellblade Samuro Bundle – Available until November 1, 2016</li>
+<li>Hallow’s End 2016 Bundle – Available from October 25 until November 8, 2016</li>
+<li>Hallow’s End 2016 Ultimate Bundle – Available from October 25 until November 8, 2016</li>
+<li>The following Bundles will be added to the in-game Shop on October 18 and have no planned end-date:
+<ul>
+<li>Nexus Challenger Bundle</li>
+<li>Nexus Conqueror Bundle</li>
+</ul></li>
+</ul></li>
+<li><strong>Removed Bundles</strong>
+<ul>
+<li>The following bundles will be removed from the in-game Shop on October 18:
+<ul>
+<li>Starter Bundle</li>
+<li>Triumph Bundle</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>New Hero</strong></p>
+
+<ul>
+<li><strong>Samuro</strong> has been added to the in-game Shop.</li>
+</ul>
+
+<p><strong>Mounts</strong></p>
+
+<ul>
+<li><strong>New Mounts</strong>
+<ul>
+<li>Hellboar</li>
+<li>Eye Pad – Available exclusively with purchase of either Hallow’s End 2016 bundle. This mount may return to the game as an individual item at a later date.</li>
+</ul></li>
+<li><strong>Returning Mounts</strong>
+<ul>
+<li>Marshal’s Outrider</li>
+</ul></li>
+<li><strong>Removed Mounts</strong>
+<ul>
+<li>Crimson Hare</li>
+</ul></li>
+</ul>
+
+<p><strong>Skins</strong></p>
+
+<ul>
+<li>Hellblade Samuro</li>
+<li>Master Samuro</li>
+<li>Scarecrow Xul – Available starting October 25</li>
+<li>Deputy Valla – Available starting October 25</li>
+</ul>
+
+<p>​<strong>Price Reductions</strong></p>
+
+<ul>
+<li><strong>Greymane’s</strong> prices have been reduced to $8.49 USD and 7,000 Gold.</li>
+<li><strong>Rexxar’s</strong> prices have been reduced to $6.49 USD and 4,000 Gold.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="sound">Sound</h3>
+
+<p><strong>Ranked</strong></p>
+
+<ul>
+<li>New voiceover lines have been added that will play when a player is promoted into a new League Tier.</li>
+</ul>
+
+<p><strong>Draft Mode</strong></p>
+
+<ul>
+<li>Sound effects and voiceover will now play when entering Lost Cavern Draft Mode via Custom Games.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="user-interface">User Interface</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>A “New Player Chat” channel has been added.
+<ul>
+<li>New players will automatically join this channel upon logging into Heroes of the Storm until they reach account level 20.</li>
+</ul></li>
+</ul>
+
+<p><strong>Daily Win Bonus</strong></p>
+
+<ul>
+<li>The first game that players win each day will now award 50% bonus XP and Gold for that match.
+<ul>
+<li>This bonus applies to all game modes except Brawl, Custom Games, and Training.</li>
+<li>A First Win of the Day icon has been added to the top navigation bar, which will activate whenever a First Win of the Day bonus is available.</li>
+</ul></li>
+</ul>
+
+<p><strong>In-Game UI</strong></p>
+
+<ul>
+<li>Hover the cursor over the VS icon found in the top-center of the screen to display the amount of XP earned by each team from various sources, including: Takedowns, Mercenaries, Structures, and more. </li>
+</ul>
+
+<p><strong>XP Bonuses</strong></p>
+
+<ul>
+<li><strong>Friend Bonus</strong>
+<ul>
+<li>Playing Heroes with a friend will now award 25% bonus XP.</li>
+</ul></li>
+<li><strong>Party Bonus</strong>
+<ul>
+<li>The XP bonus earned by playing in a party now scales based on the number of party members:
+<ul>
+<li><strong>2 Players:</strong> +25%</li>
+<li><strong>3 Players:</strong> +33%</li>
+<li><strong>4 Players:</strong> +42%</li>
+<li><strong>5 Players:</strong> +50%</li>
+</ul></li>
+</ul></li>
+<li><strong>Game Mode Bonus</strong>
+<ul>
+<li>Playing ranked games will now award an XP bonus:
+<ul>
+<li><strong>Hero League:</strong> +25% XP</li>
+<li><strong>Team League:</strong> +50% XP</li>
+</ul></li>
+</ul></li>
+<li><strong>XP Bonuses Stack Additively</strong>
+<ul>
+<li>Playing in a party with one friend will still award a total of 50% bonus XP, just as it did before, but playing with additional party members will now award even more XP.</li>
+<li>Playing Team League in a full party with at least one friend and an active Stimpack will now award a total of 225% bonus XP.</li>
+</ul></li>
+<li>The “Available XP Bonuses” icon in the top navigation bar will activate when players are receiving any of the bonuses mentioned above.
+<ul>
+<li>Hover the cursor over this icon to display a tooltip that offers a full breakdown of all active and inactive XP bonuses.</li>
+</ul></li>
+</ul>
+
+<p><strong>Play Screen</strong></p>
+
+<ul>
+<li>Hovering the cursor over each game mode on the Play Screen navigation bar will now display a tooltip that briefly describes that mode.</li>
+<li><strong>Versus A.I.</strong>
+<ul>
+<li>Training mode has been moved into Versus AI on the Play screen.</li>
+<li>A “Versus A.I. Options” interface has been added to the left side of the Versus A.I. screen.
+<ul>
+<li>Use the buttons to switch between Training, A.I. Teammates, or Co-op modes.</li>
+<li>Use the Difficulty Slider to select the desired skill level of A.I. allies and opponents in A.I. Teammates and Co-op modes.
+<ul>
+<li>Training mode A.I. difficulty is set to beginner, and cannot be changed.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Suggested Play Mode</strong>
+<ul>
+<li>The Play Screen navigation bar will now suggest a game mode to new players.
+<ul>
+<li><strong>Level 1 – 10:</strong> Versus A.I.</li>
+<li><strong>Level 11 – 20:</strong> Quick Match</li>
+<li><strong>Level 20+:</strong> Heroes Brawl (If the weekly rewards have not yet been earned.)</li>
+</ul></li>
+<li>Hover the cursor over the suggested mode icon to display a tooltip that explains why a mode is suggested.</li>
+</ul></li>
+</ul>
+
+<p><strong>Profile</strong></p>
+
+<ul>
+<li><strong>Match History</strong>
+<ul>
+<li>The Match History tab can now be filtered by Heroes Brawl matches using the dropdown menu in the upper-right corner.</li>
+<li>Each game in the Match History list will now display Hero names and portraits for each Hero selected during that game.</li>
+</ul></li>
+<li><strong>Profile Summary</strong>
+<ul>
+<li>Heroes Brawl stats have been added to the Profile Summary screen that will track the number of Brawls won and weekly rewards earned.</li>
+</ul></li>
+<li><strong>Statistics</strong>
+<ul>
+<li>The Statistics tab can now be filtered by Heroes Brawl stats using the dropdown menu in the upper-right corner.</li>
+</ul></li>
+</ul>
+
+<p><strong>MVP and Commendations</strong></p>
+
+<ul>
+<li>MVP and Commendations can now be skipped using the new Exit button added to the lower-left corner of the screen.
+<ul>
+<li>The duration of the MVP and Commendations screen now lasts 50 seconds.</li>
+<li>A timer has been added to the lower-right corner of the screen that will count down the final 10 seconds of the MVP and Commendations screen.</li>
+</ul></li>
+<li><strong>Commendations</strong>
+<ul>
+<li>Bulwark will now take the number of deaths into account in order to focus this Commendation on the efficiency of damage soaked, rather than total damage taken.
+<ul>
+<li>The tooltip for Bulwark will now display the player’s total deaths during the match in addition to damage soaked.</li>
+</ul></li>
+<li>Slight adjustments have been made in order to better balance the Dominator and Painbringer Commendations.</li>
+<li>Abathur was previously a little too likely to receive the MVP award. Slight adjustments have been made to bring him in line with other Heroes.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Corrected a number of typos and tooltip errors across several aspects of the game.</li>
+</ul>
+
+<p><strong>A.I.</strong></p>
+
+<ul>
+<li><strong>Medivh:</strong> Enemy AI players will now avoid teammates that are under the effects of Medivh’s Polybomb.</li>
+<li><strong>Lt. Morales:</strong> Can now properly detonate Displacement Grenade near enemies.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Chen:</strong> Keg models that appear when casting Storm, Earth, Fire using any of Chen’s Skins are no longer missing certain visual effects.</li>
+<li><strong>Illidan:</strong> The visual effects for The Hunt will now properly display on the Ability’s target during replays.</li>
+<li><strong>Greymane:</strong> The Worgen model will no longer remain on screen while viewing end-of-game Stats and Talents pages.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Braxis Holdout:</strong> Neutral Raven Mercenaries will no longer clip into the terrain after being knocked back.</li>
+<li><strong>Braxis Holdout:</strong> Fixed an issue in which Zagara’s Mutalisk could cause a captured Archangel to exhibit pathing issues.</li>
+<li><strong>Braxis Holdout:</strong> Fixed an issue in which a captured Archangel could target enemy Heroes with its Bullet Storm Ability.</li>
+<li><strong>Garden of Terror:</strong> Shielding a Structure will no longer prevent a Garden Terror's bonus siege damage from being applied.</li>
+<li><strong>Infernal Shrines:</strong> Fallen Shaman Mercenaries will now prioritize attacking enemy Structures over Walls.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Damage Reduction:</strong> When two damage reduction effects, such as Resistant (25%) and Hardened Shield (75%), are simultaneously applied to a Hero, the larger effect will no longer be overridden by the lesser effect.</li>
+<li><strong>Anub'arak:</strong> The Cocoon overlay will now display correctly for enemies affected by Cocoon.</li>
+<li><strong>Auriel:</strong> The Piercing Lash Talent tooltip now correctly states that Detainment Strike will only pierce Heroes, rather than all enemies.</li>
+<li><strong>Auriel:</strong> Enemy Heroes will no longer occasionally be Stunned by Detainment Strike when knocked away from terrain.</li>
+<li><strong>Auriel:</strong> Quest progress for the Repeated Offense Talent will now be correctly tracked in the Stats panel.</li>
+<li><strong>Azmodan:</strong> Globe of Annihilation’s range indicator is now visually consistent with indicators used by other long-range Abilities.</li>
+<li><strong>Greymane:</strong> The Go for the Throat indicator will no longer visually persist above Heroes who have post-death forms, such as Uther or Leoric, after they are killed.</li>
+<li><strong>Illidan:</strong> Fixed an issue that could occasionally cause Illidan to fly back to his death location if he was killed while using Dive.</li>
+<li><strong>Kharazim:</strong> Will no longer automatically resume attacking enemies after using Radiant Dash to dive to an ally. This fix also applies to Illidan’s Friend or Foe and Kerrigan’s Adaptation Talents.</li>
+<li><strong>Leoric:</strong> Minions will no longer path around Leoric when he is in Undying form.</li>
+<li><strong>Medivh:</strong> The damage over time effect from Xul’s Poison Nova will no longer be visually removed from Medivh’s Health bar after traveling through a Portal with the Mage Armor Talent.</li>
+<li><strong>Rexxar:</strong> A delay will no longer occur between repeated Misha, Focus! casts.</li>
+<li><strong>Sgt. Hammer:</strong> Re-casting Orbital BFG just as the first missile re-enters the Battleground will no longer cause the new missile to follow the previous path.</li>
+<li><strong>Sylvanas:</strong> The Death Recap tooltip for Wailing Arrow now correctly displays the Ability’s description.</li>
+<li><strong>The Butcher:</strong> Hamstring will now correctly deal bonus damage to non-Heroic targets after learning the Cheap Shot Talent.</li>
+<li><strong>Zagara:</strong> The Stasis overlay will no longer appear on the screen when Zagara’s Mutalisk enters Zeratul's Void Prison.</li>
+</ul>
+
+<p><strong>Sound</strong></p>
+
+<ul>
+<li><strong>Illidan:</strong> Voiceover that plays while casting The Hunt is now only audible for Illidan and his target.</li>
+<li><strong>Illidan:</strong> High pitched ambient sounds that play while casting The Hunt are no longer audible for the target’s allies. Lower-pitched ambient sounds will still play for all players and observers.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li><strong>Death Recap:</strong> Fixed an issue in which a Heal effect could occasionally appear to be the killing blow in Death Recap notifications.</li>
+<li><strong>Replay:</strong> Selecting a Hero during a Replay will no longer prevent the Hero Portrait and Status Bars from switching correctly when attempting to view a different Hero’s perspective using hotkeys.</li>
+<li><strong>Observer:</strong> Warhead counters will now update properly in the Observer interface on Warhead Junction.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+              <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
