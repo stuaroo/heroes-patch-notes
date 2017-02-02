@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+ <g id="heroes-patch-notes-logo">
+  <path id="hexagon" d="m256 32 193.99 112v224l-193.99 112.04-193.99-112.04v-224z" stroke="#2d3e50" stroke-width="32" fill="none"/>
+  <g id="heroes-patch-notes-logo-page" fill="#2d3e50">
+   <path id="page-outline" d="m176 132c-6.63 0-12 5.37-12 12v224c0 6.63 5.37 12 12 12h160c6.63 0 12-5.37 12-12v-176l-60-59.99s-85.78-0.01-112-0.01zm12 24h100v36h36v164h-136z"/>
+   <g id="heroes-patch-notes-logo-page-lines">
+    <rect id="page-line-1" height="24" width="100" y="216" x="206" />
+    <rect id="page-line-2" height="24" width="100" y="264" x="206" />
+    <rect id="page-line-3" height="24" width="100" y="312" x="206" />
+   </g>
+  </g>
+ </g>
+</svg>
