@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="2017-02-06 PTR Patch Notes for Heroes of the Storm (HotS).">
+    <link rel="canonical" href="https://heroespatchnotes.com/patch/2017-02-06-ptr-patch-notes.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/patch/2017-02-06-ptr-patch-notes.html" />
+    <meta property="og:title" content="2017-02-06 PTR Patch Notes - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="2017-02-06 PTR Patch Notes for Heroes of the Storm (HotS)." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1485045593/officialpatchlogo.jpg" />
+        <title>2017-02-06 PTR Patch Notes - Heroes Patch Notes</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+    <style>
+      footer>div.container>div.row>div.col-sm-3>ul { list-style: none; padding-left: 0; }
+      footer>div.container>div.row>div.col-sm-3>ul>li { line-height: 1.75em; }
+      footer>div.container>div.row>div.col-sm-3>ul>li>a:hover { text-decoration: none; }
+      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
+    </style>
+
+    <style>
+      p { margin: 0; }
+      h3 { margin-top: 10.5px; }
+      blockquote { font-size: 14px; }
+      blockquote > p:not(:last-child) { margin-bottom: 10px; }
+      table { border-collapse: collapse !important; }
+      table { width: 100%; max-width: 100%; margin-bottom: 21px; }
+      table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
+        padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
+      table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #ecf0f1; }
+      table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
+      table > tbody + tbody { border-top: 2px solid #ecf0f1; }
+      table > tbody > tr:nth-of-type(odd) { background-color: #f9f9f9; }
+      table > tbody > tr:hover { background-color: #ecf0f1; }
+      table a:not(.btn), .table a:not(.btn) { text-decoration: none; }
+      table>tbody>tr>td, .table>tbody>tr>td, table>thead>tr>th, .table>thead>tr>th { text-align: center; }
+      h4 { background: url("//res.cloudinary.com/heroespatches/image/upload/v1485313185/hero-sprite-v20170124.png") 0px 0px no-repeat; background-size: 92px 6100px; height: 77px; padding-left: 75px; padding-top: 29px; }
+      #abathur{ background-position: -12px -312px; }
+      #alarak{ background-position: -12px -5512px; }
+      #anubarak{ background-position: -12px -112px; }
+      #artanis{ background-position: -12px -4112px; }
+      #arthas{ background-position: -12px -212px; }
+      #auriel{ background-position: -12px -5312px; }
+      #azmodan{ background-position: -12px -3212px; }
+      #brightwing{ background-position: -12px -3312px; }
+      #the-butcher, #butcher{ background-position: -12px -3712px; }
+      #chen{ background-position: -12px -412px; }
+      #cho{ background-position: -12px -4312px; }
+      #chromie{ background-position: -12px -5012px; }
+      #dehaka{ background-position: -12px -4812px; }
+      #diablo{ background-position: -12px -512px; }
+      #etc{ background-position: -12px -1212px; }
+      #falstad{ background-position: -12px -612px; }
+      #gall{ background-position: -12px -4312px; }
+      #gazlowe{ background-position: -12px -2012px; }
+      #greymane{ background-position: -12px -4512px; }
+      #guldan{ background-position: -12px -5212px; }
+      #illidan{ background-position: -12px -712px; }
+      #jaina{ background-position: -12px -812px; }
+      #johanna{ background-position: -12px -3612px; }
+      #kaelthas{ background-position: -12px -912px; }
+      #kerrigan{ background-position: -12px -1012px; }
+      #kharazim{ background-position: -12px -3912px; }
+      #leoric{ background-position: -12px -3812px; }
+      #li-li, #lili{ background-position: -12px -1112px; }
+      #li-ming, #liming{ background-position: -12px -4612px; }
+      #lt-morales, #ltmorales{ background-position: -12px -4212px; }
+      #lunara{ background-position: -12px -4412px; }
+      #malfurion{ background-position: -12px -1912px; }
+      #medivh{ background-position: -12px -5112px; }
+      #muradin{ background-position: -12px -1312px; }
+      #murky{ background-position: -12px -1412px; }
+      #nazeebo{ background-position: -12px -1512px; }
+      #nova{ background-position: -12px -1612px; }
+      #ragnaros{ background-position: -12px -5812px; }
+      #raynor{ background-position: -12px -1712px; }
+      #rehgar{ background-position: -12px -1812px; }
+      #rexxar{ background-position: -12px -4012px; }
+      #samuro{ background-position: -12px -5612px; }
+      #sgt-hammer, #sgthammer{ background-position: -12px -2812px; }
+      #sonya{ background-position: -12px -2912px; }
+      #stitches{ background-position: -12px -3012px; }
+      #sylvanas{ background-position: -12px -3112px; }
+      #tassadar{ background-position: -12px -3412px; }
+      #the-lost-vikings, #thelostvikings{ background-position: -12px -12px; }
+      #thrall{ background-position: -12px -2712px; }
+      #tracer{ background-position: -12px -4912px; }
+      #tychus{ background-position: -12px -2112px; }
+      #tyrael{ background-position: -12px -2212px; }
+      #tyrande{ background-position: -12px -3512px; }
+      #uther{ background-position: -12px -2312px; }
+      #valeera{ background-position: -12px -6012px; }
+      #valla{ background-position: -12px -2412px; }
+      #varian{ background-position: -12px -5712px; }
+      #xul{ background-position: -12px -4712px; }
+      #zagara{ background-position: -12px -2512px; }
+      #zarya{ background-position: -12px -5412px; }
+      #zeratul{ background-position: -12px -2612px; }
+      #zuljin{ background-position: -12px -5912px; }
+      footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
+      footer { margin-top: 25px; }
+      a.permalink { color: #95a5a6; }
+      div.official-link>a { display: inline-block; vertical-align: middle; }
+      a.official { background: url("https://res.cloudinary.com/heroespatches/image/upload/c_scale,h_32/v1484894834/hotslogo.png") 0px 0px no-repeat; background-size: 30px 32px; width: 30px; height: 32px; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div id="top" class="row">
+        <div class="col-lg-12">
+          <h1 id="heroes-of-the-storm-ptr-patch-notes-february-6-2017">Heroes of the Storm PTR Patch Notes — February 6, 2017</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485045593/officialpatchlogo.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/20529510" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/20529510" target="_blank">Official Patch Notes</a></div>
+
+<p><strong>Please note: The Public Test Realm isn't live just yet, but we're working to bring you our latest PTR patch as soon as we can. Check out the patch notes below while you wait! Thanks for your patience.</strong></p>
+
+<p>Our next Heroes of the Storm patch has just arrived to the Public Test Realm
+and will be available for playtesting until February 13. During this time, we
+kindly request your assistance in trying out some of the new content it
+contains before we officially release the patch to the live version of Heroes.
+Just like last time, if you encounter any bugs or other issues during your PTR
+play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
+forum</a> to let us know about
+your experiences.</p>
+
+<h3 id="general">General</h3>
+
+<p><strong>“For Azeroth!” – Play Warcraft Heroes, Get Rewards!</strong></p>
+
+<p>With the arrival of today’s patch, until March 14, 2017, play Heroes of the
+Storm using Warcraft Heroes, while in a party with a friend, to earn rewards
+for both games!</p>
+
+<ul>
+<li><strong>Quest</strong>
+<ul>
+<li>Complete <strong>15</strong> Heroes of the Storm matches with a friend, while playing as Warcraft Heroes, before the event concludes.</li>
+<li>Players who select Warcraft Heroes will still earn quest credit if their friends play using Heroes from other Blizzard universes. However, only the players who select Warcraft Heroes will earn quest credit.</li>
+<li>Players do not need to complete all 15 matches with the same friend in order to complete the quest.</li>
+</ul></li>
+<li><strong>Rewards</strong>
+<ul>
+<li><strong>World of Warcraft:</strong> Primal Flamesaber Mount</li>
+<li><strong>Heroes of the Storm:</strong> 10 day Stimpack</li>
+<li><strong>Heroes of the Storm:</strong> Flames of Judgement Charger Mount</li>
+</ul></li>
+<li><strong><em>PTR Note:</em></strong> <em>While elements of this event may appear on the Test Realm, players will not be able to make progress toward quests or rewards until the patch is released to the live version of Heroes of the Storm next week.</em></li>
+</ul>
+
+<p><strong>Heroes Brawl</strong></p>
+
+<ul>
+<li>The reward requirements for the following Brawls have been reduced from 3 to 2 games:
+<ul>
+<li>Heroes of the Stars</li>
+<li>Bloodlust Brawl</li>
+<li>Mage Wars</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="new-hero-lucio">New Hero: Lúcio</h3>
+
+<p>From the streets of Rio to the clubs on King’s Row, Lúcio’s beats bring the
+party to life, and drive the people to action. Now he’s on tour in the Nexus,
+ready to Break it down, and to continue fighting for what’s right.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Wall Ride (D)</strong>
+<ul>
+<li>When moving alongside impassable battleground terrain and Structures, Lúcio can walk through other units, and his Movement Speed is increased by 20%. This effect stacks with other Movement Speed bonuses.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Soundwave (Q)</strong>
+<ul>
+<li>Deal damage to enemies in a cone-shaped area and knock them back.</li>
+</ul></li>
+<li><strong>Crossfade (W)</strong>
+<ul>
+<li>Play one of two tracks that passively provide allied Heroes with either a Speed Boost or a Healing Boost in a large radius around you. Activate Crossfade to swap tracks.
+<ul>
+<li><strong>Healing Boost:</strong> Restore a small amount of Health every second to Lúcio and nearby allied Heroes.</li>
+<li><strong>Speed Boost:</strong> Increase the Movement Speed of Lúcio and nearby allied Heroes by 15%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Amp It Up (E)</strong>
+<ul>
+<li>Raise Lúcio’s Crossfade track volume for 3 seconds, amping Speed Boost to 45% increased Movement Speed, and significantly increasing the Healing rate of Healing Boost.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Sound Barrier (R)</strong>
+<ul>
+<li>After 1 second, Lúcio and nearby allied Heroes gain a massive Shield that rapidly decays over the next 6 seconds.</li>
+</ul></li>
+<li><strong>Reverse Amp (R)</strong>
+<ul>
+<li>Blast Lúcio’s Crossfade track at enemy Heroes for 4 seconds, causing Healing Boost to inflict damage every second, and Speed Boost to Slow Movement Speed by 45%.</li>
+<li><strong>Passive:</strong> Increase Amp It Up’s duration to 4 seconds.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="art">Art</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Murky</strong> has received updated icon art and visual effects that coincide with his rework.</li>
+<li>The following Heroes, Abilities, and Talents have received updated visual effects:
+<ul>
+<li><strong>Dream Genie Chromie:</strong> Time Trap (E) – The lamp spout on Time Trap’s model will now always spawn facing West.</li>
+<li><strong>Grunty Murky:</strong> Pufferfish (W) – Visual effects tweaks have been made in order to better distinguish between Pufferfishes and Tufferfishes.</li>
+<li><strong>Thrall:</strong> Earthquake (R) – The outer edge of Earthquake’s area of effect has been made more visually apparent. </li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="shop">Shop</h3>
+
+<p><em><strong>PTR Note:</strong> Many of the following changes will not take place in the Shop
+until the Public Test Realm is brought offline and the patch is officially
+released to the live version of Heroes of the Storm next week.</em></p>
+
+<p><strong>Bundles</strong></p>
+
+<ul>
+<li><strong>New Bundles</strong>
+<ul>
+<li>Ribbit Lúcio Bundle – Available until February 28, 2017</li>
+<li>2017 Love is in the Air Bundle – Available until February 28, 2017</li>
+</ul></li>
+<li><strong>Returning Bundles</strong>
+<ul>
+<li>Classic Love is in the Air Bundle – Available until February 28, 2017</li>
+</ul></li>
+<li><strong>Removed Bundles</strong>
+<ul>
+<li>2017 Lunar Festival Bundle</li>
+<li>2016 Lunar Festival Bundle</li>
+</ul></li>
+</ul>
+
+<p><strong>New Hero</strong></p>
+
+<ul>
+<li><strong>Lúcio</strong> has been added to the in-game Shop</li>
+</ul>
+
+<p><strong>Mounts</strong></p>
+
+<ul>
+<li><strong>New Mounts</strong>
+<ul>
+<li>Heart Stone – Available by purchasing the 2017 Love is in the Air Bundle</li>
+<li>Flames of Judgement Charger – Awarded for completing the “For Azeroth!” event quest.</li>
+</ul></li>
+<li><strong>Returning Mounts</strong>
+<ul>
+<li>Amani War Bear</li>
+<li>Cyber Ram</li>
+</ul></li>
+<li><strong>Removed Mounts</strong>
+<ul>
+<li>Magic Carpet</li>
+<li>Marshal’s Outrider</li>
+</ul></li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li>Ribbit Lúcio</li>
+<li>Master Lúcio</li>
+<li>Love Goddess Tyrande</li>
+</ul>
+
+<p><strong>Price Reduction</strong></p>
+
+<ul>
+<li>Kharazim's prices will be reduced to 7,000 Gold and $8.49 USD.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><strong><a href="#assassin">ASSASSIN</a></strong></th>
+  <th><strong><a href="#multi-class">MULTI-CLASS</a></strong></th>
+  <th><strong><a href="#specialist">SPECIALIST</a></strong></th>
+  <th><strong><a href="#support">SUPPORT</a></strong></th>
+  <th><strong><a href="#warrior">WARRIOR</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#falstad">Falstad</a></td>
+  <td><a href="#varian">Varian</a></td>
+  <td><a href="#abathur">Abathur</a></td>
+  <td><a href="#lt-morales">Lt. Morales</a></td>
+  <td><a href="#muradin">Muradin</a></td>
+</tr>
+<tr>
+  <td><a href="#greymane">Greymane</a></td>
+  <td></td>
+  <td><a href="#murky">Murky</a></td>
+  <td></td>
+  <td><a href="#zarya">Zarya</a></td>
+</tr>
+<tr>
+  <td><a href="#ragnaros">Ragnaros</a></td>
+  <td></td>
+  <td><a href="#nazeebo">Nazeebo</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#thrall">Thrall</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#valeera">Valeera</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#zuljin">Zul'jin</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="falstad">Falstad</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Hinterland Blast (R)</strong>
+<ul>
+<li>Added functionality:
+<ul>
+<li>Cooldown is reduced by 25 seconds for every enemy Hero hit</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="greymane">Greymane</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Marked for the Kill (R)</strong>
+<ul>
+<li>Renamed to Cursed Bullet
+<ul>
+<li>New Functionality:
+<ul>
+<li>Fires a bullet that hits the first Hero in its path, dealing 35% of their current Health as damage. Cannot hit Vehicles.</li>
+<li>30 second cooldown, costs 50 Mana.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li>Gilnean Roulette (R)
+<ul>
+<li>New Functionality:
+<ul>
+<li>Causes Cursed Bullet to hit all enemies in its path, and reduces its cooldown by 5 seconds per Hero hit</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="ragnaros">Ragnaros</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Resilient Flame (Passive)
+<ul>
+<li>Now has a 10 second cooldown between activations</li>
+<li>A button has been added to the hotbar so the cooldown can be tracked</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="thrall">Thrall</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Earthquake (R)</strong>
+<ul>
+<li>Earthquake will go off even if Thrall is interrupted during his cast animation</li>
+</ul></li>
+<li><strong>Sunder (R)</strong>
+<ul>
+<li>Sunder will go off even if Thrall is interrupted during his cast animation</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Thrall’s two Heroics are overly sensitive to being
+  interrupted, something that has been on our radar to fix for quite some time.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="valeera">Valeera</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage increased from 75 to 79</li>
+<li>Health increased from 1950 to 2047</li>
+<li>Health Regeneration reduced from 4.54 to 4.26</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Ambush (Q)</strong>
+<ul>
+<li>Energy cost reduced from 20 to 10</li>
+</ul></li>
+<li><strong>Garrote (E)</strong>
+<ul>
+<li>Silence duration increased from 2 to 2.25 seconds</li>
+<li>Impact damage reduced from 75 to 20</li>
+<li>Damage over time reduced from 175 to 140</li>
+</ul></li>
+<li><strong>Cloak of Shadows (R)</strong>
+<ul>
+<li>Cooldown reduced from 18 to 15</li>
+<li>Duration increased from 1 to 1.5 seconds</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Crippling Poison (Active)
+<ul>
+<li>Duration increased from 3 to 5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Wound Poison (Active)
+<ul>
+<li>Duration increased from 4 to 5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Assassinate (Q)
+<ul>
+<li>Distance between enemy Heroes reduced from 5 to 4 range</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Death From Above (Q)
+<ul>
+<li>Teleport range increased from 5 to 7</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Rupture (E)
+<ul>
+<li>Added functionality: Basic Attacks against Garroted enemies also increases the damage over time effect by 5%, stacking up to 30%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> We feel that Valeera needs a small increase in
+  power to help her overall win rate, but are hoping to do so without adding
+  much more burst damage or disabling effects. The changes to her Health and
+  Basic Attack damage should give her a boost, while the changes to Talents,
+  Ambush, and Garrote should create harder decision making for the Rogue. While
+  we were looking at her Health Regeneration, we noticed that it was actually
+  higher than intended (most Heroes take 480 seconds to regenerate their entire
+  Health pool), which is why we reduced it slightly. We’ve increased the
+  duration on Cloak of Shadows so that predicting Abilities is easier to
+  accomplish. We want it to be a rewarding, high skill-cap ability, but with the
+  old tuning it struggled to compete with Smoke Bomb.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="zuljin">Zul'jin</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Headhunter (Active)
+<ul>
+<li>Will no longer dismount Zul'jin when it is activated while mounted</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="multi-class">Multi-class</h3>
+
+<h4 id="varian">Varian</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Banner of Stormwind (Active)
+<ul>
+<li>Moved to level 16</li>
+</ul></li>
+<li>Banner of Ironforge (Active)
+<ul>
+<li>Moved to level 16</li>
+</ul></li>
+<li>Banner of Dalaran (Active)
+<ul>
+<li>Moved to level 16</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Juggernaut (E)
+<ul>
+<li>Moved to level 13</li>
+</ul></li>
+<li>Mortal Strike (Trait)
+<ul>
+<li>Moved to level 13</li>
+</ul></li>
+<li>Shattering Throw (Active)
+<ul>
+<li>Moved to level 13</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> We like that Mortal Strike and Shattering Throw
+  are great counter options for certain team compositions, but thought they came
+  just a little too late to draft Varian specifically for them.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="abathur">Abathur</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Stab (Q)</strong>
+<ul>
+<li>Damage increased from 113 to 119</li>
+</ul></li>
+<li><strong>Spike Burst (W)</strong>
+<ul>
+<li>Damage increased from 111 to 116</li>
+</ul></li>
+<li><strong>Carapace (E)</strong>
+<ul>
+<li>Shield amount increased from 150 to 157</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="murky">Murky</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health increased from 635 to 761</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Spawn Egg (D)</strong>
+<ul>
+<li>Resurrect time while Murky's Egg is active increased from 5 to 8 seconds</li>
+</ul></li>
+<li><strong>Slime (Q)</strong>
+<ul>
+<li>Slow amount increased from 20 to 25%</li>
+</ul></li>
+<li><strong>Pufferfish (W)</strong>
+<ul>
+<li>Now deals 50% damage to Structures</li>
+<li>Pufferfish can now be targeted by Structures</li>
+<li>Pufferfish now has 225 Health and takes damage from Abilities</li>
+<li>Explosion radius increased by 50%</li>
+</ul></li>
+<li><strong>March of the Murlocs (R)</strong>
+<ul>
+<li>Cooldown reduced from 100 to 80 seconds</li>
+<li>Increased the Movement Speed of the tiny murlocs by 30%</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Fish Tank (Passive)
+<ul>
+<li>Moved to level 13</li>
+<li>Redesigned: Basic Attacks against enemy Heroes grant Murky 75 Basic Attack Armor for 2 seconds</li>
+</ul></li>
+<li>Bubble Breeze (E)
+<ul>
+<li>Renamed to Slippery When Wet</li>
+<li>Moved to level 7</li>
+<li>Increased the Movement Speed bonus from 20% to 35%</li>
+<li>Now also allows Murky to pass through enemies while Safety Bubble is active</li>
+</ul></li>
+<li>Assault Egg (D)
+<ul>
+<li>Renamed to Fish Eye</li>
+<li>Bonus Health reduced from 150% to 100%</li>
+<li>Sight Radius bonus increased from 150% to 200%</li>
+<li>Now reveals Stealthed enemies</li>
+<li>Now increases Murky's Mounted Movement Speed to 45% for 5 seconds after spawning</li>
+</ul></li>
+<li>Bribe (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Egg Hunt (Active)</strong>
+<ul>
+<li>Activate to place a fake Egg. If the fake Egg dies, it casts Slime. Maximum 3 fake Eggs. 6 second cooldown</li>
+<li>Upon spawning from an Egg, Murky is Stealthed for 5 seconds</li>
+</ul></li>
+<li><strong>New Talent: A Fishy Deal (Active)</strong>
+<ul>
+<li>Killing an enemy Minion with Pufferfish grants 1 stack of Bribe. Use 5 Bribe stacks to capture a single Mercenary. Maximum of 20 stacks</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Bigger Slime (Q)
+<ul>
+<li>Moved to level 7</li>
+<li>Renamed to Black Lagoon</li>
+</ul></li>
+<li>Tufferfish (W)
+<ul>
+<li>Redesigned: Now causes Pufferfish to deal 35% more damage to Slimed targets, and it gains 50 Spell Armor</li>
+</ul></li>
+<li>Envenom (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Living The Dream (Passive)
+<ul>
+<li>No longer passively grants Ability Power</li>
+<li>Instead of granting 1% Ability Power every 5 seconds, now grants 5% Ability Power every 15 seconds. Max 15% bonus Ability Power.</li>
+</ul></li>
+<li><strong>New Talent: Slime Time (Q)</strong>
+<ul>
+<li><strong>Quest:</strong> Slime enemy Heroes that are already Slimed</li>
+<li><strong>Reward:</strong> After Sliming 15 Slimed Heroes, increase Slime's bonus damage by 125</li>
+<li><strong>Reward:</strong> After Sliming 30 Slimed Heroes, increase Slime's slow amount to 35%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Slime Advantage (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Hindering Slime (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Compressed Air (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Clairvoyance (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Time to Krill (Passive)</strong>
+<ul>
+<li>Basic Attacks against Heroes deal an additional 8 damage per second and Slow the target’s Movement Speed by 10% for 5 seconds. This effect can stack up to 5 times</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Continuous Slime (Q)
+<ul>
+<li>Renamed to Making Inky</li>
+<li>Moved to level 20</li>
+<li>Cooldown reduction increased from 1 to 2 seconds</li>
+</ul></li>
+<li>Wrath of Cod (W)
+<ul>
+<li>Moved to level 16</li>
+<li>New Functionality:
+<ul>
+<li>Pufferfish deals bonus damage to Heroes equal to 10% of their maximum Health over 5 seconds</li>
+</ul></li>
+</ul></li>
+<li>Bubble Machine (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Hidden Assault (D)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Egg Shell (D)</strong>
+<ul>
+<li>Respawning from an Egg grants Murky a Shield equal to 100% of his maximum Health. This Shield lasts indefinitely</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Slimy End (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Rejuvenating Bubble (E)
+<ul>
+<li>Moved to level 13</li>
+</ul></li>
+<li>Blood for Blood (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Toxic Buildup (Q)</strong>
+<ul>
+<li>Attacking an enemy Hero 3 times causes a Slime to cast from their position</li>
+</ul></li>
+<li>Slimy Pufferfish (W)
+<ul>
+<li>Renamed to Fish Oil</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Rewind (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Bolt of the Storm (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Never-Ending Murlocs (R)
+<ul>
+<li>Redesigned: March of the Murlocs can now be channeled indefinitely</li>
+</ul></li>
+<li><strong>New Talent: Big Tuna Kahuna (Trait)</strong>
+<ul>
+<li>Murky's maximum Health and Egg respawn times are doubled.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Mrrgrgrlgrl! Rise my brother murlocs!
+  Mrrrgrgrlrlgrl! Vengeance will be ours! In examining Murky, his original
+  health and egg timers are vestiges of a different time, created before even
+  Jaina entered the Nexus. We wanted to give him more base health to make him a
+  little harder to burst down, but traded it for a little longer time to respawn
+  from his Egg. This has the added bonus of allowing a bit more counter-play to
+  hunting our fishy friend. We also wanted to adjust Pufferfish, as an
+  increasingly high amount of the roster could immediately explode it. Finally,
+  his talent tree has been updated to come in line with our new philosophies.
+  We’ve not only found this Murky much more fun to play as, with some exciting
+  talents in each tier, but also more fair to fight against! Mrrgrgrlgrl!</p>
+</blockquote>
+
+<table>
+<thead>
+<tr>
+  <th><strong>Level (Tier)</strong></th>
+  <th></th>
+  <th><strong>Murky Talents</strong></th>
+  <th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>1 (1)</strong></td>
+  <td>Fish Eye (Trait)</td>
+  <td><em>Egg Hunt (Active)</em></td>
+  <td><em>A Fishy Deal (Active)</em></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>4 (2)</strong></td>
+  <td><em>(!)Slime Time (Q)</em></td>
+  <td>Tufferfish (W)</td>
+  <td>(!)Living the Dream (Passive)</td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>7 (3)</strong></td>
+  <td><strong><em>Black Lagoon (Q)</em></strong></td>
+  <td><strong>Slippery When Wet (E)</strong></td>
+  <td><em>Time to Krill (Passive)</em></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>10 (4)</strong></td>
+  <td>March of the Murlocs (R)</td>
+  <td>Octo-Grab (R)</td>
+  <td>—</td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>13 (5)</strong></td>
+  <td><strong>Rejuvenating Bubble (E)</strong></td>
+  <td><em>Fish Tank (Passive)</em></td>
+  <td><strong><em>Egg Shell (Trait)</em></strong></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>16 (6)</strong></td>
+  <td><em>Toxic Buildup (Q)</em></td>
+  <td>Fish Oil (W)</td>
+  <td><strong>Wrath of Cod (W)</strong></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>20 (7)</strong></td>
+  <td>Never-Ending Murlocs (R)</td>
+  <td>...And a Shark Too! (R)</td>
+  <td><em>Big Tuna Kahuna (Trait)</em></td>
+  <td><strong>Making Inky (Q)</strong></td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em><strong>NEW</strong></em> Talent.</li>
+<li><strong>Bold text</strong> indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="nazeebo">Nazeebo</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Plague of Toads (E)</strong>
+<ul>
+<li>The targeting indicator now more accurately reflects the Toads’ travel path</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Dead Rush (W)
+<ul>
+<li>Cancelling Zombie Wall will now also provide up to 5 uprooted Zombies</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="support">Support</h3>
+
+<h4 id="lt-morales">Lt. Morales</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Displacement Grenade (E)</strong>
+<ul>
+<li>Will now reveal a small area around the grenade as it travels</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="muradin">Muradin</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Crowd Control (W)
+<ul>
+<li>Now has a 7 second cooldown reduction maximum</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Thunder Strike (W)
+<ul>
+<li>Icon color swapped to blue</li>
+</ul></li>
+<li>Healing Static (W)
+<ul>
+<li>Icon color swapped to green</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="zarya">Zarya</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Feel the Heat (Passive)
+<ul>
+<li>Basic Attacks that deal bonus damage in Melee range will now show a Crit indicator</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li><strong>Mac:</strong> Launching the Heroes client on a Mac will no longer automatically increase mouse acceleration.</li>
+<li>Corrected the scaling damage caps for several Talents that deal damage based on a percentage of the target’s maximum Health, including:
+<ul>
+<li>Gall: Giant Scorcher</li>
+<li>Rehgar: Hunger of the Wolf</li>
+<li>Ragnaros: Giant Scorcher</li>
+<li>Tracer: Quantum Spike</li>
+<li>Xul: Backlash, Giant’s Curse</li>
+</ul></li>
+<li>A number of typos and tooltip errors have been corrected across several aspects of the game.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Nova:</strong> Nova’s status bar will no longer pop above her head while running.</li>
+<li><strong>Samuro:</strong> Monkey King Samuro will now correctly play his victory animation after destroying the enemy Core.</li>
+<li><strong>Tracer:</strong> Hologram visual effects will now correctly display on Master Tracer’s model while using Recall.</li>
+<li><strong>Sky Temple:</strong> Fixed an issue in which Temple attacks could briefly appear to fire beyond the Core.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Braxis Holdout:</strong> Fixed an issue that could cause Zerg units to become stuck in the walls of their pens.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Anub'arak:</strong> Chitinous Plating will now correctly reduce the cooldown for Harden Carapace.</li>
+<li><strong>Chromie:</strong> After completing Deep Breathing’s quest, its buff bar tooltip will now display the correct number of Heroes hit.</li>
+<li><strong>E.T.C.:</strong> If Stage Dive’s landing location is blocked, E.T.C. will now land as close as possible to the intended area rather than returning to his original casting location.</li>
+<li><strong>Medivh:</strong> Will now properly benefit from Regeneration Globes while transforming into Raven Form.</li>
+<li><strong>Ragnaros:</strong> Will now properly benefit from Hand of Sulfuras when Empower Sulfuras scores a killing blow after striking multiple enemy Heroes.</li>
+<li><strong>Ragnaros:</strong> Lava Wave's cooldown will now be paused during Zeratul’s Void Prison.</li>
+<li><strong>Rehgar:</strong> Will no longer be pulled out of Ghost Wolf form upon dealing damage via an allied Ragnaros’s Blast Wave.</li>
+<li><strong>Rexxar:</strong> Spirit Swoop will now correctly deal damage to Monsters.</li>
+<li><strong>Samuro:</strong> Fixed an issue that could refresh the duration of Advancing Strikes after landing a critical strike.</li>
+<li><strong>Samuro:</strong> Shift-queueing Hearthstone will no longer break Stealth until Hearthstone begins casting.</li>
+<li><strong>Samuro:</strong> Burning Blade area of effect damage will now properly benefit from bonus damage granted by Way of Illusion.</li>
+<li><strong>Samuro:</strong> Bladestorm will no longer occasionally fail to activate after casting Mirror Images and Bladestorm in rapid succession.</li>
+<li><strong>Samuro:</strong> Fixed an issue in which the Score Screen could display an incorrect number of Gems for Samuro if he collected them while Mirror Images were active on Tomb of the Spider Queen.</li>
+<li><strong>Thrall:</strong> Fixed an issue in which Feral Spirit could fail to trigger Follow Through after earning Seasoned Marksman stacks.</li>
+<li><strong>Valeera:</strong> Rupture and Hemorrhage no longer benefit from another Valeera’s Garrote.</li>
+<li><strong>Valla:</strong> Killing enemy Heroes who have post-death states, like Tyrael and Leoric, after learning Death Dealer will now correctly refresh Vault’s cooldown.</li>
+<li><strong>Zul'jin:</strong> Fixed an issue causing Zul’jin to have a slightly higher Health Regeneration rate than intended.</li>
+</ul>
+
+<p><strong>Sound</strong></p>
+
+<ul>
+<li><strong>Illidan:</strong> The Hunt voiceover will no longer play slightly early.</li>
+<li><strong>Zarya:</strong> Graviton Surge and Expulsion Zone voiceover will no longer play slightly early.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+              <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
