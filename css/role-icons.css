@@ -45,9 +45,13 @@
     color: #f39c12; 
 }
 
+.role-filter {
+    padding-top: 4px;
+}
+
 .role-filter > a {
     color: #95a5a6;
-    font-size: 36px;
+    font-size: 42px;
     line-height: 36px;
     text-decoration: none;
     cursor: pointer;
