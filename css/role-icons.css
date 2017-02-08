@@ -1,0 +1,64 @@
+@font-face {
+    font-family: heroes-icon;
+    src: url(../fonts/heroes.eot?adcul8);
+    src: url(../fonts/heroes.eot?#iefixadcul8) format('embedded-opentype'),
+         url(../fonts/heroes.woff?adcul8) format('woff'),
+         url(../fonts/heroes.ttf?adcul8) format('truetype'),
+         url(../fonts/heroes.svg?adcul8#icomoon) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.icon-role-warrior:before {
+    font-family: heroes-icon;
+    content: "\e603";
+}
+
+.icon-role-support:before {
+    font-family: heroes-icon;
+    content: "\e604";
+}
+
+.icon-role-specialist:before {
+    font-family: heroes-icon;
+    content: "\e605";
+}
+
+.icon-role-assassin:before {
+    font-family: heroes-icon;
+    content: "\e606";
+}
+
+.icon-role-warrior.active {
+    color: #3498db;
+}
+
+.icon-role-support.active {
+    color: #18bc9c;
+}
+
+.icon-role-assassin.active {
+    color: #e74c3c;
+}
+
+.icon-role-specialist.active {
+    color: #f39c12; 
+}
+
+.role-filter > a {
+    color: #95a5a6;
+    font-size: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.role-icons {
+    line-height: 41px;
+    font-size: 56px;
+    color: #ecf0f1;
+}
+
+.multiclass {
+    width: 35px;
+}
