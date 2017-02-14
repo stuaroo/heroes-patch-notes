@@ -1,12 +1,12 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero { 
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1485313185/hero-sprite-v20170124.png") -7px -7px no-repeat; 
-  background-size: 54px 3580.435px; height: 44px; width: 41px; 
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1487100600/hero-sprite-v20170214.png") -7px -7px no-repeat; 
+  background-size: 54px 3639.131px; height: 44px; width: 41px; 
 }
 
 .medium-hero { 
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1485313185/hero-sprite-v20170124.png") -10px -11px no-repeat; 
-  background-size: 54px 3580.435px; height: 44px; width: 41px;
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1487100600/hero-sprite-v20170214.png") -10px -11px no-repeat; 
+  background-size: 54px 3639.131px; height: 44px; width: 41px;
 }
 
 .small-battleground {
@@ -79,6 +79,8 @@
 .medium-liming{ background-position: -10px -2707px; }
 .small-ltmorales{ background-position: -7px -2472px; }
 .medium-ltmorales{ background-position: -10px -2472px; }
+.small-lucio{ background-position: -7px -3587px; }
+.medium-lucio{ background-position: -10px -3587px; }
 .small-lunara{ background-position: -7px -2590px; }
 .medium-lunara{ background-position: -10px -2590px; }
 .small-malfurion{ background-position: -7px -1122px; }
@@ -302,7 +304,7 @@ div.panel-heading>h3>a>i.fa-external-link {
 
 @media (min-width: 360px) {
   .medium-hero { 
-    background-size: 85.610px 5676.315px; height: 70px; width: 65px; 
+    background-size: 85.610px 5769.369px; height: 70px; width: 65px; 
   }
 
   .medium-battleground { 
@@ -339,6 +341,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-lili{ background-position: -10px -1035px; }
   .medium-liming{ background-position: -10px -4292px; }
   .medium-ltmorales{ background-position: -10px -3920px; }
+  .medium-lucio{ background-position: -10px -5687px; }
   .medium-lunara{ background-position: -10px -4106px; }
   .medium-malfurion{ background-position: -10px -1779px; }
   .medium-medivh{ background-position: -10px -4758px; }
