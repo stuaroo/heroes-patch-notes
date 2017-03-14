@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Arthas, Melee Warrior, patch note history.  Last relevant patch: 2017-01-24">
+    <meta name="description" content="Arthas, Melee Warrior, patch note history.  Last relevant patch: 2017-03-14">
     <link rel="canonical" href="https://heroespatchnotes.com/hero/arthas.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@heroespatches" />
     <meta property="og:url" content="https://heroespatchnotes.com/hero/arthas.html" />
     <meta property="og:title" content="Arthas - Heroes Patch Notes" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Arthas, Melee Warrior, patch note history.  Last relevant patch: 2017-01-24" />
+    <meta property="og:description" content="Arthas, Melee Warrior, patch note history.  Last relevant patch: 2017-03-14" />
     <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483416268/hero/arthas.jpg" />
         <title>Arthas Patch Notes</title>
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -68,7 +68,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1487100600/hero-sprite-v20170214.png") 0px 0px no-repeat; background-size: 92px 6200px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1488610221/hero-sprite-v20170306.png") 0px 0px no-repeat; background-size: 92px 6300px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
@@ -161,6 +161,7 @@
               <li><a href="murky.html">Murky</a></li>
               <li><a href="nazeebo.html">Nazeebo</a></li>
               <li><a href="nova.html">Nova</a></li>
+              <li><a href="probius.html">Probius</a></li>
               <li><a href="ragnaros.html">Ragnaros</a></li>
               <li><a href="raynor.html">Raynor</a></li>
               <li><a href="rehgar.html">Rehgar</a></li>
@@ -205,33 +206,33 @@
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Block</td>
-                    <td>Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
                     <td>Eternal Hunger</td>
-                    <td>Quest: Using Frostmourne Hungers on an enemy Hero permanently increases the Mana it restores by 4, up to 40. Reward: After hitting 10 Heroes with Frostmourne Hungers, also increase its damage bonus by 25%.</td>
+                    <td>Quest: Use Frostmourne Hungers on an enemy Hero.  Reward: Increases the Mana it restores by 4, to a maximum of 40, and its damage by 4.</td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Frost Presence</td>
-                    <td>Howling Blast's cooldown is reduced by 5 seconds when it hits an enemy Hero.</td>
+                    <td>Quest: Root enemy Heroes with Howling Blast.  Reward: After rooting 5 Heroes, Howling Blast's cooldown is reduced by 2 seconds.  Reward: After rooting 10 Heroes, Howling Blast's range is increased by 30%.  Reward: After rooting 20 Heroes, Howling Blast also roots enemies in its path.</td>
                   </tr>
                   <tr>
-                    <td>4</td>
-                    <td>Biting Cold</td>
-                    <td>Frozen Tempest damage increased by 30%.</td>
+                    <td>1</td>
+                    <td>Rime</td>
+                    <td>Every 5 seconds, gain 60 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 60%. Stores up to 3 charges.</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Deathlord</td>
-                    <td>Reduces Death Coil's cooldown by 2 seconds and increase its range by 25%.</td>
+                    <td>Reduces Death Coil's cooldown by 3 seconds and increase its range by 30%.</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Frozen Wastes</td>
-                    <td>Frozen Tempest Mana cost reduced by 4 per second.</td>
+                    <td>Frozen Tempest Mana cost reduced by 4 per second.  Quest: Damage enemy Heroes with Frozen Tempest.  Reward: After damaging enemy Heroes 150 times with Frozen Tempest, the Movement and Attack Speed slows of Frozen Tempest last an extra 1.5 seconds against enemy Heroes.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Icy Talons</td>
+                    <td>Gain 3% Attack Speed for 1.5 seconds every time a Hero is damaged by Frozen Tempest, to a maximum of 60%.</td>
                   </tr>
                   <tr>
                     <td>7</td>
@@ -241,12 +242,12 @@
                   <tr>
                     <td>7</td>
                     <td>Immortal Coil</td>
-                    <td>You gain the healing effect of Death Coil even when you use it on enemies. If you damage an enemy Hero with it, you also heal for an additional 100% of the damage dealt.</td>
+                    <td>Gain the healing effect of Death Coil even when used on enemies. If Death Coil is used on Arthas, it heals for an additional 50% bonus healing.</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Rune Tap</td>
-                    <td>Every 3rd Basic Attack heals you for 4% of your max Health.</td>
+                    <td>Every 3rd Basic Attack heals Arthas for 4% of his max Health.</td>
                   </tr>
                   <tr>
                     <td>10</td>
@@ -260,23 +261,23 @@
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Frigid Winds</td>
-                    <td>Frozen Tempest reduces enemy Attack Speed by 8% per second, stacking up to 40%.</td>
+                    <td>Biting Cold</td>
+                    <td>Each second an enemy is damaged by Frozen Tempest, it deals 12.5% bonus damage, up to a 50% bonus.</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Frost Strike</td>
-                    <td>Reduces Frostmourne Hungers' cooldown by 2 seconds. Frostmourne Hungers also slows the enemy by 40% for 1.5 seconds.</td>
+                    <td>Reduces Frostmourne Hungers' cooldown by 2 seconds. Frostmourne Hungers also slows the enemy by 50% for 1.5 seconds.</td>
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Trail of Frost</td>
-                    <td>Increases Howling Blast's range by 30% and causes it to also root enemies between you and the target for 1.25 seconds.</td>
+                    <td>Shattered Armor</td>
+                    <td>Enemy Heroes hit by Howling Blast have their Armor reduced by 15 for 4 seconds.</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Embrace Death</td>
-                    <td>Death Coil deals 10% more damage for each 10% of life you are missing.</td>
+                    <td>Death Coil deals more damage and heals more the lower Arthas's current health is, to a maximum of 100% bonus damage and healing.</td>
                   </tr>
                   <tr>
                     <td>16</td>
@@ -296,12 +297,12 @@
                   <tr>
                     <td>20</td>
                     <td>Anti-Magic Shell</td>
-                    <td>Activate to grant Arthas 100 Spell Armor for 3 seconds, reducing Ability Damage taken by 100%, and heal Arthas for 25% of the damage prevented.</td>
+                    <td>Activate to make Arthas immune to Spell Damage for 3 seconds and heal Arthas for 25% of the damage prevented.</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Death's Advance</td>
-                    <td>Passively increases your Movement Speed by 10%. Activate to increase this bonus to 30% for 3 seconds.</td>
+                    <td>Activate to increase Movement Speed by 30% for 3 seconds.  Passive: Increases Movement Speed by 10%.</td>
                   </tr>
                   <tr>
                     <td>20</td>
@@ -324,7 +325,7 @@
                   <tr>
                     <td>Q</td>
                     <td>Death Coil</td>
-                    <td>Deals 164 (+4% per level) damage to target enemy.  Can be self-cast to heal for 238 (+4% per level) Health.</td>
+                    <td>Deals 164 (+4% per level) damage to target enemy.  Can be self-cast to heal for 262 (+4% per level) Health.</td>
                   </tr>
                   <tr>
                     <td>W</td>
@@ -334,7 +335,7 @@
                   <tr>
                     <td>E</td>
                     <td>Frozen Tempest</td>
-                    <td>Deals 52 (+4% per level) damage per second to nearby enemies. Slows enemy Move Speed by 6% per second, stacking up to 30%.</td>
+                    <td>Deals 40 (+4% per level) damage per second to nearby enemies. Slows enemy Move Speed and Attack Speed by 10% per second, stacking up to 40%.</td>
                   </tr>
                   <tr>
                     <td>R</td>
@@ -349,7 +350,7 @@
                   <tr>
                     <td>D</td>
                     <td>Frostmourne Hungers</td>
-                    <td>Activate to make your next Basic Attack strike immediately, do 100% increased damage, and restore 30 Mana.</td>
+                    <td>Activate to make Arthas's next Basic Attack strike immediately, do 99 increased damage, and restore 30 Mana.</td>
                   </tr>
                 </tbody>
               </table>
@@ -363,6 +364,192 @@
             <div class="hero-sprite hero-position"></div>
             <div>Arthas</div>
           </h2>
+          <div id="patch2017-03-14" class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2017-03-14 Patch Notes <a class="permalink" href="#patch2017-03-14" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20581822" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Hero Updates</h4>
+              <p><strong>Stats</strong></p>
+<ul>
+<li>Health increased from 2404 to 2524</li>
+<li>Health Regeneration increased from 5.0117 to 5.2578</li>
+<li>Basic Attack damage reduced from 99 to 95</li>
+</ul>
+<p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Frostmourne Hungers (Trait)</strong>
+<ul>
+<li>Now deals a bonus 99 damage when hitting enemies (is no longer based on his normal Basic Attack damage)</li>
+</ul></li>
+<li><strong>Death Coil (Q)</strong>
+<ul>
+<li>Heal increased from 238 to 262</li>
+</ul></li>
+<li><strong>Frozen Tempest (E)</strong>
+<ul>
+<li>Damage lowered from 26 to 20. Now slows enemy movement speed and attack speed by 10% per second, up to 40%. This now stacks over 4 seconds instead of 5.</li>
+<li>Now functions as an aura (same as Lucio's Crossfade) when concerning Stuns and Silences
+<ul>
+<li>If Arthas is Stunned or Silenced, he will not be able to toggle Frozen Tempest on or off, but if it is active it will persist for the duration of the Stun or Silence.</li>
+</ul></li>
+</ul></li>
+<li><strong>Army of the Dead (R1)</strong>
+<ul>
+<li>Cooldown lowered from 100 to 80 seconds</li>
+<li>Mana cost lowered from 100 to 80</li>
+<li>Ghoul attack damage increased from 18 to 20</li>
+<li>Ghoul Health increased from 960 to 1060</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Block (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Eternal Hunger (Trait)
+<ul>
+<li>New functionality:
+<ul>
+<li>!Quest: Using Frostmourne Hungers on an enemy Hero permanently increases the Mana it restores by 4, up to 40</li>
+<li>!Quest: Using Frostmourne Hungers on an enemy Hero permanently increases its damage bonus by 4</li>
+</ul></li>
+</ul></li>
+<li>Frost Presence (W)
+<ul>
+<li>New functionality:
+<ul>
+<li>!Quest: Root 5 heroes to reduce the cooldown of Howling Blast by 2 seconds. </li>
+<li>!Quest: After rooting 10 heroes, increase Howling Blast's range by 30%. Quest: After rooting 20 heroes, Howling Blast roots enemies on its path.</li>
+</ul></li>
+</ul></li>
+<li>New Talent: Rime (Passive)
+<ul>
+<li>Every 5 seconds, reduce the next Hero Basic Attack by 60%. Stores up to 3 charges.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Biting Cold (E)
+<ul>
+<li>Moved to Level 13</li>
+</ul></li>
+<li>Frozen Wastes (E)
+<ul>
+<li>New functionality:
+<ul>
+<li>!Quest: After hitting enemy Heroes 150 times with Frozen Tempest, the Movement and Attack Speed slows of Frozen Tempest last for an additional 1.5 seconds against enemy Heroes.</li>
+</ul></li>
+</ul></li>
+<li>New Talent: Icy Talons (E)
+<ul>
+<li>Increase Arthas’ attack speed by 3% each time an enemy Hero is hit by Frozen Tempest for 1.5 seconds, stacking up to 60%.</li>
+</ul></li>
+<li>Deathlord (Q)
+<ul>
+<li>Increase the range bonus on Death Coil from 25 to 30%.</li>
+<li>Increase the cooldown reduction from 2 to 3 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Immortal Coil (Q)
+<ul>
+<li>New functionality:
+<ul>
+<li>Bonus healing now applies to self-casting Death Coil.</li>
+<li>Bonus healing reduced from 100 to 50%.</li>
+</ul></li>
+</ul></li>
+<li>Icebound Fortitude (Active)
+<ul>
+<li>Reduced the cooldown from 40 to 35 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Trail of Frost (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Frigid Winds (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>New Talent: Shattered Armor (W) 
+<ul>
+<li>Enemy heroes rooted by Howling Blast have their Armor reduced by 15 for 4 seconds.</li>
+</ul></li>
+<li>Frost Strike (Trait)
+<ul>
+<li>Slow increased from 40 to 50%.</li>
+</ul></li>
+<li>Biting Cold (E)
+<ul>
+<li>New functionality:
+<ul>
+<li>Frozen Tempest does 12.5% increased damage per second to enemies, up to 50% bonus damage (over 4 seconds).</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Embrace Death (Q)
+<ul>
+<li>Added Functionality:
+<ul>
+<li>Now also affects the healing of Death Coil.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Anti-Magic Shell (Active)
+<ul>
+<li>New functionality:
+<ul>
+<li>No longer provides 100 Spell Armor. Arthas now takes 0 damage from Spells instead and heals for 25% of the damage prevented.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comment:</strong></em> For a long time Arthas has walked the line between
+  being a Bruiser and a tank, though it was always intended that he be more of a
+  tank as opposed to a bruiser. With Armor in the game, we saw the opportunity
+  to really embrace him being that slow approach of Death that he encapsulated
+  so well in Wrath of the Lich King. Arthas’s crowd control capability and
+  survivability have been significantly increased, and now he should really
+  shine as the Warrior to bring if the enemy team has multiple Melee heroes or
+  those who strongly rely on their auto-attacks. In return for his extra control
+  in teamfights, his damage has been reduced. While he will not put out damage
+  as quickly as before, his ability to kill enemies will now rely much more on
+  how long he can keep them in his Frozen Tempest, as once they’re in it will be
+  very difficult for them to escape without using some kind of mobility.</p>
+<p><em><strong>Developer Comment:</strong></em> We’re currently doing a pass on our Warriors, and
+  want to better separate those that are intended to be able to solo-tank for
+  their team, and those who are better identified as bruisers. With Armor coming
+  into the game, we also saw an opportunity to make our Warriors have unique
+  roles for their team so that the strongest or most survivable few weren’t
+  identified and always favored regardless of the enemy team composition. In
+  this patch, we’ve taken a pass at both Arthas and Anub’arak to better embrace
+  their roles as solo-Warriors for their team. They have both received
+  significant changes, largely with the theme of adding control and/or
+  survivability to their kits at the cost of damage. While we know that players
+  enjoy putting out that DPS, we think this is a healthier direction for the
+  game, and should make the decision of which Warrior to bring to a team more
+  meaningful. We’re also hoping that this direction helps push against the trend
+  of it being the correct choice to bring multiple Warriors to a team because
+  some can bring both CC and survivability while also doing as much damage as
+  our Assassins.</p>
+</blockquote>
+
+            </div>
+          </div>
+          <hr>
           <div id="patch2017-01-24" class="panel panel-primary">
             <div class="panel-heading">
               <h3>2017-01-24 Patch Notes <a class="permalink" href="#patch2017-01-24" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20481262" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
@@ -1291,7 +1478,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Arthas Patch Notes",
-        "description": "Arthas, Melee Warrior, patch note history.  Last relevant patch: 2017-01-24",
+        "description": "Arthas, Melee Warrior, patch note history.  Last relevant patch: 2017-03-14",
         "url": "https://heroespatchnotes.com/hero/arthas.html",
         "keywords": "Arthas patch notes, Arthas patch history, hots Arthas patch notes, Arthas patches",
         "mainEntity": {

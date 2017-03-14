@@ -1,12 +1,12 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero { 
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1487100600/hero-sprite-v20170214.png") -7px -7px no-repeat; 
-  background-size: 54px 3639.131px; height: 44px; width: 41px; 
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1488610221/hero-sprite-v20170306.png") -7px -7px no-repeat; 
+  background-size: 54px 3697.827px; height: 44px; width: 41px; 
 }
 
 .medium-hero { 
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1487100600/hero-sprite-v20170214.png") -10px -11px no-repeat; 
-  background-size: 54px 3639.131px; height: 44px; width: 41px;
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1488610221/hero-sprite-v20170306.png") -10px -11px no-repeat; 
+  background-size: 54px 3697.827px; height: 44px; width: 41px;
 }
 
 .small-battleground {
@@ -95,6 +95,8 @@
 .medium-nazeebo{ background-position: -10px -888px; }
 .small-nova{ background-position: -7px -946px; }
 .medium-nova{ background-position: -10px -946px; }
+.small-probius{ background-position: -7px -3646px; }
+.medium-probius{ background-position: -10px -3646px; }
 .small-ragnaros{ background-position: -7px -3412px; }
 .medium-ragnaros{ background-position: -10px -3412px; }
 .small-raynor{ background-position: -7px -1005px; }
@@ -304,7 +306,7 @@ div.panel-heading>h3>a>i.fa-external-link {
 
 @media (min-width: 360px) {
   .medium-hero { 
-    background-size: 85.610px 5769.369px; height: 70px; width: 65px; 
+    background-size: 85.610px 5862.423px; height: 70px; width: 65px; 
   }
 
   .medium-battleground { 
@@ -349,6 +351,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-murky{ background-position: -10px -1314px; }
   .medium-nazeebo{ background-position: -10px -1407px; }
   .medium-nova{ background-position: -10px -1500px; }
+  .medium-probius{ background-position: -10px -5781px; }
   .medium-ragnaros{ background-position: -10px -5409px; }
   .medium-raynor{ background-position: -10px -1593px; }
   .medium-rehgar{ background-position: -10px -1686px; }

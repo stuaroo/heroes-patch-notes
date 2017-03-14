@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Cho, Melee Warrior, patch note history.  Last relevant patch: 2016-10-18">
+    <meta name="description" content="Cho, Melee Warrior, patch note history.  Last relevant patch: 2017-03-14">
     <link rel="canonical" href="https://heroespatchnotes.com/hero/cho.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@heroespatches" />
     <meta property="og:url" content="https://heroespatchnotes.com/hero/cho.html" />
     <meta property="og:title" content="Cho - Heroes Patch Notes" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Cho, Melee Warrior, patch note history.  Last relevant patch: 2016-10-18" />
+    <meta property="og:description" content="Cho, Melee Warrior, patch note history.  Last relevant patch: 2017-03-14" />
     <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483416462/hero/cho.jpg" />
         <title>Cho Patch Notes</title>
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
@@ -68,7 +68,7 @@
       .panel > table > tbody:first-child > tr:first-child th, .panel > table > tbody:first-child > tr:first-child td { border-top: 0; }
       ul.nav-tabs { display: inline-block; vertical-align: bottom; }
       div.tab-content { font-size: 14px; }
-      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1487100600/hero-sprite-v20170214.png") 0px 0px no-repeat; background-size: 92px 6200px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background: url("//res.cloudinary.com/heroespatches/image/upload/v1488610221/hero-sprite-v20170306.png") 0px 0px no-repeat; background-size: 92px 6300px; height: 77px; width: 68px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
       .bug-fixes + ul, ul + ul { margin-bottom: 0; }
       footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
@@ -161,6 +161,7 @@
               <li><a href="murky.html">Murky</a></li>
               <li><a href="nazeebo.html">Nazeebo</a></li>
               <li><a href="nova.html">Nova</a></li>
+              <li><a href="probius.html">Probius</a></li>
               <li><a href="ragnaros.html">Ragnaros</a></li>
               <li><a href="raynor.html">Raynor</a></li>
               <li><a href="rehgar.html">Rehgar</a></li>
@@ -205,103 +206,108 @@
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Blazing Bulwark</td>
-                    <td>If Consuming Blaze hits an enemy Hero, gain 50 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 50%. Stores up to 10 charges.</td>
+                    <td>Calloused Hide</td>
+                    <td>Ogre Hide also increases healing received by 15%.</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Consuming Fire</td>
+                    <td>Consuming Blaze heals for 150% more when a Hero is Ignited.</td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Fuel for the Flame</td>
-                    <td>Gathering a Regeneration Globe increases the duration of your next Consuming Blaze heal by 75%.</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Surging Dash</td>
-                    <td>Increases Surging Fist range and speed by 50%.</td>
+                    <td>Quest: Every minion killed near Cho increases the amount healed by Consuming Blaze by 0.2%.  Quest: Every Hero Takedown increases the amount healed by Consuming Blaze by 2%.</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Rollback</td>
-                    <td>Rune Bomb now returns to you, damaging enemies in its path.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Runed Gauntlet</td>
-                    <td>Rune Bomb increases your next Basic Attack by 75%.</td>
+                    <td>Rune Bomb continues to travel after detonation, and will roll back to Cho, damaging enemies in its path.</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Seared Flesh</td>
-                    <td>Every third consecutive Basic Attack against the same target deals 75% bonus damage.</td>
+                    <td>Each consecutive Basic Attack to an enemy Hero deals 20% more damage, to a maximum of 60% damage. This bonus lasts 5 seconds or until a different enemy is attacked.</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Uppercut</td>
+                    <td>Surging Fist deals additional damage to Heroes equal to 7% of their max Health.</td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>Fire Eater</td>
-                    <td>Basic Attacks against targets inflicted with Consuming Blaze heal you for 50% of the damage dealt.</td>
+                    <td>Enraged Regeneration</td>
+                    <td>While Gall's Ogre Rage is active, Cho's health regeneration is increased by 200%.</td>
                   </tr>
                   <tr>
                     <td>7</td>
-                    <td>I AM Hurrying!</td>
-                    <td>Increases the duration of Gall's "Hurry Up, Oaf!" by 2 seconds and it no longer fades over time.</td>
+                    <td>Firestarter</td>
+                    <td>Basic Attacks against ignited Heroes decreases the cooldown of Consuming Blaze by 1 second.  Passive: Reduce the cooldown of Consuming Blaze by 3 seconds. </td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Power Surge</td>
-                    <td>Reduces the initial delay of Surging Fist by 50% and it is 100% wider.</td>
+                    <td>Each Hero hit by Surging Fist reduces its cooldown by 4 seconds.</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Hammer of Twilight</td>
-                    <td>Passively increases Basic Attack damage by 25%. Activate to swing the Hammer to deal 156.25 (+4.5% per level) damage, push enemies away, and stun for 0.75 seconds.</td>
+                    <td>Activate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and stuning them for 0.75 seconds.  Passive: Cho's Basic Attacks deal 25% increased damage.</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Upheaval</td>
-                    <td>After 1 second pull enemies towards your direction, slowing them by 25% for 3 seconds and dealing 100 (+4% per level) damage.</td>
+                    <td>After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 100 (+4% per level) damage.</td>
                   </tr>
                   <tr>
                     <td>13</td>
-                    <td>Molten Block</td>
-                    <td>Activate to place yourself in Stasis and gain Invulnerability for 3 seconds, damaging nearby enemies for 92 (+4% per level) damage per second.</td>
+                    <td>Frenzied Fists</td>
+                    <td>Gain 75% Attack Speed for 5 seconds after using Surging Fist.</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Runed Gauntlet</td>
+                    <td>Basic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 0.5 seconds.</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Runic Feedback</td>
-                    <td>Gall's Runic Blast reduces your Rune Bomb cooldown by 1.25 seconds per enemy hit.</td>
-                  </tr>
-                  <tr>
-                    <td>13</td>
-                    <td>Surge of Stamina</td>
-                    <td>Surging Fist gives 25 Armor for 4 seconds, reducing the damage you take by 25%. Hitting an enemy Hero with Surging Fist reduces its cooldown by 4 seconds.</td>
+                    <td>Gall's Runic Blast reduces Cho's Rune Bomb cooldown by 1 seconds per enemy hit, and 2 seconds for each Hero hit.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Crippling Blow</td>
-                    <td>Enemies hit by Surging Fist are slowed by 90% for 1.25 seconds.</td>
+                    <td>Molten Block</td>
+                    <td>Activate to enter Stasis and gain Invulnerability for 3 seconds, damaging nearby enemies for 92 (+4% per level) damage per second.</td>
                   </tr>
                   <tr>
                     <td>16</td>
-                    <td>Frenzied Fists</td>
-                    <td>If Surging Fist hits an enemy Hero, your Attack Speed is increased by 100% for 4 seconds.</td>
+                    <td>Surging Dash</td>
+                    <td>While channeling Surging Fist, Cho is Unstoppable and heals for 150 (+4% per level) Health per second.</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Twilight Veil</td>
-                    <td>Consuming Blaze grants 50 Spell Armor for 2 seconds per enemy Hero hit, reducing damage taken from Abilities by 50%.</td>
+                    <td>Activate to increase the armor bonus of Ogre Hide by 300% for 2 seconds. If cast while Ogre Rage is active, it instantly swaps to Ogre Hide.</td>
                   </tr>
                   <tr>
                     <td>20</td>
-                    <td>C'thun's Gift</td>
-                    <td>Your Basic Attack becomes ranged and slows targets by 20% for 2 seconds.</td>
+                    <td>C'Thun's Gift</td>
+                    <td>Cho's Basic Attack becomes ranged and slows targets by 20% for 1.5 seconds.</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Favor of the Old Gods</td>
-                    <td>Upheaval gives 50 Armor for 5 seconds, reducing damage taken by 50%.</td>
+                    <td>Upheaval roots enemy Heroes for 1.5 seconds.</td>
                   </tr>
                   <tr>
                     <td>20</td>
-                    <td>The Will Of Gall</td>
-                    <td>Gall can activate Will of Gall to make you Unstoppable for 2 seconds.  60 second cooldown.</td>
+                    <td>Hour of Twilight</td>
+                    <td>Decreases Cho'gall's death timer by 50%.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>The Will of Cho</td>
+                    <td>Takedowns permanently increase the armor granted by Ogre Hide by 2, to a max of 50 extra armor.</td>
                   </tr>
                 </tbody>
               </table>
@@ -319,32 +325,32 @@
                   <tr>
                     <td>Q</td>
                     <td>Surging Fist</td>
-                    <td>Wind up for at least 1 second temporarily slowing yourself, then reactivate to charge in a direction. Enemies in your path are knocked aside and take 46 (+4% per level) damage.</td>
+                    <td>Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 (+4% per level) damage. The dash range increases by up to 250%, depending on how long it is charged.</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Consuming Blaze</td>
-                    <td>Ignite nearby enemies, dealing 134 (+4% per level) damage over 4 seconds. If this hits an enemy, gain 272 (+4% per level) Health over 4 seconds.</td>
+                    <td>Ignite nearby enemies, dealing 150 (+4% per level) damage over 5 seconds. Basic Attacking burning Heroes re-Ignites them. Cho is healed for 30 (+4% per level) when an enemy is Ignited.</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Rune Bomb</td>
-                    <td>Roll a bomb dealing 91 (+4% per level) damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 274 (+4% per level) damage in an area.</td>
-                  </tr>
-                  <tr>
-                    <td>R</td>
-                    <td>Upheaval</td>
-                    <td>After 1 second pull enemies towards your direction, slowing them by 25% for 3 seconds and dealing 100 (+4% per level) damage.</td>
+                    <td>Roll a bomb dealing 91 (+4% per level) damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 221 (+4% per level) damage in an area.</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Hammer of Twilight</td>
-                    <td>Passively increases Basic Attack damage by 25%. Activate to swing the Hammer to deal 156 (+4.5% per level) damage, push enemies away, and stun for 0.75 seconds.</td>
+                    <td>Activate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and stuning them for 0.75 seconds.  Passive: Cho's Basic Attacks deal 25% increased damage.</td>
                   </tr>
                   <tr>
-                    <td>None</td>
-                    <td>Two-Headed</td>
-                    <td>Gall is permanently attached to you, going where you go.</td>
+                    <td>R</td>
+                    <td>Upheaval</td>
+                    <td>After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 100 (+4% per level) damage.</td>
+                  </tr>
+                  <tr>
+                    <td>D</td>
+                    <td>Ogre Hide</td>
+                    <td>Activate to gain 25 Armor, but reduce Gall's damage by 25%.</td>
                   </tr>
                 </tbody>
               </table>
@@ -358,6 +364,284 @@
             <div class="hero-sprite hero-position"></div>
             <div>Cho</div>
           </h2>
+          <div id="patch2017-03-14" class="panel panel-primary">
+            <div class="panel-heading">
+              <h3>2017-03-14 Patch Notes <a class="permalink" href="#patch2017-03-14" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20581822" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+            </div>
+            <div class="panel-body table-responsive">
+              <h4>Hero Updates</h4>
+              <p><strong>Stats</strong></p>
+<ul>
+<li>Maximum Base Health reduced from 3528 to 2950</li>
+<li>Health Regen reduced from 7.35 to 6.15</li>
+</ul>
+<p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Surging Dash (Q)</strong>
+<ul>
+<li>Cooldown reduced from 13 to 12 seconds.
+<ul>
+<li>Lowered maximum dash range from 12 to 10</li>
+<li>Reduced full charge up duration from 8 to 4 seconds.</li>
+<li>Times out after 5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Consuming Blaze (W)</strong>
+<ul>
+<li>New functionality:
+<ul>
+<li>Ignite all nearby enemies for 5 seconds, dealing 30 damage per second and instantly healing Cho for 30 Health per target hit.</li>
+<li>Attacks against ignited Heroes reapply the debuff (instant heal + refresh dot duration).</li>
+</ul></li>
+</ul></li>
+<li><strong>Rune Bomb (E)</strong>
+<ul>
+<li>Rune Bomb now continues its full path regardless of when or if Gall decides to detonate it.</li>
+</ul></li>
+<li><strong>Two-Headed Ogre (D)</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Trait: Ogre Hide (D)</strong>
+<ul>
+<li>While active Cho gains 25 Armor.</li>
+<li>5 Second cooldown.</li>
+<li>Effect is removed if Gall activates Ogre Rage.</li>
+</ul></li>
+<li><strong>Twilight Hammer (R)</strong>
+<ul>
+<li>Damage reduced from 156.25 to 150</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Surging Dash (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Blazing Bulwark (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Fuel for the Flame (W)
+<ul>
+<li>New functionality:
+<ul>
+<li>!Quest: Kills empower Consuming Blaze’s Heal</li>
+<li>!Reward: Every 5 Minions killed near Cho increases the heal of Consuming Blaze by 1%</li>
+<li>!Reward: Every Hero killed near Cho increases the heal of Consuming Blaze by 2%</li>
+</ul></li>
+</ul></li>
+<li>New Talent: Consuming Fire (W)
+<ul>
+<li>Consuming Blaze’s heal is increased by 150% against Heroic targets.</li>
+</ul></li>
+<li>New talent: Absorbent Hide (D)
+<ul>
+<li>Increase all healing received by Cho by 15% while Ogre Hide is active.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Runed Gauntlet (E)
+<ul>
+<li>Moved to Level 13</li>
+<li>New functionality:
+<ul>
+<li>Basic Attacks against Heroes decrease the Cooldown of both your and Gall’s Heroic Abilities by .5 seconds.</li>
+</ul></li>
+</ul></li>
+<li>Seared Flesh (Passive)
+<ul>
+<li>New functionality:
+<ul>
+<li>Each consecutive Basic Attack against an enemy Hero deals 20% more damage. Up to a 60% bonus.</li>
+<li>This bonus lasts 5 seconds or until a different unit is attacked.</li>
+</ul></li>
+</ul></li>
+<li>New Talent: Uppercut (Q)
+<ul>
+<li>If Surging Dash hits an enemy Hero, it also deals 7% of their max health in damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Fire Eater (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>I AM Hurrying! (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Power Surge (Q)
+<ul>
+<li>New functionality:
+<ul>
+<li>Each enemy Hero hit reduces the cooldown of Surging Fist by 4 seconds.</li>
+</ul></li>
+</ul></li>
+<li>New Talent: Firestarter (W)
+<ul>
+<li>Reduce the cooldown of Consuming Blaze by 3 seconds.</li>
+<li>Basic Attacks against Heroes reduce the cooldown of Consuming Blaze by an additional 1 second.</li>
+</ul></li>
+<li>New Talent: Enraged Regeneration (D)
+<ul>
+<li>Cho’s Health Regeneration is increased by 200% while Ogre Rage is active.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Surge of Stamina (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Molten Block (Active)
+<ul>
+<li>Moved to Level 16</li>
+</ul></li>
+<li>Runic Feedback (E)
+<ul>
+<li>New functionality:
+<ul>
+<li>Gall’s Runic Blast reduces the cooldown of Rune Bomb by 1 second for every enemy hit. This bonus is doubled against Heroes.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Crippling Blow (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Frenzied Fists (Q)
+<ul>
+<li>Moved to Level 13</li>
+<li>New functionality:
+<ul>
+<li>Gain 75% attack speed for 5 seconds after using Surging Fist.</li>
+</ul></li>
+</ul></li>
+<li>Twilight Veil (W)
+<ul>
+<li>New functionality:
+<ul>
+<li>Activate to triple the effect of Ogre Hide for 2 seconds (25 to 75 Armor). 30 second cooldown</li>
+<li>If cast while Ogre Rage is active, instantly swap to Ogre Hide.</li>
+</ul></li>
+</ul></li>
+<li>Surging Dash (Q)
+<ul>
+<li>New functionality:
+<ul>
+<li>Cho gains 150 Health per second and is unstoppable while Surging Dash is channeled.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Favor of the Old Gods (R)
+<ul>
+<li>New functionality:
+<ul>
+<li>Upheaval roots all Heroes hit for 1.5 seconds</li>
+</ul></li>
+</ul></li>
+<li>The Will of Gall (Passive)
+<ul>
+<li>Removed (from Cho)</li>
+</ul></li>
+<li>New Talent: The Will of Cho (Trait)
+<ul>
+<li>Every takedown permanently increases the Armor of Ogre Hide by 2.</li>
+</ul></li>
+<li>New Talent: Hour of Twilight (Passive)
+<ul>
+<li>Cho’gall’s death timer is reduced by 50%​</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comment:</strong></em> When we were first told about the new event “Two
+  Heads are Better Than One”, we immediately set to work on giving Cho’gall’s
+  talent trees a much needed face-lift. A lot of our Warriors were getting Armor
+  updates in this patch and originally Cho’gall was no exception. After playing
+  with a generic form of it internally, we realized we had a once-in-a-Nexus
+  opportunity to do something very different and seized the moment. The
+  foundation of the Cho’gall rework revolves around their new Traits, Ogre Hide
+  and Ogre Rage, which are the keys to success with the Hero. The potential of
+  Cho’gall should be greater than ever, but you will have to make sure both
+  heads are working together in order to maximize your damage output while
+  keeping yourself alive long enough to keep doing it.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>LEVEL (TIER)</strong></th>
+<th></th>
+<th><strong>CHO TALENTS</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 (1)</strong></td>
+<td><em>Consuming Fire (W)</em></td>
+<td>(!) Fuel for the Flame (W)</td>
+<td><em>Calloused Hide (D)</em></td>
+</tr>
+<tr>
+<td><strong>4 (2)</strong></td>
+<td><em>Uppercut (Q)</em></td>
+<td>Rollback (E)</td>
+<td>Seared Flesh (Passive)</td>
+</tr>
+<tr>
+<td><strong>7 (3)</strong></td>
+<td><strong><em>Power Surge (Q)</em></strong></td>
+<td><em>Firestarter (W)</em></td>
+<td><em>Enraged Regeneration (D)</em></td>
+</tr>
+<tr>
+<td><strong>10 (4)</strong></td>
+<td>Hammer of Twilight (R)</td>
+<td>Upheaval (R)</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>13 (5)</strong></td>
+<td>Frenzied Fists (Q)</td>
+<td>Runic Feedback (E)</td>
+<td>Runed Gauntlet (Passive)</td>
+</tr>
+<tr>
+<td><strong>16 (6)</strong></td>
+<td>Surging Dash (Q)</td>
+<td>Twilight Veil (Active)</td>
+<td><strong>Molten Block (Active)</strong></td>
+</tr>
+<tr>
+<td><strong>20 (7)</strong></td>
+<td>C'Thun's Gift (R)</td>
+<td>Favor of the Old Gods (R)</td>
+<td><em>The Will of Cho (Passive)</em></td>
+<td><em>Hour of Twilight (Passive)</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em><strong>NEW</strong></em> Talent.</li>
+<li><strong>Bold text</strong> indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+            </div>
+          </div>
+          <hr>
           <div id="patch2016-10-18" class="panel panel-primary">
             <div class="panel-heading">
               <h3>2016-10-18 Patch Notes <a class="permalink" href="#patch2016-10-18" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20328243" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
@@ -707,7 +991,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Cho Patch Notes",
-        "description": "Cho, Melee Warrior, patch note history.  Last relevant patch: 2016-10-18",
+        "description": "Cho, Melee Warrior, patch note history.  Last relevant patch: 2017-03-14",
         "url": "https://heroespatchnotes.com/hero/cho.html",
         "keywords": "Cho patch notes, Cho patch history, hots Cho patch notes, Cho patches",
         "mainEntity": {
