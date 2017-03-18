@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="2016-08-01 PTR Patch Notes for Heroes of the Storm (HotS).">
+    <link rel="canonical" href="https://heroespatchnotes.com/patch/2016-08-01-ptr-patch-notes.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/patch/2016-08-01-ptr-patch-notes.html" />
+    <meta property="og:title" content="2016-08-01 PTR Patch Notes - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="2016-08-01 PTR Patch Notes for Heroes of the Storm (HotS)." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1485045593/officialpatchlogo.jpg" />
+        <title>2016-08-01 PTR Patch Notes - Heroes Patch Notes</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+    <style>
+      footer>div.container>div.row>div.col-sm-3>ul { list-style: none; padding-left: 0; }
+      footer>div.container>div.row>div.col-sm-3>ul>li { line-height: 1.75em; }
+      footer>div.container>div.row>div.col-sm-3>ul>li>a:hover { text-decoration: none; }
+      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
+    </style>
+
+    <style>
+      p { margin: 0; }
+      h3 { margin-top: 10.5px; }
+      blockquote { font-size: 14px; }
+      blockquote > p:not(:last-child) { margin-bottom: 10px; }
+      table { border-collapse: collapse !important; }
+      table { width: 100%; max-width: 100%; margin-bottom: 21px; }
+      table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
+        padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
+      table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #ecf0f1; }
+      table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
+      table > tbody + tbody { border-top: 2px solid #ecf0f1; }
+      table > tbody > tr:nth-of-type(odd) { background-color: #f9f9f9; }
+      table > tbody > tr:hover { background-color: #ecf0f1; }
+      table a:not(.btn), .table a:not(.btn) { text-decoration: none; }
+      table>tbody>tr>td, .table>tbody>tr>td, table>thead>tr>th, .table>thead>tr>th { text-align: center; }
+      h4 { background: url("//res.cloudinary.com/heroespatches/image/upload/v1488610221/hero-sprite-v20170306.png") 0px 0px no-repeat; background-size: 92px 6300px; height: 77px; padding-left: 75px; padding-top: 29px; }
+      #abathur{ background-position: -12px -312px; }
+      #alarak{ background-position: -12px -5512px; }
+      #anubarak{ background-position: -12px -112px; }
+      #artanis{ background-position: -12px -4112px; }
+      #arthas{ background-position: -12px -212px; }
+      #auriel{ background-position: -12px -5312px; }
+      #azmodan{ background-position: -12px -3212px; }
+      #brightwing{ background-position: -12px -3312px; }
+      #the-butcher, #butcher{ background-position: -12px -3712px; }
+      #chen{ background-position: -12px -412px; }
+      #cho{ background-position: -12px -4312px; }
+      #chromie{ background-position: -12px -5012px; }
+      #dehaka{ background-position: -12px -4812px; }
+      #diablo{ background-position: -12px -512px; }
+      #etc{ background-position: -12px -1212px; }
+      #falstad{ background-position: -12px -612px; }
+      #gall{ background-position: -12px -4312px; }
+      #gazlowe{ background-position: -12px -2012px; }
+      #greymane{ background-position: -12px -4512px; }
+      #guldan{ background-position: -12px -5212px; }
+      #illidan{ background-position: -12px -712px; }
+      #jaina{ background-position: -12px -812px; }
+      #johanna{ background-position: -12px -3612px; }
+      #kaelthas{ background-position: -12px -912px; }
+      #kerrigan{ background-position: -12px -1012px; }
+      #kharazim{ background-position: -12px -3912px; }
+      #leoric{ background-position: -12px -3812px; }
+      #li-li, #lili{ background-position: -12px -1112px; }
+      #li-ming, #liming{ background-position: -12px -4612px; }
+      #lt-morales, #ltmorales{ background-position: -12px -4212px; }
+      #lucio{ background-position: -12px -6112px; }
+      #lunara{ background-position: -12px -4412px; }
+      #malfurion{ background-position: -12px -1912px; }
+      #medivh{ background-position: -12px -5112px; }
+      #muradin{ background-position: -12px -1312px; }
+      #murky{ background-position: -12px -1412px; }
+      #nazeebo{ background-position: -12px -1512px; }
+      #nova{ background-position: -12px -1612px; }
+      #probius{ background-position: -12px -6212px; }
+      #ragnaros{ background-position: -12px -5812px; }
+      #raynor{ background-position: -12px -1712px; }
+      #rehgar{ background-position: -12px -1812px; }
+      #rexxar{ background-position: -12px -4012px; }
+      #samuro{ background-position: -12px -5612px; }
+      #sgt-hammer, #sgthammer{ background-position: -12px -2812px; }
+      #sonya{ background-position: -12px -2912px; }
+      #stitches{ background-position: -12px -3012px; }
+      #sylvanas{ background-position: -12px -3112px; }
+      #tassadar{ background-position: -12px -3412px; }
+      #the-lost-vikings, #thelostvikings{ background-position: -12px -12px; }
+      #thrall{ background-position: -12px -2712px; }
+      #tracer{ background-position: -12px -4912px; }
+      #tychus{ background-position: -12px -2112px; }
+      #tyrael{ background-position: -12px -2212px; }
+      #tyrande{ background-position: -12px -3512px; }
+      #uther{ background-position: -12px -2312px; }
+      #valeera{ background-position: -12px -6012px; }
+      #valla{ background-position: -12px -2412px; }
+      #varian{ background-position: -12px -5712px; }
+      #xul{ background-position: -12px -4712px; }
+      #zagara{ background-position: -12px -2512px; }
+      #zarya{ background-position: -12px -5412px; }
+      #zeratul{ background-position: -12px -2612px; }
+      #zuljin{ background-position: -12px -5912px; }
+      footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
+      footer { margin-top: 25px; }
+      a.permalink { color: #95a5a6; }
+      div.official-link>a { display: inline-block; vertical-align: middle; }
+      a.official { background: url("https://res.cloudinary.com/heroespatches/image/upload/c_scale,h_32/v1484894834/hotslogo.png") 0px 0px no-repeat; background-size: 30px 32px; width: 30px; height: 32px; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div id="top" class="row">
+        <div class="col-lg-12">
+          <h1 id="heroes-of-the-storm-ptr-patch-notes-august-1-2016">Heroes of the Storm PTR Patch Notes — August 1, 2016</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485045593/officialpatchlogo.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/20194781" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/20194781" target="_blank">Official Patch Notes</a></div>
+
+<p>Our next Heroes of the Storm patch has just arrived to the Public Test Realm
+and will be available for playtesting until August 8. During this time, we
+kindly request your assistance in trying out some of the new content it
+contains before we officially release the patch to the live version of Heroes.
+Just like last time, if you encounter any bugs or other issues during your PTR
+play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
+forum</a> to let us know about
+your experiences.</p>
+
+<h3 id="new-hero-auriel">New Hero: Auriel</h3>
+
+<p>It is through the archangel Auriel that the power of hope flows into the
+fabric of creation. Her eternal light illuminates even the darkest souls.
+Seeking harmony in all things, she is a mediator, a counselor, and when the
+need arises, a fearless warrior.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Bestow Hope (D)</strong>
+<ul>
+<li>Activate to bestow an allied Hero with Hope. Damage that Hero deals while they are nearby will cause you to store Energy. Bestow Hope can only be active on one Hero at a time.</li>
+<li>Passive: 40% of the damage you deal to Heroes and 8% of your damage dealt to non-Heroes is stored as Energy.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Sacred Sweep (Q)</strong>
+<ul>
+<li>Damages enemies in a wide arc and deals bonus damage to enemies caught in the center.</li>
+</ul></li>
+<li><strong>Ray of Hope (W)</strong>
+<ul>
+<li>Consume all of your stored Energy to Heal allied Heroes in the target area. The amount of Healing done is based on the amount of Energy spent.</li>
+</ul></li>
+<li><strong>Detainment Strike (E)</strong>
+<ul>
+<li>Deals damage to the first enemy Hero struck and knocks them back. If the target collides with terrain, they are also Stunned for 1.25 seconds and take additional damage.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Crystal Aegis (R)</strong>
+<ul>
+<li>Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis explodes, damaging nearby enemies.</li>
+</ul></li>
+<li><strong>Resurrect (R)</strong>
+<ul>
+<li>Allied Heroes leave behind a spirit on death. Channel on a spirit for 3 seconds to bring that ally back to life with 50% of their maximum Health at their death location.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="shop">Shop</h3>
+
+<p><strong>Bundles</strong></p>
+
+<ul>
+<li>An Auriel Bundle will be added to the Shop once the patch is officially released in each region next week.</li>
+</ul>
+
+<p><strong>New Hero</strong></p>
+
+<ul>
+<li><strong>Auriel</strong> has been added to the in-game Shop.</li>
+</ul>
+
+<p><strong>Skins</strong></p>
+
+<ul>
+<li>Demonic Auriel</li>
+<li>Master Auriel</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="performance-and-graphics">Performance and Graphics</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Significant improvements have been made to Heroes of the Storm’s overall framerate, affecting all game modes and Battlegrounds.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="user-interface">User Interface</h3>
+
+<p><strong>In-Game</strong></p>
+
+<ul>
+<li>Uther has received Custom UI that will display next to his in-game Hero Portrait after learning the Gathering Radiance Talent, and tracks the bonus Healing and damage amounts that will be applied to the next Holy Radiance cast. </li>
+</ul>
+
+<p><strong>Loading Screen</strong></p>
+
+<ul>
+<li>Loading bars have received updated art and their color has been changed to purple.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><strong><a href="#assassin">Assassin</a></strong></th>
+  <th><strong><a href="#specialist">Specialist</a></strong></th>
+  <th><strong><a href="#warrior">Warrior</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#kaelthas">Kael'thas</a></td>
+  <td><a href="#gazlowe">Gazlowe</a></td>
+  <td><a href="#leoric">Leoric</a></td>
+</tr>
+<tr>
+  <td><a href="#tracer">Tracer</a></td>
+  <td><a href="#nazeebo">Nazeebo</a></td>
+  <td><a href="#stitches">Stitches</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="kaelthas">Kael'thas</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Gravity Crush (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Sun King’s Fury (W)
+<ul>
+<li>Moved to level 7</li>
+<li>New Functionality: Now increases the damage of Living Bombs that spread to enemy Heroes by 30%</li>
+</ul></li>
+<li><strong>NEW TALENT: Arcane Dynamo (Passive)</strong>
+<ul>
+<li>Casting a Basic Ability causes you to gain 3% Ability Power for 5 seconds, stacking up to a total of 15% Ability Power</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Arcane Power (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>NEW TALENT: Flamethrower (Q)</strong>
+<ul>
+<li>Increases the range of Flamestrike by 40%. When you hit two or more enemy Heroes, reduce the cooldown of Flamestrike by 4 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> As we had mentioned in previous patches, we wanted
+  to make a niche for Kael’thas as an area-of-effect mage who punishes teams
+  that clump together. Our earlier changes to him succeeded in helping his
+  talent diversity, but we failed in pointing him enough in the direction of an
+  AoE mage. We’ve decided to cut Gravity Crush and change Sun King’s Fury to be
+  a mechanic more fitting of our intended design for Kael’thas.  </p>
+  
+  <p>To replace Sun King’s Fury at Level 16 we’ve created Arcane Dynamo, which
+  rewards Kael’thas players for spacing out their abilities and properly
+  balancing their Mana consumption. We also removed the generic talent Arcane
+  Power, and replaced it with Flamethrower, a finisher talent for Flamestrike
+  oriented builds.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="tracer">Tracer</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Slipstream (E)
+<ul>
+<li>No longer reduces the cooldown of Recall by 2 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Spatial Echo (Q)
+<ul>
+<li>New Functionality: Hero Takedowns now grant two charges of Blink</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>Sticky Bomb (R)
+<ul>
+<li>Slow amount increased from 60 to 70%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Bullet Spray (W)
+<ul>
+<li>Melee radius increase reduced from 50 to 40%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Total Recall (E)
+<ul>
+<li>Now also increases the cooldown of Recall by 8 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> For the most part, Tracer’s talents are in a
+  pretty healthy spot, but we had a few outliers that we wanted to fix -
+  particularly Spatial Echo and Total Recall. The intent of Spatial Echo was to
+  give Tracer a moment of power in comparison to the other two talents on her
+  tier, which are more generally useful and help her have more Blink casts
+  throughout a game. While its win rate was in line with other talents, its pick
+  rate was dominating the tier, and we weren’t happy with how much it let Tracer
+  use her Recall as a "get out of jail free card" due to the guaranteed blinks
+  that she would always have afterwards. Now she can still have the same moment
+  of power, but she will have to get in and get the kill in order to Recall out
+  to safety.  </p>
+  
+  <p>Total Recall is a great fantasy hit for us, but it comes at the cost of giving
+  Tracer something that she really wants in the form of self-sustain. We’re
+  adding the downside of increasing the cooldown of Recall to the talent in
+  order to make players think a little more about when they want to take the
+  talent.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="gazlowe">Gazlowe</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Clockwerk Steam Fists (Q)
+<ul>
+<li>New Functionality: Quest - Basic Attacks increase the duration of active Rock-It! Turrets by 2 seconds. Reward - After earning a total increase of 600 seconds, permanently reduce the charge cooldown of Rock-It! Turret by 3 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> Gazlowe likes turrets. We like turrets. Who
+  doesn’t like more turrets?</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="nazeebo">Nazeebo</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Zombie Wall (W)</strong>
+<ul>
+<li>Abilities that allow Heroes to move through units can no longer be used to escape Zombie Wall (Valla’s Vault, E.T.C.’s Powerslide, Sonya’s Whirlwind, etc.)</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comments:</strong></em> Nazeebo has been around for quite a long time.
+  Back in the early days of Heroes, there were very few that could escape his
+  Zombie Wall, and it was something that everyone in the Nexus greatly feared.
+  Since then we have added a lot more heroes with various mobility options that
+  allow them to get out. We’re making a change to give his Zombies collision,
+  which will greatly reduce the number of heroes who can easily escape them.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="leoric">Leoric</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Hopelessness (W)
+<ul>
+<li>Range increase changed from 20 to 25%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Royal Focus (E)
+<ul>
+<li>Now also increases the damage of the next Skeletal Swing by 50% in addition to its current functionality.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="stitches">Stitches</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Helping Hand (Active)</strong>
+<ul>
+<li>Pressing the Helping Hand hotkey (Default: 1) will now cast a Helping Hand modified version of Hook, instead of causing the next Hook to have the Helping Hand modification. Casting the Hook hotkey (Default: Q) will cast a normal version of Hook. These abilities share a cooldown.</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li><strong>Collision:</strong> Heroes can no longer push Neutral and Enemy Mercenaries by walking into them.</li>
+<li><strong>Mac:</strong> Fixed an issue that could cause the game client to crash while using Network Link Conditioner.</li>
+<li>Corrected a number of typos and tooltip errors across several aspects of the game.</li>
+</ul>
+
+<p><strong>AI</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> AI that has taken over Abathur after the controlling players leaves the game will no longer use Hearthstone while Symbiote is active on another Hero.</li>
+<li><strong>Medivh:</strong> AI Medivh will no longer attempt to gank an enemy Hero who is in the opposing Hall of Storms.</li>
+<li>Error messages will no longer display when an AI Rexxar or Uther spawn in-game.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Falstad:</strong> The landing indicator for Falstad’s Flight will no longer appear cut off when flying long distances.</li>
+<li><strong>Nova:</strong> The Novazon skin will now properly throw a Javelin when casting Snipe.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Battlefield of Eternity:</strong> Enemy Heroes are no longer visible while inside the Vent located just below the Hell side’s center Gate.</li>
+<li><strong>Dragon Shire:</strong> The tooltip for the Dragon Knight’s Rubble Maker Trait no longer incorrectly states that it reduces the duration of Silence effects.</li>
+<li><strong>Garden of Terror:</strong> Fixed an issue which prevented the Garden Terror’s Overgrowth from being cast if its area of effect would overlap with the opposing team’s Hall of Storms.</li>
+<li><strong>Towers of Doom:</strong> Fixed an issue in which some Summons, such as Arthas’ Ghouls, would not teleport with the Hero after using the Tunnel.</li>
+<li><strong>Try Mode:</strong> Zagara’s Infest Talent will no longer continue to affect Minions after clicking Reset Talents.</li>
+</ul>
+
+<p><strong>Heroes and Talents</strong></p>
+
+<ul>
+<li>Fixed an issue that could cause the player to lose selection of their Hero on death under certain circumstances.</li>
+<li><strong>Brightwing:</strong> Phase Shield now properly applies a Shield to targets under the effect of Abathur’s Symbiote.</li>
+<li><strong>Chromie:</strong> Temporal Loop can no longer return its target to areas of terrain that are not walkable. The target will instead be placed as close as possible to their original location.</li>
+<li><strong>Dehaka:</strong> Polymorph will no longer remove the effects of Dark Swarm.</li>
+<li><strong>Gazlowe:</strong> The Engine Gunk Talent now correctly causes Rock-It! Turret attacks to Slow enemy Movement Speed.</li>
+<li><strong>Greymane:</strong> Will no longer appear to slide at the end of Darkflight if the target moves out of maximum range as Greymane begins to leap.</li>
+<li><strong>Greymane:</strong> Go for the Throat Damage bonuses earned via the Unleashed Talent will now stack properly.</li>
+<li><strong>Gul’dan:</strong> The tooltip for the Consume Soul Activated Talent now properly lists that it stores up to 2 charges.</li>
+<li><strong>Gul’dan:</strong> Bonus Ability Power granted through the Darkness Within Talent will now correctly apply to all ticks of Drain Life Healing.</li>
+<li><strong>Gul’dan:</strong> Horrify’s Fear effect will now correctly be paused when enemies hit by the Ability enter Zeratul’s Void Prison.</li>
+<li><strong>Gul’dan:</strong> Heroes affected by Horrify will now properly run directly from the center of the cast into nearby Gates and Towers, rather than attempt to path around them.</li>
+<li><strong>Kael’thas:</strong> The visual effects displayed upon completing the Mana Addict Talent Quest will now correctly appear after gathering 20 Regeneration Globes, rather than 25.</li>
+<li><strong>Kerrigan:</strong> Assimilation will now properly grant Shields for splash damage dealt by Kerrigan’s Basic Attacks after learning Fury of the Swarm.</li>
+<li><strong>Leoric:</strong> The tooltip for Drain Essence now correctly states that it Heals up to 12.5% of maximum Health, rather than 10%.</li>
+<li><strong>Leoric:</strong> The Drain Hope effect applied by the Death March Talent no longer deals less damage than intended.</li>
+<li><strong>Lunara:</strong> Abolish Magic will now correctly reduce the duration of Fear, Root, Silence, Slow, and Stun effects after it is self-cast.</li>
+<li><strong>Nazeebo:</strong> Stomp will no longer be placed on cooldown while the Garagantuan is in Stasis.</li>
+<li><strong>Nazeebo:</strong> The player will no longer receive a Stasis overlay when Nazeebo’s Gargantuan is affected by Zagara’s Devouring Maw.</li>
+<li><strong>Rehgar:</strong> The Stormcaller Talent’s Mana restoration effect will now apply to all active Lightning Shields, rather than only the most recent cast.</li>
+<li><strong>Rexxar:</strong> Misha, Focus! Can now be cast when Rexxar, Misha, or both are Polymorphed. This should prevent situations in which Medivh’s Polybomb could cause Rexxar and Misha to become polymorphed indefinitely.</li>
+<li><strong>Sylvanas:</strong> Possession can no longer be cast on Doubloon Chests.</li>
+<li><strong>Sylvanas:</strong> Mind Control’s visual effects will no longer stretch across the Battleground, and Sylvanas will no longer attempt to chase Gul’dan if he uses Teleport to Demonic Circle during Mind Control’s casting time.</li>
+<li><strong>Zagara:</strong> The charge cooldown for Baneling Barrage will no longer be paused while inside of a Nydus Worm.</li>
+<li><strong>Zagara:</strong> Roaches, Hydralisks, and Mutalisks will no longer receive Healing while they are on Creep.</li>
+<li><strong>Zagara:</strong> Casting Cleanse on an allied Hero as they are being pulled into Devouring Maw will no longer allow them to escape.</li>
+</ul>
+
+<p><strong>Sound</strong></p>
+
+<ul>
+<li><strong>Shop:</strong> Voiceover that plays on purchasing Gul’dan will no longer be cut short in the Taiwanese client.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li><strong>Draft Mode:</strong> The Browse All Heroes button will no longer fly in diagonally from the upper-left.</li>
+<li><strong>Draft Mode:</strong> The blue team’s background glow will no longer change to gray after locking in a Hero.</li>
+<li><strong>Hotkeys:</strong> Rebinding an Ability hotkey to the Left Mouse Button will no longer prevent that Ability from being cast using the Left Mouse Button.</li>
+<li><strong>Hotkeys:</strong> Rebinding the Chat hotkey will no longer add the character associated with that key to the chat field.</li>
+<li><strong>In-Game:</strong> Many Questing Talents will now properly appear and track progress in the Buff bar found below the in-game Hero Portrait.</li>
+<li><strong>Loading Screen:</strong> Fixed an issue that caused certain Loading Screen tips to list incorrect hotkeys.</li>
+<li><strong>Menus:</strong> Players can now leave Custom Games by choosing Quit or Exit to Desktop.</li>
+<li><strong>Menus:</strong> Players in a party will no longer be forced to Exit to Desktop in order to leave games against the AI.</li>
+<li><strong>Menus:</strong> The Veteran Challenge Welcome pane is no longer missing a portion of its background art on Low graphic settings.</li>
+<li><strong>Profile:</strong> Individual Hero Stat pages, accessed via the Hero Collection, will now list lifetime rather than per-Season stats for the selected Hero.</li>
+<li><strong>Profile:</strong> Preseason stats on the Statistics tab will now display the highest Rank that player reached during Preseason play, even if that player’s highest rank was achieved prior to the rank reset in August 2015.</li>
+<li><strong>Profile:</strong> Fixed an issue in which the player’s total ranked points or Grand Master ranking, located in the Ranked Play section of the Profile Summary tab, could mismatch the player’s current standing.</li>
+<li><strong>Profile:</strong> Fixed an issue in which a lock icon rather than the appropriate league badge could display in the Ranked Play section of a player’s Profile Summary tab under certain circumstances.</li>
+<li><strong>Quick Cast:</strong> Activating an Ability’s targeting reticle will no longer prevent casting that Ability using Quick Cast.</li>
+<li><strong>Rejoin:</strong> The rejoin prompt will no longer temporarily persist after declining to rejoin a game.</li>
+<li><strong>Rejoin:</strong> Five-player parties who quit a Versus AI game will no longer be forced to rejoin that game.</li>
+<li><strong>Shop:</strong> Heroic Ability hotkey icons are now properly aligned on About pages in the Shop.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+              <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
