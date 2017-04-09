@@ -319,18 +319,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .timeline > li .date {
     font-size: 1.6em;
   }
-/*
-  .line-hero-img:before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    width: 76px;
-    height: 82px;
-    background: url("../images/hex-border.svg") 0 0 no-repeat;
-    background-size: 76px 82px;
-  }
-*/
+
   .line-icon, .line-bg-img, .line-hero-img {
     box-shadow: 0 0 0 8px #3498db;
   }
