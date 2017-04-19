@@ -1,7 +1,7 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero, .medium-hero { 
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1491374514/hero-sprite-v20170404.png") 0px 0px no-repeat; 
-  background-size: 44px 3105.348px; height: 44px; width: 44px; 
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1492579250/hero-sprite-v20170425.png") 0px 0px no-repeat; 
+  background-size: 44px 3153.174px; height: 44px; width: 44px; 
 }
 
 .small-battleground, .medium-battleground {
@@ -212,7 +212,7 @@ div.panel-heading>h3>a>i.fa-external-link {
 
 @media (min-width: 360px) {
   .medium-hero { 
-    background-size: 60px 4234.565px; height: 60px; width: 60px; 
+    background-size: 60px 4299.783px; height: 60px; width: 60px; 
   }
 
   .medium-battleground { 
