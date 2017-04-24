@@ -5,7 +5,7 @@
 }
 .small-battleground, .medium-battleground {
   background:url("//res.cloudinary.com/heroespatches/image/upload/v1493000540/bg-sprite-v20170425.png") 0px 0px no-repeat; 
-  background-size: 50.6px 703.45px; width: 50.6px; height: 44px;
+  background-size: 50.6px 703.45px; width: 44px; height: 44px;
 }
 
 .small-abathur, .medium-abathur{ background-position: 0px -143.478261px; }
