@@ -1,92 +1,91 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero, .medium-hero { 
   background:url("//res.cloudinary.com/heroespatches/image/upload/v1492579250/hero-sprite-v20170425.png") 0px 0px no-repeat; 
-  background-size: 44px 3153.174px; height: 44px; width: 44px; 
+  background-size: 44px 3153.17391591px; height: 44px; width: 44px; 
 }
-
 .small-battleground, .medium-battleground {
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1481355436/battleground-sprite.png") 0px 0px no-repeat; 
-  background-size: 541.321px 44px; width: 45px; height: 44px;
+  background:url("//res.cloudinary.com/heroespatches/image/upload/v1493000540/bg-sprite-v20170425.png") 0px 0px no-repeat; 
+  background-size: 50.6px 703.45px; width: 50.6px; height: 44px;
 }
 
-.small-abathur, .medium-abathur{ background-position: 0px -143px; }
-.small-alarak, .medium-alarak{ background-position: 0px -2678px; }
-.small-anubarak, .medium-anubarak{ background-position: 0px -48px; }
-.small-artanis, .medium-artanis{ background-position: 0px -1961px; }
-.small-arthas, .medium-arthas{ background-position: 0px -96px; }
-.small-auriel, .medium-auriel{ background-position: 0px -2583px; }
-.small-azmodan, .medium-azmodan{ background-position: 0px -1530px; }
-.small-brightwing, .medium-brightwing{ background-position: 0px -1578px; }
-.small-butcher, .medium-butcher{ background-position: 0px -1770px; }
-.small-cassia, .medium-cassia{ background-position: 0px -3061px; }
-.small-chen, .medium-chen{ background-position: 0px -191px; }
-.small-cho, .medium-cho{ background-position: 0px -2057px; }
-.small-chromie, .medium-chromie{ background-position: 0px -2439px; }
-.small-dehaka, .medium-dehaka{ background-position: 0px -2343px; }
-.small-diablo, .medium-diablo{ background-position: 0px -239px; }
-.small-etc, .medium-etc{ background-position: 0px -574px; }
-.small-falstad, .medium-falstad{ background-position: 0px -287px; }
-.small-gall, .medium-gall{ background-position: 0px -2104px; }
-.small-gazlowe, .medium-gazlowe{ background-position: 0px -957px; }
-.small-greymane, .medium-greymane{ background-position: 0px -2200px; }
-.small-guldan, .medium-guldan{ background-position: 0px -2535px; }
-.small-illidan, .medium-illidan{ background-position: 0px -335px; }
-.small-jaina, .medium-jaina{ background-position: 0px -383px; }
-.small-johanna, .medium-johanna{ background-position: 0px -1722px; }
-.small-kaelthas, .medium-kaelthas{ background-position: 0px -431px; }
-.small-kerrigan, .medium-kerrigan{ background-position: 0px -478px; }
-.small-kharazim, .medium-kharazim{ background-position: 0px -1865px; }
-.small-leoric, .medium-leoric{ background-position: 0px -1817px; }
-.small-lili, .medium-lili{ background-position: 0px -526px; }
-.small-liming, .medium-liming{ background-position: 0px -2248px; }
-.small-ltmorales, .medium-ltmorales{ background-position: 0px -2009px; }
-.small-lucio, .medium-lucio{ background-position: 0px -2965px; }
-.small-lunara, .medium-lunara{ background-position: 0px -2152px; }
-.small-malfurion, .medium-malfurion{ background-position: 0px -909px; }
-.small-medivh, .medium-medivh{ background-position: 0px -2487px; }
-.small-muradin, .medium-muradin{ background-position: 0px -622px; }
-.small-murky, .medium-murky{ background-position: 0px -670px; }
-.small-nazeebo, .medium-nazeebo{ background-position: 0px -718px; }
-.small-nova, .medium-nova{ background-position: 0px -765px; }
-.small-probius, .medium-probius{ background-position: 0px -3013px; }
-.small-ragnaros, .medium-ragnaros{ background-position: 0px -2822px; }
-.small-raynor, .medium-raynor{ background-position: 0px -813px; }
-.small-rehgar, .medium-rehgar{ background-position: 0px -861px; }
-.small-rexxar, .medium-rexxar{ background-position: 0px -1913px; }
-.small-samuro, .medium-samuro{ background-position: 0px -2726px; }
-.small-sgthammer, .medium-sgthammer{ background-position: 0px -1339px; }
-.small-sonya, .medium-sonya{ background-position: 0px -1387px; }
-.small-stitches, .medium-stitches{ background-position: 0px -1435px; }
-.small-sylvanas, .medium-sylvanas{ background-position: 0px -1483px; }
-.small-tassadar, .medium-tassadar{ background-position: 0px -1626px; }
-.small-thelostvikings, .medium-thelostvikings{ background-position: 0px -0px; }
-.small-thrall, .medium-thrall{ background-position: 0px -1291px; }
-.small-tracer, .medium-tracer{ background-position: 0px -2391px; }
-.small-tychus, .medium-tychus{ background-position: 0px -1004px; }
-.small-tyrael, .medium-tyrael{ background-position: 0px -1052px; }
-.small-tyrande, .medium-tyrande{ background-position: 0px -1674px; }
-.small-uther, .medium-uther{ background-position: 0px -1100px; }
-.small-valeera, .medium-valeera{ background-position: 0px -2917px; }
-.small-valla, .medium-valla{ background-position: 0px -1148px; }
-.small-varian, .medium-varian{ background-position: 0px -2774px; }
-.small-xul, .medium-xul{ background-position: 0px -2296px; }
-.small-zagara, .medium-zagara{ background-position: 0px -1196px; }
-.small-zarya, .medium-zarya{ background-position: 0px -2630px; }
-.small-zeratul, .medium-zeratul{ background-position: 0px -1244px; }
-.small-zuljin, .medium-zuljin{ background-position: 0px -2870px; }
-.small-battlefieldofeternity, .medium-battlefieldofeternity{ background-position: -316px 0px; }
-.small-blackheartsbay, .medium-blackheartsbay{ background-position: -90px 0px; }
-.small-braxisholdout, .medium-braxisholdout{ background-position: -451px 0px; }
-.small-cursedhollow, .medium-cursedhollow{ background-position: -226px 0px; }
-.small-dragonshire, .medium-dragonshire{ background-position: -135px 0px; }
-.small-gardenofterror, .medium-gardenofterror{ background-position: -45px 0px; }
-.small-hauntedmines, .medium-hauntedmines{ background-position: -181px 0px; }
-.small-infernalshrines, .medium-infernalshrines{ background-position: -361px 0px; }
-.small-lostcavern, .medium-lostcavern{ background-position: -271px 0px; }
-.small-skytemple, .medium-skytemple{ background-position: 0px 0px; }
-.small-tombofthespiderqueen, .medium-tombofthespiderqueen{ background-position: -271px 0px; }
-.small-towersofdoom, .medium-towersofdoom{ background-position: -406px 0px; }
-.small-warheadjunction, .medium-warheadjunction{ background-position: -496px 0px; }
+.small-abathur, .medium-abathur{ background-position: 0px -143.478261px; }
+.small-alarak, .medium-alarak{ background-position: 0px -2678.260872px; }
+.small-anubarak, .medium-anubarak{ background-position: 0px -47.826087px; }
+.small-artanis, .medium-artanis{ background-position: 0px -1960.869567px; }
+.small-arthas, .medium-arthas{ background-position: 0px -95.652174px; }
+.small-auriel, .medium-auriel{ background-position: 0px -2582.608698px; }
+.small-azmodan, .medium-azmodan{ background-position: 0px -1530.434784px; }
+.small-brightwing, .medium-brightwing{ background-position: 0px -1578.260871px; }
+.small-butcher, .medium-butcher{ background-position: 0px -1769.565219px; }
+.small-cassia, .medium-cassia{ background-position: 0px -3060.869568px; }
+.small-chen, .medium-chen{ background-position: 0px -191.304348px; }
+.small-cho, .medium-cho{ background-position: 0px -2056.521741px; }
+.small-chromie, .medium-chromie{ background-position: 0px -2439.130437px; }
+.small-dehaka, .medium-dehaka{ background-position: 0px -2343.478263px; }
+.small-diablo, .medium-diablo{ background-position: 0px -239.130435px; }
+.small-etc, .medium-etc{ background-position: 0px -573.913044px; }
+.small-falstad, .medium-falstad{ background-position: 0px -286.956522px; }
+.small-gall, .medium-gall{ background-position: 0px -2104.347828px; }
+.small-gazlowe, .medium-gazlowe{ background-position: 0px -956.52174px; }
+.small-greymane, .medium-greymane{ background-position: 0px -2200.000002px; }
+.small-guldan, .medium-guldan{ background-position: 0px -2534.782611px; }
+.small-illidan, .medium-illidan{ background-position: 0px -334.782609px; }
+.small-jaina, .medium-jaina{ background-position: 0px -382.608696px; }
+.small-johanna, .medium-johanna{ background-position: 0px -1721.739132px; }
+.small-kaelthas, .medium-kaelthas{ background-position: 0px -430.434783px; }
+.small-kerrigan, .medium-kerrigan{ background-position: 0px -478.26087px; }
+.small-kharazim, .medium-kharazim{ background-position: 0px -1865.217393px; }
+.small-leoric, .medium-leoric{ background-position: 0px -1817.391306px; }
+.small-lili, .medium-lili{ background-position: 0px -526.086957px; }
+.small-liming, .medium-liming{ background-position: 0px -2247.826089px; }
+.small-ltmorales, .medium-ltmorales{ background-position: 0px -2008.695654px; }
+.small-lucio, .medium-lucio{ background-position: 0px -2965.217394px; }
+.small-lunara, .medium-lunara{ background-position: 0px -2152.173915px; }
+.small-malfurion, .medium-malfurion{ background-position: 0px -908.695653px; }
+.small-medivh, .medium-medivh{ background-position: 0px -2486.956524px; }
+.small-muradin, .medium-muradin{ background-position: 0px -621.739131px; }
+.small-murky, .medium-murky{ background-position: 0px -669.565218px; }
+.small-nazeebo, .medium-nazeebo{ background-position: 0px -717.391305px; }
+.small-nova, .medium-nova{ background-position: 0px -765.217392px; }
+.small-probius, .medium-probius{ background-position: 0px -3013.043481px; }
+.small-ragnaros, .medium-ragnaros{ background-position: 0px -2821.739133px; }
+.small-raynor, .medium-raynor{ background-position: 0px -813.043479px; }
+.small-rehgar, .medium-rehgar{ background-position: 0px -860.869566px; }
+.small-rexxar, .medium-rexxar{ background-position: 0px -1913.04348px; }
+.small-samuro, .medium-samuro{ background-position: 0px -2726.086959px; }
+.small-sgthammer, .medium-sgthammer{ background-position: 0px -1339.130436px; }
+.small-sonya, .medium-sonya{ background-position: 0px -1386.956523px; }
+.small-stitches, .medium-stitches{ background-position: 0px -1434.78261px; }
+.small-sylvanas, .medium-sylvanas{ background-position: 0px -1482.608697px; }
+.small-tassadar, .medium-tassadar{ background-position: 0px -1626.086958px; }
+.small-thelostvikings, .medium-thelostvikings{ background-position: 0px 0.0px; }
+.small-thrall, .medium-thrall{ background-position: 0px -1291.304349px; }
+.small-tracer, .medium-tracer{ background-position: 0px -2391.30435px; }
+.small-tychus, .medium-tychus{ background-position: 0px -1004.347827px; }
+.small-tyrael, .medium-tyrael{ background-position: 0px -1052.173914px; }
+.small-tyrande, .medium-tyrande{ background-position: 0px -1673.913045px; }
+.small-uther, .medium-uther{ background-position: 0px -1100.000001px; }
+.small-valeera, .medium-valeera{ background-position: 0px -2917.391307px; }
+.small-valla, .medium-valla{ background-position: 0px -1147.826088px; }
+.small-varian, .medium-varian{ background-position: 0px -2773.913046px; }
+.small-xul, .medium-xul{ background-position: 0px -2295.652176px; }
+.small-zagara, .medium-zagara{ background-position: 0px -1195.652175px; }
+.small-zarya, .medium-zarya{ background-position: 0px -2630.434785px; }
+.small-zeratul, .medium-zeratul{ background-position: 0px -1243.478262px; }
+.small-zuljin, .medium-zuljin{ background-position: 0px -2869.56522px; }
+.small-battlefieldofeternity, .medium-battlefieldofeternity{ background-position: -4px -275.0px; }
+.small-blackheartsbay, .medium-blackheartsbay{ background-position: -4px -55.0px; }
+.small-braxisholdout, .medium-braxisholdout{ background-position: -4px -440.0px; }
+.small-cursedhollow, .medium-cursedhollow{ background-position: -4px -165.0px; }
+.small-dragonshire, .medium-dragonshire{ background-position: -4px -220.0px; }
+.small-gardenofterror, .medium-gardenofterror{ background-position: -4px -110.0px; }
+.small-hauntedmines, .medium-hauntedmines{ background-position: -4px -550.0px; }
+.small-infernalshrines, .medium-infernalshrines{ background-position: -4px -330.0px; }
+.small-lostcavern, .medium-lostcavern{ background-position: -4px -660.0px; }
+.small-skytemple, .medium-skytemple{ background-position: -4px 0.0px; }
+.small-tombofthespiderqueen, .medium-tombofthespiderqueen{ background-position: -4px -660.0px; }
+.small-towersofdoom, .medium-towersofdoom{ background-position: -4px -385.0px; }
+.small-warheadjunction, .medium-warheadjunction{ background-position: -4px -495.0px; }
 
 /* Vertical timeline adapted from: http://tympanus.net/codrops/2013/05/02/vertical-timeline/ */
 .timeline {
@@ -212,91 +211,103 @@ div.panel-heading>h3>a>i.fa-external-link {
 
 @media (min-width: 360px) {
   .medium-hero { 
-    background-size: 60px 4299.783px; height: 60px; width: 60px; 
+    background-size: 60px 4299.78260841px; height: 60px; width: 60px; 
   }
-
   .medium-battleground { 
-    background-size: 738.165px 60px; width: 60px; height: 60px; 
+    background-size: 69px 959.25px; width: 60px; height: 60px; 
   }
 
-  .medium-abathur{ background-position: 0px -196px; }
-  .medium-alarak{ background-position: 0px -3652px; }
-  .medium-anubarak{ background-position: 0px -65px; }
-  .medium-artanis{ background-position: 0px -2674px; }
-  .medium-arthas{ background-position: 0px -130px; }
-  .medium-auriel{ background-position: 0px -3522px; }
-  .medium-azmodan{ background-position: 0px -2087px; }
-  .medium-brightwing{ background-position: 0px -2152px; }
-  .medium-butcher{ background-position: 0px -2413px; }
-  .medium-cassia{ background-position: 0px -4174px; }
-  .medium-chen{ background-position: 0px -261px; }
-  .medium-cho{ background-position: 0px -2804px; }
-  .medium-chromie{ background-position: 0px -3326px; }
-  .medium-dehaka{ background-position: 0px -3196px; }
-  .medium-diablo{ background-position: 0px -326px; }
-  .medium-etc{ background-position: 0px -783px; }
-  .medium-falstad{ background-position: 0px -391px; }
-  .medium-gall{ background-position: 0px -2870px; }
-  .medium-gazlowe{ background-position: 0px -1304px; }
-  .medium-greymane{ background-position: 0px -3000px; }
-  .medium-guldan{ background-position: 0px -3457px; }
-  .medium-illidan{ background-position: 0px -457px; }
-  .medium-jaina{ background-position: 0px -522px; }
-  .medium-johanna{ background-position: 0px -2348px; }
-  .medium-kaelthas{ background-position: 0px -587px; }
-  .medium-kerrigan{ background-position: 0px -652px; }
-  .medium-kharazim{ background-position: 0px -2543px; }
-  .medium-leoric{ background-position: 0px -2478px; }
-  .medium-lili{ background-position: 0px -717px; }
-  .medium-liming{ background-position: 0px -3065px; }
-  .medium-ltmorales{ background-position: 0px -2739px; }
-  .medium-lucio{ background-position: 0px -4043px; }
-  .medium-lunara{ background-position: 0px -2935px; }
-  .medium-malfurion{ background-position: 0px -1239px; }
-  .medium-medivh{ background-position: 0px -3391px; }
-  .medium-muradin{ background-position: 0px -848px; }
-  .medium-murky{ background-position: 0px -913px; }
-  .medium-nazeebo{ background-position: 0px -978px; }
-  .medium-nova{ background-position: 0px -1043px; }
-  .medium-probius{ background-position: 0px -4109px; }
-  .medium-ragnaros{ background-position: 0px -3848px; }
-  .medium-raynor{ background-position: 0px -1109px; }
-  .medium-rehgar{ background-position: 0px -1174px; }
-  .medium-rexxar{ background-position: 0px -2609px; }
-  .medium-samuro{ background-position: 0px -3717px; }
-  .medium-sgthammer{ background-position: 0px -1826px; }
-  .medium-sonya{ background-position: 0px -1891px; }
-  .medium-stitches{ background-position: 0px -1957px; }
-  .medium-sylvanas{ background-position: 0px -2022px; }
-  .medium-tassadar{ background-position: 0px -2217px; }
-  .medium-thelostvikings{ background-position: 0px -0px; }
-  .medium-thrall{ background-position: 0px -1761px; }
-  .medium-tracer{ background-position: 0px -3261px; }
-  .medium-tychus{ background-position: 0px -1370px; }
-  .medium-tyrael{ background-position: 0px -1435px; }
-  .medium-tyrande{ background-position: 0px -2283px; }
-  .medium-uther{ background-position: 0px -1500px; }
-  .medium-valeera{ background-position: 0px -3978px; }
-  .medium-valla{ background-position: 0px -1565px; }
-  .medium-varian{ background-position: 0px -3783px; }
-  .medium-xul{ background-position: 0px -3130px; }
-  .medium-zagara{ background-position: 0px -1630px; }
-  .medium-zarya{ background-position: 0px -3587px; }
-  .medium-zeratul{ background-position: 0px -1696px; }
-  .medium-zuljin{ background-position: 0px -3913px; }
-  .medium-battlefieldofeternity{ background-position: -431px 0px; }
-  .medium-blackheartsbay{ background-position: -123px 0px; }
-  .medium-braxisholdout{ background-position: -616px 0px; }
-  .medium-cursedhollow{ background-position: -308px 0px; }
-  .medium-dragonshire{ background-position: -184px 0px; }
-  .medium-gardenofterror{ background-position: -62px 0px; }
-  .medium-hauntedmines{ background-position: -246px 0px; }
-  .medium-infernalshrines{ background-position: -493px 0px; }
-  .medium-lostcavern{ background-position: -370px 0px; }
-  .medium-skytemple{ background-position: 0px 0px; }
-  .medium-tombofthespiderqueen{ background-position: -370px 0px; }
-  .medium-towersofdoom{ background-position: -555px 0px; }
-  .medium-warheadjunction{ background-position: -678px 0px; }
+  .medium-abathur{ background-position: 0px -195.6521739px; }
+  .medium-alarak{ background-position: 0px -3652.1739128px; }
+  .medium-anubarak{ background-position: 0px -65.2173913px; }
+  .medium-artanis{ background-position: 0px -2673.9130433px; }
+  .medium-arthas{ background-position: 0px -130.4347826px; }
+  .medium-auriel{ background-position: 0px -3521.7391302px; }
+  .medium-azmodan{ background-position: 0px -2086.9565216px; }
+  .medium-brightwing{ background-position: 0px -2152.1739129px; }
+  .medium-butcher{ background-position: 0px -2413.0434781px; }
+  .medium-cassia{ background-position: 0px -4173.9130432px; }
+  .medium-chen{ background-position: 0px -260.8695652px; }
+  .medium-cho{ background-position: 0px -2804.3478259px; }
+  .medium-chromie{ background-position: 0px -3326.0869563px; }
+  .medium-dehaka{ background-position: 0px -3195.6521737px; }
+  .medium-diablo{ background-position: 0px -326.0869565px; }
+  .medium-etc{ background-position: 0px -782.6086956px; }
+  .medium-falstad{ background-position: 0px -391.3043478px; }
+  .medium-gall{ background-position: 0px -2869.5652172px; }
+  .medium-gazlowe{ background-position: 0px -1304.347826px; }
+  .medium-greymane{ background-position: 0px -2999.9999998px; }
+  .medium-guldan{ background-position: 0px -3456.5217389px; }
+  .medium-illidan{ background-position: 0px -456.5217391px; }
+  .medium-jaina{ background-position: 0px -521.7391304px; }
+  .medium-johanna{ background-position: 0px -2347.8260868px; }
+  .medium-kaelthas{ background-position: 0px -586.9565217px; }
+  .medium-kerrigan{ background-position: 0px -652.173913px; }
+  .medium-kharazim{ background-position: 0px -2543.4782607px; }
+  .medium-leoric{ background-position: 0px -2478.2608694px; }
+  .medium-lili{ background-position: 0px -717.3913043px; }
+  .medium-liming{ background-position: 0px -3065.2173911px; }
+  .medium-ltmorales{ background-position: 0px -2739.1304346px; }
+  .medium-lucio{ background-position: 0px -4043.4782606px; }
+  .medium-lunara{ background-position: 0px -2934.7826085px; }
+  .medium-malfurion{ background-position: 0px -1239.1304347px; }
+  .medium-medivh{ background-position: 0px -3391.3043476px; }
+  .medium-muradin{ background-position: 0px -847.8260869px; }
+  .medium-murky{ background-position: 0px -913.0434782px; }
+  .medium-nazeebo{ background-position: 0px -978.2608695px; }
+  .medium-nova{ background-position: 0px -1043.4782608px; }
+  .medium-probius{ background-position: 0px -4108.6956519px; }
+  .medium-ragnaros{ background-position: 0px -3847.8260867px; }
+  .medium-raynor{ background-position: 0px -1108.6956521px; }
+  .medium-rehgar{ background-position: 0px -1173.9130434px; }
+  .medium-rexxar{ background-position: 0px -2608.695652px; }
+  .medium-samuro{ background-position: 0px -3717.3913041px; }
+  .medium-sgthammer{ background-position: 0px -1826.0869564px; }
+  .medium-sonya{ background-position: 0px -1891.3043477px; }
+  .medium-stitches{ background-position: 0px -1956.521739px; }
+  .medium-sylvanas{ background-position: 0px -2021.7391303px; }
+  .medium-tassadar{ background-position: 0px -2217.3913042px; }
+  .medium-thelostvikings{ background-position: 0px 0.0px; }
+  .medium-thrall{ background-position: 0px -1760.8695651px; }
+  .medium-tracer{ background-position: 0px -3260.869565px; }
+  .medium-tychus{ background-position: 0px -1369.5652173px; }
+  .medium-tyrael{ background-position: 0px -1434.7826086px; }
+  .medium-tyrande{ background-position: 0px -2282.6086955px; }
+  .medium-uther{ background-position: 0px -1499.9999999px; }
+  .medium-valeera{ background-position: 0px -3978.2608693px; }
+  .medium-valla{ background-position: 0px -1565.2173912px; }
+  .medium-varian{ background-position: 0px -3782.6086954px; }
+  .medium-xul{ background-position: 0px -3130.4347824px; }
+  .medium-zagara{ background-position: 0px -1630.4347825px; }
+  .medium-zarya{ background-position: 0px -3586.9565215px; }
+  .medium-zeratul{ background-position: 0px -1695.6521738px; }
+  .medium-zuljin{ background-position: 0px -3913.043478px; }
+  .medium-battlefieldofeternity{ background-position: -4px -375.0px; 
+  }
+  .medium-blackheartsbay{ background-position: -4px -75.0px; 
+  }
+  .medium-braxisholdout{ background-position: -4px -600.0px; 
+  }
+  .medium-cursedhollow{ background-position: -4px -225.0px; 
+  }
+  .medium-dragonshire{ background-position: -4px -300.0px; 
+  }
+  .medium-gardenofterror{ background-position: -4px -150.0px; 
+  }
+  .medium-hauntedmines{ background-position: -4px -750.0px; 
+  }
+  .medium-infernalshrines{ background-position: -4px -450.0px; 
+  }
+  .medium-lostcavern{ background-position: -4px -900.0px; 
+  height: 59px; }
+  .medium-skytemple{ background-position: -4px 0.0px; 
+  }
+  .medium-tombofthespiderqueen{ background-position: -4px -900.0px; 
+  height: 59px; }
+  .medium-towersofdoom{ background-position: -4px -525.0px; 
+  }
+  .medium-warheadjunction{ background-position: -4px -675.0px; 
+  }
 
   .second-img {
     right: 65px;
