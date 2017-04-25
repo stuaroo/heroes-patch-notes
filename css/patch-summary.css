@@ -27,6 +27,7 @@
 .small-falstad, .medium-falstad{ background-position: 0px -286.956522px; }
 .small-gall, .medium-gall{ background-position: 0px -2104.347828px; }
 .small-gazlowe, .medium-gazlowe{ background-position: 0px -956.52174px; }
+.small-genji, .medium-genji{ background-position: 0px -3108.695655px; }
 .small-greymane, .medium-greymane{ background-position: 0px -2200.000002px; }
 .small-guldan, .medium-guldan{ background-position: 0px -2534.782611px; }
 .small-illidan, .medium-illidan{ background-position: 0px -334.782609px; }
@@ -79,6 +80,7 @@
 .small-cursedhollow, .medium-cursedhollow{ background-position: -4px -165.0px; }
 .small-dragonshire, .medium-dragonshire{ background-position: -4px -220.0px; }
 .small-gardenofterror, .medium-gardenofterror{ background-position: -4px -110.0px; }
+.small-hanamura, .medium-hanamura{ background-position: -4px -605.0px; }
 .small-hauntedmines, .medium-hauntedmines{ background-position: -4px -550.0px; }
 .small-infernalshrines, .medium-infernalshrines{ background-position: -4px -330.0px; }
 .small-lostcavern, .medium-lostcavern{ background-position: -4px -660.0px; }
@@ -236,6 +238,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-falstad{ background-position: 0px -391.3043478px; }
   .medium-gall{ background-position: 0px -2869.5652172px; }
   .medium-gazlowe{ background-position: 0px -1304.347826px; }
+  .medium-genji{ background-position: 0px -4239.1304345px; }
   .medium-greymane{ background-position: 0px -2999.9999998px; }
   .medium-guldan{ background-position: 0px -3456.5217389px; }
   .medium-illidan{ background-position: 0px -456.5217391px; }
@@ -293,6 +296,8 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-dragonshire{ background-position: -4px -300.0px; 
   }
   .medium-gardenofterror{ background-position: -4px -150.0px; 
+  }
+  .medium-hanamura{ background-position: -4px -825.0px; 
   }
   .medium-hauntedmines{ background-position: -4px -750.0px; 
   }
