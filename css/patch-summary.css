@@ -1,10 +1,10 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero, .medium-hero { 
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1492579250/hero-sprite-v20170425.png") 0px 0px no-repeat; 
+  background:url("//heroespatchnotes.com/images/hero-sprite-v20170425.png") 0px 0px no-repeat; 
   background-size: 44px 3153.17391591px; height: 44px; width: 44px; 
 }
 .small-battleground, .medium-battleground {
-  background:url("//res.cloudinary.com/heroespatches/image/upload/v1493000540/bg-sprite-v20170425.png") 0px 0px no-repeat; 
+  background:url("//heroespatchnotes.com/images/bg-sprite-v20170425.png") 0px 0px no-repeat; 
   background-size: 50.6px 703.45px; width: 44px; height: 44px;
 }
 
