@@ -1,7 +1,7 @@
 /* Sprite CSS: Mobile-first so medium == small*/
 .small-hero, .medium-hero { 
-  background:url("//heroespatchnotes.com/images/hero-sprite-v20170425.png") 0px 0px no-repeat; 
-  background-size: 44px 3153.17391591px; height: 44px; width: 44px; 
+  background:url("//heroespatchnotes.com/images/hero-sprite-v20170516.png") 0px 0px no-repeat; 
+  background-size: 44px 3201.00000291px; height: 44px; width: 44px; 
 }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/bg-sprite-v20170425.png") 0px 0px no-repeat; 
@@ -213,7 +213,7 @@ div.panel-heading>h3>a>i.fa-external-link {
 
 @media (min-width: 360px) {
   .medium-hero { 
-    background-size: 60px 4299.78260841px; height: 60px; width: 60px; 
+    background-size: 60px 4364.99999971px; height: 60px; width: 60px; 
   }
   .medium-battleground { 
     background-size: 69px 959.25px; width: 60px; height: 60px; 
