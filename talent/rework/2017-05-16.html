@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Alarak and Tyrande from 2017-05-16.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2017-05-16.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2017-05-16.html" />
+    <meta property="og:title" content="2017-05-16 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Alarak, Tyrande." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483416268/hero/alarak.jpg" />
+        <title>2017-05-16 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+    <style>
+      footer>div.container>div.row>div.col-sm-3>ul { list-style: none; padding-left: 0; }
+      footer>div.container>div.row>div.col-sm-3>ul>li { line-height: 1.75em; }
+      footer>div.container>div.row>div.col-sm-3>ul>li>a:hover { text-decoration: none; }
+      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
+    </style>
+
+    <style>
+      p { margin: 0; }
+      h3 { margin-top: 10.5px; }
+      blockquote { font-size: 14px; }
+      blockquote > p:not(:last-child) { margin-bottom: 10px; }
+      table { border-collapse: collapse !important; }
+      table { width: 100%; max-width: 100%; margin-bottom: 21px; }
+      table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td {
+        padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ecf0f1; }
+      table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #ecf0f1; }
+      table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
+      table > tbody + tbody { border-top: 2px solid #ecf0f1; } 
+      .moved-from { font-weight: bold; }
+      .code-deletion { background-color: #ffdddd; }
+      .code-addition { background-color: #dbffdb; }
+      .no-change { background-color: inherit; }
+      .code-deletion-box { background-color: #ffdddd; border: 1px solid #CCB1B1; }
+      .code-addition-box { background-color: #dbffdb; border: 1px solid #AFCCAF; }
+      .regular-box { background-color: inherit; border: 1px solid #C6BCC1; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-sprite { background: url("//heroespatchnotes.com/images/hero-sprite-v20170425.png") 0px 0px no-repeat; background-size: 92px 6593px; height: 93px; width: 92px; margin-right: 5px; }
+      h2>div { display: inline-block; vertical-align: middle; }
+      .alarak{ background-position: 0 -5600px; }
+      .tyrande{ background-position: 0 -3500px; }
+      h1, div.row>p { padding: 0 10px; }
+      .stats-label { font-size: 26px; }
+      .stats { font-size: 13px; }
+      .stats>ul { list-style-type: none; padding-left: 0; margin-top: 10.5px; }
+      footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2017-05-08 Rework Diffs - PTR <a href="http://us.battle.net/heroes/en/blog/20766460" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Changed <span class="label label-primary">Updated</span></h5>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Moved <span class="label label-info">Moved from level X</span></h5>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Alarak" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <div class="hero-sprite alarak img-rounded"></div>
+            <div>Alarak</div>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Your Highlord has returned! Alarak has received a
+  large update that he has deemed "acceptable", targeted at making him more
+  rewarding for players who take the time to master him. Baseline changes
+  include reworking his Sadism to be increased upon getting Takedowns and
+  putting bonus damage into his Lightning Surge baseline for hitting enemies in
+  its center beam. We're also experimenting with some new talent ideas with
+  Extended Lightning and Chaos Reigns, where players can gain huge benefits for
+  the rarely accomplished feat of hitting 3 enemy Heroes with a single ability.</p>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <h5>(Q) Discord Strike <span class="label label-primary">Updated</span></h5>
+          <div>
+            <span class="code-addition">Mana: 45 
+<span class="code-deletion">55</span>            </span>
+            &nbsp;<span class="pull-right">CD: 8s 
+            </span>
+          </div>
+          <div>After a 0.5 second delay, enemies in front of Alarak take 175 (+4% per level) damage and are silenced for 1.5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(W) Telekinesis</h5>
+          <div>
+            <span>Mana: 30 
+            </span>
+            &nbsp;<span class="pull-right">CD: 12s 
+            </span>
+          </div>
+          <div>Vector Targeting. Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 (+4% per level) damage to enemies.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(E) Lightning Surge <span class="label label-primary">Updated</span></h5>
+          <div>
+            <span class="code-addition">Mana: 25 
+<span class="code-deletion">30</span>            </span>
+            &nbsp;<span class="pull-right">CD: 6s 
+            </span>
+          </div>
+          <div>Deal <span class="code-addition">62</span> <span class="code-deletion">100</span> (+4% per level) damage to an enemy and <span class="code-addition">an additional 100% damage to enemies between Alarak and the target. Restore 70 (+4% per level) health for each Hero hit.</span> <span class="code-deletion">75% of the damage dealt to enemy Heroes is returned as health.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(R) Counter-Strike</h5>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">CD: 30s 
+            </span>
+          </div>
+          <div>Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(R) Deadly Charge </h5>
+          <div>
+            <span>Mana: 60 
+            </span>
+            &nbsp;<span class="pull-right">CD: 45s 
+            </span>
+          </div>
+          <div>After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.625 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(Trait) Sadism <span class="label label-primary">Updated</span></h5>
+          <div>
+          </div>
+          <div>Alarak's Ability damage <span class="code-addition">and self-healing</span> are increased by 100% against enemy Heroes.  <span class="code-addition">Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death.</span></div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-3">
+          <h5>Extended Lightning (E) <span class="label label-info">Moved from level 4</span></h5>
+          <div class="code-addition">Reduce Sadism by 10%.  Quest: Hit Heroes with the center of Lightning Surge.  Reward: After hitting 5 Heroes, increase Lightning Surge's range by 20%.  Reward: After hitting 15 Heroes, Lightning Surge's center also Slows enemies by 50% for 2 seconds.  Reward: After hitting 3 Heroes with a single cast, increase Sadism by 10% and instantly gain all other Rewards.</div>
+          <div class="code-deletion">Increases Lightning Surge range by 20%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Sustaining Power (E) <span class="label label-info">Moved from level 16</span></h5>
+          <div>Increase the healing received from damaging Heroes with Lightning Surge by <span class="code-addition">25%</span> <span class="code-deletion">30%</span>.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Ruthless Momentum (Passive)</h5>
+          <div>Basic Abilities recharge 20% faster while above 80% Health.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Power Conduit (E)</h5>
+          <div>Reduces the Mana cost of Lightning Surge by 10.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Without Effort (W)</h5>
+          <div>Telekinesis no longer costs Mana.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-3">
+          <h5>Chaos Reigns (Q) <span class="label label-info">Moved from level 7</span></h5>
+          <div class="code-addition">Quest: Hit Heroes with Discord Strike.  Reward: After hitting 15 Heroes, increase Discord Strike's damage by 60.  Reward: After hitting 2 Heroes with a single Discord Strike, increase its damage by 60.  Reward: After hitting 3 Heroes with a single Discord Strike, increase its damage by 60 and instantly gain all other Rewards.</div>
+          <div class="code-deletion">Quest: Each time Discord Strike hits a Hero its damage increases by 3, up to 45.  Reward: After hitting 15 Heroes, increase its damage by an additional 45.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Negatively Charged (E) <span class="label label-info">Moved from level 16</span></h5>
+          <div>Increase the Lightning Surge damage bonus to enemies between Alarak and his victim to <span class="code-addition">200%</span> <span class="code-deletion">100%</span>.  <span class="code-addition">Repeatable Quest: Each Hero hit by the center of Lightning Surge permanently increases the damage bonus by 5%.</span> <span class="code-deletion">does not generate any additional healing</span></div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Show of Force (Passive) </h5>
+          <div>Heroes hit with 3 of Alarak's Abilities within 2 seconds take an additional 70 (+4% per level) damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Cycle of Discord (Q)</h5>
+          <div>Reduces the cooldown of Discord Strike by 2 seconds. If Discord Strike fails to hit any enemies, the Mana cost is refunded and the cooldown is reduced by 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Double Cross (Q)</h5>
+          <div>Increases the range of Discord Strike by 25% and also hits in a line perpendicular to the forward strike.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Reckless Strike (Q)</h5>
+          <div>Reduces the delay of Discord Strike by 0.25 seconds but if it hits an enemy, Alarak's Armor is lowered by 25 for 2 seconds, causing him to take 25% more damage.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <h5>Applied Force (W) <span class="label label-info">Moved from level 1</span></h5>
+          <div>Reduce Sadism by 10%, but Telekinesis pushes 20% further <span class="code-addition">and has 20% increased range.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Dissonance (W) <span class="label label-info">Moved from level 13</span></h5>
+          <div class="code-deletion">Reduces the damage bonus of Sadism by 10% but</div>
+          <div class="code-addition">Increase Discord Strike's Silence duration by 0.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Hindered Motion (W) <span class="label label-info">Moved from level 13</span></h5>
+          <div class="code-deletion">Reduces the damage bonus of Sadism by 10% but</div>
+          <div class="code-addition">Telekinesis Slows enemies by 25% <span class="code-deletion">40%</span> for 2 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Endless Energy (E)</h5>
+          <div>Quest: Heroes hit between Alarak and his victim permanently decreases the cooldown of Lightning Surge by 0.2 seconds, up to 2 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Thunderstruck (E)</h5>
+          <div>Reduces the damage bonus of Sadism by 10%, but causes Lightning Surge to slow enemies hit between Alarak and his victim by 70% for 2 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <h5>Counter-Strike (R)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 30s 
+            </span>
+          </div>
+          <div>Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <h5>Deadly Charge (R)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 45s 
+            </span>
+          </div>
+          <div>After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.625 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <h5>Pure Malice (Passive) <span class="label label-primary">Updated</span></h5>
+          <div>Increase Sadism by <span class="code-addition">6%</span> <span class="code-deletion">8%</span> any time an allied Hero dies, up to <span class="code-addition">30%</span> <span class="code-deletion">40%</span>.  Sadism gained from Pure Malice is lost on death.</div>
+          <div class="code-deletion">This bonus Sadism cannot be consumed by Hasty Bargain.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Blade of the Highlord (Passive)</h5>
+          <div>Basic Attacks against Heroes increase Sadism by 6% for 4 seconds, stacking up to 30%. Basic Attacks against Heroes refresh this duration.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <h5>Rite of Rak-Shire (Active)</h5>
+          <div>Activate to mark an enemy Hero for 300 seconds.  Hitting the marked Hero with Discord Strike increases Sadism by 3%. Killing the marked Hero increases Sadism by 6% and lowers the cooldown of Rite of Rak'Shir to 10 seconds.  Sadism gained from Rite of Rak'Shir is lost on death.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Psychokinesis (W)</h5>
+          <div>Increases the damage of Telekinesis by 100%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <h5>Lethal Onslaught (Q)</h5>
+          <div>Hitting an enemy Hero with Discord Strike grants 50% of Sadism's damage bonus to Alarak's Basic Attacks for 4 seconds. Basic Attacks against Heroes refresh this duration.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Lightning Barrage (E)</h5>
+          <div>Hitting an enemy Hero with the center of Lightning Surge allows it to be cast again for free on a different primary target within the next 2 seconds. This free cast cannot benefit from Lightning Barrage.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Mocking Strikes (Passive)</h5>
+          <div>Basic Attacks against Stunned, Silenced, Slowed, or Rooted Heroes reduce the cooldown of Alarak's Basic Abilities by 2.5 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Projected Force (W)</h5>
+          <div>Reduces the damage bonus of Sadism by 10% but increases the range of Telekinesis by 25%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Quick Mind (W)</h5>
+          <div>Reduces the damage bonus of Sadism by 10% and the cooldown of Telekinesis by 6 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <h5>Counter-Strike (R)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 30s 
+            </span>
+          </div>
+          <div>Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.  This ability will take over Alarak's Trait button.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Deadly Charge (R)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 45s 
+            </span>
+          </div>
+          <div>After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.625 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.  This ability will take over Alarak's Trait button.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Hasty Bargain (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 20s 
+            </span>
+          </div>
+          <div>Activate to permanently reduce Alarak's Sadism by 4% and reset the cooldowns of his Basic Abilities.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Last Laugh (Active) <span class="label label-primary">Updated</span></h5>
+          <div>
+            &nbsp;<span class="pull-right code-addition">CD: 30s 
+<span class="code-deletion">20s</span>            </span>
+          </div>
+          <div>Activate teleport to the chosen location and remove all Roots, Slows, and damage over time effects. <span class="code-addition">If Alarak fails to hit enemy Heroes 3 times with Basic Abilities within 4 seconds of using Last Laugh, his Health is reduced to 1.</span></div>
+          <div class="code-deletion">Activating Last Laugh will immediately reduce Alarak's Health to 1.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Tyrande" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <div class="hero-sprite tyrande img-rounded"></div>
+            <div>Tyrande</div>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> During one of our design meetings many months ago,
+  we came to the consensus that we wanted to swap the heal functionality between
+  Tyrande and Uther. It felt like the self-heal mechanic was better suited on a
+  front-line melee Healer, so we gave it to our favorite paladin in his latest
+  rework. Instead of simply removing functionality from Light of Elune, we
+  decided to add a large amount of cooldown reduction with every Basic Attack.
+  This will reward players that can stay in combat and has allowed us to shift
+  some of her power from healing output into more utility and offensive-based
+  areas. Overall, we are extremely excited to see what our players can do with
+  her new kit and look forward to hearing any feedback you have!</p>
+</blockquote>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 stats-label">Stats</div>
+            <div class="col-xs-12 col-sm-10 code-addition stats"><ul>
+<li>Basic Attack damage reduced from 87 to 82</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <h5>(Q) Light of Elune <span class="label label-primary">Updated</span></h5>
+          <div>
+            <span class="code-addition">Mana: 25 
+<span class="code-deletion">45</span>            </span>
+            &nbsp;<span class="pull-right code-addition">CD: 12s 
+<span class="code-deletion">8s</span>            </span>
+          </div>
+          <div>Heal target ally for <span class="code-addition">270</span> <span class="code-deletion">320</span> (+4% per level) Health. <span class="code-addition">Basic Attacks reduce the cooldown of this Ability by 2 seconds.</span></div>
+          <div class="code-deletion">Heal yourself for 160 (+4% per level).</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(W) Sentinel <span class="label label-primary">Updated</span></h5>
+          <div>
+            <span>Mana: 65 
+            </span>
+            &nbsp;<span class="pull-right">CD: 18s 
+            </span>
+          </div>
+          <div>Send an Owl that travels across the battleground revealing its path. Deals 173 (+4% per level) damage to the first enemy Hero hit and reveals them for 5 seconds.  <span class="code-addition">Repeatable Quest:  Every 8 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(E) Lunar Flare</h5>
+          <div>
+            <span>Mana: 60 
+            </span>
+            &nbsp;<span class="pull-right">CD: 12s 
+            </span>
+          </div>
+          <div>After 0.75 seconds, deal 205 (+4% per level) damage and stun enemies in the target area for 0.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(R) Shadowstalk <span class="label label-primary">Updated</span></h5>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right code-addition">CD: 30s 
+<span class="code-deletion">60s</span>            </span>
+          </div>
+          <div class="code-addition">Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.</div>
+          <div class="code-deletion">Stealth all allied Heroes and heal them for 240 (+4% per level) over 8 seconds.  At the conclusion of Shadowstalk, they receive a burst of 95 (+4% per level) healing.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(R) Starfall <span class="label label-primary">Updated</span></h5>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right">CD: 80s 
+            </span>
+          </div>
+          <div>Deal 91 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 8 seconds.</div>
+          <div class="code-addition">Radius reduced from 6 to 5</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>(D) Hunter's Mark </h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 20s 
+            </span>
+          </div>
+          <div>Reveal a target enemy and lower their Armor by 25 for 4 seconds, increasing all damage taken by 25%.  Cannot be used on Structures.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <h5>Lunar Blaze (E) <span class="label label-info">Moved from level 7</span></h5>
+          <div class="code-addition">Repeatable Quest: Hitting Heroes with Lunar Flare increases its damage by 3%.  Reward: After hitting 10 Heroes, Lunar Flare no longer has a Mana cost.  Reward: After hitting 20 Heroes, increase the range of Lunar Flare by 40%.</div>
+          <div class="code-deletion">Increases the range of Lunar Flare by 40%.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Ranger (W) <span class="label label-info">Moved from level 16</span></h5>
+          <div class="code-addition">Sentinel deals more damage based on the distance traveled, up to 75%.  Repeatable Quest: Hitting enemy Heroes with Sentinel increases the maximum damage bonus by 3%.</div>
+          <div class="code-deletion">Increases width of Sentinel by 100%. Increases damage dealt based on distance traveled, up to a maximum of +200% damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Ranger's Mark (D) <span class="label label-primary">Updated</span></h5>
+          <div class="code-addition">Basic Attacks reduce the cooldown of Hunter's Mark by 1 second.  Repeatable Quest: Every 60 Basic Attacks against enemy Heroes increase the duration of Hunter's Mark by 1 second.</div>
+          <div class="code-deletion">Lower the Cooldown of Hunter's Mark by 6 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Seasoned Marksman (Passive)</h5>
+          <div>Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Celestial Attunement (Q) <span class="label label-info">Moved from level 1</span></h5>
+          <div class="code-addition">Light of Elune removes Stuns from its target. When a Stun is removed this way, Light of Elune may be used for free within 3 seconds. This free cast cannot benefit from Celestial Attunement.</div>
+          <div class="code-deletion">Reduce the Mana cost of Light of Elune by 15.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Kaldorei Resistance (Q)</h5>
+          <div>Light of Elune grants the target 15 Spell Armor for 6 seconds. This effect stacks up to 4 times.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Moonlit Arrows (Q)</h5>
+          <div>Basic Attacks decrease the cooldown of Light of Elune by an additional 0.75 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Healing Ward (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 60s 
+            </span>
+          </div>
+          <div>Activate to place a ward on the ground that heals allies in an area for 2% of their maximum Health every second for 10 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Pierce (W)</h5>
+          <div>Sentinel no longer stops at the first Hero hit, affecting all enemy Heroes along the path.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Protective Shield (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 60s 
+            </span>
+          </div>
+          <div>Activate to shield an allied Hero for 15% of their max Health for 5 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Searing Arrows (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 25s 
+            </span>
+          </div>
+          <div>Activate to increase Basic Attack damage by 50% for 5 seconds.  Each attack costs 10 Mana.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Focused Attack (Passive)</h5>
+          <div>Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <h5>Darnassian Archery (Passive)</h5>
+          <div>Basic Attacks against enemy Heroes grant a stacking 5% increased Attack Damage bonus for 4 seconds. This bonus is lost when Basic Attacking non-Heroes.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Huntress' Fury (D) <span class="label label-info">Moved from level 13</span></h5>
+          <div class="code-addition">Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby enemies.</div>
+          <div class="code-deletion">Gain 40% additional Attack Speed for 4 seconds when using Hunter's Mark.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Trueshot Aura (Active) <span class="label label-info">Moved from level 16</span></h5>
+          <div>Passively grant <span class="code-addition">10%</span> <span class="code-deletion">15%</span> increased Attack Damage to nearby allied Heroes. <span class="code-addition">Activate to double this bonus for 5 seconds.</span></div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Calldown: MULE (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 60s 
+            </span>
+          </div>
+          <div>Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 100 Health every 1 second.  Grants 1 ammo every  3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Lunar Momentum (Passive)</h5>
+          <div>Basic Attacks reduce your Basic Ability cooldowns by 0.6 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <h5>Shadowstalk (R) <span class="label label-primary">Updated</span></h5>
+          <div>
+            &nbsp;<span class="pull-right code-addition">CD: 30s 
+<span class="code-deletion">60s</span>            </span>
+          </div>
+          <div class="code-addition">Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.</div>
+          <div class="code-deletion">Stealth all allied Heroes and heal them for 240 (+4% per level) over 8 seconds.  At the conclusion of Shadowstalk, they receive a burst of 95 (+4% per level) healing.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <h5>Starfall (R)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 80s 
+            </span>
+          </div>
+          <div>Deal 91 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 8 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <h5>Empower (W) <span class="label label-info">Moved from level 1</span></h5>
+          <div class="code-addition">Reduce Sentinel's cooldown by 4 seconds each time it hits a Hero.</div>
+          <div class="code-deletion">When Sentinel impacts, your cooldowns are instantly reduced by 2 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Harsh Moonlight (W)</h5>
+          <div>Sentinel Slows the target by 30% and reduces their damage dealt by 30% for 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Quickening Blessing (Q) <span class="label label-info">Moved from level 7</span></h5>
+          <div><span class="code-deletion">If cast on an ally,</span> Light of Elune increases the target's Movement Speed by 25% for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Shrink Ray (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 60s 
+            </span>
+          </div>
+          <div>Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Sprint (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 60s 
+            </span>
+          </div>
+          <div>Activate to gain 75% Movement Speed for 3 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <h5>Elune's Chosen (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 40s 
+            </span>
+          </div>
+          <div>Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for 5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Mark of Mending (D) <span class="label label-primary">Updated</span></h5>
+          <div><span class="code-addition">Tyrande's Basic Attacks heal her for 2% of her maximum Health.</span> Basic Attacks against targets with Hunter's Mark heal the attacker for <span class="code-addition">3%</span> <span class="code-deletion">2.5%</span> of their maximum Health.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Overflowing Light (Q) <span class="label label-info">Moved from level 13</span></h5>
+          <div>While Tyrande is above <span class="code-addition">60%</span> <span class="code-deletion">50%</span> Health, Light of Elune's healing is increased by 30%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <h5>Shooting Star (E) <span class="label label-info">Moved from level 16</span></h5>
+          <div class="code-addition">Increase Basic Attack range by 1.1. Every 10th Basic Attack against Heroes casts a free Lunar Flare at a random Hero near Tyrande's position.</div>
+          <div class="code-deletion">Lunar Flare does 50% more damage. Hitting an enemy Hero will also refund the Mana cost.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <h5>Celestial Wrath (R) <span class="label label-primary">Updated</span></h5>
+          <div class="code-addition">Starfall applies Hunter's Mark to enemy Heroes hit.</div>
+          <div class="code-deletion">Starfall can be cast globally.  Damage is increased by 30%.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Eyes of the Huntress (R)</h5>
+          <div>After casting Shadowstalk, reveal all enemy Heroes for 2 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <h5>Iceblade Arrows (Passive)</h5>
+          <div>Increase Attack Speed by 25%. Basic Attacks against enemy Heroes reduce their damage dealt by 5% for 3 seconds. This effect stacks up to 10 times.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Hunter's Swiftness (R)</h5>
+          <div>When using Shadowstalk, you and allied Heroes gain 30% Movement Speed for 8 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Nexus Frenzy (Passive)</h5>
+          <div>Increases Attack Speed by 20% and Attack Range by 1.1.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Rewind (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 60s 
+            </span>
+          </div>
+          <div>Activate to reset the cooldowns of your Basic Abilities.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <h5>Storm Shield (Active)</h5>
+          <div>
+            &nbsp;<span class="pull-right">CD: 45s 
+            </span>
+          </div>
+          <div>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+              <li><a href="https://heroespatchnotes.com/#battlegrounds">Battlegrounds</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
