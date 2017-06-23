@@ -1,4 +1,12 @@
 
+## 2017-06-23
+
+* Added [full balance update from 2017-06-29](../patch/2016-06-29-balance-update.html)
+* Added [full balance update from 2017-06-21](../patch/2016-06-21-balance-update.html)
+* Added [full patch notes from 2017-06-14](../patch/2016-06-14-patch-notes.html)
+* Added [full PTR patch notes from 2017-06-06](../patch/2016-06-06-ptr-patch-notes.html)
+* Added [full balance update from 2016-06-02](../patch/2016-06-02-balance-update.html)
+
 ## 2017-06-16
 
 * Added several heroes to the [2017-06-13 bug fix](../patch/2017-06-13-patch-notes.html#bug-fixes) for Splash and Cleave Basic Attacks not revealing targets in a bush or vent.  The following have been included:
