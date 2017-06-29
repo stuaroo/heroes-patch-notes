@@ -1,4 +1,14 @@
 
+## 2017-06-29
+
+* Added [full hotfix patch notes from 2014-03-25](../patch/2014-03-25-hotfix-patch.html)
+* Added [full hotfix patch notes from 2014-04-01](../patch/2014-04-01-hotfix-patch.html)
+
+## 2017-06-28
+
+* Added [full balance update from 2017-06-28](../patch/2017-06-28-balance-update.html)
+* Appended [mini secondary patch](../patch/2017-06-28-balance-update.html#heroes-of-the-storm-patch-notes-june-28-2017) to today's patch
+
 ## 2017-06-23
 
 * Added [full balance update from 2017-06-29](../patch/2016-06-29-balance-update.html)
