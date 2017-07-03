@@ -1,4 +1,17 @@
 
+## 2017-07-03
+
+* Updated New Hero notes to include hero overview from patch; see [Malthael's release note](../hero/malthael.html#patch2017-06-13) for an example
+    * Thanks to [@human_pronoun on Twitter](https://twitter.com/human_pronoun) for the suggestion!
+
+## 2017-07-02
+
+* Added [full hotfix patch notes from 2016-05-25](../patch/2016-05-25-hotfix-patch.html)
+* Added [full patch notes from 2016-05-17](../patch/2016-05-17-patch-notes.html)
+* Added [full PTR balance update from 2016-05-12](../patch/2016-05-12-ptr-balance-update.html)
+* Added [full PTR patch notes from 2016-05-09](../patch/2016-05-09-ptr-patch-notes.html)
+* Added [full balance update from 2016-05-04](../patch/2016-05-04-balance-update.html)
+
 ## 2017-06-29
 
 * Added [full hotfix patch notes from 2014-03-25](../patch/2014-03-25-hotfix-patch.html)
