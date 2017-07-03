@@ -8,650 +8,682 @@
 
 <url>
   <loc>https://heroespatchnotes.com/</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/summary.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/generic.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/removed.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/faq.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2017-07-03-ptr-patch-notes.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-06-28-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-06-13-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/patch/2017-06-05-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/brightwing.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/chromie.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/dva.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/dehaka.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/genji.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/lucio.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/malthael.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/medivh.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/probius.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/samuro.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/tassadar.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/thrall.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/tyrande.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/uther.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/zeratul.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/zuljin.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/abathur.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/anubarak.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/azmodan.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/butcher.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/chen.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/diablo.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/etc.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/gazlowe.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/greymane.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/illidan.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/jaina.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/kaelthas.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/kerrigan.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/kharazim.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/lili.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/liming.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/malfurion.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/murky.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/nazeebo.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/nova.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/ragnaros.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/raynor.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/sgthammer.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/sonya.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/stitches.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/sylvanas.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/thelostvikings.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/tyrael.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/valeera.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/hero/varian.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/xul.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/brightwing.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/chromie.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/dva.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/dehaka.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/genji.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/lucio.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/malthael.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/medivh.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/probius.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/samuro.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/tassadar.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/thrall.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/tyrande.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/uther.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/zeratul.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/zuljin.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/abathur.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/anubarak.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/azmodan.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/butcher.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/chen.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/diablo.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/etc.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/gazlowe.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/greymane.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/illidan.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/jaina.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/kaelthas.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/kerrigan.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/kharazim.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/lili.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/liming.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/malfurion.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/murky.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/nazeebo.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/nova.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/raynor.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/sgthammer.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/sonya.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/stitches.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/sylvanas.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/thelostvikings.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/tyrael.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/valeera.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/hero/varian.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/zarya.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/alarak.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/artanis.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/auriel.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/cassia.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/falstad.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/guldan.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/rexxar.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/tracer.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/tychus.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/valla.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/gall.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/leoric.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/cho.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/ltmorales.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/muradin.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/zagara.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/rehgar.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/arthas.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/johanna.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/hero/lunara.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/battleground/battlefieldofeternity.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/battleground/blackheartsbay.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/battleground/braxisholdout.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/battleground/cursedhollow.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/battleground/dragonshire.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
-</url>
-<url>
-  <loc>https://heroespatchnotes.com/battleground/gardenofterror.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/hanamura.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/battleground/battlefieldofeternity.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/battleground/blackheartsbay.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/battleground/braxisholdout.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/battleground/cursedhollow.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/battleground/dragonshire.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/battleground/gardenofterror.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/hauntedmines.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/infernalshrines.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/lostcavern.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/skytemple.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/tombofthespiderqueen.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/towersofdoom.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/battleground/warheadjunction.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2017-06-05-ptr-patch-notes.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-05-31-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-05-16-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-05-10-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-05-08-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-05-04-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-04-28-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-04-25-2-0-launch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-04-20-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-04-17-2-0-open-beta.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-04-12-2-0-open-beta-hotfix.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-04-12-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-04-04-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-03-30-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-03-29-2-0-open-beta.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-03-28-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-03-22-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-03-14-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-03-06-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-02-27-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-02-17-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-02-14-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-02-08-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-02-06-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-01-27-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-01-24-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-01-17-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-01-12-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-01-06-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2017-01-04-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-12-20-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-12-14-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-12-06-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-12-05-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-11-22-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-11-15-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-11-10-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-11-07-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-10-25-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-10-18-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-10-12-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-10-10-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-09-27-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-09-20-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-09-19-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-09-13-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-09-01-ptr-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-08-29-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-08-24-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-08-09-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-08-01-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-07-27-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-07-21-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-07-20-hotfix-patch.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-07-12-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-07-05-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-06-29-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-06-21-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-06-14-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-06-06-ptr-patch-notes.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/patch/2016-06-02-balance-update.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2016-05-25-hotfix-patch.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2016-05-17-patch-notes.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2016-05-12-ptr-balance-update.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2016-05-09-ptr-patch-notes.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2016-05-04-balance-update.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2014-04-01-hotfix-patch.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
+</url>
+<url>
+  <loc>https://heroespatchnotes.com/patch/2014-03-25-hotfix-patch.html</loc>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2017-06-13.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2017-05-16.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2017-04-25.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2017-03-14.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2017-02-14.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2017-01-24.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2016-12-14.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2016-11-15.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2016-09-27.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 <url>
   <loc>https://heroespatchnotes.com/talent/rework/2016-09-13.html</loc>
-  <lastmod>2017-06-28T18:00:11+00:00</lastmod>
+  <lastmod>2017-07-03T17:48:13+00:00</lastmod>
 </url>
 </urlset>
