@@ -5,7 +5,7 @@
 .small-hero-four, .medium-hero-four { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-four-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-five, .medium-hero-five { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-five-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170605.png") 0 0 no-repeat; background-size: 44px 379.26086991px; height: 44px; width: 44px; }
+.small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170711.png") 0 0 no-repeat; background-size: 44px 427.08695691px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/bg-sprite-v20170425.png") 0 0 no-repeat; 
   background-size: 50.6px 703.45px; width: 44px; height: 44px;
@@ -62,6 +62,7 @@
 .small-sgthammer, .medium-sgthammer{ background-position: 0px -382.608696px; }
 .small-sonya, .medium-sonya{ background-position: 0px -430.434783px; }
 .small-stitches, .medium-stitches{ background-position: 0px 0.0px; }
+.small-stukov, .medium-stukov{ background-position: 0px -382.608696px; }
 .small-sylvanas, .medium-sylvanas{ background-position: 0px -47.826087px; }
 .small-tassadar, .medium-tassadar{ background-position: 0px -191.304348px; }
 .small-thelostvikings, .medium-thelostvikings{ background-position: 0px 0.0px; }
@@ -223,7 +224,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-hero-four { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-four-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-five { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-five-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170605.png") 0 0 no-repeat; background-size: 60px 517.173913009px; height: 60px; width: 60px; }
+  .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170711.png") 0 0 no-repeat; background-size: 60px 582.391304309px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 959.25px; width: 60px; height: 60px; 
   }
@@ -279,6 +280,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-sgthammer{ background-position: 0px -521.7391304px; }
   .medium-sonya{ background-position: 0px -586.9565217px; }
   .medium-stitches{ background-position: 0px 0.0px; }
+  .medium-stukov{ background-position: 0px -521.7391304px; }
   .medium-sylvanas{ background-position: 0px -65.2173913px; }
   .medium-tassadar{ background-position: 0px -260.8695652px; }
   .medium-thelostvikings{ background-position: 0px 0.0px; }
