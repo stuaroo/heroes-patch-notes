@@ -1,4 +1,23 @@
 
+## 2017-07-10
+
+* Added full patch notes for all remaining patches
+    * From February 2016 back to April 2014
+    * Too many patches to list individually, just look at the bottom half of the [patch list](../patch/)
+
+## 2017-07-09
+
+* Added full patch notes from April 2016
+    * [balance update from 2016-04-27](../patch/2016-04-27-balance-update.html), [hotfix patch notes from 2016-04-21](../patch/2016-04-21-hotfix-patch.html), [patch notes from 2016-04-19](../patch/2016-04-19-patch-notes.html), and [balance update from 2016-04-12](../patch/2016-04-12-balance-update.html)
+* Added full patch notes from March 2016
+    * [patch notes from 2016-03-29](../patch/2016-03-29-patch-notes.html), [PTR patch notes from 2016-03-21](../patch/2016-03-21-ptr-patch-notes.html), [balance update from 2016-03-16](../patch/2016-03-16-balance-update.html), [balance update from 2016-03-09](../patch/2016-03-09-balance-update.html), and [patch notes from 2016-03-01](../patch/2016-03-01-patch-notes.html)
+
+## 2017-07-07
+
+* Added [undocumented change to Tracer's Bullet Spray](../hero/tracer.html#patch2016-08-09) <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/6ljbbk/undocumented_nerf_to_tracer/djuur8a/" target="_blank">Source <i class="fa fa-external-link"></i></a>
+    * Melee radius increase reduced from 50 to 30%
+    * Thanks to [/u/dizzyMongoose](https://www.reddit.com/user/dizzyMongoose) for confirming the date of this change!
+
 ## 2017-07-03
 
 * Updated New Hero notes to include hero overview from patch; see [Malthael's release note](../hero/malthael.html#patch2017-06-13) for an example
@@ -6,16 +25,14 @@
 
 ## 2017-07-02
 
-* Added [full hotfix patch notes from 2016-05-25](../patch/2016-05-25-hotfix-patch.html)
-* Added [full patch notes from 2016-05-17](../patch/2016-05-17-patch-notes.html)
-* Added [full PTR balance update from 2016-05-12](../patch/2016-05-12-ptr-balance-update.html)
-* Added [full PTR patch notes from 2016-05-09](../patch/2016-05-09-ptr-patch-notes.html)
-* Added [full balance update from 2016-05-04](../patch/2016-05-04-balance-update.html)
+* Added full patch notes from May 2016
+    * [hotfix patch notes from 2016-05-25](../patch/2016-05-25-hotfix-patch.html), [patch notes from 2016-05-17](../patch/2016-05-17-patch-notes.html), [PTR balance update from 2016-05-12](../patch/2016-05-12-ptr-balance-update.html), [PTR patch notes from 2016-05-09](../patch/2016-05-09-ptr-patch-notes.html), and [balance update from 2016-05-04](../patch/2016-05-04-balance-update.html)
 
 ## 2017-06-29
 
-* Added [full hotfix patch notes from 2014-03-25](../patch/2014-03-25-hotfix-patch.html)
-* Added [full hotfix patch notes from 2014-04-01](../patch/2014-04-01-hotfix-patch.html)
+* Added oldest known full patch notes
+    * [hotfix patch notes from 2014-03-25](../patch/2014-03-25-hotfix-patch.html) and [hotfix patch notes from 2014-04-01](../patch/2014-04-01-hotfix-patch.html)
+    * Thanks to [@AhliSC2](https://twitter.com/AhliSC2) for providing links and text on these notes!
 
 ## 2017-06-28
 
@@ -24,11 +41,8 @@
 
 ## 2017-06-23
 
-* Added [full balance update from 2017-06-29](../patch/2016-06-29-balance-update.html)
-* Added [full balance update from 2017-06-21](../patch/2016-06-21-balance-update.html)
-* Added [full patch notes from 2017-06-14](../patch/2016-06-14-patch-notes.html)
-* Added [full PTR patch notes from 2017-06-06](../patch/2016-06-06-ptr-patch-notes.html)
-* Added [full balance update from 2016-06-02](../patch/2016-06-02-balance-update.html)
+* Added full patch notes from June 2016
+    * [balance update from 2016-06-29](../patch/2016-06-29-balance-update.html), [balance update from 2016-06-21](../patch/2016-06-21-balance-update.html), [patch notes from 2016-06-14](../patch/2016-06-14-patch-notes.html), [PTR patch notes from 2016-06-06](../patch/2016-06-06-ptr-patch-notes.html), and [balance update from 2016-06-02](../patch/2016-06-02-balance-update.html)
 
 ## 2017-06-16
 
