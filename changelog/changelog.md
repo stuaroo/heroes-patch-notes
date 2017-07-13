@@ -1,4 +1,17 @@
 
+## 2017-07-12
+
+* Added [Xul rework diff](../talent/rework/2017-07-11.html)
+* Added [undocumented change for Anub'arak Health regen](../hero/anubarak.html#patch2017-07-11) <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://docs.google.com/spreadsheets/d/1QTStBbvf9o5RuJBeM0X1rHrQxd3PCOT4y4li3Mwu9jY/pubhtml#" target="_blank">Source <i class="fa fa-external-link"></i></a>
+    * Base Health regeneration reduced from 4.17 to 4.01
+    * Thanks to [/u/dizzyMongoose](https://www.reddit.com/user/dizzyMongoose) for passing this change along!
+
+## 2017-07-11
+
+* Added [full patch notes from 2017-07-11](../patch/2017-07-11-patch-notes.html)
+* Added [Stukov](../hero/stukov.html) hero page
+* Updated [patch summary](../patch/summary.html), [removed talents](../talent/removed.html) for latest patch
+
 ## 2017-07-10
 
 * Added full patch notes for all remaining patches
