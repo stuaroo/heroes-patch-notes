@@ -1,4 +1,10 @@
 
+## 2017-07-25
+
+* Updated [home page](../) to show Last Balance Change date instead of Last Update date
+    * Lately patches have had many bug fixes with few balance changes; this caused many heroes to show as 'updated' when only a bug fix affected them
+    * Showing Last Balance date should make it easier to see which heroes changed recently at a glance
+
 ## 2017-07-12
 
 * Added [Xul rework diff](../talent/rework/2017-07-11.html)
