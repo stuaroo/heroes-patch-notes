@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Artanis, Dehaka, and Diablo from 2016-12-14.">
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Artanis, Dehaka, Diablo from 2016-12-14.">
     <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2016-12-14.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@heroespatches" />
@@ -14,8 +14,8 @@
     <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Artanis, Dehaka, Diablo." />
     <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483416268/hero/artanis.jpg" />
         <title>2016-12-14 Rework Diffs</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
     <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
@@ -43,7 +43,6 @@
       table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
       table > tbody + tbody { border-top: 2px solid #ecf0f1; } 
       .moved-from { font-weight: bold; }
-      .stats { font-size: 14px; }
       .code-deletion { background-color: #ffdddd; }
       .code-addition { background-color: #dbffdb; }
       .no-change { background-color: inherit; }
@@ -51,13 +50,15 @@
       .code-addition-box { background-color: #dbffdb; border: 1px solid #AFCCAF; }
       .regular-box { background-color: inherit; border: 1px solid #C6BCC1; }
       .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
-      .hero-sprite { background: url("https://res.cloudinary.com/heroespatches/image/upload/v1481355436/hero-sprite.png") 0px 0px no-repeat; background-size: 92px 5900px; height: 77px; width: 68px; margin-right: 5px; }
+      .hero-sprite { background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
       h2>div { display: inline-block; vertical-align: middle; }
-      .artanis{ background-position: -12px -4112px; }
-      .dehaka{ background-position: -12px -4812px; }
-      .diablo{ background-position: -12px -512px; }
+      .artanis{ background: url("//heroespatchnotes.com/images/hero/artanis.png") 0 0 no-repeat; }
+      .dehaka{ background: url("//heroespatchnotes.com/images/hero/dehaka.png") 0 0 no-repeat; }
+      .diablo{ background: url("//heroespatchnotes.com/images/hero/diablo.png") 0 0 no-repeat; }
       h1, div.row>p { padding: 0 10px; }
-      .stats>ul { list-style-type: none; }
+      .stats-label { font-size: 26px; }
+      .stats { font-size: 13px; }
+      .stats>ul { list-style-type: none; padding-left: 0; margin-top: 10.5px; }
       footer>div.container>div.row>div.col-sm-6>p:first-of-type { margin-bottom: 10.5px; }
       /* Line with centered text */
       h3.line-with-text {
@@ -107,8 +108,8 @@
         margin: 2px;
       }
       .flex-item>h5 { 
-        font-weight: bold;
-        display: inline-block; 
+        font-weight: bold; 
+        display: inline-block;
       }
 
       .flex-item > div {
@@ -206,7 +207,7 @@
       <div id="Artanis" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-sprite artanis"></div>
+            <div class="hero-sprite artanis img-rounded"></div>
             <div>Artanis</div>
           </h2>
           <blockquote>
@@ -424,7 +425,7 @@
       <div id="Dehaka" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-sprite dehaka"></div>
+            <div class="hero-sprite dehaka img-rounded"></div>
             <div>Dehaka</div>
           </h2>
           <blockquote>
@@ -663,7 +664,7 @@
       <div id="Diablo" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-sprite diablo"></div>
+            <div class="hero-sprite diablo img-rounded"></div>
             <div>Diablo</div>
           </h2>
           <blockquote>
@@ -948,9 +949,9 @@
           <div class="col-sm-3">
             <h5 class="hidden-xs">Connect</h5>
             <ul>
-              <li><a href="mailto:admin@heroespatchnotes.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
-              <li><a href="https://twitter.com/heroespatches"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-              <li><a href="https://www.reddit.com/user/AzizLighting"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
             </ul>
           </div>
           <div class="col-sm-6">
@@ -961,9 +962,9 @@
         </div>
       </div>
     </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
