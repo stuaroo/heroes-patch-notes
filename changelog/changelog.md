@@ -1,4 +1,15 @@
 
+## 2017-07-31
+
+* Added [Battleground Rotations page](../battleground/rotation.html)
+    * Displays current battlegrounds in the Ranked Map rotation, how long they've been on rotation, and the last set of added/removed battlegrounds to the pool
+    * You can also see Rotation History and a full Transaction History of all battlegrounds added and removed from the pool
+* Added [full PTR patch notes from 2017-07-31](../patch/2017-07-31-ptr-patch-notes.html)
+
+## 2017-07-26
+
+* Added [full balance update from 2017-07-26](../patch/2017-07-26-balance-update.html)
+
 ## 2017-07-25
 
 * Updated [home page](../) to show Last Balance Change date instead of Last Update date

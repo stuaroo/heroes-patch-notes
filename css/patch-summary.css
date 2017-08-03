@@ -7,8 +7,8 @@
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170711.png") 0 0 no-repeat; background-size: 44px 427.08695691px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
-  background:url("//heroespatchnotes.com/images/bg-sprite-v20170425.png") 0 0 no-repeat; 
-  background-size: 50.6px 703.45px; width: 44px; height: 44px;
+  background:url("//heroespatchnotes.com/images/bg-sprite-v20170803.png") 0 0 no-repeat; 
+  background-size: 50.6px 704.0px; width: 44px; height: 44px;
 }
 
 .small-abathur, .medium-abathur{ background-position: 0px -143.478261px; }
@@ -226,7 +226,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170711.png") 0 0 no-repeat; background-size: 60px 582.391304309px; height: 60px; width: 60px; }
   .medium-battleground { 
-    background-size: 69px 959.25px; width: 60px; height: 60px; 
+    background-size: 69px 960.0px; width: 60px; height: 60px; 
   }
 
   .medium-abathur{ background-position: 0px -195.6521739px; }
@@ -298,34 +298,20 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-zarya{ background-position: 0px -326.0869565px; }
   .medium-zeratul{ background-position: 0px -391.3043478px; }
   .medium-zuljin{ background-position: 0px 0.0px; }
-  .medium-battlefieldofeternity{ background-position: -4px -375.0px; 
-  }
-  .medium-blackheartsbay{ background-position: -4px -75.0px; 
-  }
-  .medium-braxisholdout{ background-position: -4px -600.0px; 
-  }
-  .medium-cursedhollow{ background-position: -4px -225.0px; 
-  }
-  .medium-dragonshire{ background-position: -4px -300.0px; 
-  }
-  .medium-gardenofterror{ background-position: -4px -150.0px; 
-  }
-  .medium-hanamura{ background-position: -4px -825.0px; 
-  }
-  .medium-hauntedmines{ background-position: -4px -750.0px; 
-  }
-  .medium-infernalshrines{ background-position: -4px -450.0px; 
-  }
-  .medium-lostcavern{ background-position: -4px -900.0px; 
-  height: 59px; }
-  .medium-skytemple{ background-position: -4px 0.0px; 
-  }
-  .medium-tombofthespiderqueen{ background-position: -4px -900.0px; 
-  height: 59px; }
-  .medium-towersofdoom{ background-position: -4px -525.0px; 
-  }
-  .medium-warheadjunction{ background-position: -4px -675.0px; 
-  }
+  .medium-battlefieldofeternity{ background-position: -4px -375.0px; }
+  .medium-blackheartsbay{ background-position: -4px -75.0px; }
+  .medium-braxisholdout{ background-position: -4px -600.0px; }
+  .medium-cursedhollow{ background-position: -4px -225.0px; }
+  .medium-dragonshire{ background-position: -4px -300.0px; }
+  .medium-gardenofterror{ background-position: -4px -150.0px; }
+  .medium-hanamura{ background-position: -4px -825.0px; }
+  .medium-hauntedmines{ background-position: -4px -750.0px; }
+  .medium-infernalshrines{ background-position: -4px -450.0px; }
+  .medium-lostcavern{ background-position: -4px -900.0px; }
+  .medium-skytemple{ background-position: -4px 0.0px; }
+  .medium-tombofthespiderqueen{ background-position: -4px -900.0px; }
+  .medium-towersofdoom{ background-position: -4px -525.0px; }
+  .medium-warheadjunction{ background-position: -4px -675.0px; }
 
   .second-img {
     right: 65px;
