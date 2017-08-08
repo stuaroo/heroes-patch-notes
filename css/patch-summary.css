@@ -5,7 +5,7 @@
 .small-hero-four, .medium-hero-four { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-four-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-five, .medium-hero-five { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-five-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170711.png") 0 0 no-repeat; background-size: 44px 427.08695691px; height: 44px; width: 44px; }
+.small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/bg-sprite-v20170803.png") 0 0 no-repeat; 
   background-size: 50.6px 704.0px; width: 44px; height: 44px;
@@ -30,6 +30,7 @@
 .small-etc, .medium-etc{ background-position: 0px -95.652174px; }
 .small-falstad, .medium-falstad{ background-position: 0px -286.956522px; }
 .small-gall, .medium-gall{ background-position: 0px -191.304348px; }
+.small-garrosh, .medium-garrosh{ background-position: 0px -430.434783px; }
 .small-gazlowe, .medium-gazlowe{ background-position: 0px 0.0px; }
 .small-genji, .medium-genji{ background-position: 0px -239.130435px; }
 .small-greymane, .medium-greymane{ background-position: 0px -286.956522px; }
@@ -224,7 +225,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-hero-four { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-four-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-five { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-five-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170711.png") 0 0 no-repeat; background-size: 60px 582.391304309px; height: 60px; width: 60px; }
+  .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 960.0px; width: 60px; height: 60px; 
   }
@@ -248,6 +249,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-etc{ background-position: 0px -130.4347826px; }
   .medium-falstad{ background-position: 0px -391.3043478px; }
   .medium-gall{ background-position: 0px -260.8695652px; }
+  .medium-garrosh{ background-position: 0px -586.9565217px; }
   .medium-gazlowe{ background-position: 0px 0.0px; }
   .medium-genji{ background-position: 0px -326.0869565px; }
   .medium-greymane{ background-position: 0px -391.3043478px; }
