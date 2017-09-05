@@ -1,4 +1,11 @@
 
+## 2017-08-07
+
+* Updated several battleground pages for missed change to catapults from [2017-06-13](https://heroespatchnotes.com/patch/2017-06-13-patch-notes.html)
+    * Change added to: Battlefield of Eternity, Blackheart's Bay, Braxis Holdout, Cursed Hollow, Dragon Shire, Garden of Terror, Haunted Mines, Infernal Shrines, Sky Temple, Tomb of the Spider Queen, Warhead Junction
+* Removed false positive hit for old note on Ability Power Gains from [2015-08-18](https://heroespatchnotes.com/patch/2015-08-18-patch-notes.html)
+    * Removed from: Falstad, Kael'thas, Nova, and Zeratul
+
 ## 2017-07-31
 
 * Added [Battleground Rotations page](../battleground/rotation.html)
