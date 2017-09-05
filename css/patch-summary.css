@@ -6,6 +6,7 @@
 .small-hero-five, .medium-hero-five { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-five-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
+.small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20170905.png") 0 0 no-repeat; background-size: 44px 44.47826091px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/bg-sprite-v20170803.png") 0 0 no-repeat; 
   background-size: 50.6px 704.0px; width: 44px; height: 44px;
@@ -226,6 +227,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-hero-five { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-five-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
+  .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20170905.png") 0 0 no-repeat; background-size: 60px 60.652173909px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 960.0px; width: 60px; height: 60px; 
   }
