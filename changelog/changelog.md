@@ -1,4 +1,34 @@
 
+## 2017-09-05
+
+* Added [full patch notes from 2017-09-05](../patch/2017-09-05-patch-notes.html)
+* Added [Kel'thuzad](../hero/kelthuzad.html) hero page
+* Updated [patch summary](../patch/summary.html), [removed talents](../talent/removed.html), [ranked map rotation](../battleground/rotation.html) for latest patch
+
+## 2017-09-04
+
+* Added [rework diff for Chromie, Jaina, Leoric and Lt. Morales](../talent/rework/2017-09-05.html)
+* Added ribbon to home page to [Try HotsApi](http://hotsapi.net/)
+    * HotsApi is an open-source database for replays; uploading replays makes them easy to share and (more importantly) allows content creators to aggregate replays to bring you new and interesting statistics!
+
+## 2017-08-28
+
+* Added [full PTR patch notes from 2017-08-28](../patch/2017-08-28-ptr-patch-notes.html)
+
+## 2017-08-23
+
+* Added [full balance update from 2017-08-23](../patch/2017-08-23-balance-update.html)
+
+## 2017-08-11
+
+* Added [full hotfix patch notes for 2017-08-11](../patch/2017-08-11-hotfix-patch.html)
+
+## 2017-08-08
+
+* Added [full patch notes from 2017-08-08](../patch/2017-08-08-patch-notes.html)
+* Added [Garrosh](../hero/garrosh.html) hero page
+* Updated [patch summary](../patch/summary.html), [removed talents](../talent/removed.html), [ranked map rotation](../battleground/rotation.html) for latest patch
+
 ## 2017-08-07
 
 * Updated several battleground pages for missed change to catapults from [2017-06-13](https://heroespatchnotes.com/patch/2017-06-13-patch-notes.html)
