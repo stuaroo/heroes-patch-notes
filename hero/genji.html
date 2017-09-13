@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/genji.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Agile Dismount</td>
                     <td>While mounted, the range of Cyber Agility is increased by 70% and its cooldown is reduced by 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Pathfinder</td>
                     <td>Jumping over terrain with Cyber Agility increases Genji's Movement Speed by 25% for 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Swift as the Wind</td>
                     <td>Hitting an enemy Hero with Swift Strike increases Genji's Movement Speed by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Dragon Claw</td>
                     <td>After Genji blocks 330 (+4% per level) damage with Deflect, activate to release a Dragon Claw, dealing 190 (+4% per level) damage to all nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Shuriken Mastery</td>
                     <td>Quest: Hit enemy Heroes with Shuriken.  Reward: After hitting 35 Heroes, Shuriken damage is increased by 25.  Reward: After hitting 75 Heroes, Cyber Agility now refunds 2 charges of Shuriken.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Strike At The Heart</td>
                     <td>Enemies hit by the end of Swift Strike take an additional 138 (+4% per level) damage over 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Augmented Guard</td>
                     <td>When Deflect ends, Genji gains a Shield equal to 50% of the damage blocked for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Cyber Shield</td>
                     <td>Using Cyber Agility grants 50 Spell Armor for 2.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Dodge</td>
                     <td>Genji dodges 1 Heroic Basic Attack every 8 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Perfect Defense</td>
                     <td>Deflected damage reduces the cooldown of Deflect by 2 seconds, up to a maximum of 10 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Dragonblade</td>
                     <td>Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>X-Strike</td>
                     <td>Perform two slashes dealing 135 (+4% per level) damage. The slashes detonate after 1.25 seconds causing an additional 270 (+4% per level) damage to enemies in their area.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Double Jump</td>
                     <td>Cyber Agility stores 2 charges but its cooldown is increased by 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Flow Like Water</td>
                     <td>Each enemy Hero hit with Swift Strike reduces its cooldown by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Shingan</td>
                     <td>Hitting an enemy with all 3 Shuriken deals 115 (+4% per level) bonus damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Final Cut</td>
                     <td>After 1 second, Swift Strike deals an additional 125 (+4% per level) damage to all enemies in the area.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Reflect</td>
                     <td>Deflect also deals an additional 33% of the damage blocked.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Steady Blade</td>
                     <td>Each enemy Hero hit by Swift Strike increases the damage of the next Swift Strike by 20%. This bonus stacks up to 3 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Living Weapon</td>
                     <td>Each enemy Hero hit by X-Strike reduces its cooldown by 12 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Sharpened Stars</td>
                     <td>Shuriken now pierce all enemies hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>The Dragon Becomes Me</td>
                     <td>Each time Dragonblade hits an enemy Hero, the duration of Dragonblade is increased by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Zanshin</td>
                     <td>Quest: Block 6500 damage with Deflect, including damage blocked so far.  Reward: Deflect hits all nearby enemy Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Shuriken</td>
                     <td>Throw 3 Shuriken in a spread pattern, each dealing 65 (+4% per level) damage to the first enemy hit.  Stores up to 3 charges. Shuriken's cooldown replenishes all charges at the same time.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Deflect</td>
                     <td>Become Protected for 1.25 seconds. Any damage blocked during this period causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing 55 (+4% per level) damage.</td>
+                    <td class="visible-lg">16</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Swift Strike</td>
                     <td>Dash forward, dealing 215 (+4% per level) damage to all enemies in a line. Enemy Heroes that die within 2 seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Dragonblade</td>
                     <td>Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>X-Strike</td>
                     <td>Perform two slashes dealing 135 (+4% per level) damage. The slashes detonate after 1.25 seconds causing an additional 270 (+4% per level) damage to enemies in their area.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Cyber Agility</td>
                     <td>Activate to jump to the target area.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

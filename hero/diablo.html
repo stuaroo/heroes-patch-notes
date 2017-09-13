@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/diablo.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Bulwark</td>
                     <td>Increases the duration of Armor granted by Shadow Charge from 2 seconds to 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Devil's Due</td>
                     <td>Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2% per Soul.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Life Leech</td>
                     <td>Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal Diablo for the same amount.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Demonic Strength</td>
                     <td>Once Overpower's stun expires, the target is slowed by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>From the Shadows</td>
                     <td>Increases the cast range of Shadow Charge by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Speed Demon</td>
                     <td>Being Stunned or Rooted increases Diablo's Movement Speed by 30% for 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Diabolical Momentum</td>
                     <td>Basic Attacks reduce the cooldown of Overpower and Shadow Charge by 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Soul Feast</td>
                     <td>Black Soulstone increases Diablo's Health Regeneration by 0.4 per second per Soul.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Soul Shield</td>
                     <td>Black Soulstone grants Diablo 0.25 Spell Armor per soul, reducing Ability Damage taken by 0.25% per Soul.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Apocalypse</td>
                     <td>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Lightning Breath</td>
                     <td>Become Unstoppable while channeling lightning that deals 800 (+4% per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Devastating Charge</td>
                     <td>Shadow Charge's terrain collision against Heroes deals an additional 5% of the target's maximum life. Quest: Each time an enemy Hero takes terrain collision damage, increase the maximum life damage by 2%, to a maximum of 10% bonus.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Fire Devil</td>
                     <td>Fire Stomp increases Diablo's Basic Attack damage by 20% and surrounds Diablo in flames that deal 20 (+4% per level) damage every second. Lasts 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hellfire</td>
                     <td>Each enemy Hero hit by Fire Stomp increases the damage of the next Fire Stomp by 12%, up to 120%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Debilitating Flames</td>
                     <td>Enemy Heroes hit by Fire Stomp are slowed by 15% for 2 seconds, up to 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Domination</td>
                     <td>Casting Overpower resets the cooldown of Shadow Charge.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Fearful Presence</td>
                     <td>Activate to reduce the damage dealt by nearby enemy Heroes by 30% for 3 seconds. Passive: Heroes and Summons that attack Diablo have their Attack Speed slowed by 20% for 2.5 seconds.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Dying Breath</td>
                     <td>Apocalypse's cooldown is reduced by 20 seconds and is cast for free when Diablo dies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hellgate</td>
                     <td>Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.</td>
+                    <td class="visible-lg">120</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hellstorm</td>
                     <td>Lightning Breath lasts and reaches 50% longer.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Lord of Terror</td>
                     <td>Activate to steal 10% of the maximum Health of nearby enemy Heroes.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Shadow Charge</td>
                     <td>Charge an enemy, knocking them back, dealing 75 (+4% per level) damage and gaining 25 Armor for 2 seconds, reducing damage taken by 25%. If the enemy collides with terrain, they are stunned for 1 second and take an additional 150 (+4% per level) damage.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Fire Stomp</td>
                     <td>Unleashes fire waves in all directions that deal 54 (+4% per level) damage each. Once they reach maximum range, they return dealing an additional 81 (+4% per level) damage.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Overpower</td>
                     <td>Grabs the target and slams it behind Diablo, dealing 73 (+4% per level) damage and stunning for 0.25 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Apocalypse</td>
                     <td>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Lightning Breath</td>
                     <td>Become Unstoppable while channeling lightning that deals 800 (+4% per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Black Soulstone</td>
                     <td>Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.4% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.</td>
+                    <td class="visible-lg">30</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

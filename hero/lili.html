@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/lili.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,131 +182,157 @@
                     <td>1</td>
                     <td>Conjurer's Pursuit</td>
                     <td>Quest: Gathering Regeneration Globes increases your Mana Regeneration by 0.1 per second, up to 2.5 per second.  Reward: After gathering 25 Globes, also increase your maximum Mana by 100.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Gale Force</td>
                     <td>Increases Blinding Wind damage by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Pro Toss</td>
                     <td>Increases the range of Healing Brew by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Timeless Creature</td>
                     <td>Increases the duration of Cloud Serpent by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Healing Ward</td>
                     <td>Activate to place a ward on the ground that heals allies in an area for 2% of their maximum Health every second for 10 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Lingering Blind</td>
                     <td>Increases the duration of Blinding Wind by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Mass Vortex</td>
                     <td>Increases the number of enemies hit by Blinding Wind from 2 to 4.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Mending Serpent</td>
                     <td>Cloud Serpent heals the friendly unit for 22 (+4% per level) Health each time it attacks.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Cleanse</td>
                     <td>Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Lightning Serpent</td>
                     <td>Cloud Serpent's attacks bounce to 3 nearby enemy targets, dealing 14 (+4% per level) damage each.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Pitch Perfect</td>
                     <td>After casting Healing Brew, its cost is reduced by 10 Mana for 6 seconds.  This effect does not stack.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>The Good Stuff</td>
                     <td>Healing Brew heals for an additional 60 (+4% per level) Health over 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Jug of 1,000 Cups</td>
                     <td>Rapidly tosses brew to the most injured nearby allies within 10 range, restoring 1632 (+4% per level) Health over 6 seconds.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Water Dragon</td>
                     <td>Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 318 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Elusive Feet</td>
                     <td>When Fast Feet is triggered, gain 75 Physical Armor against the next 2 Hero Basic Attacks for 10 seconds, reducing the damage taken by 75%. This effect has a 10 second cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hindering Winds</td>
                     <td>Blinding Wind also slows enemy Movement Speed by 25% for 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Shrink Ray</td>
                     <td>Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Surging Winds</td>
                     <td>Gain 5% Ability Power for 8 seconds for every enemy hit by Blinding Wind. Additional enemies hit refresh the duration of this buff and further increase Ability Power. Stacks up to 4 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Safety Sprint</td>
                     <td>Increases Fast Feet's Movement Speed bonus from 10% to 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Serpent Sidekick</td>
                     <td>You also gain a Cloud Serpent whenever you cast it on another ally.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Shake It Off</td>
                     <td>Being Stunned or Rooted gives 50 Armor, reducing the damage taken by 50% for 4 seconds. This effect has a 10 second cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Two For One</td>
                     <td>Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Double Dragon</td>
                     <td>After hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Jug of 1,000,000 Cups</td>
                     <td>Jug of 1,000 Cups hits two targets at a time.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Kung Fu Hustle</td>
                     <td>Ability cooldowns refresh 150% faster while Fast Feet is active.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Storm Shield</td>
                     <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                 </tbody>
               </table>
@@ -315,7 +343,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -323,31 +353,43 @@
                     <td>Q</td>
                     <td>Healing Brew</td>
                     <td>Heal lowest Health ally (prioritizing Heroes) for 196 (+4% per level) Health.</td>
+                    <td class="visible-lg">3</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Cloud Serpent</td>
                     <td>Summon a Cloud Serpent on an allied Hero that attacks nearby enemies for 25 (+4% per level) damage per attack. Lasts for 8 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Blinding Wind</td>
                     <td>Throw a cloud of Blinding Wind at the 2 nearest enemies (prioritizing Heroes), dealing 140 (+4% per level) damage. Affected targets miss all Basic Attacks for the next 2 seconds.</td>
+                    <td class="visible-lg">9</td>
+                    <td class="visible-lg">35</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Jug of 1,000 Cups</td>
                     <td>Rapidly tosses brew to the most injured nearby allies within 10 range, restoring 1632 (+4% per level) Health over 6 seconds.</td>
+                    <td class="visible-lg">70</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Water Dragon</td>
                     <td>Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 318 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</td>
+                    <td class="visible-lg">45</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Fast Feet</td>
                     <td>Upon taking damage, gain 10% Movement Speed for 1 second.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

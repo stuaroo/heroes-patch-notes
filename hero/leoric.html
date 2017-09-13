@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/leoric.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Consume Vitality</td>
                     <td>Skeletal Swing's cooldown is reduced by 2 seconds. Enemy Heroes hit heal Leoric for 4% of his maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Fealty Unto Death</td>
                     <td>When a nearby Minion dies, you restore 1% of your maximum Health and 5 Mana. Half as effective while Undying.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Ossein Renewal</td>
                     <td>Activate to heal Leoric for 30% of his maximum Health over 5 seconds. Regeneration Globes lower the cooldown of this Ability by 20 seconds.</td>
+                    <td class="visible-lg">120</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Ghastly Reach</td>
                     <td>Increases the range of Skeletal Swing by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Kneel, Peasants!</td>
                     <td>Skeletal Swing deals 75% more damage to Minions and Mercenaries.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Paralyzing Rage</td>
                     <td>Increases the Movement Speed slow of Skeletal Swing to 60%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Drain Momentum</td>
                     <td>Drain Hope no longer Slows Leoric. If Drain Hope lasts its full duration, gain 30% Movement Speed for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Hopelessness</td>
                     <td>Increases the range of Drain Hope by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Willing Vessel</td>
                     <td>Increase the healing from Drain Hope to 25% of Leoric's maximum Health. If Drain Hope lasts its full duration, Leoric instantly heals for an additional 5% of his maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Entomb</td>
                     <td>Create an unpathable tomb in front of you for 4 seconds.</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>March of the Black King</td>
                     <td>Become Unstoppable and swing your mace three times, healing yourself for 12% of your maximum Health for each enemy Hero hit and dealing 250 (+4% per level) damage.</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hardened Bones</td>
                     <td>Gain 20 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ominous Wraith</td>
                     <td>Increase Wraith Walk's duration by 100%. Enemy Heroes that come in contact with the wraith deal 50% less damage for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Unyielding Despair</td>
                     <td>Drain Hope's cooldown is reduced by 0.5 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Crushing Hope</td>
                     <td>If Drain Hope lasts its full duration, it instantly deals an additional 15% of the target's maximum Health as damage. This damage does not heal Leoric.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Mithril Mace</td>
                     <td>Increase Leoric's Attack Speed by 20%. Repeatable Quest: Nearby enemy Minion deaths grant 0.3% permanent Attack Speed, and Takedowns grant 3% permanent Attack Speed, up to 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Royal Focus</td>
                     <td>Wraith Walk increases the damage of the next Skeletal Swing within 5 seconds by 50%. Each enemy Hero hit by this Skeletal Swing reduces the cooldown of Wraith Walk by 7 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Buried Alive</td>
                     <td>The duration of Entomb is lowered by 1 second, but enemies trapped inside are Silenced and take 45 (+4% per level) damage every 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Burning Despair</td>
                     <td>Deal 40 (+4% per level) damage per second to nearby enemies. The damage and area is increased by 100% while Drain Hope is active.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Death March</td>
                     <td>The final swing of March of the Black King also applies Drain Hope to nearby enemy Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Shroud of the Dead King</td>
                     <td>Activate to become Protected for 3 seconds, preventing all damage.</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Spectral Leech</td>
                     <td>Basic Attacks against enemy Heroes deal bonus damage equal to 2.5% of the Hero's maximum Health and heal Leoric for twice that amount.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Skeletal Swing</td>
                     <td>Leoric swings his mace, dealing 150 (+4% per level) damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Drain Hope</td>
                     <td>Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric is Slowed by 20% while this is active.</td>
+                    <td class="visible-lg">11</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Wraith Walk</td>
                     <td>Separate from your body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, your body jumps to your wraith.</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Entomb</td>
                     <td>Create an unpathable tomb in front of you for 4 seconds.</td>
+                    <td class="visible-lg">75</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>March of the Black King</td>
                     <td>Become Unstoppable and swing your mace three times, healing yourself for 12% of your maximum Health for each enemy Hero hit and dealing 250 (+4% per level) damage.</td>
+                    <td class="visible-lg">50</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Undying</td>
                     <td>Become a ghost when you die, and resurrect upon reaching full Health. Your Abilities and Talents don't do damage while dead, but will still heal you for 50% of their normal amount, causing you to cheat death.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

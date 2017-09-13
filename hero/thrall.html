@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/thrall.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Crash Lightning</td>
                     <td>Repeatable Quest: Hitting at least 2 Heroes with a single use of Chain Lightning increases the damage of its bounces by 12, up to 480. Reward: After hitting multiple Heroes 20 times, Chain Lightning prioritizes bouncing to Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Echo of the Elements</td>
                     <td>Quest: Kill Minions or Heroes within 1.5 seconds of hitting them with Chain Lightning. Reward: After killing 10 enemies, reduce the Mana cost of Chain Lightning from 45 to 25. Reward: After killing 20 enemies, gain a second charge of Chain Lightning.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Rolling Thunder</td>
                     <td>For 10 seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them restores 15 Mana. Passive: Increase the range of Chain Lightning by 30% and the number of bounces by 1.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Feral Resilience</td>
                     <td>Heroes damaged by Feral Spirit grant 3 stacks of Frostwolf Resilience and 2 stacks of Feral Resilience, granting 50 Physical Armor against the next incoming Hero Basic Attack.  Stacks are consumed on the next cast of Feral Spirit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Frostwolf Pack</td>
                     <td>Quest: Hit 7 Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero. Reward: Reduce the cooldown and Mana cost of Feral Spirit by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Mana Tide</td>
                     <td>Frostwolf Resilience restores 15 Mana and reduces Basic Ability cooldowns by 0.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Ancestral Wrath</td>
                     <td>Activate to consume 8 stacks of Ancestral Wrath, damaging a target enemy Hero for 15% of their maximum Health over 3 seconds, and healing Thrall for 150% of the damage dealt. Gain 1 stack of Ancestral Wrath every time Frostwolf Resilience activates.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Follow Through</td>
                     <td>After using an ability, your next Basic Attack within 6 seconds deals 40% additional damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Maelstrom Weapon</td>
                     <td>Repeatable Quest: Basic Attacks against Heroes while Windfury's Movement Speed bonus is active increase Attack Damage by 1. Reward: After gaining 20 Attack Damage, increase the Movement Speed bonus of Windfury to 40%. Reward: After gaining 40 Attack Damage, Thrall permanently gains 15% increased Movement Speed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Earthquake</td>
                     <td>After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, slowing all enemies in the area by 50%, and deals 50 (+4% per level) damage to enemy Heroes. Does 3 pulses.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Sundering</td>
                     <td>After 0.5 seconds, sunder the earth in a long line, dealing 290 (+4% per level) damage and shoving enemies to the side, stunning them for 1 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Frostwolf's Grace</td>
                     <td>Frostwolf Resilience can be activated to instantly heal for 150% of its normal amount.</td>
+                    <td class="visible-lg">15</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Grace Of Air</td>
                     <td>Windfury attacks grant twice as many stacks of Frostwolf Resilience.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Spirit Shield</td>
                     <td>Every 45 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds. Frostwolf Resilience reduces this cooldown by 8 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Alpha Wolf</td>
                     <td>For 3 seconds after a Hero is hit by Feral Spirit, Thrall's Basic Attacks against them deal an additional 3% of the target's maximum Health as damage.Passive: Increase the duration of Feral Spirit's Root to 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Tempest Fury</td>
                     <td>The final strike of Windfury hits 3 times for 75% normal damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Thunderstorm</td>
                     <td>Casting Chain Lightning on a Hero other than the last Hero it was cast on causes it to Slow targets by 8% for 2 seconds.  Repeatable Quest: Each consecutive cast against a new Hero increases this bonus by 8%, up to 40%. Bonuses are reset if Thrall dies or casts Chain Lightning on the same Hero twice.  Reward: While at a 40% bonus, Chain Lightning's damage is increased by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Earthen Shields</td>
                     <td>Allies within the Earthquake area gain a Shield equal to 15% of their maximum Health each pulse. This shield lasts 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nexus Blades</td>
                     <td>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Wind Rush</td>
                     <td>Activate to immediately teleport to a target location and gain Windfury.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Worldbreaker</td>
                     <td>Lower the cooldown of Sundering by 20 seconds. After Sundering impacts, it leaves behind an impassable rift, blocking unit movement for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Chain Lightning</td>
                     <td>Shock an enemy with lightning, dealing 178 (+4% per level) damage. The lightning then bounces 3 times to nearby enemies, dealing 89 (+4% per level) damage to each enemy hit.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Feral Spirit</td>
                     <td>Unleash a Feral Spirit that deals 153 (+4% per level) damage to enemies in its path and Roots Heroes hit for 1 second. Each Hero hit increases the distance traveled by 25%.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Windfury</td>
                     <td>Increase your Movement Speed by 30% for 4 seconds. Your next 3 Basic Attacks occur 100% faster.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Sundering</td>
                     <td>After 0.5 seconds, sunder the earth in a long line, dealing 290 (+4% per level) damage and shoving enemies to the side, stunning them for 1 seconds.</td>
+                    <td class="visible-lg">70</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Earthquake</td>
                     <td>After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, slowing all enemies in the area by 50%, and deals 50 (+4% per level) damage to enemy Heroes. Does 3 pulses.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Frostwolf Resilience</td>
                     <td>Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 223 (+4% per level) Health.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

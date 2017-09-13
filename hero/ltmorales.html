@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/ltmorales.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Caduceus Feedback</td>
                     <td>Basic Attacks generate 4 Energy against Heroes and 1 Energy against non-Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Clear!</td>
                     <td>Quest: Hit Heroes with Displacement Grenade. Reward: After hitting 15 Heroes, reduce the cooldown of Displacement Grenade from 12 seconds to 8 seconds. Reward: After hitting 30 Heroes, increase the detonation area of Displacement Grenade by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Life Support</td>
                     <td>Generate 2 Energy each time Safeguard reduces damage, up to a maximum of 20 Energy per use.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Blast Shield</td>
                     <td>Heroes hit by Displacement Grenade generate 2 Energy and grant Lt. Morales a Shield equal to 8% of her maximum Health, stacking up to 5 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Cellular Reactor</td>
                     <td>Consume 30 Energy to heal Lt. Morales for 40% of her maximum Health over 4 seconds. Caduceus Reactor is disabled while this is active.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Trauma Trigger</td>
                     <td>Taking damage while below 40% Health grants 30 Armor for 3 seconds.  This effect has a 60 second cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Physical Therapy</td>
                     <td>Safeguard removes all Slows from its target. When a Slow is removed this way, reduce the cooldown of Safeguard by 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Prolonged Safeguard</td>
                     <td>Increase Safeguard's duration by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Vanadium Plating</td>
                     <td>While an ally affected by Safeguard is Stunned, Safeguard grants an additional 25 Armor and its duration is paused.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Medivac Dropship</td>
                     <td>Target a location for a Medivac transport. For up to 10.5 seconds before takeoff, allies can right-click to enter the Medivac.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Stim Drone</td>
                     <td>Grant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>EMP Grenade</td>
                     <td>Displacement Grenade deals an additional 40 (+4% per level) damage over 2 seconds, and up to 400 (+4% per level) bonus damage to Shields.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Second Opinion</td>
                     <td>Hitting 2 or more Heroes with Displacement Grenade reduces its cooldown to 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>System Shock</td>
                     <td>Heroes hit by Displacement Grenade deal 30% less damage for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Extended Care</td>
                     <td>Increase the range of Healing Beam by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>First Responder</td>
                     <td>While above 70 Energy, Healing Beam's healing is increased by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Shield Sequencer</td>
                     <td>Safeguard gains a second charge.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Caduceus Reactor 2.0</td>
                     <td>Increase the healing provided by Caduceus Reactor from 2% to 6% of Lt. Morales's maximum Health per second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hyperactivity</td>
                     <td>Reduce the cooldown of Stim Drone from 90 seconds to 45 seconds, and increase the Movement Speed bonus from 25% to 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Reinforcements</td>
                     <td>Activate to call down a Medivac Dropship at your Altar for your allies. After 10 seconds, or when the Ability is activated again, the Medivac will travel to the original cast location to unload its passengers. Cooldown is shared with Medivac Dropship. Passive: Reduce the cooldown of Medivac Dropship from 60 to 30 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Safe Zone</td>
                     <td>After exiting the Medivac, allies are Protected from all damage for 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Healing Beam</td>
                     <td>Heal target ally for 180 (+4% per level) Health per second as long as they are in range. After not channeling Healing Beam for 3 seconds, regenerate 6 Energy per second.  Reactivate to switch targets, or self-cast to cancel channeling.</td>
+                    <td class="visible-lg">0.5</td>
+                    <td class="visible-lg">6 per second</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Safeguard</td>
                     <td>Grant target Ally 25 Armor, reducing damage taken by 25% for 3 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Displacement Grenade</td>
                     <td>Fire a grenade that can be manually detonated, dealing 210 (+4% per level) damage and knocking enemies away.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Stim Drone</td>
                     <td>Grant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Medivac Dropship</td>
                     <td>Target a location for a Medivac transport. For up to 10.5 seconds before takeoff, allies can right-click to enter the Medivac.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Caduceus Reactor</td>
                     <td>While channeling Healing Beam, Lt. Morales regenerates 2% of her maximum Health per second.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

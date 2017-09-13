@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/xul.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Backlash</td>
                     <td>When Bone Armor expires, nearby enemy Heroes take damage equal to 12% of their maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Shackler</td>
                     <td>While Bone Armor is active, nearby enemies are Slowed by 35% for 1 second. Basic Attacks against Heroes that are Stunned, Rooted, or Slowed reduce the cooldown of Bone Armor by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Shade</td>
                     <td>While Bone Armor is active, Xul evades all Basic Attacks, but increases the cooldown of Bone Armor by 20 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Grim Scythe</td>
                     <td>Each enemy hit by Cursed Strikes reduces its cooldown by 0.75 seconds, up to 12 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Jailors</td>
                     <td>Bone Prison spawns 2 Skeletal Warriors.  These do not count towards Xul's Raise Skeleton maximum.  Quest: Spawn 80 Skeletal Warriors. Reward: While fixating on an enemy, Skeletal Warriors gain 50% Movement and Attack Speed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Reaper's Toll</td>
                     <td>Quest: Hit 20 Heroes with Spectral Scythe. Reward: Reduce the cooldown of Spectral Scythe by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Harvest Vitality</td>
                     <td>Cursed Strikes heals for 60% of the damage dealt to Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Trag'Oul's Essence</td>
                     <td>Every time a Skeletal Warrior attacks an enemy, restore 0.5% of Xul's maximum Health and 0.5% of his maximum Mana.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Weaken</td>
                     <td>Increase the Attack Speed reduction of Cursed Strikes by 35% and the duration by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Poison Nova</td>
                     <td>After 0.5 seconds, release poisonous missiles that deal 570 (+4% per level) damage to all enemies hit over 10 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Skeletal Mages</td>
                     <td>Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Echoes of Death</td>
                     <td>Spectral Scythe spawns 2 additional scythes next to the first after 1.5 seconds, dealing 60% damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Executioner</td>
                     <td>Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Rapid Harvest</td>
                     <td>Gain 5% Attack Speed for 10 seconds each time Cursed Strikes hits an enemy, up to 75%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Amplify Damage</td>
                     <td>Enemies Rooted by Bone Prison lose 25 Armor for 1.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Bone Spear</td>
                     <td>Deal 230 (+4% per level) damage to enemies in a line.</td>
+                    <td class="visible-lg">12</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Corpse Explosion</td>
                     <td>When Skeletal Warriors die they explode for 55 (+4% per level) damage in a small area. Deals 100% increased damage to non-Heroic enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Andariel's Visage</td>
                     <td>Poison Nova heals for 50% of the damage dealt. Passive: Skeletal Warriors deal 50% increased damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Cold Hand of Death</td>
                     <td>Increase the Slow of Frost Mages by 20%. Passive: Skeletal Warrior attacks Slow enemies by 30% for 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Kalan's Edict</td>
                     <td>Skeletal Warrior attacks reduce the cooldown of Xul's Heroic Ability by 1%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Mortal Wound</td>
                     <td>Enemies hit by Spectral Scythe receive 75% less healing for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,36 +323,50 @@
                     <td>Q</td>
                     <td>Spectral Scythe</td>
                     <td>Summon a scythe that travels to Xul after 1 second, dealing 240 (+4% per level) damage to enemies.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">55</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Cursed Strikes</td>
                     <td>Xul's Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.</td>
+                    <td class="visible-lg">16</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Bone Prison</td>
                     <td>After a 2 second delay, deal 80 (+4% per level) damage and Root the target enemy Hero for 1.75 seconds.  All nearby Skeletal Warriors will fixate on the target for their duration.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Poison Nova</td>
                     <td>After 0.5 seconds, release poisonous missiles that deal 570 (+4% per level) damage to all enemies hit over 10 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Skeletal Mages</td>
                     <td>Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Raise Skeleton</td>
                     <td>When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 240 (+4% per level) Health that attacks for 23 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Bone Armor</td>
                     <td>Activate to gain a Shield equal to 25% of your maximum Health for 3 seconds.</td>
+                    <td class="visible-lg">30</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

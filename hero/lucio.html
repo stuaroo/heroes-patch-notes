@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/lucio.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,116 +182,139 @@
                     <td>1</td>
                     <td>Accelerando</td>
                     <td>Increase the Movement Speed bonus of Wall Ride from 20% to 40% over 4 seconds, and maintain that speed as long as you maintain the Wall Riding movement speed bonus.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Maximum Tempo</td>
                     <td>Quest: Kill 5 enemy Heroes while Speed Boost is active. Reward: Increase Amped Speed Boost to 60%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Slip</td>
                     <td>Increase the Movement Speed bonus of Wall Ride to 70% for 1 second when near or passing through an enemy Hero.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>We Move Together</td>
                     <td>Increase the passive movement speed bonus of Speed Boost to 20% (from 15%).</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Chase the Bass</td>
                     <td>Quest: After hitting 20 enemy Heroes with Soundwave, increase the arc by 50% and the range by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Off the Wall</td>
                     <td>If you hit an enemy Hero while you have the Wall Riding Movement Speed bonus, reduce the cooldown by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Subwoofer</td>
                     <td>Increase the knockback of Soundwave by up to 50%, based on how close to you they are.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Boombox</td>
                     <td>Place a killable ward on the ground that gives nearby allies your Crossfade and Amp It Up auras (auras do not stack). Lasts 30 seconds. Max 1.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Party Mix</td>
                     <td>Quest: Support allies with your aura for a total of 8 minutes (supporting multiple allies rewards more time). Reward: Increase its radius by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Sonic Amplifier</td>
                     <td>If your aura is currently affecting 2 or more allies when you cast Amp It Up, increase its radius by 50% for the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Reverse Amp</td>
                     <td>Blast Lucio's Crossfade track at enemy Heroes for 4 seconds, causing Healing Boost to inflict 112 (+4% per level) damage per second and Speed Boost to slow for 45%. Passive: Increase Amp It Up's duration to 4 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Sound Barrier</td>
                     <td>After a 1 second delay, grant yourself and all nearby allied Heroes a 1392 (+4% per level) point shield that rapidly decays over 6 seconds.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Back in the Mix</td>
                     <td>Heal for 260 (+4% per level) upon entering a Stun, Silence, or Time Stop effect. This cannot happen more than once every 10 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Beat Mixing</td>
                     <td>After switching Crossfade tracks, if the next song plays for at least 1.5 seconds, Lucio gains a 100 (+4% per level) point Shield that last indefinitely. Switching tacks again removes the Shield.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Can't Stop, Won't Stop</td>
                     <td>You cannot be slowed or rooted while you have the Wall Riding Movement Speed bonus.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hard Style</td>
                     <td>Gain 25 Armor while you have the Wall Riding movement speed boost, reducing damage by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Bring it Together</td>
                     <td>If your aura is currently affecting 2 or more allies when you cast Amp It Up, Crossfade's Healing Boost is increased by 45% for the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Rejuvenescencia</td>
                     <td>While Amp It Up is active, Crossfade's Healing Boost heals for an additional 3% of the target's maximum health per second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Up the Frequency</td>
                     <td>Amp It Up's mana cost is reduced to 80 from 100, and dealing Basic Attack damage to enemy Heroes reduces the cooldown of Amp It Up by 0.45 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Bonus Track</td>
                     <td>Using Crossfade while Amp It Up is active resets the duration of Amp It Up back to its max duration. This can only occur once per cast.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Bossa Nova</td>
                     <td>Reduce the cooldown of Sound Barrier to 30 seconds, but the shield now decays over 4 seconds (from 6).</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nonstop Remix</td>
                     <td>The duration of Reverse Amp is paused while it effects 2 or more enemy Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Synaesthesia Auditiva</td>
                     <td>Casting Amp It Up removes all Stun, Slow, and Root effects from nearby allies, and all Slow and Root effects on Lucio.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +325,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,31 +335,43 @@
                     <td>Q</td>
                     <td>Soundwave</td>
                     <td>Deal 112 (+4% per level) damage to enemies in an area and knock them back.</td>
+                    <td class="visible-lg">7</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Crossfade</td>
                     <td>Play one of two music tracks for Lucio and his allies. Healing Boost: Passively heal Lucio and nearby allied Heroes for 16 health per second. Speed Boost: Increase the Movement Speed of Lucio and nearby allied Heroes by 15%.</td>
+                    <td class="visible-lg">0</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Amp It Up</td>
                     <td>Raise Lucio's Crossfade track volume for 3 seconds, amping Healing Boost to 128 (+4% per level) health per second and Speed Boost to 45% increased Movement Speed.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Sound Barrier</td>
                     <td>After a 1 second delay, grant yourself and all nearby allied Heroes a 1392 (+4% per level) point shield that rapidly decays over 6 seconds.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Reverse Amp</td>
                     <td>Blast Lucio's Crossfade track at enemy Heroes for 4 seconds, causing Healing Boost to inflict 112 (+4% per level) damage per second and Speed Boost to slow for 45%. Passive: Increase Amp It Up's duration to 4 seconds.</td>
+                    <td class="visible-lg">45</td>
+                    <td class="visible-lg">55</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Wall Ride</td>
                     <td>When moving alongside impassable terrain, Lucio can walk through other units, and his Movement Speed is increased by 20%. This works together with other Movement Speed bonuses.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

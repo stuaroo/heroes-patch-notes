@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/garrosh.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Body Check</td>
                     <td>Activate to deal 111 (+4% per level) damage to a target enemy and Slow them by 30% for 3 seconds.  Damage is increased by 200% of Armor Up's current bonus, and the Slow amount is increased by 30% if Armor Up's bonus is above 25.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Unrivaled Strength</td>
                     <td>Increase Wrecking Ball's throw range by 30% and its damage by 125%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Warbreaker</td>
                     <td>Quest: Pull Heroes with Groundbreaker. Reward: After pulling 5 Heroes, Groundbreaker deals an additional 150 damage over 3 seconds to Heroes. Reward: After pulling 15 Heroes, reduce Groundbreaker's cooldown by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>In for the Kill</td>
                     <td>Increase Bloodthirst's damage against non-Heroes by 70%. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Indomitable</td>
                     <td>Activate to become Unstoppable for 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Thirst for Battle</td>
                     <td>Basic Attacks against Heroes reduce the cooldown of Bloodthirst by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Brute Force</td>
                     <td>Enemies hit by Body Check receive 50% reduced healing for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Intimidation</td>
                     <td>Groundbreaker reduces the Attack Speed of Heroes hit by 40% for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Into the Fray</td>
                     <td>Activate to throw a nearby ally and grant them 25 Armor for 3 seconds. Deals 91 (+4% per level) damage to nearby enemies upon impact and Slows them by 30% for 2.5 seconds.  While in flight, allied Heroes are Unstoppable.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Oppressor</td>
                     <td>Basic Attacks against Heroes reduce the target's Spell Power by 40% for 2.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Decimate</td>
                     <td>Deal 50 (+4% per level) damage to nearby enemies and Slow them by 30% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.  Stores up to 3 charges.</td>
+                    <td class="visible-lg">8</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Warlord's Challenge</td>
                     <td>Silence nearby Heroes and force them to attack Garrosh for 1.5 seconds.</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Bloodcraze</td>
                     <td>When hitting a Hero, Bloodthirst heals for an additional 10% of Garrosh's maximum Health over 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Defensive Measures</td>
                     <td>Pulling a Hero with Groundbreaker grants Garrosh a 350 (+4% per level) Shield for 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Double Up</td>
                     <td>Armor Up can be activated to increase its Armor bonus by 100% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Earthshaker</td>
                     <td>Wrecking Ball Stuns enemies near the impact area for 0.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Mortal Combo</td>
                     <td>If Wrecking Ball is used on a Hero within 2 seconds of pulling them with Groundbreaker, Wrecking Ball's cooldown is reduced by 10 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Rough Landing</td>
                     <td>Heroes pulled by Groundbreaker are Slowed by 50% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Deadly Calm</td>
                     <td>Heroes hit by Decimate deal 20% less damage for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Death Wish</td>
                     <td>Increase the duration of Warlord's Challenge by 0.5 seconds. If an enemy Hero is killed while affected by Warlord's challenge, its cooldown is reduced by 45 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Inner Rage</td>
                     <td>Body Check gains an additional charge, and its cooldown recharges 100% faster while Armor Up's bonus is at or above 25.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Titanic Might</td>
                     <td>Wrecking Ball now throws the 2 closest enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Groundbreaker</td>
                     <td>Deal 81 (+4% per level) damage to enemies in an area. Heroes hit on the outer edge are pulled toward Garrosh.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Bloodthirst</td>
                     <td>Deal 156 (+4% per level) damage to an enemy and heal for 10% of Garrosh's missing Health. Healing is increased by 100% against Heroes.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">55</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Wrecking Ball</td>
                     <td>Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing 91 (+4% per level) damage to enemies near the impact and Slowing them by 30% for 2.5 seconds.</td>
+                    <td class="visible-lg">16</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Warlord's Challenge</td>
                     <td>Silence nearby Heroes and force them to attack Garrosh for 2 seconds.</td>
+                    <td class="visible-lg">50</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Decimate</td>
                     <td>Deal 50 (+4% per level) damage to nearby enemies and Slow them by 30% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.  Stores up to 3 charges.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Armor Up</td>
                     <td>Garrosh gains 1 Armor for every 2% of maximum Health missing.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

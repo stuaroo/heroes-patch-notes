@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/valeera.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,126 +182,151 @@
                     <td>1</td>
                     <td>Combat Readiness</td>
                     <td>Each Combo Point spent grants 50 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 50%. Stores up to 3 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Crippling Poison</td>
                     <td>Activate to cause Valeera's next instance of Spell Damage to slow enemy Movement Speed by 25% for 5 seconds. Activating Crippling Poison does not break Vanish.</td>
+                    <td class="visible-lg">15</td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Subtlety</td>
                     <td>After remaining Vanished for at least 4 seconds, using Ambush, Cheap Shot, or Garrote causes Valeera to regenerate an additional 10 Energy per second for 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Vigor</td>
                     <td>Valeera regenerates an additional 2 Energy per second. Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Hemorrhage</td>
                     <td>Valeera's Basic Attacks deal 25% additional damage to enemies affected by Garrote.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Initiative</td>
                     <td>Ambush, Cheap Shot, and Garrote award 1 Combo Points.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Relentless Strikes</td>
                     <td>Reduces the Energy cost of Sinister Strike by 10.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Wound Poison</td>
                     <td>Activate to cause Valeera's next instance of Spell Damage to also reduce healing received by the victim by 50% for 5 seconds. Activating Wound Poison does not break Vanish.</td>
+                    <td class="visible-lg">15</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Assassinate</td>
                     <td>Ambush deals 100% additional damage if no other enemy Heroes are within 4 range of the victim.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Fatal Finesse</td>
                     <td>Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 3, up to 60. Reward: After damaging 20 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Mutilate</td>
                     <td>Sinister Strike now hits with both blades, dealing 100% additional damage, but its range is reduced by 1.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Slice and Dice</td>
                     <td>Eviscerating an enemy with 3 Combo Points causes Valeera's next 3 Basic Attacks to have their Attack Speed increased by 150%. Lasts 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Cloak of Shadows</td>
                     <td>Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish.</td>
+                    <td class="visible-lg">15</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Smoke Bomb</td>
                     <td>Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Blind</td>
                     <td>When Cheap Shot expires, the victim is blinded for 2.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Death From Above</td>
                     <td>Ambush now has 6 range and teleports Valeera behind the victim.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Elusiveness</td>
                     <td>Increases Valeera's Movement Speed while Vanished by an additional 10%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Strangle</td>
                     <td>Garrote reduces Ability Damage dealt by the victim by 25% for 7 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Expose Armor</td>
                     <td>Eviscerating an enemy with 3 Combo Points causes them to lose 25 Armor for 2 seconds, increasing all damage taken by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Rupture</td>
                     <td>Valeera's Basic Attacks increase the damage over time effect of Garrote by 5%, stacking up to 30%, and refresh the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Seal Fate</td>
                     <td>Sinister Strike deals 50% additional damage and generates an additional Combo Point when used against silenced, rooted, or stunned enemy Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Thistle Tea</td>
                     <td>Activate to instantly restore 100 Energy. Activating Thistle Tea does not break Vanish.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Adrenaline Rush</td>
                     <td>While in the Smoke Bomb, Valeera regenerates an additional 30 Energy per second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Enveloping Shadows</td>
                     <td>Whenever Valeera uses Vanish, she also gains Cloak of Shadows.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nightslayer</td>
                     <td>Reduces the cooldown of Vanish by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -310,7 +337,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -318,46 +347,64 @@
                     <td>Q</td>
                     <td>Ambush</td>
                     <td>Ambush the target, instantly dealing 180 (+4% per level) damage to the target.  Awards 1 Combo Point.</td>
+                    <td class="visible-lg">1</td>
+                    <td class="visible-lg">10</td>
                   </tr>
                   <tr>
                     <td>Q</td>
                     <td>Sinister Strike</td>
                     <td>Dash forward, hitting all enemies in a line for 110 (+4% per level) damage. If Sinister Strike hits a Hero, Valeera stops dashing immediately and the cooldown is reduced to 1 second. Awards 1 Combo Point.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Blade Flurry</td>
                     <td>Deal 130 (+4% per level) damage in an area around Valeera. Awards 1 Combo Point per enemy Hero hit.</td>
+                    <td class="visible-lg">4</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Cheap Shot</td>
                     <td>Deal 30 (+4% per level) damage to an enemy and stun them for 1.25 seconds.  Awards 1 Combo Point.</td>
+                    <td class="visible-lg">1</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Garrote</td>
                     <td>Garrote an enemy, dealing 20 (+4% per level) damage instantly, an additional 140 (+4% per level) damage over 7 seconds, and silencing them for 2.25 seconds.  Awards 1 Combo Point.</td>
+                    <td class="visible-lg">1</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Eviscerate</td>
                     <td>Eviscerate an enemy, dealing damage per Combo Point.  1 Point: 85 (+4% per level) 2 Points: 170 (+4% per level) 3 Points: 255 (+4% per level).</td>
+                    <td class="visible-lg">1</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Smoke Bomb</td>
                     <td>Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Cloak of Shadows</td>
                     <td>Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Vanish</td>
                     <td>Valeera vanishes from sight, becoming Stealthed and increasing her Movement Speed by 10%. For the first second, she is Unrevealable and can pass through other units.  Using Vanish grants Valeera an alternate set of Abilities that she can use while Stealthed.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

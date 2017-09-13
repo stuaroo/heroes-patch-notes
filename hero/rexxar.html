@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/rexxar.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Bird of Prey</td>
                     <td>Increases Spirit Swoop's damage by 150% to Minions.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Easy Prey</td>
                     <td>Increases Misha's damage to Minions and Mercenaries by 150%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Flare</td>
                     <td>Fire a flare at an area, revealing it for 20 seconds.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Animal Husbandry</td>
                     <td>Rexxar and Misha gain 2 Maximum Health every second Rexxar remains alive. These bonuses are lost on Rexxar's death.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Grizzled Fortitude</td>
                     <td>Every 7 seconds, Rexxar and Misha gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges. Both Rexxar and Misha have their own charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Hungry Bear</td>
                     <td>Misha's Basic Attacks heal her for 4.5% of her maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Hunter-Gatherer</td>
                     <td>Quest: Gathering a Regeneration Globe increases Rexxar's Health Regeneration by 1.25 per second, up to 25 per second.  Reward: After gathering 20 Globes, Rexxar and Misha gain 10 Armor.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Aspect of the Beast</td>
                     <td>Misha's Basic Attacks lower the cooldown of Misha, Charge! by 1.25 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Crippling Talons</td>
                     <td>Increases Spirit Swoop's slow amount to 50% and its duration to 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Taking Flight</td>
                     <td>Increases Spirit Swoop's range by 20%. If Spirit Swoop hits an enemy Hero, the Mana cost is refunded and its cooldown is reduced by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Bestial Wrath</td>
                     <td>Increases Misha's Basic Attack damage by 150% for 12 seconds.</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Unleash the Boars</td>
                     <td>Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 (+4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Aspect of the Hawk</td>
                     <td>When Spirit Swoop hits an enemy Hero, Rexxar gains 125% Attack Speed for 3 seconds. Misha's Basic Attacks increase the duration of this buff by 0.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Dire Beast</td>
                     <td>Rexxar and Misha's Basic Attacks increase the damage of the next Misha, Charge! by 40%, stacking up to a 400% bonus.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Wildfire Bear</td>
                     <td>Misha deals 28 (+4% per level) damage per second to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Feign Death</td>
                     <td>Fake your death, becoming Invulnerable and untargetable for 5 seconds. During this time you control Misha.</td>
+                    <td class="visible-lg">35</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Primal Intimidation</td>
                     <td>Heroes and Summons that attack you or Misha have their Attack Speed slowed by 20% for 2.5 seconds. Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons near Rexxar and Misha for 2.5 seconds.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Thrill of the Hunt</td>
                     <td>Your Basic Attacks increase both you and Misha's Movement Speed by 25% for 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Frenzy of Kalimdor</td>
                     <td>Your Basic Attacks deal 10% more damage, and Misha's Basic Attacks slow the target by 20% for 1.25 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hardened Skin</td>
                     <td>You and Misha take 75% less damage for 4 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Kill Command</td>
                     <td>Unleash the Boars deals 50% more damage and roots for 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Spirit Bond</td>
                     <td>Increases the duration of Bestial Wrath by 50% and Misha's Basic Attacks heal Rexxar for 50% of her damage dealt during Bestial Wrath.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Spirit Swoop</td>
                     <td>Deal 141 (+4% per level) damage to enemies in a line, slowing them by 30% for 2 seconds.</td>
+                    <td class="visible-lg">7</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Misha, Charge!</td>
                     <td>Misha charges in a line, dealing 59 (+4% per level) damage and stunning enemies for 1.25 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Mend Pet</td>
                     <td>Heal Misha for 596 (+4% per level) Health over 5 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">55</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Unleash the Boars</td>
                     <td>Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 (+4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Bestial Wrath</td>
                     <td>Increases Misha's Basic Attack damage by 150% for 12 seconds.</td>
+                    <td class="visible-lg">50</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Misha, Focus!</td>
                     <td>Passive: Misha gains 15% move speed. Command Misha to attack a specific enemy or move to a point and wait. Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar. Targeting Misha commands her to hold her current position.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

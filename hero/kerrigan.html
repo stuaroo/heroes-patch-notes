@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/kerrigan.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Block</td>
                     <td>Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Sharpened Blades</td>
                     <td>Impaling Blades deals 25% more damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Siphoning Impact</td>
                     <td>If the targeted enemy dies within 1.5 seconds, Kerrigan heals for 10% of her maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Clean Kill</td>
                     <td>If Ravage kills the target, it restores 75% of its Mana cost and increases the damage of your next Ravage by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Envenom</td>
                     <td>Activate to poison an enemy Hero, dealing 352 (+4% per level) damage over 10 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Fury of the Swarm</td>
                     <td>Your Basic Attacks splash for 60% damage around the target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Psionic Pulse</td>
                     <td>After casting Primal Grasp, deal 36 (+4% per level) damage per second to nearby enemies. Lasts 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Assimilation Mastery</td>
                     <td>Increases the duration of Assimilation by 100%. While Assimilation is active, your Health and Mana regeneration is increased by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Blade Torrent</td>
                     <td>Increases Impaling Blades' radius by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Bladed Momentum</td>
                     <td>Basic Attacks reduce your Basic Ability cooldowns by 0.6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Maelstrom</td>
                     <td>Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Summon Ultralisk</td>
                     <td>Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Double Strike</td>
                     <td>When your Basic Abilities damage an enemy, your next Basic Attack hits for 75% bonus damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Eviscerate</td>
                     <td>Increases Ravage's range by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Queen's Rush</td>
                     <td>Activate to increase your Movement Speed by 30% for 4 seconds. Queen's Rush is also applied for free on Takedowns.</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Aggressive Defense</td>
                     <td>Increases base Shield amount gained from Assimilation by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Essence for Essence</td>
                     <td>Activate to deal 10% of target enemy Hero's Max Health and gain Assimilation Shields for twice that amount.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Overdrive</td>
                     <td>Activate to increase Ability Power by 25% and Mana costs by 40% for 5 seconds.</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nexus Blades</td>
                     <td>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Omegastorm</td>
                     <td>Maelstrom size increased by 25%. Amount of Assimilation Shields generated by Maelstrom increased by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Psionic Shift</td>
                     <td>Activate to teleport to a nearby location, dealing 50 (+4% per level) damage to nearby enemies. Generates 300% increased Assimilation Shields from the damage dealt.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Torrasque</td>
                     <td>The Ultralisk morphs into an egg when it dies. If the egg isn't killed within 4 seconds, a new Ultralisk is born.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Ravage</td>
                     <td>Leap to a target, dealing 210 (+4% per level) damage. If the enemy dies within 1.5 seconds, this cooldown is instantly reset.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Impaling Blades</td>
                     <td>After 1.25 seconds, deal 261 (+4% per level) damage to enemies within the target area, stunning them for 1 second.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Primal Grasp</td>
                     <td>Pulls enemies within the target area towards you, dealing 114 (+4% per level) damage.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Summon Ultralisk</td>
                     <td>Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Maelstrom</td>
                     <td>Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Assimilation</td>
                     <td>Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

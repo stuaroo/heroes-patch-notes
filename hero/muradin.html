@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/muradin.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,131 +182,157 @@
                     <td>1</td>
                     <td>Block</td>
                     <td>Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Perfect Storm</td>
                     <td>Reduces Storm Bolt's Mana cost by 25%. Quest: Every time Storm Bolt hits a Hero, increase its damage by 5.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Third Wind</td>
                     <td>Increases Health Restoration rate to 80 (+4% per level) per second, and raises Health threshold to 60% Health for improved 159 (+4% per level) per second Restoration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Crowd Control</td>
                     <td>Each enemy hit by Thunder Clap reduces its cooldown by 0.75 seconds and restores 5 Mana, to a maximum of 9 targets.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Reverberation</td>
                     <td>Increases the Attack Speed slow from 25% to 50% and the duration from 2.5 seconds to 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Sledgehammer</td>
                     <td>Deals 400% damage to non-Heroic enemies. Destroys 4 ammo from Structures.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Thunder Burn</td>
                     <td>Thunder Clap leaves a zone on the ground that explodes after 2 seconds dealing 48 (+4% per level) damage and applying a 25% slow for 2.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Iron-forged Momentum</td>
                     <td>Basic Attacks reduce the cooldown of Storm Bolt and Thunderclap by 0.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Landing Momentum</td>
                     <td>Increases your Movement Speed by 25% for 5 seconds upon landing with Dwarf Toss.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Piercing Bolt</td>
                     <td>Penetrates through the first target hit, hitting 1 additional target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Skullcracker</td>
                     <td>Increases your Basic Attack Speed by 25%.  Every 3rd Basic Attack against the same target will stun them for 0.25 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Avatar</td>
                     <td>Transform for 20 seconds, gaining 1053 (+4% per level) Health.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Haymaker</td>
                     <td>Stun target enemy Hero, and wind up a punch dealing 319 (+4% per level) damage and knocking the target back, hitting enemies in the way for 319 (+4% per level) damage and knocking them aside.</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Burning Rage</td>
                     <td>Deal 23 (+4% per level) damage per second to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Healing Static</td>
                     <td>Heal for 5% of your Max Health for each Hero hit by Thunder Clap.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Spell Shield</td>
                     <td>Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Thunder Strike</td>
                     <td>Thunder Clap deals 300% damage if only one target is hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Dwarf Launch</td>
                     <td>Increases the range and impact radius of Dwarf Toss by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Give 'em the Axe!</td>
                     <td>Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 60% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Heavy Impact</td>
                     <td>Enemies hit by Dwarf Toss are stunned for 0.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Imposing Presence</td>
                     <td>Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Stoneform</td>
                     <td>Activate to heal for 40% of your maximum Health over 10 seconds. Second Wind is disabled during this time.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Grand Slam</td>
                     <td>Damage of Haymaker increased by 25%, Mana cost lowered by 40, and can store 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hardened Shield</td>
                     <td>Activate to gain 75 Armor for 4 seconds, taking 75% less damage.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Rewind</td>
                     <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Unstoppable Force</td>
                     <td>Increases the duration of Avatar by 30%, and the duration of Stuns, Roots, and Slows are reduced by 75% while in Avatar.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -315,7 +343,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -323,31 +353,43 @@
                     <td>Q</td>
                     <td>Storm Bolt</td>
                     <td>Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and stunning it for 1.25 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Thunder Clap</td>
                     <td>Deals 96 (+4% per level) damage and slows enemies Movement and Attack Speed by 25% for 2.5 seconds.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Dwarf Toss</td>
                     <td>Leap to target location, dealing 59 (+4% per level) damage to enemies on landing. Upon leaping, gain 25 Armor for 2 seconds, reducing damage taken by 25%.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">55</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Avatar</td>
                     <td>Transform for 20 seconds, gaining 1124 (+4% per level) Health.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Haymaker</td>
                     <td>Stun target enemy Hero, and wind up a punch dealing 319 (+4% per level) damage and knocking the target back, hitting enemies in the way for 319 (+4% per level) damage and knocking them aside.</td>
+                    <td class="visible-lg">40</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Second Wind</td>
                     <td>Restore 51 (+4% per level) Health per second when you have not taken damage for 4 seconds. When below 40% Health, increased to 102 (+4% per level) Health per second.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

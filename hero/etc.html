@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/etc.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Block Party</td>
                     <td>Rockstar gives allies a stack of Block, granting 50 Physical Armor against the next Hero Basic Attack for 8 seconds, reducing the damage taken by 50%. Maximum 2 stacks of Block.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Guitar Hero</td>
                     <td>While Guitar Solo is active, E.T.C. heals for 50% of his damage dealt by Basic Attacks.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Prog Rock</td>
                     <td>Quest: Gathering a Regeneration Globe permanently increases the healing per second of Guitar Solo by 5, to a maximum of 100. Reward: After gathering 20 Regeneration Globes, Guitar Solo also heals nearby allied Heroes for 50 (+4% per level) Health every second while it is active.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Crowd Surfer</td>
                     <td>Allows Powerslide to travel over walls and terrain.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Loud Speakers</td>
                     <td>Increases Face Melt range and knockback by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Speed Metal</td>
                     <td>Using a Basic or Heroic ability also gives nearby allied Heroes 15% Movement Speed for 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Echo Pedal</td>
                     <td>Using a Basic or Heroic Ability releases two pulses of 15 (+4% per level) damage. This deals 250% bonus damage to Minions and Mercenaries. The first occurs instantly, the second occurs 2 seconds later.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Hammer-on</td>
                     <td>After using an Ability, your next 2 Basic Attacks deal 35% more damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Pinball Wizard</td>
                     <td>Face Melt does 300% more damage to enemies recently affected by Powerslide.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Mosh Pit</td>
                     <td>After 0.75 seconds, channel to stun nearby enemies for 4 seconds.</td>
+                    <td class="visible-lg">120</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Stage Dive</td>
                     <td>Leap to target location, landing after 2.75 seconds, dealing 330 (+4% per level) damage to enemies in the area, and slowing them by 50% for 3 seconds.</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Encore</td>
                     <td>Face Melt leaves an Amp behind, which will knock enemies away again 2 seconds later.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Face Smelt</td>
                     <td>Face Melt slows enemies by 50% fading over 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Mic Check</td>
                     <td>Hitting at least 2 targets with Face Melt reduces its cooldown by 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Aggressive Shredding</td>
                     <td>E.T.C.'s Basic Attacks reduce the cooldown of Guitar Solo by 0.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Imposing Presence</td>
                     <td>Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Show Stopper</td>
                     <td>After using Powerslide, gain 15 Armor for 4 seconds, reducing all damage taken by 15%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Bolt of the Storm</td>
                     <td>Activate to teleport to a nearby location.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Crowd Pleaser</td>
                     <td>Stage Dive's impact area is 50% bigger, and its cooldown is reduced by 10 seconds for every enemy Hero hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Death Metal</td>
                     <td>Upon dying, a ghost uses Mosh Pit at E.T.C's location.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Storm Shield</td>
                     <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Tour Bus</td>
                     <td>Mosh Pit refreshes the cooldown of Powerslide. E.T.C. can Powerslide during Mosh Pit, which also increases its duration by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Powerslide</td>
                     <td>Slide to a location dealing 91 (+4% per level) damage and stunning enemies hit for 1.25 second.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Face Melt</td>
                     <td>Deals 68 (+4% per level) damage to nearby enemies, knocking them back.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Guitar Solo</td>
                     <td>Regenerate 66 (+4% per level) Health per second for 4 seconds.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Mosh Pit</td>
                     <td>After 0.75 seconds, channel to stun nearby enemies for 4 seconds.</td>
+                    <td class="visible-lg">120</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Stage Dive</td>
                     <td>Leap to target location, landing after 2.75 seconds, dealing 330 (+4% per level) damage to enemies in the area, and slowing them by 50% for 3 seconds.</td>
+                    <td class="visible-lg">75</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Rockstar</td>
                     <td>After E.T.C. uses a Basic or Heroic ability, he gains 20 Armor for 2 seconds. This effect does not stack with itself.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

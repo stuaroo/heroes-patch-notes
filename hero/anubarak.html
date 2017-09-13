@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/anubarak.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Nerubian Armor</td>
                     <td>Every 12 seconds, gain 30 Spell Armor against the next Ability and subsequent Abilities cast against you for 1.5 seconds, reducing the damage taken by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Regeneration Master</td>
                     <td>Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.   Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Resilient Scarabs</td>
                     <td>Beetles have 50 Spell Armor</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Bed of Barbs</td>
                     <td>Create a bed of spikes along Impale's path that slows enemies by 25% and deals 21 (+4% per level) damage per second.  Spikes persist for 3.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Legion of Beetles</td>
                     <td>Automatically spawn a Beetle every 8 seconds.  Can be toggled on and off.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Shed Exoskeleton</td>
                     <td>Using Hardened Carapace increases Move Speed by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Underking</td>
                     <td>Increases Burrow Charge range by 20% and damage by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Chitinous Plating</td>
                     <td>While Harden Carapace is active, taking damage from enemy Abilities reduces its cooldown by 1 second, up to 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Leeching Scarabs</td>
                     <td>Beetles gain 20% bonus attack damage and they heal Anub'arak for 50% of their damage with each attack if he is nearby.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Subterranean Shield</td>
                     <td>Burrow Charge also grants a 345 (+4% per level) point shield for 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Cocoon</td>
                     <td>Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for 8 seconds. Allies of the Hero can attack the cocoon to break it and free them early.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Locust Swarm</td>
                     <td>Deal 62 (+4% per level) damage per second in an area around yourself. Each enemy damaged heals you for 21 (+4% per level) Health. Lasts 6 seconds.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Acid Drenched Mandibles</td>
                     <td>Attacking a Hero that is slowed, rooted, or stunned increases Anub'arak's Basic Attack damage by 70% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Burning Rage</td>
                     <td>Deal 23 (+4% per level) damage per second to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Urticating Spines</td>
                     <td>Casting Harden Carapace will also deal 80 (+4% per level) damage to nearby enemies. Deals double damage against Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Beetle, Juiced</td>
                     <td>Every 3rd Basic Attack against enemy Heroes spawns a Beetle.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Debilitation</td>
                     <td>Enemy Heroes hit by Burrow Charge have their Spell Power reduced by 50% for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Epicenter</td>
                     <td>Increases Burrow Charge impact area by 60% and lowers the cooldown by 1.25 seconds for each Hero hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Cryptweave</td>
                     <td>Staying near the Cocoon allows Anub'arak to extend the duration by up to 4 seconds per Cocoon.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hive Master</td>
                     <td>Gain a permanent Vampire Locust that attacks a nearby enemy every 3 seconds. The Vampire Locust deals 153 (+4% per level) damage and returns to heal you for 37 (+4% per level) health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nullification Shield</td>
                     <td>Activate to gain 60 Spell Armor for 5 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Rewind</td>
                     <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Impale</td>
                     <td>Deals 100 (+4% per level) damage. Stuns for 1 second.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Harden Carapace</td>
                     <td>Gain a Shield that absorbs 315 (+4% per level) damage over 3 seconds.</td>
+                    <td class="visible-lg">7</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Burrow Charge</td>
                     <td>Burrows to location, dealing 96 (+4% per level) damage and briefly stunning enemies in a small area upon surfacing, slowing them by 25% for 2.5 seconds. Burrow Charge can be reactivated to surface early.</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Locust Swarm</td>
                     <td>Deal 62 (+4% per level) damage per second in an area around yourself. Each enemy damaged heals you for 21 (+4% per level) Health. Lasts 6 seconds.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Cocoon</td>
                     <td>Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for 8 seconds. Allies of the Hero can attack the cocoon to break it and free them early.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Scarab Host</td>
                     <td>Using a Basic Ability spawns a Beetle which lasts for 8 seconds, attacking nearby enemies for 20 (+4% per level) damage.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

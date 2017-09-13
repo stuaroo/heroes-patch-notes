@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/zeratul.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Greater Cleave</td>
                     <td>Increases the radius of Cleave by 33%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Shadow Hunter</td>
                     <td>Quest: Gather Regeneration Globes to lower the Mana cost of Blink by 2.  Reward: Upon gathering 20 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Vorpal Blade</td>
                     <td>Activate to teleport to the last non-structure target attacked within 3 seconds. The target is revealed during these 3 seconds.</td>
+                    <td class="visible-lg">15</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Combo Slash</td>
                     <td>After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 40% additional damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Grim Task</td>
                     <td>Quest: Hero Takedowns increase Ability Power by 5%, up to 50%. This bonus Ability Power is lost on death.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Rending Cleave</td>
                     <td>Cleave deals an additional 40% damage over 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Seeker in the Dark</td>
                     <td>Singularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Slip into Shadow</td>
                     <td>Blink gains an additional charge, but its cooldown is increased by 8 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Wormhole</td>
                     <td>For 2.125 seconds, reactivate Blink to return to the point where it was cast from.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Shadow Assault</td>
                     <td>Basic Attacks cause Zeratul to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Void Prison</td>
                     <td>Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. Zeratul is not affected.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Mending Strikes</td>
                     <td>Basic Attacks heal for 35% of the damage dealt.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Shroud of Adun</td>
                     <td>Zeratul gains a shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Spell Shield</td>
                     <td>Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Master Warp-Blade</td>
                     <td>Every third consecutive Basic Attack against the same target deals 125% bonus damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Sentenced to Death</td>
                     <td>Deal 40% increased damage to enemies while they have a Singularity Spike attached to them.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Void Slash</td>
                     <td>If Cleave hits more than one enemy Hero, it deals 50% increased damage and its cooldown is reduced by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Gift of the Xel'naga</td>
                     <td>Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nerazim Fury</td>
                     <td>Shadow Assault grants 30% Life Steal, and the duration is increased by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nexus Blades</td>
                     <td>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Rewind</td>
                     <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Cleave</td>
                     <td>Deal 200 (+4% per level) damage to nearby enemies.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Singularity Spike</td>
                     <td>Flings a Singularity Spike that sticks to the first enemy hit. Deals 228 (+4% per level) damage after 1 second and slows the enemy by 40% for 3 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Blink</td>
                     <td>Teleport to the target location.   Using this Ability does not break cloak.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Shadow Assault</td>
                     <td>Your Basic Attacks cause you to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.</td>
+                    <td class="visible-lg">45</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Void Prison</td>
                     <td>Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Permanent Cloak</td>
                     <td>Gain Stealth when out of combat for 3 seconds.  Taking damage, attacking, using Abilities, or channeling reveals you.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

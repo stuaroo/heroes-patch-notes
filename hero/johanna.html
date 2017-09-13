@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/johanna.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,116 +182,139 @@
                     <td>1</td>
                     <td>Regeneration Master</td>
                     <td>Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.   Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Reinforce</td>
                     <td>Using a Basic Ability grants 50 Physical Armor against the next enemy Hero Basic Attack, reducing damage taken by 50%. Stores up to 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Righteous Smash</td>
                     <td>Punish restores 10 Mana per enemy hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Eternal Retaliation</td>
                     <td>Condemn's cooldown is lowered by 0.75 seconds for each enemy affected. Maximum of 10 targets.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Laws of Hope</td>
                     <td>Activate to heal 20% of Johanna's max Health over 4 seconds. Passive: Regenerate 10 Health per second.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Roar</td>
                     <td>Increases Punish damage by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Blessed Momentum</td>
                     <td>Basic Attacks reduce Johanna's Basic Ability cooldowns by 0.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Conviction</td>
                     <td>Movement Speed is increased by 25% while Condemn is charging up.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Sins Exposed</td>
                     <td>Shield Glare marks enemies for 4 seconds. The next time any ally damages them, they take 68 (+4% per level) extra damage and the mark is removed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>The Crusade Marches On</td>
                     <td>Basic and Heroic Abilities lower the cooldown of Iron Skin by 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Blessed Shield</td>
                     <td>Deal 114 (+4% per level) damage and stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and stunning them for 0.75 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Falling Sword</td>
                     <td>Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 365 (+4% per level) damage to nearby enemies and knocking them into the air.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Burning Rage</td>
                     <td>Deal 23 (+4% per level) damage per second to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hold Your Ground</td>
                     <td>Increases Iron Skin's Shield by 20%, and if the Shield is destroyed by damage the cooldown is reduced by 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Subdue</td>
                     <td>Increases Punish's slow to 80% decaying over 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Blessed Hammer</td>
                     <td>Condemn also creates a hammer that spirals around Johanna, dealing 41 (+4% per level) damage to enemies it hits.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Fanaticism</td>
                     <td>While Iron Skin is active, Johanna gains 8% Movement Speed each time she takes damage.  Stacks up to 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Holy Renewal</td>
                     <td>Every enemy Hero affected by Shield Glare heals you for 114 (+4% per level).</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Imposing Presence</td>
                     <td>Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Heaven's Fury</td>
                     <td>While in the air, holy bolts rain down on enemies dealing 75 (+4% per level) damage and reducing the cooldown of Falling Sword by 2 seconds for each enemy hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Indestructible</td>
                     <td>Upon taking fatal damage, Johanna gains a Shield equal to her maximum Health for 5 seconds. This effect has a 120 second cooldown.</td>
+                    <td class="visible-lg">120</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Radiating Faith</td>
                     <td>Increases Blessed Shield's stun duration by 33% and maximum enemies hit by 2.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Storm Shield</td>
                     <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +325,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,31 +335,43 @@
                     <td>Q</td>
                     <td>Punish</td>
                     <td>Step forward dealing 113 (+4% per level) damage and slowing enemies by 60% decaying over 2 seconds.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Condemn</td>
                     <td>After 1 second, you pull nearby enemies toward you, stunning them for 0.25 seconds and dealing 55 (+4% per level) damage. Deals 200% increased damage to Minions and Mercenaries.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Shield Glare</td>
                     <td>Deal 59 (+4% per level) damage to enemies and cause them to miss Basic Attacks for 1.5 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Falling Sword</td>
                     <td>Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 365 (+4% per level) damage to nearby enemies and knocking them into the air.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Blessed Shield</td>
                     <td>Deal 114 (+4% per level) damage and stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and stunning them for 0.75 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Iron Skin</td>
                     <td>Gain a Shield that absorbs 674 (+4% per level) damage for 4 seconds. While this Shield is active, you are Unstoppable.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                 </tbody>
               </table>

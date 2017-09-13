@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/greymane.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,116 +182,139 @@
                     <td>1</td>
                     <td>Perfect Aim</td>
                     <td>Increases Gilnean Cocktail's range by 30% and refunds 50 Mana if it hits an enemy Hero.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Viciousness</td>
                     <td>Increases Inner Beast's duration to 4 seconds, and causes Ability damage to also refresh its duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Wolfheart</td>
                     <td>Increase the cooldown reduction from Basic Attacks during Inner Beast from 0.5 to 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Draught Overflow</td>
                     <td>Increases Gilnean Cocktail's explosion length by 35%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Eyes in the Dark</td>
                     <td>Disengage grants Stealth for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Insatiable</td>
                     <td>Inner Beast causes Basic Attacks to restore 10 Mana.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Thick Skin</td>
                     <td>Using Darkflight grants 50 Physical Armor against the next 2 Hero Basic Attacks while in Worgen Form, reducing the damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Incendiary Elixir</td>
                     <td>Quest: Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 15, up to 225. Reward: After hitting 15 Heroes, the cooldown is also reduced by 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Quicksilver Bullets</td>
                     <td>Increases Greymane's Human Basic Attack range by 1.1.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Wizened Duelist</td>
                     <td>Quest: Hero takedowns increase Basic Attack damage by 3%, up to 30%. This bonus is lost on death.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Cursed Bullet</td>
                     <td>Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Go for the Throat</td>
                     <td>Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>On the Prowl</td>
                     <td>Inner Beast increases Movement Speed by 30% once it has been active for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Running Wild</td>
                     <td>Increases Darkflight and Disengage's range by 35%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Unfettered Assault</td>
                     <td>Increases Razor Swipe's lunge distance by 60%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Visceral Attacks</td>
                     <td>Worgen Basic Attacks reduce Razor Swipe's cooldown by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Alpha Killer</td>
                     <td>Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Eager Wolf</td>
                     <td>Increases the Attack Speed bonus of Inner Beast by an additional 40% after it has been active for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Executioner</td>
                     <td>Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Gilnean Roulette</td>
                     <td>Cursed Bullet now hits all enemy heroes in its path and has its cooldown reduced by 5 seconds per hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hunter's Blunderbuss</td>
                     <td>Human Basic Attacks splash for 100% damage behind the target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Tooth and Claw</td>
                     <td>Worgen Basic Attacks cleave for 100% damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Unleashed</td>
                     <td>If the free cast of Go for the Throat kills its target, another free cast is provided that deals 35% more damage, up to 140%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +325,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,41 +335,57 @@
                     <td>Q</td>
                     <td>Gilnean Cocktail</td>
                     <td>Hurl a flask that deals 59 (+4% per level) damage to the first enemy hit and explodes for 236 (+4% per level) damage to enemies in a cone behind them.  Worgen: Razor Swipe  Swipe forward and damage enemies you pass through.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>Q</td>
                     <td>Razor Swipe</td>
                     <td>Swipe towards the area in front of you for 135 (+4% per level) damage.  Human: Gilnean Cocktail  Damage the first enemy hit and deal heavy damage behind them.</td>
+                    <td class="visible-lg">3</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Inner Beast</td>
                     <td>Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Disengage</td>
                     <td>Roll away and shapeshift into a Human.  Human: Darkflight  Leap at an enemy and shapeshift into a Worgen.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Darkflight</td>
                     <td>Shapeshift into a Worgen and leap at an enemy dealing 88 (+4% per level) damage.  Worgen: Disengage  Roll away and shapeshift into a Human.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg">10</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Go for the Throat</td>
                     <td>Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Cursed Bullet</td>
                     <td>Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.</td>
+                    <td class="visible-lg">30</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Curse of the Worgen</td>
                     <td>Use certain Abilities to shapeshift between a Human and a Worgen.  While Human, your Basic Attack is ranged.  While Worgen, your Basic Attack is melee but deals 40% more damage and gain 10 Armor, taking 10% less damage.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

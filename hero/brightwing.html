@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/brightwing.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,126 +182,151 @@
                     <td>1</td>
                     <td>Dream Shot</td>
                     <td>Reduces the cooldown of Arcane Flare by 1 second for each enemy Hero hit by the outer radius, and 3 seconds for each hit by the inner radius.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Hyper Shift</td>
                     <td>Each allied Hero healed by Soothing Mist reduces the cooldown of Phase Shift by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Pixie Charm</td>
                     <td>Each time Brightwing heals an Allied Hero with Soothing Mist, she gains a stack of Bribe. Use 20 stacks to bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 80 stacks.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Unfurling Spray</td>
                     <td>Increases Soothing Mist's range by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Arcane Barrage</td>
                     <td>Increases the range of Arcane Flare by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Manic Pixie</td>
                     <td>When Soothing Mist heals an ally with Pixie Dust on them, they heal for an additional 104 (+4% per level) over 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Peekaboo!</td>
                     <td>Phase Shifting to an ally reveals a large area around them and all enemies in it for 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Unstable Anomaly</td>
                     <td>When Polymorph ends, deal 114 (+4% per level) damage to the target and all nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Cleanse</td>
                     <td>Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Mistified</td>
                     <td>Reduces the cooldown of Soothing Mist by 0.5 seconds every time Brightwing casts a Basic Ability.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Phase Shield</td>
                     <td>After finishing the teleport, the target of Brightwing's Phase Shift gains a 400 (+4% per level) point Shield for 10 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Blink Heal</td>
                     <td>Teleport to a nearby ally, healing them for 204 (+4% per level). Stores up to 2 charges.</td>
+                    <td class="visible-lg">10</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Emerald Wind</td>
                     <td>After 0.5 seconds, create an expanding nova of wind, dealing 319 (+4% per level) damage and pushing enemies away.  Passive: Increases the healing of Soothing Mist by 8%.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ice Block</td>
                     <td>Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Pixie Boost</td>
                     <td>Pixie Dust gives 50% bonus Move Speed, decaying to 20% over 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Shield Dust</td>
                     <td>Pixie Dust grants 50 Physical Armor for 3 seconds, reducing Physical damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Sticky Flare</td>
                     <td>Enemies hit by Arcane Flare have their Movement Speed slowed by 40% for 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Bouncy Dust</td>
                     <td>Pixie Dust bounces to another nearby ally upon impact.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Critterize</td>
                     <td>While Polymorphed, the target's Armor is reduced by 25, increasing the damage they take by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Greater Polymorph</td>
                     <td>Increases the duration of Polymorph by 0.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Hardened Focus</td>
                     <td>While above 80% life, your Basic Ability cooldowns regenerate 50% faster.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Continuous Winds</td>
                     <td>Emerald Wind releases two additional novas that deal 25% damage. Also further increases the healing bonus of Soothing Mist by 7%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Double Wyrmhole</td>
                     <td>Blink Heal can be cast a second time on a different target within 2 seconds without consuming a charge.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Revitalizing Mist</td>
                     <td>Healing another Hero with Soothing Mist increases their healing received from Soothing Mist by 25% for 6 seconds. Stacks 3 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Storm Shield</td>
                     <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                 </tbody>
               </table>
@@ -310,7 +337,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -318,36 +347,50 @@
                     <td>Q</td>
                     <td>Arcane Flare</td>
                     <td>Deal 274 (+4% per level) damage in a small area and 91 (+4% per level) damage in a larger area.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg">35</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Polymorph</td>
                     <td>Target is slowed by 25% Movement Speed, and cannot attack and is Silenced making them unable to use Abilities for 1.25 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Pixie Dust</td>
                     <td>Increase target's Movement Speed by 20%, and grant them 30 Spell Armor for 3 seconds, reducing Spell damage taken by 30%.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Blink Heal</td>
                     <td>Teleport to a nearby ally, healing them for 204 (+4% per level). Stores up to 2 charges.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Emerald Wind</td>
                     <td>After 0.5 seconds, create an expanding nova of wind, dealing 319 (+4% per level) damage and pushing enemies away.  Passive: Increases the healing of Soothing Mist by 8%.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Soothing Mist</td>
                     <td>Brightwing heals nearby allied Heroes for 115 (+4% per level) every 4 seconds.</td>
+                    <td class="visible-lg">4</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Phase Shift</td>
                     <td>Instead of mounting, teleport to an allied Hero.</td>
+                    <td class="visible-lg">55</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

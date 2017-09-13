@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/uther.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Hammer of the Lightbringer</td>
                     <td>Quest: Basic Attack enemies 75 times.  Reward: Basic Attacks reduce the cooldown of Hammer of Justice by 1.5 second.  Passive: Basic Attacks restore 1.5% of Uther's maximum Mana.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Silver Touch</td>
                     <td>Quest: Reduce damage from Heroic sources with Devotion.  Reward: After reducing damage 40 times, Holy Light's Mana cost is reduced from 90 to 70.  Reward: After reducing damage 80 times, Holy Light's Mana cost is reduced to 50, and its range is increased by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Wave of Light</td>
                     <td>Quest: Damage or heal Heroes 60 times with Holy Radiance.  Reward: Increase the duration of Devotion by 0.5 seconds.  Passive: Damaging or healing Heroes with Holy Radiance refunds 5 Mana and reduces its cooldown by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Holy Fire</td>
                     <td>Deal 14 (+4% per level) damage per second to nearby enemies. Basic Attacks against enemy Heroes increase this damage by 20% for 3 seconds. This can stack up to 3 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Holy Shock</td>
                     <td>Holy Light can be used on an enemy to do 50% of its healing amount as damage. When used this way, Uther receives its self-healing benefits, its cooldown is reduced by 6 seconds, and it refunds 45 Mana.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Pursuit of Justice</td>
                     <td>Hammer of Justice increases Uther's Movement Speed by 25% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Armor of Faith</td>
                     <td>Being Stunned, Rooted, or Silenced causes Holy Light's cooldown to recharge 200% faster for 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Guardian of Ancient Kings</td>
                     <td>Healing a Hero that is Stunned, Rooted, or Silenced increases the Armor bonus they receive from Devotion from 25 to 50.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Hand of Protection</td>
                     <td>Activate to make target ally Unstoppable for 1 second. Cannot be cast on Uther. Basic Attacks reduce Hand of Protection's cooldown by 5 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Divine Shield</td>
                     <td>Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Divine Storm</td>
                     <td>Deal 187 (+4% per level) damage and stun nearby enemies for 1.75 seconds.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Blessed Champion</td>
                     <td>For the next 5 seconds after using Holy Light, Uther's Basic Attacks heal him and nearby allies for 15% of the total amount healed by Holy Light.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Spell Shield</td>
                     <td>Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Well Met</td>
                     <td>When used against Heroes, Hammer of Justice reduces the target's Movement Speed and damage dealt by 25% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Beacon of Light</td>
                     <td>While below 50% Health, Uther receives 200% more self-healing when healing others with Holy Light.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Benediction</td>
                     <td>Activate to reduce the Mana cost of your next Basic Ability by 50 and its cooldown by 10 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Tyr's Deliverance</td>
                     <td>Allies healed by Holy Radiance receive 40% increased healing from all sources for 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Bulwark of Light</td>
                     <td>Divine Shield lasts 2 seconds longer and its cooldown is reduced by 20 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Divine Hurricane</td>
                     <td>Divine Storm's radius is increased by 50% and its cooldown is reduced by 20 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Divine Protection</td>
                     <td>Devotion now stacks twice, and its duration is refreshed when applied.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Redemption</td>
                     <td>After Eternal Devotion ends, return to 50% of your maximum Health at your spirit's location. This effect has a 180 second cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,36 +323,50 @@
                     <td>Q</td>
                     <td>Flash of Light</td>
                     <td>Heal an ally for 242 (+4% per level) Health.</td>
+                    <td class="visible-lg">1.5</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>Q</td>
                     <td>Holy Light</td>
                     <td>Heal target ally for 380 (+4% per level) Health. When used on a target other than Uther, also heal Uther for 190 (+4% per level) Health.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Holy Radiance</td>
                     <td>Heal all allies in a line for 185 (+4% per level) Health, dealing 185 (+4% per level) damage to enemies.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Hammer of Justice</td>
                     <td>Deal 114 (+4% per level) damage and stun the target for 0.75 seconds.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Divine Shield</td>
                     <td>Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Divine Storm</td>
                     <td>Deal 187 (+4% per level) damage and stun nearby enemies for 1.75 seconds.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Devotion</td>
                     <td>Heroes healed by Uther's Basic Abilities gain 15 Armor for 2 seconds. This effect does not stack with itself.  Eternal Vanguard: Upon dying, Uther becomes an Invulnerable spirit for up to 8 seconds. While in spirit form, Uther can heal allies with Flash of Light.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

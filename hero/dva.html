@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/dva.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,126 +182,151 @@
                     <td>1</td>
                     <td>Crash Course</td>
                     <td>Quest: Damage enemy Heroes with Boosters. Reward: After damaging 25 Heroes, each use of Boosters lowers its cooldown by 1 second per Hero hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Hit The Nitrous</td>
                     <td>Initial speed of Boosters increased to 325%, then decays to normal speed over 0.5 seconds. During this time Boosters deals 50% extra damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Pro Moves</td>
                     <td>D.Va's Mech gains 2% Movement Speed for 1.25 second every time it takes damage, up to 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Rush-down</td>
                     <td>If D.Va neither takes nor deals damage during Boosters, its cooldown is lowered by 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Bring It On</td>
                     <td>Self-Destruct's Charge amount gained from losing Mech Health is increased by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Diverting Power</td>
                     <td>The area of Defense Matrix is 100% wider and 25% longer, but D.Va's Movement Speed is reduced by an additional 50% for the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Fusion Generator</td>
                     <td>Every time an enemy Hero deals damage while inside Defense Matrix, D.Va's Self-Destruct Charge increases by 1%. Max of 15% Charge gained per use.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Get through This!</td>
                     <td>Increase the duration of Defense Matrix by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Aggression Matrix</td>
                     <td>Basic Attacks in Mech Mode against Heroes lower the cooldown of Defense Matrix by 0.25 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Coming Through</td>
                     <td>Knockback distance of Boosters is increased by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Dazer Zone</td>
                     <td>Enemy Heroes affected by Defense Matrix are Slowed by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Nuclear Option</td>
                     <td>Increase Self-Destruct's detonation timer by 3 seconds. Detonation damage increased by 50%.  A new Mech can still be called after 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Big Shot</td>
                     <td>Deal 250 damage to all enemies in a line. The cooldown of Call Mech is reduced by 8 seconds for each enemy Hero hit.  Requires Pilot Mode.</td>
+                    <td class="visible-lg">4</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Bunny Hop</td>
                     <td>D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 damage and Slowing enemies by 40%. Lasts 4 seconds.  Requires Mech Mode.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ablative Armor</td>
                     <td>Damage against D.Va's Mech that would deal 4% or less of its maximum health are reduced by 50%.  This does not decrease the amount of Self-Destruct Charge gained.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Emergency Shielding</td>
                     <td>When D.Va's Mech would be destroyed, it instead gains a Shield that absorbs 210 (+4% per level) damage over 6 seconds. This effect has a 15 second cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Expensive Plating</td>
                     <td>Increase Mech health by 20%, but also increase the cooldown of Call Mech by 15 seconds.  This does not decrease the amount of Self-Destruct Charge gained.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>GG, WP</td>
                     <td>Increase Pilot Mode Basic Attack damage by 50%. Participating in a Takedown while in Pilot Mode instantly refreshes the cooldown of Call Mech.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Nanoweave Suit</td>
                     <td>For 4 seconds after ejecting from her Mech, D.Va gains 50 Armor and her Basic Attacks grant 50% more cooldown reduction towards Call Mech.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Suppressing Fire</td>
                     <td>Pilot Mode Basic Attacks have 20% increased range and Slow enemy Movement Speed by 20% for 2.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Torpedo Dash</td>
                     <td>D.Va gains the Torpedo Dash ability, allowing her to dash forward and pass through enemies. Requires Pilot Mode.</td>
+                    <td class="visible-lg">12</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Concussive Pulse</td>
                     <td>D.Va gains the Concussive Pulse ability, allowing her to deal 141 (+4% per level) damage to enemies in a cone and knock them back. Requires Pilot Mode.</td>
+                    <td class="visible-lg">8</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>MEKAfall</td>
                     <td>Call Mech is instant and can target a location. Upon landing, the Mech deals 202 (+4% per level) damage to enemies in the impact area.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Pew! Pew! Pew!</td>
                     <td>Instead of a single shot, Big Shot fires 3 shots over 0.5 seconds. Each shot deals 50% damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Stop and Pop</td>
                     <td>Bunny Hop deals 150% more damage if D.Va isn't moving at the moment of impact.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -310,7 +337,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -318,31 +347,43 @@
                     <td>Q</td>
                     <td>Boosters</td>
                     <td>Increase D.Va's Movement Speed by 125% for 2 seconds. Enemies that are hit take 135 (+4% per level) damage and are knocked away. D.Va cannot be Slowed while Boosters are active.</td>
+                    <td class="visible-lg">9</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Defense Matrix</td>
                     <td>Channel a defensive field in the target direction for 3 seconds, reducing damage dealt by enemy Heroes inside it by 75%. The Mech can move while channeling, but cannot turn. Damage dealt to the Mech by enemies within Defense Matrix still grants the same amount of Self-Destruct Charge.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Self-Destruct</td>
                     <td>Eject from the Mech, setting it to self-destruct after 4 seconds. Deals 400 to 1200 (+4% per level) damage in a large area, depending on distance from center. Only deals 50% damage against Structures. Gain 1% Charge for every 2 seconds spent Basic Attacking, and 30% Charge per 100% of Mech Health lost.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Bunny Hop</td>
                     <td>D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 (+4% per level) damage and Slowing enemies by 40%. Lasts 4 seconds.  Requires Mech Mode.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Big Shot</td>
                     <td>Deal 250 (+4% per level) damage to all enemies in a line. The cooldown of Call Mech is reduced by 8 seconds for each enemy Hero hit.  Requires Pilot Mode.</td>
+                    <td class="visible-lg">4</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Mech Mode</td>
                     <td>When D.Va's Mech dies, she is ejected out after 0.75 seconds and can continue to fight. D.Va's Mech only awards 50% of a normal Hero's experience upon dying.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

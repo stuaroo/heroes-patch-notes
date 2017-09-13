@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/azmodan.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,116 +182,139 @@
                     <td>1</td>
                     <td>Master of Destruction</td>
                     <td>Reduces the Mana cost from 16 to 10 per second. Every 1.5 seconds spent channeling increases the range by 10%, to a maximum of 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Sieging Wrath</td>
                     <td>Quest: Every time Globe of Annihilation hits a Hero, its damage is increased by 4, up to 100. Reward: After hitting 25 Heroes, the range of Globe of Annihilation is increased by 33% and its damage is increased by an additional 100.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Taste for Blood</td>
                     <td>Quest: Kill enemy Minions and Heroes within 1.5 seconds of being hit by Globe of Annihilation.  Reward: Enemy Minions that die increase its damage by 2.  Reward: Enemy Heroes that die increase its damage by 10.  Maximum bonus damage of 500.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Army of Hell</td>
                     <td>Increases Demon Warrior's damage by 20% and reduces their Mana cost by 20.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Gluttony</td>
                     <td>All Shall Burn heals Azmodan for 25% of the damage dealt.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Hellish Hirelings</td>
                     <td>The damage bonus from General of Hell is doubled on Mercenaries.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Sin's Grasp</td>
                     <td>Activate to curse an enemy Hero, dealing 247.5 (+4% per level) damage over 8 seconds. Minion kills reduce this cooldown by 10 seconds. Can be cast while channeling All Shall Burn.</td>
+                    <td class="visible-lg">120</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Bound Minion</td>
                     <td>Using General of Hell on a Minion grants them 75 Armor from non-Heroic sources, decreasing the damage they take by 75%, while also  increasing the damage they deal to non-Heroic targets by 100%. Lasts 30 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Gluttonous Ward</td>
                     <td>Activate to place a ward on the ground that restores 3% of Azmodan's maximum Health and Mana every second for 10 seconds. Can be cast while channeling All Shall Burn.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Infernal Globe</td>
                     <td>Globe of Annihilation's cast time is decreased by 40% and its missile speed is increased by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>March of Sin</td>
                     <td>Increases Azmodan's Movement Speed while channeling All Shall Burn to 80% of normal speed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Black Pool</td>
                     <td>Create a pool that empowers Azmodan, his Demons, and allied Minions, increasing their Basic Attack and Ability damage by 75%. Pools last 5 seconds. Stores up to 2 charges.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Demonic Invasion</td>
                     <td>Rain a small army of Demonic Grunts down on enemies, dealing 104 (+4% per level) damage per impact. Demon Grunts deal 51 (+4% per level) damage and have 365 (+4% per level) health.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hedonism</td>
                     <td>Reduces Globe of Annihilation's Mana cost by 30.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hellforged Armor</td>
                     <td>Demon Warriors deal 10 (+4% per level) damage to nearby enemies every second and are granted 50 Armor against non-Heroic sources, decreasing the damage they take 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Infused Power</td>
                     <td>All Shall Burn's damage growth maximum is increased by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Battleborn</td>
                     <td>If Globe of Annihilation hits an enemy, a Demon Warrior is summoned at the impact point.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Demonic Smite</td>
                     <td>Every 7.5 seconds, the Demon Lieutenant will blast a non-Heroic unit dealing 411 (+4% per level) damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Sin for Sin</td>
                     <td>Activate to deal 10% of target enemy Hero's Max Health and heal for twice that amount. Can be cast while channeling All Shall Burn.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Bolt of the Storm</td>
                     <td>Activate to teleport to a nearby location.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Fifth Circle</td>
                     <td>Black Pool makes Basic Attacks and Abilities slow enemies Attack and Movement Speeds by 40% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Forced Recruitment</td>
                     <td>Reduces General of Hell's cooldown by 10 seconds and gains an additional charge.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Perishing Flame</td>
                     <td>When the Grunts die they explode, dealing 68 (+4% per level) damage to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +325,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,31 +335,43 @@
                     <td>Q</td>
                     <td>Globe Of Annihilation</td>
                     <td>Shoot a globe of destruction, dealing 164 (+4% per level) damage on impact. Long range.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Summon Demon Warrior</td>
                     <td>Spawn a Demon Warrior that marches toward a point. Warriors deal 37 (+4% per level) damage per second and last for 10.5 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>All Shall Burn</td>
                     <td>Channel a death beam on an enemy dealing 100 (+4% per level) damage a second. The damage amount grows the longer it is channeled, to a maximum of 200 (+4% per level) damage per second.  Does 25% more damage to Structures. Azmodan can move at 40% speed while channeling.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg">16 per second</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Black Pool</td>
                     <td>Create a pool that empowers Azmodan, his Demons, and allied Minions, increasing their Basic Attack and Ability damage by 75%. Pools last 5 seconds. Stores up to 2 charges.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Demonic Invasion</td>
                     <td>Rain a small army of Demonic Grunts down on enemies, dealing 104 (+4% per level) damage per impact. Demon Grunts deal 51 (+4% per level) damage and have 365 (+4% per level) health.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>General of Hell</td>
                     <td>Summon a Demon Lieutenant at an allied Mercenary, Minion, or Azmodan's Summons. The Lieutenant will march with the target, granting 15% increased damage and 15% increased maximum Health to all nearby friendly Mercenaries, Minions, and Azmodan's Summons. Unlimited range.</td>
+                    <td class="visible-lg">30</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/falstad.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Gathering Storm</td>
                     <td>Quest: Every time Hammerang hits a Hero increase its damage by 1.5.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Seasoned Marksman</td>
                     <td>Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage. Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Wingman</td>
                     <td>Enemy Minions killed near Falstad grant a stack of Bribe. Falstad can use 20 stacks to bribe a Mercenary, instantly defeating them and permanently increasing the damage of Lightning Rod by 5%. Does not work on Bosses. Maximum of 80 stacks.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Hammer Gains</td>
                     <td>Basic Attacks heal for 20% of the damage dealt to the primary target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Static Shield</td>
                     <td>Gain a Shield equal to 4% of Falstad's maximum Health after every Lightning Rod strike. Lasts 4 seconds and stacks.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Updraft</td>
                     <td>Increases Barrel Roll's range, Shield amount, and Shield duration by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>BOOMerang</td>
                     <td>Reactivate Hammerang mid-flight to deal 165 (+4% per level) damage around the hammer.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Charged Up</td>
                     <td>Increases the number of Lightning Rod strikes by 2 and its range by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Secret Weapon</td>
                     <td>Increases Hammerang's range by 30% and Basic Attacks deal 60% bonus damage while Hammerang is in flight.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Hinterland Blast</td>
                     <td>After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.</td>
+                    <td class="visible-lg">120</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Mighty Gust</td>
                     <td>Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Flow Rider</td>
                     <td>While Tailwind is active, your Basic Abilities recharge 100% faster.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Giant Killer</td>
                     <td>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Thunderstrikes</td>
                     <td>Lightning Rod deals 20% more damage each subsequent strike.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Aerie Gusts</td>
                     <td>Reduces the activation time for Tailwind from 6 to 3 seconds, and increases the Movement Speed bonus from 15% to 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Afterburner</td>
                     <td>Barrel Roll increases Movement Speed by 60%, decaying over 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Crippling Hammer</td>
                     <td>Increases Hammerang's slow from 25% to 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Call of the Wildhammer</td>
                     <td>Hinterland Blast has double the range and deals 25% more damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Epic Mount</td>
                     <td>Reduce the cooldown of Flight to 30 seconds, reduce the cast time before flying to 0.5 seconds, and increase the speed by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nexus Frenzy</td>
                     <td>Increases Attack Speed by 20% and Attack Range by 1.1.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Wind Tunnel</td>
                     <td>Mighty Gust creates a wind tunnel for 4 seconds. Enemies caught in the tunnel will periodically be pushed back.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,36 +323,50 @@
                     <td>Q</td>
                     <td>Hammerang</td>
                     <td>Throw out a Hammer that returns to you, dealing 121 (+4% per level) damage and slowing enemies by 25% for 2 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Lightning Rod</td>
                     <td>Deal 107 (+4% per level) to an enemy, and an additional 75 (+4% per level) damage per second for 4.25 seconds if you remain close to the target.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Barrel Roll</td>
                     <td>Dashes forward and grants a 171 (+4% per level) point Shield for 3 seconds.</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Hinterland Blast</td>
                     <td>After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.</td>
+                    <td class="visible-lg">120</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Mighty Gust</td>
                     <td>Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Flight</td>
                     <td>Instead of mounting, you can fly a great distance over terrain.</td>
+                    <td class="visible-lg">55</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Tailwind</td>
                     <td>Gain 15% increased Movement Speed after not taking damage for 6 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

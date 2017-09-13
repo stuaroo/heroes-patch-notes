@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/valla.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Caltrops</td>
                     <td>Drop 3 Caltrops while Vaulting. Caltrops do 60 (+4% per level) damage and slow enemies by 25% for 1 second.  Quest: Spend 180 seconds at 10 stacks of Hatred.  Reward: Vault cooldown is reduced by 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Hot Pursuit</td>
                     <td>When at 10 stacks of Hatred, the Movement Speed bonus increases to 20% total and you gain 4 Mana per second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Monster Hunter</td>
                     <td>Reduces the Mana cost of Hungering Arrow by 40 and increases the damage it deals to Minions, Mercenaries, and Monsters by 150%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Creed of the Hunter</td>
                     <td>Increases Attack Speed by 10%. Quest: Use 100 Basic Attacks against Heroes. Reward: Your Hatred grants an additional 2% Basic Attack Damage per stack.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Puncturing Arrow</td>
                     <td>Quest: Hitting an enemy Hero with the initial impact of Hungering Arrow increases its damage by 5, up to a maximum of 100. Reward: After gaining 100 bonus damage, gain an additional 75 bonus damage and Hungering Arrow also bounces 1 additional time.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Punishment</td>
                     <td>Each stack of Hatred increases the damage of Multishot by 4%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Arsenal</td>
                     <td>Multishot also fires 3 grenades which deal 120 (+4% per level) damage. Each enemy Hero hit by a grenade reduces the cooldown of Multishot by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Death Dealer</td>
                     <td>Increases Vault Basic Attack damage bonus from 6% to 14% per stack of Hatred. If this attack kills its victim, the Mana cost and cooldown of Vault are refunded.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Repeating Arrow</td>
                     <td>The cooldown for Hungering Arrow is reset when Vault is used.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Rain of Vengeance</td>
                     <td>Launch a wave of Shadow Beasts that deals 250 (+4% per level) damage and stuns enemies in the target area for 0.5 seconds. Stores 2 charges.</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Strafe</td>
                     <td>Rapidly attack enemies within 10 range for 60 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Gloom</td>
                     <td>Activate to consume all Hatred, granting 3 Spell Armor per Hatred consumed for 5 seconds. Passive: Permanently gain 20 Spell Armor, reducing Ability Damage taken by 20%.</td>
+                    <td class="visible-lg">5</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Siphoning Arrow</td>
                     <td>You heal for 75% of the damage dealt to Heroes by Hungering Arrow.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Tempered by Discipline</td>
                     <td>While at 10 stacks of Hatred, your Basic Attacks heal you for 25% of the damage dealt.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Frost Shot</td>
                     <td>Increases the range of Multishot by 20% and it also slows by 25% for 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Manticore</td>
                     <td>Every 3rd Basic Attack against the same target deals an additional 5% of their maximum Health as damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Seething Hatred</td>
                     <td>Basic Attacks now grant 2 stacks of Hatred and the time it takes before Hatred expires is increased by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Death Siphon</td>
                     <td>Strafe also fires penetrating bolts in a line for 34 (+4% per level) damage every 0.25 seconds. 25% of the damage you deal with Strafe is returned as Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Farflight Quiver</td>
                     <td>Increases Valla's Basic Attack range by 2.2.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Rancor</td>
                     <td>Each stack of Hatred also increases Attack Speed by 2%. While at 10 stacks of Hatred, gain an additional 30% Attack Speed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Storm of Vengeance</td>
                     <td>Basic Attacks reduce the charge cooldown of Rain of Vengeance by 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Hungering Arrow</td>
                     <td>Fire an arrow that deals 151 (+4% per level) damage to the first target hit, then seeks up to 2 additional enemies dealing 86 (+4% per level) damage. Can hit an enemy multiple times.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Multishot</td>
                     <td>Deal 165 (+4% per level) damage to enemies within the target area.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Vault</td>
                     <td>Dash to the target area. Your next Basic Attack within 2 seconds deals 6% increased damage per stack of Hatred.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Rain of Vengeance</td>
                     <td>Launch a wave of Shadow Beasts that deals 250 (+4% per level) damage and stuns enemies in the target area for 0.5 seconds. Stores 2 charges.</td>
+                    <td class="visible-lg">50</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Strafe</td>
                     <td>Rapidly attack enemies within 10 range for 60 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Hatred</td>
                     <td>Basic Attacks grant a stack of Hatred, up to 10. Each Hatred stack increases Basic Attack damage by 8% and Movement Speed by 1%. Lasts 6 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/jaina.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Fingers of Frost</td>
                     <td>Quest: Gathering Regeneration Globes to increase Jaina's Mana regeneration by 0.1 per second, up to 2 per second.  Reward: After gathering 20 Globes, the damage bonus from Frostbite is increased by 10%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Lingering Chill</td>
                     <td>Increases the duration of Chill from 4 seconds to 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Winter's Reach</td>
                     <td>Increases the range of Frostbolt by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Arcane Intellect</td>
                     <td>Dealing damage to a Chilled target returns Mana to Jaina. Basic Attacks return 5 Mana and Abilities return 20.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Frost Armor</td>
                     <td>Enemies that attack Jaina are Chilled. Additionally, every 10 seconds, Jaina gains 50 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Frost Shards</td>
                     <td>Frostbolt will now pierce the first target to hit an additional target behind them.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Ice Floes</td>
                     <td>Increase the width of Cone of Cold by 100% and cause each chilled Hero hit to reduce its cooldown by 2.5 seconds, up to a maximum of 5 seconds per use.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Ice Lance</td>
                     <td>Hitting a Chilled target with Frostbolt reduces its cooldown by 2 seconds and restores 10 Mana.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Icefury Wand</td>
                     <td>Basic Attacks against Chilled Heroes deal 75% more damage and lower the cooldown of Blizzard by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Ring of Frost</td>
                     <td>After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Summon Water Elemental</td>
                     <td>Summons a Water Elemental at target location. The Water Elemental's Basic Attacks do 78 (+4% per level) damage, splash for 25% damage and Chill. Can reactivate the Ability to retarget the Water Elemental.  Lasts 20 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ice Barrier</td>
                     <td>When Jaina does increased damage from Frostbite, she is shielded for 25% of the total damage dealt. This Shield lasts 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Icy Veins</td>
                     <td>Activate to make Jaina's Basic Abilities' cooldowns recharge three times as fast and reduce their Mana cost by 50% for 5 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Storm Front</td>
                     <td>Increases the cast range of Blizzard by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Northern Exposure</td>
                     <td>Enemies damaged by Cone of Cold have their Armor lowered by 25 for 2 seconds, increasing the damage they take by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Numbing Blast</td>
                     <td>Cone of Cold also roots Chilled targets for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Snowstorm</td>
                     <td>Increases the radius of Blizzard by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Cold Snap</td>
                     <td>The center area of Ring of Frost deals 310 (+4% per level) damage and Roots enemies after the outer ring expires. Each enemy Hero hit reduce its cooldown by 10 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Deep Chill</td>
                     <td>Frostbite's Chill can now stacks a second time, slowing targets up to 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Ice Blink</td>
                     <td>Activate to teleport a short distance and Chill all nearby enemies.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Wintermute</td>
                     <td>Increases the cast range of Water Elemental by 50%, and the Water Elemental will now mimic Jaina's Basic Abilities for 50% damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Frostbolt</td>
                     <td>Deal 190 (+4% per level) damage and Chill the target.</td>
+                    <td class="visible-lg">4</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Blizzard</td>
                     <td>Bombard an area with 3 waves of ice, dealing 142 (+4% per level) damage each. Damaged enemies are Chilled.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Cone of Cold</td>
                     <td>Deal 230 (+4% per level) damage and Chill targets.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Summon Water Elemental</td>
                     <td>Summons a Water Elemental at target location. The Water Elemental's Basic Attacks do 78 (+4% per level) damage, splash for 25% damage and Chill. Can reactivate the Ability to retarget the Water Elemental.  Lasts 20 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Ring of Frost</td>
                     <td>After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Frostbite</td>
                     <td>Jaina's Abilities Chill targets, Slowing them by 25% and amplifying damage taken from her Abilities by 50%. Lasts 4 seconds.  Quest: Deal 15,000 Ability damage to Chilled Heroes. Reward: Unlock the Improved Ice Block Ability, allowing Jaina to become temporarily Invulnerable.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

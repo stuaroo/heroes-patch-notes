@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/tyrande.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Lunar Blaze</td>
                     <td>Repeatable Quest: Hitting Heroes with Lunar Flare increases its damage by 3%.  Reward: After hitting 10 Heroes, Lunar Flare no longer has a Mana cost.  Reward: After hitting 20 Heroes, increase the range of Lunar Flare by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Ranger</td>
                     <td>Sentinel deals more damage based on the distance traveled, up to 75% and increases Sentinel width by 25%.  Repeatable Quest: Hitting enemy Heroes with Sentinel increases the maximum damage bonus by 3%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Ranger's Mark</td>
                     <td>Basic Attacks reduce the cooldown of Hunter's Mark by 1 second.  Repeatable Quest: Every 50 Basic Attacks against enemy Heroes increase the duration of Hunter's Mark by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Celestial Attunement</td>
                     <td>Light of Elune removes Stuns and Silences from its target. When a Stun or Silence is removed this way, Light of Elune may be used for free within 4 seconds. This free cast cannot benefit from Celestial Attunement.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Kaldorei Resistance</td>
                     <td>Light of Elune grants the target 15 Spell Armor for 6 seconds. This effect stacks up to 3 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Moonlit Arrows</td>
                     <td>Basic Attacks decrease the cooldown of Light of Elune by an additional 0.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Darnassian Archery</td>
                     <td>Basic Attacks against enemy Heroes grant a stacking 5% increased Attack Damage bonus for 4 seconds. This bonus is lost when Basic Attacking non-Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Huntress' Fury</td>
                     <td>Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby Heroes and Mercenaries.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Trueshot Aura</td>
                     <td>Passively grant 10% increased Attack Damage to nearby allied Heroes. Activate to double this bonus for 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Shadowstalk</td>
                     <td>Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Starfall</td>
                     <td>Deal 91 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 8 seconds.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Empower</td>
                     <td>Reduce Sentinel's cooldown by 4 seconds. Every time it hits a Hero, reduce its cooldown by an additional 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Harsh Moonlight</td>
                     <td>Sentinel Slows the target by 25% and reduces their damage dealt by 25% for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Quickening Blessing</td>
                     <td>Light of Elune increases the target's Movement Speed by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Elune's Chosen</td>
                     <td>Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for 5 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Mark of Mending</td>
                     <td>Tyrande's Basic Attacks heal her for 2% of her maximum Health. Basic Attacks against targets with Hunter's Mark heal the attacker for 2% of their maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Overflowing Light</td>
                     <td>While Tyrande is above 60% Health, Light of Elune's healing is increased by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Celestial Wrath</td>
                     <td>Starfall applies Hunter's Mark to enemy Heroes hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Eyes of the Huntress</td>
                     <td>After casting Shadowstalk, reveal all enemy Heroes for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Iceblade Arrows</td>
                     <td>Increase Attack Speed by 25%. Basic Attacks against enemy Heroes reduce their damage dealt by 5% for 3 seconds. This effect stacks up to 10 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Shooting Star</td>
                     <td>Increase Basic Attack range by 1.1. Every 10th Basic Attack against Heroes casts a free Lunar Flare at a random Hero near Tyrande's position.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Light of Elune</td>
                     <td>Heal target ally for 270 (+4% per level) Health. Basic Attacks reduce the cooldown of this Ability by 2 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Sentinel</td>
                     <td>Send an Owl that travels across the battleground revealing its path. Deals 173 (+4% per level) damage to the first enemy Hero hit and reveals them for 5 seconds.  Repeatable Quest:  Every 8 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.</td>
+                    <td class="visible-lg">18</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Lunar Flare</td>
                     <td>After 0.75 seconds, deal 205 (+4% per level) damage and stun enemies in the target area for 0.75 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Shadowstalk</td>
                     <td>Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Starfall</td>
                     <td>Deal 91 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 8 seconds.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Hunter's Mark</td>
                     <td>Reveal a target enemy and lower their Armor by 25 for 4 seconds, increasing all damage taken by 25%.  Cannot be used on Structures.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

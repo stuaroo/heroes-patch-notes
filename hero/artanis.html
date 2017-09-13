@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/artanis.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,121 +182,145 @@
                     <td>1</td>
                     <td>Amateur Opponent</td>
                     <td>Twin Blades attacks deal 150% bonus damage to non-Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Reactive Parry</td>
                     <td>Using Twin Blades grants 50 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 50%. Stores up to 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Seasoned Marksman</td>
                     <td>Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage. Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Psionic Synergy</td>
                     <td>Increases Blade Dash's cooldown reduction of Shield Overload by hitting Heroes by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Shield Battery</td>
                     <td>Shield Overload's cooldown recharges 50% faster while its shield is active, and the shield duration is increased by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Shield Surge</td>
                     <td>Increases Shield Overload's Shields by 75% while below 25% Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Chrono Surge</td>
                     <td>Hitting an enemy Hero with Phase Prism grants 50% bonus Attack Speed for 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Follow Through</td>
                     <td>After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Solarite Reaper</td>
                     <td>Increases the damage of the first dash of Blade Dash by 150%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Warp Sickness</td>
                     <td>Phase Prism also slows the enemy's Movement Speed by 35% for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Purifier Beam</td>
                     <td>Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Suppression Pulse</td>
                     <td>Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Graviton Vortex</td>
                     <td>Phase Prism pulls and damages an additional enemy Hero near the first, and its cooldown is reduced by 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Phase Bulwark</td>
                     <td>When Shield Overload activates, gain 40 Spell Armor for 4 seconds, reducing Ability Damage taken by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Templar's Zeal</td>
                     <td>Blade Dash cooldown recharges 150% faster while below 50% Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Triple Strike</td>
                     <td>Increases Twin Blades's number of Basic Attacks to 3, but increase its cooldown by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Plasma Burn</td>
                     <td>While Shield Overload is active, deal 55 (+4% per level) damage per second to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Psionic Wound</td>
                     <td>Twin Blades final strike lowers a Hero's Armor by 25 for 2 seconds, increasing all damage taken by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Titan Killer</td>
                     <td>Twin Blades attacks against Heroes deal an additional 2% of the target's maximum Health in damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Zealot Charge</td>
                     <td>Increase Twin Blades' charge distance by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Force of Will</td>
                     <td>Increases Shield Overload's cooldown reduction from Basic Attacks to 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nexus Blades</td>
                     <td>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Orbital Bombardment</td>
                     <td>Suppression Pulse gains an additional charge.  There is a 10 second cooldown between uses.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Target Purified</td>
                     <td>If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -305,7 +331,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -313,31 +341,43 @@
                     <td>Q</td>
                     <td>Blade Dash</td>
                     <td>Dash forward and deal 57 (+4% per level) damage to enemies, then return and deal 171 (+4% per level) damage. Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Twin Blades</td>
                     <td>Your next Basic Attack immediately causes you to charge a short distance and strike the enemy 2 times.</td>
+                    <td class="visible-lg">4</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Phase Prism</td>
                     <td>Fire a Phase Prism that deals 66 (+4% per level) damage to Heroes and swaps your position with theirs. Can be used during Blade Dash.</td>
+                    <td class="visible-lg">16</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Purifier Beam</td>
                     <td>Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Suppression Pulse</td>
                     <td>Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.</td>
+                    <td class="visible-lg">50</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Shield Overload</td>
                     <td>If you take damage while below 75% Health, gain a 375 (+4% per level) point Shield for 5 seconds. Your Basic Attacks lower the cooldown of Shield Overload by 4 seconds.</td>
+                    <td class="visible-lg">24</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/gall.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Keep Moving!</td>
                     <td>Increases the duration of Shove's movement speed bonus by 1 second. Cho's Basic Attacks against Heroes increases the duration of an active Shove by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Taskmaster</td>
                     <td>Reduces the cooldown of Shove by 10 seconds. Every time Cho is hit by a Hero Basic Attack, reduce the Cooldown of Shove by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>We See You!</td>
                     <td>Eye of Kilrogg's cooldown is decreased by 15 seconds and its range is increased by 33%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Bomb's Away</td>
                     <td>Quest: Damaging a Hero with Runic Blast increases its damage by 5.  Reward: After damaging 20 Heroes, the range and speed of Cho's Rune Bomb is increased by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Double Back</td>
                     <td>Activate Dread Orb before the second bounce ends to reverse the direction of the third bounce.  Passive: The third bounce of Dread Orb deals 200% more damage to Non-Heroic targets.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Runic Persistence</td>
                     <td>Runic Blast deals an additional 180 (+4% per level) damage over 3 seconds in an area around the detonation point.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Double Trouble</td>
                     <td>Quest: If Shadowflame hits an enemy Hero that is afflicted by Cho's Consuming Blaze, its cooldown is reduced by 1 second.  Reward: After hitting 20 Heroes, Shadowflame's cooldown is instead permanently reduced by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Edge of Madness</td>
                     <td>Every subsequent hit of Shadowflame against the same enemy Hero deals an additional 8% damage, to a maximum of 40%. These bonuses are lost if the Hero has not been hit for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Ogre Rampage</td>
                     <td>Gall's Basic Abilities cooldown 75% faster for 5 seconds after Cho activates Ogre Hide.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Shadow Bolt Volley</td>
                     <td>After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 82 (+4% per level) damage to the first target hit. The bolts fire towards your mouse.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Twisting Nether</td>
                     <td>After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 (+5% per level) damage.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Rising Dread</td>
                     <td>Each bounce of Dread Orb increases its radius by 25% and damage by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Searing Shadows</td>
                     <td>Enemy Heroes hit by Shadowflame take an additional 2% of their maximum Health as damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Twilight Nova</td>
                     <td>After the first bounce of Dread Orb, 2 extra bombs bounce to the sides once.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Deafening Blast</td>
                     <td>Runic Blast silences enemy Heroes for 1.25 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Leaden Orb</td>
                     <td>Dread Orb stuns enemy Heroes for 0.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Shadowsnare</td>
                     <td>Shadowflame slows enemy Heroes by 10% for 4 seconds. This effect can stack up to 3 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Psychotic Break</td>
                     <td>Upon dying, Gall gains Ogre Rage and can use Basic and Heroic Abilities for 10 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Shadowfury</td>
                     <td>Shadow Bolt Volley hits all enemies in its path.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Shifting Nether</td>
                     <td>Twisting Nether now teleports Cho to a targeted location before it begins channeling.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>The Will of Gall</td>
                     <td>Takedowns permanently increase the bonus of Ogre Rage by 2%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,41 +323,57 @@
                     <td>Q</td>
                     <td>Shadowflame</td>
                     <td>Deal 135 (+5% per level) damage to enemies in the area.</td>
+                    <td class="visible-lg">3</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Dread Orb</td>
                     <td>Throw a bomb that will bounce three times, dealing 126 (+5% per level) damage to enemies.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Runic Blast</td>
                     <td>Detonate Cho's Rune Bomb, dealing 233 (+4% per level) damage around it.</td>
+                    <td class="visible-lg">0.5</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Shadow Bolt Volley</td>
                     <td>After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 (+4% per level) damage to the first target hit. The bolts fire towards your mouse.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Twisting Nether</td>
                     <td>After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 (+5% per level) damage.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Ogre Rage</td>
                     <td>Activate to increase Gall's damage by 25%, but reduce Cho's armor by 25.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Shove</td>
                     <td>Nudge Cho a small distance and grant him 25% Movement Speed for 2 seconds.</td>
+                    <td class="visible-lg">30</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Eye of Kilrogg</td>
                     <td>Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 2 charges.</td>
+                    <td class="visible-lg">45</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/sylvanas.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,116 +182,139 @@
                     <td>1</td>
                     <td>Dreadful Wake</td>
                     <td>Haunting Wave now disables Minions and Mercenaries for 7 seconds and restores 5 Mana per minion hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Mercenary Queen</td>
                     <td>Friendly non-Boss Mercenaries near you deal 60% more damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Overflowing Quiver</td>
                     <td>When a nearby enemy Minion dies, a free, untalented Withering Fire is shot. This cannot hit Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Lost Soul</td>
                     <td>Reduce Shadow Dagger's cooldown by 1.25 seconds each time it spreads to a Hero.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>With the Wind</td>
                     <td>Increases Withering Fire's range by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Withering Barrage</td>
                     <td>Increase Withering Fire charges by 1. Charges can be fired 33% faster.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Barbed Shot</td>
                     <td>Withering Fire deals 200% bonus damage to Minions, Mercenaries, and Monsters.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Possession</td>
                     <td>Force an enemy Minion to fight for you. Stores up to 3 charges.</td>
+                    <td class="visible-lg">8</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Unstable Poison</td>
                     <td>Minions that die under the effects of Black Arrows explode, dealing 116 (+4% per level) damage to nearby enemies.  Does not damage Heroes or Structures.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Mind Control</td>
                     <td>After a 1 second cast, take control of an enemy Hero's movement and prevent them from doing anything else. Channel lasts 2.5 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Wailing Arrow</td>
                     <td>Shoot an arrow that can be reactivated to deal 228 (+4% per level) damage and silence enemies in an area making them unable to use Abilities for 2.5 seconds. The arrow detonates automatically when it reaches maximum range.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Life Drain</td>
                     <td>Shadow Dagger heals you for 37 (+4% per level) each time it spreads to an enemy.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Spell Shield</td>
                     <td>Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Will of the Forsaken</td>
                     <td>Activate to become Unstoppable and gain 40% Movement Speed for 3 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Windrunner</td>
                     <td>Teleporting with Haunting Wave fully recharges your Withering Fire. Haunting Wave can be cast a second time for free within 5 seconds after teleporting.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Cold Embrace</td>
                     <td>Shadow Dagger lowers the Armor of the initial enemy by 25 for 2 seconds, causing them to take 25% more damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Evasive Fire</td>
                     <td>When you hit an enemy with Withering Fire, gain 10% Movement Speed for 2 seconds, stacking up to 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Overwhelming Affliction</td>
                     <td>Black Arrows now also applies to Heroes, slowing their Movement Speed by 6% for the duration. Stacks up to 5 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Remorseless</td>
                     <td>After using an Ability, your next Basic Attack within 3 seconds deals 40% additional damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Bolt of the Storm</td>
                     <td>Activate to teleport to a nearby location.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Dark Lady's Call</td>
                     <td>Mind Controlled enemies gain 100% Movement Speed for the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Deafening Blast</td>
                     <td>Enemies at the center of Wailing Arrow's explosion take 50% more damage and are silenced for twice as long.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Fury of the Storm</td>
                     <td>Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +325,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,31 +335,43 @@
                     <td>Q</td>
                     <td>Withering Fire</td>
                     <td>Shoot the closest enemy for 48 (+4% per level) damage, preferring Heroes.  Stores 5 charges.  Gain 1 charge on nearby enemy Minion or Mercenary deaths, and 3 charges on nearby enemy Hero deaths.</td>
+                    <td class="visible-lg">2</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Shadow Dagger</td>
                     <td>Deals 37 (+4% per level) damage and an additional 148 (+4% per level) damage over 2 seconds to target unit. The effect spreads to nearby targets.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Haunting Wave</td>
                     <td>Send forth a wave of banshees dealing 114 (+4% per level) damage to all targets. Reactivate to teleport to the banshees' location.</td>
+                    <td class="visible-lg">11</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Wailing Arrow</td>
                     <td>Shoot an arrow that can be reactivated to deal 228 (+4% per level) damage and silence enemies in an area making them unable to use Abilities for 2.5 seconds. The arrow detonates automatically when it reaches maximum range.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Mind Control</td>
                     <td>After a 1 second cast, take control of an enemy Hero's movement and prevent them from doing anything else. Channel lasts 2.5 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Black Arrows</td>
                     <td>Basic Attacks and Abilities stun Minions, Mercenaries, and Structures for 1 second.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/rehgar.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,121 +182,145 @@
                     <td>1</td>
                     <td>Colossal Totem</td>
                     <td>Increases the area and range of Earthbind Totem by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Electric Charge</td>
                     <td>Increases the radius of Lightning Shield by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Lightning Bond</td>
                     <td>Casting Lightning Shield on an ally also casts an untalented version on you.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Wolf Run</td>
                     <td>Increases the Movement Speed of Ghost Wolf from 20% to 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Feral Heart</td>
                     <td>Increases Health and Mana Regeneration by 75% while in Ghost Wolf form.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Healing Totem</td>
                     <td>Activate to place a Totem that heals allies in an area for 2% of their maximum Health every second for 10 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Spiritwalker's Grace</td>
                     <td>Reduces Chain Heal's Mana cost from 65 to 45.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Stormcaller</td>
                     <td>When Lightning Shield damages an enemy it restores 4 Mana, up to 40.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Blood and Thunder</td>
                     <td>Ghost Wolf attacks reduce Basic Ability cooldowns by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Cleanse</td>
                     <td>Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Farsight</td>
                     <td>Activate to reveal an area for 10 seconds.  Enemies in the area are revealed for 4 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Totemic Projection</td>
                     <td>Increases Earthbind Totem's duration from 8 to 12 seconds, and it can be reactivated to move an existing totem to a new location once.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Ancestral Healing</td>
                     <td>After 1 second, heal an allied Hero for 1552 (+4% per level) Health.  Cannot be used on yourself.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Bloodlust</td>
                     <td>Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Earth Shield</td>
                     <td>Lightning Shield gives a Shield that absorbs damage equal to 12% of their maximum Health for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Earthliving Enchant</td>
                     <td>When Chain Heal heals a Hero below 50% Health, they are healed an additional 200 (+4% per level) Health over 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Tidal Waves</td>
                     <td>Reduces Chain Heal's cooldown by 1 second for each Hero healed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Earthgrasp Totem</td>
                     <td>When Earthbind Totem is first cast, it slows nearby enemies by 90% for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Hunger of the Wolf</td>
                     <td>Ghost Wolf attacks against Heroes deal an additional 5% of the target's maximum Health and heal you for 5% of your maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Rising Storm</td>
                     <td>Every time Lighting Shield damages an enemy Hero, increase that Lightning Shield's damage by 10%. Stacks up to 20 times.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Farseer's Blessing</td>
                     <td>Increases healing amount by 50%. Allies near the target are healed for 50% of the amount of health regained.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Gladiator's War Shout</td>
                     <td>Increases Bloodlust's healing from 30% to 60% of Basic Attack damage done.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Rewind</td>
                     <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Storm Shield</td>
                     <td>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                 </tbody>
               </table>
@@ -305,7 +331,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -313,31 +341,43 @@
                     <td>Q</td>
                     <td>Chain Heal</td>
                     <td>Heal an ally for 334 (+4% per level) Health, then heal up to two other nearby allies for 167 (+4% per level) Health each.</td>
+                    <td class="visible-lg">9</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Lightning Shield</td>
                     <td>Imbue an ally with lightning dealing 70 (+4% per level) damage a second to nearby enemies.  Lasts 5 seconds.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Earthbind Totem</td>
                     <td>Create a totem that slows nearby enemies by 35%.  The totem has 217 (+4% per level) Health and lasts for 8 seconds.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Bloodlust</td>
                     <td>Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed, and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Ancestral Healing</td>
                     <td>After 1 second, heal an allied Hero for 1552 (+4% per level) Health.  Cannot be used on yourself.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Ghost Wolf</td>
                     <td>Instead of using a mount, you transform into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause you to lunge at your target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.</td>
+                    <td class="visible-lg">1</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

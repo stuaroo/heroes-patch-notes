@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/stitches.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,121 +182,145 @@
                     <td>1</td>
                     <td>Chew Your Food</td>
                     <td>Using Devour also heals you for 10% of your max Health over 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Dampen Magic</td>
                     <td>Every 8 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Heavy Slam</td>
                     <td>Slam damage increased by 40%</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Hungry for More</td>
                     <td>Quest: Gathering a Regeneration Globe increases your maximum Health by 30, up to 900.  Reward: Upon gathering 30 Globes, increase Movement Speed by 10%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Amplified Healing</td>
                     <td>Increases regeneration effects and all healing received by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Putrid Ground</td>
                     <td>Enemies hit by Slam are infected with Vile Gas.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Restorative Fumes</td>
                     <td>Whenever Vile Gas damages an enemy Hero, you are healed for 27 (+4% per level) Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Last Bite</td>
                     <td>If an enemy dies within 3 seconds of being damaged by Devour, its cooldown is reduced by 12 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Savor the Flavor</td>
                     <td>Quest: Using Devour on an enemy Hero permanently increases your Health Regeneration by 2 per second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Tenderizer</td>
                     <td>Basic Attacks slow enemy Movement Speed by 25% for 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Toxic Gas</td>
                     <td>Increases Vile Gas' radius by 25% and its damage by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Gorge</td>
                     <td>Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.  Cannot be used on massive Heroes.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Putrid Bile</td>
                     <td>Emit bile that deals 37 (+4% per level) damage per second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Flea Bag</td>
                     <td>Whenever you are stunned or rooted, reduce your Basic Ability cooldowns by 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Indigestion</td>
                     <td>Using Devour also creates a Retchling that applies Vile Gas Poison when it attacks.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Mega Smash</td>
                     <td>Range and arc of Slam increased by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Fishing Hook</td>
                     <td>Hook has an additional 40% range.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Pulverize</td>
                     <td>Decreases Slam's cooldown by 2 seconds and it also slows enemies by 75% for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Shish Kabob</td>
                     <td>Hook can pull up to 2 targets.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Stoneskin</td>
                     <td>Activate to gain 30% of your maximum Health as a Shield for 5 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Cannibalize</td>
                     <td>Basic Attacks against Heroes heal Stitches for 5% of his maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hardened Shield</td>
                     <td>Activate to gain 75 Armor for 4 seconds, taking 75% less damage.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Hungry Hungry Stitches</td>
                     <td>For 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Potent Bile</td>
                     <td>Putrid Bile lasts 6 seconds longer and its slow amount is increased from 35% to 45%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -305,7 +331,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -313,36 +341,50 @@
                     <td>Q</td>
                     <td>Hook</td>
                     <td>Pull the first enemy hit towards you, temporarily stunning them and dealing 91 (+4% per level) damage.</td>
+                    <td class="visible-lg">16</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Slam</td>
                     <td>Deal 104 (+4% per level) damage to enemies within the target area.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Devour</td>
                     <td>Deal 319 (+4% per level) damage to non-Heroic units, or 114 (+4% per level) damage to Heroes. Restores 20% of your maximum Health.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">55</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Putrid Bile</td>
                     <td>Emit bile that deals 37 (+4% per level) damage per second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Gorge</td>
                     <td>Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.  Cannot be used on massive Heroes.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Vile Gas</td>
                     <td>When damaged, Stitches emits a gas cloud that poisons nearby enemies for 68 (+4% per level) damage over 3 seconds.</td>
+                    <td class="visible-lg">3</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Helping Hand</td>
                     <td>Pull the first ally or enemy hit towards you. Enemies are temporarily stunned and take 91 (+4% per level) damage. When used to pull allies, the cooldown is reduced by 50%.</td>
+                    <td class="visible-lg">16</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                 </tbody>
               </table>

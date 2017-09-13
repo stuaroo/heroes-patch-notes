@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/zarya.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,131 +182,157 @@
                     <td>1</td>
                     <td>Demolitions Expert</td>
                     <td>Quest: For every 5 enemy Heroes hit by Particle Grenade, its recharge rate lowers by 0.4375 seconds, up to 3.5 seconds. Reward: Once Particle Grenade has hit 40 enemy Heroes, its radius is increased by 15%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Feel the Heat</td>
                     <td>Zarya's Basic Attack deals 50% additional damage to enemies in melee range.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Maximum Charge</td>
                     <td>Regen Globes now instantly grant 20 Energy.  Quest: Spend 150 seconds at or above 50 Energy.  Reward: Gain an additional 20 maximum Energy.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Together We Are Strong</td>
                     <td>Every 6 damage done by allies while under Shield Ally contributes 1 Energy, up to 30 Energy per shield.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Defensive Shielding</td>
                     <td>Upon expiration or breaking, Personal Barrier and Shield Ally grant 75 Physical Armor against the next 2 Hero Basic Attacks for 6 seconds, reducing the damage taken by 75%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Give Me Twenty</td>
                     <td>Quest: Regeneration Globes increase Shield Ally absorb amount by 15, up to 300 permanently.  Reward: After collecting 20 Regen Globes, permanently reduce the cooldown of Shield Ally by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>I Am the Strongest</td>
                     <td>Personal Barrier absorbs an additional 140 (+4% per level) damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Speed Barrier</td>
                     <td>Shield Ally increases the allied Hero's Movement Speed by 50% for the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Explosive Barrier</td>
                     <td>Upon expiration or breaking, Personal Barrier explodes, dealing 100 (+4% per level) damage to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Hit Me</td>
                     <td>Damage absorbed by Zarya's Shields contributes 15% more Energy.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Pinpoint Accuracy</td>
                     <td>Particle Grenade deals 40% more damage to enemies hit by the center of the blast.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>To the Limit</td>
                     <td>While above 50 Energy your Basic Attack size is increased by 35%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Expulsion Zone</td>
                     <td>Launch a gravity bomb that deals 124 (+4% per level) damage and creates an expulsion zone for 3.5 seconds. Enemies who enter the affected area are knocked back and have their Movement Speed reduced by 50% for 1 second.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Graviton Surge</td>
                     <td>Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Endurance Training</td>
                     <td>While at or above 75 Energy, Zarya gains 20 Armor, reducing all damage taken by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Pain is Temporary</td>
                     <td>Activate to consume all Energy and gain a shield that absorbs 0.5% of Zarya's maximum Health per Energy consumed and lasts for 3 seconds. Zarya may only have one personal shield active on herself at a time.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Spell Barrier</td>
                     <td>Upon expiration or breaking, Personal Barrier grants Zarya 75 Spell Armor for 3 Seconds, reducing the damage taken from Abilities by 75%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Unstoppable Competitor</td>
                     <td>Personal Barrier makes you Unstoppable for up to 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Born in Battle</td>
                     <td>While at or above 75 Energy, Zarya's cooldowns regenerate 25% faster.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Cleansing Shield</td>
                     <td>Causes Shield Ally to remove all disabling effects and reduces its cooldown by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Gain Train</td>
                     <td>Shield Ally now grants an untalented shield to a nearby ally upon impact.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Plasma Shock</td>
                     <td>Particle Grenade slows Movement Speed by 35% for 2 seconds to enemies near the center.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Clear Out</td>
                     <td>Increases Expulsion Zone's radius by 15% and Zarya's maximum Energy temporarily increases by 15 per enemy Hero hit for 10 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Gravity Kills</td>
                     <td>Increases Graviton Surge's duration by 1 second and causes it to deal 175 damage over the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Grenadier</td>
                     <td>All Particle Grenade charges are returned at once.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Unyielding Defender</td>
                     <td>Activate to reset the cooldown of Personal Barrier and Shield Ally.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                 </tbody>
               </table>
@@ -315,7 +343,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -323,31 +353,43 @@
                     <td>Q</td>
                     <td>Particle Grenade</td>
                     <td>Launch a particle grenade that deals 71 (+4% per level) damage to enemies within the area. Deals 50% damage to Structures.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Personal Barrier</td>
                     <td>Gain a shield that absorbs 560 (+4% per level) damage for 3 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Shield Ally</td>
                     <td>Grants an allied Hero a shield that absorbs 420 (+4% per level) damage for 3 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Expulsion Zone</td>
                     <td>Launch a gravity bomb that deals 124 (+4% per level) damage and creates an expulsion zone for 3.5 seconds. Enemies who enter the affected area are knocked back and have their Movement Speed reduced by 50% for 1 second.</td>
+                    <td class="visible-lg">45</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Graviton Surge</td>
                     <td>Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Energy</td>
                     <td>Each time Zarya's Personal Barrier or Shield Ally absorbs 10 damage, her Energy is increased by 1. Each point of Energy increases Zarya's damage by 2%. After 0.5 seconds, Energy decays by 2.5 per second.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/nova.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Advanced Cloaking</td>
                     <td>While Stealthed, Nova gains 2 Mana per second and 25% increased movement speed</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Covert Ops</td>
                     <td>After being Stealthed for 5 seconds, Pinning Shot's slow is increased to 55% and costs no Mana. Bonus is lost after losing Stealth for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Longshot</td>
                     <td>Increases the cast range of Pinning Shot by 30%. Pinning Shot also increases the range of Nova's next Basic Attack by 2.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Covert Mission</td>
                     <td>Enemy Minions killed near you grant a stack of Bribe. Hero Takedowns grant 10 stacks of Bribe. Use 25 stacks to Bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Holo Stability</td>
                     <td>Increases the duration of Holo Decoy by 120%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Rapid Projection</td>
                     <td>Reduces Holo Decoy's cooldown and Mana cost by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Remote Delivery</td>
                     <td>Increases Holo Decoy cast range by 100% and its sight range by 50%</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Anti-Armor Shells</td>
                     <td>Your Basic Attacks deal 250% damage, but your Attack Speed is proportionally slower.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>One in the Chamber</td>
                     <td>After using an Ability, your next Basic Attack within 3 seconds deals 80% additional damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Snipe Master</td>
                     <td>Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 15%. Stacks up to 5 times. All stacks are lost if Snipe fails to hit an enemy.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Precision Strike</td>
                     <td>After a 1.5 second delay, deals 456 (+4% per level) damage to enemies within an area. Unlimited range.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Triple Tap</td>
                     <td>Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 338 (+4% per level) damage each.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Double Tap</td>
                     <td>Pinning Shot now has 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Explosive Round</td>
                     <td>Snipe also deals 50% damage to enemies near the impact.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Psionic Efficiency</td>
                     <td>Removes Snipe's Mana cost and increases its range by 10%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Crippling Shot</td>
                     <td>Pinning Shot lowers a Hero's Armor by 25 for the duration of the slow, causing them to take 25% increased damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Lethal Decoy</td>
                     <td>Holo Decoy deals 40% of Nova's damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Perfect Shot</td>
                     <td>Hitting an enemy Hero with Snipe reduces the cooldown by 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Fast Reload</td>
                     <td>Triple Tap's cooldown is reset if it kills an enemy Hero.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Ghost Protocol</td>
                     <td>Activate to gain Stealth and become Unrevealable for 2 seconds. Your attacks and Abilities will also not break Stealth during this time.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Precision Barrage</td>
                     <td>Precision Strike holds 2 charges with a short cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Rewind</td>
                     <td>Activate to reset the cooldowns of your Basic Abilities.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Snipe</td>
                     <td>Deals 310 (+4% per level) damage to the first enemy hit.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Pinning Shot</td>
                     <td>Deal 110 (+4% per level) damage to an enemy and slow it by 40% for 2.25 seconds.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Holo Decoy</td>
                     <td>Create a Decoy for 5 seconds that appears to attack enemies.   Using this Ability does not break Cloak.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Triple Tap</td>
                     <td>Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 338 (+4% per level) damage each.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Precision Strike</td>
                     <td>After a 1.5 second delay, deals 456 (+4% per level) damage to enemies within an area. Unlimited range.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Permanent Cloak, Sniper</td>
                     <td>Nova gains Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or channeling reveals her.  Passive: Nova's Basic Attack range is 1 further than most other ranged Heroes.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

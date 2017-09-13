@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/thelostvikings.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,121 +182,145 @@
                     <td>1</td>
                     <td>Explosive Attacks</td>
                     <td>Increases Baleog's splash damage against non-Heroes to 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Olaf the Stout</td>
                     <td>Every 5 seconds, Olaf gains 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Spy Games</td>
                     <td>After standing still for 3 seconds, Erik gains Stealth and his Sight Radius is increased by 75%. The Stealth persists for 3 seconds after moving.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Viking Bribery</td>
                     <td>Enemy Minions or captured Mercenaries killed near The Lost Vikings grant you stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster. Current number of Bribe stacks: 0</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Erik the Swift</td>
                     <td>Permanently increases Erik's base Movement Speed by 10%, and as long as Erik is moving he heals 34 (+4% per level) Health per second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>It's a Sabotage!</td>
                     <td>Erik's Basic Attacks against Structures light them on fire for 10 seconds, causing 135 (+4% per level) damage and destroying 5 Ammo.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Mercenary Lord</td>
                     <td>Friendly non-Boss Mercenaries near your Hero deal 50% more damage. Gain 50 Armor against Minions and Mercenaries, reducing the damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Pain Don't Hurt</td>
                     <td>Baleog's Basic Attacks and splash damage heal for 20% of the damage dealt. Healing is doubled against Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Baleog the Fierce</td>
                     <td>Baleog's Basic Attacks increase his Attack Speed by 8%, stacking up to 5 times. After 3 seconds of not attacking, these stacks will rapidly decay.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Norse Force!</td>
                     <td>All Vikings gain a 110 (+4% per level) to 220 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Spin To Win!</td>
                     <td>Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Longboat Raid!</td>
                     <td>Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 205 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Play Again!</td>
                     <td>Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.  Only one Viking may attempt to summon at a time.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Hunka' Burning Olaf</td>
                     <td>Olaf deals 34 (+4% per level) damage every second to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Jump!</td>
                     <td>Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Nordic Attack Squad</td>
                     <td>Activate to have all Viking Basic Attacks deal bonus damage equal to 1% of a Hero's maximum Health for 5 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>64 KB Marathon</td>
                     <td>Gain an additional 40% Movement Speed when activating Go Go Go! that decays over 4 seconds.  Additionally, the Vikings will break out of Roots and Slows.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Executioner</td>
                     <td>Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Impatience Is a Virtue</td>
                     <td>Enemies damaged by a Viking's Basic Attack reduce the cooldown of all Viking Abilities by 0.25 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Large and In Charge</td>
                     <td>When Olaf charges enemies, they are stunned for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Checkpoint Reached</td>
                     <td>10 seconds after using Play Again!, any dead Vikings are revived and summoned again, and all are healed to full.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Fury of the Storm</td>
                     <td>Every 5 seconds, your next Basic Attack will deal an additional 41 (+4% per level) damage to the target, and 105 (+4% per level) damage to all nearby Minions and Mercenaries.  Each Viking has their own cooldown.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Ragnarok 'n' Roll!</td>
                     <td>The Longboat can attack two targets at once and the range of its Mortar is increased by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>The Sequel!</td>
                     <td>Reduces the Lost Vikings' death timer by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -305,7 +331,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -313,66 +341,92 @@
                     <td>Q</td>
                     <td>Spin To Win!</td>
                     <td>Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>Q</td>
                     <td>Norse Force!</td>
                     <td>All Vikings gain a 110 (+4% per level) to 220 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Nordic Attack Squad</td>
                     <td>Activate to have all Viking Basic Attacks deal bonus damage equal to 1% of a Hero's maximum Health for 5 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Jump!</td>
                     <td>Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Viking Bribery</td>
                     <td>Enemy Minions or captured Mercenaries killed near The Lost Vikings grant you stacks of Viking Bribery. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Viking Bribery stacks: 0</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Play Again!</td>
                     <td>Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Longboat Raid!</td>
                     <td>Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 205 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Go Go Go!</td>
                     <td>The Vikings gain 30% increased Movement Speed for 4 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Viking Hoard</td>
                     <td>Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 1 Regen per second</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Select Olaf</td>
                     <td>Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.  Olaf gains increased Health Regeneration when out of combat for 4 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>2</td>
                     <td>Select Baleog</td>
                     <td>Baleog's Basic Attacks deal 50% splash damage to enemies behind his attack target.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>3</td>
                     <td>Select Erik</td>
                     <td>Erik moves faster than the other Vikings and has increased Basic Attack range.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Select All Vikings</td>
                     <td>The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

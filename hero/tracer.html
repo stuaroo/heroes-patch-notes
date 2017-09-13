@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/tracer.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Pulse Strike</td>
                     <td>Increases Melee's Pulse Bomb charge from 10% to 20% against Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Slipstream</td>
                     <td>Increases the amount of time Recalled by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Tracer Rounds</td>
                     <td>Your Basic Attacks reveal enemies for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Is That a Health Pack?!</td>
                     <td>Increases Regeneration Globe and Healing Fountain healing by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Parting Gift</td>
                     <td>Recall leaves behind 3 bombs that deal 240 (+4% per level) damage each to different targets.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Untouchable</td>
                     <td>Quest: Takedowns increase your Basic Attack damage by 2%, up to 30%. These bonuses are lost on death.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Bullet Time</td>
                     <td>Basic Attacks lower the cooldown of Blink by 0.1 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Jumper</td>
                     <td>Increases Blink's charges by 1.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Spatial Echo</td>
                     <td>Hero Takedowns grant 2 charges of Blink.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Pulse Rounds</td>
                     <td>Increases Pulse Bomb's range and charge rate from Basic Attacks against Heroes by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Quantum Spike</td>
                     <td>Pulse Bomb deals an additional 10% of the primary target's maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Sticky Bomb</td>
                     <td>Increases Pulse Bomb's radius by 50% and enemies hit are slowed by 70% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Bullet Spray</td>
                     <td>Increases Melee's radius by 40%, and causes it to damage all enemies in range.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Leeching Rounds</td>
                     <td>Your Basic Attacks against Heroes heal you for 20% of their damage dealt.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ricochet</td>
                     <td>Your Basic Attacks have a 50% chance to hit another nearby enemy, prioritizing Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Focus Fire</td>
                     <td>If an entire ammo magazine is unloaded on an enemy, the last bullet will deal 94.5 (+4% per level) bonus damage.  This is equal to 35% of the total magazine.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Locked and Loaded</td>
                     <td>Reactivate Reload within the last 50% of its cast time to increase your Basic Attack damage by 40% for that magazine.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Sleight of Hand</td>
                     <td>Reduces Reload time by 50%. This equals 20% more damage per second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Composition B</td>
                     <td>If you successfully stick a Pulse Bomb to an enemy Hero, you also drop another one at their feet that deals 50% damage and explodes slightly earlier.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Get Stuffed!</td>
                     <td>Reduces Melee's cooldown by 3 seconds. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knocks the target away from you.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Total Recall</td>
                     <td>Recall's cooldown is increased by 8 seconds, but it heals you equal to the amount of Health you lost during that time.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,26 +323,36 @@
                     <td>Q</td>
                     <td>Blink</td>
                     <td>Dash towards an area. Stores 3 charges.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Melee</td>
                     <td>Deal 254 (+4% per level) damage to a nearby enemy, prioritizing Heroes. Gain 5% Pulse Bomb charge when using Melee against an enemy, and 10% against Heroes.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Recall</td>
                     <td>Return to the position you were at 3 seconds ago, refill your ammo, and remove all negative status effects from yourself.</td>
+                    <td class="visible-lg">26</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Pulse Bomb</td>
                     <td>Fire a short range bomb that attaches to enemy units if you hit them. The bomb explodes after 2 seconds dealing 420 (+5.5% per level) damage to them and 210 (+5.5% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Reload</td>
                     <td>You can Basic Attack while moving, and after attacking 10 times you need to reload over 0.75 seconds. You can manually reload early by activating Reload.</td>
+                    <td class="visible-lg">1</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

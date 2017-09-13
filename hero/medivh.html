@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/medivh.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,116 +182,139 @@
                     <td>1</td>
                     <td>Portal Mastery</td>
                     <td>Medivh can manually place both Portal locations.  Activate your Trait to cancel an unlinked Portal.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Raven's Intellect</td>
                     <td>Raven Form increases Medivh's Mana Regeneration by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Stable Portal</td>
                     <td>Increases Portal duration by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Bird's Eye View</td>
                     <td>Permanently increase Raven Form's vision range by 25%. Activate to increase this bonus to 200% for 5 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Dust of Appearance</td>
                     <td>Activate to reveal enemy Heroes in the area surrounding Medivh for 10 seconds. Does not cancel Raven Form.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Mage Armor</td>
                     <td>The first time an Ally uses a Portal, they gain 50 Physical Armor against the next 3 enemy Heroic Basic Attacks for 5 seconds, reducing the damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Arcane Charge</td>
                     <td>When Arcane Rift damages an enemy Hero, the next Arcane Rift deals 30% more damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Arcane Explosion</td>
                     <td>The first time Force of Will absorbs damage, it deals 183 (+4% per level) damage to nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Raven Familiar</td>
                     <td>A Raven Familiar joins allies that use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds for 114 (+4% per level) damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>The Master's Touch</td>
                     <td>Quest: Hit 30 enemy Heroes with Arcane Rift without dying. Reward: Permanently increases the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Ley Line Seal</td>
                     <td>After 0.5 seconds, unleash a wave of energy that imprisons enemy Heroes in Stasis for 3 seconds.</td>
+                    <td class="visible-lg">80</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Poly Bomb</td>
                     <td>Polymorph an enemy Hero, suppressing their attacks and Silencing them for 2 seconds. On expiration, Poly Bomb spreads to other nearby enemy Heroes.</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Astral Projection</td>
                     <td>Increases Portal cast range by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Quickening</td>
                     <td>Reduces Portal cooldown by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Winds of Celerity</td>
                     <td>Increases Raven Form's Movement Speed bonus by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Circle of Protection</td>
                     <td>An untalented Force of Will is also applied to allies near the target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Enduring Will</td>
                     <td>Increases Force of Will duration by 33%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Reabsorption</td>
                     <td>Upon expiration, Force of Will heals the target for 50% of the damage it absorbed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Arcane Brilliance</td>
                     <td>Activate to instantly restore 200 mana to all nearby allied Heroes and grant them 10% Ability Power for 10 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Glyph Of Poly Bomb</td>
                     <td>Poly Bomb explodes 1 second sooner and the spread radius is increased by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Guardian of Tirisfal</td>
                     <td>Minions and Catapults hit by Arcane Rift are instantly killed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Invisibility</td>
                     <td>Stealth an allied Hero for 20 seconds. Stores up to 2 charges.</td>
+                    <td class="visible-lg">10</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Medivh Cheats!</td>
                     <td>Increase the duration of the Stasis effect by 33% and gain the ability to redirect the wave once while it's active.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +325,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,31 +335,43 @@
                     <td>Q</td>
                     <td>Arcane Rift</td>
                     <td>Launch a rift that deals 200 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.</td>
+                    <td class="visible-lg">7</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Force of Will</td>
                     <td>Protect an allied Hero from all damage for 1.5 seconds.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Portal</td>
                     <td>Create a set of portals between you and the target location, allowing allies to teleport between both. The portals last 6 seconds.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Poly Bomb</td>
                     <td>Polymorph an enemy Hero, suppressing their attacks and Silencing them for 2 seconds. On expiration, Poly Bomb spreads to other nearby enemy Heroes.</td>
+                    <td class="visible-lg">40</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Ley Line Seal</td>
                     <td>After 0.5 seconds, unleash a wave of energy that imprisons enemy Heroes in Stasis for 3 seconds.</td>
+                    <td class="visible-lg">80</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Raven Form</td>
                     <td>Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

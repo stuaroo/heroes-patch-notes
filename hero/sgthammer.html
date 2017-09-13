@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/sgthammer.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,121 +182,145 @@
                     <td>1</td>
                     <td>Advanced Artillery</td>
                     <td>Increase the damage bonus to long distance enemies by 10%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Ambush</td>
                     <td>Stealth when entering Siege Mode. Your next Basic Attack from Siege Mode will deal 100% more damage. Lose Stealth when Basic Attacking, using an Ability, taking damage, or returning to Tank Mode.</td>
+                    <td class="visible-lg">2</td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Regeneration Master</td>
                     <td>Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.  Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Resistant</td>
                     <td>Being Stunned or Rooted while in Siege Mode grants 50 Armor for 3 seconds, reducing damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Excessive Force</td>
                     <td>Double the knock back distance of Concussive Blast.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Focused Attack</td>
                     <td>Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Vigorous Assault</td>
                     <td>Basic Attacks heal for 15% of the damage dealt to the primary target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>First Aid</td>
                     <td>Activate to heal 35% of your max Health over 6 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Hyper-Cooling Engines</td>
                     <td>Reduce the cooldown of Thrusters by 15 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Mine Field</td>
                     <td>Increase the number of mines by 2.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Blunt Force Gun</td>
                     <td>Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Napalm Strike</td>
                     <td>Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.</td>
+                    <td class="visible-lg">6</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Barricade</td>
                     <td>Create a wall of path blocking debris for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Bullhead Mines</td>
                     <td>Middle Spider Mine knocks target back a short distance.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>First Strike</td>
                     <td>Basic Attacks deal 25% more damage if you haven't been attacked within the last 5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Giant Killer</td>
                     <td>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Executioner</td>
                     <td>Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Graduating Range</td>
                     <td>While in Siege Mode, Sgt. Hammer's Attack range increases by 1.1 every 3 seconds, up to 5.5.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Hover Siege Mode</td>
                     <td>You can move at 50% Movement Speed in Siege Mode.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Stoneskin</td>
                     <td>Activate to gain 30% of your maximum Health as a Shield for 5 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Advanced Lava Strike</td>
                     <td>Napalm Strike's range is increased by 75% and its impact does 50% more damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Fury of the Storm</td>
                     <td>Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nexus Frenzy</td>
                     <td>Increases Attack Speed by 20% and Attack Range by 1.1.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Orbital BFG</td>
                     <td>Blunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -305,7 +331,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -313,36 +341,50 @@
                     <td>Q</td>
                     <td>Spider Mines</td>
                     <td>Create 3 mines that deal 96 (+4% per level) damage and slow enemies by 25% for 1.5 seconds.</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Concussive Blast</td>
                     <td>Deals 141 (+4% per level) damage and pushes enemies away.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Siege Mode</td>
                     <td>Become immobile to increase Basic Attack range by 90%, deal 25% splash damage, and deal 30% bonus damage to Minions and Structures.</td>
+                    <td class="visible-lg">2</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Napalm Strike</td>
                     <td>Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg">35</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Blunt Force Gun</td>
                     <td>Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.</td>
+                    <td class="visible-lg">70</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Thrusters</td>
                     <td>Increase your Movement Speed by 60% for 4 seconds.</td>
+                    <td class="visible-lg">30</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Artillery</td>
                     <td>Basic Attacks deal 30% more damage to distant enemies and Basic Attack range increased by 20%.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/samuro.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Way of Illusion</td>
                     <td>Quest: Every time one of your Images Critically Strikes a Hero, gain 0.5 Attack Damage, up to 20. Reward: After hitting 40 Heroes, gain an additional 20 Attack Damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Way of the Blade</td>
                     <td>Critical Strike now happens every 3rd Basic Attack and deals an additional 20% of your Basic Attack damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Way of the Wind</td>
                     <td>Quest: Attacking a Hero from Stealth increases the Movement Speed bonus of Wind Walk by 1.25%, up to 25%. Reward: After attacking 20 Heroes, Wind Walk's Unrevealable duration is increased to 2.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Deflection</td>
                     <td>Advancing Strikes grants 25 Physical Armor against Hero Basic Attacks, reducing their damage by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Mirage</td>
                     <td>Mirror Image grants Samuro and his Images 40 Spell Armor against the next 2 sources of Spell damage, reducing their damage by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>One with the Wind</td>
                     <td>While Stealthed by Wind Walk, you take 60% reduced damage from all sources.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Burning Blade</td>
                     <td>Critical Strikes unleash a burst of flame, dealing an additional 65% of your Basic Attack damage to the target and nearby enemies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Crushing Blows</td>
                     <td>Critical Strike now has two charges, and Critical Strikes deal an additional 25% of your Basic Attack damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Phantom Pain</td>
                     <td>Critical Strikes deal an additional 40% of your Basic Attack damage for each Image you have active.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Bladestorm</td>
                     <td>Become an Unstoppable whirlwind of death, dealing 235 (+4% per level) damage per second to nearby enemies for 4 seconds.</td>
+                    <td class="visible-lg">110</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Illusion Master</td>
                     <td>Switch places with the target Mirror Image, removing most negative effects from Samuro and the target Mirror Image. Passive: You can control Mirror Images separately or as a group, and they deal an additional 10% of your damage.</td>
+                    <td class="visible-lg">6</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Kawarimi</td>
                     <td>Wind Walk creates an Image at your location that will continue whatever you were doing.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Mirrored Steel</td>
                     <td>Basic Attacks against Heroes reduce the cooldown of Mirror Image by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Shukuchi</td>
                     <td>Wind Walk teleports you a short distance in the direction you're currently facing.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Harsh Winds</td>
                     <td>Attacking a Hero from Stealth causes them to take 30% increased damage from Samuro and his Images for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Merciless Strikes</td>
                     <td>Basic Attacks against slowed, rooted, or stunned targets are always Critical Strikes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Press the Attack</td>
                     <td>While Advancing Strikes is active, Basic Attacks increase your Attack Speed by 15%, up to 60%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Blademaster's Pursuit</td>
                     <td>Advancing Strikes grants an additional 15% bonus Movement Speed, and its duration is increased by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Dance of Death</td>
                     <td>Your Images use Bladestorm when you do.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Three Blade Style</td>
                     <td>Your Images gain an additional 50% of your Health and last up to 36 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Wind Strider</td>
                     <td>Wind Walk's cooldown is reduced by 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Mirror Image</td>
                     <td>Create 2 Mirror Images that deal 25% of your damage and have 50% of your current Health. Images last up to 18 seconds, and only two can be active at any one time.</td>
+                    <td class="visible-lg">18</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Critical Strike</td>
                     <td>Your next Basic Attack within 10 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk. Passive: You and your Images deal a Critical Strike on every 4th Basic Attack.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Wind Walk</td>
                     <td>Enter Stealth for up to 10 seconds or until you attack, use an Ability, or take damage. While Stealthed, your Movement Speed is increased by 25% and you can pass through other units. Damage taken within the first 1 second will not break Wind Walk.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Bladestorm</td>
                     <td>Become an Unstoppable whirlwind of death, dealing 235 (+4% per level) damage per second to nearby enemies for 4 seconds.</td>
+                    <td class="visible-lg">110</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Illusion Master</td>
                     <td>Switch places with the target Mirror Image. Passive: You can control Mirror Images separately or as a group, and they deal an additional 10% of your damage.</td>
+                    <td class="visible-lg">6</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Advancing Strikes</td>
                     <td>Basic attacks against enemy Heroes increase your movement speed by 25% for 2 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

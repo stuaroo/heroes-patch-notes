@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/lunara.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,131 +182,157 @@
                     <td>1</td>
                     <td>Blossom Swell</td>
                     <td>Increases Noxious Blossom's radius by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Cruel Spores</td>
                     <td>When Crippling Spores hits only Minions or Mercenaries, its cooldown is reduced by 80% and 20 Mana is restored.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Natural Perspective</td>
                     <td>Nature's Toxin reveals enemies for its duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Photosynthesis</td>
                     <td>Crippling Spores returns 10 Mana per enemy hit, up to 40 Mana.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Dividing Wisp</td>
                     <td>The first time a Wisp is relocated, it leaves a copy of itself in the previous location.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Nimble Wisp</td>
                     <td>Increases Wisp Movement Speed by 100% and vision radius by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Skybound Wisp</td>
                     <td>Wisp can see over obstacles and reveals the area for 4 seconds after dying.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Timelost Wisp</td>
                     <td>Wisp costs no Mana and its cooldown recharges 125% faster while no Wisp is active.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Nature's Culling</td>
                     <td>Increases Nature's Toxin's damage by 150% to non-Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Siphoning Toxin</td>
                     <td>As long as Nature's Toxin is active on an enemy, heal 18 (+4% per level) Health a second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Splintered Spear</td>
                     <td>Using Noxious Blossom causes Lunara's next Basic Attack to hit up to 4 enemies. These extra attacks can apply Nature's Toxin.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Wild Vigor</td>
                     <td>Using Crippling Spores increases the damage of Lunara's next 4 Basic Attacks by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Leaping Strike</td>
                     <td>Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Thornwood Vine</td>
                     <td>Send forth vines that deal 164 (+4% per level) damage to all enemies in a line. Stores up to 3 charges.</td>
+                    <td class="visible-lg">15</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Giant Killer</td>
                     <td>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Greater Spell Shield</td>
                     <td>Every 30 seconds, gain 75 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 75%. Can be toggled to allow or prevent this talent from triggering automatically.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Pestering Blossom</td>
                     <td>Increases Noxious Blossom's range by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Unfair Advantage</td>
                     <td>Nature's Toxin deals 50% more damage to Heroes that are slowed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Choking Pollen</td>
                     <td>Increases Noxious Blossom damage by 125% against enemies afflicted with Nature's Toxin.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Invigorating Spores</td>
                     <td>Using Crippling Spores increases Lunara's Attack Speed by 50% for 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Let Them Wither</td>
                     <td>Increases Crippling Spores' slow to 50% and causes it to no longer decay.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Star Wood Spear</td>
                     <td>Using Crippling Spores increases Lunara's Basic Attack range by 2.75 for 6 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Abolish Magic</td>
                     <td>Target an Ally to remove all damage over time and disabling effects from them and Lunara. For 2 seconds after, the duration of disabling effects is reduced by 50%.</td>
+                    <td class="visible-lg">35</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Boundless Stride</td>
                     <td>All Leaping Strike charges are returned every 20 seconds. Leaping Strike can be used on allies.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Forest's Wrath</td>
                     <td>Increases Thornwood Vine's range by 30%, its speed by 20%, and Lunara's vision radius by 35%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Galloping Gait</td>
                     <td>Activate to increase the Movement Speed bonus of Dryad's Swiftness to 80% for 6 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                 </tbody>
               </table>
@@ -315,7 +343,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -323,31 +353,43 @@
                     <td>Q</td>
                     <td>Noxious Blossom</td>
                     <td>After 0.5 seconds, cause an area to explode with pollen dealing 160 (+4% per level) damage.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Crippling Spores</td>
                     <td>Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are slowed by 40% decaying over 3 seconds.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Wisp</td>
                     <td>Spawn a Wisp to scout an area. Can be redirected once active. Lasts 45 seconds.</td>
+                    <td class="visible-lg">30</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Thornwood Vine</td>
                     <td>Send forth vines that deal 164 (+4% per level) damage to all enemies in a line. Stores up to 3 charges.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">35</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Leaping Strike</td>
                     <td>Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Nature's Toxin</td>
                     <td>Your Basic Attacks and damaging Abilities poison their target, dealing 34 (+5% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

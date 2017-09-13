@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/butcher.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Block</td>
                     <td>Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Chop Meat</td>
                     <td>Increases Hamstring damage by 100% to Minions and Mercenaries.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Invigoration</td>
                     <td>If Hamstring hits a Hero, half of the Mana cost is refunded and the cooldown is reduced by 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Cheap Shot</td>
                     <td>Hamstring does 100% more damage to targets affected by a Slow, Root, or Stun.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Flail Axe</td>
                     <td>Increases the length of Hamstring by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Unrelenting Pursuit</td>
                     <td>Reduces the cooldown of Ruthless Onslaught by 33% upon impact.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Insatiable Blade</td>
                     <td>While facing the branded enemy, The Butcher's Movement Speed is increased by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Meat Shield</td>
                     <td>When Ruthless Onslaught impacts an enemy Hero, The Butcher gains 50 Spell Armor for 2.5 seconds, reducing Ability Damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Victuals</td>
                     <td>Every time a nearby enemy minion dies, The Butcher heals 5% of his maximum health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Furnace Blast</td>
                     <td>After a 3 second delay, fire explodes around The Butcher dealing 500 (+4% per level) damage to enemies. Can be cast while using Ruthless Onslaught.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Lamb to the Slaughter</td>
                     <td>Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 (+4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Brutal Strike</td>
                     <td>After using Hamstring, The Butcher's next 3 Basic Attacks within 5 seconds deal an additional 15% damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Cleaver</td>
                     <td>Basic Attacks deal 35% of The Butcher's Basic Attack Damage in an area around the target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Savage Charge</td>
                     <td>Ruthless Onslaught deals bonus damage to Heroes equal to 10% of their maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Blood Frenzy</td>
                     <td>Basic Attacks against enemy Heroes grant 5% increased Attack and Movement Speed for 3 seconds, up to 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Crippling Slam</td>
                     <td>Hamstring's slow no longer fades out, and the duration is increased by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Enraged</td>
                     <td>Receiving damage that reduces The Butcher below 50% of his maximum Health causes him to become Enraged for 10 seconds, gaining 40% Attack Speed and 15 Armor, reducing damage taken by 15%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Bolt of the Storm</td>
                     <td>Activate to teleport to a nearby location.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Fires of Hell</td>
                     <td>Furnace Blast explodes a second time 3 seconds after the initial explosion.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Nexus Blades</td>
                     <td>Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Slaughterhouse</td>
                     <td>Lamb to the Slaughter now chains all enemy Heroes in range.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Hamstring</td>
                     <td>Deal 110 (+4% per level) damage and slow enemies by 50% fading over 2 seconds.  Your next Basic Attack will strike immediately.</td>
+                    <td class="visible-lg">4</td>
+                    <td class="visible-lg">40</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Butcher's Brand</td>
                     <td>Deal 37 (+4% per level) damage to an enemy and cause your Basic Attacks against them to heal you for 75% of the damage done. Healing doubled versus Heroes. Lasts 4 seconds. Your Basic Attacks against a branded Hero increase the duration by 0.5 seconds.</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Ruthless Onslaught</td>
                     <td>Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If you reach the target, they are stunned for 1 second and take 119 (+4% per level) damage.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">55</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Lamb to the Slaughter</td>
                     <td>Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 (+4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Furnace Blast</td>
                     <td>After a 3 second delay, fire explodes around The Butcher dealing 500 (+4% per level) damage to enemies. Can be cast while using Ruthless Onslaught.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Fresh Meat</td>
                     <td>Upon dying, nearby Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying. Quest: Collect 200 Fresh Meat. Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/malthael.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,111 +182,133 @@
                     <td>1</td>
                     <td>Death's Reach</td>
                     <td>Increase Wraith Strike's range by 35%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Fear the Reaper</td>
                     <td>Activate to increase Movement Speed by 25% and pass through other units for 4 seconds.</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>On a Pale Horse</td>
                     <td>Gain an additional 20% Movement Speed while mounted.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Black Harvest</td>
                     <td>Quest: Apply Reaper's Mark to Heroes for a total of 150 seconds. Reward: Permanently increase Reaper's Mark's duration by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Die Alone</td>
                     <td>Soul Rip deals 75% more damage if it hits only one Hero.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Throwing Shade</td>
                     <td>Quest: Hit 20 Heroes with Death Shroud. Reward: Permanently increase Death Shroud's range by 33%, reduce its cooldown by 4 seconds, and reduce its Mana cost from 50 to 25.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Cold Hand</td>
                     <td>Soul Rip Slows enemies by 20% for 2.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Mortality</td>
                     <td>When damaging a Hero, Wraith Strike deals bonus damage equal to 4% of the Hero's maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Touch of Death</td>
                     <td>Activate to reduce healing received by Heroes afflicted by Reaper's Mark by 50% for 4 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Last Rites</td>
                     <td>Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health. Repeatable Quest: Enemies killed while under the effect of Last Rites permanently reduce its cooldown by 5 seconds, to a minimum of 15 seconds.</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Tormented Souls</td>
                     <td>Gain 10 Armor and unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ethereal Existence</td>
                     <td>Gain 10 Physical Armor per enemy Hero afflicted by Reaper's Mark, up to a maximum of 40.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Inevitable End</td>
                     <td>Activate to become Unstoppable for 2 seconds, but remove all active Reaper's Marks.</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Shroud of Wisdom</td>
                     <td>After 2 seconds, gain 50 Spell Armor for 4 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Soul Siphon</td>
                     <td>Increase Soul Rip's bonus healing from Heroes to 4% of the Hero's maximum Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Massacre</td>
                     <td>Wraith Strike now damages and applies Reaper's Mark to enemies around its target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Memento Mori</td>
                     <td>Reaper's Mark deals 80% increased damage after afflicting an enemy for more than 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Soul Collector</td>
                     <td>Reduce Soul Rip's cooldown by 0.5 seconds and increase its range by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Angel of Death</td>
                     <td>Last Rites heals for 100% of the damage dealt, and its current and future cooldown reduction bonuses are doubled.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Final Curtain</td>
                     <td>Death Shroud leaves a trail in its wake for 4 seconds, applying Reaper's Mark to enemies in its area.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>No One Can Stop Death</td>
                     <td>Activate while dead to immediately respawn at the Altar but increase Malthael's next respawn time by 25%.</td>
+                    <td class="visible-lg">180</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Reaper of Souls</td>
                     <td>Increase Tormented Souls' duration by 1 second. While Tormented Souls is active, Hero Takedowns extend its duration by 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -295,7 +319,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -303,31 +329,43 @@
                     <td>Q</td>
                     <td>Soul Rip</td>
                     <td>Extract the souls of nearby enemies afflicted by Reaper's Mark, dealing 100 (+4% per level) damage and healing Malthael for 44 per target hit. Heroic targets heal Malthael for an additional 3% of the Hero's maximum Health.</td>
+                    <td class="visible-lg">2</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Wraith Strike</td>
                     <td>Instantly teleport through an enemy afflicted by Reaper's Mark, dealing 59 (+4% per level) damage and refreshing Reaper's Mark.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Death Shroud</td>
                     <td>After 0.25 seconds, unleash a wave of dark mist that applies Reaper's Mark to enemies it hits.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Tormented Souls</td>
                     <td>Gain 10 Armor and unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Last Rites</td>
                     <td>Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health. Repeatable Quest: Enemies killed while under the effect of Last Rites permanently reduce its cooldown by 5 seconds, to a minimum of 15 seconds.</td>
+                    <td class="visible-lg">75</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Reaper's Mark</td>
                     <td>Basic Attacks afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 2.25% of their maximum Health every 1 second.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

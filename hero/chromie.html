@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/chromie.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Deep Breathing</td>
                     <td>Quest: Every time Dragon's Breath hits a Hero increase its damage by 2, up to 50. Reward: After hitting 25 Heroes, increase its damage by an additional 150 and also increase Chromie's sight radius by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Mounting Sand</td>
                     <td>Hitting 3 or more consecutive Sand Blasts without missing counts as hitting 3 Heroes.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Timewalker's Pursuit</td>
                     <td>Activate to reveal the targeted area for 2 seconds. Enemies seen are revealed for 4 seconds. Quest: Gathering a Regeneration Globe increases Chromie's Mana Regeneration by 0.1, up to 1.5. Reward: After gathering 15 Globes Chromie also gains 5% Ability Power.</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Bronze Talons</td>
                     <td>Increases Chromie's Basic Attack range by 35%. Using Sand Blast increases the damage of her next Basic Attack by 250%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Enveloping Assault</td>
                     <td>Increases Dragon's Breath's radius by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Timely Surprise</td>
                     <td>Sand Blast and Dragon's Breath's cooldowns are reset when Time Trap is triggered.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Chrono Sickness</td>
                     <td>Reduce Time Trap's cooldown and Mana cost by 50%. After the Time Stop ends, the enemy is also Slowed by 50% for 4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Dragon's Eye</td>
                     <td>Dragon's Breath does 25% more damage to enemies in the center.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Mobius Loop</td>
                     <td>Reduces Dragon's Breath's Mana cost and cooldown by 50%, but also reduces its damage by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Slowing Sands</td>
                     <td>Place a sand vortex that greatly slows enemies inside it. The longer it is active the more it slows, up to 60% after 3 seconds.</td>
+                    <td class="visible-lg">5</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Temporal Loop</td>
                     <td>Choose an enemy Hero. After 3 seconds, they will teleport back to the location where Temporal Loop was cast on them.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Bye Bye!</td>
                     <td>Reduces the cast time of Hearthstone by 75%, and it is not interrupted by taking damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Here and There</td>
                     <td>Activate to swap Chromie's position with her Sand Blast Echo.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Time Out</td>
                     <td>Activate to place Chromie in Stasis and gain Invulnerability for up to 7 seconds. Can be reactivated to end the effect early.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Fast Forward</td>
                     <td>If Sand Blast travels at least 75% of its base distance and hits a Hero, its cooldown is reduced to 0.75 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Quantum Overdrive</td>
                     <td>Activate to increase Ability Power by 20% for 10 seconds.</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Shifting Sands</td>
                     <td>Hitting an enemy Hero with Sand Blast grants 8% Spell Power for 10 seconds, up to a maximum of 40%. The duration is refreshed whenever an enemy is damaged by Sand Blast.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Andorhal Anomaly</td>
                     <td>Time Trap gains 2 charges, and when the cooldown finishes, Chromie gains all charges at once. Maximum 3 active Time Traps.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Piercing Sands</td>
                     <td>Sand Blast will now hit all Heroes in its path. Additional hits do not grant bonus damage or Quest progress.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Pocket of Time</td>
                     <td>Removes Slowing Sands Mana cost and increases the slow from 60% to 80%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Stuck in a Loop</td>
                     <td>Temporal Loop teleports the target a second time after the first.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Sand Blast</td>
                     <td>After 1 second, fire a missile that deals 300 (+2% per level) damage to the first enemy Hero hit.  Quest: Hit 80 Heroes with Sand Blast. Consecutive hits without missing count as hitting 2 Heroes. Reward: Each Hero hit increases Sand Blast's damage by 5. Reward: After hitting 80 Heroes, casting Sand Blast leaves an Echo behind.  The next time Sand Blast is cast, the Echo also casts an untalented Sand Blast that deals 40% damage.</td>
+                    <td class="visible-lg">2.5</td>
+                    <td class="visible-lg">20</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Dragon's Breath</td>
                     <td>Fire a blast into the air that lands after 1.5 seconds, dealing 480 (+4% per level) damage to enemies in an area.  Enemies cannot see where the blast will land.</td>
+                    <td class="visible-lg">12</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Time Trap</td>
                     <td>Place a Time Trap that arms and Stealths after 2 seconds. The first enemy Hero to touch it will be put into Stasis for 2 seconds. Only 1 trap can exist at once.</td>
+                    <td class="visible-lg">18</td>
+                    <td class="visible-lg">25</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Temporal Loop</td>
                     <td>Choose an enemy Hero. After 3 seconds, they will teleport back to the location where Temporal Loop was cast on them.</td>
+                    <td class="visible-lg">70</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Slowing Sands</td>
                     <td>Place a sand vortex that greatly slows enemies inside it. The longer it is active the more it slows, up to 60% after 3 seconds.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg">2 per second</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Timewalker</td>
                     <td>You've traveled to the future, and as such, will learn your Talents 2 levels earlier than your teammates!</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

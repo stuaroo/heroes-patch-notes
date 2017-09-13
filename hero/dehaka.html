@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/dehaka.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Enduring Swarm</td>
                     <td>Dark Swarm grants 40 Spell Armor, reducing Ability damage taken by 40%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Enhanced Agility</td>
                     <td>Brushstalker's Movement Speed bonus now lasts 5 seconds after leaving a bush.  Quest: Every 50 Essence collected permanently increases the Movement Speed bonus of Brushstalker by 2% up to 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Tissue Regeneration</td>
                     <td>Regneration Globes grant 10 Essence.  Quest: Every 50 Essence collected permanently increases Health Regeneration by 4, up to 40, and maximum Essence by 1, up to 10.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Hero Stalker</td>
                     <td>Increases Essence gained from Takedowns by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Lurker Strain</td>
                     <td>Emerging from Burrow grants Dehaka Stealth for 3 seconds and also knocks nearby enemies back, slowing them by 30% for 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>One-Who-Collects</td>
                     <td>Increases Essence collected from Minions by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Constriction</td>
                     <td>Increases Drag duration by 0.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Feeding Frenzy</td>
                     <td>Basic Attacks reduce Drag's cooldown by 2 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Symbiosis</td>
                     <td>Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.4 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Adaptation</td>
                     <td>After 4 seconds, heal for 100% of the damage Dehaka took over this period.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Isolation</td>
                     <td>Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ferocious Stalker</td>
                     <td>Dark Swarm deals 40% more damage while Brushstalker's Movement Speed bonus is active.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Primal Rage</td>
                     <td>Gain 1% increased Attack Damage per Essence stored.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Primal Swarm</td>
                     <td>Dark Swarm causes enemies hit to lose 10 Armor for 0.75 seconds, causing them to take 10% extra damage.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Elongated Tongue</td>
                     <td>Increase Drag range by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Paralyzing Enzymes</td>
                     <td>Drag slows enemies by 50% for 2 seconds after it ends.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Tunneling Claws</td>
                     <td>Dehaka can move while Burrowed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Apex Predator</td>
                     <td>Reduces Brushstalker's cooldown by 25 seconds and the cast time by 0.5 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Change Is Survival</td>
                     <td>Increases Adaptation healing to 200% of the damage received and reduces the cooldown by 30 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Contagion</td>
                     <td>Isolation hits all Heroes near the first target.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Essence Claws</td>
                     <td>Dehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,36 +323,50 @@
                     <td>Q</td>
                     <td>Drag</td>
                     <td>Lash out with your tongue, dealing 160 (+4% per level) damage to the first enemy hit, stunning and dragging them with you for 1.75 seconds.  If you are stunned or silenced while using Drag, the effect ends.</td>
+                    <td class="visible-lg">15</td>
+                    <td class="visible-lg">75</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Dark Swarm</td>
                     <td>Deal 50 (+4% per level) damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units.  Can be cast during Drag and Burrow.</td>
+                    <td class="visible-lg">10</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Burrow</td>
                     <td>Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.</td>
+                    <td class="visible-lg">20</td>
+                    <td class="visible-lg">65</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Isolation</td>
                     <td>Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Adaptation</td>
                     <td>After 4 seconds, heal for 100% of the damage Dehaka took over this period.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">85</td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Essence Collection</td>
                     <td>Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying.  Activate to consume all Essence and heal yourself for 29 (+4% per level) Health over 5 seconds for each Essence stored.  Maximum of 50 Essence.  Can be cast during Drag and Burrow.</td>
+                    <td class="visible-lg">5</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>Z</td>
                     <td>Brushstalker</td>
                     <td>Activate to burrow to a bush on the battleground.  Passive: Gain 20% movement speed while in a bush and for 2 second after leaving.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

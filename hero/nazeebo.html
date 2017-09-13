@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/nazeebo.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,106 +182,127 @@
                     <td>1</td>
                     <td>Pandemic</td>
                     <td>Reward: After hitting 40 Heroes with Plague of Toads, it spawns 2 additional toads.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Thing of the Deep</td>
                     <td>Increases the range of Nazeebo's Basic Abilities by 20%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Widowmakers</td>
                     <td>Reward: After Corpse Spiders attack Heroes 100 times, their attack damage is increased by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Big Voodoo</td>
                     <td>Increases the Health and Mana bonuses from Voodoo Ritual by 100%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Blood Ritual</td>
                     <td>If an enemy dies while poisoned by Voodoo Ritual, restore 1.95% of Nazeebo's maximum Health and Mana.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Hexed Crawlers</td>
                     <td>Corpse spiders restore 0.75% of Nazeebo's maximum Health and Mana when they attack an enemy Hero.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Dead Rush</td>
                     <td>Zombie Wall deals 75% more damage. When it expires up to 5 remaining Zombies uproot and attack nearby enemies for 3 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Spirit of Arachyr</td>
                     <td>If Corpse Spiders hits only one enemy, it creates 2 additional spiders.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Toads of Hugeness</td>
                     <td>Increase the damage and explosion radius of Plague of Toads by 20% after each hop, up to a maximum of 80%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Gargantuan</td>
                     <td>Summon a Gargantuan to guard an area for 20 seconds. Deals 100 (+4% per level) damage when summoned, attacks for 150 (+4% per level) damage, and can be ordered to stomp nearby enemies.</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Ravenous Spirit</td>
                     <td>Channel a Ravenous Spirit that deals 206 (+4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Guardian Toads</td>
                     <td>Hitting an enemy Hero with Plague of Toads gives 25 Armor for 2 seconds, reducing damage taken by 25%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Ice Block</td>
                     <td>Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Superstition</td>
                     <td>Gain 40 Spell Armor, taking 40% less damage from Abilities, but lose 30 Physical Armor, taking 30% more damage from Basic Attacks.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Ring of Poison</td>
                     <td>Zombie Wall lasts 1 second longer, and the center is filled with poison that deals a total of 318.75 (+4% per level) damage over 4 seconds. This damage starts small and increases over the duration.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Soul Harvest</td>
                     <td>Activate to increase Nazeebo's Health and Ability Power by 5% for each nearby enemy, up to a maximum of 25%. Lasts 15 seconds.</td>
+                    <td class="visible-lg">15</td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Spider Colony</td>
                     <td>Corpse Spiders' cooldown recharges 100% faster while above 850 Health.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Annihilating Spirit</td>
                     <td>Increases the range of Ravenous Spirit by 50% and Movement Speed by 30%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Fury of the Storm</td>
                     <td>Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Humongoid</td>
                     <td>Reduce Gargantuan's cooldown by 40 seconds and its Mana cost by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Vile Infection</td>
                     <td>Reward: After reaching 175 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased by 200%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +313,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -298,31 +323,43 @@
                     <td>Q</td>
                     <td>Corpse Spiders</td>
                     <td>Hurl a jar of spiders that deals 50 (+4% per level) damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 35 (+4% per level) damage. Spiders last for 4 seconds.</td>
+                    <td class="visible-lg">9</td>
+                    <td class="visible-lg">50</td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Zombie Wall</td>
                     <td>After 1 second, create a ring of Zombies surrounding the target area that deal 28 (+4% per level) damage and last for 3 seconds.</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg">70</td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Plague of Toads</td>
                     <td>Create a wave of 3 Toads that explode on contact, dealing 140 (+4% per level) damage over 6 seconds. This effect stacks.</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg">30</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Gargantuan</td>
                     <td>Summon a Gargantuan to guard an area for 20 seconds. Deals 100 (+4% per level) damage when summoned, attacks for 150 (+4% per level) damage, and can be ordered to stomp nearby enemies.</td>
+                    <td class="visible-lg">70</td>
+                    <td class="visible-lg">90</td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Ravenous Spirit</td>
                     <td>Channel a Ravenous Spirit that deals 206 (+4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.</td>
+                    <td class="visible-lg">90</td>
+                    <td class="visible-lg">100</td>
                   </tr>
                   <tr>
                     <td>None</td>
                     <td>Voodoo Ritual</td>
                     <td>Your Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 66 (+4% per level) additional damage over 6 seconds.  If a Minion dies while poisoned by Voodoo Ritual, you permanently gain 4 Health and 1 Mana.</td>
+                    <td class="visible-lg"></td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>

@@ -33,6 +33,7 @@
     <link href="../css/by-category.css?v=O9Yd0q6VEC" rel="stylesheet">
     <style>
       .hero-img { background: url("../images/hero/auriel.png") 0px 0px no-repeat; background-size: 92px 93px; height: 93px; width: 92px; margin-right: 5px; }
+      @media (min-width: 1200px) { #abilities td:nth-last-child(-n+2), #abilities th:nth-last-child(-n+2), #talents th:last-child, #talents td:last-child { text-align: center; } }
     </style>
   </head>
   <body>
@@ -172,7 +173,8 @@
                   <tr>
                     <th class="col-lg-1">Level</th>
                     <th class="col-lg-3">Talent Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-7">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -180,116 +182,139 @@
                     <td>1</td>
                     <td>Increasing Clarity</td>
                     <td>Quest: Every time Sacred Sweep hits a Hero in the center, increase the center damage by 2, up to 50.  Reward: After hitting 25 Heroes, this center damage bonus is increased to 150.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Righteous Assault</td>
                     <td>Reduces the cooldown of Sacred Sweep by 3 seconds for each enemy Hero hit by its center.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Searing Light</td>
                     <td>Ray of Heaven also deals damage to enemies in the area equal to 30% of the energy consumed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>1</td>
                     <td>Swift Sweep</td>
                     <td>Increases the cast speed of Sacred Sweep by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Heavy Burden</td>
                     <td>When an enemy Hero is stunned by Detainment Strike, their Movement Speed is slowed by 40% for 3 seconds after the stun.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Majestic Span</td>
                     <td>Increases the radius of Sacred Sweep by 15%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>4</td>
                     <td>Repeated Offense</td>
                     <td>Quest: Every time Detainment Strike stuns a Hero, increase the stun damage by 10, up to 60. Reward: After stunning 6 Heroes, increase this damage bonus to 250.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Empathic Link</td>
                     <td>Auriel stores 25% of damage taken by allies with Bestow Hope.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Energized Cord</td>
                     <td>Increases the energy stored from Auriel's Basic Attacks to 100% of the damage against Heroes and 50% of the damage against non-Heroes. Does not affect Auriel's Bestow Hope ally.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>7</td>
                     <td>Glimmer of Hope</td>
                     <td>Collecting a Regeneration Globe reduces the cost of Auriel's next Ray of Heaven by 75%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Crystal Aegis</td>
                     <td>Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 270 (+4% per level) damage to all nearby enemies.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                   <tr>
                     <td>10</td>
                     <td>Resurrect</td>
                     <td>Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.</td>
+                    <td class="visible-lg">120</td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Blinding Flash</td>
                     <td>Enemies hit by the center area of Sacred Sweep are blinded for 2.25 seconds.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Converging Force</td>
                     <td>Enemies hit by the outer area of Sacred Sweep are pushed slightly toward the center.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Piercing Lash</td>
                     <td>Detainment Strike now pierces and hits all enemy Heroes in a line, reducing the cooldown by 2 seconds for each Hero hit.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>13</td>
                     <td>Repelling Strike</td>
                     <td>Enemies hit by Detainment Strike are knocked back 35% farther.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Reservoir of Hope</td>
                     <td>Quest: Each maximum energy Ray of Heaven Auriel casts increases the maximum amount of energy that can be stored by 75.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Will of Heaven</td>
                     <td>Allies with Bestow Hope gain 20% Attack Speed.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>16</td>
                     <td>Wrath of Heaven</td>
                     <td>Allies with Bestow Hope gain 10% Ability Power.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Angelic Flight</td>
                     <td>Activate to fly to a chosen location.</td>
+                    <td class="visible-lg">45</td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Diamond Resolve</td>
                     <td>When Crystal Aegis expires, it grants the target 50 Armor for 5 seconds, reducing damage taken by 50%.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Light Speed</td>
                     <td>Resurrected allies gain 200% increased Movement Speed, decaying over 4 seconds. While a resurrected ally remains alive, Resurrect's next cooldown recharges 100% faster.</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>20</td>
                     <td>Shield of Hope</td>
                     <td>Activate to grant all nearby allied Heroes a shield for 3 seconds equal to 50% of the amount of Health they are missing.</td>
+                    <td class="visible-lg">60</td>
                   </tr>
                 </tbody>
               </table>
@@ -300,7 +325,9 @@
                   <tr>
                     <th class="col-lg-1">Shortcut</th>
                     <th class="col-lg-3">Ability Name</th>
-                    <th class="col-lg-8">Description</th>
+                    <th class="col-lg-6">Description</th>
+                    <th class="visible-lg col-lg-1">Cooldown</th>
+                    <th class="visible-lg col-lg-1">Mana Cost</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -308,31 +335,43 @@
                     <td>Q</td>
                     <td>Sacred Sweep</td>
                     <td>Sweep the area with sacred power, dealing 60 (+4% per level) damage to enemies and an additional 180 (+4% per level) damage to enemies caught in the center</td>
+                    <td class="visible-lg">8</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>W</td>
                     <td>Ray of Heaven</td>
                     <td>Consume your stored energy and heal allied Heroes in the area for the amount of energy consumed.</td>
+                    <td class="visible-lg">4</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>E</td>
                     <td>Detainment Strike</td>
                     <td>Deal 58 (+4% per level) damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for 1.25 seconds and take an additional 174 (+4% per level) damage.</td>
+                    <td class="visible-lg">14</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Crystal Aegis</td>
                     <td>Place an allied Hero in Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 270 (+4% per level) damage to all nearby enemies.</td>
+                    <td class="visible-lg">60</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>R</td>
                     <td>Resurrect</td>
                     <td>Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.</td>
+                    <td class="visible-lg">100</td>
+                    <td class="visible-lg"></td>
                   </tr>
                   <tr>
                     <td>D</td>
                     <td>Bestow Hope</td>
                     <td>Passive: 50% of the damage you deal to Heroes and 5% dealt to non-Heroes is stored as energy.  Bestow an allied Hero with Hope. While they remain near you, damage they deal causes you to gain energy. You can only have Bestow Hope on 1 ally at a time.  You can store up to 505 (+4% per level) energy.</td>
+                    <td class="visible-lg">1.5</td>
+                    <td class="visible-lg"></td>
                   </tr>
                 </tbody>
               </table>
