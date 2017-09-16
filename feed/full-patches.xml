@@ -261,6 +261,7 @@ master of the cold dark.</p>
 <thead>
 <tr>
   <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#specialist">Specialist</a></th>
   <th><a href="#support">Support</a></th>
   <th><a href="#warrior">Warrior</a></th>
 </tr>
@@ -268,11 +269,13 @@ master of the cold dark.</p>
 <tbody>
 <tr>
   <td><a href="#chromie">Chromie</a></td>
+  <td><a href="#nazeebo">Nazeebo</a></td>
   <td><a href="#lt-morales">Lt. Morales</a></td>
   <td><a href="#leoric">Leoric</a></td>
 </tr>
 <tr>
   <td><a href="#jaina">Jaina</a></td>
+  <td></td>
   <td></td>
   <td></td>
 </tr>
@@ -539,6 +542,37 @@ master of the cold dark.</p>
 <li>(!) indicates a Questing Talent.</li>
 <li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
 <li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="nazeebo">Nazeebo</h4>
+
+<p><span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/707ejl/nazeebo_stealth_buff/" target="_blank">Source <i class="fa fa-external-link"></i></a></p>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><span class="text-warning">Toads of Hugeness (E)</span>
+<ul>
+<li><span class="text-warning">Damage and explosion radius bonus per hop increased from 20 to 25%</span></li>
+<li><span class="text-warning">Maximum bonus increased from 80 to 100%</span></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><span class="text-warning">Soul Harvest (Active)</span>
+<ul>
+<li><span class="text-warning">Ability Power and Health bonus increased from 5 to 7% for each enemy hit</span></li>
+<li><span class="text-warning">Maximum bonus increased from 25 to 35%</span></li>
+</ul></li>
+</ul></li>
 </ul>
 
 <p><a href="#heroes">Return</a></p>
