@@ -8,8 +8,8 @@
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20170905.png") 0 0 no-repeat; background-size: 44px 44.47826091px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
-  background:url("//heroespatchnotes.com/images/bg-sprite-v20170803.png") 0 0 no-repeat; 
-  background-size: 50.6px 704.0px; width: 44px; height: 44px;
+  background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20170918.png") 0 0 no-repeat; 
+  background-size: 50.6px 759.0px; width: 44px; height: 44px;
 }
 
 .small-abathur, .medium-abathur{ background-position: 0px -143.478261px; }
@@ -96,6 +96,7 @@
 .small-skytemple, .medium-skytemple{ background-position: -4px 0.0px; }
 .small-tombofthespiderqueen, .medium-tombofthespiderqueen{ background-position: -4px -660.0px; }
 .small-towersofdoom, .medium-towersofdoom{ background-position: -4px -385.0px; }
+.small-volskayafoundry, .medium-volskayafoundry{ background-position: -4px -715.0px; }
 .small-warheadjunction, .medium-warheadjunction{ background-position: -4px -495.0px; }
 
 /* Vertical timeline adapted from: http://tympanus.net/codrops/2013/05/02/vertical-timeline/ */
@@ -230,7 +231,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20170905.png") 0 0 no-repeat; background-size: 60px 60.652173909px; height: 60px; width: 60px; }
   .medium-battleground { 
-    background-size: 69px 960.0px; width: 60px; height: 60px; 
+    background-size: 69px 1035.0px; width: 60px; height: 60px; 
   }
 
   .medium-abathur{ background-position: 0px -195.6521739px; }
@@ -317,6 +318,7 @@ div.panel-heading>h3>a>i.fa-external-link {
   .medium-skytemple{ background-position: -4px 0.0px; }
   .medium-tombofthespiderqueen{ background-position: -4px -900.0px; }
   .medium-towersofdoom{ background-position: -4px -525.0px; }
+  .medium-volskayafoundry{ background-position: -4px -975.0px; }
   .medium-warheadjunction{ background-position: -4px -675.0px; }
 
   .second-img {
