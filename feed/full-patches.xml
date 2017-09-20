@@ -753,6 +753,7 @@ the fight.</p>
 <li><strong>Volskaya Foundry</strong></li>
 <li>Haunted Mines</li>
 <li>Towers of Doom</li>
+<li>Warhead Junction</li>
 </ul></li>
 <li>Removed from Rotation
 <ul>
@@ -1132,9 +1133,9 @@ the fight.</p>
 <ul>
 <li>Moved from Level 4
 <ul>
-<li>Health Regeneration reduced from 10 &gt; 1.5</li>
-<li>Heal increased from 20% &gt; 30% Maximum Health</li>
-<li>Cooldown reduced from 60 &gt; 40 seconds</li>
+<li>Health Regeneration reduced from 10 to 1.5</li>
+<li>Heal increased from 20 to 30% of Maximum Health</li>
+<li>Cooldown reduced from 60 to 40 seconds</li>
 </ul></li>
 </ul></li>
 <li>Regeneration Master (Passive)
@@ -1769,6 +1770,12 @@ master of the cold dark.</p>
 <li>Compounding Aether (Q)
 <ul>
 <li>​Removed</li>
+</ul></li>
+<li><span class="text-warning">Deep Breathing (W)</span> <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/70xar0/patch_chromies_deep_breathing_lvl_1_buffed_only/" target="_blank">Source <i class="fa fa-external-link"></i></a>
+<ul>
+<li><span class="text-warning">Damage per enemy Hero hit increased from 2 to 3, damage cap increased from 50 to 60</span></li>
+<li><span class="text-warning">Quest completion requirement decreased from 25 to 20 Heroes hit by Dragon's Breath</span></li>
+<li><span class="text-warning">Quest completion bonus damage decreased from 150 to 140</span></li>
 </ul></li>
 </ul></li>
 <li><strong>Level 2</strong>
