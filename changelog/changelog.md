@@ -1,4 +1,62 @@
 
+## 2017-09-25
+
+* Added [undocumented fix for Murky's Egg Hunt talent](../hero/murky.html#patch2017-08-08)
+    * Slime damage from Egg Hunt talent now scales at 4% per level, matching normal Slime scaling <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/6qs8m8/undocumented_change_murkys_egg_hunt_bug_was_fixed/" target="_blank">Source <i class="fa fa-external-link"></i></a>
+    * Fix was added [2017-08-08 in the 27.0 patch](..patch/2017-08-08-patch-notes.html)
+    * Thanks to [/u/dizzyMongoose](https://www.reddit.com/user/dizzyMongoose) for passing this change along!
+
+## 2017-09-20
+
+* Updated [balance patch for 2017-09-20](../patch/2017-09-20-balance-update.html) now that it actually released
+* Updated [patch summary](../patch/summary.html) and [removed talents](../talent/removed.html) for latest patch
+
+## 2017-09-19
+
+* Added [undocumented change to Chromie's Deep Breathing talent](../hero/chromie.html#patch2017-09-05) from 2017-09-05 patch
+    * Damage per enemy Hero hit increased from 2 to 3, damage cap increased from 50 to 60 <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/70xar0/patch_chromies_deep_breathing_lvl_1_buffed_only/" target="_blank">Source <i class="fa fa-external-link"></i></a>
+    * Quest completion requirement decreased from 25 to 20 Heroes hit by Dragon's Breath
+    * Quest completion bonus damage decreased from 150 to 140
+    * Thanks to [/u/dizzyMongoose](https://www.reddit.com/user/dizzyMongoose) for passing this change along!
+
+## 2017-09-18
+
+* Added [full PTR patch notes from 2017-09-18](../patch/2017-09-18-ptr-patch-notes.html)
+* Added [full future balance patch, with educated-guess date of 2017-09-20](../patch/2017-09-20-balance-update.html)
+* Added [Volskaya Foundry](../battleground/volskayafoundry.html) battleground page 
+* Updated [ranked map rotation](../battleground/rotation.html) for next set of maps
+
+## 2017-09-16
+
+* New Feature: added [open-source repository for talent and ability description strings](https://heroespatchnotes.github.io/heroes-talents/)
+    * Repo features a JSON file per hero with talents, abilities, cooldowns, and mana costs
+    * Hopefully this will help future developers that want to use the same descriptions as HeroesPatchNotes
+* Added [undocumented changes to Nazeebo's Toads of Hugeness and Soul Harvest talents](../hero/nazeebo.html#patch2017-09-05) from the 2017-09-05 patch
+    * Toads of Hugeness <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/707ejl/nazeebo_stealth_buff/" target="_blank">Source <i class="fa fa-external-link"></i></a>
+        * Damage and explosion radius bonus per hop increased from 20 to 25%
+        * Maximum bonus increased from 80 to 100%
+    * Soul Harvest
+        * Ability Power and Health bonus increased from 5 to 7% for each enemy hit
+        * Maximum bonus increased from 25 to 35%
+    * Thanks to [/u/dizzyMongoose](https://www.reddit.com/user/dizzyMongoose) for passing this change along!
+
+## 2017-09-12
+
+* Updated hero pages to include cooldowns and mana cost on talent/ability tables
+    * Thanks to [/u/lerhond](https://www.reddit.com/user/lerhond) for the shoutout and for making the excellent [HeroesInfoBot on reddit](https://www.reddit.com/r/heroesofthestorm/comments/6zgioo/as_requested_a_talent_description_bot_for/) with this data!
+
+## 2017-09-10
+
+* New Feature: added [Atom Feeds](../feed/) for full patch notes and patch summary pages
+    * Use your favorite RSS reader to keep up with new patches!
+
+## 2017-09-08
+
+* Added [full hotfix patch notes for 2017-09-08](../patch/2017-09-08-hotfix-patch.html)
+* Added [undocumented change to Lt. Morales' Medivac CD](../hero/ltmorales.html#patch2017-09-05) from 2017-09-05 patch
+    * Cooldown increased from 50 to 60 seconds <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.heroesfire.com/hots/wiki/heroes/lt-morales/abilities-talents" target="_blank">Source <i class="fa fa-external-link"></i></a>
+    * Thanks to [/u/Nuxation](https://www.reddit.com/user/Nuxation) for passing this change along!
+
 ## 2017-09-05
 
 * Added [full patch notes from 2017-09-05](../patch/2017-09-05-patch-notes.html)
@@ -38,7 +96,7 @@
 
 ## 2017-07-31
 
-* Added [Battleground Rotations page](../battleground/rotation.html)
+* New Feature: added [Battleground Rotations page](../battleground/rotation.html)
     * Displays current battlegrounds in the Ranked Map rotation, how long they've been on rotation, and the last set of added/removed battlegrounds to the pool
     * You can also see Rotation History and a full Transaction History of all battlegrounds added and removed from the pool
 * Added [full PTR patch notes from 2017-07-31](../patch/2017-07-31-ptr-patch-notes.html)
@@ -87,7 +145,7 @@
 
 ## 2017-07-03
 
-* Updated New Hero notes to include hero overview from patch; see [Malthael's release note](../hero/malthael.html#patch2017-06-13) for an example
+* New Feature: New Hero notes now include hero overview from patch on release; see [Malthael's release note](../hero/malthael.html#patch2017-06-13) for an example
     * Thanks to [@human_pronoun on Twitter](https://twitter.com/human_pronoun) for the suggestion!
 
 ## 2017-07-02
