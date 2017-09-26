@@ -2,10 +2,955 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2017-09-18T21:52:00.000Z</updated>
+  <updated>2017-09-26T18:10:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2017-09-26 Patch Notes</title>
+    <published>2017-09-26T18:10:00.000Z</published>
+    <updated>2017-09-26T18:10:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2017-09-26-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-09-26-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-september-26-2017">HEROES OF THE STORM PATCH NOTES — SEPTEMBER 26, 2017</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21072294" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21072294" target="_blank">Official Patch Notes</a> <small>v 2.28.0</small></div>
+
+<p>Our latest update for the Heroes of the Storm brings a new Hero, balance
+changes, and more to the Nexus!</p>
+
+<p><span class="text-warning"><strong>Note: Orange Text indicates a change or addition between PTR and live patch notes.</strong></span></p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<p><strong>New Special Event: Pachimari Mania</strong></p>
+
+<ul>
+<li>Open Loot Boxes and be the first team to find the Golden Pachimari!
+<ul>
+<li>At the beginning of a match, Loot Boxes will spawn around your starting area. Open as many as you can, and try to find the legendary Golden Pachimari!
+<ul>
+<li>Opening a Loot Box will grant you a movement speed boost, enabling you to open even more boxes.</li>
+<li>The player to open the most Loot Boxes on each team will be announced when the event ends, so be sure to always try your best!</li>
+</ul></li>
+<li>The first team to find the Golden Pachimari will win the event and earn credit toward their Pachimari Mania quest progress!</li>
+</ul></li>
+<li><strong>Quests and Rewards</strong>
+<ul>
+<li>Pachimari Mania is a four-part quest chain. All quests must be completed in order, and only one quest will be active at a time.
+<ul>
+<li><strong>Part 1:</strong> Find 2 Golden Pachimaris to earn a set of Pachimari in-game Emojis</li>
+<li><strong>Part 2:</strong> Find 5 Golden Pachimaris to earn a Pachimari-themed Banner</li>
+<li><strong>Part 3:</strong> Finding 8 Golden Pachimaris will unlock the Golden Pachimari spray</li>
+<li><strong>Part 4:</strong> Finding 10 Golden Pachimaris will unlock the Pachimari Portrait</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-hero-ana">New Hero: Ana</h3>
+
+<p>As a founding member of Overwatch and one of the world's best snipers, Ana
+Amari uses her skills to protect the innocent. Though she went MIA after
+losing her eye, Ana's sense of duty and responsibility has brought her back to
+the fight.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Shrike</strong>
+<ul>
+<li>Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 damage over 5 seconds, stacking up to 5 times.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Dart (Q)</strong>
+<ul>
+<li>Fire a dart which heals the first allied Hero hit for 250 Health.</li>
+</ul></li>
+<li><strong>Biotic Grenade (W)</strong>
+<ul>
+<li>Toss a Grenade at the target area. Allied Heroes hit are healed for 175 Health and receive 25% increased healing for 3 seconds. Enemies hit take 60 damage and receive 100% less healing for 2 seconds.</li>
+</ul></li>
+<li><strong>Sleep Dart (E)</strong>
+<ul>
+<li>Fire a dart that Sleeps the first enemy Hero hit, rendering them unable to act for 3 seconds. Sleep’s effects end instantly if the target takes damage after the first 0.5 seconds.</li>
+<li>Cannot be used on Vehicles.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Nano Boost (R)</strong>
+<ul>
+<li>Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster.</li>
+<li>Cannot be used on Ana.</li>
+</ul></li>
+<li><strong>Eye of Horus (R)</strong>
+<ul>
+<li>Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 300 and enemies are damaged for 175. Deals 50% damage to Structures.</li>
+<li>Ana is unable to move while Eye of Horus is active.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<p><strong>Mercenaries</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Impaler and Trooper Camps</strong> (Siege Mercenaries found on Volskaya Foundry, Battlefield of Eternity, and Infernal Shrines)</span>
+<ul>
+<li><span class="text-warning">Early game health has been slightly decreased.</span></li>
+<li><span class="text-warning">Base damage and scaling values have been increased by roughly 50%</span></li>
+<li><span class="text-warning">Defender Mercenaries can no longer be affected by displacements effects.</span></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><span class="text-warning"><em><strong>Developer Comment:</strong></em> We’ve heard feedback on the lack of strength the
+  Assault Trooper mercenaries possess. We hear and agree with this sentiment so
+  we’ve increased their overall damage to make them more of a threat.</span></p>
+</blockquote>
+
+<p><strong>Hanamura and Volskaya Foundry</strong></p>
+
+<ul>
+<li><span class="text-warning">Mercenary item drops no longer require a short channel time to be picked up.</span></li>
+</ul>
+
+<blockquote>
+  <p><span class="text-warning"><em><strong>Developer Comment:</strong></em> This change is aimed at making the flow of picking
+  up items from mercenary camps smoother and more intuitive. We found the flow
+  of defeating a mercenary camp, capturing it, then channeling on the dropped
+  item was disruptive to what players are accustomed to with typical mercenary
+  camps.</span></p>
+</blockquote>
+
+<ul>
+<li><span class="text-warning">Support Camps can no longer be captured with "Bribe" talents.</span></li>
+</ul>
+
+<blockquote>
+  <p><span class="text-warning"><em><strong>Developer Comment:</strong></em> Thanks for all of the early responses on Volskaya
+  Foundry. We’re making this change in response to consistent community
+  feedback.</span></p>
+</blockquote>
+
+<p><strong>New Battleground: Volskaya Foundry</strong></p>
+
+<ul>
+<li><strong>Objective</strong>
+<ul>
+<li><strong>Control Points</strong>
+<ul>
+<li>Throughout the match a Control Point will activate at one of three locations, beginning in a neutral capture state.</li>
+<li>Once a player stands on the control point without any enemies, they gain control progress for their team at a steady rate.</li>
+<li>If an enemy enters the point, the point becomes contested and will not gain or lose control progress.</li>
+<li>When a team's control progress hits 100, they gain control of the point.</li>
+<li>As long as a team has control of the point, they gain victory progress at a steady rate.
+<ul>
+<li>Victory progress does not decay for any reason.</li>
+</ul></li>
+<li>Overtime: When a point is at 99% victory progress about to tick over to 100%, it will stay at 99% and enter the overtime state if there are any enemy heroes on the point or the point just flipped from the enemy's control.</li>
+<li>When a team's victory progress hits 100%, they win the event. The control point deactivates and a two-person Triglav Protector spawns on the point for the winning team after a short delay.</li>
+</ul></li>
+<li><strong>Triglav Protector</strong>
+<ul>
+<li><strong>Pilot Abilities</strong>
+<ul>
+<li><strong>Charge (Q)</strong>
+<ul>
+<li>After .5 seconds, charge to the target unit's current location and deal damage in an area. Deals double damage to structures and minions. 8 second cooldown</li>
+</ul></li>
+<li><strong>Rocket Fist (W)</strong>
+<ul>
+<li>Launch a Rocket Fist that impacts the first Hero or Structure hit. Roots Heroes for 1 second. Disables Structures for 2 seconds. Destroys all minions in its path. 14 second cooldown.</li>
+</ul></li>
+<li><strong>Shield Emitter (E)</strong>
+<ul>
+<li>Grants 25 armor to vehicle and grants a Shield to all nearby allies equal to 25% of their maximum health. 16 second cooldown.</li>
+</ul></li>
+</ul></li>
+<li><strong>Gunner Abilities</strong>
+<ul>
+<li><strong>Particle Cannon (Q)</strong>
+<ul>
+<li>Enables the Particle Cannon ability and increases its range over 3 seconds. Reactivate to launch an orb dealing damage in an area. 5 sec cooldown.</li>
+</ul></li>
+<li><strong>Gatling Cannon (W)</strong>
+<ul>
+<li>Fires a barrage of cannon fire at the location of your cursor for 4 seconds. 11 second cooldown.</li>
+</ul></li>
+<li><strong>Scorching Laser (E)</strong>
+<ul>
+<li>A laser quickly cuts a line across the terrain dealing light damage. A secondary explosion triggers 0.75 seconds later for heavy damage. 10 second cooldown.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>New Sandbox Custom Game: Volskaya Foundry</strong></p>
+
+<ul>
+<li>A sandbox version of Volskaya Foundry has been added to Custom Games.
+<ul>
+<li>Much like Sandbox version of Cursed Hollow, this Battleground allows up to 10 players at once to use a variety of “cheats” to test the limits of their Heroes, and the Battleground.</li>
+<li>Sandbox Volskaya Foundry also features a “Triglav Protector” button, which allows a player to immediately spawn a Protector at their Hero’s location.</li>
+</ul></li>
+</ul>
+
+<p><strong>Vehicles</strong></p>
+
+<ul>
+<li>All vehicles, including the Dragon Knight, Garden Terror, and Triglav Protector are now Unstoppable.</li>
+</ul>
+
+<blockquote>
+  <p><span class="text-warning"><em><strong>Developer Comment:</strong></em> Prior to this patch, crowd control effects on
+  vehicles were reduced by 50%. Initially, displacement effects affecting
+  vehicles were not reduced at all. Over time, we’ve made the decision to make
+  some abilities unable to target vehicles. As our hero roster grew, so did the
+  amount of special rules associated with vehicle interactions. Instead of
+  continuing to maintain a list of special interactions, we’ve opted to simplify
+  the behavior and make vehicles Unstoppable. To compensate for the increased
+  vehicle strength, we’ve also looked at each vehicle’s balance numbers.</span></p>
+</blockquote>
+
+<p><strong>Ranked Battleground Rotation Update</strong></p>
+
+<ul>
+<li>Added to Rotation
+<ul>
+<li><strong>Volskaya Foundry</strong></li>
+<li>Haunted Mines</li>
+<li>Towers of Doom</li>
+<li>Warhead Junction</li>
+</ul></li>
+<li>Removed from Rotation
+<ul>
+<li>Blackheart’s Bay</li>
+<li>Braxis Holdout</li>
+<li>Sky Temple</li>
+</ul></li>
+<li>The full Ranked Battleground Rotation is now as follows:
+<ul>
+<li>Battlefield of Eternity</li>
+<li>Cursed Hollow</li>
+<li>Dragon Shire</li>
+<li>Haunted Mines</li>
+<li>Infernal Shrines</li>
+<li>Tomb of the Spider Queen</li>
+<li>Towers of Doom</li>
+<li>Volskaya Foundry</li>
+<li>Warhead Junction</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="ai">AI</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>AI Heroes will now perform more dynamic strategies.</li>
+<li>Many Heroes have received tactical AI improvements, including:
+<ul>
+<li>Anubarak</li>
+<li>Arthas</li>
+<li>Azmodan</li>
+<li>Brightwing</li>
+<li>The Butcher</li>
+<li>Falstad</li>
+<li>Illidan</li>
+<li>Kael’Thas</li>
+<li>Kerrigan</li>
+<li>E.T.C.</li>
+<li>Li Li</li>
+<li>The Lost Vikings</li>
+<li>Malfurion</li>
+<li>Muradin</li>
+<li>Nazeebo</li>
+<li>Raynor</li>
+<li>Stitches</li>
+<li>Sylvanas</li>
+<li>Thrall</li>
+<li>Uther</li>
+<li>Valla</li>
+<li>Xul</li>
+<li>Zul’jin</li>
+</ul></li>
+<li>Read our recent blog, “<a href="http://battle.net/heroes/blog/21033994">Under the Hood: AI</a>” for an in-depth look at these and upcoming AI improvements.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="sound">Sound</h3>
+
+<p><strong>Voice Lines</strong></p>
+
+<ul>
+<li>Voice lines that have been selected for use in players’ Loadouts have had their volume increased in-game.</li>
+<li>Now have a larger 3D falloff, increased sound exclusivity, and can interrupt other voice lines.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="user-interface">User Interface</h3>
+
+<p><strong>In-Game UI</strong></p>
+
+<ul>
+<li><strong>Banners</strong>
+<ul>
+<li>Banners that are placed after completing an objective, capturing Mercenaries, etc., will now display the name of the player who owns that Banner.</li>
+</ul></li>
+<li><strong>Healing Indicators</strong>
+<ul>
+<li>Increased and Decreased Healing indicators have been added and will now appear next to Heroes’ healthbars when they are affected by healing modifier effects, such as Ana’s Biotic Grenade.</li>
+</ul></li>
+<li><strong>Minimap</strong>
+<ul>
+<li>Hero icons on the Minimap now indicate which direction that Hero is facing.</li>
+</ul></li>
+</ul>
+
+<p><strong>Daily Quests</strong></p>
+
+<ul>
+<li>A new “Play 2 Games as an Overwatch Hero” Daily Quest has been added.</li>
+</ul>
+
+<p><strong>Social</strong></p>
+
+<ul>
+<li>Players under level 5 can no longer whisper non-friends using chat channel player lists.</li>
+<li>However, players under level 5 who receive a whisper from a non-friend can whisper that player back.</li>
+</ul>
+
+<p><strong>Collection</strong></p>
+
+<ul>
+<li>It should now be easier to differentiate between Owned and Unowned Items in your Collection.
+<ul>
+<li>Additionally, item prices are now always displayed on unowned items.</li>
+</ul></li>
+<li>Item backgrounds and borders have received visual improvements and rarity coloring to help players more easily distinguish between items of different rarities.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#specialist">Specialist</a></th>
+  <th><a href="#support">Support</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#chromie">Chromie</a></td>
+  <td><a href="#abathur">Abathur</a></td>
+  <td><a href="#brightwing">Brightwing</a></td>
+  <td><a href="#dehaka">Dehaka</a></td>
+</tr>
+<tr>
+  <td><a href="#falstad">Falstad</a></td>
+  <td></td>
+  <td><a href="#kharazim">Kharazim</a></td>
+  <td><a href="#johanna">Johanna</a></td>
+</tr>
+<tr>
+  <td><a href="#nova">Nova</a></td>
+  <td></td>
+  <td><a href="#rehgar">Rehgar</a></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="chromie">Chromie</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Time Trap (E)</strong>
+<ul>
+<li>Now has a unique minimap icon.</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="falstad">Falstad</h4>
+
+<p><strong>Miscellaneous</strong></p>
+
+<ul>
+<li>Flight (Z) will now go on a 10 second cooldown when interrupted by enemy or allied abilities, including self-cancelling.</li>
+<li>Flight (Z) now has an allied chat announcement upon activation. </li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="nova">Nova</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Holo Decoy (E)</strong>
+<ul>
+<li>Sight range increased from 6 to 12 (now matches Heroes)</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Remote Delivery (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Holo Stability (E)
+<ul>
+<li>New functionality:
+<ul>
+<li>Increases the cast range, sight range, and duration of Holo Decoy by 100%</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Anti-Armor Shells (Passive)
+<ul>
+<li>Added functionality:
+<ul>
+<li>Basic Attacks also decrease the physical Armor of your target by 10 for 3 seconds</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Psionic Efficiency (Q)
+<ul>
+<li>Range increase from 10 to 15%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We made a few changes to our resident Ghost -
+  mostly targeted at fixing some under-performing talents. Alongside that, we
+  figured that we may as well point Anti-Armor Shells, you know, into a
+  direction more befitting its name.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="abathur">Abathur</h4>
+
+<p><strong>Miscellaneous</strong></p>
+
+<ul>
+<li>Deep Tunnel (Z) will now go on a 10 second cooldown when interrupted by enemy or allied abilities, including self-cancelling.</li>
+<li>Deep Tunnel (Z) now has an allied chat announcement upon activation. </li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="brightwing">Brightwing</h4>
+
+<p><strong>Miscellaneous</strong></p>
+
+<ul>
+<li>Phase Shift (Z) will now go on a 10 second cooldown when interrupted by enemy or allied abilities.</li>
+<li>Phase Shift (Z) now has an allied chat announcement upon activation. </li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="kharazim">Kharazim</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Cooldown increased from 8 to 10 seconds</li>
+<li>Mana cost increased from 60 to 65</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Transcendence (Passive)
+<ul>
+<li>Healing increased from 73 to 96 per 3 Basic Attacks</li>
+</ul></li>
+<li>Insight (Passive)
+<ul>
+<li>Cooldown reduction increased from 1 to 1.5 seconds per 3 Basic Attacks</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Dash of Light (Q + W)
+<ul>
+<li>Increased bonus healing from 50% to 75% for dashing to an ally</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These changes are designed to increase the power of
+  Insight and Transcendence by shifting more of Kharazim's healing power pie
+  into them. We want to encourage the same active gameplay that Iron Fist
+  Kharazim's have, but increasing healing and utility instead of damage when the
+  other Talents are chosen.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="rehgar">Rehgar</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Chain Heal (Q)</strong>
+<ul>
+<li>Cast range reduced from 8 to 6</li>
+<li>Bounce range reduced from 8 to 7</li>
+<li>Primary target healing reduced from 334 to 250</li>
+<li>Secondary bounce healing increased from 167 to 250</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We'd like to make positioning for Rehgar's Chain
+  Heal matter more, so that we reward players and teams that can get the most of
+  it. To do this we're reducing the range and radius of the heal, while also
+  making the jumps a greater portion his overall healing.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="dehaka">Dehaka</h4>
+
+<p><strong>Miscellaneous</strong></p>
+
+<ul>
+<li>Brushstalker (Z) will now go on a 10 second cooldown when interrupted by enemy or allied abilities.</li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="johanna">Johanna</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Falling Sword (R)</strong>
+<ul>
+<li>Mana cost reduced from 100 to 90</li>
+<li>Damage reduced from 365 to 183</li>
+<li>Added functionality:
+<ul>
+<li>Now applies a 50% slow for 2.5 seconds after enemies are knocked into the air.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Laws of Hope (Active)
+<ul>
+<li>Moved from Level 4
+<ul>
+<li>Health Regeneration reduced from 10 &gt; 1.5</li>
+<li>Heal increased from 20% &gt; 30% Maximum Health</li>
+<li>Cooldown reduced from 60 &gt; 40 seconds</li>
+</ul></li>
+</ul></li>
+<li>Regeneration Master (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Righteous Smash (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Hold Your Ground (D)
+<ul>
+<li>Moved from Level 13</li>
+<li>No longer requires Iron Skin’s shield to be broken for the 4-second cooldown reduction</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Conviction (W)
+<ul>
+<li>Moved from Level 7</li>
+</ul></li>
+<li>Sins Exposed (E)
+<ul>
+<li>Moved from Level 7</li>
+<li>Damage increased from 68 &gt; 90</li>
+</ul></li>
+<li>Eternal Retaliation (W)
+<ul>
+<li>Cooldown reduction decreased from .75 seconds to .5 seconds </li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>The Crusade Marches On (D)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Zealous Glare (E)</strong>
+<ul>
+<li>Increases the Blind duration of Shield Glare by .5 seconds. Your auto-attacks against Blinded heroes increases their Blind duration by 1 second, up to a maximum of 3 seconds </li>
+</ul></li>
+<li>Subdue (Q)
+<ul>
+<li>Moved from Level 13
+<ul>
+<li>New functionality:
+<ul>
+<li>Hitting 2 enemy Heroes with Punish causes the slow to be increased to 80% and no longer decay.</li>
+<li>!Quest: Hit 4 enemy Heroes with a single cast of Punish. !Reward: Punish now always slows enemies by 80% and no longer decays.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Roar (Q)
+<ul>
+<li>Moved from Level 4</li>
+<li>Damage bonus reduced from 50% &gt; 25%</li>
+<li>Additional Functionality:
+<ul>
+<li>Punish deals 125% increased damage if it hits 2 or more enemy Heroes</li>
+</ul></li>
+</ul></li>
+<li>Burning Rage (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Blessed Hammer (Active)
+<ul>
+<li>Moved from Level 16
+<ul>
+<li>New Functionality: Activate to create 2 hammers that spiral around Johanna. Hitting enemy Heroes with Shield Glare reduces the cooldown of this ability by 8 seconds. 30-second cooldown</li>
+<li>Damage increased from 41 to 80</li>
+</ul></li>
+</ul></li>
+<li><strong>(New Talent) Holy Fury (W)</strong>
+<ul>
+<li>Deal damage to enemies around you. Each enemy Hero hit by Condemn increases the damage by 40% for 5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Fanaticism (D)
+<ul>
+<li>Additional Functionality: Now also increases the duration of Iron Skin by 2 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Heaven’s Fury (R)
+<ul>
+<li>Cooldown reduction increased from 2 to 3 seconds</li>
+</ul></li>
+<li>Indestructible (Passive)
+<ul>
+<li>Duration reduced from 5 to 4 seconds</li>
+</ul></li>
+<li>Storm Shield (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Blinded by the Light (Active)</strong>
+<ul>
+<li>Activate to grant nearby allies a shield equal to 25% of their maximum Health for 3 seconds. Hitting enemy Heroes with Shield Glare reduces this cooldown by 8 seconds. 60-second cooldown</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> To her credit, Johanna has not needed many changes
+  since she was first released into the Nexus. Her talent pick and win rates
+  have been fair compared to most heroes, and she has almost always had a place
+  in the meta. While she is not in dire need of changes, we saw an opportunity
+  to spruce up her talent tree and give her some more interesting options to
+  choose from on various tiers.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>Collection Adjustments</strong></p>
+
+<ul>
+<li><strong>Loot Chests</strong>
+<ul>
+<li>Loot Chests purchased via the Loot tab will now only grant Rare Loot Chests, rather than Normal Loot Chests.
+<ul>
+<li><strong>Please note:</strong> This only applies to Loot Chests purchased after this patch is applied to the live version of the game in each region. Normal Loot Chests the player already owns will not convert to Rare Loot Chests.</li>
+</ul></li>
+</ul></li>
+<li><strong>Rewards</strong>
+<ul>
+<li>The Celestial Steed Mount has been removed and replaced by the Celestial Raptor as a reward for purchasing Gems.</li>
+<li>The 1,000 Gem reward for reaching level 5 has been removed.
+<ul>
+<li>Please note: Veteran players who have not logged in following the release of Heroes 2.0 earlier this year will no longer be able to claim this reward once this patch is applied to the live version of the game in each region.</li>
+</ul></li>
+</ul></li>
+<li><strong>Bundles</strong>
+<ul>
+<li>The Welcome Bundle has been removed from the Collection.</li>
+</ul></li>
+</ul>
+
+<p><strong>New Bundles</strong> – The following new Bundles and Skin Packs are available for a limited time!</p>
+
+<ul>
+<li>Ana Heroic Bundle</li>
+<li>Shrike Skin Pack</li>
+<li>Armed and Ready Bundle</li>
+<li>Play of the Game Bundle</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Ana</strong>
+<ul>
+<li>Midnight Ana</li>
+<li>Burnished Ana</li>
+<li>Sunset Ana</li>
+<li>Twilight Ana</li>
+<li>Medic Ana</li>
+<li><strong>Shrike</strong>
+<ul>
+<li>Agent Shrike</li>
+<li>Aquamarine Shrike</li>
+<li>Rescue Shrike</li>
+<li>Stealth Shrike</li>
+</ul></li>
+</ul></li>
+<li><strong>Varian</strong>
+<ul>
+<li><strong>Commandant Varian</strong></li>
+<li>Grand Commandant Varian</li>
+<li>Recon Commandant Varian</li>
+<li>Stealth Commandant Varian</li>
+<li>Tundra Commandant Varian</li>
+</ul></li>
+<li><strong>Anub’arak</strong>
+<ul>
+<li>Deatholme Underking Anub’arak</li>
+</ul></li>
+<li><strong>Auriel</strong>
+<ul>
+<li>Kuroi Sakura Auriel</li>
+<li>Sora Sakura Auriel</li>
+</ul></li>
+<li><strong>Azmodan</strong>
+<ul>
+<li>Lucky Azmodunk</li>
+</ul></li>
+<li><strong>Cassia</strong>
+<ul>
+<li>Aranoch Warmatron Cassia</li>
+<li>Askari Warmatron Cassia</li>
+</ul></li>
+<li><strong>Dehaka</strong>
+<ul>
+<li>D.Haka</li>
+</ul></li>
+<li><strong>D.Va</strong>
+<ul>
+<li>Camo D.Va</li>
+<li>Global Pro D.Va</li>
+<li>Perfect Pro D.Va</li>
+<li>X-Treme D.Va</li>
+</ul></li>
+<li><strong>Lúcio</strong>
+<ul>
+<li>Prime Ribbit Lúcio</li>
+<li>Rosa Ribbit Lúcio</li>
+</ul></li>
+<li><strong>Nova</strong>
+<ul>
+<li>Moonlight Widowmaker Nova</li>
+</ul></li>
+<li><strong>Tracer</strong>
+<ul>
+<li>Hot Rod Turbo Tracer</li>
+</ul></li>
+<li><strong>Valeera</strong>
+<ul>
+<li>Emerald Bloodfang Valeera</li>
+<li>Moonstone Bloodfang Valeera</li>
+</ul></li>
+<li><strong>Zarya</strong>
+<ul>
+<li>Golden Cyberdemon Zarya</li>
+<li>Restored Cyberdemon Zarya</li>
+</ul></li>
+</ul>
+
+<p><strong>Mounts</strong></p>
+
+<ul>
+<li><strong>Illidan’s Nightmare</strong>
+<ul>
+<li>Wretched Illidan’s Nightmare</li>
+<li>Crimson Illidan’s Nightmare</li>
+</ul></li>
+<li>Invisible Horse</li>
+<li>Celestial Raptor – As mentioned above, this Mount is awarded upon purchasing Gems.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Zeratul:</strong> Zeratul’s mask will no longer stretch and bend oddly during Hero Select or in the Collection on low graphic settings.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Blackheart’s Bay:</strong> Fixed an issue that could allow Medivh and Falstad to enter and stand in certain areas inside the enemy Hall of Storms.</li>
+<li><strong>Haunted Mines:</strong> The right-side team’s top Keep can no longer hit enemy Heroes who path into the Gate.</li>
+<li><strong>Try Mode:</strong> The You Want Axe? Talent will now correctly grant bonus Basic Attack range after using the Complete Quest button.</li>
+<li><strong>Try Mode:</strong> Garrosh will no longer continue to benefit from the Warbreaker Talent after clicking Reset Talents.</li>
+<li><strong>Try Mode:</strong> Toggling off Minion spawns will no longer cause AI Heroes to wait at their Fort Gates indefinitely.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Alarak:</strong> Rite of Rak’shir will no longer be placed on a dead target if it was cast just as that target took fatal damage.</li>
+<li><span class="text-warning"><strong>Auriel:</strong> Fixed an issue causing the Energized Cord talent to grant slightly too much Hope with Auriel's Basic Attacks.</span></li>
+<li><strong>Diablo:</strong> Fixed an issue that could prevent Diablo from traveling with his Shadow Charge target if another Hero stood between Diablo and his target.</li>
+<li><strong>D.Va:</strong> Using Boosters to smash destructible barrels on Blackheart’s Bay will no longer place the Ability on full cooldown.</li>
+<li><strong>D.Va:</strong> Fixed an issue that could cause D.Va to inconsistently activate Healing Wells while using Boosters.</li>
+<li><strong>D.Va:</strong> Dying while casting Call Mech will no longer create an untargetable Mech that persists until D.Va respawns.</li>
+<li><strong>D.Va:</strong> Mech deaths that occur while no enemy Heroes are nearby will now correctly grant XP and update D.Va’s death count on the in-game score screen.</li>
+<li><strong>D.Va:</strong> A Nuke’s area of effect indicator will no longer disappear if D.Va finishes channeling Nuke in the same moment that her Mech is destroyed.</li>
+<li><strong>Garrosh:</strong> Wrecking Ball will no longer end Rehgar’s Ghost Wolf.</li>
+<li><strong>Garrosh:</strong> Using Body Check with the Brute Force Talent on a Boss no longer causes the Healing debuff icon to appear next its Health bar.</li>
+<li><strong>Garrosh:</strong> Bloodthirst will no longer cause Garrosh to automatically retarget his Basic Attacks to the closest enemy.</li>
+<li><strong>Garrosh:</strong> Into the Fray will no longer place targeting indicators on attacking Hydralisks on Braxis Holdout.</li>
+<li><strong>Genji:</strong> Fixed an issue that could prevent Fort attacks from Slowing Genji if he has Dodge charges remaining, and there is another Genji on the opposing team.</li>
+<li><strong>Genji:</strong> Fixed an issue that could cause Dodge to behave inconsistently against Sylvanas’ and Lunara’s Basic Attacks.</li>
+<li><span class="text-warning"><strong>Genji:</strong> Dragon Blade will no longer benefit from cooldown reduction abilities such as Innervate and Nano-boost.</span></li>
+<li><strong>Illidan:</strong> Abilities that can interrupt Dive, like Li-Ming’s Wave of Force, will no longer cause Illidan to become briefly unresponsive.</li>
+<li><strong>Jaina:</strong> Fixed an issue that prevented Jaina from casting Water Elemental if unpathable terrain existed between Jaina and the desired casting location.</li>
+<li><strong>Jaina:</strong> Fixed a typo in the Icy Veins tooltip which incorrectly stated that the Talent provided a 300% cooldown recharge rate , rather than 200%. This only affected the tooltip, and the Talent's functionality has not changed.</li>
+<li><strong>Johanna:</strong> Abilities that block pathing, such as Sonya’s Arreat Crater and Tassadar’s Force Wall, will no longer block Johanna’s movement during Falling Sword.</li>
+<li><strong>Leoric:</strong> Fixed an issue that could prevent the Mithril Mace Talent from granting bonus Attack Speed for Minion and Hero kills.</li>
+<li><strong>Leoric:</strong> Percentage damage dealt by the Spectral Leech Talent will now properly count as Ability damage rather than Basic Attack damage.</li>
+<li><strong>Probius:</strong> Floating Combat Text will now indicate the amount of Shields granted to Probius by a Pylon after learning Shield Battery, rather than displaying zero for each tick.</li>
+<li><strong>Stukov:</strong> Abilities that move Heroes, like Alarak’s Telekinesis and Stiches’ Hook, no longer remove Weighted Pustule from the affected Hero.</li>
+<li><strong>Sylvanas:</strong> Withering Fire can no longer target destructible barrels on Blackheart’s Bay.</li>
+<li><strong>The Lost Vikings:</strong> Can no longer clip into Gates on Braxis Holdout during the pre-game countdown.</li>
+<li><strong>The Lost Vikings:</strong> Casting Longboat Raid immediately after one of the Vikings is killed will no longer prevent the player from using Mortar during the Heroic Ability’s duration.</li>
+<li><strong>Tychus:</strong> The That’s the Stuff! Talent’s Heal indicator will no longer disappear if Tychus stops attacking before Minigun expires.</li>
+<li><strong>Tyrande:</strong> Sentinel can no longer leave the starting zone during the pre-game countdown.</li>
+<li><strong>Valla:</strong> Enemy Heroes who were broken out of Stealth by Hungering Arrow can now correctly be hit by subsequent Hungering Arrow strikes.</li>
+<li><strong>Valla:</strong> Caltrops dropped by the Vault Talent will no longer display Health bars, and are no longer selectable.</li>
+<li><strong>Zagara:</strong> Creep Tumors no longer exhibit a short delay before granting vision of the area affected by Creep.</li>
+</ul>
+
+<p><strong>Sound</strong></p>
+
+<ul>
+<li><strong>Li-Ming:</strong> Templar Li-Ming will now correctly play death sounds when killed.</li>
+<li><strong>Valeera:</strong> Enemy Heroes will no longer hear when Valeera primes her activated Talents, like Crippling Poison, when she is Stealthed.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li><strong>Hotkeys:</strong> The Dragon Knight and Garden Terror will now correctly follow Force Move commands.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2017-09-20 Balance Update</title>
     <published>2017-09-18T21:52:00.000Z</published>
@@ -13452,32 +14397,6 @@ within the East China Sea.</p>
 <li><strong>Collection:</strong> The Collection screen will no longer appear cut off when screen resolution is set to 1280x1024 or 1152x864.</li>
 <li><strong>Collection:</strong> Hovering the cursor over a truncated item name in the Collection will now correctly display a tooltip that states the item’s full name.</li>
 <li><strong>Emojis:</strong> Emojis whispered between Heroes of the Storm players will now display their shortcodes when the whisper is viewed in the Blizzard Launcher’s chat window.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-05-04 Hotfix Patch</title>
-    <published>2017-05-04T23:59:00.000Z</published>
-    <updated>2017-05-04T23:59:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-05-04-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-05-04-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-may-4-2017">Heroes of the Storm Hotfix Notes — May 4, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485045593/officialpatchlogo.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/" target="_blank">Official Patch Notes</a> <small>v 2.25.2</small></div>
-
-<p>We just released a new patch for Heroes of the Storm in order to apply a 
-bug fix.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li><strong>Gems:</strong> Fixed an issue causing the Gem purchase page to display an incorrect value.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
