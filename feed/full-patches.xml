@@ -41,11 +41,12 @@ changes, and more to the Nexus!</p>
 <ul>
 <li>Pachimari Mania is a four-part quest chain. All quests must be completed in order, and only one quest will be active at a time.
 <ul>
-<li><strong>Part 1:</strong> Find 2 Golden Pachimaris to earn a set of Pachimari in-game Emojis</li>
-<li><strong>Part 2:</strong> Find 5 Golden Pachimaris to earn a Pachimari-themed Banner</li>
-<li><strong>Part 3:</strong> Finding 8 Golden Pachimaris will unlock the Golden Pachimari spray</li>
-<li><strong>Part 4:</strong> Finding 10 Golden Pachimaris will unlock the Pachimari Portrait</li>
+<li><strong>Part 1:</strong> Finding 2 Golden Pachimaris will unlock the Pachimari Portrait</li>
+<li><strong>Part 2:</strong> Finding 5 Golden Pachimaris will unlock the Golden Pachimari spray</li>
+<li><strong>Part 3:</strong> Find 8 Golden Pachimaris to earn a Pachimari-themed Banner</li>
+<li><strong>Part 4:</strong> Find 10 Golden Pachimaris to earn a set of Pachimari in-game Emojis</li>
 </ul></li>
+<li>Find Golden Pachimaris to earn your rewards until the event ends on <strong>October 17 PDT!</strong></li>
 </ul></li>
 </ul>
 
@@ -217,6 +218,11 @@ the fight.</p>
 
 <ul>
 <li>All vehicles, including the Dragon Knight, Garden Terror, and Triglav Protector are now Unstoppable.</li>
+<li><span class="text-warning"><strong>Dragon Knight</strong></span>
+<ul>
+<li><span class="text-warning">​Movement Speed reduced by 20%</span></li>
+<li><span class="text-warning">Starting Health reduced from 9300 to 8350</span></li>
+</ul></li>
 </ul>
 
 <blockquote>
@@ -449,7 +455,7 @@ the fight.</p>
 <ul>
 <li>New functionality:
 <ul>
-<li>Increases the cast range, sight range, and duration of Holo Decoy by 100%</li>
+<li>Increases the cast range and duration of Holo Decoy by 100%</li>
 </ul></li>
 </ul></li>
 </ul></li>
