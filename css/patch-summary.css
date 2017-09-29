@@ -222,6 +222,10 @@ div.panel-heading>h3>a>i.fa-external-link {
   color: #18bc9c;
 }
 
+.panel-heading>h3>a.permalink {
+  color: #95a5a6;
+}
+
 @media (min-width: 360px) {
   .medium-hero-one { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-one-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-two { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-two-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
