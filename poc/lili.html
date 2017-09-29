@@ -54,6 +54,15 @@
       .dev-comments:hover { text-decoration: none; }
 
       .row>div>ul>li>p { margin-bottom: 0; }
+
+      .right-to-left li { float: right; text-align: center; }
+      .abil-img-header { display: inline-block; position: relative; }
+      .abil-img-header>img { height: 40px; width: 40px; }
+      .letter-overlay-header { position: absolute; width: 18px; height: 18px; line-height: 18px; bottom: 0; right: 0; border-radius: 6px; background: rgba(0, 0, 0, 0.5); text-align: center; font-size: 12px; font-weight: bold; color: #ffffff; }
+
+      a.permalink {
+  color: #95a5a6;
+}
     </style>
   </head>
   <body>
@@ -106,48 +115,72 @@
           </h2>
         </div>
       </div>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Stats</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-9"><ul>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="nav nav-tabs right-to-left">
+            <li class="active">
+              <a href="#by-ability" data-toggle="tab" aria-expanded="true">
+                <div class="abil-img-header">
+                  <img src="images/storm_ui_icon_lili_healingbrew.png" class="img-rounded">
+                  <span class="letter-overlay-header">Q</span>
+                </div>
+                <span>by Ability</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#by-date" data-toggle="tab" aria-expanded="false">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-clock-o fa-stack-1x fa-inverse fa-flip-horizontal"></i>
+                </span>
+                <span>by Date</span>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="by-ability">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Stats</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li><strong>Basic Attack</strong>
 <ul>
 <li>Starting damage increased from 20 to 25</li>
 </ul></li>
 </ul>
-</div>
-              <div class="col-lg-3">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_lili_healingbrew.png" class="img-rounded" />
-            <span class="letter-overlay">Q</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Healing Brew</h3>
-            <div class="mana-cd">Mana: 30</div>
-            <div class="mana-cd">Cooldown: 3</div>
-          </div>
-          <p class="text-muted">Heal lowest Health ally (prioritizing Heroes) for 196 (+4% per level) Health.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
-                <a class="dev-comments" href="#LiLi2016-05-17-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2016-05-17-Q1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_lili_healingbrew.png" class="img-rounded" />
+                    <span class="letter-overlay">Q</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Healing Brew</h3>
+                    <div class="mana-cd">Mana: 30</div>
+                    <div class="mana-cd">Cooldown: 3</div>
+                  </div>
+                  <p class="text-muted">Heal lowest Health ally (prioritizing Heroes) for 196 (+4% per level) Health.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
+                        <a class="dev-comments" href="#LiLi2016-05-17-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2016-05-17-Q1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> While one of the core components of Li Li's design
   has been that she does not target her Abilities, we were not happy with Herbal
   Cleanse and its odd usability. In addition to some other minor Talent
@@ -155,27 +188,27 @@
   other Supports in this area.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Herbal Cleanse (Talent) removed.</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-03-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-03-24</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-03-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-03-24</a>
+                        <ul>
 <li>Will no longer heal Abathur's Ultimate Evolution Clones or Nova's Holo Decoys</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li><strong>New Talent (Level 1): Pro Toss</strong>
 <ul>
 <li>Increases Healing Brew's range by 30%</li>
@@ -201,33 +234,33 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-12-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-12-02</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-12-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-12-02</a>
+                        <ul>
 <li>Initial heal decreased from 100 to 70</li>
 <li>Heal scaling increased from 13 to 20</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-10-07-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-10-07</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-10-07-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-10-07</a>
+                        <ul>
 <li>No longer provides allies with Mana regeneration</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
+                        <ul>
 <li>First Sip (Talent) has been removed.</li>
 <li>Two For One (Talent)
 <ul>
@@ -236,53 +269,53 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
+                        <ul>
 <li>Mana cost increased from <strong>25</strong> to <strong>30</strong></li>
 <li>Mana restoration scaling removed</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
+                        <ul>
 <li>Can now heal Li Li if she is the lowest health target (does not return mana)</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="img-rounded" />
-            <span class="letter-overlay">W</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Cloud Serpent</h3>
-            <div class="mana-cd">Mana: 30</div>
-            <div class="mana-cd">Cooldown: 10</div>
-          </div>
-          <p class="text-muted">Summon a Cloud Serpent on an allied Hero that attacks nearby enemies for 25 (+4% per level) damage per attack. Lasts for 8 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
-                <a class="dev-comments" href="#LiLi2017-05-10-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2017-05-10-W1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_lili_cloudserpent.png" class="img-rounded" />
+                    <span class="letter-overlay">W</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Cloud Serpent</h3>
+                    <div class="mana-cd">Mana: 30</div>
+                    <div class="mana-cd">Cooldown: 10</div>
+                  </div>
+                  <p class="text-muted">Summon a Cloud Serpent on an allied Hero that attacks nearby enemies for 25 (+4% per level) damage per attack. Lasts for 8 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
+                        <a class="dev-comments" href="#LiLi2017-05-10-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2017-05-10-W1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> While we're happy that we're seeing more Lili due
   to her recent buffs, they have gone a bit far in making the hero too powerful,
   particularly in double-support compositions. We're reverting part of her
@@ -290,31 +323,31 @@
   not putting out quite as much damage in games.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Damage reduced from 29 to 25</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 7</strong>
-                    <ul>
-                      <li>
-                        Lightning Serpent (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 7</strong>
+                            <ul>
+                              <li>
+                                Lightning Serpent (Talent)
+                                <ul>
 <li>Damage reduced from 15 to 14</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li>Cloud Serpent functionality has changed.
 <ul>
 <li>Cloud Serpent now automatically attacks nearby enemies. Only 1 Cloud Serpent can be active on a Hero at a time.</li>
@@ -338,12 +371,12 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
+                        <ul>
 <li>Bringer of Gifts (Talents)
 <ul>
 <li>Moved from Level 4 to Level 7</li>
@@ -351,12 +384,12 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
+                        <ul>
 <li>Base damage decreased from <strong>20</strong> to <strong>15</strong></li>
 <li>Damage gained per level increased from <strong>3</strong> to <strong>4</strong></li>
 <li>Lightning Serpent (Talent)
@@ -367,12 +400,12 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
+                        <ul>
 <li>Cast time has been reduced from .5 to .25 seconds</li>
 <li>Mana cost reduced from 65 to 40</li>
 <li>Cooldown reduced from 16 to 8 seconds</li>
@@ -385,32 +418,32 @@
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_lili_blindingwind.png" class="img-rounded" />
-            <span class="letter-overlay">E</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Blinding Wind</h3>
-            <div class="mana-cd">Mana: 35</div>
-            <div class="mana-cd">Cooldown: 9</div>
-          </div>
-          <p class="text-muted">Throw a cloud of Blinding Wind at the 2 nearest enemies (prioritizing Heroes), dealing 140 (+4% per level) damage. Affected targets miss all Basic Attacks for the next 2 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
-                <a class="dev-comments" href="#LiLi2017-05-10-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2017-05-10-E1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_lili_blindingwind.png" class="img-rounded" />
+                    <span class="letter-overlay">E</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Blinding Wind</h3>
+                    <div class="mana-cd">Mana: 35</div>
+                    <div class="mana-cd">Cooldown: 9</div>
+                  </div>
+                  <p class="text-muted">Throw a cloud of Blinding Wind at the 2 nearest enemies (prioritizing Heroes), dealing 140 (+4% per level) damage. Affected targets miss all Basic Attacks for the next 2 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
+                        <a class="dev-comments" href="#LiLi2017-05-10-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2017-05-10-E1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> While we're happy that we're seeing more Lili due
   to her recent buffs, they have gone a bit far in making the hero too powerful,
   particularly in double-support compositions. We're reverting part of her
@@ -418,52 +451,52 @@
   not putting out quite as much damage in games.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Cooldown increased from 8 to 9 seconds</li>
 <li>Mana cost increased from 30 to 35</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Gale Force (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Gale Force (Talent)
+                                <ul>
 <li>Damage bonus reduced from 50 to 40%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-04-20-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-04-20</a>
-                <a class="dev-comments" href="#LiLi2017-04-20-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2017-04-20-E1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-04-20-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-04-20</a>
+                        <a class="dev-comments" href="#LiLi2017-04-20-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2017-04-20-E1" class="collapse"><blockquote>
 <p><em><strong>Developer Comment:</strong></em> Adventures are hard to have when you keep getting
   bogged down by pesky Basic Attackers. She is too mild-mannered to demand
   buffs, so Chen sat us down, handed us some brew and talked us into helping her
   out a bit.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Cooldown decreased from 10 to 8 seconds</li>
 <li>Mana cost reduced from 40 to 30</li>
 <li>Damage increased from 132 to 140</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-06-30-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-06-30</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-06-30-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-06-30</a>
+                        <ul>
 <li>Affected targets now miss all Basic Attacks throughout Blinding Wind's duration.</li>
 <li>Duration reduced from 4 to 2 seconds</li>
 <li>Lingering Blind (Talent)
@@ -473,12 +506,12 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li>Number of Basic Attacks missed increased from 1 to 2</li>
 <li>Cost decreased from 50 to 40 Mana</li>
 <li>Starting damage decreased from 50 to 30</li>
@@ -499,73 +532,73 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
+                        <ul>
 <li>Cooldown reduced from <strong>12</strong> to <strong>10 seconds</strong></li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
+                        <ul>
 <li>Cast time removed</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="img-rounded" />
-            <span class="letter-overlay">R</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Jug of 1,000 Cups</h3>
-            <div class="mana-cd">Mana: 100</div>
-            <div class="mana-cd">Cooldown: 70</div>
-          </div>
-          <p class="text-muted">Rapidly tosses brew to the most injured nearby allies within 10 range, restoring 1632 (+4% per level) Health over 6 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-03-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-03-24</a>
-                <ul>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="img-rounded" />
+                    <span class="letter-overlay">R</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Jug of 1,000 Cups</h3>
+                    <div class="mana-cd">Mana: 100</div>
+                    <div class="mana-cd">Cooldown: 70</div>
+                  </div>
+                  <p class="text-muted">Rapidly tosses brew to the most injured nearby allies within 10 range, restoring 1632 (+4% per level) Health over 6 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-03-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-03-24</a>
+                        <ul>
 <li>Will no longer heal Abathur's Ultimate Evolution Clones or Nova's Holo Decoys</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li>Cooldown increased from 60 to 70 seconds</li>
 <li>Initial heal amount decreased from 35 to 20</li>
 <li>Scaling heal increased from 4 to 6.5</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-12-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-12-02</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-12-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-12-02</a>
+                        <ul>
 <li>Cooldown decreased from 70 to 60 seconds</li>
 <li>Heal scaling increased from 3 to 4</li>
 <li>Initial heal increased from 25 to 35</li>
@@ -573,44 +606,44 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
+                        <ul>
 <li>Cooldown increased from <strong>50</strong> to <strong>70 seconds</strong></li>
 <li>Healing gained per level reduced from <strong>96</strong> to <strong>72</strong></li>
 <li>Mana restoration scaling has been removed</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_lili_waterdragon.png" class="img-rounded" />
-            <span class="letter-overlay">R</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Water Dragon</h3>
-            <div class="mana-cd">Mana: 50</div>
-            <div class="mana-cd">Cooldown: 45</div>
-          </div>
-          <p class="text-muted">Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 318 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-04-12-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-04-12</a>
-                <a class="dev-comments" href="#LiLi2016-04-12-R2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2016-04-12-R2" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_lili_waterdragon.png" class="img-rounded" />
+                    <span class="letter-overlay">R</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Water Dragon</h3>
+                    <div class="mana-cd">Mana: 50</div>
+                    <div class="mana-cd">Cooldown: 45</div>
+                  </div>
+                  <p class="text-muted">Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 318 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-04-12-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-04-12</a>
+                        <a class="dev-comments" href="#LiLi2016-04-12-R2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2016-04-12-R2" class="collapse"><blockquote>
 <p><strong><em>Developer Comments:</em></strong> We want to make some basic improvements to a lot
   of the lesser-picked/lower win-rate Heroic Abilities. Most of these are pretty
   simple changes to make them more enticing, like adding more damage, reducing
@@ -624,30 +657,30 @@
   stun duration.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Damage increased from 192 (+4% per level) to 318 (+4% per level).</li>
 <li>Mana cost decreased from 100 to 50.</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li>Starting damage increased from 130 to 200</li>
 <li>Scaling damage increased from 13 to 20</li>
 <li>Slow amount increased from 40% to 70%</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
+                        <ul>
 <li>Now slows targets hit by 40% for 3 seconds</li>
 <li>Search radius increased from 9 to 12</li>
 <li>Base damage reduced from 310 to 260</li>
@@ -655,52 +688,52 @@
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_lili_fastfeet.png" class="img-rounded" />
-            <span class="letter-overlay">D</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Fast Feet</h3>
-            <div class="mana-cd">Mana: None</div>
-            <div class="mana-cd">Cooldown: None</div>
-          </div>
-          <p class="text-muted">Upon taking damage, gain 10% Movement Speed for 1 second.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_lili_fastfeet.png" class="img-rounded" />
+                    <span class="letter-overlay">D</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Fast Feet</h3>
+                    <div class="mana-cd">Mana: None</div>
+                    <div class="mana-cd">Cooldown: None</div>
+                  </div>
+                  <p class="text-muted">Upon taking damage, gain 10% Movement Speed for 1 second.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
 
-                <ul>
-                  <li>
-                    <strong>Level 13</strong>
-                    <ul>
-                      <li>
-                        Elusive Feet (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 13</strong>
+                            <ul>
+                              <li>
+                                Elusive Feet (Talent)
+                                <ul>
 <li>Now displays a button on the hotbar showing the cooldown</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
-                <a class="dev-comments" href="#LiLi2016-05-17-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2016-05-17-D1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
+                        <a class="dev-comments" href="#LiLi2016-05-17-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2016-05-17-D1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> While one of the core components of Li Li's design
   has been that she does not target her Abilities, we were not happy with Herbal
   Cleanse and its odd usability. In addition to some other minor Talent
@@ -708,7 +741,7 @@
   other Supports in this area.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Safety Sprint (Talent)
 <ul>
 <li>Now provides the Movement Speed bonus regardless of Li Li's remaining Health.</li>
@@ -716,12 +749,12 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-03-29-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-03-29</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-03-29-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-03-29</a>
+                        <ul>
 <li>Elusive Feet (Talent)
 <ul>
 <li>Damage reduction amount increased from 50% to 75%</li>
@@ -729,30 +762,30 @@
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-06-30-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-06-30</a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-06-30-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-06-30</a>
 
-                <ul>
-                  <li>
-                    <strong>Level 20</strong>
-                <ul>
+                        <ul>
+                          <li>
+                            <strong>Level 20</strong>
+                        <ul>
 <li>Kung Fu Hustle (Talent)
 <ul>
 <li>Cooldown reduction lowered from 200% to 150%</li>
 </ul></li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li>Movement speed bonus decreased from 15% to 10%</li>
 <li><strong>New Talent (Level 7): Shake It Off</strong>
 <ul>
@@ -765,46 +798,46 @@
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 20</strong>
-                <ul>
+                        <ul>
+                          <li>
+                            <strong>Level 20</strong>
+                        <ul>
 <li><strong>New Talent (Level 20): Kung Fu Hustle</strong>
 <ul>
 <li>Abilities recharge 3 times as fast when Fast Feet is active.</li>
 </ul></li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
-                <ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
+                        <ul>
 <li>Movement Speed bonus reduced from <strong>20%</strong> to <strong>15%</strong></li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Passive &amp; Active Talents</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <h4>Level 1</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
-                <a class="dev-comments" href="#ConjurersPursuit2016-05-17-lvl1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="ConjurersPursuit2016-05-17-lvl1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Passive &amp; Active Talents</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <h4>Level 1</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
+                        <a class="dev-comments" href="#ConjurersPursuit2016-05-17-lvl1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="ConjurersPursuit2016-05-17-lvl1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We've added a completion point to this Talent.
   Upon completing its quest, players will be provided with some additional
   power. This allows us to offer spikes of power in-between Talent levels, or
@@ -815,9 +848,9 @@
   pushes this Talent to closer align with that goal.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                    <p><strong>Conjurer's Pursuit</strong></p>
+                        <ul>
+                          <li>
+                            <p><strong>Conjurer's Pursuit</strong></p>
 <ul>
 <li>A reward has been added to this Questing Talent.
 <ul>
@@ -826,55 +859,55 @@
 </ul></li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-06-30-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-06-30</a>
-                <ul>
-                  <li>
-                    <p><strong>Conjurer's Pursuit</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-06-30-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-06-30</a>
+                        <ul>
+                          <li>
+                            <p><strong>Conjurer's Pursuit</strong></p>
 <ul>
 <li>Initial +0.5 Mana Regeneration removed </li>
 <li>Each Health Globe now grants +0.1 Mana Regeneration</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-12-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-12-02</a>
-                <ul>
-                  <li>
-                    <p><strong>Conjurer's Pursuit</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-12-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-12-02</a>
+                        <ul>
+                          <li>
+                            <p><strong>Conjurer's Pursuit</strong></p>
 <ul>
 <li>Now also increases Mana regeneration by 0.5 per second in addition to its other effects</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
-                <ul>
-                  <li>
-                    <p><strong>New Talent (Level 1): Conjurer's Pursuit</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
+                        <ul>
+                          <li>
+                            <p><strong>New Talent (Level 1): Conjurer's Pursuit</strong></p>
 <ul>
 <li>Gather 3 Regeneration Globes to permanently gain +0.25 Mana Regeneration. </li>
 <li>This effect stacks.</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <p><strong>With the addition of Artifacts, the following generic Talents have been removed:</strong></p>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                            <p><strong>With the addition of Artifacts, the following generic Talents have been removed:</strong></p>
 <ul>
 <li>Minion Killer </li>
 <li>Path of the Assassin </li>
@@ -882,116 +915,116 @@
 <li>Path of the Wizard</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
-                <ul>
-                  <li>
-                    <p><strong>Path of the Wizard</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
+                        <ul>
+                          <li>
+                            <p><strong>Path of the Wizard</strong></p>
 <ul>
 <li>Mana regeneration per level decreased from 0.2 to 0.1.</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <h4>Level 4</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-05-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-05-12</a>
-                <ul>
-                  <li>
-                    <p><strong>Healing Ward</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h4>Level 4</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-05-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-05-12</a>
+                        <ul>
+                          <li>
+                            <p><strong>Healing Ward</strong></p>
 <ul>
 <li>Can now be struck by Area of Effect Abilities </li>
 <li>Healing Wards now have 50 (+15 per level) Health</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-03-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-03-24</a>
-                <ul>
-                  <li>
-                    <p><strong>Healing Ward</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-03-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-03-24</a>
+                        <ul>
+                          <li>
+                            <p><strong>Healing Ward</strong></p>
 <ul>
 <li>Duration increased from 10 to 15 seconds </li>
 <li>Heal amount reduced from 3% to 2% of max Health per second</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li>Envenom (Talent) removed</li>
 </ul>
 
-                <ul>
+                        <ul>
 <li>Protective Shield (Talent) removed</li>
 </ul>
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-10-07-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-10-07</a>
-                <ul>
-                  <li>
-                    <p><strong>Protective Shield</strong></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-10-07-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-10-07</a>
+                        <ul>
+                          <li>
+                            <p><strong>Protective Shield</strong></p>
 <ul>
 <li>Shield value changed from <strong>300 (+30 per level)</strong> to <strong>185 (+35 per level)</strong></li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-09-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-09-10</a>
-                <ul>
-                  <li>
-                    <p><strong>Healing Ward</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-09-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-09-10</a>
+                        <ul>
+                          <li>
+                            <p><strong>Healing Ward</strong></p>
 <ul>
 <li>Heal amount increased from <strong>2%</strong> to <strong>3%</strong> per tick</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
-                <ul>
-                  <li>
-                    <p><strong>Healing Ward</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-07-23-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-07-23</a>
+                        <ul>
+                          <li>
+                            <p><strong>Healing Ward</strong></p>
 <ul>
 <li>Has been moved from Level 1 to Level 4</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <h4>Level 7</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
-                <a class="dev-comments" href="#LiLi2016-05-17-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2016-05-17-lvl7" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h4>Level 7</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
+                        <a class="dev-comments" href="#LiLi2016-05-17-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2016-05-17-lvl7" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> While one of the core components of Li Li's design
   has been that she does not target her Abilities, we were not happy with Herbal
   Cleanse and its odd usability. In addition to some other minor Talent
@@ -999,48 +1032,48 @@
   other Supports in this area.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Cleanse (Talent) added at Level 7</li>
 </ul>
 
-              </div>
-            </div>
-            <h4>Level 16</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
-                <ul>
-                  <li>
-                      Shake It Off (Passive)
-                      <ul>
+                      </div>
+                    </div>
+                    <h4>Level 16</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
+                        <ul>
+                          <li>
+                              Shake It Off (Passive)
+                              <ul>
 <li>Now displays a button on the hotbar showing the cooldown</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-27-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-27</a>
-                <ul>
-                  <li>
-                      Shake It Off (Passive)
-                      <ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-27-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-27</a>
+                        <ul>
+                          <li>
+                              Shake It Off (Passive)
+                              <ul>
 <li>No longer has a cooldown</li>
 <li>Resistant amount increased from 25 to 50%</li>
 <li>Resistant duration increased from 3 to 4 seconds</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-13</a>
-                <a class="dev-comments" href="#LiLi2016-09-13-lvl16" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2016-09-13-lvl16" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-13</a>
+                        <a class="dev-comments" href="#LiLi2016-09-13-lvl16" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2016-09-13-lvl16" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We're removing the majority of our old Relentless-
   like Talents from the game, because we found that it wasn't clear to the enemy
   team what was happening. Reducing the duration on very short disabling effects
@@ -1050,25 +1083,25 @@
   Hero.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                      Shake It Off (Passive)
-                      <ul>
+                        <ul>
+                          <li>
+                              Shake It Off (Passive)
+                              <ul>
 <li>New functionality:
 <ul>
 <li>Stuns and Roots against Li Li grant Resistant, reducing all damage taken by 25% for 3 seconds. Cannot occur more than once every 10 seconds.</li>
 </ul></li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
-                <a class="dev-comments" href="#LiLi2016-05-17-lvl16" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="LiLi2016-05-17-lvl16" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
+                        <a class="dev-comments" href="#LiLi2016-05-17-lvl16" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="LiLi2016-05-17-lvl16" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> While one of the core components of Li Li's design
   has been that she does not target her Abilities, we were not happy with Herbal
   Cleanse and its odd usability. In addition to some other minor Talent
@@ -1076,44 +1109,44 @@
   other Supports in this area.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Shake It Off (Talent) moved from Level 7 to Level 16.
 <ul>
 <li>Cooldown reduced from 15 to 10 seconds.</li>
 </ul></li>
 </ul>
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        <ul>
 <li>Stoneskin (Talent) removed</li>
 </ul>
 
-              </div>
-            </div>
-            <h4>Level 20</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-06-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-06-13</a>
-                <ul>
-                  <li>
-                      Bolt of the Storm (Active)
-                      <ul>
+                      </div>
+                    </div>
+                    <h4>Level 20</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-06-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-06-13</a>
+                        <ul>
+                          <li>
+                              Bolt of the Storm (Active)
+                              <ul>
 <li>Removed</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-08-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-08-18</a>
-                <a class="dev-comments" href="#BoltoftheStorm2015-08-18-lvl20" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="BoltoftheStorm2015-08-18-lvl20" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-08-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-08-18</a>
+                        <a class="dev-comments" href="#BoltoftheStorm2015-08-18-lvl20" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="BoltoftheStorm2015-08-18-lvl20" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We love this talent and think it can create a lot
   of really interesting moments, but the cooldown was just too short. At 70
   seconds we think this talent is still a great level 20 pick, but now players
@@ -1123,171 +1156,980 @@
   upgrades instead of Bolt when the situation calls for it.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                    <p><strong>Bolt of the Storm</strong></p>
+                        <ul>
+                          <li>
+                            <p><strong>Bolt of the Storm</strong></p>
 <ul>
 <li>Cooldown increased from 40 to 70 seconds</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-09-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-09-10</a>
-                <ul>
-                  <li>
-                    <p><strong>Storm Shield</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-09-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-09-10</a>
+                        <ul>
+                          <li>
+                            <p><strong>Storm Shield</strong></p>
 <ul>
 <li>Target search radius increased from <strong>5</strong> to <strong>8</strong></li>
 </ul>
 
-                  </li>
-                </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Bug Fixes</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-                <div class="col-lg-9"><ul>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Bug Fixes</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Damage Reduction:</strong> When two damage reduction effects, such as Resistant (25%) and Hardened Shield (75%), are simultaneously applied to a Hero, the larger effect will no longer be overridden by the lesser effect.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-10-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-10-18</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-10-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-10-18</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Li Li:</strong> The Shake it Off Talent will no longer reduce the duration of the Garden Terror's Queen's Curse Ability.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-13</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-13</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Self-casting Cloud Serpent as Li Li after learning the Mending Serpent Talent will no longer cause duplicate Healing combat text to appear.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-05-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-05-17</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Sylvanas' Mind Control will now properly cancel Abilities that are being channeled by the target, such as E.T.C.'s Mosh Pit and Li Li's Jug of 1,000 Cups.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-04-19-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-04-19</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-04-19-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-04-19</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Gall will no longer count as a secondary target for Li Li's Healing Brew with the Two for One Talent.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-03-29-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-03-29</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-03-29-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-03-29</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Li Li's Cloud Serpent will now attack at the proper speed whether Li Li is moving or standing still.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-08-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-08-18</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-08-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-08-18</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Fixed an issue in which Shrink Ray could fail to apply its 50% damage reduction if the target had already begun casting an Ability prior to coming under Shrink Ray's effects.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-02-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-02-10</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-02-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-02-10</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Li Li's Cloud Serpent will now attack mounted Heroes.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Li Li's Timeless Creature Talent no longer allows two Cloud Serpents to be present simultaneously on the same target.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Bolt of the Storm and Zeratul's Blink can no longer be cast while rooted.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-01-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-01-13</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Heroes are no longer automatically dismounted when attempting to cast Envenom on a target that is out of range.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-09-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-09-10</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-09-10-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-09-10</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Li Li's Healing Brew will no longer target or heal Tyrael in his Archangel's Wrath form.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Li Li's Jug of 1,000 Cups Heroic Ability will no longer target or heal Tyrael in his Archangel's Wrath form.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-06-25-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-06-25</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Li Li's Timeless Creature Talent now correctly increases the duration of Cloud Serpent when it is cast on allied heroes.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2014-05-22-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2014-05-22</a>
+                        </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <hr>
+            </div>
+            <div class="tab-pane fade" id="by-date">
+              <div id="patch2017-06-13" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-06-13 Patch Notes <small class="hidden-xs">v 2.26.0</small> <a class="permalink hidden-xs" href="#patch2017-06-13" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20838723" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li>Bolt of the Storm (Active)
+<ul>
+<li>Removed  </li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-05-10" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-05-10 Balance Update <small class="hidden-xs">v 2.25.3</small> <a class="permalink hidden-xs" href="#patch2017-05-10" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20720245" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Cloud Serpent (W)</strong>
+<ul>
+<li>Damage reduced from 29 to 25</li>
+</ul></li>
+<li><strong>Blinding Wind (E)</strong>
+<ul>
+<li>Cooldown increased from 8 to 9 seconds</li>
+<li>Mana cost increased from 30 to 35</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Gale Force (E)
+<ul>
+<li>Damage bonus reduced from 50 to 40%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Lightning Serpent (W)
+<ul>
+<li>Damage reduced from 15 to 14</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> While we’re happy that we’re seeing more Lili due
+  to her recent buffs, they have gone a bit far in making the hero too powerful,
+  particularly in double-support compositions. We’re reverting part of her
+  Blinding Wind buff, and reducing the power of her Cloud Serpent so that she is
+  not putting out quite as much damage in games.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-04-20" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-04-20 Balance Update <small class="hidden-xs">v 24.6</small> <a class="permalink hidden-xs" href="#patch2017-04-20" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20696243" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Blinding Wind (E)</strong>
+<ul>
+<li>Cooldown decreased from 10 to 8 seconds</li>
+<li>Mana cost reduced from 40 to 30</li>
+<li>Damage increased from 132 to 140</li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comment:</strong></em> Adventures are hard to have when you keep getting
+  bogged down by pesky Basic Attackers. She is too mild-mannered to demand
+  buffs, so Chen sat us down, handed us some brew and talked us into helping her
+  out a bit.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-04-04" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-04-04 Patch Notes <small class="hidden-xs">v 24.4</small> <a class="permalink hidden-xs" href="#patch2017-04-04" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20673818" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Design & Gameplay</h4>
+                  <p><strong>Hero Radii</strong></p>
+<ul>
+<li>The radius of many heroes in the game have been adjusted to better match their actual model size.
+<ul>
+<li>Increased Radius - Abathur, ETC, Gul'dan, Baleog, Muradin, Misha, Sgt. Hammer, Thrall, Uther, Varian, Zagara </li>
+<li>Decreased Radius - Li Li, Tracer, Valeera</li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-01-24" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-01-24 Patch Notes <small class="hidden-xs">v 23.0</small> <a class="permalink hidden-xs" href="#patch2017-01-24" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20481262" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Elusive Feet (Trait)
+<ul>
+<li>Now displays a button on the hotbar showing the cooldown</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Shake It Off (Passive)
+<ul>
+<li>Now displays a button on the hotbar showing the cooldown</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-10-18" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-10-18 Patch Notes <small class="hidden-xs">v 21.0</small> <a class="permalink hidden-xs" href="#patch2016-10-18" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20328243" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Damage Reduction:</strong> When two damage reduction effects, such as Resistant (25%) and Hardened Shield (75%), are simultaneously applied to a Hero, the larger effect will no longer be overridden by the lesser effect.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-09-27" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-09-27 Patch Notes <small class="hidden-xs">v 20.2, 20.3, 20.4, 20.5</small> <a class="permalink hidden-xs" href="#patch2016-09-27" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20285864" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Shake It Off (Passive)
+<ul>
+<li>No longer has a cooldown</li>
+<li>Resistant amount increased from 25 to 50%</li>
+<li>Resistant duration increased from 3 to 4 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-09-13" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-09-13 Patch Notes <small class="hidden-xs">v 20.0</small> <a class="permalink hidden-xs" href="#patch2016-09-13" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20243513" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Shake it Off (Passive)
+<ul>
+<li>New functionality:
+<ul>
+<li>Stuns and Roots against Li Li grant Resistant, reducing all damage taken by 25% for 3 seconds. Cannot occur more than once every 10 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We’re removing the majority of our old Relentless-
+  like Talents from the game, because we found that it wasn’t clear to the enemy
+  team what was happening. Reducing the duration on very short disabling effects
+  to begin with was hard to notice, and typically felt like a bug when it did
+  happen. In some cases, we’re replacing these Talents with Hero specific ones
+  that more clearly convey what’s happening, while fitting the gameplay of the
+  Hero.</p>
+</blockquote>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Li Li:</strong> The Shake it Off Talent will no longer reduce the duration of the Garden Terror's Queen's Curse Ability.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-05-17" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-05-17 Patch Notes <small class="hidden-xs">v 18.0, 18.1</small> <a class="permalink hidden-xs" href="#patch2016-05-17" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20120032" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Conjurer's Pursuit</strong></p>
+<ul>
+<li>A reward has been added to this Questing Talent.
+<ul>
+<li><strong>Quest:</strong> Gather Regeneration Globes to permanently increase Mana Regeneration by 0.10 per second, up to a maximum of 2.5 per second.</li>
+<li><strong>Reward:</strong> After gathering 25 Regeneration Globes, also increases maximum Mana by 100.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We’ve added a completion point to this Talent.
+  Upon completing its quest, players will be provided with some additional
+  power. This allows us to offer spikes of power in-between Talent levels, or
+  even for a single player on a team. Now, simply picking the Talent and only
+  partially completing it is worse, but finishing the quest will return a larger
+  reward. Choosing the right Talents on the right Battleground or with the right
+  team composition has always been an important goal for us, and this change
+  pushes this Talent to closer align with that goal.</p>
+</blockquote>
+
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li>Cleanse (Talent) added at Level 7</li>
+<li>Shake It Off (Talent) moved from Level 7 to Level 16.
+<ul>
+<li>Cooldown reduced from 15 to 10 seconds.</li>
+</ul></li>
+<li><strong>Fast Feet (Trait)</strong>
+<ul>
+<li>Safety Sprint (Talent)
+<ul>
+<li>Now provides the Movement Speed bonus regardless of Li Li’s remaining Health.</li>
+</ul></li>
+</ul></li>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li>Herbal Cleanse (Talent) removed.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> While one of the core components of Li Li’s design
+  has been that she does not target her Abilities, we were not happy with Herbal
+  Cleanse and its odd usability. In addition to some other minor Talent
+  adjustments, we’ve decided to give Cleanse to Li Li to help her compete with
+  other Supports in this area.</p>
+</blockquote>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Self-casting Cloud Serpent as Li Li after learning the Mending Serpent Talent will no longer cause duplicate Healing combat text to appear.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-04-19" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-04-19 Patch Notes <small class="hidden-xs">v 17.2</small> <a class="permalink hidden-xs" href="#patch2016-04-19" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20099322" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Sylvanas’ Mind Control will now properly cancel Abilities that are being channeled by the target, such as E.T.C.’s Mosh Pit and Li Li’s Jug of 1,000 Cups.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-04-12" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-04-12 Balance Update <small class="hidden-xs">v 17.1</small> <a class="permalink hidden-xs" href="#patch2016-04-12" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20090404" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Water Dragon (R)</strong>
+<ul>
+<li>Damage increased from 192 (+4% per level) to 318 (+4% per level).</li>
+<li>Mana cost decreased from 100 to 50.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p><strong><em>Developer Comments:</em></strong> We want to make some basic improvements to a lot
+  of the lesser-picked/lower win-rate Heroic Abilities. Most of these are pretty
+  simple changes to make them more enticing, like adding more damage, reducing
+  cooldowns, or lowering Mana costs. We realize that the primary use case for
+  Abilities like Li Li’s Water Dragon or E.T.C.’s Stage Dive is not damage, but
+  having more of it might help them feel more effective. We’re trying to do
+  something a little bit different with Brightwing’s Emerald Wind and
+  Malfurion’s Twilight Dream by compensating for some of the Support capability
+  you miss out on by picking these Heroics. We’re excited to see how these go!
+  In Thrall’s case, Sundering was a little too strong, so we’re reducing its
+  stun duration.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-03-29" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-03-29 Patch Notes <small class="hidden-xs">v 17.0</small> <a class="permalink hidden-xs" href="#patch2016-03-29" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20063493" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Fast Feet (Trait)</strong>
+<ul>
+<li>Elusive Feet (Talent)
+<ul>
+<li>Damage reduction amount increased from 50% to 75%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Gall will no longer count as a secondary target for Li Li’s Healing Brew with the Two for One Talent.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-08-18" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-08-18 Patch Notes <small class="hidden-xs">v 13.1</small> <a class="permalink hidden-xs" href="#patch2015-08-18" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19818499" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Bolt of the Storm</strong></p>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We love this talent and think it can create a lot
+  of really interesting moments, but the cooldown was just too short. At 70
+  seconds we think this talent is still a great level 20 pick, but now players
+  will have to be more strategic with how they use it. Forcing someone to use
+  their Bolt to avoid a gank can now be a meaningful moment with this increased
+  cooldown. We hope this also entices players towards choosing their Heroic
+  upgrades instead of Bolt when the situation calls for it.</p>
+</blockquote>
+<ul>
+<li>Cooldown increased from 40 to 70 seconds</li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Li Li's Cloud Serpent will now attack at the proper speed whether Li Li is moving or standing still.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-06-30" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-06-30 Patch Notes <small class="hidden-xs">v 11.1a, 12.1</small> <a class="permalink hidden-xs" href="#patch2015-06-30" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19803324" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li>Kung Fu Hustle (Talent)
+<ul>
+<li>Cooldown reduction lowered from 200% to 150%</li>
+</ul></li>
+<li><strong>Blinding Wind (E)</strong>
+<ul>
+<li>Affected targets now miss all Basic Attacks throughout Blinding Wind’s duration.</li>
+<li>Duration reduced from 4 to 2 seconds</li>
+<li>Lingering Blind (Talent)
+<ul>
+<li>Now increases Blinding Wind's duration by 50%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-05-12" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-05-12 Patch Notes <small class="hidden-xs">v 11.0</small> <a class="permalink hidden-xs" href="#patch2015-05-12" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19067455" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Healing Ward</strong></p>
+<ul>
+<li>Can now be struck by Area of Effect Abilities </li>
+<li>Healing Wards now have 50 (+15 per level) Health </li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-03-24" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-03-24 Patch Notes <small class="hidden-xs">v 10.0</small> <a class="permalink hidden-xs" href="#patch2015-03-24" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/18401781" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Healing Ward</strong></p>
+<ul>
+<li>Duration increased from 10 to 15 seconds </li>
+<li>Heal amount reduced from 3% to 2% of max Health per second </li>
+</ul>
+
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li>Will no longer heal Abathur’s Ultimate Evolution Clones or Nova’s Holo Decoys</li>
+</ul></li>
+<li><strong>Jug of 1,000 Cups (R)</strong>
+<ul>
+<li>Will no longer heal Abathur’s Ultimate Evolution Clones or Nova’s Holo Decoys</li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-02-10" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-02-10 Patch Notes <small class="hidden-xs">v 9.0</small> <a class="permalink hidden-xs" href="#patch2015-02-10" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/17906504" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Fixed an issue in which Shrink Ray could fail to apply its 50% damage reduction if the target had already begun casting an Ability prior to coming under Shrink Ray’s effects.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-01-13" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-01-13 Patch Notes <small class="hidden-xs">v 8.0</small> <a class="permalink hidden-xs" href="#patch2015-01-13" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/17345414" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li>Li Li has received a major overhaul.</li>
+<li>Protective Shield (Talent) removed</li>
+<li>Envenom (Talent) removed</li>
+<li>Stoneskin (Talent) removed</li>
+<li><strong>New Talent (Level 20): Kung Fu Hustle</strong>
+<ul>
+<li>Abilities recharge 3 times as fast when Fast Feet is active.</li>
+</ul></li>
+<li><strong>Basic Attack</strong>
+<ul>
+<li>Starting damage increased from 20 to 25</li>
+</ul></li>
+<li><strong>Fast Feet (Trait)</strong>
+<ul>
+<li>Movement speed bonus decreased from 15% to 10%</li>
+<li><strong>New Talent (Level 7): Shake It Off</strong>
+<ul>
+<li>Reduces the duration of the next Stun or Root by 75%. Can only trigger once every 15 seconds.</li>
+</ul></li>
+<li><strong>New Talent (Level 16): Safety Sprint</strong>
+<ul>
+<li>Increases Fast Feet’s Movement Speed bonus 10% to 20% while Li Li is under 50% Health.</li>
+</ul></li>
+</ul></li>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li><strong>New Talent (Level 1): Pro Toss</strong>
+<ul>
+<li>Increases Healing Brew’s range by 30%</li>
+</ul></li>
+<li><strong>New Talent (Level 7): Pitch Perfect</strong>
+<ul>
+<li>After casting Healing Brew, its cost is reduced by 10 Mana for 6 seconds. This effect does not stack.</li>
+</ul></li>
+<li>The Good Stuff (Talent) functionality has changed
+<ul>
+<li>Healing Brew now heals for an additional 30% over 6 seconds. Multiple heals extend the duration of this heal over time.</li>
+</ul></li>
+<li>Two For One (Talent) functionality has changed
+<ul>
+<li>No longer increases Healing Brew’s Mana cost</li>
+<li>Now increases Healing Brew’s cooldown from 3 to 4.5 seconds</li>
+</ul></li>
+<li>Herbal Cleanse (Talent)
+<ul>
+<li>Movement Speed bonus duration increased from 2 to 3 seconds</li>
+</ul></li>
+<li>Scaling heal decreased from 20 to 18</li>
+</ul></li>
+<li><strong>Cloud Serpent (W)</strong>
+<ul>
+<li>Cloud Serpent functionality has changed.
+<ul>
+<li>Cloud Serpent now automatically attacks nearby enemies. Only 1 Cloud Serpent can be active on a Hero at a time.</li>
+</ul></li>
+<li>Cost decreased from 40 to 30 Mana</li>
+<li>Starting damage increased from 15 to 20</li>
+<li>Timeless Creature (Talent) moved from Level 16 to Level 1</li>
+<li>Lightning Serpent (Talent)
+<ul>
+<li>Damage dealt to targets after the first increased from 25% to 50%</li>
+<li>Search range increased by 20%</li>
+</ul></li>
+<li><strong>New Talent (Level 4) : Mending Serpent</strong>
+<ul>
+<li>Cloud Serpent heals its host each time it attacks.</li>
+</ul></li>
+<li><strong>New Talent (Level 16): Serpent Sidekick</strong>
+<ul>
+<li>Li Li gains her own Cloud Serpent after casting Cloud Serpent on an ally.</li>
+</ul></li>
+</ul></li>
+<li><strong>Blinding Wind (E)</strong>
+<ul>
+<li>Number of Basic Attacks missed increased from 1 to 2</li>
+<li>Cost decreased from 50 to 40 Mana</li>
+<li>Starting damage decreased from 50 to 30</li>
+<li>Scaling damage increased from 12 to 13 damage</li>
+<li>Gale Force (Talent)
+<ul>
+<li>Damage bonus increased from 25% to 50%</li>
+</ul></li>
+<li>Mass Vortex (Talent) moved from Level 1 to Level 4</li>
+<li>Lingering Blind (Talent)
+<ul>
+<li>Increases the number of Basic Attacks missed from 2 to 3</li>
+</ul></li>
+<li><strong>New Talent (Level 13): Surging Winds</strong>
+<ul>
+<li>Li Li gains 5% Ability Power for 8 seconds per target hit by Blinding Wind. Additional enemies hit refresh the buff duration and further increase Ability Power. Stacks up to 4 times.</li>
+</ul></li>
+</ul></li>
+<li><strong>Jug of 1,000 Cups (R)</strong>
+<ul>
+<li>Cooldown increased from 60 to 70 seconds</li>
+<li>Initial heal amount decreased from 35 to 20</li>
+<li>Scaling heal increased from 4 to 6.5</li>
+</ul></li>
+<li><strong>Water Dragon (R)</strong>
+<ul>
+<li>Starting damage increased from 130 to 200</li>
+<li>Scaling damage increased from 13 to 20</li>
+<li>Slow amount increased from 40% to 70%</li>
+</ul></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Bolt of the Storm and Zeratul’s Blink can no longer be cast while rooted.</li>
+</ul>
+
+                  <ul>
+<li>Li Li’s Cloud Serpent will now attack mounted Heroes.</li>
+</ul>
+
+                  <ul>
+<li>Li Li’s Timeless Creature Talent no longer allows two Cloud Serpents to be present simultaneously on the same target.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2014-12-02" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2014-12-02 Patch Notes <small class="hidden-xs">v 7.1</small> <a class="permalink hidden-xs" href="#patch2014-12-02" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/16467431" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Conjurer's Pursuit</strong></p>
+<ul>
+<li>Now also increases Mana regeneration by 0.5 per second in addition to its other effects</li>
+</ul>
+
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li>Initial heal decreased from 100 to 70</li>
+<li>Heal scaling increased from 13 to 20</li>
+</ul></li>
+<li><strong>Jug of 1,000 Cups (R)</strong>
+<ul>
+<li>Cooldown decreased from 70 to 60 seconds</li>
+<li>Heal scaling increased from 3 to 4</li>
+<li>Initial heal increased from 25 to 35</li>
+<li>Search range increased to 10</li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2014-10-07" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2014-10-07 Patch Notes <small class="hidden-xs">v 6.5</small> <a class="permalink hidden-xs" href="#patch2014-10-07" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/16081848" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Protective Shield</strong></p>
+<ul>
+<li>Shield value changed from <strong>300 (+30 per level)</strong> to <strong>185 (+35 per level)</strong></li>
+</ul>
+
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li>No longer provides allies with Mana regeneration</li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2014-09-10" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2014-09-10 Patch Notes <small class="hidden-xs">v 5.0d, 5.0e</small> <a class="permalink hidden-xs" href="#patch2014-09-10" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/15787795" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Healing Ward</strong></p>
+<ul>
+<li>Heal amount increased from <strong>2%</strong> to <strong>3%</strong> per tick</li>
+</ul>
+
+                  <p><strong>Storm Shield</strong></p>
+<ul>
+<li>Target search radius increased from <strong>5</strong> to <strong>8</strong></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Heroes are no longer automatically dismounted when attempting to cast Envenom on a target that is out of range.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2014-07-23" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2014-07-23 Patch Notes <small class="hidden-xs">v 5.0b</small> <a class="permalink hidden-xs" href="#patch2014-07-23" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/14742016" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Healing Ward</strong></p>
+<ul>
+<li>Has been moved from Level 1 to Level 4 </li>
+</ul>
+
+                  <p><strong>With the addition of Artifacts, the following generic Talents have been removed:</strong></p>
+<ul>
+<li>Minion Killer </li>
+<li>Path of the Assassin </li>
+<li>Path of the Warrior </li>
+<li>Path of the Wizard </li>
+</ul>
+
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li>First Sip (Talent) has been removed.</li>
+<li>Two For One (Talent)
+<ul>
+<li>Now increases the mana cost of Healing Brew by 15 Mana</li>
+</ul></li>
+</ul></li>
+<li><strong>Cloud Serpent (W)</strong>
+<ul>
+<li>Bringer of Gifts (Talents)
+<ul>
+<li>Moved from Level 4 to Level 7</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2014-06-25" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2014-06-25 Patch Notes <small class="hidden-xs">v 5.0a</small> <a class="permalink hidden-xs" href="#patch2014-06-25" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/14537490" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Fast Feet (Trait)</strong>
+<ul>
+<li>Movement Speed bonus reduced from <strong>20%</strong> to <strong>15%</strong></li>
+</ul></li>
+<li><strong>Healing Brew</strong>
+<ul>
+<li>Mana cost increased from <strong>25</strong> to <strong>30</strong></li>
+<li>Mana restoration scaling removed</li>
+</ul></li>
+<li><strong>Cloud Serpent</strong>
+<ul>
+<li>Base damage decreased from <strong>20</strong> to <strong>15</strong></li>
+<li>Damage gained per level increased from <strong>3</strong> to <strong>4</strong></li>
+<li>Lightning Serpent (Talent)
+<ul>
+<li>Damage decreased from <strong>7</strong> to <strong>5</strong></li>
+<li>Damage gained per level increased from <strong>1</strong> to <strong>1.33</strong></li>
+</ul></li>
+</ul></li>
+<li><strong>Blinding Wind</strong>
+<ul>
+<li>Cooldown reduced from <strong>12</strong> to <strong>10 seconds</strong></li>
+</ul></li>
+<li><strong>Jug of 1,000 Cups</strong>
+<ul>
+<li>Cooldown increased from <strong>50</strong> to <strong>70 seconds</strong></li>
+<li>Healing gained per level reduced from <strong>96</strong> to <strong>72</strong></li>
+<li>Mana restoration scaling has been removed</li>
+</ul></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Li Li’s Healing Brew will no longer target or heal Tyrael in his Archangel’s Wrath form.</li>
+</ul>
+
+                  <ul>
+<li>Li Li's Jug of 1,000 Cups Heroic Ability will no longer target or heal Tyrael in his Archangel’s Wrath form.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2014-05-22" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2014-05-22 Patch Notes <small class="hidden-xs">v 5.0</small> <a class="permalink hidden-xs" href="#patch2014-05-22" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/14227686" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Path of the Wizard</strong></p>
+<ul>
+<li>Mana regeneration per level decreased from 0.2 to 0.1.</li>
+</ul>
+
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Healing Brew</strong>
+<ul>
+<li>Can now heal Li Li if she is the lowest health target (does not return mana)</li>
+</ul></li>
+<li><strong>Cloud Serpent</strong>
+<ul>
+<li>Cast time has been reduced from .5 to .25 seconds</li>
+<li>Mana cost reduced from 65 to 40</li>
+<li>Cooldown reduced from 16 to 8 seconds</li>
+<li>Duration decreased from 12 to 10 seconds</li>
+<li>Base damage reduced from 22 to 20</li>
+<li><strong>Timeless Creature</strong> (Talent)
+<ul>
+<li>Duration extension reduced from 100% to 50%</li>
+</ul></li>
+</ul></li>
+<li><strong>Blinding Wind</strong>
+<ul>
+<li>Cast time removed</li>
+</ul></li>
+<li><strong>Water Dragon</strong>
+<ul>
+<li>Now slows targets hit by 40% for 3 seconds</li>
+<li>Search radius increased from 9 to 12</li>
+<li>Base damage reduced from 310 to 260</li>
+<li>Damage gain per level reduced from 60 to 25</li>
+</ul></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Li Li’s Timeless Creature Talent now correctly increases the duration of Cloud Serpent when it is cast on allied heroes.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2014-04-15" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2014-04-15 Patch Notes <small class="hidden-xs">v 2.5.0a</small> <a class="permalink hidden-xs" href="#patch2014-04-15" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/13789932" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>New Hero</h4>
+                  <ul>
+<li>Li Li has been added to Heroes of the Storm and is now available for play!</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
             </div>
           </div>
         </div>
       </div>
-      <hr>
+      
     </article>
     <footer>
       <div class="container">

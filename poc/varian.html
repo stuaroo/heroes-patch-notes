@@ -54,6 +54,15 @@
       .dev-comments:hover { text-decoration: none; }
 
       .row>div>ul>li>p { margin-bottom: 0; }
+
+      .right-to-left li { float: right; text-align: center; }
+      .abil-img-header { display: inline-block; position: relative; }
+      .abil-img-header>img { height: 40px; width: 40px; }
+      .letter-overlay-header { position: absolute; width: 18px; height: 18px; line-height: 18px; bottom: 0; right: 0; border-radius: 6px; background: rgba(0, 0, 0, 0.5); text-align: center; font-size: 12px; font-weight: bold; color: #ffffff; }
+
+      a.permalink {
+  color: #95a5a6;
+}
     </style>
   </head>
   <body>
@@ -106,55 +115,79 @@
           </h2>
         </div>
       </div>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Stats</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-9"><ul>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="nav nav-tabs right-to-left">
+            <li class="active">
+              <a href="#by-ability" data-toggle="tab" aria-expanded="true">
+                <div class="abil-img-header">
+                  <img src="images/storm_ui_icon_varian_lionsfang.png" class="img-rounded">
+                  <span class="letter-overlay-header">Q</span>
+                </div>
+                <span>by Ability</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#by-date" data-toggle="tab" aria-expanded="false">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-clock-o fa-stack-1x fa-inverse fa-flip-horizontal"></i>
+                </span>
+                <span>by Date</span>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="by-ability">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Stats</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
+                        <ul>
 <li>Basic Attack damage increased from 87 to 91 </li>
 </ul>
-</div>
-              <div class="col-lg-3">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-9"><ul>
+
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-03-28-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-03-28</a>
+                        <ul>
 <li>Base Health increased from 2150 to 2322</li>
 <li>Base Health Regeneration increased from 4.48 to 4.84</li>
 </ul>
-</div>
-              <div class="col-lg-3">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-03-28-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-03-28</a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_varian_lionsfang.png" class="img-rounded" />
-            <span class="letter-overlay">Q</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Lion's Fang</h3>
-            <div class="mana-cd">Mana: 50</div>
-            <div class="mana-cd">Cooldown: 8</div>
-          </div>
-          <p class="text-muted">Create a shockwave that travels in a straight line, dealing 150 (+4% per level) damage and slowing enemies by 35% for 1.5 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Varian2016-12-06-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2016-12-06-Q1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_varian_lionsfang.png" class="img-rounded" />
+                    <span class="letter-overlay">Q</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Lion's Fang</h3>
+                    <div class="mana-cd">Mana: 50</div>
+                    <div class="mana-cd">Cooldown: 8</div>
+                  </div>
+                  <p class="text-muted">Create a shockwave that travels in a straight line, dealing 150 (+4% per level) damage and slowing enemies by 35% for 1.5 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Varian2016-12-06-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2016-12-06-Q1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Varian has had a solid release into the Nexus. We
   think one of the most important things about our first multi-class character
   is that all 6 "builds" are close in power level, and right now Twin Blades and
@@ -167,86 +200,86 @@
   to hopefully keep Varian's overall balance close to where we intended.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Mana cost reduced from 60 to 50</li>
 <li>Slow amount increased from 30 to 35%</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Lion's Maw (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Lion's Maw (Talent)
+                                <ul>
 <li>Slow increased from 40 to 50%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_varian_parry.png" class="img-rounded" />
-            <span class="letter-overlay">W</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Parry</h3>
-            <div class="mana-cd">Mana: 15</div>
-            <div class="mana-cd">Cooldown: 8</div>
-          </div>
-          <p class="text-muted">Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_varian_parry.png" class="img-rounded" />
+                    <span class="letter-overlay">W</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Parry</h3>
+                    <div class="mana-cd">Mana: 15</div>
+                    <div class="mana-cd">Cooldown: 8</div>
+                  </div>
+                  <p class="text-muted">Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Overpower (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Overpower (Talent)
+                                <ul>
 <li>Reduced the damage bonus after Parrying a Basic Attack from 25 to 20%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 7</strong>
-                    <ul>
-                      <li>
-                        Live by the Sword (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 7</strong>
+                            <ul>
+                              <li>
+                                Live by the Sword (Talent)
+                                <ul>
 <li>Increased the amount of parried Basic Attacks needed to reduce the cooldown of Parry from 2 to 4</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
-                <a class="dev-comments" href="#Varian2017-01-24-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-01-24-W1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
+                        <a class="dev-comments" href="#Varian2017-01-24-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-01-24-W1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> These simple changes should allow Varian players
   to "live the dream" and get multiple Overpower triggers more often,
   particularly when combined with Live by the Sword or Twin Blades of Fury. We
@@ -258,13 +291,13 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Overpower (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Overpower (Talent)
+                                <ul>
 <li>Added functionality:
 <ul>
 <li>Can now trigger multiple times per Parry</li>
@@ -272,17 +305,17 @@
 </ul></li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Varian2016-12-06-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2016-12-06-W1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Varian2016-12-06-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2016-12-06-W1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Varian has had a solid release into the Nexus. We
   think one of the most important things about our first multi-class character
   is that all 6 "builds" are close in power level, and right now Twin Blades and
@@ -295,75 +328,75 @@
   to hopefully keep Varian's overall balance close to where we intended.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Cooldown reduced from 10 to 8 seconds</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 7</strong>
-                    <ul>
-                      <li>
-                        Live by the Sword (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 7</strong>
+                            <ul>
+                              <li>
+                                Live by the Sword (Talent)
+                                <ul>
 <li>Duration bonus increased from 20 to 40%</li>
 <li>Cooldown reduction decreased from 3 to 2 seconds</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_varian_charge.png" class="img-rounded" />
-            <span class="letter-overlay">E</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Charge</h3>
-            <div class="mana-cd">Mana: 45</div>
-            <div class="mana-cd">Cooldown: 12</div>
-          </div>
-          <p class="text-muted">Charge to the target enemy, dealing 50 (+4% per level) damage and slowing them by 75% for 1 second.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_varian_charge.png" class="img-rounded" />
+                    <span class="letter-overlay">E</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Charge</h3>
+                    <div class="mana-cd">Mana: 45</div>
+                    <div class="mana-cd">Cooldown: 12</div>
+                  </div>
+                  <p class="text-muted">Charge to the target enemy, dealing 50 (+4% per level) damage and slowing them by 75% for 1 second.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
 
-                <ul>
-                  <li>
-                    <strong>Level 4</strong>
-                    <ul>
-                      <li>
-                        Warbringer (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 4</strong>
+                            <ul>
+                              <li>
+                                Warbringer (Talent)
+                                <ul>
 <li>Added functionality:
 <ul>
 <li>Now also reduces the Mana cost of Charge by 50%</li>
 </ul></li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-03-28-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-03-28</a>
-                <a class="dev-comments" href="#Varian2017-03-28-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-03-28-E1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-03-28-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-03-28</a>
+                        <a class="dev-comments" href="#Varian2017-03-28-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-03-28-E1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We think pushing the cooldown of Charge after
   taking Warbringer from 6 to 4 will push it further into the hyper-mobile style
   of gameplay that we want. We removed the additional slow since it didn't add
@@ -375,42 +408,42 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 4</strong>
-                    <ul>
-                      <li>
-                        Warbringer (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 4</strong>
+                            <ul>
+                              <li>
+                                Warbringer (Talent)
+                                <ul>
 <li>No longer increases the slow amount of Charge</li>
 <li>Cooldown reduction increased from 6 to 8 seconds</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 13</strong>
-                    <ul>
-                      <li>
-                        Juggernaut (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 13</strong>
+                            <ul>
+                              <li>
+                                Juggernaut (Talent)
+                                <ul>
 <li>Damage reduced from 5 to 4% of a Hero's maximum Health</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-02-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-02-27</a>
-                <a class="dev-comments" href="#Varian2017-02-27-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-02-27-E1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-02-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-02-27</a>
+                        <a class="dev-comments" href="#Varian2017-02-27-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-02-27-E1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> The frequency and power of a ranged point click
   stun was too powerful from Warbringer. While it may have been "balanced" in
   terms of winrate, its potency wasn't healthy or fun for opponents. It didn't
@@ -427,98 +460,98 @@
   makes him unique.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Cooldown reduced from 14 to 12 seconds</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 4</strong>
-                    <ul>
-                      <li>
-                        Warbringer (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 4</strong>
+                            <ul>
+                              <li>
+                                Warbringer (Talent)
+                                <ul>
 <li>Now increases Charge's slow from 75% to 85%, instead of adding a stun</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 13</strong>
-                    <ul>
-                      <li>
-                        Juggernaut (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 13</strong>
+                            <ul>
+                              <li>
+                                Juggernaut (Talent)
+                                <ul>
 <li>Damage reduced from 6% to 5% of the target's maximum Health.</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
-                <a class="dev-comments" href="#Varian2017-02-14-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-02-14-E1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
+                        <a class="dev-comments" href="#Varian2017-02-14-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-02-14-E1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We like that Mortal Strike and Shattering Throw
   are great counter options for certain team compositions, but thought they came
   just a little too late to draft Varian specifically for them.</p>
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 13</strong>
-                    <ul>
-                      <li>
-                        Juggernaut (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 13</strong>
+                            <ul>
+                              <li>
+                                Juggernaut (Talent)
+                                <ul>
 <li>Moved to level 13</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-01-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-01-06</a>
-                <ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-01-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-01-06</a>
+                        <ul>
 <li>Cooldown reduced from 16 to 14 seconds</li>
 <li>Mana cost reduced from 50 to 45</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 4</strong>
-                    <ul>
-                      <li>
-                        Warbringer (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 4</strong>
+                            <ul>
+                              <li>
+                                Warbringer (Talent)
+                                <ul>
 <li>Cooldown reduction decreased from 8 to 6 seconds</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Varian2016-12-06-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2016-12-06-E1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Varian2016-12-06-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2016-12-06-E1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Varian has had a solid release into the Nexus. We
   think one of the most important things about our first multi-class character
   is that all 6 "builds" are close in power level, and right now Twin Blades and
@@ -532,46 +565,46 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 4</strong>
-                    <ul>
-                      <li>
-                        Warbringer (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 4</strong>
+                            <ul>
+                              <li>
+                                Warbringer (Talent)
+                                <ul>
 <li>Cooldown reduction decreased from 10 to 8 seconds</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_varian_taunt.png" class="img-rounded" />
-            <span class="letter-overlay">R</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Taunt</h3>
-            <div class="mana-cd">Mana: 20</div>
-            <div class="mana-cd">Cooldown: 16</div>
-          </div>
-          <p class="text-muted">Force the target Hero to attack Varian for 1.25 seconds. Passive: Maximum Health increased by 30%. Passive: Gain 15 Armor.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-03-28-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-03-28</a>
-                <a class="dev-comments" href="#Varian2017-03-28-R1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-03-28-R1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_varian_taunt.png" class="img-rounded" />
+                    <span class="letter-overlay">R</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Taunt</h3>
+                    <div class="mana-cd">Mana: 20</div>
+                    <div class="mana-cd">Cooldown: 16</div>
+                  </div>
+                  <p class="text-muted">Force the target Hero to attack Varian for 1.25 seconds. Passive: Maximum Health increased by 30%. Passive: Gain 15 Armor.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-03-28-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-03-28</a>
+                        <a class="dev-comments" href="#Varian2017-03-28-R1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-03-28-R1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We think pushing the cooldown of Charge after
   taking Warbringer from 6 to 4 will push it further into the hyper-mobile style
   of gameplay that we want. We removed the additional slow since it didn't add
@@ -582,29 +615,29 @@
   the game, while Taunt will only have a little more Health before 10.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Health bonus reduced from 40 to 30%</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
+                        <ul>
 <li>Health gain reduced from +60% to +40%</li>
 <li>Now also grants 15 Armor</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Varian2016-12-06-R1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2016-12-06-R1" class="collapse"><blockquote>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Varian2016-12-06-R1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2016-12-06-R1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Varian has had a solid release into the Nexus. We
   think one of the most important things about our first multi-class character
   is that all 6 "builds" are close in power level, and right now Twin Blades and
@@ -617,7 +650,7 @@
   to hopefully keep Varian's overall balance close to where we intended.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Health bonus increased from 50 to 60%</li>
 <li>Mana cost reduced from 40 to 20</li>
 <li>No longer reduces Varian's Basic Attack Speed</li>
@@ -625,75 +658,75 @@
 <p><div class="text-warning" markdown="1">
 <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/5gnqr0/upcoming_heroes_of_the_storm_balance_update/daudbik/" target="_blank">Source <i class="fa fa-external-link"></i></a></div></p>
 
-                <ul>
+                        <ul>
 <li>Health regeneration now increased by 60%</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 20</strong>
-                    <ul>
-                      <li>
-                        Vigilance (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 20</strong>
+                            <ul>
+                              <li>
+                                Vigilance (Talent)
+                                <ul>
 <li>Cooldown reduction increased from .75 to 1 second per Heroic Basic Attack</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <ul>
 <li>Cooldown reduced from 25 to 16 seconds</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 20</strong>
-                    <ul>
-                      <li>
-                        Vigilance (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 20</strong>
+                            <ul>
+                              <li>
+                                Vigilance (Talent)
+                                <ul>
 <li>Cooldown reduction decreased from 1 to .75 seconds per Basic Attack</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_varian_colossus_smash.png" class="img-rounded" />
-            <span class="letter-overlay">R</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Colossus Smash</h3>
-            <div class="mana-cd">Mana: 40</div>
-            <div class="mana-cd">Cooldown: 20</div>
-          </div>
-          <p class="text-muted">Smash a target enemy, dealing 160 (+4% per level) damage and making them Vulnerable for 3 seconds.  Passive: Base Attack Damage increased by 100%. Passive: Maximum Health reduced by 10%.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-02-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-02-27</a>
-                <a class="dev-comments" href="#Varian2017-02-27-R2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-02-27-R2" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_varian_colossus_smash.png" class="img-rounded" />
+                    <span class="letter-overlay">R</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Colossus Smash</h3>
+                    <div class="mana-cd">Mana: 40</div>
+                    <div class="mana-cd">Cooldown: 20</div>
+                  </div>
+                  <p class="text-muted">Smash a target enemy, dealing 160 (+4% per level) damage and making them Vulnerable for 3 seconds.  Passive: Base Attack Damage increased by 100%. Passive: Maximum Health reduced by 10%.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-02-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-02-27</a>
+                        <a class="dev-comments" href="#Varian2017-02-27-R2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-02-27-R2" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> The frequency and power of a ranged point click
   stun was too powerful from Warbringer. While it may have been "balanced" in
   terms of winrate, its potency wasn't healthy or fun for opponents. It didn't
@@ -710,18 +743,18 @@
   makes him unique.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Damage bonus increased from 75 to 100%</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Varian2016-12-06-R2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2016-12-06-R2" class="collapse"><blockquote>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Varian2016-12-06-R2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2016-12-06-R2" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Varian has had a solid release into the Nexus. We
   think one of the most important things about our first multi-class character
   is that all 6 "builds" are close in power level, and right now Twin Blades and
@@ -734,48 +767,48 @@
   to hopefully keep Varian's overall balance close to where we intended.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Health regeneration now decreased by 10%</li>
 </ul>
 <p></p>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <ul>
 <li>Damage reduced from 187 to 160</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_varian_twinbladesoffury.png" class="img-rounded" />
-            <span class="letter-overlay">R</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Twin Blades of Fury</h3>
-            <div class="mana-cd">Mana: None</div>
-            <div class="mana-cd">Cooldown: None</div>
-          </div>
-          <p class="text-muted">Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds. Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-02-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-02-27</a>
-                <a class="dev-comments" href="#Varian2017-02-27-R3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-02-27-R3" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_varian_twinbladesoffury.png" class="img-rounded" />
+                    <span class="letter-overlay">R</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Twin Blades of Fury</h3>
+                    <div class="mana-cd">Mana: None</div>
+                    <div class="mana-cd">Cooldown: None</div>
+                  </div>
+                  <p class="text-muted">Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds. Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-02-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-02-27</a>
+                        <a class="dev-comments" href="#Varian2017-02-27-R3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-02-27-R3" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> The frequency and power of a ranged point click
   stun was too powerful from Warbringer. While it may have been "balanced" in
   terms of winrate, its potency wasn't healthy or fun for opponents. It didn't
@@ -792,64 +825,64 @@
   makes him unique.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Basic Attack damage penalty reduced from 25 to 20%</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_varian_heroicstrike.png" class="img-rounded" />
-            <span class="letter-overlay">D</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Heroic Strike</h3>
-            <div class="mana-cd">Mana: None</div>
-            <div class="mana-cd">Cooldown: 18</div>
-          </div>
-          <p class="text-muted">Every 18 seconds, Varian's next Basic Attack deals 140 (+3.5% per level) bonus damage. Basic Attacks reduce this cooldown by 2 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
-                <a class="dev-comments" href="#Varian2017-02-14-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-02-14-D1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_varian_heroicstrike.png" class="img-rounded" />
+                    <span class="letter-overlay">D</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Heroic Strike</h3>
+                    <div class="mana-cd">Mana: None</div>
+                    <div class="mana-cd">Cooldown: 18</div>
+                  </div>
+                  <p class="text-muted">Every 18 seconds, Varian's next Basic Attack deals 140 (+3.5% per level) bonus damage. Basic Attacks reduce this cooldown by 2 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
+                        <a class="dev-comments" href="#Varian2017-02-14-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-02-14-D1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We like that Mortal Strike and Shattering Throw
   are great counter options for certain team compositions, but thought they came
   just a little too late to draft Varian specifically for them.</p>
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 13</strong>
-                    <ul>
-                      <li>
-                        Mortal Strike (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 13</strong>
+                            <ul>
+                              <li>
+                                Mortal Strike (Talent)
+                                <ul>
 <li>Moved to level 13</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Varian2016-12-06-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2016-12-06-D1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Varian2016-12-06-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2016-12-06-D1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Varian has had a solid release into the Nexus. We
   think one of the most important things about our first multi-class character
   is that all 6 "builds" are close in power level, and right now Twin Blades and
@@ -862,183 +895,714 @@
   to hopefully keep Varian's overall balance close to where we intended.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Bonus damage changed from Physical to Spell</li>
 <li>No longer heals from Second Wind, and now benefits from Ability Power</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Passive &amp; Active Talents</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <h4>Level 1</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
-                <ul>
-                  <li>
-                      High King's Quest (Passive)
-                      <ul>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Passive &amp; Active Talents</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <h4>Level 1</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-05-10-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-05-10</a>
+                        <ul>
+                          <li>
+                              High King's Quest (Passive)
+                              <ul>
 <li>Increased the Basic Attack damage bonus from completing all 3 quests from 30 to 45</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <h4>Level 13</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
-                <a class="dev-comments" href="#Varian2017-02-14-lvl13" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-02-14-lvl13" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h4>Level 13</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
+                        <a class="dev-comments" href="#Varian2017-02-14-lvl13" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-02-14-lvl13" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We like that Mortal Strike and Shattering Throw
   are great counter options for certain team compositions, but thought they came
   just a little too late to draft Varian specifically for them.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                      Shattering Throw (Active)
-                      <ul>
+                        <ul>
+                          <li>
+                              Shattering Throw (Active)
+                              <ul>
 <li>Moved to level 13</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <h4>Level 16</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
-                <ul>
-                  <li>
-                      Banner of Ironforge (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h4>Level 16</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
+                        <ul>
+                          <li>
+                              Banner of Ironforge (Active)
+                              <ul>
 <li>Armor granted reduced from 25 to 20</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
-                <a class="dev-comments" href="#Varian2017-02-14-lvl16" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Varian2017-02-14-lvl16" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-02-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-02-14</a>
+                        <a class="dev-comments" href="#Varian2017-02-14-lvl16" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Varian2017-02-14-lvl16" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We like that Mortal Strike and Shattering Throw
   are great counter options for certain team compositions, but thought they came
   just a little too late to draft Varian specifically for them.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                      Banner of Dalaran (Active)
-                      <ul>
+                        <ul>
+                          <li>
+                              Banner of Dalaran (Active)
+                              <ul>
 <li>Moved to level 16</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Banner of Ironforge (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Banner of Ironforge (Active)
+                              <ul>
 <li>Moved to level 16</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Banner of Stormwind (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Banner of Stormwind (Active)
+                              <ul>
 <li>Moved to level 16</li>
 </ul>
 
-                  </li>
-                </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Bug Fixes</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-                <div class="col-lg-9"><ul>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Bug Fixes</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Varian:</strong> The cooldown for Victory Rush will now be properly reduced when nearby Monsters are killed.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-06-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-06-13</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-06-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-06-13</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Varian:</strong> After learning Second Wind, Varian will now correctly earn bonus Healing for bonus damage dealt by Shattering Throw against a Shielded target.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-25-2-0-launch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-25</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-25-2-0-launch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-25</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Varian</strong> - The sound effect associated with the Iron Forge Banner will no longer play globally.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-04-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-04</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-04-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-04</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Varian:</strong> The cooldown for Victory Rush will no longer be reduced when nearby enemy Structures are destroyed.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Varian:</strong> Can no longer be selected through Autoselect - Support.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Varian:</strong> Fixed an issue which prevented the Basic Attack damage bonus offered by the High King's Quest talent from being properly modified after learning the Colossus Smash or Twin Blades of Fury talents.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <hr>
+            </div>
+            <div class="tab-pane fade" id="by-date">
+              <div id="patch2017-06-13" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-06-13 Patch Notes <small class="hidden-xs">v 2.26.0</small> <a class="permalink hidden-xs" href="#patch2017-06-13" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20838723" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Varian:</strong> The cooldown for Victory Rush will now be properly reduced when nearby Monsters are killed.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-05-10" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-05-10 Balance Update <small class="hidden-xs">v 2.25.3</small> <a class="permalink hidden-xs" href="#patch2017-05-10" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20720245" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Stats</strong></p>
+<ul>
+<li>Basic Attack damage increased from 87 to 91 </li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Overpower (W)
+<ul>
+<li>Reduced the damage bonus after Parrying a Basic Attack from 25 to 20%</li>
+</ul></li>
+<li>High King’s Quest (Passive)
+<ul>
+<li>Increased the Basic Attack damage bonus from completing all 3 quests from 30 to 45</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Warbringer (E)
+<ul>
+<li>Added functionality:
+<ul>
+<li>Now also reduces the Mana cost of Charge by 50%</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Live by the Sword (W)
+<ul>
+<li>Increased the amount of parried Basic Attacks needed to reduce the cooldown of Parry from 2 to 4</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-04-25" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-04-25 2.0 Launch Notes <small class="hidden-xs">v 2.25.0</small> <a class="permalink hidden-xs" href="#patch2017-04-25" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20721900" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Varian:</strong> After learning Second Wind, Varian will now correctly earn bonus Healing for bonus damage dealt by Shattering Throw against a Shielded target.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-04-04" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-04-04 Patch Notes <small class="hidden-xs">v 24.4</small> <a class="permalink hidden-xs" href="#patch2017-04-04" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20673818" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Design & Gameplay</h4>
+                  <p><strong>Hero Radii</strong></p>
+<ul>
+<li>The radius of many heroes in the game have been adjusted to better match their actual model size.
+<ul>
+<li>Increased Radius - Abathur, ETC, Gul'dan, Baleog, Muradin, Misha, Sgt. Hammer, Thrall, Uther, Varian, Zagara </li>
+<li>Decreased Radius - Li Li, Tracer, Valeera</li>
+</ul></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Varian</strong> - The sound effect associated with the Iron Forge Banner will no longer play globally.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-03-28" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-03-28 Balance Update <small class="hidden-xs">v 24.2</small> <a class="permalink hidden-xs" href="#patch2017-03-28" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20649609" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Stats</strong></p>
+<ul>
+<li>Base Health increased from 2150 to 2322</li>
+<li>Base Health Regeneration increased from 4.48 to 4.84</li>
+</ul>
+<p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Taunt (R)</strong>
+<ul>
+<li>Health bonus reduced from 40 to 30%</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Warbringer (E)
+<ul>
+<li>No longer increases the slow amount of Charge</li>
+<li>Cooldown reduction increased from 6 to 8 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Juggernaut (E)
+<ul>
+<li>Damage reduced from 5 to 4% of a Hero’s maximum Health</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We think pushing the cooldown of Charge after
+  taking Warbringer from 6 to 4 will push it further into the hyper-mobile style
+  of gameplay that we want. We removed the additional slow since it didn’t add
+  much to actual gameplay (most people didn’t move when they were slowed). Now
+  Warbringer Varians will be zipping around the battlefield applying slows at a
+  high frequency. By increasing Varian’s base Health but lowering Taunt’s Health
+  bonus, Twin Blades and Colossus Smash will have about 8% more Health through
+  the game, while Taunt will only have a little more Health before 10.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-03-14" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-03-14 Patch Notes <small class="hidden-xs">v 24.0</small> <a class="permalink hidden-xs" href="#patch2017-03-14" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20581822" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Taunt (R)</strong>
+<ul>
+<li>Health gain reduced from +60% to +40%</li>
+<li>Now also grants 15 Armor</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Banner of Ironforge (Active)
+<ul>
+<li>Armor granted reduced from 25 to 20</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Varian:</strong> The cooldown for Victory Rush will no longer be reduced when nearby enemy Structures are destroyed.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-02-27" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-02-27 Balance Update <small class="hidden-xs">v 23.5</small> <a class="permalink hidden-xs" href="#patch2017-02-27" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20581815" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Charge (E)</strong>
+<ul>
+<li>Cooldown reduced from 14 to 12 seconds</li>
+</ul></li>
+<li><strong>Colossus Smash (R)</strong>
+<ul>
+<li>Damage bonus increased from 75 to 100%</li>
+</ul></li>
+<li><strong>Twin Blades of Fury (R)</strong>
+<ul>
+<li>Basic Attack damage penalty reduced from 25 to 20%</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Warbringer (E)
+<ul>
+<li>Now increases Charge's slow from 75% to 85%, instead of adding a stun</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Juggernaut (E)
+<ul>
+<li>Damage reduced from 6% to 5% of the target's maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> The frequency and power of a ranged point click
+  stun was too powerful from Warbringer. While it may have been “balanced” in
+  terms of winrate, its potency wasn’t healthy or fun for opponents. It didn’t
+  offer many options for opponents that were stunned and then Taunted for over 2
+  seconds, greatly increasing the reliability of other abilities (like Sulfuras
+  Smash). By making Warbringer a massive slow instead of a stun, it allows
+  enemies to use abilities to defend themselves (or forces a Varian to use Taunt
+  early, greatly reducing the duration of his opening crowd control). We’ve
+  shifted more of the power of Warbringer over into the mobility aspect to
+  compensate (since Warbringer makes Charge a 6 second cooldown now). The other
+  part of these changes is providing some buffs to the Assassin focused Heroics
+  to bring them up to par with Taunt, so that Varian can frequently opt into any
+  of the Heroic choices to really fulfill the multi-class Hero fantasy that
+  makes him unique.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-02-14" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-02-14 Patch Notes <small class="hidden-xs">v 23.3</small> <a class="permalink hidden-xs" href="#patch2017-02-14" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20554028" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Banner of Stormwind (Active)
+<ul>
+<li>Moved to level 16</li>
+</ul></li>
+<li>Banner of Ironforge (Active)
+<ul>
+<li>Moved to level 16</li>
+</ul></li>
+<li>Banner of Dalaran (Active)
+<ul>
+<li>Moved to level 16</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Juggernaut (E)
+<ul>
+<li>Moved to level 13</li>
+</ul></li>
+<li>Mortal Strike (Trait)
+<ul>
+<li>Moved to level 13</li>
+</ul></li>
+<li>Shattering Throw (Active)
+<ul>
+<li>Moved to level 13</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We like that Mortal Strike and Shattering Throw
+  are great counter options for certain team compositions, but thought they came
+  just a little too late to draft Varian specifically for them.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-01-24" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-01-24 Patch Notes <small class="hidden-xs">v 23.0</small> <a class="permalink hidden-xs" href="#patch2017-01-24" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20481262" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Overpower (W)
+<ul>
+<li>Added functionality:
+<ul>
+<li>Can now trigger multiple times per Parry</li>
+<li>Now also increases the damage of the next Heroic Strike by 25%</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> These simple changes should allow Varian players
+  to "live the dream" and get multiple Overpower triggers more often,
+  particularly when combined with Live by the Sword or Twin Blades of Fury. We
+  want Overpower to allow Varian to gain a lot of value when used at just the
+  right time, and found even the best cases of the old Talent design didn't
+  compare to the other options on the tier. By also allowing it to increase the
+  damage of Heroic Strike baseline, we think it will an additional vector that
+  will make it an enticing option for all 3 builds..</p>
+</blockquote>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Varian:</strong> Can no longer be selected through Autoselect – Support.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-01-06" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-01-06 Balance Update <small class="hidden-xs">v 22.6</small> <a class="permalink hidden-xs" href="#patch2017-01-06" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20462409" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Charge (E)</strong>
+<ul>
+<li>Cooldown reduced from 16 to 14 seconds</li>
+<li>Mana cost reduced from 50 to 45</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Warbringer (E)
+<ul>
+<li>Cooldown reduction decreased from 8 to 6 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-12-06" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-12-06 Balance Update <small class="hidden-xs">v 22.2</small> <a class="permalink hidden-xs" href="#patch2016-12-06" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20379599" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Lion's Fang (Q)</strong>
+<ul>
+<li>Mana cost reduced from 60 to 50</li>
+<li>Slow amount increased from 30 to 35%</li>
+</ul></li>
+<li><strong>Parry (W)</strong>
+<ul>
+<li>Cooldown reduced from 10 to 8 seconds</li>
+</ul></li>
+<li><strong>Heroic Strike (Trait)</strong>
+<ul>
+<li>Bonus damage changed from Physical to Spell</li>
+<li>No longer heals from Second Wind, and now benefits from Ability Power</li>
+</ul></li>
+<li><strong>Taunt (R)</strong>
+<ul>
+<li>Health bonus increased from 50 to 60%</li>
+<li>Mana cost reduced from 40 to 20</li>
+<li>No longer reduces Varian's Basic Attack Speed</li>
+</ul></li>
+</ul>
+<div class="text-warning">
+<p><span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/5gnqr0/upcoming_heroes_of_the_storm_balance_update/daudbik/" target="_blank">Source <i class="fa fa-external-link"></i></a></p>
+<ul>
+<li><strong>Taunt (R)</strong>
+<ul>
+<li>Health regeneration now increased by 60%</li>
+</ul></li>
+<li><strong>Colossus Smash (R)</strong>
+<ul>
+<li>Health regeneration now decreased by 10%</li>
+</ul></li>
+</ul>
+</div>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Lion's Maw (Q)
+<ul>
+<li>Slow increased from 40 to 50%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Warbringer (E)
+<ul>
+<li>Cooldown reduction decreased from 10 to 8 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Live by the Sword (W)
+<ul>
+<li>Duration bonus increased from 20 to 40%</li>
+<li>Cooldown reduction decreased from 3 to 2 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Vigilance (R)
+<ul>
+<li>Cooldown reduction increased from .75 to 1 second per Heroic Basic Attack</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> Varian has had a solid release into the Nexus. We
+  think one of the most important things about our first multi-class character
+  is that all 6 "builds" are close in power level, and right now Twin Blades and
+  Warbringer are a little higher than the rest. These changes are designed to
+  nerf Warbringer's point and click stun frequency, increase the power of Shield
+  Wall by reducing the cooldown of Parry, greatly increase the statistical
+  bonuses of Taunt, and reduce some of the synergy between Second Wind and Twin
+  Blades of Fury that was creating so many problems for teams without a good
+  counter to Basic Attacks. We've done a mix of baseline buffs and Talent nerfs
+  to hopefully keep Varian's overall balance close to where we intended.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-11-15" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-11-15 Patch Notes <small class="hidden-xs">v 22.0</small> <a class="permalink hidden-xs" href="#patch2016-11-15" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20372990" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>New Hero</h4>
+                  <p>Few would have expected that the gladiator known only as Lo’Gosh was in truth
+the missing ruler of Stormwind, Varian Wrynn. Now the High King of the
+Alliance, his every action shapes the destiny of Azeroth itself.</p>
+<p><strong>Trait</strong></p>
+<ul>
+<li><strong>Heroic Strike</strong>
+<ul>
+<li>Every 18 seconds, Varian’s next Basic Attack deals bonus damage. Each Basic Attack reduces this cooldown by 2 seconds.</li>
+</ul></li>
+</ul>
+<p><strong>Basic Abilities</strong></p>
+<ul>
+<li><strong>Lion’s Fang (Q)</strong>
+<ul>
+<li>Launch a shockwave that travels in a straight line, dealing damage and slowing enemies by 30% for 1.5 seconds.</li>
+</ul></li>
+<li><strong>Parry (W)</strong>
+<ul>
+<li>Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.</li>
+</ul></li>
+<li><strong>Charge (E)</strong>
+<ul>
+<li>Charge to the target enemy, dealing light damage and slowing them by 75% for 1 second.</li>
+</ul></li>
+</ul>
+<p><strong>Heroic Abilities</strong></p>
+<ul>
+<li><strong>Taunt (R)</strong>
+<ul>
+<li>Force the target enemy Hero to attack Varian for 1.25 seconds.</li>
+<li><strong>Passive:</strong> Maximum Health increased by 50%.</li>
+<li><strong>Passive:</strong> Attack speed reduced by 25%.</li>
+</ul></li>
+<li><strong>Colossus Smash (R)</strong>
+<ul>
+<li>Smash the target enemy, dealing damage and making them Vulnerable for 3 seconds.</li>
+<li><strong>Passive:</strong> Base Attack Damage increased by 75%.</li>
+<li><strong>Passive:</strong> Maximum Health reduced by 10%.</li>
+</ul></li>
+<li><strong>Twin Blades of Fury (Passive)</strong>
+<ul>
+<li>Basic Attacks reduce Heroic Strike’s cooldown by 9 seconds, and increase Varian’s movement speed by 30% for 2 seconds.</li>
+<li><strong>Passive:</strong> Attack speed increased by 100%.</li>
+<li><strong>Passive:</strong> Base Attack Damage decreased by 25%.</li>
+</ul></li>
+</ul>
+
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Taunt (R)</strong>
+<ul>
+<li>Cooldown reduced from 25 to 16 seconds</li>
+</ul></li>
+<li><strong>Colossus Smash (R)</strong>
+<ul>
+<li>Damage reduced from 187 to 160</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li>Vigilance (R)
+<ul>
+<li>Cooldown reduction decreased from 1 to .75 seconds per Basic Attack</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Varian:</strong> Fixed an issue which prevented the Basic Attack damage bonus offered by the High King's Quest talent from being properly modified after learning the Colossus Smash or Twin Blades of Fury talents.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
             </div>
           </div>
         </div>
       </div>
-      <hr>
+      
     </article>
     <footer>
       <div class="container">

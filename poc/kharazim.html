@@ -54,6 +54,15 @@
       .dev-comments:hover { text-decoration: none; }
 
       .row>div>ul>li>p { margin-bottom: 0; }
+
+      .right-to-left li { float: right; text-align: center; }
+      .abil-img-header { display: inline-block; position: relative; }
+      .abil-img-header>img { height: 40px; width: 40px; }
+      .letter-overlay-header { position: absolute; width: 18px; height: 18px; line-height: 18px; bottom: 0; right: 0; border-radius: 6px; background: rgba(0, 0, 0, 0.5); text-align: center; font-size: 12px; font-weight: bold; color: #ffffff; }
+
+      a.permalink {
+  color: #95a5a6;
+}
     </style>
   </head>
   <body>
@@ -106,26 +115,50 @@
           </h2>
         </div>
       </div>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_dash.png" class="img-rounded" />
-            <span class="letter-overlay">Q</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Radiant Dash</h3>
-            <div class="mana-cd">Mana: 30</div>
-            <div class="mana-cd">Cooldown: 12</div>
-          </div>
-          <p class="text-muted">Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack. Stores 2 charges.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
-                <a class="dev-comments" href="#Kharazim2017-09-26-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2017-09-26-Q1" class="collapse"><blockquote>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="nav nav-tabs right-to-left">
+            <li class="active">
+              <a href="#by-ability" data-toggle="tab" aria-expanded="true">
+                <div class="abil-img-header">
+                  <img src="images/storm_ui_icon_monk_dash.png" class="img-rounded">
+                  <span class="letter-overlay-header">Q</span>
+                </div>
+                <span>by Ability</span>
+              </a>
+            </li>
+            <li class="">
+              <a href="#by-date" data-toggle="tab" aria-expanded="false">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-clock-o fa-stack-1x fa-inverse fa-flip-horizontal"></i>
+                </span>
+                <span>by Date</span>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="by-ability">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_dash.png" class="img-rounded" />
+                    <span class="letter-overlay">Q</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Radiant Dash</h3>
+                    <div class="mana-cd">Mana: 30</div>
+                    <div class="mana-cd">Cooldown: 12</div>
+                  </div>
+                  <p class="text-muted">Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack. Stores 2 charges.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
+                        <a class="dev-comments" href="#Kharazim2017-09-26-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2017-09-26-Q1" class="collapse"><blockquote>
 <p><em><strong>Developer Comment:</strong></em> These changes are designed to increase the power of
   Insight and Transcendence by shifting more of Kharazim's healing power pie
   into them. We want to encourage the same active gameplay that Iron Fist
@@ -134,27 +167,27 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 16</strong>
-                    <ul>
-                      <li>
-                        Dash of Light (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 16</strong>
+                            <ul>
+                              <li>
+                                Dash of Light (Talent)
+                                <ul>
 <li>Increased bonus healing from 50% to 75% for dashing to an ally</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <a class="dev-comments" href="#Kharazim2016-11-15-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-11-15-Q1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <a class="dev-comments" href="#Kharazim2016-11-15-Q1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-11-15-Q1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Kharazim's Talents have been updated to create
   more compelling choices at every tier. To do this, we've made sure that Iron
   Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
@@ -164,73 +197,73 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 4</strong>
-                    <ul>
-                      <li>
-                        Foresight (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 4</strong>
+                            <ul>
+                              <li>
+                                Foresight (Talent)
+                                <ul>
 <li>Removed</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 7</strong>
-                    <ul>
-                      <li>
-                        Blinding Speed (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 7</strong>
+                            <ul>
+                              <li>
+                                Blinding Speed (Talent)
+                                <ul>
 <li>Moved from level 16</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 16</strong>
-                    <ul>
-                      <li>
-                        Cleansing Touch (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 16</strong>
+                            <ul>
+                              <li>
+                                Cleansing Touch (Talent)
+                                <ul>
 <li>Radiant Dashing to an allied Hero grants them Unstoppable for 1 second</li>
 </ul>
 
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        Dash of Light (Talent)
-                        <ul>
+                              </li>
+                            </ul>
+                            <ul>
+                              <li>
+                                Dash of Light (Talent)
+                                <ul>
 <li>Radiant Dashing to an ally increases the healing they received from Breath of Heaven by 50% for 3 seconds</li>
 </ul>
 
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        Way of the Hundred Fists (Talent)
-                        <ul>
+                              </li>
+                            </ul>
+                            <ul>
+                              <li>
+                                Way of the Hundred Fists (Talent)
+                                <ul>
 <li>Moved from level 7</li>
 <li>Now deals a volley of 6 Basic Attacks that each deal 50% of your Basic Attack damage.</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-03-29-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-03-29</a>
-                <p><strong>Hero Movement Interaction Unification</strong></p>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-03-29-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-03-29</a>
+                        <p><strong>Hero Movement Interaction Unification</strong></p>
 <ul>
 <li>Several Abilities have been changed in an effort to unify their usage.
 <ul>
@@ -251,32 +284,32 @@
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_breath0fheaven.png" class="img-rounded" />
-            <span class="letter-overlay">W</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Breath of Heaven</h3>
-            <div class="mana-cd">Mana: 65</div>
-            <div class="mana-cd">Cooldown: 10</div>
-          </div>
-          <p class="text-muted">Heal nearby Heroes for 290 (+4% per level) and give them 15% Movement Speed for 3 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
-                <a class="dev-comments" href="#Kharazim2017-09-26-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2017-09-26-W1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_breath0fheaven.png" class="img-rounded" />
+                    <span class="letter-overlay">W</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Breath of Heaven</h3>
+                    <div class="mana-cd">Mana: 65</div>
+                    <div class="mana-cd">Cooldown: 10</div>
+                  </div>
+                  <p class="text-muted">Heal nearby Heroes for 290 (+4% per level) and give them 15% Movement Speed for 3 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
+                        <a class="dev-comments" href="#Kharazim2017-09-26-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2017-09-26-W1" class="collapse"><blockquote>
 <p><em><strong>Developer Comment:</strong></em> These changes are designed to increase the power of
   Insight and Transcendence by shifting more of Kharazim's healing power pie
   into them. We want to encourage the same active gameplay that Iron Fist
@@ -284,19 +317,19 @@
   other Talents are chosen.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Cooldown increased from 8 to 10 seconds</li>
 <li>Mana cost increased from 60 to 65</li>
 </ul>
 
 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Kharazim2016-12-06-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-12-06-W1" class="collapse"><blockquote>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Kharazim2016-12-06-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-12-06-W1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We're glad to see that Iron Fists Kharazim is a
   very viable melee Assassin/Support hybrid! We think that we can reduce the
   damage slightly on it, since Kharazim was able to throughput strong damage and
@@ -305,32 +338,32 @@
   Movement Speed increase to Breath of Heaven to offset the loss.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Increased the Movement Speed bonus from 10 to 15%</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 7</strong>
-                    <ul>
-                      <li>
-                        Heavenly Zeal (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 7</strong>
+                            <ul>
+                              <li>
+                                Heavenly Zeal (Talent)
+                                <ul>
 <li>Movement Speed bonus increased from 25 to 30%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <a class="dev-comments" href="#Kharazim2016-11-15-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-11-15-W1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <a class="dev-comments" href="#Kharazim2016-11-15-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-11-15-W1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Kharazim's Talents have been updated to create
   more compelling choices at every tier. To do this, we've made sure that Iron
   Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
@@ -339,67 +372,67 @@
   don't have to sacrifice as much healing to pick mobility, utility or damage.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Healing increased from 280 to 290</li>
 </ul>
 
 
-                <ul>
-                  <li>
-                    <strong>Level 7</strong>
-                    <ul>
-                      <li>
-                        Heavenly Zeal (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 7</strong>
+                            <ul>
+                              <li>
+                                Heavenly Zeal (Talent)
+                                <ul>
 <li>Increases the Movement Speed bonus of Breath of Heaven on other allies from 10 to 25%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 16</strong>
-                    <ul>
-                      <li>
-                        Circle of Life (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 16</strong>
+                            <ul>
+                              <li>
+                                Circle of Life (Talent)
+                                <ul>
 <li>Removed</li>
 </ul>
 
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        Echo of Heaven (Talent)
-                        <ul>
+                              </li>
+                            </ul>
+                            <ul>
+                              <li>
+                                Echo of Heaven (Talent)
+                                <ul>
 <li>Moved from level 7</li>
 <li>Delay between heals increased from 2 to 3 seconds</li>
 <li>Second heal amount increased from 35 to 75%</li>
 <li>Now also reduces the initial heal amount of Breath of Heaven to 75%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        Soothing Breeze (Talent)
-                        <ul>
+                              </li>
+                            </ul>
+                            <ul>
+                              <li>
+                                Soothing Breeze (Talent)
+                                <ul>
 <li>Removed</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-03-09-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-03-09</a>
-                <a class="dev-comments" href="#Kharazim2016-03-09-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-03-09-W1" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-03-09-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-03-09</a>
+                        <a class="dev-comments" href="#Kharazim2016-03-09-W1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-03-09-W1" class="collapse"><blockquote>
 <p><strong><em>Developer Comments:</em></strong> Kharazim's Echo of Heaven Talent is contributing
   too much to his overall Healing. We've decided to nerf the amount of Healing
   it offers. To compensate, we're buffing his base kit. His Healing output with
@@ -407,7 +440,7 @@
   flexibility to pick other Talents on its tier.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Heal amount increased from 250 (+4% per level) to 280 (+4% per level)</li>
 <li>Echo of Heaven (Talent)
 <ul>
@@ -416,32 +449,32 @@
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_deadlyreach.png" class="img-rounded" />
-            <span class="letter-overlay">E</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Deadly Reach</h3>
-            <div class="mana-cd">Mana: 50</div>
-            <div class="mana-cd">Cooldown: 10</div>
-          </div>
-          <p class="text-muted">Your next Basic Attack increases your Attack Speed and Attack Range by 100% for 2 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <a class="dev-comments" href="#Kharazim2016-11-15-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-11-15-E1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_deadlyreach.png" class="img-rounded" />
+                    <span class="letter-overlay">E</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Deadly Reach</h3>
+                    <div class="mana-cd">Mana: 50</div>
+                    <div class="mana-cd">Cooldown: 10</div>
+                  </div>
+                  <p class="text-muted">Your next Basic Attack increases your Attack Speed and Attack Range by 100% for 2 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <a class="dev-comments" href="#Kharazim2016-11-15-E1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-11-15-E1" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Kharazim's Talents have been updated to create
   more compelling choices at every tier. To do this, we've made sure that Iron
   Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
@@ -451,111 +484,111 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 4</strong>
-                    <ul>
-                      <li>
-                        Overtake (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 4</strong>
+                            <ul>
+                              <li>
+                                Overtake (Talent)
+                                <ul>
 <li>Removed</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 7</strong>
-                    <ul>
-                      <li>
-                        Blazing Fists (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 7</strong>
+                            <ul>
+                              <li>
+                                Blazing Fists (Talent)
+                                <ul>
 <li>Moved from level 16</li>
 <li>Cooldown reduction per Basic Attack reduced from 1 to .75 seconds.</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <strong>Level 13</strong>
-                    <ul>
-                      <li>
-                        Fists of Fury (Talent)
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
                         <ul>
+                          <li>
+                            <strong>Level 13</strong>
+                            <ul>
+                              <li>
+                                Fists of Fury (Talent)
+                                <ul>
 <li>Deadly Reach duration bonus increased from 50 to 100%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_sevensidedstrike.png" class="img-rounded" />
-            <span class="letter-overlay">R</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Seven-Sided Strike</h3>
-            <div class="mana-cd">Mana: 77</div>
-            <div class="mana-cd">Cooldown: 50</div>
-          </div>
-          <p class="text-muted">Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row"><ul><li>No changes since 2015-08-18 (the original release date of Kharazim).</li></ul></div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_divinepalm.png" class="img-rounded" />
-            <span class="letter-overlay">R</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Divine Palm</h3>
-            <div class="mana-cd">Mana: 50</div>
-            <div class="mana-cd">Cooldown: 60</div>
-          </div>
-          <p class="text-muted">Protect an allied Hero from death, causing them to be healed for 1141 (+4% per level) if they take fatal damage in the next 3 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row"><ul><li>No changes since 2015-08-18 (the original release date of Kharazim).</li></ul></div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_trait_transcendence.png" class="img-rounded" />
-            <span class="letter-overlay">D</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Transcendence</h3>
-            <div class="mana-cd">Mana: None</div>
-            <div class="mana-cd">Cooldown: None</div>
-          </div>
-          <p class="text-muted">Every 3rd Basic Attack heals the lowest nearby allied Hero for 96 (+4% per level).</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
-                <a class="dev-comments" href="#Kharazim2017-09-26-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2017-09-26-D1" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_sevensidedstrike.png" class="img-rounded" />
+                    <span class="letter-overlay">R</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Seven-Sided Strike</h3>
+                    <div class="mana-cd">Mana: 77</div>
+                    <div class="mana-cd">Cooldown: 50</div>
+                  </div>
+                  <p class="text-muted">Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row"><ul><li>No changes since 2015-08-18 (the original release date of Kharazim).</li></ul></div>
+                </div>
+              </div>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_divinepalm.png" class="img-rounded" />
+                    <span class="letter-overlay">R</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Divine Palm</h3>
+                    <div class="mana-cd">Mana: 50</div>
+                    <div class="mana-cd">Cooldown: 60</div>
+                  </div>
+                  <p class="text-muted">Protect an allied Hero from death, causing them to be healed for 1141 (+4% per level) if they take fatal damage in the next 3 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row"><ul><li>No changes since 2015-08-18 (the original release date of Kharazim).</li></ul></div>
+                </div>
+              </div>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_trait_transcendence.png" class="img-rounded" />
+                    <span class="letter-overlay">D</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Transcendence</h3>
+                    <div class="mana-cd">Mana: None</div>
+                    <div class="mana-cd">Cooldown: None</div>
+                  </div>
+                  <p class="text-muted">Every 3rd Basic Attack heals the lowest nearby allied Hero for 96 (+4% per level).</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
+                        <a class="dev-comments" href="#Kharazim2017-09-26-D1" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2017-09-26-D1" class="collapse"><blockquote>
 <p><em><strong>Developer Comment:</strong></em> These changes are designed to increase the power of
   Insight and Transcendence by shifting more of Kharazim's healing power pie
   into them. We want to encourage the same active gameplay that Iron Fist
@@ -564,46 +597,46 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Transcendence (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Transcendence (Talent)
+                                <ul>
 <li>Healing increased from 73 to 96 per 3 Basic Attacks</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_trait_insight.png" class="img-rounded" />
-            <span class="letter-overlay">D</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Insight</h3>
-            <div class="mana-cd">Mana: None</div>
-            <div class="mana-cd">Cooldown: None</div>
-          </div>
-          <p class="text-muted">Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana and grants a stack of Insight.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces the cooldown of all of Kharazim's Basic Abilities by 1.5 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
-                <a class="dev-comments" href="#Kharazim2017-09-26-D2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2017-09-26-D2" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_trait_insight.png" class="img-rounded" />
+                    <span class="letter-overlay">D</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Insight</h3>
+                    <div class="mana-cd">Mana: None</div>
+                    <div class="mana-cd">Cooldown: None</div>
+                  </div>
+                  <p class="text-muted">Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana and grants a stack of Insight.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces the cooldown of all of Kharazim's Basic Abilities by 1.5 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-09-26-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-09-26</a>
+                        <a class="dev-comments" href="#Kharazim2017-09-26-D2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2017-09-26-D2" class="collapse"><blockquote>
 <p><em><strong>Developer Comment:</strong></em> These changes are designed to increase the power of
   Insight and Transcendence by shifting more of Kharazim's healing power pie
   into them. We want to encourage the same active gameplay that Iron Fist
@@ -612,27 +645,27 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Insight (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Insight (Talent)
+                                <ul>
 <li>Cooldown reduction increased from 1 to 1.5 seconds per 3 Basic Attacks</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-07-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-07-12</a>
-                <a class="dev-comments" href="#Kharazim2016-07-12-D2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-07-12-D2" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-07-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-07-12</a>
+                        <a class="dev-comments" href="#Kharazim2016-07-12-D2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-07-12-D2" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Insight was seeing very little play, mainly
   because it wasn't distinct enough. In order to both buff it and make it
   different, we're making it a Quest Talent/Trait. We felt the cooldown
@@ -641,67 +674,67 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Insight (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Insight (Talent)
+                                <ul>
 <li>New Functionality:
 <ul>
 <li><strong>Quest:</strong> Every 3rd Basic Attack restores 14 Mana. After this effect triggers 100 times, every 3rd attack will also reduce the cooldown of all Basic Abilities by 1 second</li>
 </ul></li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
-                <a class="dev-comments" href="#Kharazim2015-11-17-D2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2015-11-17-D2" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
+                        <a class="dev-comments" href="#Kharazim2015-11-17-D2" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2015-11-17-D2" class="collapse"><blockquote>
 <p><strong><em>Developer Comments:</em></strong> Most Kharazim players pick Transcendence at level
   1, and this is often the most powerful option regardless of the situation. We
   tuned up the other two options here to help provide Kharazim players with
   different options.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Mana regeneration granted on every third hit increased from 12 (+0.21 per level) to 14 (+0.36 per level)</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <div class="abil-img-wrap pull-left">
-            <img src="images/storm_ui_icon_monk_trait_ironfist.png" class="img-rounded" />
-            <span class="letter-overlay">D</span>
-          </div>
-          <div class="abil-attr">
-            <h3>Iron Fists</h3>
-            <div class="mana-cd">Mana: None</div>
-            <div class="mana-cd">Cooldown: None</div>
-          </div>
-          <p class="text-muted">Every 3rd Basic Attack deals 110% bonus damage and gives 30% increased Move Speed for 2 seconds.</p>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Kharazim2016-12-06-D3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-12-06-D3" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="abil-img-wrap pull-left">
+                    <img src="images/storm_ui_icon_monk_trait_ironfist.png" class="img-rounded" />
+                    <span class="letter-overlay">D</span>
+                  </div>
+                  <div class="abil-attr">
+                    <h3>Iron Fists</h3>
+                    <div class="mana-cd">Mana: None</div>
+                    <div class="mana-cd">Cooldown: None</div>
+                  </div>
+                  <p class="text-muted">Every 3rd Basic Attack deals 110% bonus damage and gives 30% increased Move Speed for 2 seconds.</p>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Kharazim2016-12-06-D3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-12-06-D3" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We're glad to see that Iron Fists Kharazim is a
   very viable melee Assassin/Support hybrid! We think that we can reduce the
   damage slightly on it, since Kharazim was able to throughput strong damage and
@@ -711,27 +744,27 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Iron Fists (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Iron Fists (Talent)
+                                <ul>
 <li>Damage bonus reduced from 125 to 110%</li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <a class="dev-comments" href="#Kharazim2016-11-15-D3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-11-15-D3" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <a class="dev-comments" href="#Kharazim2016-11-15-D3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-11-15-D3" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Kharazim's Talents have been updated to create
   more compelling choices at every tier. To do this, we've made sure that Iron
   Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
@@ -741,59 +774,59 @@
 </blockquote>
 </div>
 
-                <ul>
-                  <li>
-                    <strong>Level 1</strong>
-                    <ul>
-                      <li>
-                        Iron Fists (Talent)
                         <ul>
+                          <li>
+                            <strong>Level 1</strong>
+                            <ul>
+                              <li>
+                                Iron Fists (Talent)
+                                <ul>
 <li>Added Functionality:
 <ul>
 <li>Every third Basic Attack now also increases your Movement Speed by 30% for 2 seconds.</li>
 </ul></li>
 </ul>
 
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
-                <a class="dev-comments" href="#Kharazim2015-11-17-D3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2015-11-17-D3" class="collapse"><blockquote>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
+                        <a class="dev-comments" href="#Kharazim2015-11-17-D3" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2015-11-17-D3" class="collapse"><blockquote>
 <p><strong><em>Developer Comments:</em></strong> Most Kharazim players pick Transcendence at level
   1, and this is often the most powerful option regardless of the situation. We
   tuned up the other two options here to help provide Kharazim players with
   different options.</p>
 </blockquote>
 </div>
-                <ul>
+                        <ul>
 <li>Damage bonus granted on every third hit increased from 100% to 125%</li>
 </ul>
 
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Passive &amp; Active Talents</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <h4>Level 4</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                <a class="dev-comments" href="#Kharazim2016-12-06-lvl4" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-12-06-lvl4" class="collapse"><blockquote>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Passive &amp; Active Talents</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <h4>Level 4</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        <a class="dev-comments" href="#Kharazim2016-12-06-lvl4" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-12-06-lvl4" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We're glad to see that Iron Fists Kharazim is a
   very viable melee Assassin/Support hybrid! We think that we can reduce the
   damage slightly on it, since Kharazim was able to throughput strong damage and
@@ -802,22 +835,22 @@
   Movement Speed increase to Breath of Heaven to offset the loss.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                      Earth Ally (Active)
-                      <ul>
+                        <ul>
+                          <li>
+                              Earth Ally (Active)
+                              <ul>
 <li>Cooldown increased from 30 to 45 seconds</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <a class="dev-comments" href="#Kharazim2016-11-15-lvl4" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-11-15-lvl4" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <a class="dev-comments" href="#Kharazim2016-11-15-lvl4" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-11-15-lvl4" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Kharazim's Talents have been updated to create
   more compelling choices at every tier. To do this, we've made sure that Iron
   Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
@@ -826,59 +859,59 @@
   don't have to sacrifice as much healing to pick mobility, utility or damage.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                      Air Ally (Active)
-                      <ul>
+                        <ul>
+                          <li>
+                              Air Ally (Active)
+                              <ul>
 <li>Place an Air Ally that grants vision of a large area around it for 40 seconds. Has 70 Health. You can Radiant Dash to Air Allies. 20 second cooldown. 2 charges.</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Earth Ally (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Earth Ally (Active)
+                              <ul>
 <li>Place an Earth Ally that reduces Heroic Basic Attack damage nearby allied Heroes receive by 50%. Has 400 Health and lasts 10 seconds. You can Radiant Dash to Earth Allies. 30 second cooldown.</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Healing Ward (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Healing Ward (Active)
+                              <ul>
 <li>Removed</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Protective Shield (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Protective Shield (Active)
+                              <ul>
 <li>Removed</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Spirit Ally (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Spirit Ally (Active)
+                              <ul>
 <li>Place a Spirit Ally that heals allies in a large area around it for 2% of their maximum Health every second for 10 seconds. Has 150 Health. You can Radiant Dash to Spirit Allies. 45 second cooldown.</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <h4>Level 7</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                <a class="dev-comments" href="#Kharazim2016-11-15-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-11-15-lvl7" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h4>Level 7</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        <a class="dev-comments" href="#Kharazim2016-11-15-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-11-15-lvl7" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> Kharazim's Talents have been updated to create
   more compelling choices at every tier. To do this, we've made sure that Iron
   Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
@@ -887,68 +920,68 @@
   don't have to sacrifice as much healing to pick mobility, utility or damage.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                      Clairvoyance (Active)
-                      <ul>
+                        <ul>
+                          <li>
+                              Clairvoyance (Active)
+                              <ul>
 <li>Removed</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Cleanse (Active)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Cleanse (Active)
+                              <ul>
 <li>Removed</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-01-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-01-27</a>
-                <ul>
-                  <li>
-                    <p><strong>Cleanse</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-01-27-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-01-27</a>
+                        <ul>
+                          <li>
+                            <p><strong>Cleanse</strong></p>
 <ul>
 <li>Tooltip updated to reflect that Cleanse cannot be self-cast</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-01-20-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-01-20</a>
-                <a class="dev-comments" href="#Cleanse2016-01-20-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Cleanse2016-01-20-lvl7" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-01-20-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-01-20</a>
+                        <a class="dev-comments" href="#Cleanse2016-01-20-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Cleanse2016-01-20-lvl7" class="collapse"><blockquote>
 <p><strong><em>Developer Comments:</em></strong> We want to give players more options to deal with
   the chain-stuns that have resurged after the scaling changes went into effect.
   We believe this increase in power to Cleanse should allow teams some counter-
   play against stun-heavy compositions.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                    <p><strong>Cleanse</strong></p>
+                        <ul>
+                          <li>
+                            <p><strong>Cleanse</strong></p>
 <ul>
 <li>This Talent's functionality has changed significantly</li>
 <li>Target ally now becomes Unstoppable for 1 second. Cannot be self-cast. 60 second cooldown</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-08-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-08-18</a>
-                <a class="dev-comments" href="#Cleanse2015-08-18-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Cleanse2015-08-18-lvl7" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-08-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-08-18</a>
+                        <a class="dev-comments" href="#Cleanse2015-08-18-lvl7" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Cleanse2015-08-18-lvl7" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We didn't like the gameplay of casting Cleanse
   preemptively on a target that is about to be CC'ed. For example, you see
   Butcher charging your Valla, and right before impact you use Cleanse on Valla,
@@ -960,39 +993,39 @@
   to cleanse a Putrid Bile only to have the slow immediately reapply.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                    <p><strong>Cleanse</strong></p>
+                        <ul>
+                          <li>
+                            <p><strong>Cleanse</strong></p>
 <ul>
 <li>No longer makes the target Unstoppable for 1 second</li>
 <li>Now adds Relentless to the target for 2 seconds (50% shorter CC duration)</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <h4>Level 13</h4>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-27-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-27</a>
-                <ul>
-                  <li>
-                      Sixth Sense (Passive)
-                      <ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h4>Level 13</h4>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-27-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-27</a>
+                        <ul>
+                          <li>
+                              Sixth Sense (Passive)
+                              <ul>
 <li>Block amount increased from 50 to 75% after being stunned or rooted.</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-13</a>
-                <ul>
-                  <li>
-                    <p><strong>Spell Shield</strong> <strong>(Passive)</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-09-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-09-13</a>
+                        <ul>
+                          <li>
+                            <p><strong>Spell Shield</strong> <strong>(Passive)</strong></p>
 <ul>
 <li>Added functionality:
 <ul>
@@ -1000,10 +1033,10 @@
 </ul></li>
 </ul>
 
-                  </li>
-                </ul>
-                <a class="dev-comments" href="#Kharazim2016-09-13-lvl13" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Kharazim2016-09-13-lvl13" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                        <a class="dev-comments" href="#Kharazim2016-09-13-lvl13" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Kharazim2016-09-13-lvl13" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> We're removing the majority of our old Relentless-
   like Talents from the game, because we found that it wasn't clear to the enemy
   team what was happening. Reducing the duration on very short disabling effects
@@ -1013,31 +1046,31 @@
   Hero.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                      Relentless (Passive)
-                      <ul>
+                        <ul>
+                          <li>
+                              Relentless (Passive)
+                              <ul>
 <li>Removed</li>
 </ul>
 
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                      Sixth Sense (Passive)
-                      <ul>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>
+                              Sixth Sense (Passive)
+                              <ul>
 <li>Stuns and Roots against Kharazim grant 50% damage reduction from Basic Attacks for 4 seconds.</li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-07-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-07-12</a>
-                <a class="dev-comments" href="#Relentless2016-07-12-lvl13" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
-                <div id="Relentless2016-07-12-lvl13" class="collapse"><blockquote>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-07-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-07-12</a>
+                        <a class="dev-comments" href="#Relentless2016-07-12-lvl13" data-toggle="collapse"><i class="fa fa-comment-o" aria-hidden="true"></i> Dev Comments</a>
+                        <div id="Relentless2016-07-12-lvl13" class="collapse"><blockquote>
 <p><em><strong>Developer Comments:</strong></em> With an increasing number of CC effects entering
   the Nexus we found ourselves constantly asking ourselves "Should Relentless
   work against this?" which quickly turned into a rabbit hole of 'what-ifs' and
@@ -1046,234 +1079,1034 @@
   it can reduce.</p>
 </blockquote>
 </div>
-                <ul>
-                  <li>
-                    <p><strong>Relentless</strong></p>
+                        <ul>
+                          <li>
+                            <p><strong>Relentless</strong></p>
 <ul>
 <li>Relentless and similar Hero-specific Talents will now only reduce the duration of Slows, Stuns and Roots. Silence effects will no longer be reduced by this talent. </li>
 </ul>
 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-02-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-02-02</a>
-                <ul>
-                  <li>
-                    <p><strong>General</strong></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-02-02-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-02-02</a>
+                        <ul>
+                          <li>
+                            <p><strong>General</strong></p>
 <ul>
 <li>Damage dealt by splash and cleave attacks will no longer trigger effects that would otherwise require a direct attack to trigger (ex: Block, Spell Shield, Imposing Presence, etc.)</li>
 </ul>
 
-                  </li>
-                </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3>Bug Fixes</h3>
-        </div>
-        <div class="panel-body">
-          <div class="row-wrap">
-            <div class="row">
-                <div class="col-lg-9"><ul>
+              <hr>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>Bug Fixes</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="row-wrap">
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Fixed an issue that could cause Kharazim to dash to unexpected locations after casting Radiant Dash.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-08-23-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-08-23</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2017-08-23-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2017-08-23</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Seven-Sided Strike will no longer target D.Va's Mech during Self-Destruct.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-08-08-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-08-08</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-08-08-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-08-08</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim</strong> - Fixed an issue that Stitches' Vile Gas to deal damage to Kharazim while casting Seven-Sided Strike.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-07-11-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-07-11</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-07-11-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-07-11</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Duration bars for Echo of Heaven and Deadly Reach will now appear simultaneously if both are active at once.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-06-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-06-13</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-06-13-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-06-13</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Nazeebo:</strong> Corpse Spiders will no longer prioritize Kharazim's Air Ally or Lucio's Boombox over enemy Heroes.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-25-2-0-launch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-25</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-25-2-0-launch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-25</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Spell Shield:</strong> Toggling Spell Shield will no longer cancel an active Hearthstone channel.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-25-2-0-launch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-25</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-04-25-2-0-launch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-04-25</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Fixed an issue that could cause a slight delay between Ability casts after shift-queuing Radiant Dash.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-warning btn-round-xs btn-xs" href="../patch/2017-03-22-hotfix-patch.html"><i class="fa fa-wrench" aria-hidden="true"></i> 2017-03-22</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-warning btn-round-xs btn-xs" href="../patch/2017-03-22-hotfix-patch.html"><i class="fa fa-wrench" aria-hidden="true"></i> 2017-03-22</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Dehaka:</strong> Becoming targeted by Kharazim's Divine Palm while affected by Dehaka's Contagion Talent will no longer cause Isolation's model to persist indefinitely above the target.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Fixed an issue that prevented shift-queuing Radiant Dash casts to allied Heroes.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-03-14-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-03-14</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Air Ally will now properly reveal Creep Tumors and Toxic Nests.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Fixed an issue that could prevent Kharazim from automatically acquiring a new target after activating Deadly Reach outside of his attack range.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Quest Talents:</strong> Kharazim's Insight will now properly play its quest completion sound effect.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-24-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-24</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Becoming trapped by Chromie's Time Trap while using Radiant Dash with the Way of the Hundred Fists Talent will no longer prevent Kharazim from issuing Basic Attacks until Radiant Dash is cast a second time.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-04-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-04</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2017-01-04-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2017-01-04</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim</strong>: Fixed an issue that caused Kharazim's final hit during Way of the Hundred Fists to deal more damage than intended.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-info btn-round-xs btn-xs" href="../patch/2016-12-06-balance-update.html"><i class="fa fa-balance-scale" aria-hidden="true"></i> 2016-12-06</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Spell Shield:</strong> A cooldown timer will now properly appear when Spell Shield's effects are triggered in the same moment that the Talent was activated.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-11-15-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-11-15</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Damage Reduction:</strong> When two damage reduction effects, such as Resistant (25%) and Hardened Shield (75%), are simultaneously applied to a Hero, the larger effect will no longer be overridden by the lesser effect.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-10-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-10-18</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-10-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-10-18</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Will no longer automatically resume attacking enemies after using Radiant Dash to dive to an ally. This fix also applies to Illidan's Friend or Foe and Kerrigan's Adaptation Talents.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-10-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-10-18</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-10-18-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-10-18</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li><strong>Kharazim:</strong> Fixed a rare issue in which movement commands could persist after casting Radiant Dash.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-07-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-07-12</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2016-07-12-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2016-07-12</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>The visual effects for Butcher's Brand will no longer persist on a target that is protected from death by Kharazim's Divine Palm.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Heroes with the Relentless Talent that become Polymorphed will now properly receive damage from Brightwing's Unstable Anomaly Talent when Polymorph expires.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9"><ul>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-11-17-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-11-17</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9"><ul>
 <li>Kharazim's Overtake Talent will now properly last for its full duration.</li>
 </ul>
 </div>
-                <div class="col-lg-3">
-                  <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-10-06-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-10-06</a>
+                        <div class="col-lg-3">
+                          <a class="btn btn-success btn-round-xs btn-xs" href="../patch/2015-10-06-patch-notes.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> 2015-10-06</a>
+                        </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <hr>
+            </div>
+            <div class="tab-pane fade" id="by-date">
+              <div id="patch2017-09-26" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-09-26 Patch Notes <small class="hidden-xs">v 2.28.0</small> <a class="permalink hidden-xs" href="#patch2017-09-26" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/21072294" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Cooldown increased from 8 to 10 seconds</li>
+<li>Mana cost increased from 60 to 65</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Transcendence (Passive)
+<ul>
+<li>Healing increased from 73 to 96 per 3 Basic Attacks</li>
+</ul></li>
+<li>Insight (Passive)
+<ul>
+<li>Cooldown reduction increased from 1 to 1.5 seconds per 3 Basic Attacks</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Dash of Light (Q + W)
+<ul>
+<li>Increased bonus healing from 50% to 75% for dashing to an ally</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comment:</strong></em> These changes are designed to increase the power of
+  Insight and Transcendence by shifting more of Kharazim's healing power pie
+  into them. We want to encourage the same active gameplay that Iron Fist
+  Kharazim's have, but increasing healing and utility instead of damage when the
+  other Talents are chosen.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-08-23" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-08-23 Balance Update <small class="hidden-xs">v 2.27.2</small> <a class="permalink hidden-xs" href="#patch2017-08-23" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20973152" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim:</strong> Fixed an issue that could cause Kharazim to dash to unexpected locations after casting Radiant Dash.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-08-08" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-08-08 Patch Notes <small class="hidden-xs">v 2.27.0</small> <a class="permalink hidden-xs" href="#patch2017-08-08" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20944073" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim:</strong> Seven-Sided Strike will no longer target D.Va's Mech during Self-Destruct. </li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-07-11" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-07-11 Patch Notes <small class="hidden-xs">v 2.26.3</small> <a class="permalink hidden-xs" href="#patch2017-07-11" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20888403" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim</strong> – Fixed an issue that Stitches’ Vile Gas to deal damage to Kharazim while casting Seven-Sided Strike.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-06-13" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-06-13 Patch Notes <small class="hidden-xs">v 2.26.0</small> <a class="permalink hidden-xs" href="#patch2017-06-13" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20838723" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim:</strong> Duration bars for Echo of Heaven and Deadly Reach will now appear simultaneously if both are active at once.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-04-25" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-04-25 2.0 Launch Notes <small class="hidden-xs">v 2.25.0</small> <a class="permalink hidden-xs" href="#patch2017-04-25" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20721900" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Nazeebo:</strong> Corpse Spiders will no longer prioritize Kharazim’s Air Ally or Lúcio’s Boombox over enemy Heroes.</li>
+</ul>
+
+                  <ul>
+<li><strong>Spell Shield:</strong> Toggling Spell Shield will no longer cancel an active Hearthstone channel.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-03-22" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-03-22 Hotfix Patch <small class="hidden-xs">v 24.1</small> <a class="permalink hidden-xs" href="#patch2017-03-22" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20571513" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim:</strong> Fixed an issue that could cause a slight delay between Ability casts after shift-queuing Radiant Dash.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-03-14" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-03-14 Patch Notes <small class="hidden-xs">v 24.0</small> <a class="permalink hidden-xs" href="#patch2017-03-14" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20581822" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Dehaka:</strong> Becoming targeted by Kharazim’s Divine Palm while affected by Dehaka's Contagion Talent will no longer cause Isolation’s model to persist indefinitely above the target.</li>
+</ul>
+
+                  <ul>
+<li><strong>Kharazim:</strong> Fixed an issue that prevented shift-queuing Radiant Dash casts to allied Heroes.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-01-24" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-01-24 Patch Notes <small class="hidden-xs">v 23.0</small> <a class="permalink hidden-xs" href="#patch2017-01-24" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20481262" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim:</strong> Air Ally will now properly reveal Creep Tumors and Toxic Nests.</li>
+</ul>
+
+                  <ul>
+<li><strong>Kharazim:</strong> Fixed an issue that could prevent Kharazim from automatically acquiring a new target after activating Deadly Reach outside of his attack range.</li>
+</ul>
+
+                  <ul>
+<li><strong>Quest Talents:</strong> Kharazim’s Insight will now properly play its quest completion sound effect.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2017-01-04" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2017-01-04 Patch Notes <small class="hidden-xs">v 22.5</small> <a class="permalink hidden-xs" href="#patch2017-01-04" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20407400" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim:</strong> Becoming trapped by Chromie’s Time Trap while using Radiant Dash with the Way of the Hundred Fists Talent will no longer prevent Kharazim from issuing Basic Attacks until Radiant Dash is cast a second time.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-12-06" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-12-06 Balance Update <small class="hidden-xs">v 22.2</small> <a class="permalink hidden-xs" href="#patch2016-12-06" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20379599" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Increased the Movement Speed bonus from 10 to 15%</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Iron Fists (Trait)
+<ul>
+<li>Damage bonus reduced from 125 to 110%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Earth Ally (Active)
+<ul>
+<li>Cooldown increased from 30 to 45 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Heavenly Zeal (W)
+<ul>
+<li>Movement Speed bonus increased from 25 to 30%</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We're glad to see that Iron Fists Kharazim is a
+  very viable melee Assassin/Support hybrid! We think that we can reduce the
+  damage slightly on it, since Kharazim was able to throughput strong damage and
+  healing with the Talent. While the damage potential of that build is stronger
+  than we want, overall Kharazim is close to balanced, so we've provided a small
+  Movement Speed increase to Breath of Heaven to offset the loss.</p>
+</blockquote>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim</strong>: Fixed an issue that caused Kharazim's final hit during Way of the Hundred Fists to deal more damage than intended.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-11-15" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-11-15 Patch Notes <small class="hidden-xs">v 22.0</small> <a class="permalink hidden-xs" href="#patch2016-11-15" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20372990" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Abilities</strong></p>
+<ul>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Healing increased from 280 to 290</li>
+</ul></li>
+</ul>
+<p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Iron Fists (Trait)
+<ul>
+<li>Added Functionality:
+<ul>
+<li>Every third Basic Attack now also increases your Movement Speed by 30% for 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>New Talent: Spirit Ally (Active)</strong>
+<ul>
+<li>Place a Spirit Ally that heals allies in a large area around it for 2% of their maximum Health every second for 10 seconds. Has 150 Health. You can Radiant Dash to Spirit Allies. 45 second cooldown.</li>
+</ul></li>
+<li><strong>New Talent: Earth Ally (Active)</strong>
+<ul>
+<li>Place an Earth Ally that reduces Heroic Basic Attack damage nearby allied Heroes receive by 50%. Has 400 Health and lasts 10 seconds. You can Radiant Dash to Earth Allies. 30 second cooldown.</li>
+</ul></li>
+<li><strong>New Talent: Air Ally (Active)</strong>
+<ul>
+<li>Place an Air Ally that grants vision of a large area around it for 40 seconds. Has 70 Health. You can Radiant Dash to Air Allies. 20 second cooldown. 2 charges.</li>
+</ul></li>
+<li>Healing Ward (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Foresight (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Overtake (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Protective Shield (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>New Talent: Heavenly Zeal (W)</strong>
+<ul>
+<li>Increases the Movement Speed bonus of Breath of Heaven on other allies from 10 to 25%</li>
+</ul></li>
+<li>Blinding Speed (Q)
+<ul>
+<li>Moved from level 16</li>
+</ul></li>
+<li>Blazing Fists (E)
+<ul>
+<li>Moved from level 16</li>
+<li>Cooldown reduction per Basic Attack reduced from 1 to .75 seconds.</li>
+</ul></li>
+<li>Clairvoyance (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Cleanse (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Fists of Fury
+<ul>
+<li>Deadly Reach duration bonus increased from 50 to 100%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>New Talent: Cleansing Touch (Q)</strong>
+<ul>
+<li>Radiant Dashing to an allied Hero grants them Unstoppable for 1 second</li>
+</ul></li>
+<li><strong>New Talent: Dash of Light (W)</strong>
+<ul>
+<li>Radiant Dashing to an ally increases the healing they received from Breath of Heaven by 50% for 3 seconds</li>
+</ul></li>
+<li>Echo of Heaven (W)
+<ul>
+<li>Moved from level 7</li>
+<li>Delay between heals increased from 2 to 3 seconds</li>
+<li>Second heal amount increased from 35 to 75%</li>
+<li>Now also reduces the initial heal amount of Breath of Heaven to 75%</li>
+</ul></li>
+<li>Way of the Hundred Fists (Q)
+<ul>
+<li>Moved from level 7</li>
+<li>Now deals a volley of 6 Basic Attacks that each deal 50% of your Basic Attack damage.</li>
+</ul></li>
+<li>Circle of Life (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Soothing Breeze (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> Kharazim’s Talents have been updated to create
+  more compelling choices at every tier. To do this, we’ve made sure that Iron
+  Fists / Bruiser style Kharazim is viable by increasing its damage uptime,
+  removed a lot of the generic Talents and replaced them with Kharazim specific
+  options like Mystic Allies, and re-arranged a lot of the tree so that you
+  don’t have to sacrifice as much healing to pick mobility, utility or damage.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>Level (Tier)</strong></th>
+<th></th>
+<th><strong>Kharazim Talents</strong></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 (1)</strong></td>
+<td>Transcendence</td>
+<td>Iron Fists</td>
+<td>(!) Insight</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>4 (2)</strong></td>
+<td><em>Spirit Ally (Active)</em></td>
+<td><em>Earth Ally (Active)</em></td>
+<td><em>Air Ally (Active)</em></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>7 (3)</strong></td>
+<td><strong><em>Blinding Speed (Q)</em></strong></td>
+<td><em>Heavenly Zeal (W)</em></td>
+<td><strong>Blazing Fists (E)</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>10 (4)</strong></td>
+<td>Divine Palm (R)</td>
+<td>Seven-Sided Strike (R)</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>13 (5)</strong></td>
+<td>Quicksilver (Q)</td>
+<td>Fists of Fury (E)</td>
+<td>Spell Shield (Active)</td>
+<td>Sixth Sense (Passive)</td>
+</tr>
+<tr>
+<td><strong>16 (6)</strong></td>
+<td><em>Cleansing Touch (Q)</em></td>
+<td><strong>Way of the Hundred Fists (Q)</strong></td>
+<td><strong>Echo of Heaven (W)</strong></td>
+<td><em>Dash of Light (W)</em></td>
+</tr>
+<tr>
+<td><strong>20 (7)</strong></td>
+<td>Peaceful Repose (R)</td>
+<td>Trasngression (R)</td>
+<td><strong>Storm Shield (Active)</strong></td>
+<td><em>Epiphany (Active)</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em><strong>NEW</strong></em> Talent.</li>
+<li><strong>Bold text</strong> indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Spell Shield:</strong> A cooldown timer will now properly appear when Spell Shield’s effects are triggered in the same moment that the Talent was activated.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-10-18" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-10-18 Patch Notes <small class="hidden-xs">v 21.0</small> <a class="permalink hidden-xs" href="#patch2016-10-18" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20328243" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Damage Reduction:</strong> When two damage reduction effects, such as Resistant (25%) and Hardened Shield (75%), are simultaneously applied to a Hero, the larger effect will no longer be overridden by the lesser effect.</li>
+</ul>
+
+                  <ul>
+<li><strong>Kharazim:</strong> Will no longer automatically resume attacking enemies after using Radiant Dash to dive to an ally. This fix also applies to Illidan’s Friend or Foe and Kerrigan’s Adaptation Talents.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-09-27" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-09-27 Patch Notes <small class="hidden-xs">v 20.2, 20.3, 20.4, 20.5</small> <a class="permalink hidden-xs" href="#patch2016-09-27" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20285864" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Sixth Sense (Passive)
+<ul>
+<li>Block amount increased from 50 to 75% after being stunned or rooted.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-09-13" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-09-13 Patch Notes <small class="hidden-xs">v 20.0</small> <a class="permalink hidden-xs" href="#patch2016-09-13" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20243513" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Spell Shield</strong> <strong>(Passive)</strong></p>
+<ul>
+<li>Added functionality:
+<ul>
+<li>Spell Shield can now be toggled on or off to allow for better control of which Abilities you want to mitigate</li>
+</ul></li>
+</ul>
+
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Relentless (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Sixth Sense (Passive)</strong>
+<ul>
+<li>Stuns and Roots against Kharazim grant 50% damage reduction from Basic Attacks for 4 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We’re removing the majority of our old Relentless-
+  like Talents from the game, because we found that it wasn’t clear to the enemy
+  team what was happening. Reducing the duration on very short disabling effects
+  to begin with was hard to notice, and typically felt like a bug when it did
+  happen. In some cases, we’re replacing these Talents with Hero specific ones
+  that more clearly convey what’s happening, while fitting the gameplay of the
+  Hero.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-07-12" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-07-12 Patch Notes <small class="hidden-xs">v 19.0</small> <a class="permalink hidden-xs" href="#patch2016-07-12" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20164442" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Relentless</strong></p>
+<ul>
+<li>Relentless and similar Hero-specific Talents will now only reduce the duration of Slows, Stuns and Roots. Silence effects will no longer be reduced by this talent. </li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> With an increasing number of CC effects entering
+  the Nexus we found ourselves constantly asking ourselves “Should Relentless
+  work against this?” which quickly turned into a rabbit hole of ‘what-ifs’ and
+  ‘how comes’. We agreed that the talent was going to continue to become
+  stronger as we moved forward and decided to limit the number of effects that
+  it can reduce.</p>
+</blockquote>
+
+                  <h4>Hero Updates</h4>
+                  <p><strong>Talents</strong></p>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Insight (Trait)</strong>
+<ul>
+<li>New Functionality:
+<ul>
+<li><strong>Quest:</strong> Every 3rd Basic Attack restores 14 Mana. After this effect triggers 100 times, every 3rd attack will also reduce the cooldown of all Basic Abilities by 1 second</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> Insight was seeing very little play, mainly
+  because it wasn’t distinct enough. In order to both buff it and make it
+  different, we’re making it a Quest Talent/Trait. We felt the cooldown
+  reduction fits well with the increased Mana, as Insight is about using all
+  your Abilities (both offensive and defensive) more frequently.</p>
+</blockquote>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li><strong>Kharazim:</strong> Fixed a rare issue in which movement commands could persist after casting Radiant Dash.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-03-29" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-03-29 Patch Notes <small class="hidden-xs">v 17.0</small> <a class="permalink hidden-xs" href="#patch2016-03-29" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20063493" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Design & Gameplay</h4>
+                  <p><strong>Hero Movement Interaction Unification</strong></p>
+<ul>
+<li>Several Abilities have been changed in an effort to unify their usage.
+<ul>
+<li>The following Abilities can now be used to move to invulnerable units:
+<ul>
+<li>Kerrigan — Ravage (Q)</li>
+<li>Illidan — Dive (Q)</li>
+</ul></li>
+<li>The following Abilities can now be used to travel to objects created by an enemy, such as Sgt. Hammer’s Spider Mines:
+<ul>
+<li>Kerrigan — Ravage (Q)</li>
+<li>Lunara — Leaping Strike (R)</li>
+<li>Illidan — Dive (Q)</li>
+<li>Kharazim — Radiant Dash (Q)</li>
+<li>Chen — Flying Kick (Q)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-03-09" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-03-09 Balance Update <small class="hidden-xs">v 16.4</small> <a class="permalink hidden-xs" href="#patch2016-03-09" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20058183" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Heal amount increased from 250 (+4% per level) to 280 (+4% per level)</li>
+<li>Echo of Heaven (Talent)
+<ul>
+<li>Second wave Heal amount decreased from 50% to 35%</li>
+</ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><strong><em>Developer Comments:</em></strong> Kharazim’s Echo of Heaven Talent is contributing
+  too much to his overall Healing. We’ve decided to nerf the amount of Healing
+  it offers. To compensate, we’re buffing his base kit. His Healing output with
+  the Talent should be roughly the same, but now players should have more
+  flexibility to pick other Talents on its tier.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-02-02" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-02-02 Patch Notes <small class="hidden-xs">v 16.0</small> <a class="permalink hidden-xs" href="#patch2016-02-02" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19995509" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Design & Gameplay</h4>
+                  <p><strong>General</strong></p>
+<ul>
+<li>Damage dealt by splash and cleave attacks will no longer trigger effects that would otherwise require a direct attack to trigger (ex: Block, Spell Shield, Imposing Presence, etc.)</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-01-27" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-01-27 Balance Update <small class="hidden-xs">v 15.7</small> <a class="permalink hidden-xs" href="#patch2016-01-27" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/20021838" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Cleanse</strong></p>
+<ul>
+<li>Tooltip updated to reflect that Cleanse cannot be self-cast</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2016-01-20" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2016-01-20 Balance Update <small class="hidden-xs">v 15.6</small> <a class="permalink hidden-xs" href="#patch2016-01-20" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19996517" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Talents</h4>
+                  <p><strong>Cleanse</strong></p>
+<ul>
+<li>This Talent’s functionality has changed significantly</li>
+<li>Target ally now becomes Unstoppable for 1 second. Cannot be self-cast. 60 second cooldown</li>
+</ul>
+<blockquote>
+<p><strong><em>Developer Comments:</em></strong> We want to give players more options to deal with
+  the chain-stuns that have resurged after the scaling changes went into effect.
+  We believe this increase in power to Cleanse should allow teams some counter-
+  play against stun-heavy compositions.</p>
+</blockquote>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-11-17" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-11-17 Patch Notes <small class="hidden-xs">v 15.0</small> <a class="permalink hidden-xs" href="#patch2015-11-17" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19960704" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>Hero Updates</h4>
+                  <ul>
+<li><strong>Insight (Trait)</strong>
+<ul>
+<li>Mana regeneration granted on every third hit increased from 12 (+0.21 per level) to 14 (+0.36 per level)</li>
+</ul></li>
+<li><strong>Iron Fists (Trait)</strong>
+<ul>
+<li>Damage bonus granted on every third hit increased from 100% to 125%</li>
+</ul></li>
+</ul>
+<blockquote>
+<p><strong><em>Developer Comments:</em></strong> Most Kharazim players pick Transcendence at level
+  1, and this is often the most powerful option regardless of the situation. We
+  tuned up the other two options here to help provide Kharazim players with
+  different options.</p>
+</blockquote>
+
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Heroes with the Relentless Talent that become Polymorphed will now properly receive damage from Brightwing’s Unstable Anomaly Talent when Polymorph expires.</li>
+</ul>
+
+                  <ul>
+<li>The visual effects for Butcher’s Brand will no longer persist on a target that is protected from death by Kharazim’s Divine Palm.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-10-06" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-10-06 Patch Notes <small class="hidden-xs">v 14.0</small> <a class="permalink hidden-xs" href="#patch2015-10-06" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19893628" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4 class="bug-fixes">Bug Fixes</h4>
+                  <ul>
+<li>Kharazim’s Overtake Talent will now properly last for its full duration.</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
+              <div id="patch2015-08-18" class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3>2015-08-18 Patch Notes <small class="hidden-xs">v 13.1</small> <a class="permalink hidden-xs" href="#patch2015-08-18" title="Permalink to this location"><i class="fa fa-link" aria-hidden="true"></i></a><a class="pull-right" href="http://us.battle.net/heroes/en/blog/19818499" target="_blank" title="View full patch notes"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+                </div>
+                <div class="panel-body table-responsive">
+                  <h4>New Hero</h4>
+                  <p><strong>Kharazim</strong> has been added to Heroes of the Storm and is now available for play! Read on for a brief overview of this new Support Hero’s Abilities.</p>
+<p><strong>Trait</strong></p>
+<ul>
+<li><strong>Pick Your Trait</strong>
+<ul>
+<li>Learn Transcendence, Iron Fists, or Insight using the Talents panel to select your Trait.
+<ul>
+<li><strong>Transcendence</strong>
+<ul>
+<li>Every third Basic Attack heals the lowest nearby allied Hero.</li>
+</ul></li>
+<li><strong>Iron Fists</strong>
+<ul>
+<li>Every third Basic Attack deals 100% bonus damage.</li>
+</ul></li>
+<li><strong>Insight</strong>
+<ul>
+<li>Every third Basic Attack restores Mana.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Basic Abilities</strong></p>
+<ul>
+<li><strong>Radiant Dash (Q)</strong>
+<ul>
+<li>Jump to an ally or enemy. Enemies are immediately hit with a Basic Attack. Stores up to two charges. 12 second cooldown per charge.</li>
+</ul></li>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Heal nearby allied Heroes, granting them a 10% Movement Speed bonus for 3 seconds.</li>
+</ul></li>
+<li><strong>Deadly Reach (E)</strong>
+<ul>
+<li>Your next Basic Attack increases your Attack Speed and Attack Range by 100% for 2 seconds.</li>
+</ul></li>
+</ul>
+<p><strong>Heroic Abilities</strong></p>
+<ul>
+<li><strong>Seven-Sided Strike (R)</strong>
+<ul>
+<li>Become Invulnerable, striking 7 times over 2 seconds in a large area. Each strike deals 7% of the target’s maximum Health as damage, and prioritizes the Hero with the highest remaining Health.</li>
+</ul></li>
+<li><strong>Divine Palm (R)</strong>
+<ul>
+<li>Protect an allied Hero from death. The next source of fatal damage within 3 seconds is prevented, and the target is instead healed for a large amount.</li>
+</ul></li>
+</ul>
+
+                  <h4>Talents</h4>
+                  <p><strong>Cleanse</strong></p>
+<blockquote>
+<p><em><strong>Developer Comments:</strong></em> We didn’t like the gameplay of casting Cleanse
+  preemptively on a target that is about to be CC’ed. For example, you see
+  Butcher charging your Valla, and right before impact you use Cleanse on Valla,
+  allowing her to immediately Vault away. The change also prevents healers from
+  cleansing themselves preemptively, providing a guaranteed target if the
+  opposing team has only secured one Cleanse. As a side note, the original
+  reason the Unstoppable functionality was available in the first place, was to
+  help alleviate some persistent CC effects like Putrid Bile. We didn’t want you
+  to cleanse a Putrid Bile only to have the slow immediately reapply.</p>
+</blockquote>
+<ul>
+<li>No longer makes the target Unstoppable for 1 second</li>
+<li>Now adds Relentless to the target for 2 seconds (50% shorter CC duration)</li>
+</ul>
+
+                </div>
+              </div>
+              <hr>
             </div>
           </div>
         </div>
       </div>
-      <hr>
+      
     </article>
     <footer>
       <div class="container">
