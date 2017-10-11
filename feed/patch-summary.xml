@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2017-09-26T18:10:00.000Z</updated>
+  <updated>2017-10-11T17:25:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2017-10-11 Balance Update v 2.28.2</title>
+    <published>2017-10-11T17:25:00.000Z</published>
+    <updated>2017-10-11T17:25:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2017-10-11-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-10-11-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2017-10-11" target="_blank">Abathur</a>, 
+          <a href="https://heroespatchnotes.com/hero/ana.html#patch2017-10-11" target="_blank">Ana</a>, 
+          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2017-10-11" target="_blank">Brightwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/dva.html#patch2017-10-11" target="_blank">D.Va</a>, 
+          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2017-10-11" target="_blank">Garrosh</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2017-10-11" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2017-10-11" target="_blank">Johanna</a>, 
+          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2017-10-11" target="_blank">Kel'Thuzad</a>, 
+          <a href="https://heroespatchnotes.com/hero/kharazim.html#patch2017-10-11" target="_blank">Kharazim</a>, 
+          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2017-10-11" target="_blank">Lt. Morales</a>, 
+          <a href="https://heroespatchnotes.com/hero/lunara.html#patch2017-10-11" target="_blank">Lunara</a>, 
+          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2017-10-11" target="_blank">Malthael</a>, 
+          <a href="https://heroespatchnotes.com/hero/nazeebo.html#patch2017-10-11" target="_blank">Nazeebo</a>, 
+          <a href="https://heroespatchnotes.com/hero/probius.html#patch2017-10-11" target="_blank">Probius</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2017-10-11" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2017-10-11" target="_blank">Zagara</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2017-09-26 Patch Notes v 2.28.0</title>
     <published>2017-09-26T18:10:00.000Z</published>
@@ -309,32 +339,6 @@
       <h4>Reworks</h4>
         <img src="https://heroespatchnotes.com/images/hero/malfurion.png" href="https://heroespatchnotes.com/hero/malfurion.html#patch2017-06-13" alt="Malfurion Rework" height="44" width="44" />
         <img src="https://heroespatchnotes.com/images/hero/thrall.png" href="https://heroespatchnotes.com/hero/thrall.html#patch2017-06-13" alt="Thrall Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-05-31 Balance Update v 2.25.5</title>
-    <published>2017-05-31T18:57:00.000Z</published>
-    <updated>2017-05-31T18:57:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-05-31-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-05-31-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2017-05-31" target="_blank">Alarak</a>, 
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2017-05-31" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2017-05-31" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/dva.html#patch2017-05-31" target="_blank">D.Va</a>, 
-          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2017-05-31" target="_blank">Dehaka</a>, 
-          <a href="https://heroespatchnotes.com/hero/etc.html#patch2017-05-31" target="_blank">E.T.C.</a>, 
-          <a href="https://heroespatchnotes.com/hero/probius.html#patch2017-05-31" target="_blank">Probius</a>, 
-          <a href="https://heroespatchnotes.com/hero/ragnaros.html#patch2017-05-31" target="_blank">Ragnaros</a>, 
-          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2017-05-31" target="_blank">Samuro</a>, 
-          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2017-05-31" target="_blank">Tassadar</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2017-05-31" target="_blank">Tyrande</a>, 
-          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2017-05-31" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
       ]]></content>
   </entry>
 </feed>
