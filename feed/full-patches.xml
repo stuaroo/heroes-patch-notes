@@ -362,6 +362,8 @@ bedlam in his wake.</p>
 <li>Let the Killing Begin (Passive)
 <ul>
 <li>Moved from Level 4</li>
+<li><span class="text-warning">Bonus per enemy killed decreased from 6% to 5%</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/7760zq/undocumented_zuljin_guillotine_buff/dokjs20/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Maximum bonus increased from 30% to 40%</span></li>
 </ul></li>
 <li>Wrong Place Wrong Time (W)
 <ul>
@@ -387,6 +389,7 @@ bedlam in his wake.</p>
 </ul></li>
 <li>Buzzsaw (R)
 <ul>
+<li><span class="text-warning">Damage from Guillotine's forward roll increased from 50% to 75%</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/7760zq/undocumented_zuljin_guillotine_buff/dokjs20/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
 <li>Added functionality:
 <ul>
 <li>If Guillotine kills a Hero, instantly heal to full Health.</li>
@@ -614,7 +617,7 @@ bedlam in his wake.</p>
 <ul>
 <li>New functionality:
 <ul>
-<li>While Avatar is active you gain 20 Armor and Basic Attacks reduce the cooldown of Thunder Clap and Dwarf Toss by .5 seconds</li>
+<li>While Avatar is active you gain 20 Armor and Basic Attacks reduce the cooldown of Thunder Clap and Dwarf Toss by <s>.5</s> <span class="text-warning">0.75</span> seconds <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/7760zq/undocumented_zuljin_guillotine_buff/dokjs20/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
 </ul></li>
 </ul></li>
 <li>Grand Slam (R)
