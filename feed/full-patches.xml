@@ -341,7 +341,7 @@ bedlam in his wake.</p>
 <li>Basic Attacks against enemies Heroes increase Zul’jin’s movement speed by 3% for 2 seconds, stacking up to 30%</li>
 </ul></li>
 </ul></li>
-<li>Lacerate (Trait)
+<li>Lacerate (W)
 <ul>
 <li>Moved from Level 16</li>
 </ul></li>
@@ -821,7 +821,7 @@ bedlam in his wake.</p>
 </ul></li>
 </ul>
 
-<p><strong>Mounts</strong></p>
+<p><strong>New Mounts</strong></p>
 
 <ul>
 <li><strong>Phantom Stallion</strong>
@@ -832,6 +832,12 @@ bedlam in his wake.</p>
 <li>Secret Phantom Stallion</li>
 <li>Spectral Stallion</li>
 </ul></li>
+</ul>
+
+<p><strong>New Announcer</strong></p>
+
+<ul>
+<li>Junkrat</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
@@ -939,10 +945,10 @@ changes alongside a few bug fixes.</p>
   <td><a href="#malthael">Malthael</a></td>
   <td><a href="#zagara">Zagara</a></td>
   <td><a href="#lt-morales">Lt. Morales</a></td>
-  <td></td>
+  <td><a href="#cho">Cho</a></td>
 </tr>
 <tr>
-  <td></td>
+  <td><a href="#gall">Gall</a></td>
   <td></td>
   <td><a href="#stukov">Stukov</a></td>
   <td></td>
@@ -1034,6 +1040,19 @@ changes alongside a few bug fixes.</p>
 <li><strong>Reaper’s Mark (Trait)</strong>
 <ul>
 <li>Damage reduced from 2.25 to 2% of enemy Hero maximum Health</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="gall">Gall</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Ogre Rage (D)</strong></span>
+<ul>
+<li><span class="text-warning">It should now be more apparent when Ogre Rage (D) is active</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-10-09-ptr-patch-notes.html#gall" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
 </ul></li>
 </ul>
 
@@ -1228,6 +1247,12 @@ changes alongside a few bug fixes.</p>
 <p><a href="#heroes">Return</a></p>
 
 <h4 id="brightwing">Brightwing</h4>
+
+<p><strong>Miscellaneous</strong></p>
+
+<ul>
+<li><span class="text-warning">Phase Shift (Z) will now also call out the targeted ally in an allied chat announcement upon activation.</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-10-09-ptr-patch-notes.html#brightwing" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
 
 <p><strong>Abilities</strong></p>
 
@@ -1477,6 +1502,19 @@ changes alongside a few bug fixes.</p>
 <ul>
 <li>Damage increased from 80 to 84</li>
 </ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="cho">Cho</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Ogre Hide (D)</strong></span>
+<ul>
+<li><span class="text-warning">It should now be more apparent when Ogre Hide (D) is active.</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-10-09-ptr-patch-notes.html#cho" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
 </ul></li>
 </ul>
 
@@ -2370,8 +2408,8 @@ bedlam in his wake.</p>
 <p><strong>Stats</strong></p>
 
 <ul>
-<li>Health from 1682 to 1590</li>
-<li>Health regen from 3.504 to 3.3125</li>
+<li>Health reduced from 1682 to 1590</li>
+<li>Health regen reduced from 3.5 to 3.3</li>
 </ul>
 
 <p><strong>Abilities</strong></p>
