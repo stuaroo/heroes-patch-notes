@@ -2,10 +2,684 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2017-11-01T18:25:00.000Z</updated>
+  <updated>2017-11-06T19:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2017-11-06 PTR Patch Notes</title>
+    <published>2017-11-06T19:00:00.000Z</published>
+    <updated>2017-11-06T19:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2017-11-06-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-06-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-notes-november-6-2017">Heroes of the Storm PTR Notes — November 6, 2017</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21179026" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21179026" target="_blank">Official Patch Notes</a> <small>v 2.29.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until November 13. During this time, we kindly
+request your assistance in trying out the new content before we officially
+release the patch. Just like last time, if you encounter any bugs or other
+issues during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
+forum</a> to let us know about
+your experiences.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<p><strong>Dragons of the Nexus Event Quest</strong></p>
+
+<p>A host of new portrait rewards are ready to swoop into your collection as our
+Dragons of the Nexus event takes flight! The event kicks off Tuesday, November
+14, and lasts until December 12, so be sure to login and complete the quests
+below to start claiming your rewards.</p>
+
+<ul>
+<li><strong>Login Reward</strong>
+<ul>
+<li><strong>Quest:</strong> Log in to Heroes of the Storm during the Dragons of the Nexus event.
+<ul>
+<li><strong>Reward:</strong> Stained Glass Alexstrasza and Hanzo Portrait</li>
+</ul></li>
+</ul></li>
+<li><strong>3 Part Quest Chain</strong>
+<ul>
+<li>Play Heroes of the Storm in Versus AI, Quick Match, Ranked, or Unranked to advance quest progress. Only one part will be active at any time, and each quest must be completed in order.</li>
+<li><strong>Part 1:</strong> Play 5 games
+<ul>
+<li><strong>Reward:</strong> Dragonqueen Alexstrasza Portrait</li>
+</ul></li>
+<li><strong>Part 2:</strong> Play 5 games
+<ul>
+<li><strong>Reward:</strong> Dragonstrike Portrait</li>
+</ul></li>
+<li><strong>Part 3:</strong> Achieve 90 takedowns in winning games
+<ul>
+<li><strong>Reward:</strong> Stained Glass Alexstrasza and Hanzo Portrait</li>
+</ul></li>
+</ul></li>
+<li><strong><em>PTR Note:</em></strong> <em>While elements of this event may be visible on the Public Test Realm, any progress or rewards earned during PTR testing will not transfer to the live version of the game when this patch is officially released next week.</em></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-hero-alexstrasza">New Hero: Alexstrasza</h3>
+
+<p>Alexstrasza, the queen of dragons, was empowered by the titans to be the
+guardian of all life on Azeroth. She has aided mortals time and again, even at
+great personal cost. Now, she soars across the Nexus, protecting life wherever
+she finds it.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Dragonqueen</strong>
+<ul>
+<li>After 1.25 seconds, transform into a dragon and gain 500 Health. While Dragonqueen is active, Alexstrasza's Basic Abilities are empowered, her Basic Attacks deal 143 damage and heal allied Heroes for 43 in an arc in front of her, and the duration of incoming Slows, Roots, Blinds, and Stuns is reduced by 50%. Lasts 15 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Gift of Life (Q)</strong>
+<ul>
+<li>Sacrifice 15% of Alexstrasza's current Health, healing an ally for 150% of that amount.</li>
+<li><strong>Dragonqueen:</strong> Breath of Life cooldown greatly reduced and does not cost Health.</li>
+</ul></li>
+<li><strong>Abundance (W)</strong>
+<ul>
+<li>Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health.</li>
+<li><strong>Dragonqueen:</strong> Preservation heal area and amount greatly increased.</li>
+</ul></li>
+<li><strong>Flame Buffet (E)</strong>
+<ul>
+<li>Launch a fireball, Burning enemies hit for 75 damage over 5.5 seconds.Hitting enemies that are already Burning deals 125 bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost.</li>
+<li>Dragonqueen: Wing Buffet damage and Knockback enemies in an arc.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Life-Binder (R)</strong>
+<ul>
+<li>Bind Alexstrasa's life force with an allied Hero. After 2 seconds, the Hero with a lower percentage of Health is set to the same Health percentage as the other Hero..</li>
+</ul></li>
+<li><strong>Cleansing Flame (R)</strong>
+<ul>
+<li>After 1.25 seconds, take to the sky and drop fireballs at the position of your mouse cursor every 1.2 seconds for 6 seconds. Each fireball restores 300 Health to nearby allied Heroes, and deals 150 damage to nearby enemies.2 seconds after dropping all fireballs, Alexstrasza lands at the position of your mouse cursor.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="ai">AI</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Made improvements to Battleground strategies used by Elite AI Heroes.</li>
+<li>Several additional Heroes have received tactical AI improvements, including:
+<ul>
+<li>Greymane</li>
+<li>Johanna</li>
+<li>Ragnaros</li>
+<li>Rehgar</li>
+<li>Rexxar</li>
+<li>Valeera</li>
+<li>Zarya</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="art">Art</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li>Li Li has received updated visual effects to coincide with Talent changes.</li>
+<li>Sgt. Hammer's Basic Attacks during Siege Mode now better convey area of effect damage.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<ul>
+<li><strong>Haunted Mines</strong>
+<ul>
+<li>Issuing a move order between levels will now have the player automatically use the entrance or exit that is the closest distance to their issued order</li>
+<li><strong>Summoned Golem</strong>
+<ul>
+<li>Attack speed is no longer reduced by Fort and Keep attacks</li>
+<li>Will no longer interrupts its attack mid-swing to cast Slam or Roots</li>
+<li>No longer stops to crush player created walls, but will now pass through them effortlessly</li>
+</ul></li>
+</ul></li>
+<li><strong>Bloodlust Brawl</strong>
+<ul>
+<li>All Minions, Mercs, and the Dragon Knight now have permanent Bloodlust.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> When looking at this Brawl, we really love the Bloodlust buff. By powering up the Players and the Dragon Knight so much, the poor Minions really struggled to provide much value during the Brawl. In order to bring them up to speed with their Mercenary buddies, we’ve decided that all Minions could use permanent Bloodlust as well.</p>
+</blockquote>
+
+<p><strong>Ranked Battleground Rotation Update</strong></p>
+
+<ul>
+<li><strong>Added to Rotation</strong>
+<ul>
+<li>Battlefield of Eternity</li>
+<li>Infernal Shrines</li>
+</ul></li>
+<li><strong>Removed from Rotation</strong>
+<ul>
+<li>Haunted Mines</li>
+<li>Garden of Terror</li>
+</ul></li>
+<li><strong>The full Ranked Battleground Rotation is now as follows:</strong>
+<ul>
+<li>Battlefield of Eternity</li>
+<li>Braxis Holdout</li>
+<li>Cursed Hollow</li>
+<li>Dragon Shire</li>
+<li>Infernal Shrines</li>
+<li>Sky Temple</li>
+<li>Tomb of the Spider Queen</li>
+<li>Towers of Doom</li>
+<li>Volskaya Foundry</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="user-interface">User Interface</h3>
+
+<p><strong>In-Game UI</strong></p>
+
+<ul>
+<li><strong>Capture Points</strong>
+<ul>
+<li>Volskaya Foundry objective UI will now display “Contested” text when members of both teams are actively fighting over a capture point.</li>
+</ul></li>
+<li><strong>Core</strong>
+<ul>
+<li>Notifications that indicate when the allied Core is under attack have been made more apparent.</li>
+</ul></li>
+<li><strong>Talent Tier Advantage Callouts</strong>
+<ul>
+<li>In-game chat messages will now automatically appear for all players when a team reaches levels 10 and 20 in order to more clearly indicate when one team has a Heroic Ability or Storm Talent tier advantage over the other.</li>
+<li>A follow-up message will appear when the second team reaches levels 10 and 20 to indicate that Heroic Abilities or Storm Talents are now available to <strong>both</strong> teams.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="li-li">Li Li</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Fast Feet (Trait)</strong>
+<ul>
+<li>Added Functionality:
+<ul>
+<li>Basic Ability Cooldowns recharge 50% faster while Fast Feet is active. </li>
+</ul></li>
+</ul></li>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li>Cooldown increased from 3 to 4 seconds</li>
+<li>Range reduced from 7 to 6</li>
+<li>Mana Cost reduced from 30 to 25</li>
+</ul></li>
+<li><strong>Cloud Serpent (W)</strong>
+<ul>
+<li>Mana Cost increased from 30 to 40</li>
+<li>Cooldown increased from 10 to 12 seconds.</li>
+<li>Attack Speed reduced from .75 to 1 attacks per second</li>
+<li>Damage increased from 25 to 27 </li>
+<li>Added Functionality:
+<ul>
+<li>Each time a Cloud Serpent attacks, the hero it is attached to is healed for a small amount.</li>
+</ul></li>
+</ul></li>
+<li><strong>Blinding Wind (E)</strong>
+<ul>
+<li>Cooldown increased from 9 to 12 seconds</li>
+<li>Duration reduced from 2 to 1.5 seconds</li>
+<li>Mana Cost decreased from 35 to 30</li>
+</ul></li>
+<li><strong>Jug of 1,000 Cups (R)</strong>
+<ul>
+<li>Cooldown reduced from 70 seconds to 20 seconds</li>
+<li>Jug of 1,000 Cups can now be cancelled early</li>
+<li>Added Functionality:
+<ul>
+<li>Each time an ally is healed by Jug of 1,000 Cups, its cooldown is increased by 2 seconds, to a maximum of 50 additional seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Conjurer’s Pursuit (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Pro Toss (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Timeless Creature (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Gale Force (E)
+<ul>
+<li>Moved to Level 13</li>
+<li>New Functionality
+<ul>
+<li>Increases the duration of Blinding Wind from 2 to 3 seconds. Lili’s Basic Attacks against Blinded Heroes deal 50% more damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>(New Talent) Free Drinks (Q)</strong>
+<ul>
+<li>If Healing Brew heals a target under 50% health, its Cooldown is reduced by 1 second and its mana cost is refunded.</li>
+</ul></li>
+<li><strong>(New Talent) Wind Serpent (W)</strong>
+<ul>
+<li>Cloud Serpent’s Cooldown is reduced by 3 seconds each time you hit a Hero with Blinding Wind.</li>
+</ul></li>
+<li><strong>(New Talent) Eager Adventurer (Trait)</strong>
+<ul>
+<li>Increases the duration of Fast Feet by 50% and Mana Regeneration is increased by 150% while Fast Feet is active. </li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Healing Ward (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Mending Serpent (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Mass Vortex (E)
+<ul>
+<li>Moved to Level 13</li>
+<li>New functionality:
+<ul>
+<li>Blinding Wind hits an additional target. If all targets hit are Heroes, they take 75% increased damage from Blinding Wind.</li>
+</ul></li>
+</ul></li>
+<li>Lingering Blind (E)
+<ul>
+<li>Removed </li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Pitch Perfect (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>The Good Stuff (Q)
+<ul>
+<li>New functionality:
+<ul>
+<li>Healing Brew heals for an additional amount over 3 seconds. While Fast Feet is active, this amount is increased by 100%.</li>
+</ul></li>
+</ul></li>
+<li>Lightning Serpent (W)
+<ul>
+<li>New functionality:
+<ul>
+<li>Cloud Serpent attacks bounce to 2 nearby Heroes for 50% damage.</li>
+</ul></li>
+</ul></li>
+<li>Cleanse (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Let's Go!</strong>
+<ul>
+<li>Activate to heal allied Hero for a small amount and make them unstoppable for 1 second. 40 second cooldown. The cooldown of this ability is affected by Fast Feet. </li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Elusive Feet (Trait)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Hindering Winds (E)
+<ul>
+<li>Moved to Level 4</li>
+<li>Slow amount increased to 30%.</li>
+</ul></li>
+<li>Surging Winds (E)
+<ul>
+<li>New functionality:
+<ul>
+<li>If at least two targets of Blinding Wind are Heroes, gain 10 Spellpower for 10 seconds and reduce the cooldown of Blinding Wind by 3 seconds. </li>
+</ul></li>
+</ul></li>
+<li>Shrink Ray (Active)
+<ul>
+<li>Removed </li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Shake It Off (Trait)
+<ul>
+<li>Moved to Level 20</li>
+<li>New functionality:
+<ul>
+<li>While Fast Feet is active, gain 8 Armor per second, to a maximum of 30 armor.</li>
+</ul></li>
+</ul></li>
+<li>Safety Sprint (Active)
+<ul>
+<li>Moved to Level 4</li>
+<li>New functionality:
+<ul>
+<li>Activate to gain Fast Feet and increase its movement speed bonus to 30% for 2 seconds. 30 second cooldown.</li>
+</ul></li>
+</ul></li>
+<li>Serpent Sidekick (W)
+<ul>
+<li>Moved to Level 4</li>
+<li>New functionality:
+<ul>
+<li>Each time a Cloud Serpent attacks a Hero, its duration is increased by .5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>(New Talent) Pick Me Up (Q)</strong>
+<ul>
+<li>Healing Brew heals for 33% more if the target is under 50% life.</li>
+</ul></li>
+<li><strong>(New Talent) Blessings of Yu'lon (W)</strong>
+<ul>
+<li>Cloud Serpent attacks heal its bearer for an additional 1.5% of their maximum life. </li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Kung Fu Hustle (Trait)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Storm Shield (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Mistweaver (Active)</strong>
+<ul>
+<li>Activate to heal all nearby Allies. 30 second cooldown. The cooldown of this ability is reduced by 1 second each time you or your cloud serpent attacks.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+  <th><strong>LEVEL (TIER)</strong></th>
+  <th><strong>Li Li Talents</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>1 (1)</strong></td>
+  <td><em>Free Drinks (Q)</em></td>
+  <td><em>Wind Serpent (W)</em></td>
+  <td><em>Eager Adventurer (Trait)</em></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>4 (2)</strong></td>
+  <td><strong>Serpent Sidekick (W)</strong></td>
+  <td><strong>Hindering Winds (E)</strong></td>
+  <td><strong>Safety Sprint (Trait)</strong></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>7 (3)</strong></td>
+  <td>The Good Stuff (Q)</td>
+  <td>Lightning Serpent (W)</td>
+  <td><em>Let's Go! (Active)</em></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>10 (4)</strong></td>
+  <td>Jug of 1,000 Cups</td>
+  <td>Water Dragon</td>
+  <td>—</td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>13 (5)</strong></td>
+  <td><strong>Gale Force (E)</strong></td>
+  <td>Surging Winds (E)</td>
+  <td><strong>Mass Vortex (E)</strong></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>16 (6)</strong></td>
+  <td>Two for One (Q)</td>
+  <td><em>Pick Me Up (Q)</em></td>
+  <td><em>Blessings of Yu'lon (W)</em></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>20 (7)</strong></td>
+  <td>Jug of 1,000,000 Cups (R)</td>
+  <td>Double Dragon (R)</td>
+  <td><em>Mistweaver (Active)</em></td>
+  <td><strong>Shake It Off (Trait)</strong></td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
+<li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>Hero Price Reduction</strong></p>
+
+<ul>
+<li>Li-Ming’s prices have been reduced to 7,000 Gold and 625 Gems.</li>
+</ul>
+
+<p><strong>New Bundles</strong> – The following new Bundles and Skin Packs are available for a limited time!</p>
+
+<ul>
+<li>Alexstrasza Heroic Bundle</li>
+<li>Heroes of Luxoria Bundle</li>
+<li>Superheroes of the Storm Bundle</li>
+<li>Team Spirit Bundle</li>
+</ul>
+
+<p><strong>New Announcers</strong></p>
+
+<ul>
+<li>Alarak</li>
+<li>Alexstrasza</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Alexstrasza</strong>
+<ul>
+<li>Ascendant Alexstrasza</li>
+<li>Jade Alexstrasza</li>
+<li>Saronite Alexstrasza</li>
+<li>Snowfall Alexstrasza</li>
+<li><strong>Dark Queen Alexstrasza</strong>
+<ul>
+<li>Divine Queen Alexstrasza</li>
+<li>Ice Queen Alexstrasza</li>
+<li>Iridescent Queen Alexstrasza</li>
+<li>Molten Queen Alexstrasza</li>
+</ul></li>
+<li><strong>Dragon Aspect Alexstrasza</strong>
+<ul>
+<li>Death Aspect Alexstrasza</li>
+<li>Kaldorei Aspect Alexstrasza</li>
+<li>Timeless Aspect Alexstrasza</li>
+<li>Wild Aspect Alexstrasza</li>
+</ul></li>
+</ul></li>
+<li><strong>Azmodan</strong>
+<ul>
+<li>Three-peat Azmodunk</li>
+</ul></li>
+<li><strong>Cho’gall</strong>
+<ul>
+<li>Fel Warlord Cho'gall</li>
+<li>Highmaul Cho'gall</li>
+</ul></li>
+<li><strong>Chromie</strong>
+<ul>
+<li>Elegant Dream Genie Chromie</li>
+<li>Verdant Dream Genie Chromie</li>
+<li>Violet Fel Queen Chromie</li>
+</ul></li>
+<li><strong>Greymane</strong>
+<ul>
+<li>Blackwald Hunter Greymane</li>
+</ul></li>
+<li><strong>Kael'thas</strong>
+<ul>
+<li>Spectre Cyberhawk Kael’thas</li>
+</ul></li>
+<li><strong>Kharazim</strong>
+<ul>
+<li>Sanguine Tiger Kharazim</li>
+<li>Wildstone Tiger Kharazim</li>
+</ul></li>
+<li><strong>Medivh</strong>
+<ul>
+<li>Arcane Medivh</li>
+<li>Emerald Knight Owl Medivh</li>
+</ul></li>
+<li><strong>Samuro</strong>
+<ul>
+<li>Midnight Monkey King Samuro</li>
+</ul></li>
+<li><strong>Varian</strong>
+<ul>
+<li>Obsidian Lionheart Varian</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
+</ul>
+
+<p><strong>AI</strong></p>
+
+<ul>
+<li><strong>Ana:</strong> AI Ana will no longer attempt to Heal allied Garden Terrors, Dragon Knights, or Triglav Protectors.</li>
+<li><strong>Haunted Mines:</strong> Fixed an issue in which AI Heroes would “B-Step” after the neutral Grave Golem was killed, rather than completing their Hearthstone casts.</li>
+<li><strong>Melee Lane Units:</strong> Melee Minions, Mercenaries, and Braxis Holdout’s melee Zerg units will no longer ignore an enemy Ragnaros in Molten Core form.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Malthael:</strong> Movement Speed bonus visual effects will now correctly appear if Malthael learns On a Pale Horse while mounted.</li>
+<li><strong>Mounts:</strong> Visual effects that appear around the Golden Nexus Charger will now correctly animate while using Low graphic settings.</li>
+<li><strong>Varian:</strong> Will once again leap toward his Colossus Smash target.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Cursed Hollow:</strong> Sgt. Hammer’s Spider Mines will now correctly attack enemy Structures affected by the Raven Lord’s Curse.</li>
+<li><strong>Dragon Shire:</strong> Removed two targeting indicators for Dehaka’s Brushstalker that appeared in locations where no Brush was present.</li>
+<li><strong>Try Mode:</strong> Kel’Thuzad’s Master of the Cold Dark Trait Quest will now correctly apply its cooldown reduction bonus after using the Complete Quests button.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> Casting Ultimate Evolution on Jaina will no longer cause Abathur’s Calldown: MULE Talent icon to permanently switch to the icon for Improved Ice Block.</li>
+<li><strong>Abathur:</strong> Attempting to cast Toxic Next in an area that is already densely populated by existing Nests will no longer consume a charge without placing a new Toxic Nest.</li>
+<li><strong>Alarak:</strong> Learning Counter-Strike or Deadly Charge at level 20 will now correctly append that Ability’s description to the Sadism Trait tooltip.</li>
+<li><strong>Azmodan:</strong> All Shall Burn’s tooltip has been updated to clarify that its bonus Structure damage is a flat amount, rather than percentage-based.</li>
+<li><strong>Ana:</strong> A targeting indicator will now correctly appear when using Healing Dart charges granted by Active Reload.</li>
+<li><strong>Chromie:</strong> Fixed an issue in which certain Abilities, like Artanis’ Blade Dash, could prevent Temporal Loop from returning the target to its original location.</li>
+<li><strong>Brightwing:</strong> Arcane Flare’s targeting indicator will no longer visually persist on the terrain if cast outside the Gate during the pre-game countdown.</li>
+<li><strong>Garrosh:</strong> Stukov’s Weighted Pustule will no longer be removed from targets hit by Wrecking Ball or Into the Fray.</li>
+<li><strong>Gazlowe:</strong> Fixed an issue preventing Deth Lazor from being cast with less than 60 Mana after learning Hyperfocus Coils</li>
+<li><strong>Johanna:</strong> Blessed Hammer can no longer be activated during Falling Sword.</li>
+<li><strong>Junkrat:</strong> Fixed an issue in which certain Abilities, like Genji’s Dragonblade and Stitches’ Hook, could hit Junkrat during Rocket Ride just before he makes impact.</li>
+<li><strong>Kel’Thuzad:</strong> Glacial Spike will now correctly deal bonus damage granted by Ability Power gains.</li>
+<li><strong>Kel’Thuzad:</strong> The Hungering Cold Talent will now correctly deal its bonus damage to non-Heroic enemies rooted by Frost Nova.</li>
+<li><strong>Lt. Morales:</strong> Fixed an issue in which Lt. Morales could become immune to certain Stasis effects like Void Prison and Devouring Maw until death.</li>
+<li><strong>Lt. Morales:</strong> Casting Reinforcements in the allied Hall of Storms will no longer permanently remove Heroes inside the Medivac within from the Battleground’s playable area.</li>
+<li><strong>Lúcio:</strong> Learning Can’t Stop, Won’t Stop and then walking over Junkrat’s Steel Trap will no longer cause that trap to visually persist on Lúcio’s model.</li>
+<li><strong>Stukov:</strong> Nazeebo will now correctly be pushed if he is hit by Massive Shove while channeling Ravenous Spirit.</li>
+<li><strong>Tassadar:</strong> The Prismatic Link Talent will no longer cause Tassadar’s Basic Attack to chain to Kharazim during Seven-Sided Strike.</li>
+<li><strong>Tassadar:</strong> The Templar’s Will Talent’s second reward will no longer increase Basic Attack range in Archon form.</li>
+<li><strong>Uther:</strong> After learning Divine Protection, Devotion Armor will now stack correctly when Healing an allied Hero using Flash of Light during Eternal Vanguard.</li>
+<li><strong>Uther:</strong> Will no longer be teleported back to the allied Hall of Storms if Redemption’s cooldown completes while in Eternal Vanguard form.</li>
+<li><strong>Valla:</strong> Manticore will no longer deal its bonus damage to Valla’s Basic Attack target while Valla is Blind or the target is Evading.</li>
+<li><strong>Zagara:</strong> Nydus Network can no longer prevent Heroes from walking out of their Hall of Storms. </li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li><strong>Death Recap:</strong> The Ability icon and description for Gazlowe’s Rock-It! Turret will now correctly appear on the Death Recap screen.</li>
+<li><strong>Hotkeys:</strong> The Move command’s Quick Cast hotkey is no longer customizable.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2017-11-01 Balance Update</title>
     <published>2017-11-01T18:25:00.000Z</published>
@@ -278,6 +952,7 @@ changes alongside a few bug fixes.</p>
 <ul>
 <li>Damage per player hit reduced from 4 to 3</li>
 <li>Damage needed to unlock quest reduced from 100 to 90</li>
+<li><span class="text-warning">Quest completion requirement increased from 25 to 30 Heroes hit by Globe of Annihilation</span> <a class="label label-warning" href="http://us.battle.net/heroes/en/blog/21159501#azmodan" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -12125,565 +12800,6 @@ Nexus...</p>
 <li><strong>Nova, Samuro</strong> – Fixed an issue preventing debuff timers from showing below clone’s health bars.</li>
 <li><strong>UI</strong> – Fixed an issue that could occasionally fail to display one team’s current experience total.</li>
 </ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-06-28 Balance Update</title>
-    <published>2017-06-28T17:30:00.000Z</published>
-    <updated>2017-06-28T17:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-06-28-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-06-28-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-june-28-2017">Heroes of the Storm Hotfix Notes – June 28, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/20861968" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/20861968" target="_blank">Official Patch Notes</a> <small>v 2.26.1</small></div>
-
-<p>We just released a new patch for Heroes of the Storm in order to apply balance
-changes and a few bug fixes.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><strong><a href="#assassin">Assassin</a></strong></th>
-  <th><strong><a href="#specialist">Specialist</a></strong></th>
-  <th><strong><a href="#support">Support</a></strong></th>
-  <th><strong><a href="#warrior">Warrior</a></strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#genji">Genji</a></td>
-  <td><a href="#medivh">Medivh</a></td>
-  <td><a href="#brightwing">Brightwing</a></td>
-  <td><a href="#dehaka">Dehaka</a></td>
-</tr>
-<tr>
-  <td><a href="#malthael">Malthael</a></td>
-  <td><a href="#probius">Probius</a></td>
-  <td><a href="#lucio">Lucio</a></td>
-  <td><a href="#dva">D.Va</a></td>
-</tr>
-<tr>
-  <td><a href="#thrall">Thrall</a></td>
-  <td></td>
-  <td><a href="#tassadar">Tassadar</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#zeratul">Zeratul</a></td>
-  <td></td>
-  <td><a href="#uther">Uther</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#zuljin">Zul'jin</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="genji">Genji</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Shuriken Mastery (Q)
-<ul>
-<li>Bonus damage reduced from 30 to 25</li>
-</ul></li>
-<li>Dragon Claw (Active)
-<ul>
-<li>Damage required reduced from 375 to 330</li>
-<li>Damage dealt increased from 180 to 190</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Dodge (Passive)
-<ul>
-<li>Cooldown increased from 8 to 12 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malthael">Malthael</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Tormented Souls (R)</strong>
-<ul>
-<li>Cooldown increased from 80 to 100 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Throwing Shade (E)
-<ul>
-<li>Cooldown reduction increased from 2 to 4 seconds</li>
-<li>Added functionality:
-<ul>
-<li>Now also reduces the Mana cost of Death Shroud on quest completion from 50 to 25</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Ethereal Existence (Trait)
-<ul>
-<li>Armor reduced from 15 to 10 per Hero hit</li>
-<li>Maximum Armor bonus increased from 45 to 50</li>
-</ul></li>
-<li>Inevitable End (Active)
-<ul>
-<li>Cooldown reduced from 30 to 20 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Memento Mori (Trait)
-<ul>
-<li>Damage bonus reduced from 100% to 80%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Reaper of Souls (R)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Now passively increases the duration of Tormented Souls by 1 second</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Death has arrived, and he’s definitely doing his
-  job (somewhat too well). His winrate has climbed a lot faster (and higher)
-  than anticipated, so the majority of these changes are nerfs. In particular,
-  there was really powerful synergy between Trait focused Talent choices and
-  Tormented Souls. We think that by reducing the power of each individual part,
-  it will bring this angel down to Earth.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="thrall">Thrall</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Frostwolf Resilience (Trait)</strong>
-<ul>
-<li>Heal amount increased from 210 to 223</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Rolling Thunder (Q)
-<ul>
-<li>Mana return increased from 10 to 12</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Feral Resilience (W)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Heroes hit by Feral Spirit grant Thrall 3 charges of Frostwolf Resilience</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Spirit Shield (Passive)
-<ul>
-<li>Cooldown reduction per Frostwolf Resilience stack increased from 5 to 8 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Wind Rush (Active)
-<ul>
-<li>Cooldown increased from 70 to 80 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="zeratul">Zeratul</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 16</strong>
-<ul>
-<li>Sentenced to Death (W)
-<ul>
-<li>Bonus damage decreased from 50% to 40%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="zuljin">Zul'jin</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Guillotine (R)</strong>
-<ul>
-<li>Base damage increased from 210 to 350</li>
-<li>Damage multiplier at extremely low health decreased from 500% to 300%</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li>Ensnare (Active)
-<ul>
-<li>Range increased from 7.8 to 10</li>
-<li>Cooldown reduced from 60 to 45 seconds</li>
-<li>Duration increased from 2 to 3 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="medivh">Medivh</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Raven Familiar (E)
-<ul>
-<li>Ravens created by this talent will now only attack Heroic targets</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="probius">Probius</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Pylon Overcharge (R)</strong>
-<ul>
-<li>No longer gives Pylons bonus Health</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="brightwing">Brightwing</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Pixie Dust (E)</strong>
-<ul>
-<li>Movement Speed duration reduced from 4 to 3 seconds</li>
-<li>No longer grants Block charges</li>
-<li>New functionality:
-<ul>
-<li>Grants 30 Spell Armor for 3 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li>Shield Dust (E)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Pixie Dust also grants 50 Physical Armor for the duration</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lucio">Lúcio</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Healing Boost (W)</strong>
-<ul>
-<li>Amp it Up Healing increased from 14.5 to 15.5</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 16</strong>
-<ul>
-<li>Up the Frequency (E) 
-<ul>
-<li>Cooldown per Basic Attack increased from .35 to .45 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> The idea here is to give back his intentional
-  healing since we took out so much of his passive healing away. This may also
-  hopefully help Reverse Amp/Bring it Together pick rates on their tiers as
-  well.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tassadar">Tassadar</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Plasma Shield (Q)</strong>
-<ul>
-<li>Lifesteal amount reduced from 45% to 40%</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Khaydarin Resonance (Q)
-<ul>
-<li>First unlock shield value bonus increased from 15% to 20%</li>
-<li>Second unlock shield bonus increased from 30% to 40%</li>
-</ul></li>
-<li>Templar’s Will (Passive)
-<ul>
-<li>Damage bonus of first quest unlock reduced from 150% to 125%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Khala’s Embrace (Q)
-<ul>
-<li>Life steal amount reduced from 90% to 75%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="uther">Uther</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Hammer of the Lightbringer (E)
-<ul>
-<li>Cooldown reduction per Basic Attack increased from 1 to 1.5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Pursuit of Justice (E)
-<ul>
-<li>Movement Speed increased from 20% to 25%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Guardian of Ancient Kings (Trait)
-<ul>
-<li>Armor reduced from 75 to 50</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Benediction (Active)
-<ul>
-<li>Cooldown increased from 40 to 60 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> When we looked at how to nerf our Paladin, we knew
-  that Uther was designed to be great at shutting down enemy teams with
-  lockdown, and we want to continue with that as one of his major strengths, but
-  Guardian of Ancient Kings negated these enemy plays too well. Statistically,
-  it isn’t outperforming the other Talents on the tier by a significant margin
-  unless you look at the highest levels of play, but at those levels the power
-  of this talent could feel frustrating to play against. After these changes, we
-  think it will be a situational pick against teams with a lot of hard disables,
-  but may not be the best choice if the team only has 1 or 2 things that will
-  provide the increased Armor.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warriors">Warriors</h3>
-
-<h4 id="dva">D.Va</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Mech Basic Attack Damage reduced from 22.5 to 21</li>
-<li>Mech Health reduced from 2060 to 2000</li>
-<li>Mech Health Regeneration reduced from 4.86 to 4.17</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Hit the Nitrous (Q)
-<ul>
-<li>Damage bonus reduced from 100% to 50%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="dehaka">Dehaka</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage reduced from 110 to 105</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Brushstalker (Z)</strong>
-<ul>
-<li>Cooldown increased from 50 to 60 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li>Ferocious Stalker (W)
-<ul>
-<li>New functionality:
-<ul>
-<li>Increase the damage of Dark Swarm by 40% while the Brushstalker buff is active</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed several issues that could cause the game client to crash.</li>
-</ul>
-
-<p><strong>Art</strong></p>
-
-<ul>
-<li><strong>Malthael:</strong> Casting Last Rites multiple times on the same target will no longer cause overhead visual effects from the second cast to appear untextured. </li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Chromie:</strong> Fixed an issue that could allow two instances of Slowing Sands to exist at once.</li>
-<li><strong>Dehaka:</strong> Completing Tissue Regeneration’s Quest will no longer prevent Essence earned via Hero takedowns from Healing Dehaka.</li>
-<li><strong>Samuro:</strong> Fixed an issue causing Windwalk to last 9 seconds rather than 10.</li>
-<li><strong>Tassadar:</strong> Nullification will now correctly apply multiplicatively when the target is also affected by other damage reduction effects.</li>
-<li><strong>Tassadar:</strong> Can no longer use his Basic Attack during Dimensional Shift while in Archon form.</li>
-<li><strong>Thrall:</strong> Percent Health damage dealt by Basic Attacks after casting Feral Spirit with the Alpha Wolf Talent now correctly count as Ability Damage.</li>
-<li><strong>Thrall:</strong> The bonus Heal amount granted by Frostwolf's Grace will no longer apply to all Frostwolf Resilience procs.</li>
-<li><strong>Tyrande:</strong> The Bonus Damage amount that appears in Ranger's buff bar tooltip will now update properly. </li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h1 id="heroes-of-the-storm-patch-notes-june-28-2017">Heroes of the Storm Patch Notes — June 28, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://www.reddit.com/r/heroesofthestorm/comments/6k3yvt/new_additional_patch_out_changed_only_the_loading" target="_blank"></a><a href="https://www.reddit.com/r/heroesofthestorm/comments/6k3yvt/new_additional_patch_out_changed_only_the_loading" target="_blank">Image of Official Patch Notes</a> <small>v 2.26.2</small></div>
-
-<p>We just released a new patch in order to apply a change to the loading screen.</p>
-
-<hr />
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>New loading screen art has been added in celebration of our Sun's Out, Guns Out event!</li>
-</ul>
-
-<hr />
-
-<p>We also recently released a new balance patch, which contains changes for a number of Heroes, as well as a few bug fixes. <a href="http://us.battle.net/heroes/en/blog/20861968">Click here to check out the Balance Patch Notes</a>.</p>
 
 <p><a href="#top">Return to Top</a></p>
 ]]></content>
