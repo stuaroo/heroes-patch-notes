@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2017-11-01T18:25:00.000Z</updated>
+  <updated>2017-11-14T17:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2017-11-14 Patch Notes v 2.29.0</title>
+    <published>2017-11-14T17:00:00.000Z</published>
+    <updated>2017-11-14T17:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2017-11-14-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-14-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/alexstrasza.png" alt="Alexstrasza" height="60" width="60" /> Alexstrasza</h3>
+      <h4>UI/Hotkey</h4>
+      <ul>
+        <li><p>Talent Tier Advantage Callouts: chat messages will automatically appear when one team has level 10 or 20 advantage, and when both teams reach 10 and 20</p>
+</li>
+      </ul>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/lili.html#patch2017-11-14" target="_blank">Li Li</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/lili.png" href="https://heroespatchnotes.com/hero/lili.html#patch2017-11-14" alt="Li Li Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2017-11-01 Balance Update v 2.28.5</title>
     <published>2017-11-01T18:25:00.000Z</published>
@@ -288,34 +312,6 @@
           <a href="https://heroespatchnotes.com/hero/xul.html#patch2017-07-26" target="_blank">Xul</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-07-11 Patch Notes v 2.26.3</title>
-    <published>2017-07-11T21:31:00.000Z</published>
-    <updated>2017-07-11T21:31:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-07-11-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-07-11-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/stukov.png" alt="Stukov" height="60" width="60" /> Stukov</h3>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Hanamura: Core health +1, "Sapper Minions will no longer spawn...after a Keep is destroyed," delivered payloads now grant XP</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2017-07-11" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2017-07-11" target="_blank">Malthael</a>, 
-          <a href="https://heroespatchnotes.com/hero/ragnaros.html#patch2017-07-11" target="_blank">Ragnaros</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2017-07-11" target="_blank">Tyrande</a>, 
-          <a href="https://heroespatchnotes.com/hero/xul.html#patch2017-07-11" target="_blank">Xul</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/xul.png" href="https://heroespatchnotes.com/hero/xul.html#patch2017-07-11" alt="Xul Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
