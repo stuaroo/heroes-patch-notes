@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2017-11-20T19:50:00.000Z</updated>
+  <updated>2017-11-22T18:50:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2017-11-22 Hotfix Patch</title>
+    <published>2017-11-22T18:50:00.000Z</published>
+    <updated>2017-11-22T18:50:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2017-11-22-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-22-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-november-22-2017">Heroes of the Storm Hotfix Notes — November 22, 2017</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21194322" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21194322" target="_blank">Official Patch Notes</a> <small>v 2.29.1</small></div>
+
+<p>We just released a new patch for Heroes of the Storm in order to apply a few
+bug fixes.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Volskaya Foundry:</strong> Fixed a bug that could cause players to lose control of their Heroes after exiting a Triglav Protector.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li><strong>Draft Mode:</strong> Fixed an issue that made enemy player profiles accessible while in draft.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Alexstrasza:</strong> Canceling Dragonqueen after entering or exiting the Haunted Mines will no longer prevent Alexstrasza from casting her other Abilities.</li>
+<li><strong>Brightwing:</strong> Soothing Mist will no longer passively Heal nearby allies while Brightwing is piloting a Vehicle.</li>
+<li><strong>Zul’jin:</strong> Completing the You Want Axe? Quest using the Wrong Place Wrong Time Talent will no longer cause Twin Cleave’s visual effects to disappear during its second revolution.</li>
+<li><strong>Zul’jin:</strong> Fixed an issue causing the Movement Speed bonus granted by Eye of Zul’jin to be lost on death.</li>
+<li><strong>Zul’jin:</strong> Eye of Zul’jin’s Talent description will no longer incorrectly append to the Grievous Throw tooltip.</li>
+<li><strong>Zul’jin:</strong> No Mercy’s Talent description will now correctly append to the Grievous Throw tooltip.</li>
+<li><strong>Zul’jin:</strong> Recklessness is no longer incorrectly categorized as a passive Talent in the Talent Pane.</li>
+<li><strong>Zul’jin:</strong> Voodoo Shuffle’s tooltip now correctly lists a 40% reduction in Regeneration’s Mana cost and cooldown, rather than 33%.</li>
+<li><strong>Zul’jin:</strong> Voodoo Shuffle’s Talent description will now correctly append to the Regeneration tooltip.</li>
+<li><strong>Zul’jin:</strong> Buff icons in Zul’jin’s Buff Bar will now match the order in which their associated Talents were selected.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2017-11-20 PTR Patch Notes</title>
     <published>2017-11-20T19:50:00.000Z</published>
@@ -13050,373 +13097,6 @@ their rightful glory.</p>
 <ul>
 <li><strong>Quests:</strong> Fixed an issue causing Daily Quests to appear delayed upon initial login.</li>
 <li><strong>Heroes Brawls:</strong> Fixed an issue that could cause players to become stuck on ‘Waiting for Game Results’ after finishing a Heroes Brawl.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-07-26 Balance Update</title>
-    <published>2017-07-26T17:47:00.000Z</published>
-    <updated>2017-07-26T17:47:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-07-26-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-07-26-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-update-july-26-2017">Heroes of the Storm Balance Update – July 26, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/20931726" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/20931726" target="_blank">Official Patch Notes</a> <small>v 2.26.4</small></div>
-
-<p>We just released a new patch for Heroes of the Storm in order to apply balance
-changes and a few bug fixes.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#genji">Genji</a></td>
-  <td><a href="#xul">Xul</a></td>
-  <td><a href="#stukov">Stukov</a></td>
-  <td><a href="#chen">Chen</a></td>
-</tr>
-<tr>
-  <td><a href="#greymane">Greymane</a></td>
-  <td></td>
-  <td><a href="#uther">Uther</a></td>
-  <td><a href="#muradin">Muradin</a></td>
-</tr>
-<tr>
-  <td><a href="#tychus">Tychus</a></td>
-  <td></td>
-  <td></td>
-  <td><a href="#rexxar">Rexxar</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#stitches">Stitches</a></td>
-</tr>
-</tbody>
-</table>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="genji">Genji</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 1600 to 1550</li>
-<li>Health Regen reduced from 3.3 to 3.2</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Shuriken (Q)</strong>
-<ul>
-<li>Mana cost increased from 15 to 20</li>
-</ul></li>
-<li><strong>Dragonblade (R)</strong>
-<ul>
-<li>Cooldown increased from 80 to 100 seconds</li>
-<li>Mana cost increased from 50 to 75</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Dodge (Passive)
-<ul>
-<li>Charges reduced from 3 to 1</li>
-<li>Cooldown reduced from 12 to 8 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="greymane">Greymane</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Cursed Bullet (R)</strong>
-<ul>
-<li>Damage reduced from 40 to 35% of enemy Heroes’ current Health</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="tychus">Tychus</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Fully Loaded (D)
-<ul>
-<li>Cooldown reduction increased from 33% (4 seconds) to ~41% (5 seconds)</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="xul">Xul</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Raise Skeleton (Trait)</strong>
-<ul>
-<li>Health reduced from 300 to 270</li>
-</ul></li>
-<li><strong>Cursed Strikes (W)</strong>
-<ul>
-<li>Cooldown increased from 15 to 16 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Backlash (Trait)
-<ul>
-<li>Damage reduced from 15 to 12% of enemy Heroes’ maximum Health</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Grim Scythe (W)
-<ul>
-<li>Cooldown reduction per attack increased from .5 to .75 seconds</li>
-<li>Maximum cooldown reduction increased from 10 to 12 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="stukov">Stukov</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Healing Pathogen (Q)</strong>
-<ul>
-<li>Mana cost increased from 30 to 40</li>
-</ul></li>
-<li><strong>Flailing Swipe (R)</strong>
-<ul>
-<li>Pushback distance increased by 50%</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Spine Launcher (Passive)
-<ul>
-<li>Slow duration increased from 1 to 1.5 seconds (now matches his attack speed)</li>
-</ul></li>
-<li>Fetid Touch (W)
-<ul>
-<li>Quest requirements reduced from 20 and 40 Heroes hit to 15 and 30</li>
-</ul></li>
-<li>Growing Infestation (E)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Now increases the Cooldown of Lurking Arm by 4 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>One Good Spread… (Q)
-<ul>
-<li>Spreading requirement reduced from 4 to 3 Heroes</li>
-<li>Mana refund increased from 30 to 40</li>
-</ul></li>
-<li>Vigorous Reuptake (D)
-<ul>
-<li>Healing bonus reduced from 50 to 40%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Pox Populi (D)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>Detonating Bio-Kill Switch no longer refreshes heal duration, but instead sets the duration to 3 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Controlled Chaos (R)
-<ul>
-<li>Cooldown between casts reduced from 3 to 1 second</li>
-<li>Cooldown for each charge reduced from 40 to 30 seconds</li>
-</ul></li>
-<li>Push Comes to Shove (R)
-<ul>
-<li>Duration requirement reduced from 1.5 to 1.25 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="uther">Uther</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Holy Light (Q)</strong>
-<ul>
-<li>Healing reduced from 380 to 360</li>
-<li>Self-healing reduced from 190 to 180</li>
-</ul></li>
-<li><strong>Holy Radiance (W)</strong>
-<ul>
-<li>Mana cost increased from 60 to 70</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="warriors">Warriors</h3>
-
-<h4 id="chen">Chen</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fortifying Brew (Trait)</strong>
-<ul>
-<li>Brew per second reduced from 40 to 30</li>
-<li>Chen will now instantly gain 25 Brew upon activation</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Elusive Brawler (Active)
-<ul>
-<li>Cooldown increased from 20 to 25 seconds</li>
-<li>Cooldown reduction from Basic Attacks reduced from 3 to 2 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="muradin">Muradin</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 2633 to 2765</li>
-<li>Health regen increased from 5.5 to 5.8</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="rexxar">Rexxar</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Flare (Active)
-<ul>
-<li>Cooldown reduced from 25 to 20 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="stitches">Stitches</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Vile Gas (Trait)</strong>
-<ul>
-<li>Damage reduced from 18 to 17</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Heavy Slam (W)
-<ul>
-<li>Bonus damage reduced from 50 to 40%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Diablo:</strong> Casting Shadow Charge on Sgt. Hammer while she is in Siege Mode will no longer cause Diablo to pass through her.</li>
-<li><strong>Malfurion:</strong> The Moonburn Talent will no longer cause Moonfire to deal bonus damage to Mercenaries and Monsters prior to reaching 25% bonus damage against Minions.</li>
-<li><strong>Malfurion:</strong> Casting Astral Communion now properly consumes 100 Mana.</li>
-<li><strong>Nazeebo:</strong> Fixed an issue that could prevent Voodoo Ritual from gaining stacks after scoring the killing blow on a Minion.</li>
-<li><strong>Stukov:</strong> Fixed a typo in the tooltip for Fetid Touch.</li>
-<li><strong>Stukov:</strong> Stop, Hold Fire, Taunt, and Dance commands can no longer be issued while casting or channeling Lurking Arm.</li>
-<li><strong>Stukov:</strong> Fixed an issue that could cause FPS to drop to 30 when targeting Lurking Arm.</li>
-<li><strong>Stukov:</strong> Massive Shove will no longer be cancelled when used on Sgt. Hammer while she is in Siege Mode.</li>
-<li><strong>Tyrande:</strong> After learning Huntress’ Fury, Basic Attacks against targets with Hunter’s Mark will now correctly splash to nearby enemy Mercenaries.</li>
-<li><strong>Tyrande:</strong> Fixed an issue causing Sentinel to benefit from increased width prior to learning the Ranger Talent. </li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
