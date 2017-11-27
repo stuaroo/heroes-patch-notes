@@ -2,10 +2,986 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2017-11-22T18:50:00.000Z</updated>
+  <updated>2017-11-27T23:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2017-11-29 Balance Update</title>
+    <published>2017-11-27T23:30:00.000Z</published>
+    <updated>2017-11-27T23:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2017-11-29-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-29-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-november-29-2017">HEROES OF THE STORM BALANCE PATCH NOTES — NOVEMBER 29, 2017</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21273597" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21273597" target="_blank">Official Patch Notes</a> <small>v 2.29.3</small></div>
+
+<p>We’re planning to release a new patch for Heroes of the Storm in order to
+apply balance changes alongside a few bug fixes.</p>
+
+<p><strong>PTR Note:</strong> <em>While most of the listed changes are available on the PTR with today’s patch, some will not be present until the November 29 live balance patch.</em></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#specialist">Specialist</a></th>
+  <th><a href="#support">Support</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#tychus">Tychus</a></td>
+  <td><a href="#sgt-hammer">Sgt. Hammer</a></td>
+  <td><a href="#alexstrasza">Alexstrasza</a></td>
+  <td><a href="#johanna">Johanna</a></td>
+</tr>
+<tr>
+  <td><a href="#zuljin">Zul'jin</a></td>
+  <td></td>
+  <td><a href="#ana">Ana</a></td>
+  <td><a href="#sonya">Sonya</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#auriel">Auriel</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#brightwing">Brightwing</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#kharazim">Kharazim</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#li-li">Li Li</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#lt-morales">Lt. Morales</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#lucio">Lucio</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#malfurion">Malfurion</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#rehgar">Rehgar</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#stukov">Stukov</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#tassadar">Tassadar</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#tyrande">Tyrande</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#uther">Uther</a></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="tychus">Tychus</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Minigun (Trait)</strong>
+<ul>
+<li>Mana cost removed</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="zuljin">Zul'jin</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Guillotine (R)</strong>
+<ul>
+<li>Damage reduced from 350 to 330</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Recklessness (Trait)
+<ul>
+<li>Adjusted functionality:
+<ul>
+<li>When below 75% Health, gain 10% Spell Power</li>
+<li>When below 50% Health, gain 20% Attack Damage</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Amani Rage (Active)
+<ul>
+<li>Duration of heal increased from 6 to 10 seconds</li>
+<li>Armor value reduced from 10 to 5</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Arcanite Axes (W)
+<ul>
+<li>No longer lowers the cooldown of Twin Cleave</li>
+</ul></li>
+<li>Vicious Assault (Q)
+<ul>
+<li>Added functionality:
+<ul>
+<li>Also increases the duration of Zul’jin’s Grievious Throw effect by 3 seconds</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Lacerate (W)
+<ul>
+<li>Slow amount reduced from 15 to 10%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Wrong Place Wrong Time (W)
+<ul>
+<li>Apex damage from 150 to 100</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="sgt-hammer">Sgt. Hammer</h4>
+
+<ul>
+<li>Sgt. Hammer’s Basic Attack is now more responsive.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Artillery (Trait)</strong>
+<ul>
+<li>Removed (including the +1 Basic Attack range)</li>
+</ul></li>
+<li><strong>Siege Mode (D)</strong>
+<ul>
+<li>Moved to D (Trait)</li>
+<li>Mana cost removed</li>
+<li>Basic Attack range bonus increased from 5 to 6</li>
+<li>Sgt. Hammer now deals 20% bonus damage to all enemies while in Siege Mode, instead of 30% bonus to Minions and Structures.</li>
+<li>Sgt. Hammer can no longer cast abilities while entering Siege Mode.</li>
+</ul></li>
+<li><strong>Spider Mines (Q)</strong>
+<ul>
+<li>While in Siege Mode, the cast range is increased by 100%</li>
+<li>Mana cost reduced from 50 to 45</li>
+</ul></li>
+<li><strong>Concussive Blast (W)</strong>
+<ul>
+<li>Cone narrowed from 60 degrees to 45 degrees</li>
+<li>While in Siege Mode, the cast range is increased by 50%</li>
+<li>Mana cost reduced from 75 to 60</li>
+</ul></li>
+<li><strong>(New Ability) Neosteel Plating (E)</strong>
+<ul>
+<li>Activate to gain 25 Armor for 2 seconds.</li>
+<li>While in Siege mode, increase this to 50 Armor.</li>
+<li>12 second cooldown, 30 Mana</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Advanced Artillery (D)
+<ul>
+<li>New functionality:
+<ul>
+<li>Now increases Siege Mode’s splash damage to 50% and its radius by 25%.</li>
+</ul></li>
+</ul></li>
+<li>Resistant (D)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Ambush (D)
+<ul>
+<li>Adjusted functionality:
+<ul>
+<li>Sgt. Hammer now also enters Stealth after not dealing damage, taking damage, or using an Ability for 3 seconds while in Siege Mode.</li>
+</ul></li>
+</ul></li>
+<li>Regeneration Master
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Maelstrom Rounds</strong>
+<ul>
+<li>Activate to increase Sgt. Hammer’s Basic Attack damage by 40% for 5 seconds. Maximum 3 charges. 90 second charge cooldown. Basic Attacks in Siege Mode against enemy Structures reduce this cooldown by 5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Vigorous Assault (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Focused Attack (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Excessive Force (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Barricade (W)
+<ul>
+<li>Moved from Level 13</li>
+</ul></li>
+<li><strong>(New Talent) Siege Tactics (E)</strong>
+<ul>
+<li>Sgt. Hammer becomes Unstoppable for 2 seconds when she uses Neosteel Plating in Siege Mode.</li>
+</ul></li>
+<li><strong>(New Talent) Regenerative Bio-Steel (D)</strong>
+<ul>
+<li>Sgt. Hammer heals for 15% of her damage dealt with Basic Attacks in Siege Mode.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Mine Field (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>First Aid (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Pulse Detonation Core (Q)</strong>
+<ul>
+<li>Spider Mines explode 3 times over 3 seconds, instead of destroying themselves immediately.</li>
+</ul></li>
+<li>Hover Siege (D)
+<ul>
+<li>Moved from Level 16</li>
+<li>Movement Speed reduced from 50% to 25%.</li>
+</ul></li>
+<li>Graduating Range (D)
+<ul>
+<li>Moved from Level 16</li>
+<li>Maximum range bonus reduced from 5.5 to 3.3</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>First Strike (D)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Bullhead Mines (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Tactical Mine Deployment (Q)</strong>
+<ul>
+<li>Increases Spider Mine’s slow from 25% to 40%. Casting Thrusters leaves behind a trail of up to 5 Spider Mines while Sgt. Hammer is moving.</li>
+</ul></li>
+<li><strong>(New Talent) Entrenched (W)</strong>
+<ul>
+<li>Increases Concussive Blast’s damage and knockback distance by 75% while in Siege Mode.</li>
+</ul></li>
+<li>Hyper-Cooling Engines (Z)
+<ul>
+<li>Moved from Level 7</li>
+<li>New functionality:
+<ul>
+<li>Each enemy Hero hit with a Basic Attack in Siege Mode reduces the cooldown of Thrusters by 5 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Stoneskin (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Giant Killer (Passive)
+<ul>
+<li>Moved from Level 13</li>
+</ul></li>
+<li><strong>(New Talent) Mechanical Know-How (E)</strong>
+<ul>
+<li>Neosteel Plating grants a Shield equal to 5% of Sgt. Hammer’s maximum Health for 2 seconds. If this Shield is destroyed, she deals 50% more Basic Attack damage for 5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Fury of the Storm (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Nexus Frenzy (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Shrapnel Mines (Q)</strong>
+<ul>
+<li>Each Spider Mine explosion reduces enemy Armor by 10 for 3 seconds.</li>
+</ul></li>
+<li><strong>(New Talent) Ultra Capacitors (D)</strong>
+<ul>
+<li>Every enemy Hero hit with a Basic Attack while in Siege Mode increases Sgt. Hammer’s Attack Speed by 5% for 5 seconds, up to 40%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="alexstrasza">Alexstrasza</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1787 to 1698</li>
+<li>Health Regen reduced from 3.72 to 3.54</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Abundance (W)</strong>
+<ul>
+<li>Cast range increased by 11%</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="ana">Ana</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1682 to 1598</li>
+<li>Health Regen reduced from 3.5 to 3.32</li>
+<li>Basic Attack Damage reduced from 33 to 30</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Dart (Q)</strong>
+<ul>
+<li>Heal amount reduced from 255 to 237</li>
+</ul></li>
+<li><strong>Biotic Grenade (W)</strong>
+<ul>
+<li>Heal amount reduced from 175 to 166</li>
+<li>Damage reduced from 60 to 57</li>
+</ul></li>
+<li><strong>Eye of Horus (R)</strong>
+<ul>
+<li>Heal amount reduced from 300 to 285</li>
+<li>Damage amount reduced from 175 to 166</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="auriel">Auriel</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1850 to 1758</li>
+<li>Health Regen reduced from 3.85 to 3.66</li>
+<li>Basic Attack Damage reduced from 60 to 57</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Sacred Sweep (Q)</strong>
+<ul>
+<li>Outer damage reduced from 60 to 57</li>
+<li>Inner damage reduced from 180 to 171</li>
+</ul></li>
+<li><strong>Detainment Strike (E)</strong>
+<ul>
+<li>Normal damage reduced from 58 to 55</li>
+<li>Wall-strike damage reduced from 174 to 165</li>
+</ul></li>
+<li><strong>Bestow Hope (D)</strong>
+<ul>
+<li>Maximum Energy reduced from 505 to 475</li>
+</ul></li>
+<li><strong>Crystal Aegis (R)</strong>
+<ul>
+<li>Damage reduced from 270 to 255</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="brightwing">Brightwing</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1470 to 1395</li>
+<li>Health Regen reduced from 3.06 to 2.91</li>
+<li>Basic Attack Damage reduced from 85 to 81</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Arcane Flare (Q)</strong>
+<ul>
+<li>Outer damage reduced from 91 to 87</li>
+<li>Inner damage reduced from 274 to 260</li>
+</ul></li>
+<li><strong>Soothing Mist (Trait)</strong>
+<ul>
+<li>Heal amount reduced from 115 to 109</li>
+</ul></li>
+<li><strong>Blink Heal (R)</strong>
+<ul>
+<li>Heal amount reduced from 204 to 194</li>
+</ul></li>
+<li><strong>Emerald Wind (R)</strong>
+<ul>
+<li>Damage reduced from 318 to 303</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Unstable Anomaly (W)
+<ul>
+<li>Damage reduced from 114 to 108</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Phase Shield (Z)
+<ul>
+<li>Shield amount reduced from 350 to 335</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="kharazim">Kharazim</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack Damage reduced from 63 to 60</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Breath of Heaven (W)</strong>
+<ul>
+<li>Heal amount reduced from 290 to 276</li>
+</ul></li>
+<li><strong>Divine Palm (R)</strong>
+<ul>
+<li>Heal amount reduced from 1141 to 1084</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Transcendence (Trait)
+<ul>
+<li>Heal amount reduced from 103 to 98</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Way of the Hundred Fists (E)
+<ul>
+<li>Damage reduced from 50 to 45%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="li-li">Li Li</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1552 to 1475</li>
+<li>Health Regen from 3.23 to 3.07</li>
+<li>Basic Attack Damage reduced from 63 to 60</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Brew (Q)</strong>
+<ul>
+<li>Heal amount increased from 177 to 190</li>
+</ul></li>
+<li><strong>Cloud Serpent (W)</strong>
+<ul>
+<li>Heal amount increased from 13.5 to 15</li>
+<li>Damage reduced from 27 to 26</li>
+</ul></li>
+<li><strong>Blinding Wind (E)</strong>
+<ul>
+<li>Damage reduced from 140 to 133</li>
+</ul></li>
+<li><strong>Jug of 1000 Cups (R)</strong>
+<ul>
+<li>Heal amount increased from 66.5 to 70</li>
+</ul></li>
+<li><strong>Water Dragon (R)</strong>
+<ul>
+<li>Damage reduced from 318 to 300</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lt-morales">Lt. Morales</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1550 to 1472</li>
+<li>Health Regen reduced from 3.23 to 3.07</li>
+<li>Basic Attack Damage reduced from 88 to 83</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Beam (Q)</strong>
+<ul>
+<li>Heal amount reduced from 90 to 86</li>
+</ul></li>
+<li><strong>Displacement Grenade (E)</strong>
+<ul>
+<li>Damage reduced from 210 to 198</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lucio">Lúcio</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1518 to 1442</li>
+<li>Health Regen reduced from 3.16 to 3</li>
+<li>Basic Attack Damage reduced from 24 to 23</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Soundwave (Q)</strong>
+<ul>
+<li>Damage reduced from 112 to 105</li>
+</ul></li>
+<li><strong>Amp It Up (E)</strong>
+<ul>
+<li>Heal amount reduced from 15.5 to 15</li>
+</ul></li>
+<li><strong>Sound Barrier (R)</strong>
+<ul>
+<li>Shield amount reduced from 1392 to 1296</li>
+</ul></li>
+<li><strong>Reverse Amp (R)</strong>
+<ul>
+<li>Damage reduced from 14 to 13</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Back in the Mix (Passive)
+<ul>
+<li>Heal amount reduced from 260 to 245</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Rejuvenescencia (E)
+<ul>
+<li>Heal amount reduced from 3 to 2.5% of allies’ Maximum Health</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="malfurion">Malfurion</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1682 to 1598</li>
+<li>Health Regen reduced from 3.5 to 3.33</li>
+<li>Basic Attack Damage reduced from 67 to 64</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Regrowth (Q)</strong>
+<ul>
+<li>Initial heal amount reduced from 150 to 142</li>
+<li>Heal over time amount reduced from 28 to 27</li>
+</ul></li>
+<li><strong>Moonfire (W)</strong>
+<ul>
+<li>Damage from 105 to 100</li>
+</ul></li>
+<li><strong>Entangling Roots (E)</strong>
+<ul>
+<li>Damage from 39 to 37</li>
+</ul></li>
+<li><strong>Tranquility (R)</strong>
+<ul>
+<li>Heal amount reduced from 40 to 38</li>
+</ul></li>
+<li><strong>Twilight Dream (R)</strong>
+<ul>
+<li>Damage reduced from 374 to 355</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Moonburn (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>(New Talent) Celestial Alignment (W)</strong>
+<ul>
+<li>Increase Moonfire’s reveal duration from 2 to 5 seconds. Malfurion’s Basic Attacks deal 100% additional damage to targets revealed by Moonfire</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Vengeful Roots (E)
+<ul>
+<li>Treant Attack damage reduced from 70 to 65</li>
+<li>Scaling damage per quest stack reduced from 8 to 7</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="rehgar">Rehgar</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack Damage reduced from 120 to 113</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Chain Heal (Q)</strong>
+<ul>
+<li>Heal amount reduced from 250 to 240</li>
+</ul></li>
+<li><strong>Lightning Shield (W)</strong>
+<ul>
+<li>Damage reduced from 35 to 32</li>
+</ul></li>
+<li><strong>Ancestral Healing (R)</strong>
+<ul>
+<li>Heal amount reduced from 1552 to 1475</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Lightning Bond (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="stukov">Stukov</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Pathogen (Q)</strong>
+<ul>
+<li>Heal amount reduced from 37 to 35</li>
+</ul></li>
+<li><strong>Lurking Arm (E)</strong>
+<ul>
+<li>Damage reduced from 36 to 34</li>
+</ul></li>
+<li><strong>Bio-kill Switch (D)</strong>
+<ul>
+<li>Heal amount reduced from 500 to 475</li>
+</ul></li>
+<li><strong>Flailing Swipe (R)</strong>
+<ul>
+<li>Damage reduced from 50 to 48</li>
+</ul></li>
+<li><strong>Massive Shove (R)</strong>
+<ul>
+<li>Damage reduced from 200 to 190</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="tassadar">Tassadar</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health reduced from 1355 to 1287</li>
+<li>Health Regen reduced from 2.82 to 2.68</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Plasma Shield (Q)</strong>
+<ul>
+<li>Shield amount reduced from 475 to 455</li>
+</ul></li>
+<li><strong>Psionic Storm (W)</strong>
+<ul>
+<li>Damage reduced from 44 to 41</li>
+</ul></li>
+<li><strong>Archon (R)</strong>
+<ul>
+<li>Bonus Attack damage reduced from 166 to 158</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="tyrande">Tyrande</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health from 1591 to 1511</li>
+<li>Health Regen reduced from 3.32 to 3.15</li>
+<li>Basic Attack Damage reduced from 82 to 80</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Sentinel Shot (W)</strong>
+<ul>
+<li>Damage reduced from 173 to 165</li>
+</ul></li>
+<li><strong>Lunar Flare (E)</strong>
+<ul>
+<li>Damage reduced from 205 to 195</li>
+</ul></li>
+<li><strong>Starfall (R)</strong>
+<ul>
+<li>Damage reduced from 91 to 88</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="uther">Uther</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack Damage reduced from 78 to 75</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Holy Light (Q)</strong>
+<ul>
+<li>Heal amount reduced from 380 to 362</li>
+</ul></li>
+<li><strong>Holy Radiance (W)</strong>
+<ul>
+<li>Heal amount reduced from 185 to 177</li>
+<li>Damage reduced from 185 to 177</li>
+</ul></li>
+<li><strong>Flash of Light (Q)</strong>
+<ul>
+<li>Heal amount reduced from 242 to 230</li>
+</ul></li>
+<li><strong>Hammer of Justice (E)</strong>
+<ul>
+<li>Damage reduced from 114 to 109</li>
+</ul></li>
+<li><strong>Divine Storm (R)</strong>
+<ul>
+<li>Damage reduced from 178 to 170</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Holy Fire (Passive)
+<ul>
+<li>Damage reduced from 14 to 13</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="johanna">Johanna</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Iron Skin (Trait)</strong>
+<ul>
+<li>Mana cost removed</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="sonya">Sonya</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Poisoned Spear (Q)
+<ul>
+<li>Damage reduced from 150% to 125%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li><strong>Mac:</strong> Fixed an issue that caused game crashes on Mac clients.</li>
+<li><strong>Mac:</strong> Fixed an issue causing unintended options to display on certain Mac clients.</li>
+<li><strong>Sound:</strong> Fixed an issue causing Hero voiceover lines to be heard globally by both teams.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2017-11-22 Hotfix Patch</title>
     <published>2017-11-22T18:50:00.000Z</published>
@@ -12538,550 +13514,6 @@ their rightful glory.</p>
 <li><strong>Valeera:</strong> Fixed an issue that caused Valeera to break Stealth if Sinister Strike was cast immediately before attempting to Vanish. </li>
 <li><strong>Zul’jin:</strong> Fixed an issue preventing Zul’jin from self-casting Guillotine. </li>
 <li><span class="text-warning"><strong>Murky:</strong> Slime damage from Egg Hunt talent now scales at 4% per level, matching normal Slime scaling</span> <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/6qs8m8/undocumented_change_murkys_egg_hunt_bug_was_fixed/" target="_blank">Source <i class="fa fa-external-link"></i></a></li>
-</ul>
-
-<p><strong>Sound</strong></p>
-
-<ul>
-<li><strong>Stukov:</strong> Fixed an issue causing Massive Shove sound effects to play for too long if the target was pushed an exceptionally long distance.</li>
-<li><strong>Genji:</strong> Fixed an issue preventing the Shingan talent from playing quest tracking sounds if a target was hit with all 3 Shurikens. </li>
-<li><strong>Hero VO:</strong> Fixed an issue that occasionally caused Heroes to play a previously selected Heroes’ voice line when locking in during draft mode. </li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li><strong>Quests:</strong> Fixed an issue causing Daily Quests to appear delayed upon initial login.</li>
-<li><strong>Heroes Brawls:</strong> Fixed an issue that could cause players to become stuck on ‘Waiting for Game Results’ after finishing a Heroes Brawl.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-07-31 PTR Patch Notes</title>
-    <published>2017-07-31T17:34:00.000Z</published>
-    <updated>2017-07-31T17:34:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-07-31-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-07-31-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-notes-july-31-2017">Heroes of the Storm PTR Notes — July 31, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net//heroes/en/blog/20944067" target="_blank"></a><a href="http://us.battle.net//heroes/en/blog/20944067" target="_blank">Official Patch Notes</a> <small>v 2.27.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just arrived to the Public Test Realm
-and will be available for playtesting until August 7. During this time, we
-kindly request your assistance in trying out some of the new content it
-contains before we officially release the patch to the live version of Heroes.
-Just like last time, if you encounter any bugs or other issues during your PTR
-play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
-forum</a> to let us know about
-your experiences.</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<p><strong>Team Compositions</strong></p>
-
-<ul>
-<li><strong>Quick Match</strong>
-<ul>
-<li>Quick Match will now prefer not to make mirror matches, the same hero on both teams, when other options are available.</li>
-</ul></li>
-<li><strong>Versus A.I.</strong>
-<ul>
-<li>Removed Mirror Matches: Players will no longer face duplicate enemy A.I. Heroes in this game mode.</li>
-</ul></li>
-</ul>
-
-<hr />
-
-<h3 id="new-hero-garrosh">New Hero: Garrosh</h3>
-
-<p>As the new warchief of the Horde, Garrosh is a proud and vicious warrior who
-rules with an iron fist. His hatred for the Alliance burns like wildfire, and
-he will stop at nothing to destroy them. By his axe, the orcs will reclaim
-their rightful glory.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Armor Up</strong>
-<ul>
-<li>Garrosh gains 1 Armor for every 2% of maximum Health missing.</li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Groundbreaker (Q)</strong>
-<ul>
-<li>Deal damage to enemies in an area. Heroes hit on the outer edge are pulled toward Garrosh.</li>
-</ul></li>
-<li><strong>Bloodthirst (W)</strong>
-<ul>
-<li>Deal damage to an enemy and Heal for 10% of Garrosh’s missing Health. Healing is increased by 100% against Heroes.</li>
-</ul></li>
-<li><strong>Wrecking Ball (E)</strong>
-<ul>
-<li>Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing damage enemies near the impact and slowing them by 30% for 2.5 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Warlord's Challenge (R)</strong>
-<ul>
-<li>Silence nearby Heroes and force them to attack Garrosh for 1.5 seconds.</li>
-</ul></li>
-<li><strong>Decimate (R)</strong>
-<ul>
-<li>Deal damage to nearby enemies and Slow them by 30% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.</li>
-<li>Stores up to 3 charges.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="art">Art</h3>
-
-<p><strong>Artanis</strong></p>
-
-<ul>
-<li>Daelaam Artanis' Twin Blades activation effect is now green to match the color of his warp blades.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="user-interface">User Interface</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>Armor Indicators:</strong>
-<ul>
-<li>Armor buff and debuff indicators have been added next to Hero healthbars.</li>
-</ul></li>
-<li><strong>Cursor Cooldown Notifications:</strong>
-<ul>
-<li>An option to display ability cooldown indicators near your mouse cursor has been added.
-<ul>
-<li>This feature can be enabled or disabled in the options menu</li>
-</ul></li>
-</ul></li>
-<li><strong>MVP Banners:</strong>
-<ul>
-<li>The MVP player’s Banner will now show in the initial MVP screen.</li>
-</ul></li>
-<li><strong>In-Game Chat Improvements:</strong>
-<ul>
-<li>The in-game chat box can now be moved by clicking and dragging the directional arrow indicator seen when the chat box is open.</li>
-<li>In-game chat history can now be accessed using the ‘Page Up’ and ‘Page Down’ hotkeys.</li>
-<li>A timestamp option has been added to display in-game times before chat messages.</li>
-<li>Hero names will now display as Hero icons to the left of messages in chat.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<p><strong>Map Rotation Update</strong></p>
-
-<ul>
-<li>The Ranked Map Rotation has been updated to include the following:
-<ul>
-<li>Braxis Holdout</li>
-<li>Battlefield of Eternity</li>
-<li>Sky Temple</li>
-<li>Cursed Hollow</li>
-<li>Blackheart's Bay</li>
-<li>Towers of Doom</li>
-<li>Warhead Junction</li>
-<li>Dragon Shire</li>
-<li>Garden of Terror</li>
-</ul></li>
-</ul>
-
-<p><strong>Cursed Hollow</strong></p>
-
-<ul>
-<li>Audio and visual indicators have been added to alert players when there are 10 and 5 seconds remaining on the Raven Lord’s Curse.</li>
-</ul>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#ragnaros">Ragnaros</a></td>
-  <td><a href="#probius">Probius</a></td>
-  <td><a href="#auriel">Auriel</a></td>
-  <td><a href="#dva">D.Va</a></td>
-</tr>
-<tr>
-  <td><a href="#the-butcher">The Butcher</a></td>
-  <td></td>
-  <td></td>
-  <td><a href="#sonya">Sonya</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="ragnaros">Ragnaros</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Living Meteor (W)</strong>
-<ul>
-<li>Damage reduced from 72 to 68</li>
-</ul></li>
-<li><strong>Blast Wave (E)</strong>
-<ul>
-<li>Cooldown reduced from 10 to 9 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Shifting Meteor (W)
-<ul>
-<li>Additional Functionality:
-<ul>
-<li>Each time an enemy is hit by Living Meteor, they take an additional 3% damage from subsequent hits by the same Meteor</li>
-</ul></li>
-</ul></li>
-<li>Engulfing Flame (E)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>No longer grants cooldown reduction on Blast Wave</li>
-<li>Now also increases the damage of Blast Wave by 75%</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Superheated (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>New Talent: Blistering Attacks (Passive)
-<ul>
-<li>Every 10 seconds, your next Basic Attack deals 60% bonus damage. Enemies hit by your Basic Abilities reduces this cooldown by 1 second</li>
-</ul></li>
-<li>Molten Power (W)
-<ul>
-<li>Damage bonus increased from 15 to 20% per enemy Hero hit</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Lava Surge (R)
-<ul>
-<li>Cooldown reduction increased from 10 to 30 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="the-butcher">The Butcher</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage lowered from 140 to 130</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fresh Meat (Trait)</strong>
-<ul>
-<li>Meat required to complete his quest increased from 125 to 200</li>
-<li>Damage bonus per Meat stack decreased from 1 to .5</li>
-<li>Meat dropped by enemy Heroes increased from 5 to 25</li>
-<li>Bonus damage on quest completion increased from 100 to 125</li>
-<li>Once the quest is completed, enemy Heroes continue to drop Meat, giving The Butcher 5 permanent Basic Attack damage per Meat collected</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Abattoir (Trait)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="probius">Probius</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Worker Rush (Z)​</strong>
-<ul>
-<li>Worker Rush can no longer be activated while the Worker Rush buff is still active. This will prevent players from accidentally placing the ability on cooldown when leaving the Hall of Storms.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="auriel">Auriel</h4>
-
-<ul>
-<li>Auriel’s resource bar will now glow when at maximum Hope.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="dva">D.Va</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Diverting Power (W)
-<ul>
-<li>Instead of preventing D.Va from moving during Defense Matrix, this talent now adds an additional 50% slow.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="sonya">Sonya</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Whirlwind (E)</strong>
-<ul>
-<li>The time required after activation before the ability can be canceled has been increased from .5 to 1 seconds. This should help prevent accidental cancellations.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>New Bundles</strong> – The following new Bundles and Skin Packs are available for a limited time!</p>
-
-<ul>
-<li>Garrrosh Heroic Bundle</li>
-<li>Mad Axe Garrosh Skin Pack</li>
-<li>StarCrossed Bundle</li>
-<li>Warcraft Armory Bundle</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Garrosh</strong>
-<ul>
-<li>Shattered Hand Garrosh</li>
-<li>Blackrock Garrosh</li>
-<li>Deadly Garrosh</li>
-<li>Glorious Garrosh</li>
-<li>Mad Axe Garrosh</li>
-<li>Biohazard Mad Axe Garrosh</li>
-<li>Frozen Mad Axe Garrosh</li>
-<li>Horde Axe Garrosh</li>
-<li>Mutant Mad Axe Garrosh</li>
-</ul></li>
-<li><strong>Anub'arak</strong>
-<ul>
-<li>Anub'alisk</li>
-<li>Enraged Anub'alisk</li>
-<li>Kaldir Anub'alisk</li>
-<li>Omega Anub'alisk</li>
-<li>Venomous Anub'alisk</li>
-</ul></li>
-<li><strong>Li-Ming</strong>
-<ul>
-<li>Templar Li-Ming</li>
-<li>Dark Templar Li-Ming</li>
-<li>First Ascendant Li-Ming</li>
-<li>Onyx Templar Li-Ming</li>
-<li>Void Templar Li-Ming</li>
-</ul></li>
-<li><strong>E.T.C.</strong>
-<ul>
-<li>L800 E.T.C.</li>
-<li>Angelic L800 E.T.C.</li>
-<li>Horde L800 E.T.C.</li>
-<li>Jungle L800 E.T.C.</li>
-<li>Shock L800 E.T.C.</li>
-<li>Spectre L800 E.T.C.</li>
-</ul></li>
-<li><strong>Abathur</strong>
-<ul>
-<li>Feral Swarm Abathur</li>
-</ul></li>
-<li><strong>Alarak</strong>
-<ul>
-<li>Amethyst Highlord Alarak</li>
-</ul></li>
-<li><strong>Dehaka</strong>
-<ul>
-<li>Savage Pack Leader Dehaka</li>
-</ul></li>
-<li><strong>D.Va</strong>
-<ul>
-<li>Devil Dogs Goliath D.Va</li>
-<li>Spectre Goliath D.Va</li>
-</ul></li>
-<li><strong>Probius</strong>
-<ul>
-<li>Sargas Probius Prime</li>
-<li>Solarite Probius Prime</li>
-</ul></li>
-<li><strong>Rehgar</strong>
-<ul>
-<li>Saronite Ironclaw Rehgar</li>
-</ul></li>
-<li><strong>Samuro</strong>
-<ul>
-<li>Warsong Hellblade Samuro</li>
-</ul></li>
-<li><strong>The Butcher</strong>
-<ul>
-<li>Grendel Butcherlisk</li>
-</ul></li>
-<li><strong>Valeera</strong>
-<ul>
-<li>Crimson Demon Hunter Valeera</li>
-<li>Ivory Demon Hunter Valeera</li>
-</ul></li>
-<li><strong>Varian</strong>
-<ul>
-<li>Deadly Lo'Gosh Varian</li>
-</ul></li>
-<li><strong>Zul’jin</strong>
-<ul>
-<li>Arcane Emberlord Zul'jin</li>
-</ul></li>
-</ul>
-
-<p><strong>New Mounts</strong></p>
-
-<ul>
-<li><strong>Road Boar</strong>
-<ul>
-<li>Road Boar</li>
-<li>Biohazard Road Boar</li>
-<li>Frozen Road Boar</li>
-<li>Horde Road Boar</li>
-<li>Mutant Road Boar</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
-</ul>
-
-<p><strong>Battlegrounds</strong></p>
-
-<ul>
-<li><strong>Mercenaries:</strong> Heroes will no longer be pushed when allied Mercenaries path into them.</li>
-<li><strong>Minions:</strong> Catapults that are destroyed while their projectiles are mid-air will no longer deal half-damage.</li>
-<li><strong>Heroes Brawl:</strong> Fixed an issue that could cause increased loading times when entering Heroes.</li>
-<li><strong>Try Mode:</strong> The Reset Talents button now properly removes bonus damage earned by completing Medivh’s Arcane Charge Questing Talent. </li>
-<li><strong>Try Mode:</strong> The Reset Talents button now properly removes the range and cooldown bonuses granted by Genji’s Agile Dismount Talent.</li>
-<li><strong>Braxis Holdout:</strong> Fixed a rare issue that could cause large units to get stuck on the corners of Structures. </li>
-<li><strong>Warhead Junction:</strong> AI players will no longer become stuck in the southwest hand corner of the Battleground when retreating down the bottom lane. </li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Alarak:</strong> Marking The Lost Vikings with Rite of Rak'Shir during their Longboat Raid Ability and then killing the Longboat will now correctly grant bonus Sadism and Rite of Rak’shir cooldown reduction.</li>
-<li><strong>Alarak &amp; Artanis:</strong> Fixed an issue causing Deadly Charge to go on a full cooldown if Alarak is hit by Phase Prism while channeling.</li>
-<li><strong>Arthas:</strong> After Arthas completing the Frost Presence Questing Talent the Shattered Armor Talent will now correctly apply Armor Reduction to Heroes who have been rooted by Howling Blast. </li>
-<li><strong>Cassia:</strong> Blinding Light will no longer reveal Stealthed enemy Heroes.</li>
-<li><strong>Chen:</strong> Medivh’s Ley Line Seal can no longer cause Chen and his Storm, Earth, Fire Spirits to exist simultaneously. </li>
-<li><strong>D.Va:</strong> Now properly contests Objective Capture Points while exiting her Mech.</li>
-<li><strong>D.Va:</strong> Now properly contests and pushes Hanamura Payloads while exiting her Mech.</li>
-<li><strong>D.Va:</strong> D.Va’s Basic Attacks are now halted during her Taunt and Dance animations.</li>
-<li><strong>D.Va:</strong> The Call Mech status bar that appears under D.Va’s party frame portrait no longer persists after she dies and respawns in Mech Mode. </li>
-<li><strong>Kharazim:</strong> Seven-Sided Strike will no longer target D.Va's Mech during Self-Destruct. </li>
-<li><strong>Genji:</strong> X-Strike can now be properly self-cast. </li>
-<li><strong>Greymane:</strong> Can now correctly cast Go For the Throat a second time after using the Ability to kill D.Va’s Mech. </li>
-<li><strong>Lt. Morales:</strong> Entering a Medivac as it is destroyed will no longer cause the Medivac UI to persist on-screen. </li>
-<li><strong>Probius:</strong> Pylons that are affected by a time stop, such as Zeratul’s Void Prison, will no longer cause Warp Rift’s cooldown to be paused for the duration of the effect.</li>
-<li><strong>Ragnaros:</strong> Lava Wave now correctly contributes to Ragnaros’ Siege Damage. </li>
-<li><strong>Rexxar:</strong> Fixed an issue that could cause Misha to become briefly unresponsive after respawning if she was killed while Rexxar was affected by time stop effect. </li>
-<li><strong>Samuro:</strong> Selecting Mirror Images via control groups will no longer cancel their active movement commands. </li>
-<li><strong>Sonya:</strong> The Ancient Spear model will no longer visually persist when cast on an allied Gate prior to game start. </li>
-<li><strong>Stasis:</strong> Fixed an issue in which cooldowns for self-stasis effects, like Chromie’s Time Out, would not begin counting down until the Hero respawned if that Hero was killed immediately after the self-stasis effect concluded.</li>
-<li><strong>Stealth:</strong> Fixed an issue that could cancel the Stealth effect provided by Valeera’s Vanish and Tyrande’s Shadowstalk when cast at a specific moment during those Heroes’ Basic Attacks.</li>
-<li><strong>Sylvanas:</strong> Can cast Possession on units spawned by Bosses on Warhead Junction.</li>
-<li><strong>Thrall:</strong> Fixed an issue allowing Sundering to be seen and heard through fog of war.</li>
-<li><strong>The Butcher:</strong> Fixed an issue preventing Ruthless Onslaught from activating when targeting an enemy that moves into fog of war. </li>
-<li><strong>Tracer:</strong> Ricochet will no longer cause Tracer’s Basic Attacks to bounce to Stealthed Heroes. </li>
-<li><strong>Tychus:</strong> Fixed an issue preventing Drakken Laser Drill from displaying a range indicator. </li>
-<li><strong>Tyrael &amp; The Butcher:</strong> Fixed an issue that allowed Sanctification to go off despite Tyrael being stunned by Ruthless Onslaught. </li>
-<li><strong>Valla:</strong> Fixed an issue that prevented the Death Dealer talent from refreshing the cooldown of Vault after killing a structure. </li>
-<li><strong>Valeera:</strong> Fixed an issue that caused Valeera to break Stealth if Sinister Strike was cast immediately before attempting to Vanish. </li>
-<li><strong>Zul’jin:</strong> Fixed an issue preventing Zul’jin from self-casting Guillotine. </li>
 </ul>
 
 <p><strong>Sound</strong></p>
