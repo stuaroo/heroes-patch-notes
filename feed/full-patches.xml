@@ -14,12 +14,22 @@
     <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-29-balance-update.html"/>
     <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-november-29-2017">HEROES OF THE STORM BALANCE PATCH NOTES — NOVEMBER 29, 2017</h1>
 
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21273597" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21273597" target="_blank">Official Patch Notes</a> <small>v 2.29.3</small></div>
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21273597" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21273597" target="_blank">Official Patch Notes</a> <small>v 2.29.2</small></div>
 
-<p>We’re planning to release a new patch for Heroes of the Storm in order to
-apply balance changes alongside a few bug fixes.</p>
+<p><strong>Update - Nov 29, 2017:</strong> The balance adjustments and bug fixes listed below have now been applied to the live version of Heroes of the Storm.</p>
 
-<p><strong>PTR Note:</strong> <em>While most of the listed changes are available on the PTR with today’s patch, some will not be present until the November 29 live balance patch.</em></p>
+<p>We’ve just released a new patch for Heroes of the Storm in order to apply
+balance changes alongside a few bug fixes.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<p><strong>Mac OS</strong></p>
+
+<ul>
+<li>While we would like to support OpenGL4.1 and Metal for Mac users, we’ve found that our current implementation doesn’t meet our goal of providing the best experience possible. As a result, they have been disabled with today’s patch, and Mac users will default to OpenGL2.1. Apologies for any inconveniences this may cause, and thank you for your patience as we explore ways we can better support these experiences in the future.</li>
+</ul>
 
 <hr />
 
@@ -975,7 +985,6 @@ apply balance changes alongside a few bug fixes.</p>
 
 <ul>
 <li><strong>Mac:</strong> Fixed an issue that caused game crashes on Mac clients.</li>
-<li><strong>Mac:</strong> Fixed an issue causing unintended options to display on certain Mac clients.</li>
 <li><strong>Sound:</strong> Fixed an issue causing Hero voiceover lines to be heard globally by both teams.</li>
 </ul>
 
