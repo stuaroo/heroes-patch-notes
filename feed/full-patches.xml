@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2017-11-27T23:30:00.000Z</updated>
+  <updated>2017-12-05T01:39:15.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2017-12-04 PTR Patch Notes</title>
+    <published>2017-12-05T01:39:15.000Z</published>
+    <updated>2017-12-05T01:39:15.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2017-12-04-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-12-04-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-december-4-2017">HEROES OF THE STORM PTR PATCH NOTES — DECEMBER 4, 2017</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21307429" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21307429" target="_blank">Official Patch Notes</a> <small>v 2.29.3</small></div>
+
+<p>We’ve just releaseed a new PTR patch for Heroes of the Storm in order to apply
+balance changes alongside a few bug fixes.</p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="hanzo">Hanzo</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage increased from 160 to 176</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Storm Bow (Q)</strong>
+<ul>
+<li>Damage increased from 270 to 297</li>
+</ul></li>
+<li><strong>Scatter Arrow (W)</strong>
+<ul>
+<li>Damage increased from 85 to 93</li>
+</ul></li>
+<li><strong>Sonic Arrow (E)</strong>
+<ul>
+<li>Damage increased from 150 to 165</li>
+</ul></li>
+<li><strong>Dragonstrike (R)</strong>
+<ul>
+<li>Damage increased from 52 to 58</li>
+</ul></li>
+<li><strong>Dragon’s Arrow (R)</strong>
+<ul>
+<li>Damage increased from 100/200/350 to 130/260/390</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li>Play of the Game (R)
+<ul>
+<li>Damage increased from 120 to 132</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes &amp; Talents</strong></p>
+
+<ul>
+<li><strong>Sgt. Hammer:</strong> The Hyper-Cooling Engines talent will no longer grant cooldown reduction from basic attacks against non-Heroic targets while in Siege Mode.</li>
+<li><strong>Tychus &amp; Stitches:</strong> Tychus can now be affected by Stitches’ Gorge while in Commandeer Odin.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2017-11-29 Balance Update</title>
     <published>2017-11-27T23:30:00.000Z</published>
@@ -12964,581 +13042,6 @@ changes and a few bug fixes.</p>
 <hr />
 
 <p>We also recently released a new patch, which contains a new Hero, UI improvements, balance changes, and more! <a href="http://blizz.ly/Aug8Patch">Click here to check out the Patch Notes</a>.</p>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-08-08 Patch Notes</title>
-    <published>2017-08-08T18:32:00.000Z</published>
-    <updated>2017-08-08T18:32:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-08-08-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-08-08-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-august-8-2017">Heroes of the Storm Patch Notes — August 8, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/20944073" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/20944073" target="_blank">Official Patch Notes</a> <small>v 2.27.0</small></div>
-
-<p>Our latest update for the Heroes of the Storm brings a new Hero, new features,
-and a handful of balance changes to the Nexus!</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<p><strong>Team Compositions</strong></p>
-
-<ul>
-<li><strong>Quick Match</strong>
-<ul>
-<li>Quick Match will now prefer not to make mirror matches, the same hero on both teams, when other options are available.</li>
-</ul></li>
-<li><strong>Versus A.I.</strong>
-<ul>
-<li>Removed Mirror Matches: Players will no longer face duplicate enemy A.I. Heroes in this game mode.</li>
-</ul></li>
-</ul>
-
-<hr />
-
-<h3 id="new-hero-garrosh">New Hero: Garrosh</h3>
-
-<p>As the new warchief of the Horde, Garrosh is a proud and vicious warrior who
-rules with an iron fist. His hatred for the Alliance burns like wildfire, and
-he will stop at nothing to destroy them. By his axe, the orcs will reclaim
-their rightful glory.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Armor Up</strong>
-<ul>
-<li>Garrosh gains 1 Armor for every 2% of maximum Health missing.</li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Groundbreaker (Q)</strong>
-<ul>
-<li>Deal damage to enemies in an area. Heroes hit on the outer edge are pulled toward Garrosh.</li>
-</ul></li>
-<li><strong>Bloodthirst (W)</strong>
-<ul>
-<li>Deal damage to an enemy and Heal for 10% of Garrosh’s missing Health. Healing is increased by 100% against Heroes.</li>
-</ul></li>
-<li><strong>Wrecking Ball (E)</strong>
-<ul>
-<li>Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing damage enemies near the impact and slowing them by 30% for 2.5 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Warlord's Challenge (R)</strong>
-<ul>
-<li>Silence nearby Heroes and force them to attack Garrosh for 1.5 seconds.</li>
-</ul></li>
-<li><strong>Decimate (R)</strong>
-<ul>
-<li>Deal damage to nearby enemies and Slow them by 30% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.</li>
-<li>Stores up to 3 charges.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="art">Art</h3>
-
-<p><strong>Artanis</strong></p>
-
-<ul>
-<li>Daelaam Artanis' Twin Blades activation effect is now green to match the color of his warp blades.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="user-interface">User Interface</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>Armor Indicators:</strong>
-<ul>
-<li>Armor buff and debuff indicators have been added next to Hero healthbars.</li>
-</ul></li>
-<li><strong>Cursor Cooldown Notifications:</strong>
-<ul>
-<li>An option to display ability cooldown indicators near your mouse cursor has been added.
-<ul>
-<li>This feature can be enabled or disabled in the options menu</li>
-</ul></li>
-</ul></li>
-<li><strong>MVP Banners:</strong>
-<ul>
-<li>The MVP player’s Banner will now show in the initial MVP screen.</li>
-</ul></li>
-<li><strong>In-Game Chat Improvements:</strong>
-<ul>
-<li>The in-game chat box can now be moved by clicking and dragging the directional arrow indicator seen when the chat box is open.
-<ul>
-<li>Double clicking the directional arrow indicator when the chat box is open will reset the position of the chat box.</li>
-</ul></li>
-<li>In-game chat history can now be accessed using the ‘Page Up’ and ‘Page Down’ hotkeys.</li>
-<li>A timestamp option has been added to display in-game times before chat messages.</li>
-<li>Hero names will now display as Hero icons to the left of messages in chat.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Hanamura has been temporarily removed from all game modes except Custom Games in order to undergo changes. <a href="https://us.battle.net/forums/en/heroes/topic/20758516517">Click here to learn more.</a></li>
-</ul>
-
-<p><strong>Map Rotation Update</strong></p>
-
-<ul>
-<li>The Ranked Map Rotation has been updated to include the following:
-<ul>
-<li>Braxis Holdout</li>
-<li>Battlefield of Eternity</li>
-<li>Sky Temple</li>
-<li>Cursed Hollow</li>
-<li>Blackheart's Bay</li>
-<li>Towers of Doom</li>
-<li>Warhead Junction</li>
-<li>Dragon Shire</li>
-<li>Garden of Terror</li>
-</ul></li>
-</ul>
-
-<p><strong>Cursed Hollow</strong></p>
-
-<ul>
-<li>Audio and visual indicators have been added to alert players when there are 10 and 5 seconds remaining on the Raven Lord’s Curse.</li>
-</ul>
-
-<p><strong>Dragon Shire</strong></p>
-
-<ul>
-<li>Dragon Knight *
-<ul>
-<li>General
-<ul>
-<li>Now deals double damage to minions</li>
-<li>Base Health increased from 8000 to 9300</li>
-<li>Starting duration increased from 50 to 55 seconds</li>
-<li>Adjusted weapon swing to feel more responsive</li>
-</ul></li>
-<li>Flame Breath (Q)
-<ul>
-<li>Base initial damage increased from 70 to 85</li>
-<li>Damage over time effect now happens in half the previous time (total damage has not been changed)</li>
-</ul></li>
-<li>Savage Charge (W)
-<ul>
-<li>No longer has a .25 second damage delay after punting the target</li>
-<li>Base damage increased from 300 to 450</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p>*These changes have been live since the Stukov patch but were missing from patch notes.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#ragnaros">Ragnaros</a></td>
-  <td><a href="#probius">Probius</a></td>
-  <td><a href="#auriel">Auriel</a></td>
-  <td><a href="#dva">D.Va</a></td>
-</tr>
-<tr>
-  <td><a href="#the-butcher">The Butcher</a></td>
-  <td></td>
-  <td></td>
-  <td><a href="#sonya">Sonya</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="ragnaros">Ragnaros</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Living Meteor (W)</strong>
-<ul>
-<li>Damage reduced from 72 to 68</li>
-</ul></li>
-<li><strong>Blast Wave (E)</strong>
-<ul>
-<li>Cooldown reduced from 10 to 9 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Shifting Meteor (W)
-<ul>
-<li>Additional Functionality:
-<ul>
-<li>Each time an enemy is hit by Living Meteor, they take an additional 3% damage from subsequent hits by the same Meteor</li>
-</ul></li>
-</ul></li>
-<li>Engulfing Flame (E)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>No longer grants cooldown reduction on Blast Wave</li>
-<li>Now also increases the damage of Blast Wave by 75%</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Superheated (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>New Talent: Blistering Attacks (Passive)
-<ul>
-<li>Every 10 seconds, your next Basic Attack deals 60% bonus damage. Enemies hit by your Basic Abilities reduces this cooldown by 1 second</li>
-</ul></li>
-<li>Molten Power (W)
-<ul>
-<li>Damage bonus increased from 15 to 20% per enemy Hero hit</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Lava Surge (R)
-<ul>
-<li>Cooldown reduction increased from 10 to 30 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="the-butcher">The Butcher</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage lowered from 140 to 130</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fresh Meat (Trait)</strong>
-<ul>
-<li>Meat required to complete his quest increased from 125 to 200</li>
-<li>Damage bonus per Meat stack decreased from 1 to .5</li>
-<li>Meat dropped by enemy Heroes increased from 5 to 25</li>
-<li>Bonus damage on quest completion increased from 100 to 125</li>
-<li>Once the quest is completed, enemy Heroes continue to drop Meat, giving The Butcher 5 permanent Basic Attack damage per Meat collected</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Abattoir (Trait)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="probius">Probius</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Worker Rush (Z)​</strong>
-<ul>
-<li>Worker Rush can no longer be activated while the Worker Rush buff is still active. This will prevent players from accidentally placing the ability on cooldown when leaving the Hall of Storms.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="auriel">Auriel</h4>
-
-<ul>
-<li>Auriel’s resource bar will now glow when at maximum Hope.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="dva">D.Va</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Diverting Power (W)
-<ul>
-<li>Instead of preventing D.Va from moving during Defense Matrix, this talent now adds an additional 50% slow.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="sonya">Sonya</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Whirlwind (E)</strong>
-<ul>
-<li>The time required after activation before the ability can be canceled has been increased from .5 to 1 seconds. This should help prevent accidental cancellations.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>New Bundles</strong> – The following new Bundles and Skin Packs are available for a limited time!</p>
-
-<ul>
-<li>Garrrosh Heroic Bundle</li>
-<li>Mad Axe Garrosh Skin Pack</li>
-<li>StarCrossed Bundle</li>
-<li>Warcraft Armory Bundle</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Garrosh</strong>
-<ul>
-<li>Shattered Hand Garrosh</li>
-<li>Blackrock Garrosh</li>
-<li>Deadly Garrosh</li>
-<li>Glorious Garrosh</li>
-<li>Mad Axe Garrosh</li>
-<li>Biohazard Mad Axe Garrosh</li>
-<li>Frozen Mad Axe Garrosh</li>
-<li>Horde Axe Garrosh</li>
-<li>Mutant Mad Axe Garrosh</li>
-</ul></li>
-<li><strong>Anub'arak</strong>
-<ul>
-<li>Anub'alisk</li>
-<li>Enraged Anub'alisk</li>
-<li>Kaldir Anub'alisk</li>
-<li>Omega Anub'alisk</li>
-<li>Venomous Anub'alisk</li>
-</ul></li>
-<li><strong>Li-Ming</strong>
-<ul>
-<li>Templar Li-Ming</li>
-<li>Dark Templar Li-Ming</li>
-<li>First Ascendant Li-Ming</li>
-<li>Onyx Templar Li-Ming</li>
-<li>Void Templar Li-Ming</li>
-</ul></li>
-<li><strong>E.T.C.</strong>
-<ul>
-<li>L800 E.T.C.</li>
-<li>Angelic L800 E.T.C.</li>
-<li>Horde L800 E.T.C.</li>
-<li>Jungle L800 E.T.C.</li>
-<li>Shock L800 E.T.C.</li>
-<li>Spectre L800 E.T.C.</li>
-</ul></li>
-<li><strong>Abathur</strong>
-<ul>
-<li>Feral Swarm Abathur</li>
-</ul></li>
-<li><strong>Alarak</strong>
-<ul>
-<li>Amethyst Highlord Alarak</li>
-</ul></li>
-<li><strong>Dehaka</strong>
-<ul>
-<li>Savage Pack Leader Dehaka</li>
-</ul></li>
-<li><strong>D.Va</strong>
-<ul>
-<li>Devil Dogs Goliath D.Va</li>
-<li>Spectre Goliath D.Va</li>
-</ul></li>
-<li><strong>Probius</strong>
-<ul>
-<li>Sargas Probius Prime</li>
-<li>Solarite Probius Prime</li>
-</ul></li>
-<li><strong>Rehgar</strong>
-<ul>
-<li>Saronite Ironclaw Rehgar</li>
-</ul></li>
-<li><strong>Samuro</strong>
-<ul>
-<li>Warsong Hellblade Samuro</li>
-</ul></li>
-<li><strong>The Butcher</strong>
-<ul>
-<li>Grendel Butcherlisk</li>
-</ul></li>
-<li><strong>Valeera</strong>
-<ul>
-<li>Crimson Demon Hunter Valeera</li>
-<li>Ivory Demon Hunter Valeera</li>
-</ul></li>
-<li><strong>Varian</strong>
-<ul>
-<li>Deadly Lo'Gosh Varian</li>
-</ul></li>
-<li><strong>Zul’jin</strong>
-<ul>
-<li>Arcane Emberlord Zul'jin</li>
-</ul></li>
-</ul>
-
-<p><strong>New Mounts</strong></p>
-
-<ul>
-<li><strong>Road Boar</strong>
-<ul>
-<li>Road Boar</li>
-<li>Biohazard Road Boar</li>
-<li>Frozen Road Boar</li>
-<li>Horde Road Boar</li>
-<li>Mutant Road Boar</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
-</ul>
-
-<p><strong>Battlegrounds</strong></p>
-
-<ul>
-<li><strong>Mercenaries:</strong> Heroes will no longer be pushed when allied Mercenaries path into them.</li>
-<li><strong>Minions:</strong> Catapults that are destroyed while their projectiles are mid-air will no longer deal half-damage.</li>
-<li><strong>Heroes Brawl:</strong> Fixed an issue that could cause increased loading times when entering Heroes.</li>
-<li><strong>Try Mode:</strong> The Reset Talents button now properly removes bonus damage earned by completing Medivh’s Arcane Charge Questing Talent. </li>
-<li><strong>Try Mode:</strong> The Reset Talents button now properly removes the range and cooldown bonuses granted by Genji’s Agile Dismount Talent.</li>
-<li><strong>Braxis Holdout:</strong> Fixed a rare issue that could cause large units to get stuck on the corners of Structures. </li>
-<li><strong>Warhead Junction:</strong> AI players will no longer become stuck in the southwest hand corner of the Battleground when retreating down the bottom lane. </li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Alarak:</strong> Marking The Lost Vikings with Rite of Rak'Shir during their Longboat Raid Ability and then killing the Longboat will now correctly grant bonus Sadism and Rite of Rak’shir cooldown reduction.</li>
-<li><strong>Alarak &amp; Artanis:</strong> Fixed an issue causing Deadly Charge to go on a full cooldown if Alarak is hit by Phase Prism while channeling.</li>
-<li><strong>Arthas:</strong> After Arthas completing the Frost Presence Questing Talent the Shattered Armor Talent will now correctly apply Armor Reduction to Heroes who have been rooted by Howling Blast. </li>
-<li><strong>Cassia:</strong> Blinding Light will no longer reveal Stealthed enemy Heroes.</li>
-<li><strong>Chen:</strong> Medivh’s Ley Line Seal can no longer cause Chen and his Storm, Earth, Fire Spirits to exist simultaneously. </li>
-<li><strong>D.Va:</strong> Now properly contests Objective Capture Points while exiting her Mech.</li>
-<li><strong>D.Va:</strong> Now properly contests and pushes Hanamura Payloads while exiting her Mech.</li>
-<li><strong>D.Va:</strong> D.Va’s Basic Attacks are now halted during her Taunt and Dance animations.</li>
-<li><strong>D.Va:</strong> The Call Mech status bar that appears under D.Va’s party frame portrait no longer persists after she dies and respawns in Mech Mode. </li>
-<li><strong>Kharazim:</strong> Seven-Sided Strike will no longer target D.Va's Mech during Self-Destruct. </li>
-<li><strong>Genji:</strong> X-Strike can now be properly self-cast. </li>
-<li><strong>Greymane:</strong> Can now correctly cast Go For the Throat a second time after using the Ability to kill D.Va’s Mech. </li>
-<li><strong>Lt. Morales:</strong> Entering a Medivac as it is destroyed will no longer cause the Medivac UI to persist on-screen. </li>
-<li><strong>Probius:</strong> Pylons that are affected by a time stop, such as Zeratul’s Void Prison, will no longer cause Warp Rift’s cooldown to be paused for the duration of the effect.</li>
-<li><strong>Ragnaros:</strong> Lava Wave now correctly contributes to Ragnaros’ Siege Damage. </li>
-<li><strong>Rexxar:</strong> Fixed an issue that could cause Misha to become briefly unresponsive after respawning if she was killed while Rexxar was affected by time stop effect. </li>
-<li><strong>Samuro:</strong> Selecting Mirror Images via control groups will no longer cancel their active movement commands. </li>
-<li><strong>Sonya:</strong> The Ancient Spear model will no longer visually persist when cast on an allied Gate prior to game start. </li>
-<li><strong>Stasis:</strong> Fixed an issue in which cooldowns for self-stasis effects, like Chromie’s Time Out, would not begin counting down until the Hero respawned if that Hero was killed immediately after the self-stasis effect concluded.</li>
-<li><strong>Stealth:</strong> Fixed an issue that could cancel the Stealth effect provided by Valeera’s Vanish and Tyrande’s Shadowstalk when cast at a specific moment during those Heroes’ Basic Attacks.</li>
-<li><strong>Sylvanas:</strong> Can cast Possession on units spawned by Bosses on Warhead Junction.</li>
-<li><strong>Thrall:</strong> Fixed an issue allowing Sundering to be seen and heard through fog of war.</li>
-<li><strong>The Butcher:</strong> Fixed an issue preventing Ruthless Onslaught from activating when targeting an enemy that moves into fog of war. </li>
-<li><strong>Tracer:</strong> Ricochet will no longer cause Tracer’s Basic Attacks to bounce to Stealthed Heroes. </li>
-<li><strong>Tychus:</strong> Fixed an issue preventing Drakken Laser Drill from displaying a range indicator. </li>
-<li><strong>Tyrael &amp; The Butcher:</strong> Fixed an issue that allowed Sanctification to go off despite Tyrael being stunned by Ruthless Onslaught. </li>
-<li><strong>Valla:</strong> Fixed an issue that prevented the Death Dealer talent from refreshing the cooldown of Vault after killing a structure. </li>
-<li><strong>Valeera:</strong> Fixed an issue that caused Valeera to break Stealth if Sinister Strike was cast immediately before attempting to Vanish. </li>
-<li><strong>Zul’jin:</strong> Fixed an issue preventing Zul’jin from self-casting Guillotine. </li>
-<li><span class="text-warning"><strong>Murky:</strong> Slime damage from Egg Hunt talent now scales at 4% per level, matching normal Slime scaling</span> <span class="label label-warning">Undocumented</span> <a class="label label-info" href="https://www.reddit.com/r/heroesofthestorm/comments/6qs8m8/undocumented_change_murkys_egg_hunt_bug_was_fixed/" target="_blank">Source <i class="fa fa-external-link"></i></a></li>
-</ul>
-
-<p><strong>Sound</strong></p>
-
-<ul>
-<li><strong>Stukov:</strong> Fixed an issue causing Massive Shove sound effects to play for too long if the target was pushed an exceptionally long distance.</li>
-<li><strong>Genji:</strong> Fixed an issue preventing the Shingan talent from playing quest tracking sounds if a target was hit with all 3 Shurikens. </li>
-<li><strong>Hero VO:</strong> Fixed an issue that occasionally caused Heroes to play a previously selected Heroes’ voice line when locking in during draft mode. </li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li><strong>Quests:</strong> Fixed an issue causing Daily Quests to appear delayed upon initial login.</li>
-<li><strong>Heroes Brawls:</strong> Fixed an issue that could cause players to become stuck on ‘Waiting for Game Results’ after finishing a Heroes Brawl.</li>
-</ul>
 
 <p><a href="#top">Return to Top</a></p>
 ]]></content>
