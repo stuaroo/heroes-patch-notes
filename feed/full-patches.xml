@@ -724,6 +724,7 @@ as the ideal training ground.</p>
 
 <ul>
 <li>Minion base damage has been increased by roughly 10%</li>
+<li><span class="text-warning">Minion base health has been increased by roughly 10%</span> <a class="label label-warning" href="http://www.teamliquid.net/forum/heroes/529088-mots-2018-gameplay-update-battlegrounds" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
 <li>The 5 second delay before Minions spawn after the game begins has been removed.</li>
 </ul>
 
@@ -1312,7 +1313,10 @@ as the ideal training ground.</p>
 <ul>
 <li>Slice and Dice (E)
 <ul>
+<li><span class="text-warning">Added functionality:</span>
+<ul>
 <li>Valeera's Basic Attacks now restore 2 Energy.</li>
+</ul></li>
 </ul></li>
 </ul></li>
 <li><strong>Level 13</strong>
