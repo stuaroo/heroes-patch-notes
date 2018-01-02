@@ -2,10 +2,479 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2017-12-23T09:05:00.000Z</updated>
+  <updated>2018-01-02T19:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-01-02 PTR Patch Notes</title>
+    <published>2018-01-02T19:00:00.000Z</published>
+    <updated>2018-01-02T19:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-01-02-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-01-02-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-notes-january-2-2018">Heroes of the Storm PTR Notes — January 2, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21353256" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21353256" target="_blank">Official Patch Notes</a> <small>v 2.29.7</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until January 8. During this time, we kindly
+request your assistance in trying out the new content before we officially
+release the patch. Just like last time, if you encounter any bugs or other
+issues during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
+forum</a> to let us know about
+your experiences.</p>
+
+<hr />
+
+<h3 id="new-hero-blaze">New Hero: Blaze</h3>
+
+<p>Cpl. Miles "Blaze" Lewis has always been drawn to the flame, but it wasn't
+until he joined up with Raynor's Raiders that he put his pyromania to good
+use. He's seen his fair share of battles since then, and has never failed to
+bring the heat.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Pyromania</strong>
+<ul>
+<li>Gain 25 Armor and deal 40 damage to nearby enemies every 0.5 seconds for 4 seconds. Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Flame Stream (Q)</strong>
+<ul>
+<li>Fire two streams of flame that deal 83 damage to enemies hit. Flame Stream sets fire to Oil Spills it comes in contact with.</li>
+</ul></li>
+<li><strong>Oil Spill (W)</strong>
+<ul>
+<li>Vector Targeting. </li>
+<li>Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 40%. Flame Stream can set Oil Spills on fire for 2.5 seconds, dealing 18 damage every 0.3 seconds to enemies inside. While on fire, Oil Spills no longer Slow enemies. Additionally, Blaze is Healed for 49 Health every 0.3 seconds while standing in flaming Oil Spills. Stores up to 2 charges.</li>
+</ul></li>
+<li><strong>Jet Propulsion (E)</strong>
+<ul>
+<li>After 0.5 seconds, charge forward, colliding with the first enemy Hero hit, dealing 52 damage to them and nearby enemy Heroes. Enemies hit are also Stunned for 1.25 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Bunker Drop (R)</strong>
+<ul>
+<li>After 0.5 seconds, deploy and enter a Bunker with 1300 Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.</li>
+</ul></li>
+<li><strong>Combustion (R)</strong>
+<ul>
+<li>Channel up to 2.6 seconds. Once Channeling ends, nearby enemies are Slowed by 60% and take 48 damage every 0.5 seconds. Combustion's Slow and damage over time durations are extended the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="art">Art</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li>Malfurion has received updated visual effects to coincide with Talent changes.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<p>​<strong>Battlefield of Eternity</strong></p>
+
+<ul>
+<li>The Minimap will now indicate upcoming Immortal spawn locations 30 seconds after the game begins.
+<ul>
+<li>Subsequent Immortal indicators will appear on the Minimap shortly after a previously summoned Immortal has been defeated.</li>
+<li>Swap locations will not appear on the Minimap when an Immortal has been reduced to 50% Health.</li>
+</ul></li>
+</ul>
+
+<p>​<strong>Heroes Brawl</strong></p>
+
+<ul>
+<li><strong>Dodge Brawl</strong>
+<ul>
+<li>Chromie’s Health has been increased from 3 to 5</li>
+<li>Ghost Chromies now display player names overhead</li>
+<li>The in-game camera will now lock to Ghost Chromie until a new round begins</li>
+</ul></li>
+</ul>
+
+<p><strong>Ranked Battleground Rotation</strong></p>
+
+<ul>
+<li>The Battleground rotation for Ranked Play has not been changed.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#support">Support</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#malfurion">Malfurion</a></td>
+  <td><a href="#johanna">Johanna</a></td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="malfurion">Malfurion</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack Damage reduced from 64 to 60</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Regrowth (Q)</strong>
+<ul>
+<li>Mana cost reduced from 45 to 35</li>
+<li>No longer has an initial heal effect</li>
+<li>Heal amount per tick decreased from 27 to 20</li>
+<li>Duration increased from 15 to 20 seconds</li>
+</ul></li>
+<li><strong>Moonfire (W)</strong>
+<ul>
+<li>Mana cost reduced from 15 to 10</li>
+<li>Damage reduced from 100 to 90</li>
+<li>Added functionality:
+<ul>
+<li>For every enemy Hero hit with Moonfire, instantly heal all targets with an active Regrowth for 140</li>
+</ul></li>
+</ul></li>
+<li><strong>Entangling Roots (E)</strong>
+<ul>
+<li>No longer effects non-Heroic targets</li>
+</ul></li>
+<li><strong>Tranquility (R)</strong>
+<ul>
+<li>Duration reduced from 10 to 8 seconds</li>
+<li>Cooldown reduced from 100 to 80 seconds</li>
+<li>Mana cost reduced from 100 to 80</li>
+<li>Added functionality:
+<ul>
+<li>All Heroes with an active Regrowth effect gain 10 Armor while in range of Tranquility</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Shan’do’s Clarity (D)
+<ul>
+<li>Functionality changed:
+<ul>
+<li>The cooldown of Innervate regenerates 25% faster for each active Regrowth</li>
+</ul></li>
+</ul></li>
+<li>Scouting Drone (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>New Talent – Nature’s Swiftness (Q)
+<ul>
+<li>Malfurion passively gains 5% Movement Speed for each active Regrowth</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Full Moonfire (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Strangling Vines (E)
+<ul>
+<li>Moved from Level 7</li>
+<li>New functionality:
+<ul>
+<li>Enemy Heroes rooted by Entangling Roots receive 25% less healing for 2 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent – Deep Roots (E)</strong>
+<ul>
+<li>Entangling Roots grow 25% larger and last 25% longer</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Tenacious Roots (E)
+<ul>
+<li>Moved from Level 16</li>
+<li>New functionality:
+<ul>
+<li>Root duration is increased by 25%. If Malfurion becomes stunned, refresh the cooldown of Entangling Roots</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent – Nature’s Cure (Active)</strong>
+<ul>
+<li>Activate: Remove all stuns, roots and slows from allies with an active Regrowth. 45 second cooldown.</li>
+</ul></li>
+<li><strong>New Talent – Wild Growth (W)</strong>
+<ul>
+<li>Every time your Moonfire hits an enemy Hero, increase the duration of all active Regrowths by 1 second</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Shrink Ray (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Life Seed (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Revitalize (Q)
+<ul>
+<li>Moved from Level 16</li>
+</ul></li>
+<li>Hindering Moonfire (W)
+<ul>
+<li>Moved from Level 7</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Ysera’s Gift (Q)
+<ul>
+<li>Bonus heal amount increased from 40 to 60%</li>
+</ul></li>
+<li><strong>New Talent – Moonlit Harmony (W)</strong>
+<ul>
+<li>Increase the heal of your Moonfire by 15% for every active Regrowth</li>
+</ul></li>
+<li><strong>New Talent – Nature's Balance (W)</strong>
+<ul>
+<li>Increase the area of Moonfire by 25% and the duration of Regrowth by 5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Serenity (R)
+<ul>
+<li>New functionality:
+<ul>
+<li>Every Hero hit with Moonfire lowers the cooldown of Tranquility by 3 seconds. While active, Tranquility's healing is increased by 10% for each active Regrowth</li>
+</ul></li>
+</ul></li>
+<li>Storm Shield (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Rewind (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Lunar Shower (W)
+<ul>
+<li>Moved from Level 7</li>
+<li>New functionality:
+<ul>
+<li>Hitting an enemy Hero reduces the cooldown of Moonfire by 1 second and ramps the damage of the next Moonfire by 20%, stacking up to 3 times</li>
+</ul></li>
+</ul></li>
+<li><strong>New Talent – Lifebloom (Q)</strong>
+<ul>
+<li>Casting Regrowth on a player instantly heals them for 10% of their missing Health</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+  <th><strong>LEVEL (TIER)</strong></th>
+  <th><strong>Malfurion Talents</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>1 (1)</strong></td>
+  <td><em>Nature's Swiftness (Q)</em></td>
+  <td>Celestial Attunement (W)</td>
+  <td>Shan'do's Clarity (D)</td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>4 (2)</strong></td>
+  <td><strong>Strangling Vines (E)</strong></td>
+  <td><em>Deep Roots (E)</em></td>
+  <td>(!) Vengeful Roots (E)</td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>7 (3)</strong></td>
+  <td><em>Wild Growth (Passive)</em></td>
+  <td><strong>Tenacious Roots (E)</strong></td>
+  <td><em>Nature's Cure (Active)</em></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>10 (4)</strong></td>
+  <td>Tranquility</td>
+  <td>Twilight Dream</td>
+  <td>—</td>
+  <td>—</td>
+</tr>
+<tr>
+  <td><strong>13 (5)</strong></td>
+  <td><strong>Hindering Moonfire (W)</strong></td>
+  <td><strong>Revitalize (D)</strong></td>
+  <td>Ice Block (Active)</td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>16 (6)</strong></td>
+  <td>Ysera's Gift (Q)</td>
+  <td><em>Nature's Balance (Passive)</em></td>
+  <td><em>Moonlit Harmony (Passive)</em></td>
+  <td></td>
+</tr>
+<tr>
+  <td><strong>20 (7)</strong></td>
+  <td>Serenity (R)</td>
+  <td>Astral Communion (R)</td>
+  <td><em>Lifebloom (Q)</em></td>
+  <td><strong>Lunar Shower (W)</strong></td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>(!) indicates a Questing Talent.</li>
+<li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
+<li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="johanna">Johanna</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Falling Sword (R)</strong>
+<ul>
+<li>Johanna can no longer take damage or be targeted while initially casting Falling Sword​ </li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Items in the Collection have received updated UI colors to improve readability</li>
+</ul>
+
+<p><strong>New Bundle</strong></p>
+
+<ul>
+<li>Blaze Heroic Bundle – Available until January 22, 2017</li>
+</ul>
+
+<p><strong>New Announcer</strong></p>
+
+<ul>
+<li>Blaze</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Blaze</strong>
+<ul>
+<li>Hazardous Blaze</li>
+<li>Veteran Blaze</li>
+<li><strong>Fel Reaver Blaze</strong>
+<ul>
+<li>Abominable Fel Reaver Blaze</li>
+<li>Coldfire Fel Reaver Blaze</li>
+<li>Infernal Fel Reaver Blaze</li>
+<li>Smoldering Fel Reaver Blaze</li>
+</ul></li>
+</ul></li>
+<li><strong>Probius</strong>
+<ul>
+<li>Ara Tribe Probius</li>
+<li>Nerazim Probius</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> Casting Ultimate Evolution will no longer cause visual effects to persist on the terrain at Abathur’s previous location.</li>
+<li><strong>Valla:</strong> The color of Lavendar Deputy Valla’s scarf has been updated to match the rest of the skin.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> Locusts will now correctly retain their selected skins during Ultimate Evolution.</li>
+<li><strong>Chen:</strong> Fixed an issue that could cause Chen to become unresponsive if Wandering Keg’s duration expired while the barrel was too close to unpathable terrain.</li>
+<li><strong>Garrosh:</strong> Talent descriptions for Inner Rage and Brute Force will no longer swap when selecting either Talent.</li>
+<li><strong>Junkrat:</strong> Total Mayhem will no longer trigger twice if Junkrat is killed by the secondary Basic Attack damaged granted by the Giant Killer Talent.</li>
+<li><strong>Junkrat:</strong> Casting Rocket Ride will no longer cause an empty Health Bar to appear.</li>
+<li><strong>Junkrat:</strong> Fixed an issue in which Ripper Air could grant cooldown reduction to Concussion Mine if a Summon, such as a Creep Tumor, Healing Ward, etc., was also hit when the Mine was detonated.</li>
+<li><strong>Nazeebo:</strong> Gargantuan Stomp can no longer be cast while the Gargantuan is stunned or polymorphed.</li>
+<li><strong>Samuro:</strong> Illusion Master can no longer be cast while Samuro is airborne after being hit by an effects like Junkrat’s Concussion Mine detonation.</li>
+<li><strong>Samuro:</strong> Issuing a Hold Position command to Samuro’s Mirror Images and then selecting one of them will no longer cause the others to cancel the Hold Position command.</li>
+<li><strong>Zul’jin:</strong> Lacerate’s Talent icon is now correctly colored blue, rather than purple.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2017-12-22 Hotfix Patch</title>
     <published>2017-12-23T09:05:00.000Z</published>
@@ -11523,41 +11992,6 @@ the fight.</p>
 
 <ul>
 <li><strong>Hotkeys:</strong> The Dragon Knight and Garden Terror will now correctly follow Force Move commands.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-09-08 Hotfix Patch</title>
-    <published>2017-09-08T18:40:00.000Z</published>
-    <updated>2017-09-08T18:40:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-09-08-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-09-08-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-september-8-2017">Heroes of the Storm Hotfix Notes — September 8, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21033963" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21033963" target="_blank">Official Patch Notes</a> <small>v 2.27.4</small></div>
-
-<p>We just released a new patch for Heroes of the Storm in order to apply a few
-bug fixes.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>Art</strong></p>
-
-<ul>
-<li><strong>Anub'arak:</strong> Fixed an issue causing the Neon Cyb'arak Skin to replace the base Cyb'arak Anub'arak Skin in-game and in the Collection.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Gazlowe:</strong> Scrap will no longer be created when Leoric's Entomb expires.</li>
-<li><strong>Lt. Morales:</strong> Fixed an issue that could allow the Lt. Morales player to issue Move Commands to an active Medivac under certain circumstances.</li>
-<li><strong>Rehgar:</strong> Can no longer cast Lightning Shield on allied Vehicles, such as the Dragon Knight or Garden Terror.</li>
-<li><strong>Zeratul:</strong> The Seeker in the Dark talent's tooltip text will now display correctly in localized game clients.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
