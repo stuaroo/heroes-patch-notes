@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2017-12-20T23:59:00.000Z</updated>
+  <updated>2018-01-09T18:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-01-09 Patch Notes v 2.29.7</title>
+    <published>2018-01-09T18:30:00.000Z</published>
+    <updated>2018-01-09T18:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-01-09-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-01-09-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/blaze.png" alt="Blaze" height="60" width="60" /> Blaze</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-01-09" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2018-01-09" target="_blank">Garrosh</a>, 
+          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-01-09" target="_blank">Hanzo</a>, 
+          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2018-01-09" target="_blank">Johanna</a>, 
+          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2018-01-09" target="_blank">Malfurion</a>, 
+          <a href="https://heroespatchnotes.com/hero/nova.html#patch2018-01-09" target="_blank">Nova</a>, 
+          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2018-01-09" target="_blank">Samuro</a>, 
+          <a href="https://heroespatchnotes.com/hero/valeera.html#patch2018-01-09" target="_blank">Valeera</a>, 
+          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2018-01-09" target="_blank">Zeratul</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/malfurion.png" href="https://heroespatchnotes.com/hero/malfurion.html#patch2018-01-09" alt="Malfurion Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2017-12-20 Balance Update v 2.29.5</title>
     <published>2017-12-20T23:59:00.000Z</published>
@@ -293,38 +320,6 @@
           <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2017-09-20" target="_blank">Tyrande</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-09-05 Patch Notes v 2.27.3</title>
-    <published>2017-09-05T16:44:00.000Z</published>
-    <updated>2017-09-05T16:44:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-09-05-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-09-05-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/kelthuzad.png" alt="Kel'Thuzad" height="60" width="60" /> Kel'Thuzad</h3>
-      <a href="https://us.battle.net/heroes/en/blog/21016370" title="Ranked Season 6 begins" target="_blank">Ranked Season 6 begins</a>
-      <h4>Play Mode</h4>
-      <ul>
-        <li><p>"Players with high matchmaking ratings (MMR) can now place as high as 1,000 points into Master League."</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2017-09-05" target="_blank">Chromie</a>, 
-          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2017-09-05" target="_blank">Jaina</a>, 
-          <a href="https://heroespatchnotes.com/hero/leoric.html#patch2017-09-05" target="_blank">Leoric</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2017-09-05" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/nazeebo.html#patch2017-09-05" target="_blank">Nazeebo</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/chromie.png" href="https://heroespatchnotes.com/hero/chromie.html#patch2017-09-05" alt="Chromie Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/jaina.png" href="https://heroespatchnotes.com/hero/jaina.html#patch2017-09-05" alt="Jaina Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/leoric.png" href="https://heroespatchnotes.com/hero/leoric.html#patch2017-09-05" alt="Leoric Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/ltmorales.png" href="https://heroespatchnotes.com/hero/ltmorales.html#patch2017-09-05" alt="Lt. Morales Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
