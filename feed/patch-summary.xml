@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-01-09T18:30:00.000Z</updated>
+  <updated>2018-01-16T23:58:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-01-16 Patch Notes v 2.29.8</title>
+    <published>2018-01-16T23:58:00.000Z</published>
+    <updated>2018-01-16T23:58:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-01-16-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-01-16-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2018-01-16" target="_blank">Tyrael</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/tyrael.png" href="https://heroespatchnotes.com/hero/tyrael.html#patch2018-01-16" alt="Tyrael Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-01-09 Patch Notes v 2.29.7</title>
     <published>2018-01-09T18:30:00.000Z</published>
@@ -293,33 +311,6 @@
       </ul>
       <h4>Reworks</h4>
         <img src="https://heroespatchnotes.com/images/hero/johanna.png" href="https://heroespatchnotes.com/hero/johanna.html#patch2017-09-26" alt="Johanna Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-09-20 Balance Update v 2.27.5</title>
-    <published>2017-09-18T21:52:00.000Z</published>
-    <updated>2017-09-18T21:52:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-09-20-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-09-20-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2017-09-20" target="_blank">Brightwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/butcher.html#patch2017-09-20" target="_blank">Butcher</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2017-09-20" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/chen.html#patch2017-09-20" target="_blank">Chen</a>, 
-          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2017-09-20" target="_blank">Chromie</a>, 
-          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2017-09-20" target="_blank">Dehaka</a>, 
-          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2017-09-20" target="_blank">Garrosh</a>, 
-          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2017-09-20" target="_blank">Kel'Thuzad</a>, 
-          <a href="https://heroespatchnotes.com/hero/leoric.html#patch2017-09-20" target="_blank">Leoric</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2017-09-20" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2017-09-20" target="_blank">Stukov</a>, 
-          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2017-09-20" target="_blank">Thrall</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2017-09-20" target="_blank">Tyrande</a>
-        </li>
-      </ul>
       ]]></content>
   </entry>
 </feed>

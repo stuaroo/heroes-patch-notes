@@ -2,10 +2,245 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-01-09T18:30:00.000Z</updated>
+  <updated>2018-01-16T23:58:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-01-16 Patch Notes</title>
+    <published>2018-01-16T23:58:00.000Z</published>
+    <updated>2018-01-16T23:58:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-01-16-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-01-16-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-january-16-2018">HEROES OF THE STORM PATCH NOTES — JANUARY 16, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21349578" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21349578" target="_blank">Official Patch Notes</a> <small>v 2.29.8</small></div>
+
+<p>Our most recent Heroes of the Storm patch has arrived featuring significant
+changes to Tyrael and a number of bug fixes.</p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="tyrael">Tyrael</h4>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Tyrael will now face the target of his Basic Attack after attacking. This is a visual change, and does not directly affect gameplay</li>
+<li>Passive Spell Armor has been removed</li>
+</ul>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health increased from 2296 to 2468</li>
+<li>Health Regeneration increased from 4.78 to 5.14</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>El’druin’s Might (Q)</strong>
+<ul>
+<li>Mana cost reduced from 50 to 45</li>
+</ul></li>
+<li><strong>Righteousness (W)</strong>
+<ul>
+<li>Mana cost reduced from 60 to 50</li>
+<li>Allied Shield amount changed from a flat value to 40% of the Tyrael-only Shield value.
+<ul>
+<li>This is the same amount of Shields, but it makes it easier to understand new Talent interactions</li>
+</ul></li>
+</ul></li>
+<li><strong>Smite (E)</strong>
+<ul>
+<li>Can now be cast while moving</li>
+<li>Damage increased from 144 to 150</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Salvation (W)
+<ul>
+<li>Moved from level 16</li>
+<li>New functionality:
+<ul>
+<li>Increase Righteousness’ Tyrael-only Shield amount by 25%. If the Shield is destroyed, heal Tyrael for 125 Health.</li>
+</ul></li>
+</ul></li>
+<li><strong>(New) Justice for All (W)</strong>
+<ul>
+<li>Increases Righteousness’ allied shield value to 100% of the Tyrael-only Shield amount.</li>
+</ul></li>
+<li><strong>(New) Ardent Restoration (Passive)</strong>
+<ul>
+<li>Damaging an enemy Hero grants 2.5 Health per Second to Tyrael for 5 seconds. Stacks up to 10 times.</li>
+</ul></li>
+<li>Protection in Death (Trait)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Even in Death (Trait)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Regeneration Master (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>(New) Stalwart Angel (Q)</strong>
+<ul>
+<li>Tyrael gains 25 Armor while El'druin's Might is out, and for 3 seconds after teleporting.</li>
+</ul></li>
+<li><strong>(New) Bound by Law (Q)</strong>
+<ul>
+<li>Increases El’druin’s Might’s slow amount from 25 to 35%. Tyrael’s Basic Attacks increase the duration of the slow by 1 second, up to 4 seconds.</li>
+</ul></li>
+<li><strong>(New) Divine Vigor (Passive)</strong>
+<ul>
+<li>Damaging an enemy with Smite causes Tyrael's Basic Attacks to heal him for 50% of their damage for 4 seconds.</li>
+</ul></li>
+<li>Vigorous Strike (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Purge Evil (E)
+<ul>
+<li>Moved from level 1</li>
+<li>New functionality:
+<ul>
+<li>Every enemy Hero hit by Smite increases Tyrael's Basic Attack damage by 30% for 4 seconds</li>
+</ul></li>
+</ul></li>
+<li>Swift Retribution (E)
+<ul>
+<li>Movement Speed bonus increased from 10 to 20%</li>
+<li>No longer increases the duration of Smite’s Movement Speed bonus</li>
+<li>Added functionality:
+<ul>
+<li>Now also causes Smite’s friendly effect to increase Attack Speed by 25%</li>
+</ul></li>
+</ul></li>
+<li>Angel’s Grace (Q)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Zealotry (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Follow Through (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Sword of Justice (Q)
+<ul>
+<li>Moved from level 16</li>
+<li>New functionality:
+<ul>
+<li>Can teleport with El'druin's Might twice, returning to Tyrael’s original position.</li>
+</ul></li>
+</ul></li>
+<li>Holy Ground (Q)
+<ul>
+<li>Moved from level 16</li>
+<li>Duration reduced from 4 to 3 seconds</li>
+</ul></li>
+<li><strong>(New) Law and Order (W)</strong>
+<ul>
+<li>Reduce the cooldown of Righteousness by 1 second for each enemy Hero hit by Smite. Righteousness increases the damage of your next Smite by 25% for each ally affected.</li>
+</ul></li>
+<li>Burning Rage (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Angelic Absorption (W)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Angelic Might (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>(New) Burning Halo (Q)</strong>
+<ul>
+<li>El'druin and Tyrael deal 15 damage per second to nearby enemies. This damage is increased by 100% for Tyrael for 3 seconds after teleporting to El’Druin.</li>
+</ul></li>
+<li>Horadric Reforging (Q)
+<ul>
+<li>Moved from level 4</li>
+<li>New functionality:
+<ul>
+<li>Basic Attacks reduce the cooldown of El'druin's Might by 1.5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>(New) Smite the Wicked (E)</strong>
+<ul>
+<li>Smite’s cooldown recharges 100% faster while El'druin is out and for 3 seconds after teleporting to El’Druin</li>
+</ul></li>
+<li>Blood for Blood (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>(New) Defense of the Angels (Active)</strong>
+<ul>
+<li>Activate to reduce all incoming damage by 40% for 5 seconds. Any time Tyrael or an ally shielded by Righteousness take damage, reduce the cooldown by 3 seconds. 120 second cooldown</li>
+</ul></li>
+<li><strong>(New) Seal of El’druin (Passive)</strong>
+<ul>
+<li>Every time Tyrael casts a Basic Ability, increase his Attack Speed by 50% for 3 seconds</li>
+</ul></li>
+<li>Nullification Shield (Active)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Nexus Blades (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Blaze:</strong> Fixed an issue allowing players to cast Flame Stream while dead if they entered a Bunker while dying.</li>
+<li><strong>Blaze:</strong> Fixed an issue that could cause Heroes to enter permanent Stasis if they were killed just as they entered a Bunker.</li>
+<li><strong>Hanzo &amp; Leoric:</strong> Fixed an issue causing Towers to spawn if Leoric was directly impacted by Sonic Arrow.</li>
+<li><strong>Malfurion &amp; Stitches:</strong> Fixed an issue that could cause Heroes to become unplayable if Nature’s Cure was cast while they were affected by Stitches’ Gorge.</li>
+<li><strong>Malfurion &amp; Zagara:</strong> Nature’s Cure can no longer cleanse Heroes of the Devouring Maw effect.</li>
+<li><strong>Uther:</strong> The Well Met talent will no longer affect non-Heroic units.</li>
+<li><strong>Valeera:</strong> The Strangle talent will no longer affect non-Heroic units.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-01-09 Patch Notes</title>
     <published>2018-01-09T18:30:00.000Z</published>
@@ -11536,564 +11771,6 @@ the fight.</p>
 
 <ul>
 <li><strong>Hotkeys:</strong> The Dragon Knight and Garden Terror will now correctly follow Force Move commands.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-09-20 Balance Update</title>
-    <published>2017-09-18T21:52:00.000Z</published>
-    <updated>2017-09-18T21:52:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-09-20-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-09-20-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-september-20-2017">Heroes of the Storm Balance Patch Notes - September 20, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21045724" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21045724" target="_blank">Official Patch Notes</a> <small>v 2.27.5</small></div>
-
-<p>We've just released a new patch for Heroes of the Storm in order to apply
-balance changes along with a few bug fixes.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#cassia">Cassia</a></td>
-  <td><a href="#brightwing">Brightwing</a></td>
-  <td><a href="#chen">Chen</a></td>
-</tr>
-<tr>
-  <td><a href="#chromie">Chromie</a></td>
-  <td><a href="#lt-morales">Lt. Morales</a></td>
-  <td><a href="#dehaka">Dehaka</a></td>
-</tr>
-<tr>
-  <td><a href="#kelthuzad">Kel'Thuzad</a></td>
-  <td><a href="#stukov">Stukov</a></td>
-  <td><a href="#garrosh">Garrosh</a></td>
-</tr>
-<tr>
-  <td><a href="#the-butcher">The Butcher</a></td>
-  <td><a href="#tyrande">Tyrande</a></td>
-  <td><a href="#leoric">Leoric</a></td>
-</tr>
-<tr>
-  <td><a href="#thrall">Thrall</a></td>
-  <td></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="cassia">Cassia</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage increased from 125 to 130</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Blinding Light (W)</strong>
-<ul>
-<li>Passive damage bonus to blinded targets increased from 15 to 20%</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Thunderstroke (Q)
-<ul>
-<li>First quest reward damage bonus increased from 75 to 100</li>
-</ul></li>
-<li>True Sight (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Seraph’s Hymn (W)
-<ul>
-<li>Moved from Level 13</li>
-<li>Cooldown reduction per basic attack against Blinded Heroes reduced from 3 to 2 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="chromie">Chromie</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Sand Blast (Q)</strong>
-<ul>
-<li>Reduced the number of Sand Blast hits required to unlock the Sand Blast echo from 80 to 60</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 2</strong>
-<ul>
-<li>Timely Surprise (E)
-<ul>
-<li>Now also increases the cast range of Time Trap by 33%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Only about 40% of Chromie players were unlocking
-  the echo over the course of a game, and among players that did it was
-  occurring later than we’d like. By reducing the requirements for completing
-  Chromie’s quest, we won’t increase her late game power at all, but make her
-  output a little more consistent.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kelthuzad">Kel'Thuzad</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Frost Nova (W)</strong>
-<ul>
-<li>Mana cost increased from 45 to 50</li>
-</ul></li>
-<li><strong>Chains of Kel’Thuzad (E)</strong>
-<ul>
-<li>Mana cost increased from 45 to 50</li>
-</ul></li>
-<li><strong>Frost Blast (R)</strong>
-<ul>
-<li>Cooldown reduced from 100 to 80 seconds</li>
-</ul></li>
-<li><strong>Shadow Fissure (R)</strong>
-<ul>
-<li>Damage reduced from 440 to 400</li>
-<li>Cooldown increased from 15 to 20 seconds</li>
-<li>Mana cost increased from 50 to 60</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Phylactery of Kel’Thuzad (Active)
-<ul>
-<li>Quest requirement increased from 10 to 12 Regen Globes</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Accelerated Decay (Q)
-<ul>
-<li>Bonus damage increased from 20 to 25%</li>
-</ul></li>
-<li>Glacial Spike (Active)
-<ul>
-<li>Damage reduced from 220 to 60</li>
-<li>Delay before the spike spawns increased from .5 to 1 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Chains of Ice (E)
-<ul>
-<li>Slow duration reduced from 1.25 to 1 second</li>
-<li>Slow amount decreased from 70 to 60%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Hungering Cold (W)
-<ul>
-<li>Bonus damage reduced from 60 to 55</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> As expected, there is a fairly large discrepancy
-  between Kel’Thuzad’s performance across the entire game vs. players who are
-  getting experienced with him at a higher level. His win-rate has climbed more
-  than most of our other releases as players get used to his kit, so most of our
-  changes are aimed at talent balance and toning his power down. While we like
-  the sharpness of his power spike due to Master of the Cold Dark, we’ll
-  continue to keep an eye on his burst potential and his overall strength going
-  forward.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="the-butcher">The Butcher</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage increased from 125 to 130</li>
-<li>Health scaling per level increased from 4 to 4.5%</li>
-<li>Health Regeneration scaling per level increased from 4 to 4.5%</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While we’ll be continuing to keep an eye on it, we
-  believe that the Butcher’s quest tuning is appropriate. He has seen a
-  significant drop in win rate in Hero League since our last round of changes,
-  so we felt it was appropriate to increase his late-game Health so that he can
-  keep up with other heroes, who often get many tools to survive his initial
-  damage in teamfights.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="thrall">Thrall</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health increased from 1787 to 1876</li>
-<li>Base Health Regeneration increased from 3.7 to 3.9</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> FOR THE HORDE!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="brightwing">Brightwing</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Soothing Mist (Trait)</strong>
-<ul>
-<li>Healing aura range increased from 6 to 7</li>
-</ul></li>
-<li><strong>Blink Heal (R)</strong>
-<ul>
-<li>Cooldown reduced from 10 to 9 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Dream Shot (Q)
-<ul>
-<li>New functionality:
-<ul>
-<li>Increases the range of Arcane Flare by 50%</li>
-<li>Hitting an enemy Hero in the center portion of Arcane Flare reduces the cooldown of Arcane Flare to 1 second</li>
-</ul></li>
-</ul></li>
-<li>Hyper Shift (Z)
-<ul>
-<li>Cooldown reduction per Hero healed increased from 2 to 3 seconds</li>
-</ul></li>
-<li>Unfurling Spray (Trait)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Arcane Barrage (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Peekaboo (Z)
-<ul>
-<li>Revealed area radius reduced from 20 to 15</li>
-<li>Added functionality:
-<ul>
-<li>Pixie Dust is now applied to the target of Phase Shift</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Phase Shield (Z)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Now applies Shield to Brightwing and her target</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While Brightwing has been seeing a bit more play
-  recently, her talent tree had some low-hanging fruit that we wanted to trim.
-  Granting her a slightly larger range of Soothing Mist baseline will free up a
-  more impactful choice at level 1. The addition of Arcane Barrage’s
-  functionality into Dream Shot should also make that talent a bit more exciting
-  to pick up. Overall, we were looking at giving the Faerie Dragon a few minor
-  buffs and adjusting some talents in order to increase parity amongst her
-  talent tiers.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lt-morales">Lt. Morales</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health increased from 1528 to 1605</li>
-<li>Base Life Regen increased from 3.18 to 3.34</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Healing Beam (Q)</strong>
-<ul>
-<li>Energy Regeneration cooldown reduced from 3 to 2 seconds</li>
-<li>You can no longer redirect Healing Beam to a target that is already being healed by your Healing Beam</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Caduceus Feedback (Passive)
-<ul>
-<li>Now increases Basic Attack Range by 1.1 and only generates Energy from Basic Attacks against Heroic targets.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stukov">Stukov</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Spine Launcher (Passive)
-<ul>
-<li>Basic Attack damage reduction decreased from 50 to 30%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tyrande">Tyrande</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Huntress’ Fury (D)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Now also increases the range of Hunter’s Mark by 50%</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Empower (W)
-<ul>
-<li>Base cooldown reduction decreased from 4 to 2 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warriors">Warriors</h3>
-
-<h4 id="chen">Chen</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Grounding Brew (D)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Purifying Brew (D)
-<ul>
-<li>Cooldown reduced from 45 to 15 seconds</li>
-<li>Added functionality:
-<ul>
-<li>Chen now gains 30 Spell Armor while channeling Fortifying Brew</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We realize how difficult it is for most Chen
-  players to pass up Brewmaster’s Balance on Tier 3. We moved a powerful level
-  20 down to compete with it a couple patches ago but the data is still showing
-  it as an underperformer. Lowering the cooldown drastically and granting it the
-  functionality of Grounding Brew should incentivize players into choosing it
-  when playing against certain team compositions.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="dehaka">Dehaka</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage reduced from 105 to 100</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Dark Swarm (W)</strong>
-<ul>
-<li>Damage per tick reduced from 50 to 47</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="garrosh">Garrosh</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Groundbreaker (Q)</strong>
-<ul>
-<li>Mana cost increased from 30 to 35</li>
-</ul></li>
-<li><strong>Wrecking Ball (E)</strong>
-<ul>
-<li>Mana cost increased from 60 to 70</li>
-</ul></li>
-<li><strong>Decimate (R)</strong>
-<ul>
-<li>Mana cost decreased from 30 to 25</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Body Check (Active)
-<ul>
-<li>Cooldown decreased from 20 to 16 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Into the Fray (Active)
-<ul>
-<li>Cooldown increased from 30 to 40 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> These changes are a response to community feedback
-  about Garrosh’s Mana costs. We initially kept them relatively low, as he is a
-  fairly low impact Warrior when his combo is not available to him, however we
-  agreed with the feedback and felt that he could use more Mana management.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="leoric">Leoric</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Entomb (R)</strong>
-<ul>
-<li>Cooldown reduced from 75 to 60 seconds</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of tooltip issues across the game.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Alarak:</strong> Casting Counter-Strike will now display a silver healthbar to indicate Protected status. </li>
-<li><strong>Chromie:</strong> The Deep Breathing talent’s completed damage bonus will now match the tooltip located below her unit frame. </li>
-<li><strong>Jaina:</strong> The Frost Armor talent will no longer cause Jaina’s damage to ignore armor. </li>
-<li><strong>Leoric:</strong> Fixed an issue that could cause Leoric to become invisible after exiting Zagara’s Devouring Maw. </li>
-<li><strong>Lt. Morales:</strong> Fixed an issue that caused Lt. Morale’s Displacement Grenade to reduce healing dealt after learning the System Shock talent. </li>
-<li><strong>Uther:</strong> Fixed an issue causing Uther to gain extra damage and healing on consecutive casts of Wave of Light.</li>
-<li><strong>Uther:</strong> Uther's Hammer of Justice will no longer apply a 30% slow after the Stun effect fades.</li>
-</ul>
-
-<p><strong>Sound</strong></p>
-
-<ul>
-<li><strong>Valla:</strong> Fixed an issue causing the Creed of the Hunter talent to not play quest sound effects when progress was earned. </li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li><strong>Lt. Morales:</strong> The Cellular Reactor talent will now display an incoming heal indicator on the nameplate healthbar. </li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
