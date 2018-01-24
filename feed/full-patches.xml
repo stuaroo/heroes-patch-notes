@@ -45,6 +45,12 @@ updates and bug fixes.</p>
   <td><a href="#tyrande">Tyrande</a></td>
   <td><a href="#sonya">Sonya</a></td>
 </tr>
+<tr>
+  <td></td>
+  <td><a href="#xul">Xul</a></td>
+  <td></td>
+  <td></td>
+</tr>
 </tbody>
 </table>
 
@@ -189,7 +195,7 @@ updates and bug fixes.</p>
 <ul>
 <li><strong>Shadow Dagger (W)</strong>
 <ul>
-<li>Cooldown increased from 11 to 12 seconds</li>
+<li>Cooldown increased from 10 to 11 seconds</li>
 </ul></li>
 </ul>
 
@@ -201,6 +207,33 @@ updates and bug fixes.</p>
 <li>Lost Soul (W)
 <ul>
 <li>Cooldown reduction per Hero hit reduced from 1.25 to 1 second</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="xul">Xul</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Grim Scythe (Q)
+<ul>
+<li>Cooldown reduction per enemy hit increased from .75 to 1 second</li>
+</ul></li>
+<li>Jailors (E)
+<ul>
+<li>Bonus Attack and Movement Speed reduced from 50 to 40%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Harvest Vitality (W)
+<ul>
+<li>Heal increased from 60 to 70%</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -284,7 +317,7 @@ updates and bug fixes.</p>
 </ul></li>
 <li>Nanomachine Coating (W)
 <ul>
-<li>Attack Speed slow now only applies to Oil Spills that are on fire</li>
+<li>Attack Speed slow now also applies to Oil Spills that are on fire</li>
 </ul></li>
 </ul></li>
 <li><strong>Level 16</strong>
