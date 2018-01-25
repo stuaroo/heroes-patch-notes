@@ -313,7 +313,7 @@ updates and bug fixes.</p>
 <ul>
 <li>Suppressive Fire (Q)
 <ul>
-<li>Spell Power reduction increased from 15% to 20% per stack</li>
+<li>Spell Power reduction increased from 15% <span class="text-warning">(max 30%)</span> to 20% <span class="text-warning">(max 40%)</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2018-01-24-balance-update.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
 </ul></li>
 <li>Nanomachine Coating (W)
 <ul>
