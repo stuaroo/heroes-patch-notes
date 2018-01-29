@@ -145,11 +145,17 @@ ensure the security of her world.</p>
 <ul>
 <li>Target Info Panels have been introduced to allow players to investigate a unit's gameplay stats in real time.
 <ul>
-<li>The Target Info Panel will display in the top left of the screen after selecting a friendly or enemy target with left-click.</li>
+<li>The Target Info Panel will display in the top left of the screen after selecting a friendly or enemy target with left-click.
+<ul>
+<li>​The Target Info Panel can be repositioned by clicking and dragging to your desired location.
+<ul>
+<li>​Double-clicking the info panel will reset it to the default position.</li>
+</ul></li>
+</ul></li>
 <li>The Target Info Panel will display the following information:
 <ul>
-<li>Health and Health Regen</li>
-<li>Mana and Mana Regen</li>
+<li>Health &amp; Health Regen</li>
+<li>Mana &amp; Mana Regen</li>
 <li>Basic Attack Damage</li>
 <li>Attacks per Second</li>
 <li>Attack Range</li>
@@ -231,12 +237,12 @@ ensure the security of her world.</p>
 <li>Health Scaling has been increased by 10%</li>
 <li><strong>Pilot: Rocket Fist (W)</strong>
 <ul>
-<li>Duration has been increased from 2 to 4 seconds</li>
+<li>Duration of structure debuff effect has been increased from 2 to 4 seconds</li>
 </ul></li>
 <li><strong>Gunner: Gatling Cannon (W)</strong>
 <ul>
 <li>Gatling Cannon will now fire immediately, instead of after a short delay</li>
-<li>Gatling Cannon rounds will now fire 50% faster</li>
+<li>Gatling Cannon rounds will now travel 50% faster</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -307,7 +313,7 @@ ensure the security of her world.</p>
 <ul>
 <li>New functionality:
 <ul>
-<li>Every 6 Attacks against an enemy Hero increases Greymane’s Basic Attack damage by 1%, up to 30%. Gain triple benefit from attacking in Worgen form. These bonuses are lost on death.</li>
+<li>Every 6 Attacks against an enemy Hero increases Greymane’s Basic Attack damage by 1%, up to 30%. Gain triple benefit from attacking in Worgen form. Half of these bonuses are lost on death.</li>
 </ul></li>
 </ul></li>
 </ul></li>
