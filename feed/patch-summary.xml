@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-02-06T17:25:00.000Z</updated>
+  <updated>2018-02-09T18:40:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-02-09 Balance Update v 2.30.1</title>
+    <published>2018-02-09T18:40:00.000Z</published>
+    <updated>2018-02-09T18:40:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-02-09-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-09-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-02-09" target="_blank">Maiev</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-02-06 Patch Notes v 2.30.0</title>
     <published>2018-02-06T17:25:00.000Z</published>
@@ -295,28 +310,6 @@
           <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2017-11-01" target="_blank">Zul'jin</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-10-17 Patch Notes v 2.28.3</title>
-    <published>2017-10-17T17:40:00.000Z</published>
-    <updated>2017-10-17T17:40:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-10-17-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-10-17-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/junkrat.png" alt="Junkrat" height="60" width="60" /> Junkrat</h3>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2017-10-17" target="_blank">Junkrat</a>, 
-          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2017-10-17" target="_blank">Muradin</a>, 
-          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2017-10-17" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/muradin.png" href="https://heroespatchnotes.com/hero/muradin.html#patch2017-10-17" alt="Muradin Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/zuljin.png" href="https://heroespatchnotes.com/hero/zuljin.html#patch2017-10-17" alt="Zul'jin Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>

@@ -2,10 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-02-06T17:25:00.000Z</updated>
+  <updated>2018-02-09T18:40:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-02-09 Balance Update</title>
+    <published>2018-02-09T18:40:00.000Z</published>
+    <updated>2018-02-09T18:40:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-02-09-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-09-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-february-09-2018">HEROES OF THE STORM PATCH NOTES — FEBRUARY 09, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://us.battle.net/heroes/en/blog/21508378" target="_blank"></a><a href="https://us.battle.net/heroes/en/blog/21508378" target="_blank">Official Patch Notes</a> <small>v 2.30.1</small></div>
+
+<p>Our most recent Heroes of the Storm patch is now live containing balance
+changes to Maiev, The Warden.</p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="maiev">Maiev</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack Damage reduced from 162 to 150</li>
+<li>Base Maximum Health increased from 2150 to 2236</li>
+<li>Health Regeneration increased from 4.48 to 4.66</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Fan of Knives (Q)</strong>
+<ul>
+<li>Damage decreased from 180 to 170</li>
+</ul></li>
+<li><strong>Vault of the Wardens (D)</strong>
+<ul>
+<li>No longer grants passive Armor</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Naisha’s Memento (Active)
+<ul>
+<li>Bounces no longer deal bonus damage</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Armored Assault (Passive)
+<ul>
+<li>Physical Damage bonus decreased from 35 to 25%</li>
+<li>Now activates if Maiev has any amount of bonus Armor</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Maiev has arrived in the Nexus and seems to be
+  obliterating her foes (as she should) but is slightly deadlier than we
+  intended. The Warden’s survivability is currently too high, which allows her
+  to get tons of resets on Fan of Knives while ignoring enemy threats. To
+  address this, we’re removing her armor gain from Vault of the Wardens, while
+  slightly lowering her damage output so that she has to stick around in the
+  fight a little longer to take down her opponents. After these changes, we’ll
+  continue to keep an eye on Maiev to be sure that she has enough survivability
+  to perform her melee Assassin role, without it feeling like her enemies have
+  little-to-no options for counterplay</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-02-06 Patch Notes</title>
     <published>2018-02-06T17:25:00.000Z</published>
@@ -10510,668 +10586,6 @@ bedlam in his wake.</p>
 <li>Right clicking a player in your friends list and choosing the Whisper option will once again open the chat input field. </li>
 <li><strong>Score Screen:</strong> Counters for Chromie’s Sand Blast and The Butcher’s Fresh Meat quests will now continue to increment on the in-game score screen after reaching their soft caps.</li>
 <li><strong>Score Screen:</strong> The counter for Lt. Morales’ Clear! Talent will no longer disappear from the in-game score screen while she is inside a Medivac.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-10-11 Balance Update</title>
-    <published>2017-10-11T17:25:00.000Z</published>
-    <updated>2017-10-11T17:25:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-10-11-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-10-11-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-october-11-2017">HEROES OF THE STORM Balance Patch NOTES — OCTOBER 11, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21106217" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21106217" target="_blank">Official Patch Notes</a> <small>v 2.28.2</small></div>
-
-<p>We just released a new patch for Heroes of the Storm in order to apply balance
-changes alongside a few bug fixes.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#genji">Genji</a></td>
-  <td><a href="#abathur">Abathur</a></td>
-  <td><a href="#ana">Ana</a></td>
-  <td><a href="#dva">D.Va</a></td>
-</tr>
-<tr>
-  <td><a href="#kelthuzad">Kel'Thuzad</a></td>
-  <td><a href="#nazeebo">Nazeebo</a></td>
-  <td><a href="#brightwing">Brightwing</a></td>
-  <td><a href="#garrosh">Garrosh</a></td>
-</tr>
-<tr>
-  <td><a href="#lunara">Lunara</a></td>
-  <td><a href="#probius">Probius</a></td>
-  <td><a href="#kharazim">Kharazim</a></td>
-  <td><a href="#johanna">Johanna</a></td>
-</tr>
-<tr>
-  <td><a href="#malthael">Malthael</a></td>
-  <td><a href="#zagara">Zagara</a></td>
-  <td><a href="#lt-morales">Lt. Morales</a></td>
-  <td><a href="#cho">Cho</a></td>
-</tr>
-<tr>
-  <td><a href="#gall">Gall</a></td>
-  <td></td>
-  <td><a href="#stukov">Stukov</a></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="genji">Genji</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li>The Dragon Becomes Me (R)
-<ul>
-<li>Duration increase per swing reduced from 1 to .75 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kelthuzad">Kel'Thuzad</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Frost Blast (R)</strong>
-<ul>
-<li>Cooldown reduced from 80 to 70 seconds</li>
-<li>Mana cost reduced from 70 to 60</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Strip Shields (E)
-<ul>
-<li>Shield amount increased from 112 to 120</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Icy Grasp (W)
-<ul>
-<li>Increased slow duration from 1.5 to 2 seconds</li>
-</ul></li>
-<li>Chain-Link (E)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Also refunds the Mana cost of Chains Of Kel’Thuzad</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lunara">Lunara</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Wisp (E)</strong>
-<ul>
-<li>Move cooldown reduced from 5 to 1 seconds</li>
-<li>Number of attacks required to kill the Wisp increased from 1 to 2</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malthael">Malthael</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Reaper’s Mark (Trait)</strong>
-<ul>
-<li>Damage reduced from 2.25 to 2% of enemy Hero maximum Health</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="gall">Gall</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><span class="text-warning"><strong>Ogre Rage (D)</strong></span>
-<ul>
-<li><span class="text-warning">It should now be more apparent when Ogre Rage (D) is active</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-10-09-ptr-patch-notes.html#gall" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="abathur">Abathur</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Spike Burst (W)</strong>
-<ul>
-<li>Damage increased from 116 to 120</li>
-</ul></li>
-<li><strong>Ultimate Evolution (R)</strong>
-<ul>
-<li>Cooldown increased from 50 to 70 seconds</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="nazeebo">Nazeebo</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 1638 to 1502</li>
-<li>Health Regeneration reduced from 3.4125 to 3.1291</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Corpse Spiders (Q)</strong>
-<ul>
-<li>Damage increased from 35 to 36</li>
-</ul></li>
-<li><strong>Plague of Toads (E)</strong>
-<ul>
-<li>Damage reduced from 20 to 18</li>
-</ul></li>
-<li><strong>Voodoo Ritual (Trait)</strong>
-<ul>
-<li>Health per stack of Voodoo Ritual increased from 4 to 6</li>
-</ul></li>
-<li><strong>Ravenous Spirit (R)</strong>
-<ul>
-<li>Cast range increased by 1</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li>Superstition (Passive)
-<ul>
-<li>New functionality:
-<ul>
-<li>Gain 40 Spell Armor, taking 40% less damage from Abilities. Basic Attacks from enemy Heroes remove this bonus for 3 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Spider Colony (Q)
-<ul>
-<li>New functionality:
-<ul>
-<li>Every time a Spider attacks an enemy Hero, reduce the cooldown of Wall of Zombies and Plague of Toads by .25 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We want to shift more of Nazeebo’s Health into the
-  amount of Voodoo Ritual stacks he has, as the reward for Voodoo Ritual was
-  mostly felt in unlocking Vile Infection at level 20. We’re changing Spider
-  Colony to no longer reduce the cooldown of Corpse Spiders, because the synergy
-  between the Spider Talents were so high that if you picked any one of them the
-  rest of your Talent choices were locked in. Since we are changing the level 16
-  Talent to now affect Plague of Toads instead of Corpse Spiders, we’re shifting
-  some of the damage out of Plague of Toads into Corpse Spiders. For
-  Superstition, we wanted to get most of the spirit of what the old Talent did,
-  but have more gameplay interactions. Often the only counter play to
-  Superstition lied in what the enemy team composition was, and we’d rather have
-  more counter play relying in decisions made during the course of the game.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="probius">Probius</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Warp in Pylon (D)</strong>
-<ul>
-<li>Health increased from 380 to 400</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Gather Minerals (Passive)
-<ul>
-<li>Damage bonus increased from 25 to 35%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Shield Battery (D)
-<ul>
-<li>Shield duration after leaving Pylon field reduced from 4 to 2 seconds</li>
-<li>Shield amount increased from 12 to 14</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="zagara">Zagara</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health reduced from 1643 to 1575</li>
-<li>Health regen reduced from 3.4 to 3.3</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Devouring Maw (R)</strong>
-<ul>
-<li>Cooldown reduced from 100 to 80 seconds</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="ana">Ana</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack Damage increased from 30 to 33</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Overdose (Passive)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>No longer applies to Biotic Grenade</li>
-<li>Sleep Dart now applies 3 Doses to targets hit</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Ana has had an incredibly successful launch into the
-  Nexus, and seems to be falling into a great place balance-wise. We are still
-  light on high-level data for her, so our changes this patch are very light. We
-  realize that she has some synergy concerns and wanted to get a small jump on
-  the largest catalyst to those – Overdose. While playing her internally before
-  launch, we knew she had the potential to single-handedly shift the meta, not
-  to mention increase the amount of double-support we see. Rest assured that we
-  are keeping a close eye on both of these concerns and are prepared to act
-  accordingly if the need arises.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="brightwing">Brightwing</h4>
-
-<p><strong>Miscellaneous</strong></p>
-
-<ul>
-<li><span class="text-warning">Phase Shift (Z) will now also call out the targeted ally in an allied chat announcement upon activation.</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-10-09-ptr-patch-notes.html#brightwing" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Pixie Dust (E)</strong>
-<ul>
-<li>Spell Armor reduced from 30 to 25</li>
-</ul></li>
-<li><strong>Emerald Wind (R)</strong>
-<ul>
-<li>Soothing Mist bonus healing amount reduced from 8 to 5%</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Phase Shield (Z)
-<ul>
-<li>Shield amount reduced from 400 to 350</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kharazim">Kharazim</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Transcendence (Trait)
-<ul>
-<li>Healing increased from 96 to 103 per 3 Basic Attacks</li>
-</ul></li>
-<li>Insight (Trait)
-<ul>
-<li>Cooldown reduction increased from 1.5 to 1.75 seconds per 3 Basic Attacks</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lt-morales">Lt. Morales</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health reduced from 1605 to 1550</li>
-<li>Health regen reduced from 3.34 to 3.23</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Clear (E)
-<ul>
-<li>Cooldown Reduction from first quest unlock reduced from 4 to 3 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Blast Shield (E)
-<ul>
-<li>Shield amount reduced from 8 to 6% of maximum Health</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Second Opinion (E)
-<ul>
-<li>Cooldown reduction for hitting 2 Heroes increased from 1 to 2 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stukov">Stukov</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 1682 to 1590</li>
-<li>Health regen reduced from 3.5 to 3.31</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Healing Pathogen (Q)</strong>
-<ul>
-<li>Heal amount reduced from 40 to 37</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Spine Launcher (Passive)
-<ul>
-<li>Damage reduction increased from 30 to 40%</li>
-</ul></li>
-<li>Poppin Pustules (D)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Now increases the final damage of Weighted Pustule by 50%</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Superstrain (Q)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Now also applies to targets who are Rooted while under the effect of Healing Pathogen</li>
-</ul></li>
-</ul></li>
-<li>Universal Carrier (Q)
-<ul>
-<li>Heal reduction decreased from 60 to 50%</li>
-</ul></li>
-<li>Eye Infection (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="dva">D.Va</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Rush-down (Q)
-<ul>
-<li>Cooldown reduction from avoiding dealing or taking damage increased from 5 to 7 seconds</li>
-</ul></li>
-<li>Crash Course (Q)
-<ul>
-<li>Number of Heroes hit to complete Quest reduced from 25 to 20</li>
-</ul></li>
-<li>Pro Moves (Passive)
-<ul>
-<li>Duration of the Movement Speed bonus increased from 1.25 to 1.5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Diverting Power (W)
-<ul>
-<li>Movement Speed penalty reduced from 50 to 30%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Nuclear Option (E)
-<ul>
-<li>Damage bonus increased from 50 to 70%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Stop and Pop (R)
-<ul>
-<li>Damage bonus increased from 150 to 200%</li>
-</ul></li>
-<li>Concussive Pulse (Active)
-<ul>
-<li>Cooldown reduced from 8 to 7 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="garrosh">Garrosh</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li>Death Wish (R)
-<ul>
-<li>No longer increases the duration of Warlord’s Challenge</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="johanna">Johanna</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health increased from 2179 to 2350</li>
-<li>Health regen increased from 4.5 to 4.9</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Falling Sword (R)</strong>
-<ul>
-<li>Slow duration increased from 2.5 to 3 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Hold Your Ground (D)
-<ul>
-<li>Additional Shield amount increased from 20 to 30%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Roar (Q)
-<ul>
-<li>Damage for hitting 2 or more Heroes increased from 125 to 150%</li>
-</ul></li>
-<li>Blessed Hammer (Active)
-<ul>
-<li>Damage increased from 80 to 84</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="cho">Cho</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><span class="text-warning"><strong>Ogre Hide (D)</strong></span>
-<ul>
-<li><span class="text-warning">It should now be more apparent when Ogre Hide (D) is active.</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-10-09-ptr-patch-notes.html#cho" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
-</ul>
-
-<p><strong>AI</strong></p>
-
-<ul>
-<li>AI Heroes controlling the Garden Terror will no longer become unresponsive.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Brightwing:</strong> The channel for Phase Shift will now properly cancel if the allied target dies.</li>
-<li><strong>Brightwing:</strong> The channel for Phase Shift will now properly cancel if Brightwing is Rooted.</li>
-<li><strong>Johanna:</strong> Fixed an issue causing the Shield Glare to lower the cooldown of the Blinded by the Light talent by an incorrect amount.</li>
-<li><strong>Kel’Thuzad:</strong> Shadow Fissure can now be cast on the minimap.</li>
-<li><strong>Kel’Thuzad:</strong> Shadow Fissure can now be cast between map levels on the Haunted Mines battleground. </li>
-<li><strong>Leoric:</strong> Fixed an issue causing enemy Heroes affected by Leoric’s Entomb ability to lose allied vision after Leoric had chosen the Buried Alive talent.</li>
-<li><strong>Lunara:</strong> Fixed an issue preventing Lunara from Leaping over several different friendly units after choosing the Boundless Stride talent. </li>
-<li><strong>Rehgar:</strong> Fixed an issue that drastically reduced the attack range of Feral Lunge.</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>Right clicking a player in your friends list and choosing the Whisper option will once again open the chat input field. </li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
