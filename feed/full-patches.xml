@@ -2,10 +2,365 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-02-14T18:36:00.000Z</updated>
+  <updated>2018-02-21T18:35:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-02-21 Balance Update</title>
+    <published>2018-02-21T18:35:00.000Z</published>
+    <updated>2018-02-21T18:35:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-02-21-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-21-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-february-21-2018">Heroes of the Storm Patch Notes – February 21, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://us.battle.net/heroes/en/blog/21535475" target="_blank"></a><a href="https://us.battle.net/heroes/en/blog/21535475" target="_blank">Official Patch Notes</a> <small>v 2.30.3</small></div>
+
+<p>We’ve just released a patch to the live servers in order to implement Voice
+Communication, as well as apply some balance updates and bug fixes.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<p><strong>Voice Communication</strong></p>
+
+<ul>
+<li>Voice Communication has been added to Heroes of the Storm! Read the <a href="https://battle.net/heroes/blog/21535471">Voice Communication blog</a> for more information about how to use it in-game.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#specialist">Specialist</a></th>
+  <th><a href="#support">Support</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#maiev">Maiev</a></td>
+  <td><a href="#xul">Xul</a></td>
+  <td><a href="#tyrande">Tyrande</a></td>
+  <td><a href="#sonya">Sonya</a></td>
+</tr>
+<tr>
+  <td><a href="#malthael">Malthael</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#thrall">Thrall</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#zeratul">Zeratul</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="maiev">Maiev</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2236 to 2150</li>
+<li>Health Regeneration reduced from 4.66 to 4.48</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Vault of the Wardens (Trait)</strong>
+<ul>
+<li>Cooldown increased from 8 to 9 seconds</li>
+</ul></li>
+<li><strong>Fan of Knives (Q)</strong>
+<ul>
+<li>Damage reduced from 170 to 162</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Armored Assault (Passive)
+<ul>
+<li>Damage bonus reduced from 25% to 20%</li>
+</ul></li>
+<li>Vengeful Knives (E)
+<ul>
+<li>Bonus damage per Hero hit increased from 1% to 1.2%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> The changes we released on <a href="https://battle.net/heroes/blog/21508378">January
+  9</a> helped bring Maiev’s win-rate down
+  to mortal levels, but she was still a bit too powerful, overall. Today’s
+  changes are aimed at slightly lowering both her survivability and burst damage
+  throughput. Our data is showing the majority of her Talents are in healthy
+  spots, but we will keep an eye on them as players start adapting to certain
+  playstyles.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="malthael">Malthael</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Soul Rip (Q)</strong>
+<ul>
+<li>Mana cost increased from 20 to 25</li>
+<li>Healing reduced from 36 to 25 per target hit</li>
+<li>Healing from Heroic targets increased from 3% to 4% of the Hero’s maximum Health</li>
+</ul></li>
+<li><strong>Tormented Souls (R)</strong>
+<ul>
+<li>Cooldown reduced from 100 to 80 seconds</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Die Alone (Q)
+<ul>
+<li>Damage bonus reduced from 75% to 50%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Soul Collector (Q)
+<ul>
+<li>Bonus range reduced from 50% to 25%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Malthael was designed to be powerful in the solo
+  lane, but his dominance in the game’s early laning phase was unrivaled. We’re
+  reducing this by making him heal less when Soul Ripping Minions, but
+  increasing his Hero-only healing so that he can still keep himself alive in
+  late-game team fights. We’re also reducing the power of Die Alone and
+  increasing his Mana tension to taper some of his early game power. By
+  increasing Soul Rip’s Mana usage, we’re also reducing some of the power
+  Malthael had when double-soaking lanes (especially when combined with On a
+  Pale Horse), as he tends to use Soul Rip twice as often when doing so. The
+  overall goal is to reduce the power of a few particularly dominating builds,
+  while making sure that he still feels powerful past the early game.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="thrall">Thrall</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Chain Lightning (Q)</strong>
+<ul>
+<li>Bounce range increased by 20%</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="zeratul">Zeratul</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Cleave (Q)</strong>
+<ul>
+<li>Damage increased from 200 to 212</li>
+</ul></li>
+<li><strong>Singularity Spike (W)</strong>
+<ul>
+<li>Damage increased from 228 to 240</li>
+</ul></li>
+<li><strong>Void Prison (R)</strong>
+<ul>
+<li>Mana cost reduced from 100 to 80</li>
+</ul></li>
+<li><strong>Might of the Nerazim (R)</strong>
+<ul>
+<li>Basic Attack damage bonus reduced from 40% to 30%</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These tuning changes are meant to redistribute
+  Zeratul’s damage while also giving him a slight buff. Zeratul should now be a
+  bit stronger during the earlier portions of the game if he takes Might of the
+  Nerazim, but should have less opportunity cost if he chooses to take Void
+  Prison, instead.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="xul">Xul</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 1900 to 2000</li>
+<li>Health Regeneration increased 3.957 to 4.168</li>
+<li>Basic Attack damage increased from 104 to 110</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Raise Skeleton (Trait)</strong>
+<ul>
+<li>Skeletal Warrior Health reduced from 240 to 225</li>
+<li>Skeletal Warrior damage reduced from 23 to 21</li>
+</ul></li>
+<li><strong>Bone Prison (E)</strong>
+<ul>
+<li>Cooldown reduced from 12 to 10 seconds</li>
+<li>Mana cost reduced from 80 to 70</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Trag’Oul’s Essence (Trait)</strong>
+<ul>
+<li>Mana restoration per Skeletal Warrior attack reduced from 0.5% to 0.2% of Xul’s maximum Mana</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We like that Xul is a strong pushing Hero who has an
+  identity as a great duo-lane soaker, but believe that his identity has been
+  pushed too far into this role, and we would like to see him have more presence
+  in team fights. We’re making adjustments to push him in this direction by
+  buffing his base stats and toning down his split-push potential.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="tyrande">Tyrande</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Light of Elune (Q)</strong>
+<ul>
+<li>Cooldown reduced from 12 to 11 seconds</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="sonya">Sonya</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage reduced from 88 to 84</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Poisoned Spear (Q)
+<ul>
+<li>Damage reduced from 125% to 100% of Ancient Spear’s damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Nerves of Steel (Active)
+<ul>
+<li>Duration reduced from 5 to 3 seconds</li>
+<li>Shield amount reduced from 30% to 25% of Maximum Health</li>
+<li>Cooldown reduced from 70 to 60 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We originally applied these adjustments in a <a href="https://battle.net/heroes/blog/21464985">patch
+  on January 24</a>, but Sonya was so
+  eager to get back into battle that she forgot to take them with her. We're
+  giving these changes back to the Barbarian, and have (politely) asked her to
+  remember to bring them along the next time she leaps into the fray.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Diablo:</strong> Lightning Breath sound effects will no longer stop playing before the Ability is finished channeling.</li>
+<li><strong>Junkrat:</strong> Heroes killed by Concussion Mine will no longer respawn at their death location and then slide across the Battleground.</li>
+<li><strong>Junkrat:</strong> Issuing movement commands during Rocket Ride will no longer cause Junkrat to become separated from his Mount.</li>
+<li><strong>Junkrat:</strong> Movement commands that the player did not issue will no longer appear on the terrain in front of RIP-Tire’s model.</li>
+<li><strong>Junkrat:</strong> Targeting unpathable terrain with Rocket Ride will no longer cause Total Mayhem Grenades to visually persist on the Battleground.</li>
+<li><strong>Junkrat:</strong> Concussion Mine can no longer displace Leoric from Wraith Walk’s starting location if the Mine is detonated in the same moment that Wraith Walk ends.</li>
+<li><strong>Li Li:</strong> After learning the Lighting Serpent Talent, Cloud Serpent attacks that are bouncing to additional targets when the Ability expires will now correctly deal damage.</li>
+<li><strong>Lt. Morales:</strong> The tooltip for the Healing Beam icon next to Lt. Morales’ in-game portrait will now correctly display the Ability’s cooldown duration.</li>
+<li><strong>Malfurion:</strong> An ally who is affected by multiple Regrowths will now be correctly healed by Moonfire and have Stuns, Roots, and Slows removed by Nature’s Cure.</li>
+<li><strong>Movement Abilities:</strong> Certain movement-based Abilities, like Greymane’s Dark Flight or Chen’s Flying Kick, will no longer fail to move the Hero toward a target currently affected by Varian’s Taunt or Garrosh’s Warlord’s Challenge.</li>
+<li><strong>Sgt. Hammer:</strong> Can now correctly deploy Biotic Emitters on Volskaya Foundry while in Siege Mode.</li>
+<li><strong>The Butcher:</strong> Fixed an issue that prevented The Butcher from collecting Meat while piloting the Triglav Protector, Dragon Knight, or Garden Terror.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-02-14 Hotfix Patch</title>
     <published>2018-02-14T18:36:00.000Z</published>
@@ -9695,46 +10050,6 @@ changes alongside a few bug fixes.</p>
 
 <ul>
 <li><strong>Draft Mode:</strong> Fixed an issue that prevented players from selecting the Garden Shambler Murky Skin in draft lobbies.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-10-25 Hotfix Patch</title>
-    <published>2017-10-25T17:28:00.000Z</published>
-    <updated>2017-10-25T17:28:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-10-25-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-10-25-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-october-25-2017">Heroes of the Storm Hotfix Notes — October 25, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21120247" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21120247" target="_blank">Official Patch Notes</a> <small>v 2.28.4</small></div>
-
-<p>We just released a new patch for Heroes of the Storm in order to apply a few
-bug fixes.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>AI</strong></p>
-
-<ul>
-<li><strong>Tutorial:</strong> Fixed an issue causing AI Heroes to ignore certain objectives during Tutorial missions.</li>
-<li><strong>Blackheart’s Bay:</strong> Fixed an issue that could cause Minions and Summons to become stuck when attempting to attack the Keep and standalone Tower in the Middle Lane.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>D.Va:</strong> Fixed an issue preventing Boosters from receiving the Rush-down Talent’s cooldown reduction bonus if D.Va was attacking an enemy shortly before activating Boosters.</li>
-<li><strong>Junkrat:</strong> Using Concussion Mine to destroy D.Va’s Mech and knock her into the terrain will no longer remove her from the Battleground until she respawns.</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li><strong>Loadouts:</strong> Switching Skins using the Loadout menu will now correctly display that Skin during Hero Select.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>

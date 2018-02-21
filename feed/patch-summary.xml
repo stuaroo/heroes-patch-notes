@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-02-09T18:40:00.000Z</updated>
+  <updated>2018-02-21T18:35:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-02-21 Balance Update v 2.30.3</title>
+    <published>2018-02-21T18:35:00.000Z</published>
+    <updated>2018-02-21T18:35:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-02-21-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-21-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Gameplay</h4>
+      <ul>
+        <li><p><a href="https://us.battle.net/heroes/en/blog/21535471">Voice Chat</a> has been added</p>
+</li>
+      </ul>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-02-21" target="_blank">Maiev</a>, 
+          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2018-02-21" target="_blank">Malthael</a>, 
+          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2018-02-21" target="_blank">Sonya</a>, 
+          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2018-02-21" target="_blank">Thrall</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-02-21" target="_blank">Tyrande</a>, 
+          <a href="https://heroespatchnotes.com/hero/xul.html#patch2018-02-21" target="_blank">Xul</a>, 
+          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2018-02-21" target="_blank">Zeratul</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-02-09 Balance Update v 2.30.1</title>
     <published>2018-02-09T18:40:00.000Z</published>
@@ -276,40 +302,6 @@
       </ul>
       <h4>Reworks</h4>
         <img src="https://heroespatchnotes.com/images/hero/lili.png" href="https://heroespatchnotes.com/hero/lili.html#patch2017-11-14" alt="Li Li Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-11-01 Balance Update v 2.28.5</title>
-    <published>2017-11-01T18:25:00.000Z</published>
-    <updated>2017-11-01T18:25:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-11-01-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-01-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p>Kharazim: "25% Movement Speed on the third punch" added to every trait option</p>
-</li>
-        <li><p>Muradin: Heavy Impact (E) talent changed from stun to 80% slow</p>
-</li>
-        <li><p>Azmodan: General of Hell (D) "No longer grants additional Minion &amp; Mercenary Health"</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2017-11-01" target="_blank">Azmodan</a>, 
-          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2017-11-01" target="_blank">Garrosh</a>, 
-          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2017-11-01" target="_blank">Junkrat</a>, 
-          <a href="https://heroespatchnotes.com/hero/kharazim.html#patch2017-11-01" target="_blank">Kharazim</a>, 
-          <a href="https://heroespatchnotes.com/hero/leoric.html#patch2017-11-01" target="_blank">Leoric</a>, 
-          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2017-11-01" target="_blank">Muradin</a>, 
-          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2017-11-01" target="_blank">Raynor</a>, 
-          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2017-11-01" target="_blank">Stukov</a>, 
-          <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2017-11-01" target="_blank">Sylvanas</a>, 
-          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2017-11-01" target="_blank">Thrall</a>, 
-          <a href="https://heroespatchnotes.com/hero/tychus.html#patch2017-11-01" target="_blank">Tychus</a>, 
-          <a href="https://heroespatchnotes.com/hero/valla.html#patch2017-11-01" target="_blank">Valla</a>, 
-          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2017-11-01" target="_blank">Zagara</a>, 
-          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2017-11-01" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
       ]]></content>
   </entry>
 </feed>
