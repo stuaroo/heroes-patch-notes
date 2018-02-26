@@ -357,7 +357,7 @@ Communication, as well as apply some balance updates and bug fixes.</p>
 <li><strong>Junkrat:</strong> Movement commands that the player did not issue will no longer appear on the terrain in front of RIP-Tire’s model.</li>
 <li><strong>Junkrat:</strong> Targeting unpathable terrain with Rocket Ride will no longer cause Total Mayhem Grenades to visually persist on the Battleground.</li>
 <li><strong>Junkrat:</strong> Concussion Mine can no longer displace Leoric from Wraith Walk’s starting location if the Mine is detonated in the same moment that Wraith Walk ends.</li>
-<li><strong>Li Li:</strong> After learning the Lighting Serpent Talent, Cloud Serpent attacks that are bouncing to additional targets when the Ability expires will now correctly deal damage.</li>
+<li><strong>Li Li:</strong> After learning the Lightning Serpent Talent, Cloud Serpent attacks that are bouncing to additional targets when the Ability expires will now correctly deal damage.</li>
 <li><strong>Lt. Morales:</strong> The tooltip for the Healing Beam icon next to Lt. Morales’ in-game portrait will now correctly display the Ability’s cooldown duration.</li>
 <li><strong>Malfurion:</strong> An ally who is affected by multiple Regrowths will now be correctly healed by Moonfire and have Stuns, Roots, and Slows removed by Nature’s Cure.</li>
 <li><strong>Movement Abilities:</strong> Certain movement-based Abilities, like Greymane’s Dark Flight or Chen’s Flying Kick, will no longer fail to move the Hero toward a target currently affected by Varian’s Taunt or Garrosh’s Warlord’s Challenge.</li>
@@ -747,7 +747,7 @@ ensure the security of her world.</p>
 </tr>
 <tr>
   <td><a href="#hanzo">Hanzo</a></td>
-  <td></td>
+  <td><a href="#rehgar">Rehgar</a></td>
   <td></td>
 </tr>
 <tr>
@@ -1032,6 +1032,22 @@ ensure the security of her world.</p>
 <li><strong>Safeguard (W)</strong>
 <ul>
 <li>Can no longer be cast on non-Heroic targets</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="rehgar">Rehgar</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Level 13</strong></span>
+<ul>
+<li><span class="text-warning">Earthliving Enchant (Q)</span> <a class="label label-warning" href="https://redd.it/7z9hlf" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
+<ul>
+<li><span class="text-warning">Additional healing no longer scales with level</span></li>
+</ul></li>
 </ul></li>
 </ul>
 
