@@ -2,10 +2,614 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-03-12T17:30:00.000Z</updated>
+  <updated>2018-03-19T17:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-03-19 PTR Patch Notes</title>
+    <published>2018-03-19T17:30:00.000Z</published>
+    <updated>2018-03-19T17:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-03-19-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-03-19-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-march-19-2018">Heroes of the Storm PTR Patch Notes – March 19, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://us.battle.net/heroes/en/blog/21594629" target="_blank"></a><a href="https://us.battle.net/heroes/en/blog/21594629" target="_blank">Official Patch Notes</a> <small>v 2.31.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until March 26. As always, if you encounter any
+bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
+forum</a> to let us know about
+your experiences.</p>
+
+<hr />
+
+<h3 id="starcraft-20th-anniversary">StarCraft 20th Anniversary</h3>
+
+<p>Join us in celebrating StarCraft’s 20th anniversary with new StarCraft-themed
+portraits you can earn just by logging into Heroes of the Storm from March 27
+through April 23.</p>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-hero-fenix">New Hero: Fenix</h3>
+
+<p>As one of the greatest heroes in protoss history, Fenix’s deeds on the
+battlefield are legendary. After falling to the zerg during the invasion of
+Aiur, his body was recovered and implanted into a dragoon so he could continue
+to fight. Not even death can stop Fenix from achieving glory and valor.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Shield Capacitor</strong>
+<ul>
+<li>Fenix has a permanent 800 Shield, which regenerates at 80 per second after not taking damage for 5 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Plasma Cutter (Q)</strong>
+<ul>
+<li>Create a laser beam at the target point that circles around Fenix twice, dealing 150 damage to enemies hit and Slowing them by 25% for 4 seconds.</li>
+</ul></li>
+<li><strong>Switch Weapon Mode (W)</strong>
+<ul>
+<li>Activate to switch between Weapon Mode: Repeater Cannon and Weapon Mode: Phase Bomb.</li>
+<li><strong>Weapon Mode: Phase Bomb</strong>
+<ul>
+<li>Basic Attacks have 1.5 increased range, deal 25% more damage, and splash to nearby enemies.</li>
+</ul></li>
+<li><strong>Weapon Mode: Repeater Cannon</strong>
+<ul>
+<li>Basic Attack speed increased by 150%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Warp (E)</strong>
+<ul>
+<li>Warp to targeted location, phasing out after 0.5 seconds, and arriving 0.75 seconds later.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Purification Salvo (R)</strong>
+<ul>
+<li>Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 86 damage each. Deals 50% increased damage to Slowed targets.</li>
+</ul></li>
+<li><strong>Planet Cracker (R)</strong>
+<ul>
+<li>After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 105 damage every 0.25 seconds to non-Structure enemies hit.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="art">Art</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li>Heroes will no longer leave a behind a “ghost” that fades away after casting Hearthstone.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="user-inteface">User Inteface</h3>
+
+<p><strong>In-Game UI</strong></p>
+
+<ul>
+<li><strong>Party Frames</strong>
+<ul>
+<li>Muting another player’s pings will now also mute any death timer pings that player issues by ALT + clicking the party frames UI at the top of the screen.</li>
+<li>While in Undying form, Leoric’s party frame Health bar will display how much time remains before he respawns.</li>
+</ul></li>
+<li><strong>Score Screen (TAB)</strong>
+<ul>
+<li>Icons have replaced the column headers on the in-game score screen. Hover the mouse cursor over the icons for a brief description of each column.</li>
+</ul></li>
+</ul>
+
+<p><strong>Draft Mode</strong></p>
+
+<ul>
+<li>Hero and player nameplates that appear beneath Hero portraits have swapped positions.
+<ul>
+<li>Hero names will now appear in the upper nameplate, and player names will appear in the lower nameplate.</li>
+</ul></li>
+<li>Allied Hero names are now visible to teammates before they lock in their picks.
+<ul>
+<li>The opposing team’s Hero names will not appear until those players lock in their picks.</li>
+<li>Spectators cannot see Hero names for either team until each player locks in their pick.</li>
+</ul></li>
+<li>The opposing team’s player names are no longer visible during a draft.
+<ul>
+<li>Spectators cannot see player names for either team until all players in the draft lobby have locked in their Hero picks.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<p><strong>Try Mode</strong></p>
+
+<ul>
+<li>Two additional target dummies have been added to Try Mode to assist in testing Abilities and Talents that can hit multiple targets.</li>
+</ul>
+
+<p><strong>Heroes Brawl</strong></p>
+
+<ul>
+<li><strong>AzmoDUNK!</strong>
+<ul>
+<li>Each Gem turned in now grants 3 Taste for Blood stacks.</li>
+<li>Killing a Hero with Globe of Annihilation now resets its cooldown and refunds its Mana cost.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> With AzmoDUNK, we want to really reward successful
+  dunks. To do so, we’ve added a free throw after a successful kill with a
+  Globe. This should allow for some really exciting hot streaks. We’ve also
+  updated the Tomb mechanic to give stacks of Taste for Blood, allowing a team
+  who plays the mechanic to build stacks quite a bit quicker.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="design">Design</h3>
+
+<p><strong>Shields</strong></p>
+
+<ul>
+<li>Armor will now mitigate bonus damage dealt to Shields by effects like Varian's Shattering Throw and Kel'Thuzad's Strip Shields.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#multiclass">Multiclass</a></th>
+  <th><a href="#support">Support</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#tracer">Tracer</a></td>
+  <td><a href="#varian">Varian</a></td>
+  <td><a href="#li-li">Li Li</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="tracer">Tracer</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 1206 to 1350.</li>
+<li>Health Regeneration increased from 5.0234 to 5.6250.</li>
+<li>Basic Attack damage increased from 27 to 29.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Blink (Q)</strong>
+<ul>
+<li>Charge cooldown increased from 6 to 8 seconds.</li>
+</ul></li>
+<li><strong>Melee (W)</strong>
+<ul>
+<li>Damage reduced from 254 to 220.</li>
+</ul></li>
+<li><strong>Recall (E)</strong>
+<ul>
+<li>Cooldown increased from 26 to 30 seconds.</li>
+</ul></li>
+<li><strong>Pulse Bomb (R)</strong>
+<ul>
+<li>Damage reduced from 420 to 360.</li>
+<li>Secondary damage reduced from 210 to 180.</li>
+<li>Scaling damage increased from 5.5% to 6%.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Bullet Time (Q)
+<ul>
+<li>Cooldown reduction increased from 0.1 to 0.15 seconds.</li>
+</ul></li>
+<li>Jumper (Q)
+<ul>
+<li>Additional functionality:
+<ul>
+<li>Now also increases the Blink’s cooldown by 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>Quantum Spike (R)
+<ul>
+<li>Bonus damage reduced from 10% to 8% maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> As part of our ongoing effort to trim the frustration
+  of playing against certain Heroes, we are making some tuning changes to
+  Tracer. The general philosophy for these changes is threefold: reduce her
+  overall mobility over time, reduce her burst damage, and increase the amount
+  of time that she needs to stay in range of opponents in order to be effective.
+  While we understand that reducing her burst damage via Melee and Pulse Bomb
+  are significant nerfs to her power, we are compensating her by increasing her
+  Health and Basic Attack damage. This should reward Tracer players who are able
+  to bob and weave through opposing skillshots while staying on their target.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="multiclass">Multiclass</h3>
+
+<h4 id="varian">Varian</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2322 to 1850.</li>
+<li>Health Regeneration reduced from 4.8375 to 3.8542.</li>
+<li>Health scaling increased from 3% to 4% per level.</li>
+<li>Basic Attack damage reduced from 91 to 74.</li>
+<li>Basic Attack damage scaling increased from 3.5% to 4%.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Heroic Strike (Trait)</strong>
+<ul>
+<li>Damage reduced from 140 to 125.</li>
+<li>Damage scaling increased from 3.5% to 4% per level.</li>
+</ul></li>
+<li><strong>Lion’s Fang (Q)</strong>
+<ul>
+<li>Added functionality:
+<ul>
+<li>Hitting an enemy heals Varian for 35 (+4% per level), increased to 140 against Heroes.</li>
+</ul></li>
+</ul></li>
+<li><strong>Parry (W)</strong>
+<ul>
+<li>Cooldown increased 8 to 10 seconds.</li>
+<li>Mana cost increased from 15 to 20.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Overpower (W)
+<ul>
+<li>Damage bonus increased from 20% to 30%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Taunt (R)
+<ul>
+<li>Moved from level 10.</li>
+</ul></li>
+<li>Colossus Smash (R)
+<ul>
+<li>Moved from level 10.</li>
+<li>Armor reduction decreased from 25 to 20.</li>
+</ul></li>
+<li>Twin Blades of Fury (R)
+<ul>
+<li>Moved from level 10.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Lionheart (Q)
+<ul>
+<li>Increases Lion’s Fang healing for damage dealt to Heroes by 50%.</li>
+</ul></li>
+<li>Victory Rush (Passive)
+<ul>
+<li>Healing reduced from 400 to 350.</li>
+<li>Cooldown reduced from 60 to 30 seconds.</li>
+<li>Cooldown reduction granted per nearby Minion or Monster death reduced from 15 to 10 seconds.</li>
+</ul></li>
+<li>Live by the Sword (W)
+<ul>
+<li>Removed.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>Shield Wall (W)
+<ul>
+<li>Moved from level 4.</li>
+<li>Now also reduces Parry’s cooldown 5 seconds, but removes 1 charge.</li>
+</ul></li>
+<li>Warbringer (E)
+<ul>
+<li>Moved from level 4</li>
+<li>Now also allows Varian to charge to allied Heroes.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Demoralizing Shout (Active)
+<ul>
+<li>Damage reduction increased from 25% to 40%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're making a simple change to Varian by moving his
+  Heroic Abilities to Level 4, but this will have large impact on the way he
+  feels during a game. By allowing Varian to get his Heroic Ability earlier, he
+  can fulfill the role his team needs before one team develops a significant
+  lead over the other. This increase in Varian’s early-game power justifies
+  reducing some of the overwhelming power he gains after level 10, and creates a
+  more even experience for Varian and his opponents throughout a game.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="li-li">Li Li</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Wind Serpent (W)
+<ul>
+<li>New functionality:
+<ul>
+<li>Reduces Cloud Serpent’s cooldown by 2 seconds.</li>
+<li>Casting Cloud Serpent also launches Blinding Wind at an enemy near the target.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Hindering Winds (W)
+<ul>
+<li>Slow amount reduced from 30% to 25%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are available for a limited time! Be sure to check out the latest <a href="http://us.battle.net/heroes/en-us/blog/21619852">In-Development blog</a> for more details.
+<ul>
+<li>Fenix Heroic Bundle</li>
+<li>StarCraft 20th Anniveresary Bundle</li>
+<li>Protoss 20th Anniversary Bundle</li>
+<li>Terran 20th Anniversary Bundle</li>
+<li>Zerg 20th Anniversary Bundle</li>
+<li>Zergling Bundle</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcers</strong></p>
+
+<ul>
+<li>Fenix</li>
+<li>Adjutant</li>
+<li>Mira Han</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Fenix</strong>
+<ul>
+<li>Rusted Fenix</li>
+<li>Experimental Fenix</li>
+</ul></li>
+<li><strong>Ruinwalker Fenix</strong>
+<ul>
+<li>Colossal Ruinwalker Fenix</li>
+<li>Withered Ruinwalker Fenix</li>
+</ul></li>
+<li><strong>Artanis</strong>
+<ul>
+<li>Zer’atai Artanis</li>
+</ul></li>
+<li><strong>Azmodan</strong>
+<ul>
+<li>Infested Azmodan</li>
+</ul></li>
+<li><strong>Brightwing</strong>
+<ul>
+<li>Primal Brightwing</li>
+</ul></li>
+<li><strong>Dehaka</strong>
+<ul>
+<li>Feral Dehaka</li>
+</ul></li>
+<li><strong>Gul’dan</strong>
+<ul>
+<li>Brooding Gul’dan</li>
+</ul></li>
+<li><strong>Johanna</strong>
+<ul>
+<li>Shakuras Johanna</li>
+</ul></li>
+<li><strong>Tassadar</strong>
+<ul>
+<li>Chosen Crypt King Tassadar</li>
+<li>Exiled Crypt King Tassadar</li>
+</ul></li>
+</ul>
+
+<p><strong>New Mounts</strong></p>
+
+<ul>
+<li><strong>Celestial Ursa</strong>
+<ul>
+<li>This mount will replace the Celestial Raptor as a first-time gem purchase reward. Unlock it by purchasing gems for the first time after this patch has been released.</li>
+</ul></li>
+<li><strong>Umojan Cyber Ram</strong></li>
+<li><strong>Zergling</strong>
+<ul>
+<li>Char Zergling</li>
+<li>Kaldir Zergling</li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits and Sprays</strong></p>
+
+<ul>
+<li>We teamed up with Carbot Animations to create a ton of new HeroStorm-themed portraits and sprays in their signature art style! Catch a preview in the latest <a href="http://us.battle.net/heroes/en-us/blog/21619852">In-Development blog</a>.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
+<li><strong>Loot Chests:</strong> Fixed a rare issue that could prevent players from receiving a Loot Chest on Hero level-up.</li>
+</ul>
+
+<p><strong>A.I.</strong></p>
+
+<ul>
+<li><strong>Chromie:</strong> Fixed an issue preventing A.I. Chromie from casting Sand Blast.</li>
+<li><strong>Gazlowe:</strong> A.I. Gazlowe will no longer interrupt its own Doubloon turn-ins on Blackhearts Bay in order to place Rock-It! Turrets.</li>
+<li><strong>Leoric:</strong> A.I. Leoric will no longer remain stationary after activating Wraith Walk.</li>
+<li><strong>Malfurion:</strong> A.I. Malfurion will no longer attempt to cast Entangling Roots on non-Heroic enemies.</li>
+<li><strong>Medivh:</strong> A.I. Medivh wil no longer become stuck after attempting to use a Mine Entrance on Haunted Mines while in Raven Form.</li>
+<li><strong>Murky:</strong> Fixed an issue that could cause A.I. Murky to repeatedly place Egg in the same location, even if its existing Egg was undamaged.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Gazlowe:</strong> Dying and respawning after learning Robo-Goblin will no longer remove the player’s selected skin from the Robo-Goblin model.</li>
+<li><strong>Malthael:</strong> Reaper's Mark visual effects will no longer persist if the target is killed just before Reaper’s Mark is applied.</li>
+<li><strong>Nazeebo:</strong> Choosing the Superstition Talent while Nazeebo is dead will no longer cause Spell Shield visual effects to persist on the terrain after subsequent deaths.</li>
+<li><strong>Loot Chests:</strong> The D.Haka portrait will no longer display placeholder art on the Loot Chest rewards screen.</li>
+<li><strong>Mecha Tassadar:</strong> Attacking while using the Mecha Morph Mount will no longer cause Distortion Beam to visually originate above Mecha Tassadar’s head.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Battlefield of Eternity:</strong> Destroying a Healing Fountain in the middle lane will no longer cause Minimap icons for Healing Fountains in other lanes to disappear.</li>
+<li><strong>Braxis Holdout:</strong> Destroying a Healing Fountain will no longer cause Minimap icons for Healing Fountains in the top lane to disappear.</li>
+<li><strong>Haunted Mines:</strong> Queueing movement commands during Hearthstone Channeling while in the Mines will no longer cancel Hearthstone.</li>
+<li><strong>Volskaya Foundry:</strong> Fixed an issue that could cause Heroes who were piloting a Triglav Protector to become unresponsive after the Protector is destroyed by a Damage over Time effect.</li>
+<li><strong>Warhead Junction:</strong> Fixed an issue that could cause Heroes to teleport back to the Hall of Storms after moving to a specific area of terrain before the game begins.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> Monstrosities will no longer deal area of effect damage on death if Abathur hasn’t learned the Volatile Mutation Talent.</li>
+<li><strong>Alarak:</strong> Rite of Rak’shir can no longer be removed when Samuro casts Mirror Image or Chen casts Storm, Earth, Fire.</li>
+<li><strong>Anub’arak:</strong> Cocoon will no longer trap Pilot-form D.Va if she has already successfully cast Call Mech.</li>
+<li><strong>Blaze:</strong> After learning Oil Dispersal, Oil Spill’s targeting indicator now correctly increases in size to reflect the Ability’s new area of effect.</li>
+<li><strong>Blaze:</strong> Casting Flame Stream on a target who is standing in an unignited Oil Spill will now correctly register as two Flame Stream hits, rather than one.</li>
+<li><strong>Blaze:</strong> Unignited Oil Spills will no longer reduce enemy Structures’ Attack Speeds after learning the Nanomachine Coating Talent.</li>
+<li><strong>Blaze:</strong> Flame Stream is no longer visible through the Fog of War when cast near the edge of the enemy team’s vision.</li>
+<li><strong>Dehaka:</strong> Fixed an issue that could cause Drag visual effects to persist indefinitely if the Ability connected across unpathable terrain.</li>
+<li><strong>D.Va:</strong> Self-Destruct’s charge percentage will now correctly reset to 0% between rounds during Heroes Brawls.</li>
+<li><strong>Gall:</strong> Shove can no longer be cast while Cho is being pulled by Stitches’ Hook.</li>
+<li><strong>Genji:</strong> Fixed an issue that could cause enemy targeted Abilities to hit Genji rather than the intended target during Dragonblade.</li>
+<li><strong>Greymane:</strong> Fixed an issue that could cause Razor Swipe’s area of effect and damage to become disjointed from Greymane’s location.</li>
+<li><strong>Hanzo:</strong> Reactivating Dragon’s Arrow via the Play of the Game Talent after the Arrow has traveled beyond Warhead Junction’s playable area will no longer teleport Hanzo to an unreachable location.</li>
+<li><strong>Illidan:</strong> Hitting two Heroes with Sweeping Strike at maximum range will now correctly apply the bonus damage granted by the Battered Assault Talent.</li>
+<li><strong>Kel’Thuzad:</strong> Chilling Touch can now correctly deal damage to Gall’s Eye of Kilrogg.</li>
+<li><strong>Kharazim:</strong> Seven-Sided Strike will now correctly target Stealth enemy Heroes who have been revealed.</li>
+<li><strong>Leoric:</strong> Will no longer become permanently Unstoppable if he is affected by Stasis during Wraith Walk.</li>
+<li><strong>Li Li:</strong> Casting Cloud Serpent on Pilot-form D.Va just before she casts Call Mech will no longer prevent the Serpent from following Mech-form D.Va.</li>
+<li><strong>Lunara:</strong> Queued Leaping Strikes will no longer continue to target an enemy Hero who enters Stealth before the Heroic Ability actually fires.</li>
+<li><strong>Malfurion:</strong> Entangling Roots will no longer affect non-Heroic targets.</li>
+<li><strong>Ragnaros:</strong> Blind and Evasion effects will no cause Empower Sulfuras’ Ability Damage to miss.</li>
+<li><strong>Rexxar:</strong> Completing the Hunter-Gatherer Talent’s quest now correctly grants bonus Armor to Misha.</li>
+<li><strong>Rexxar:</strong> Misha, Focus! will now correctly grant Misha its passive 15% Movement Speed bonus.</li>
+<li><strong>Samuro:</strong> Casting Mirror Image now correctly clears any Move commands that had been queued for the real Samuro.</li>
+<li><strong>Stitches:</strong> Hook visual effects will no longer persist indefinitely if the target is thrown by Garrosh’s Wrecking Ball while being pulled toward Stitches.</li>
+<li><strong>Stukov:</strong> Will no longer become unresponsive after attempting to cast Lurking Arm behind the allied Hall of Storms.</li>
+<li><strong>The Lost Vikings:</strong> Spin to Win! visual effects are no longer visible through the Fog of War near the edge of the enemy team’s vision.</li>
+<li><strong>Tracer:</strong> Can no longer cast Pulse Bomb while Channeling to launch a Nuke on Warhead Junction.</li>
+<li><strong>Tyrande:</strong> Fixed an issue that could cause Sentinel’s visual effects to become slightly disjointed from the Ability’s path of travel.</li>
+<li><strong>Uther:</strong> Devotion’s tooltip now more clearly communicates that allied Heroes affected by Uther’s Basic Abilities will gain Armor, rather than Heroes Healed by Uther’s Basic Abilities. This is a tooltip correction only; the Trait’s functionality has not been changed.</li>
+<li><strong>Valeera:</strong> Activating Crippling Poison, Wound Poison, or Thistle Tea will no longer clear queued orders or Abilities.</li>
+<li><strong>Valla:</strong> Fixed an issue that could prevent Hungering Arrow from seeking, or dealing damage to, targets after the first when cast at maximum range.</li>
+</ul>
+
+<p><strong>Sound</strong></p>
+
+<ul>
+<li><strong>Hanzo:</strong> Will no longer play an incorrect voiceover line to allies upon casting Hearthstone.</li>
+<li><strong>Illidan:</strong> The volume for Illidan’s voiceover during The Hunt has been reduced to better match other game sounds.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-03-09 Hotfix Patch</title>
     <published>2018-03-12T17:30:00.000Z</published>
@@ -8679,1278 +9283,6 @@ bug fixes.</p>
 <li><strong>Zul’jin:</strong> Voodoo Shuffle’s tooltip now correctly lists a 40% reduction in Regeneration’s Mana cost and cooldown, rather than 33%.</li>
 <li><strong>Zul’jin:</strong> Voodoo Shuffle’s Talent description will now correctly append to the Regeneration tooltip.</li>
 <li><strong>Zul’jin:</strong> Buff icons in Zul’jin’s Buff Bar will now match the order in which their associated Talents were selected.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-11-20 PTR Patch Notes</title>
-    <published>2017-11-20T19:50:00.000Z</published>
-    <updated>2017-11-20T19:50:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-11-20-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-20-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-notes-november-20-2017">Heroes of the Storm PTR Notes — November 20, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net//heroes/en/blog/21194320" target="_blank"></a><a href="http://us.battle.net//heroes/en/blog/21194320" target="_blank">Official Patch Notes</a> <small>v 2.29.2</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until December 11. During this time, we kindly
-request your assistance in trying out the new content before we officially
-release the patch. As always, if you encounter any bugs or other issues during
-your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
-forum</a> to let us know about
-your experiences.</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<p><strong>Performance-Based Matchmaking</strong></p>
-
-<p><strong><em>PTR Note:</em></strong> <em>The performance-based matchmaking system will not be available on the Public Test Realm until the <strong>week of November 27</strong>.</em></p>
-
-<ul>
-<li>The matchmaking system has been updated to include a performance-based data-driven system, which takes individual player performance into account when determining MMR gains and losses.</li>
-<li>Under this new system, players will now reach their intended Matchmaking Rating quicker and more accurately.</li>
-<li><strong>Read our recent <a href="http://battle.net/heroes/blog/21179036">blog about Performance-Based Matchmaking</a> to learn more.</strong></li>
-</ul>
-
-<p><strong>Game Camera Height</strong></p>
-
-<ul>
-<li>In-game Camera height has been significantly increased in order to provide more visibility of the battlefield.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="new-hero-hanzo">New Hero: Hanzo</h3>
-
-<p>Once heir to the Shimada clan's criminal empire, Hanzo abandoned his
-birthright after he almost killed his younger brother. He now strives to
-perfect his skills as a warrior, and sees the Nexus and its endless conflict
-as the ideal training ground.</p>
-
-<ul>
-<li><strong><em>PTR Note:</em></strong> <em>In order to focus playtesting and feedback on the 2018 Gameplay Update and Stealth changes found in this patch, Hanzo will not be available for play on the Public Test Realm until the <strong>week of November 27</strong>.</em></li>
-</ul>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Natural Agility (D)</strong>
-<ul>
-<li>Target unpathable terrain or a Structure to jump to the other side of it.</li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Storm Bow (Q)</strong>
-<ul>
-<li>Activate to charge an arrow that deals 270 damage to the first enemy hit. Storm Bow's range increases the longer it is Channeled. Reactivate to fire.</li>
-</ul></li>
-<li><strong>Scatter Arrow (W)</strong>
-<ul>
-<li>Fire an arrow that deals 85 to the first enemy Hero hit. Scatter Arrow can collide with terrain and Structures, splitting into 5 arrows that travel extra distance, ricochet up to 4 additional times, and deal 85 damage each to the first enemy hit.</li>
-</ul></li>
-<li><strong>Sonic Arrow (E)</strong>
-<ul>
-<li>Fire an arrow that grants vision in a large area 8 seconds. Enemies inside are revealed for 1 second. If Sonic Arrow lands directly on an enemy, it deals 150 damage to them and follows them as they move.</li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Dragonstrike (R)</strong>
-<ul>
-<li>After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 52 damage every 0.25 seconds to enemy Heroes in its area. Enemies in the center take 150% damage.</li>
-</ul></li>
-<li><strong>Dragon’s Arrow (R)</strong>
-<ul>
-<li>Fire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing 100 damage to all nearby enemies and Stunning them for 0.5 seconds.</li>
-<li>After traveling a medium distance, the damage is increased to 200 and the Stun duration to 1.25 seconds.</li>
-<li>After traveling a long distance, the damage is increased to 350 and the Stun duration to 2 seconds.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="2018-gameplay-update">2018 Gameplay Update</h3>
-
-<p><strong>Battleground Objectives</strong></p>
-
-<ul>
-<li>The first Battleground objective event will now activate 90 seconds into the match, following a 30-second warning, for the following Battlegrounds:
-<ul>
-<li>Blackheart’s Bay
-<ul>
-<li>Doubloon Chests will now consistently spawn 3 minutes after the final Chest of the previous event has been captured.</li>
-</ul></li>
-<li>Braxis Holdout
-<ul>
-<li>Beacon events after the first will now consistently spawn 2 minutes and 10 seconds after a previous Zerg wave has been defeated.</li>
-</ul></li>
-<li>Dragon Shire
-<ul>
-<li>Shrines will now consistently spawn 2 minutes after a Dragon Knight has been killed.</li>
-</ul></li>
-</ul></li>
-<li>The first Battleground objective event will now activate 3 minutes into the match, following a 30-second warning, for the following Battlegrounds:
-<ul>
-<li>Battlefield of Eternity</li>
-<li>Cursed Hollow</li>
-<li>Garden of Terror</li>
-<li>Haunted Mines</li>
-<li>Infernal Shrines</li>
-<li>Sky Temple</li>
-<li>Towers of Doom</li>
-<li>Warhead Junction</li>
-</ul></li>
-<li>The following Battleground objective timers are unchanged:
-<ul>
-<li>Tomb of the Spider Queen</li>
-<li>Volskaya Foundry</li>
-</ul></li>
-<li>The Minimap will now indicate the next objective spawn location for the following Battlegrounds:
-<ul>
-<li>Cursed Hollow
-<ul>
-<li>The first Tribute indicator will appear on the Minimap 30 seconds after the game begins, and subsequent indicators will appear 15 seconds after the previous Tribute has been captured.</li>
-</ul></li>
-<li>Infernal Shrines
-<ul>
-<li>The first Shrine indicator will appear on the Minimap 30 seconds after the game begins, and subsequent indicators will appear 30 seconds after a Punisher is defeated.</li>
-<li>Hover the cursor over a Shrine indicator on the Minimap to display whether it will be a Mortar, Frost, or Arcane Shrine.</li>
-</ul></li>
-<li>Sky Temple
-<ul>
-<li>The first Temple indicators will appear on the Minimap 30 seconds after the game begins, as well as 30 seconds after all Temples in the same event have been depleted.</li>
-</ul></li>
-<li>Towers of Doom
-<ul>
-<li>The first Altar indicators will appear on the Minimap 30 seconds after the game begins, as well as 30 seconds after the final Altars in an event has been captured.</li>
-</ul></li>
-<li>Warhead Junction
-<ul>
-<li>The first Warhead indicators will appear on the Minimap 30 seconds after the game begins, as well as 30 seconds after the final Warhead in an event has been collected.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Regeneration Globes</strong></p>
-
-<ul>
-<li>Regeneration Globes will now become neutral (claimable by both teams) if not claimed within 3 seconds.</li>
-<li>Time before Regeneration Globes expire has been reduced to 6 seconds.</li>
-</ul>
-
-<p><strong>Structures</strong></p>
-
-<ul>
-<li>All attacking structures no longer have ammunition.</li>
-<li>Walls will now be destroyed if their connected Towers and Gate are also destroyed. Walls can still be attacked normally.</li>
-<li>Tower vision range has been increased by 25%</li>
-<li>Tower damage to minions has been reduced by 25%</li>
-<li>Structures now have a warmup period of .5 seconds before firing and must face their targets completely
-<ul>
-<li>Structure attack warning responsiveness has been significantly improved</li>
-</ul></li>
-<li>Standalone Towers (found next to Forts and Keeps) have been removed.
-<ul>
-<li>The Health, granted Experience, and Damage of Standalone Towers has been redistributed into their surrounding gate Towers, Forts, and Keeps.</li>
-</ul></li>
-<li>Forts and Keeps now have True Sight, meaning they will reveal and attack Stealthed Heroes.
-<ul>
-<li>True Sight is disabled while the Structure is disabled by effects such as the Raven Lord’s Curse or Sylvanas’ Black Arrow Trait.</li>
-</ul></li>
-</ul>
-
-<p><strong>Minions</strong></p>
-
-<ul>
-<li>Minion base damage has been increased by roughly 10%</li>
-<li>The 5 second delay before Minions spawn after the game begins has been removed.</li>
-</ul>
-
-<p><strong>Mercenaries</strong></p>
-
-<ul>
-<li><strong>Respawn Timers</strong>
-<ul>
-<li>Mercenary Camps will now spawn 60 seconds after the game begins</li>
-</ul></li>
-<li><strong>Siege Giant Camp</strong>
-<ul>
-<li>Siege Defenders
-<ul>
-<li>Defending Siege Giant attacks are now telegraphed on the terrain and can be dodged.</li>
-</ul></li>
-<li>Siege Laners
-<ul>
-<li>Attack telegraphing and missile trajectory has been significantly improved.</li>
-</ul></li>
-</ul></li>
-<li><strong>Hellbat Camp</strong>
-<ul>
-<li>Respawn times have been doubled</li>
-<li>Hellbats will now prioritize structures
-<ul>
-<li>Defender Hellbat Stats
-<ul>
-<li>Base health increased by 125%,</li>
-<li>Health scaling increased by 200%</li>
-<li>Damage increased by 125%</li>
-<li>Damage scaling reduced by 50%</li>
-</ul></li>
-<li>Laner Hellbat Stats
-<ul>
-<li>Base health increased by roughly 25%</li>
-<li>Health scaling increased by 43%</li>
-<li>Base damage increased by 50%</li>
-<li>Damage scaling decreased by 66%</li>
-<li>Damage taken from structures reduced by 50%</li>
-</ul></li>
-</ul></li>
-<li>Attacks now apply a 3-second stacking -5 Armor debuff to all targets, stacking up to 20 times (structures included)</li>
-</ul></li>
-<li><strong>Knight Camp</strong>
-<ul>
-<li>Wizard Knight Laner
-<ul>
-<li>Wizard Knight Laner has a Spell Armor Aura
-<ul>
-<li>Grants all nearby Allies (Minions, Mercenaries, and Heroes) 30 Spell Armor
-<ul>
-<li>Spell Armor is immediately removed upon leaving the aura area.</li>
-</ul></li>
-<li>This Aura is destroyed when the Wizard is killed</li>
-</ul></li>
-</ul></li>
-<li>Wizard Knight Defender
-<ul>
-<li>Grants nearby Knight Defenders a 15 Spell Armor aura
-<ul>
-<li>This Aura is destroyed when the Wizard is killed</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Sapper Camp</strong>
-<ul>
-<li>Sapper Defenders
-<ul>
-<li>Now fire their attacks at target areas, instead of directly at Heroes. This behaves like the laning Sappers</li>
-</ul></li>
-<li>Sapper Explosion damage now scales over time</li>
-<li>Laning Sappers Health scaling increased by 33%</li>
-<li>Respawn timer across all maps increased from 105 to 120 seconds</li>
-<li>Laning Sappers now have 100 Armor vs Structures while charging and Towers will ignore charging Sappers</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="art">Art</h3>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li>Zeratul has received updated art to coincide with Talent changes.</li>
-</ul>
-
-<p><strong>Minimap</strong></p>
-
-<ul>
-<li>Minimap art has been updated across all Battlegrounds.</li>
-</ul>
-
-<p><strong>Stealth</strong></p>
-
-<ul>
-<li>Added an overlay to indicate when a Stealthed character goes Invisible</li>
-<li>Added a new Stealth visual effect. Enemy Stealthed Heroes should now be easier to spot.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<p><strong>Sandbox Custom Game Improvements</strong></p>
-
-<ul>
-<li>The following new cheats have been added to Sandbox Custom Games:</li>
-<li><strong>Spawn Camps</strong>
-<ul>
-<li>Respawn all Mercenary Camps.</li>
-</ul></li>
-<li><strong>Spawn Dummy</strong>
-<ul>
-<li>Creates a dialog allowing players to choose a type of dummy to spawn.
-<ul>
-<li>Player can then click in the game world to create a dummy of the selected dummy type at mouse cursor position.</li>
-<li>One player cannot spawn more than 20 dummies.</li>
-</ul></li>
-<li>When a player deals damage or heals a target dummy the Target Dummy Panel will pop up displaying the damage or healing dealt.
-<ul>
-<li>If player deals damage to multiple dummies with an AOE ability, the number will be the combination of damage done to all dummies.</li>
-<li>If the team hasn't dealt damage or healing to any of the dummies for 8 seconds, the Target Dummy Panel will disappear for that team.</li>
-<li>If a player hasn't dealt damage or healing to any of the dummies for 8 seconds, their damage and DPS will be reset to 0.</li>
-</ul></li>
-</ul></li>
-<li><strong>Clear Dummies</strong>
-<ul>
-<li>If the "Share Cheat" checkbox is unchecked, remove all the dummies created by all players.</li>
-<li>If the "Share Cheat" checkbox is checked, remove all the dummies created by that player.</li>
-</ul></li>
-<li><strong>Toggle Fog of War</strong>
-<ul>
-<li>Disabling Fog of War for a team will remove Fog of War, revealing the whole map for that team.</li>
-</ul></li>
-<li><strong>Reset HP/MP</strong>
-<ul>
-<li>If the "Share Cheat" checkbox is unchecked, reset all players' Health and Mana to full.</li>
-<li>If the "Share Cheat" checkbox is checked, reset the player's Health and Mana to full.</li>
-</ul></li>
-<li><strong>Complete Quests</strong>
-<ul>
-<li>If the "Share Cheat" checkbox is unchecked, complete all talent quests for all player.</li>
-<li>If the "Share Cheat" checkbox is checked, complete all talent quests for that player.</li>
-</ul></li>
-<li><strong>Instant Respawn</strong>
-<ul>
-<li>If the "Share Cheat" checkbox is unchecked, instantly respawn all dead Heroes.</li>
-<li>If the "Share Cheat" checkbox is checked, instantly respawn the player's Hero.</li>
-</ul></li>
-</ul>
-
-<p><strong>Haunted Mines</strong></p>
-
-<ul>
-<li>Issuing a Move command within the Mines while on the Battleground’s upper level, or vice versa, will now cause the Hero to use the Mine Entrance or Exit that is the shortest distance from the issued order.</li>
-<li><strong>Summoned Grave Golem</strong>
-<ul>
-<li>Fort and Keep attacks no longer reduce attack speed</li>
-<li>Will no longer interrupt its attacks mid-swing to use an Ability</li>
-<li>Now passes through player-created walls rather than stopping to destroy them</li>
-</ul></li>
-</ul>
-
-<p><strong>Ranked Battleground Rotation Update</strong></p>
-
-<ul>
-<li>Added to Rotation
-<ul>
-<li>Warhead Junction</li>
-</ul></li>
-<li>Removed from Rotation
-<ul>
-<li>Volskaya Foundry</li>
-<li>Garden of Terror</li>
-</ul></li>
-<li>The full Ranked Battleground Rotation is now as follows:
-<ul>
-<li>Battlefield of Eternity</li>
-<li>Braxis Holdout</li>
-<li>Cursed Hollow</li>
-<li>Dragon Shire</li>
-<li>Infernal Shrines</li>
-<li>Sky Temple</li>
-<li>Tomb of the Spider Queen</li>
-<li>Towers of Doom</li>
-<li>Warhead Junction</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="design">Design</h3>
-
-<p><strong>Stealth</strong></p>
-
-<ul>
-<li>Stealth players will now become “Invisible” after remaining still for 1.5 seconds.
-<ul>
-<li>Invisible Heroes will not display the Stealth visual effect and can still be removed from Stealth by taking damage. This includes Heroes under the effects of temporary Stealth effects such as Samuro’s Windwalk or Tyrande’s Shadowstalk.</li>
-<li>Additionally, Heroes cannot become Invisible while occupying a capture point, such as Braxis Holdout or Mercenary Camp Beacons. Instead, they will retain normal Stealth visual effects.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="user-interface">User Interface</h3>
-
-<p><strong>In-Game UI</strong></p>
-
-<ul>
-<li><strong>General</strong>
-<ul>
-<li>Hero portraits will now be displayed when heroes are inside the following Vehicles, Battleground objectives, or Hero Abilities:
-<ul>
-<li>Dragon Knight</li>
-<li>Garden Terror</li>
-<li>Triglav Protector</li>
-<li>Anub'arak - Cocoon</li>
-<li>Lt. Morales – Medivac Dropship</li>
-<li>Stitches - Gorge</li>
-<li>Zagara - Devouring Maw</li>
-</ul></li>
-</ul></li>
-<li><strong>Manual Talent Tier and Hero Status Callouts</strong>
-<ul>
-<li>Players can now press ALT + left-click Hero portraits and the Team Level UI at the top of the screen to generate notifications for the following situations:
-<ul>
-<li>Press ALT + left-click an ally’s Hero portrait to inform teammates when that ally needs assistance.</li>
-<li>ALT + left-clicking a dead Hero’s portrait will generate a chat message indicating that Hero’s remaining respawn time.</li>
-<li>ALT + left-clicking an enemy Hero portrait will ping that Hero’s location on the Minimap if they are within allied vision. If that enemy is outside of allied vision, a chat message will inform allies that the Hero is missing.</li>
-<li>Press ALT + right-click the Team Level UI to indicate when both teams are on even Talent tiers, or when one team has a Talent tier advantage over the other.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#nova">Nova</a></td>
-  <td><a href="#abathur">Abathur</a></td>
-  <td><a href="#muradin">Muradin</a></td>
-</tr>
-<tr>
-  <td><a href="#samuro">Samuro</a></td>
-  <td><a href="#the-lost-vikings">The Lost Vikings</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#valeera">Valeera</a></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#valla">Valla</a></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#zeratul">Zeratul</a></td>
-  <td></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="nova">Nova</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Snipe (Q)</strong>
-<ul>
-<li>Damage reduced from 310 to 255.</li>
-<li>Baseline quest added:
-<ul>
-<li>Hitting an enemy Hero increases the damage of Snipe by 5% stacking 5 times. When at max stacks (5) it gains an additional 25% damage. If Snipe fails to hit a target, all stacks are lost.</li>
-</ul></li>
-</ul></li>
-<li><strong>Pinning Shot (W)</strong>
-<ul>
-<li>Damage reduced from 110 to 105</li>
-</ul></li>
-<li><strong>Holo Decoy (E)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Decoys now deal 10% of Nova’s damage</li>
-</ul></li>
-<li>Improved A.I. functionality</li>
-</ul></li>
-<li><strong>Permanent Cloak (Trait)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Gain 15% movement speed while Stealthed</li>
-</ul></li>
-</ul></li>
-<li><strong>Triple Tap (R)</strong>
-<ul>
-<li>Damage per shot increased from 338 to 372</li>
-</ul></li>
-<li><strong>(New) Ghost Protocol (1)</strong>
-<ul>
-<li>Activate to instantly cloak, leave a Holo Decoy at your feet, and become unrevealable for .5 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Advanced Cloaking (Trait)
-<ul>
-<li>New functionality:
-<ul>
-<li>Increase your Stealth movement speed by 5%. While Stealthed, gain 2 additional mana regeneration per second.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Snipe Master (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Perfect Shot (Q)
-<ul>
-<li>Moved from Level 16</li>
-<li>Cooldown reduction on Hero hit reduced from 3 to 2 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Psionic Efficiency (Q)
-<ul>
-<li>Bonus range increased from 10 to 15%</li>
-</ul></li>
-<li>(New Talent) Ionic Force Field (Trait)
-<ul>
-<li>Gain 25 Armor for 2 seconds after losing stealth</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Lethal Decoy (E)
-<ul>
-<li>Damage bonus from clones increased from 40 to 50%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>(New Talent) Apollo Suit (Trait)
-<ul>
-<li>Reduce the cooldown of Permanent Cloak from 3 to 1 second</li>
-</ul></li>
-<li>Precision Barrage (R)
-<ul>
-<li>​Added functionality:
-<ul>
-<li>​Now also reduces the cooldown of Precision Strike by 30 seconds.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="samuro">Samuro</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage increased from 88 to 110</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Mirror Image (Q)</strong>
-<ul>
-<li>Samuro will now appear in the direction of the player’s Mouse Cursor when Mirror Image is cast.</li>
-<li>Mirror Image damage is no longer a fraction of Samuro’s Attack Damage. Mirror Image base damage has been greatly reduced to 9.</li>
-<li>Mirror Images are no longer instantly destroyed by Structures</li>
-</ul></li>
-<li><strong>Critical Strike (W)</strong>
-<ul>
-<li>Cooldown increased from 8 to 10 seconds</li>
-</ul></li>
-<li><strong>Illusion Master (R)</strong>
-<ul>
-<li>New functionality:
-<ul>
-<li>Reduce the cooldown of Advancing Strikes to 8 seconds</li>
-</ul></li>
-<li>Now increases the attack damage of Mirror Images by 100%</li>
-<li>Now also increases Samuro’s Basic Attack damage by 10%</li>
-</ul></li>
-<li><strong>Image Transmission (Trait)</strong>
-<ul>
-<li>Additional functionality:
-<ul>
-<li>Activate to switch places with the target Mirror Image, removing most negative effects from Samuro and the target Mirror Image. 25-second cooldown.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li>Tooltips for various talents have been updated to reflect whether Samuro or his Mirror Images benefit from their effects</li>
-<li><strong>Level 1</strong>
-<ul>
-<li>Way of the Wind (E)
-<ul>
-<li>New Functionality: Gain 40% Movement Speed for 3 seconds upon entering or exiting Stealth by using Wind Walk</li>
-</ul></li>
-<li>Way of the Blade (W)
-<ul>
-<li>No longer grants bonus Critical Strike damage</li>
-</ul></li>
-<li>Way of Illusion (Q)
-<ul>
-<li>Mirror Images no longer benefit from this talent</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>One with the Wind (E)
-<ul>
-<li>Armor gain now also lasts for 3 seconds after being revealed</li>
-<li>Mirror Images now also gain Armor</li>
-<li>Armor amount reduced from 60 to 30</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Phantom Pain (W)
-<ul>
-<li>Mirror Images no longer benefit from this talent</li>
-</ul></li>
-<li>Crushing Blows (W)
-<ul>
-<li>Mirror Images no longer benefit from this talent</li>
-<li>Bonus Critical Strike damage has been removed</li>
-<li>Additional functionality:
-<ul>
-<li>Samuro’s Basic Attacks against enemy Heroes reduce the cooldown of Critical Strike by 1.5 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Kawarimi (E)
-<ul>
-<li>Reduced the time between Samuro issuing a new order after using Wind Walk and the image following it. It should now be harder for the new Image to follow Samuro’s new movements after using Wind Walk.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Press the Attack (Trait)
-<ul>
-<li>Attack Speed bonus reduced from 15% to 10% per stack. Maximum bonus decreased from 60% to 40%</li>
-</ul></li>
-<li>Harsh Winds (E)
-<ul>
-<li>Mirror Images no longer benefit from this talent</li>
-</ul></li>
-<li>Merciless Strikes (W)
-<ul>
-<li>Mirror Images no longer benefit from this talent</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="valeera">Valeera</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Vanish (D)</strong>
-<ul>
-<li>Movement Speed increased from 10% to 20%</li>
-</ul></li>
-<li><strong>Ambush (Q)</strong>
-<ul>
-<li>If Valeera is Vanished for 3 seconds, this ability has 5 range and teleports Valeera behind her target.</li>
-<li>Damage reduced from 180 to 130</li>
-<li>Now also reduces enemy Armor by 10 for 4 seconds</li>
-</ul></li>
-<li><strong>Cheap Shot (W)</strong>
-<ul>
-<li>Stun duration reduced from 1.25 to .75 seconds</li>
-<li>Now Blinds the target for 2 seconds after the stun effect ends</li>
-<li>If Valeera is Vanished for 3 seconds, this ability has 5 range and teleports Valeera behind her target</li>
-</ul></li>
-<li><strong>Garrote (E)</strong>
-<ul>
-<li>Silence duration increased from 2.25 to 2.75 seconds</li>
-<li>If Valeera is Vanished for 3 seconds, this ability has 5 range and teleports Valeera behind her target</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Subtlety (D)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>Now triggers when Valeera teleports to her target with Ambush, Cheap Shot, and Garrote.</li>
-</ul></li>
-<li>Energy return reduced from 10 to 8 per second.</li>
-</ul></li>
-<li>Crippling Poison (Active)
-<ul>
-<li>Slow duration reduced from 5 to 4 seconds.</li>
-<li>Valeera’s poison is no longer removed after the first damaging Ability, but instead is applied by all Valeera's Abilities for 4 seconds. This duration does not start until Valeera damages her first enemy.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Wound Poison (Active)
-<ul>
-<li>Healing reduction duration decreased from 5 to 4 seconds</li>
-<li>Valeera’s poison is no longer removed after the first damaging Ability, but instead is applied by all Valeera's Abilities for 4 seconds. This duration does not start until Valeera damages her first enemy</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Slice and Dice (E)
-<ul>
-<li>Valeera's Basic Attacks now restore 2 Energy.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Death from Above (Q)
-<ul>
-<li>New functionality:
-<ul>
-<li>Ambush reduces the cooldown of Vanish by 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li>Blind (W)
-<ul>
-<li>Now increases the duration of Cheap Shot’s Blind from 2 to 4 seconds.</li>
-</ul></li>
-<li>Strangle (E)
-<ul>
-<li>Spell Power reduction increased from 25% to 40%</li>
-<li>Duration reduced from 7 to 6 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Assassinate (Q)
-<ul>
-<li>Bonus damage reduced from 100% to 50%</li>
-<li>Now also increases the Armor reduction of Ambush by 10 when the target is isolated.</li>
-<li>Moved from level 7</li>
-</ul></li>
-<li>Expose Armor (E)
-<ul>
-<li>Removed.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Nightslayer (D)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Rupture (D)
-<ul>
-<li>Damage bonus now stacks immediately to 100%, instead of stacking up to 30%.</li>
-<li>Moved from level 16</li>
-</ul></li>
-<li>Elusiveness (D)
-<ul>
-<li>Moved from Level 13</li>
-<li>Movement Speed bonus increased from 10% to 20%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<table>
-<thead>
-<tr>
-  <th><strong>LEVEL (TIER)</strong></th>
-  <th><strong>Valeera Talents</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>1 (1)</strong></td>
-  <td>(!) Vigor (Passive)</td>
-  <td>Subtlety (D)</td>
-  <td>Combat Readiness (Passive)</td>
-  <td>Crippling Poison (Active)</td>
-</tr>
-<tr>
-  <td><strong>4 (2)</strong></td>
-  <td>Relentless Strikes (Q)</td>
-  <td>Hemorrhage (E)</td>
-  <td>Initiative (D)</td>
-  <td>Wound Poison (Active)</td>
-</tr>
-<tr>
-  <td><strong>7 (3)</strong></td>
-  <td>Mutilate (Q)</td>
-  <td>(!) Fatal Finesse (W)</td>
-  <td>Slice and Dice (E)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>10 (4)</strong></td>
-  <td>Smoke Bomb (R)</td>
-  <td>Cloak of Shadows (R)</td>
-  <td>—</td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>13 (5)</strong></td>
-  <td>Death from Above (Q)</td>
-  <td>Blind (W)</td>
-  <td>Strangle (E)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>16 (6)</strong></td>
-  <td>Seal Fate (Q)</td>
-  <td>Assassinate (Q)</td>
-  <td>Thistle Tea (Active)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>20 (7)</strong></td>
-  <td>Adrenaline Rush (R)</td>
-  <td>Enveloping Shadows (R)</td>
-  <td><strong>Rupture (E)</strong></td>
-  <td><strong>Elusiveness (D)</strong></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li>(!) indicates a Questing Talent.</li>
-<li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
-<li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="valla">Valla</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Monster Hunter (Q)
-<ul>
-<li>Now tracks stacks instead of damage on the quest tracker</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="zeratul">Zeratul</h4>
-
-<p>​<strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Shadow Assault (R)</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>(New Talent) Might of the Nerazim (R)</strong>
-<ul>
-<li>Passive: After using an Ability, Zeratul’s next Basic Attack within 6 seconds deals 40% more damage</li>
-<li>Activate to duplicate the last ability cast. Damaging abilities deal 50% less damage. This ability does not benefit from talents. 20-Second Cooldown </li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Vorpal Blade (1)
-<ul>
-<li>Added as a baseline ability. Default Hotkey: 1</li>
-</ul></li>
-<li>(New Talent) Move Unseen (Passive)
-<ul>
-<li>Gain 25% bonus Movement Speed while Stealthed</li>
-</ul></li>
-<li>Shadow Hunter (E)
-<ul>
-<li>Regen Globe required for quest completion reduced from 20 to 15</li>
-<li>Mana cost reduction of Blink increased from 2 to 3</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Combo Slash (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Grim Task (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>(New Talent) Psionic Strength (Passive)
-<ul>
-<li>Damaging an enemy Hero with Basic Attacks or Abilities increases Zeratul's damage by 6% for 3 seconds, stacking up to 5 times.</li>
-</ul></li>
-<li>(New Talent) Darkness Descends (Active)
-<ul>
-<li>Passive: Increase Zeratul’s attack speed by 10%.</li>
-<li>Activated ability – Zeratul gains 40% bonus attack speed for 5 seconds. 30-second cooldown</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Wormhole (E)
-<ul>
-<li>Duration increased from 2 to 3 seconds</li>
-</ul></li>
-<li>Slip into Shadow (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>(New Talent) Warp Skirmisher (1)
-<ul>
-<li>Vorpal Blade now has 2 charges. Casting Vorpal Blade also causes Zeratul's next Basic Attack within 6 seconds to deal 30% bonus damage</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Sentenced to Death (W)
-<ul>
-<li>Bonus damage reduced from 40 to 30%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Rewind (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Nerazim Fury (R)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>(New Talent) Twilight Falls (R)
-<ul>
-<li>Activating Might of the Nerazim resets the cooldown of all of Zeratul’s Basic Abilities</li>
-</ul></li>
-<li>(New Talent) Shadow Mending (Passive)
-<ul>
-<li>Zeratul heals himself for 75% of Ability Damage Dealt to enemy Heroes</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<table>
-<thead>
-<tr>
-  <th><strong>LEVEL (TIER)</strong></th>
-  <th><strong>Zeratul Talents</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>1 (1)</strong></td>
-  <td>Greater Cleave (Q)</td>
-  <td>(!) Shadow Hunter (E)</td>
-  <td><em>Move Unseen (Passive)</em></td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>4 (2)</strong></td>
-  <td>Rending Cleave (Q)</td>
-  <td><em>Darkness Descends (Active)</em></td>
-  <td><em>Psionic Strength (Passive)</em></td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>7 (3)</strong></td>
-  <td>Wormhole (E)</td>
-  <td>Seeker in the Dark (W)</td>
-  <td><em>Warp Skirmisher (1)</em></td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>10 (4)</strong></td>
-  <td>Void Prison (R)</td>
-  <td><em>Might of the Nerazim (R)</em></td>
-  <td>—</td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>13 (5)</strong></td>
-  <td>Mending Strikes (Passive)</td>
-  <td>Shroud of Adun (Trait)</td>
-  <td>Spell Shield (Active)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>16 (6)</strong></td>
-  <td>Master Warp-Blade (Passive)</td>
-  <td>Sentenced to Death (W)</td>
-  <td>Void Slash (Q)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>20 (7)</strong></td>
-  <td>Nexus Blades (Passive)</td>
-  <td>Gift of the Xel'naga (R)</td>
-  <td><em>Twilight Falls (R)</em></td>
-  <td><em>Shadow Mending (Passive)</em></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li>(!) indicates a Questing Talent.</li>
-<li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
-<li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="abathur">Abathur</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Spawn Locust (Trait)</strong>
-<ul>
-<li>Health increased from 288 to 316 </li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Survival Instincts (Trait)
-<ul>
-<li>Bonus Health decreased from 50% to 40%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Calldown: MULE (Active)
-<ul>
-<li>No longer refills Structure ammo</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<h4 id="the-lost-vikings">The Lost Vikings</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>It’s a Sabotage! (Passive)
-<ul>
-<li>No longer removes Structure ammo</li>
-<li>Damage increased from 27 to 35</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="muradin">Muradin</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Sledgehammer (Q)
-<ul>
-<li>No longer removes Ammo from structures</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>Hero Price Reduction</strong></p>
-
-<ul>
-<li>Artanis’ prices have been reduced to 7,000 Gold and 625 Gems.</li>
-</ul>
-
-<p><strong>New Bundles</strong> – The following new Bundles and Skin Packs are available for a limited time!</p>
-
-<ul>
-<li>Hanzo Heroic Bundle</li>
-<li>Winter Veil 2017 Bundle</li>
-<li>Winter Veil Classic Bundle</li>
-</ul>
-
-<p><strong>New Announcers</strong></p>
-
-<ul>
-<li>Hanzo</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Hanzo</strong>
-<ul>
-<li>Kinoko Honzo</li>
-<li>Sora Hanzo</li>
-<li>Dragon Hanzo</li>
-<li>Demon Hanzo</li>
-<li><strong>Farstrider Hanzo</strong>
-<ul>
-<li>Icebound Farstrider Hanzo</li>
-<li>Iron Farstrider Hanzo</li>
-<li>Holy Farstrider Hanzo</li>
-<li>Scarlet Farstrider Hanzo</li>
-</ul></li>
-</ul></li>
-<li><strong>Genji</strong>
-<ul>
-<li>Storm Oni Genji</li>
-<li>Golden Genji</li>
-<li>Nihon Genji</li>
-</ul></li>
-<li><strong>Leoric</strong>
-<ul>
-<li>Immortal Space Lord Leoric</li>
-</ul></li>
-<li><strong>Lúcio</strong>
-<ul>
-<li>Azure Soundblast Lúcio</li>
-</ul></li>
-<li><strong>Lunara</strong>
-<ul>
-<li>Harvest Champion Lunara</li>
-</ul></li>
-<li><strong>Zarya</strong>
-<ul>
-<li>Citrine Thunderguard Zarya</li>
-<li>Industrial Zarya</li>
-</ul></li>
-</ul>
-
-<p><strong>New Mounts</strong></p>
-
-<ul>
-<li>The following Mounts have been awarded to players who reached Platinum in Hero League or Bronze in Team League during 2017 Ranked Season 3:
-<ul>
-<li>Titanium Cybersteed</li>
-<li>Carbon Cybersteed</li>
-<li>Master Cybersteed</li>
-</ul></li>
-<li>The following Mounts have been awarded to players who reached Master or higher in Hero League or Team League during 2017 Ranked Season 3:
-<ul>
-<li>Epic Titanium Cybersteed</li>
-<li>Epic Carbon Cybersteed</li>
-<li>Epic Master Cybersteed</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
-</ul>
-
-<p><strong>Art</strong></p>
-
-<ul>
-<li><strong>Kharazim:</strong> Kharazim's arms and upper body now animated correctly during his dizzy animation.</li>
-<li><strong>Leoric:</strong> The Shroud of the Dead King Talent will now correctly play an animation and a sound when activated.</li>
-<li><strong>Samuro:</strong> Monkey King Samuro’s model will no longer exhibit flickering during Hero Select while running Medium or High graphic settings.</li>
-<li><strong>The Lost Vikings:</strong> Fixed an issue causing Baelog to cast superfluous shadows on the terrain.</li>
-</ul>
-
-<p><strong>Battlegrounds</strong></p>
-
-<ul>
-<li><strong>Sky Temple:</strong> Fixed an issue that could prevent Temple lasers from appearing correctly on the Minimap.</li>
-<li><strong>Structures:</strong> Auriel's Blinding Flash and Artanis' Suppression Pulse can no longer Blind Structures.</li>
-<li><strong>Towers of Doom:</strong> The Headless Horseman Boss is no longer incorrectly categorized as a Monster.</li>
-<li><strong>Volskaya Foundry:</strong> Fixed an issue in which Heroes on the outer edge of the Hall of Storms would not receive Healing or protection.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Alexstrasza:</strong> Life-Binder is no longer interrupted when entering or exiting Dragonqueen.</li>
-<li><strong>Diablo:</strong> Fixed an issue that could cause Shadow Charge to deal its collision damage multiple times under certain circumstances.</li>
-<li><strong>Garrosh:</strong> Casting Wrecking Ball on Mercenaries will no longer cause them to leash while in combat.</li>
-<li><strong>Gul'dan:</strong> Movement caused by a conveyor belt will no longer cancel Rain of Destruction channeling.</li>
-<li><strong>Kel'thuzad:</strong> The Power of Icecrown Talent will now correctly grant bonus Spell Power for enemy Heroes Slowed by Chains of Kel’Thuzad with the Chains of Ice Talent.</li>
-<li><strong>Li-Ming:</strong> Zei's Vengeance and Arcane Orb tooltips have been updated to clarify bonus damage functionality. Damage amounts have not been changed.</li>
-<li><strong>Lt. Morales:</strong> The Second Opinion Talent will now correctly grant cooldown reduction when one of the Heroes struck by Displacement Grenade is piloting a Vehicle, like the Garden Terror.</li>
-<li><strong>Lunara:</strong> Fixed an inconsistency that allowed Lunara to cast Leaping Strike over some, but not all, allied units after learning Boundless Stride.</li>
-<li><strong>Medivh:</strong> Creating a Portal entrance after learning Portal Mastery and then entering the Triglav Protector will no longer prevent him from using the Protector’s abilities.</li>
-<li><strong>Muradin:</strong> Learning Reverberation no longer incorrectly updates the Attack Speed Slow amount in Thunder Clap’s tooltip.</li>
-<li><strong>Murky:</strong> Spawn Egg with the Egg Hunt Talent can now be cast correctly on Volskaya Foundry’s conveyor belts.</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li><strong>Death Recap:</strong> Fortification Camp Turret attacks now display a Turret icon in the Death Recap screen.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
