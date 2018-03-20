@@ -108,7 +108,7 @@ to fight. Not even death can stop Fenix from achieving glory and valor.</p>
 
 <hr />
 
-<h3 id="user-inteface">User Inteface</h3>
+<h3 id="user-interface">User Interface</h3>
 
 <p><strong>In-Game UI</strong></p>
 
@@ -352,7 +352,7 @@ to fight. Not even death can stop Fenix from achieving glory and valor.</p>
 </ul></li>
 <li><strong>Level 7</strong>
 <ul>
-<li>Lionheart (Q)
+<li><strong>New Talent: Lionheart (Q)</strong>
 <ul>
 <li>Increases Lion’s Fang healing for damage dealt to Heroes by 50%.</li>
 </ul></li>
@@ -442,7 +442,7 @@ to fight. Not even death can stop Fenix from achieving glory and valor.</p>
 <li>The following new bundles are available for a limited time! Be sure to check out the latest <a href="http://us.battle.net/heroes/en-us/blog/21619852">In-Development blog</a> for more details.
 <ul>
 <li>Fenix Heroic Bundle</li>
-<li>StarCraft 20th Anniveresary Bundle</li>
+<li>StarCraft 20th Anniversary Bundle</li>
 <li>Protoss 20th Anniversary Bundle</li>
 <li>Terran 20th Anniversary Bundle</li>
 <li>Zerg 20th Anniversary Bundle</li>
@@ -590,7 +590,7 @@ to fight. Not even death can stop Fenix from achieving glory and valor.</p>
 <li><strong>Li Li:</strong> Casting Cloud Serpent on Pilot-form D.Va just before she casts Call Mech will no longer prevent the Serpent from following Mech-form D.Va.</li>
 <li><strong>Lunara:</strong> Queued Leaping Strikes will no longer continue to target an enemy Hero who enters Stealth before the Heroic Ability actually fires.</li>
 <li><strong>Malfurion:</strong> Entangling Roots will no longer affect non-Heroic targets.</li>
-<li><strong>Ragnaros:</strong> Blind and Evasion effects will no cause Empower Sulfuras’ Ability Damage to miss.</li>
+<li><strong>Ragnaros:</strong> Blind and Evasion effects will no longer cause Empower Sulfuras’s Ability Damage to miss.</li>
 <li><strong>Rexxar:</strong> Completing the Hunter-Gatherer Talent’s quest now correctly grants bonus Armor to Misha.</li>
 <li><strong>Rexxar:</strong> Misha, Focus! will now correctly grant Misha its passive 15% Movement Speed bonus.</li>
 <li><strong>Samuro:</strong> Casting Mirror Image now correctly clears any Move commands that had been queued for the real Samuro.</li>
