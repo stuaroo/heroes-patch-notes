@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-03-12T17:30:00.000Z</updated>
+  <updated>2018-03-21T17:37:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-03-21 Balance Update v 2.30.6</title>
+    <published>2018-03-21T17:37:00.000Z</published>
+    <updated>2018-03-21T17:37:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-03-21-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-03-21-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2018-03-21" target="_blank">Artanis</a>, 
+          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2018-03-21" target="_blank">Auriel</a>, 
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-03-21" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2018-03-21" target="_blank">Greymane</a>, 
+          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-03-21" target="_blank">Maiev</a>, 
+          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2018-03-21" target="_blank">Malfurion</a>, 
+          <a href="https://heroespatchnotes.com/hero/medivh.html#patch2018-03-21" target="_blank">Medivh</a>, 
+          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2018-03-21" target="_blank">Sonya</a>, 
+          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2018-03-21" target="_blank">Thrall</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2018-03-21" target="_blank">Tyrael</a>, 
+          <a href="https://heroespatchnotes.com/hero/valla.html#patch2018-03-21" target="_blank">Valla</a>, 
+          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-03-21" target="_blank">Zul'jin</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-03-06 Patch Notes v 2.30.4</title>
     <published>2018-03-12T17:30:00.000Z</published>
@@ -266,43 +292,6 @@
         <img src="https://heroespatchnotes.com/images/hero/samuro.png" href="https://heroespatchnotes.com/hero/samuro.html#patch2017-12-12" alt="Samuro Rework" height="44" width="44" />
         <img src="https://heroespatchnotes.com/images/hero/valeera.png" href="https://heroespatchnotes.com/hero/valeera.html#patch2017-12-12" alt="Valeera Rework" height="44" width="44" />
         <img src="https://heroespatchnotes.com/images/hero/zeratul.png" href="https://heroespatchnotes.com/hero/zeratul.html#patch2017-12-12" alt="Zeratul Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-11-29 Balance Update v 2.29.2</title>
-    <published>2017-11-27T23:30:00.000Z</published>
-    <updated>2017-11-27T23:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-11-29-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-11-29-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p><a href="http://us.battle.net/heroes/en/blog/21273600">Support nerfs</a>: changes to supports to "[try] to move away from the "double healer" team compositions that we are seeing so commonly"</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2017-11-29" target="_blank">Alexstrasza</a>, 
-          <a href="https://heroespatchnotes.com/hero/ana.html#patch2017-11-29" target="_blank">Ana</a>, 
-          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2017-11-29" target="_blank">Auriel</a>, 
-          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2017-11-29" target="_blank">Brightwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2017-11-29" target="_blank">Johanna</a>, 
-          <a href="https://heroespatchnotes.com/hero/kharazim.html#patch2017-11-29" target="_blank">Kharazim</a>, 
-          <a href="https://heroespatchnotes.com/hero/lili.html#patch2017-11-29" target="_blank">Li Li</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2017-11-29" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/lucio.html#patch2017-11-29" target="_blank">Lucio</a>, 
-          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2017-11-29" target="_blank">Malfurion</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2017-11-29" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2017-11-29" target="_blank">Sgt. Hammer</a>, 
-          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2017-11-29" target="_blank">Sonya</a>, 
-          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2017-11-29" target="_blank">Stukov</a>, 
-          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2017-11-29" target="_blank">Tassadar</a>, 
-          <a href="https://heroespatchnotes.com/hero/tychus.html#patch2017-11-29" target="_blank">Tychus</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2017-11-29" target="_blank">Tyrande</a>, 
-          <a href="https://heroespatchnotes.com/hero/uther.html#patch2017-11-29" target="_blank">Uther</a>, 
-          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2017-11-29" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/sgthammer.png" href="https://heroespatchnotes.com/hero/sgthammer.html#patch2017-11-29" alt="Sgt. Hammer Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
