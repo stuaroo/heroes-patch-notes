@@ -1509,8 +1509,9 @@ changes.</p>
 <ul>
 <li>Healing reduced from 237 to 215</li>
 </ul></li>
-<li><strong>Biotic Grenade [W]</strong>
+<li><strong>Biotic Grenade [W]</strong> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2018-03-06-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
 <ul>
+<li><span class="text-warning">Range reduced from 15 to 12</span></li>
 <li>Adjusted functionality:
 <ul>
 <li>Amplified Healing now only affects Ana’s Healing output</li>
@@ -1569,8 +1570,9 @@ changes.</p>
 <ul>
 <li>Shrike activation cooldown reduced from 10 to 3 seconds</li>
 </ul></li>
-<li>Air Strike [W]
+<li>Air Strike [W] <a class="label label-warning" href="https://heroespatchnotes.com/patch/2018-03-06-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
 <ul>
+<li><span class="text-warning">Range increased from 200% to 275%</span></li>
 <li>Airborne duration reduced from 4 to 3 seconds</li>
 </ul></li>
 </ul></li>
