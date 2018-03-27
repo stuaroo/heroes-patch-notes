@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-03-21T17:37:00.000Z</updated>
+  <updated>2018-03-27T16:15:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-03-27 Patch Notes v 2.31.0</title>
+    <published>2018-03-27T16:15:00.000Z</published>
+    <updated>2018-03-27T16:15:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-03-27-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-03-27-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/fenix.png" alt="Fenix" height="60" width="60" /> Fenix</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-03-27" target="_blank">Fenix</a>, 
+          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2018-03-27" target="_blank">Kel'Thuzad</a>, 
+          <a href="https://heroespatchnotes.com/hero/lili.html#patch2018-03-27" target="_blank">Li Li</a>, 
+          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2018-03-27" target="_blank">Tracer</a>, 
+          <a href="https://heroespatchnotes.com/hero/varian.html#patch2018-03-27" target="_blank">Varian</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-03-21 Balance Update v 2.30.6</title>
     <published>2018-03-21T17:37:00.000Z</published>
@@ -249,54 +270,6 @@
           <a href="https://heroespatchnotes.com/hero/thrall.html#patch2017-12-20" target="_blank">Thrall</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-12-12 Patch Notes v 2.29.3</title>
-    <published>2017-12-12T17:30:00.000Z</published>
-    <updated>2017-12-12T17:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-12-12-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-12-12-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/hanzo.png" alt="Hanzo" height="60" width="60" /> Hanzo</h3>
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>Camera height: "In-game Camera height has been significantly increased in order to provide more visibility of the battlefield"</p>
-</li>
-        <li><p><a href="http://us.battle.net/heroes/en/blog/21273594">Stealth reworked</a>: stealth heroes now display outlines, become completely invisible when immobile for 1.5 seconds</p>
-</li>
-      </ul>
-      <h4>Play Mode</h4>
-      <ul>
-        <li><p><a href="http://us.battle.net/heroes/en/blog/21179036">Performance-based matchmaking</a>: "takes individual player performance into account when determining MMR gains and losses"; Five days later, <a href="https://eu.battle.net/forums/en/heroes/topic/17617601839#post-3">Performance based matchmaking was disabled</a> due to unrelated "issue[s] affecting placement matchmaking ratings"</p>
-</li>
-      </ul>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p><a href="http://us.battle.net/heroes/en/blog/21295033">Early game and laning changes</a>: Ammo removed from towers, Forts and Keeps reveal Stealth, regen globes "switch from allied to neutral after 3 seconds", most Battleground objective timers have been altered, Mercenaries updated with special abilities</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2017-12-12" target="_blank">Abathur</a>, 
-          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2017-12-12" target="_blank">Muradin</a>, 
-          <a href="https://heroespatchnotes.com/hero/nova.html#patch2017-12-12" target="_blank">Nova</a>, 
-          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2017-12-12" target="_blank">Samuro</a>, 
-          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2017-12-12" target="_blank">Sgt. Hammer</a>, 
-          <a href="https://heroespatchnotes.com/hero/thelostvikings.html#patch2017-12-12" target="_blank">The Lost Vikings</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2017-12-12" target="_blank">Tyrande</a>, 
-          <a href="https://heroespatchnotes.com/hero/valeera.html#patch2017-12-12" target="_blank">Valeera</a>, 
-          <a href="https://heroespatchnotes.com/hero/valla.html#patch2017-12-12" target="_blank">Valla</a>, 
-          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2017-12-12" target="_blank">Zeratul</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/nova.png" href="https://heroespatchnotes.com/hero/nova.html#patch2017-12-12" alt="Nova Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/samuro.png" href="https://heroespatchnotes.com/hero/samuro.html#patch2017-12-12" alt="Samuro Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/valeera.png" href="https://heroespatchnotes.com/hero/valeera.html#patch2017-12-12" alt="Valeera Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/zeratul.png" href="https://heroespatchnotes.com/hero/zeratul.html#patch2017-12-12" alt="Zeratul Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
