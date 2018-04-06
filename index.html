@@ -16,6 +16,7 @@
         <title>Heroes Patch Notes.com</title>
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=cF71L7YrqN" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
     <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
@@ -23,135 +24,14 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
     <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
     <meta name="theme-color" content="#3498db">
-    <style>
-      footer>div.container>div.row>div.col-sm-3>ul { list-style: none; padding-left: 0; }
-      footer>div.container>div.row>div.col-sm-3>ul>li { line-height: 1.75em; }
-      footer>div.container>div.row>div.col-sm-3>ul>li>a:hover { text-decoration: none; }
-      footer { background-color: #f9f9f9; padding-top: 1em; padding-bottom: 1em; }
-    </style>
 
     <link href="css/role-icons.css?v=soKL3oS24Z" rel="stylesheet">
-    <link href="css/github-fork-ribbon.css?v=soKL3oS24Z" rel="stylesheet">
     <style>
+      #hero-list>p { margin: 0 0 10.5px; }
       table>tbody>tr>td + td, table>thead>tr>th + th { text-align: center; }
-      .sort { color: #2c3e50; }
-      table a:not(.btn), .table a:not(.btn) { text-decoration: none; }
-      th > a { cursor: pointer; }
       table>tbody>tr>td, .table>tbody>tr>td { vertical-align: middle; padding: 0; }
       table>tbody>tr>td>a { display: inline-block; vertical-align: middle; }
-      .hero-sprite-one { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-one-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-      .hero-sprite-two { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-two-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-      .hero-sprite-three { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-three-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-      .hero-sprite-four { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-four-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-      .hero-sprite-five { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-five-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-      .hero-sprite-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-      .hero-sprite-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-      .hero-sprite-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180327.png") 0 0 no-repeat; background-size: 44px 379.26086991px; height: 44px; width: 44px; }
-      .bg-sprite { background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20170918.png") 0 0 no-repeat; background-size: 50.6px 759.0px; width: 50.6px; height: 44px; }
-      .abathur{ background-position: 0px -143.478261px; }
-      .alarak{ background-position: 0px -286.956522px; }
-      .alexstrasza{ background-position: 0px -143.478261px; }
-      .ana{ background-position: 0px -47.826087px; }
-      .anubarak{ background-position: 0px -47.826087px; }
-      .artanis{ background-position: 0px -47.826087px; }
-      .arthas{ background-position: 0px -95.652174px; }
-      .auriel{ background-position: 0px -191.304348px; }
-      .azmodan{ background-position: 0px -95.652174px; }
-      .blaze{ background-position: 0px -239.130435px; }
-      .brightwing{ background-position: 0px -143.478261px; }
-      .butcher{ background-position: 0px -334.782609px; }
-      .cassia{ background-position: 0px -191.304348px; }
-      .chen{ background-position: 0px -191.304348px; }
-      .cho{ background-position: 0px -143.478261px; }
-      .chromie{ background-position: 0px -47.826087px; }
-      .dva{ background-position: 0px -286.956522px; }
-      .dehaka{ background-position: 0px -430.434783px; }
-      .diablo{ background-position: 0px -239.130435px; }
-      .etc{ background-position: 0px -95.652174px; }
-      .falstad{ background-position: 0px -286.956522px; }
-      .fenix{ background-position: 0px -334.782609px; }
-      .gall{ background-position: 0px -191.304348px; }
-      .garrosh{ background-position: 0px -430.434783px; }
-      .gazlowe{ background-position: 0px 0.0px; }
-      .genji{ background-position: 0px -239.130435px; }
-      .greymane{ background-position: 0px -286.956522px; }
-      .guldan{ background-position: 0px -143.478261px; }
-      .hanzo{ background-position: 0px -191.304348px; }
-      .illidan{ background-position: 0px -334.782609px; }
-      .jaina{ background-position: 0px -382.608696px; }
-      .johanna{ background-position: 0px -286.956522px; }
-      .junkrat{ background-position: 0px -95.652174px; }
-      .kaelthas{ background-position: 0px -430.434783px; }
-      .kelthuzad{ background-position: 0px 0.0px; }
-      .kerrigan{ background-position: 0px 0.0px; }
-      .kharazim{ background-position: 0px -430.434783px; }
-      .leoric{ background-position: 0px -382.608696px; }
-      .lili{ background-position: 0px -47.826087px; }
-      .liming{ background-position: 0px -334.782609px; }
-      .ltmorales{ background-position: 0px -95.652174px; }
-      .lucio{ background-position: 0px -95.652174px; }
-      .lunara{ background-position: 0px -239.130435px; }
-      .maiev{ background-position: 0px -286.956522px; }
-      .malfurion{ background-position: 0px -430.434783px; }
-      .malthael{ background-position: 0px -334.782609px; }
-      .medivh{ background-position: 0px -95.652174px; }
-      .muradin{ background-position: 0px -143.478261px; }
-      .murky{ background-position: 0px -191.304348px; }
-      .nazeebo{ background-position: 0px -239.130435px; }
-      .nova{ background-position: 0px -286.956522px; }
-      .probius{ background-position: 0px -143.478261px; }
-      .ragnaros{ background-position: 0px -430.434783px; }
-      .raynor{ background-position: 0px -334.782609px; }
-      .rehgar{ background-position: 0px -382.608696px; }
-      .rexxar{ background-position: 0px 0.0px; }
-      .samuro{ background-position: 0px -334.782609px; }
-      .sgthammer{ background-position: 0px -382.608696px; }
-      .sonya{ background-position: 0px -430.434783px; }
-      .stitches{ background-position: 0px 0.0px; }
-      .stukov{ background-position: 0px -382.608696px; }
-      .sylvanas{ background-position: 0px -47.826087px; }
-      .tassadar{ background-position: 0px -191.304348px; }
-      .thelostvikings{ background-position: 0px 0.0px; }
-      .thrall{ background-position: 0px -334.782609px; }
-      .tracer{ background-position: 0px 0.0px; }
-      .tychus{ background-position: 0px -47.826087px; }
-      .tyrael{ background-position: 0px -95.652174px; }
-      .tyrande{ background-position: 0px -239.130435px; }
-      .uther{ background-position: 0px -143.478261px; }
-      .valeera{ background-position: 0px -47.826087px; }
-      .valla{ background-position: 0px -191.304348px; }
-      .varian{ background-position: 0px -382.608696px; }
-      .xul{ background-position: 0px -382.608696px; }
-      .zagara{ background-position: 0px -239.130435px; }
-      .zarya{ background-position: 0px -239.130435px; }
-      .zeratul{ background-position: 0px -286.956522px; }
-      .zuljin{ background-position: 0px 0.0px; }
-      .battlefieldofeternity{ background-position: 0px -275.0px; }
-      .blackheartsbay{ background-position: 0px -55.0px; }
-      .braxisholdout{ background-position: 0px -440.0px; }
-      .cursedhollow{ background-position: 0px -165.0px; }
-      .dragonshire{ background-position: 0px -220.0px; }
-      .gardenofterror{ background-position: 0px -110.0px; }
-      .hanamura{ background-position: 0px -605.0px; }
-      .hauntedmines{ background-position: 0px -550.0px; }
-      .infernalshrines{ background-position: 0px -330.0px; }
-      .lostcavern{ background-position: 0px -660.0px; }
-      .skytemple{ background-position: 0px 0.0px; }
-      .tombofthespiderqueen{ background-position: 0px -660.0px; }
-      .towersofdoom{ background-position: 0px -385.0px; }
-      .volskayafoundry{ background-position: 0px -715.0px; }
-      .warheadjunction{ background-position: 0px -495.0px; }
-      a.sort > i.fa-sort-asc, a.sort > i.fa-sort-desc { display: none; }
-      a.sort.asc > i.fa-sort { display: none; }
-      a.sort.asc > i.fa-sort-asc { display: inherit; }
-      a.sort.desc > i.fa-sort { display: none; }
-      a.sort.desc > i.fa-sort-desc { display: inherit; }
-      a.tombofthespiderqueen + a.bg, a.battlefieldofeternity + a.bg, a.long-patch-name { font-size: 12px; }
-      @media (min-width: 768px) { a.tombofthespiderqueen + a.bg, a.battlefieldofeternity + a.bg, a.long-patch-name { font-size: 15px; } }
-      a.official { background: url("https://res.cloudinary.com/heroespatches/image/upload/c_scale,h_32/v1484894834/hotslogo.png") 0px 0px no-repeat; background-size: 30px 32px; width: 30px; height: 32px; display: inline-block; vertical-align: middle;}
-      a.hpn { background: url("https://heroespatchnotes.com/favicon-32x32.png") 0px 0px no-repeat; background-size: 32px 32px; height: 32px; width: 32px; display: inline-block; vertical-align: middle; }
       a.more { padding-left: 5px; }
-      .github-fork-ribbon:before { background-color: #3498db; }
     </style>
   </head>
   <body>
@@ -259,938 +139,938 @@
             <tbody class="list">
               <tr>
                 <td>
-                  <a class="hero-sprite-six auriel img-circle" href="hero/auriel.html"></a>
+                  <a class="small-hero-six small-auriel img-circle" href="hero/auriel.html"></a>
                   <a class="hero" href="hero/auriel.html">Auriel</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180327</span> 2018-03-27</td>
-                <td class="visible-lg"><span class="hidden first-release">20160809</span> 2016-08-09</td>
+                <td><span class="hidden last-update">20180327auriel</span> 2018-03-27</td>
+                <td class="visible-lg"><span class="hidden first-release">20160809auriel</span> 2016-08-09</td>
                 <td class="hidden-xs patch-changes">20</td>
                 <td class="hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight fenix img-circle" href="hero/fenix.html"></a>
+                  <a class="small-hero-eight small-fenix img-circle" href="hero/fenix.html"></a>
                   <a class="hero" href="hero/fenix.html">Fenix</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180327</span> 2018-03-27</td>
-                <td class="visible-lg"><span class="hidden first-release">20180327</span> 2018-03-27</td>
+                <td><span class="hidden last-update">20180327fenix</span> 2018-03-27</td>
+                <td class="visible-lg"><span class="hidden first-release">20180327fenix</span> 2018-03-27</td>
                 <td class="hidden-xs patch-changes">2</td>
                 <td class="hidden-xs hero-updates">1</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight kelthuzad img-circle" href="hero/kelthuzad.html"></a>
+                  <a class="small-hero-eight small-kelthuzad img-circle" href="hero/kelthuzad.html"></a>
                   <a class="hero" href="hero/kelthuzad.html">Kel'Thuzad</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180327</span> 2018-03-27</td>
-                <td class="visible-lg"><span class="hidden first-release">20170905</span> 2017-09-05</td>
+                <td><span class="hidden last-update">20180327kelthuzad</span> 2018-03-27</td>
+                <td class="visible-lg"><span class="hidden first-release">20170905kelthuzad</span> 2017-09-05</td>
                 <td class="hidden-xs patch-changes">5</td>
                 <td class="hidden-xs hero-updates">2</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two lili img-circle" href="hero/lili.html"></a>
+                  <a class="small-hero-two small-lili img-circle" href="hero/lili.html"></a>
                   <a class="hero" href="hero/lili.html">Li Li</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180327</span> 2018-03-27</td>
-                <td class="visible-lg"><span class="hidden first-release">20140415</span> 2014-04-15</td>
+                <td><span class="hidden last-update">20180327lili</span> 2018-03-27</td>
+                <td class="visible-lg"><span class="hidden first-release">20140415lili</span> 2014-04-15</td>
                 <td class="hidden-xs patch-changes">32</td>
                 <td class="hidden-xs hero-updates">21</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six tracer img-circle" href="hero/tracer.html"></a>
+                  <a class="small-hero-six small-tracer img-circle" href="hero/tracer.html"></a>
                   <a class="hero" href="hero/tracer.html">Tracer</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180327</span> 2018-03-27</td>
-                <td class="visible-lg"><span class="hidden first-release">20160419</span> 2016-04-19</td>
+                <td><span class="hidden last-update">20180327tracer</span> 2018-03-27</td>
+                <td class="visible-lg"><span class="hidden first-release">20160419tracer</span> 2016-04-19</td>
                 <td class="hidden-xs patch-changes">19</td>
                 <td class="hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six varian img-circle" href="hero/varian.html"></a>
+                  <a class="small-hero-six small-varian img-circle" href="hero/varian.html"></a>
                   <a class="hero" href="hero/varian.html">Varian</a>
                   <span class="hidden role">Warrior Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                   <span class="pull-right icon-role-warrior role-icons multiclass hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180327</span> 2018-03-27</td>
-                <td class="visible-lg"><span class="hidden first-release">20161115</span> 2016-11-15</td>
+                <td><span class="hidden last-update">20180327varian</span> 2018-03-27</td>
+                <td class="visible-lg"><span class="hidden first-release">20161115varian</span> 2016-11-15</td>
                 <td class="hidden-xs patch-changes">15</td>
                 <td class="hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five artanis img-circle" href="hero/artanis.html"></a>
+                  <a class="small-hero-five small-artanis img-circle" href="hero/artanis.html"></a>
                   <a class="hero" href="hero/artanis.html">Artanis</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20151020</span> 2015-10-20</td>
+                <td><span class="hidden last-update">20180321artanis</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20151020artanis</span> 2015-10-20</td>
                 <td class="hidden-xs patch-changes">27</td>
                 <td class="hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight blaze img-circle" href="hero/blaze.html"></a>
+                  <a class="small-hero-eight small-blaze img-circle" href="hero/blaze.html"></a>
                   <a class="hero" href="hero/blaze.html">Blaze</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20180109</span> 2018-01-09</td>
+                <td><span class="hidden last-update">20180321blaze</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20180109blaze</span> 2018-01-09</td>
                 <td class="hidden-xs patch-changes">5</td>
                 <td class="hidden-xs hero-updates">3</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five greymane img-circle" href="hero/greymane.html"></a>
+                  <a class="small-hero-five small-greymane img-circle" href="hero/greymane.html"></a>
                   <a class="hero" href="hero/greymane.html">Greymane</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20160112</span> 2016-01-12</td>
+                <td><span class="hidden last-update">20180321greymane</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20160112greymane</span> 2016-01-12</td>
                 <td class="hidden-xs patch-changes">31</td>
                 <td class="hidden-xs hero-updates">15</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight maiev img-circle" href="hero/maiev.html"></a>
+                  <a class="small-hero-eight small-maiev img-circle" href="hero/maiev.html"></a>
                   <a class="hero" href="hero/maiev.html">Maiev</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20180206</span> 2018-02-06</td>
+                <td><span class="hidden last-update">20180321maiev</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20180206maiev</span> 2018-02-06</td>
                 <td class="hidden-xs patch-changes">5</td>
                 <td class="hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two malfurion img-circle" href="hero/malfurion.html"></a>
+                  <a class="small-hero-two small-malfurion img-circle" href="hero/malfurion.html"></a>
                   <a class="hero" href="hero/malfurion.html">Malfurion</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180321malfurion</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313malfurion</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">41</td>
                 <td class="hidden-xs hero-updates">19</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six medivh img-circle" href="hero/medivh.html"></a>
+                  <a class="small-hero-six small-medivh img-circle" href="hero/medivh.html"></a>
                   <a class="hero" href="hero/medivh.html">Medivh</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20160614</span> 2016-06-14</td>
+                <td><span class="hidden last-update">20180321medivh</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20160614medivh</span> 2016-06-14</td>
                 <td class="hidden-xs patch-changes">24</td>
                 <td class="hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three sonya img-circle" href="hero/sonya.html"></a>
+                  <a class="small-hero-three small-sonya img-circle" href="hero/sonya.html"></a>
                   <a class="hero" href="hero/sonya.html">Sonya</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180321sonya</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313sonya</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">39</td>
                 <td class="hidden-xs hero-updates">23</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three thrall img-circle" href="hero/thrall.html"></a>
+                  <a class="small-hero-three small-thrall img-circle" href="hero/thrall.html"></a>
                   <a class="hero" href="hero/thrall.html">Thrall</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20150113</span> 2015-01-13</td>
+                <td><span class="hidden last-update">20180321thrall</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20150113thrall</span> 2015-01-13</td>
                 <td class="hidden-xs patch-changes">34</td>
                 <td class="hidden-xs hero-updates">16</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three tyrael img-circle" href="hero/tyrael.html"></a>
+                  <a class="small-hero-three small-tyrael img-circle" href="hero/tyrael.html"></a>
                   <a class="hero" href="hero/tyrael.html">Tyrael</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180321tyrael</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313tyrael</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">36</td>
                 <td class="hidden-xs hero-updates">18</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three valla img-circle" href="hero/valla.html"></a>
+                  <a class="small-hero-three small-valla img-circle" href="hero/valla.html"></a>
                   <a class="hero" href="hero/valla.html">Valla</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180321valla</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313valla</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">39</td>
                 <td class="hidden-xs hero-updates">15</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven zuljin img-circle" href="hero/zuljin.html"></a>
+                  <a class="small-hero-seven small-zuljin img-circle" href="hero/zuljin.html"></a>
                   <a class="hero" href="hero/zuljin.html">Zul'jin</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20170104</span> 2017-01-04</td>
+                <td><span class="hidden last-update">20180321zuljin</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20170104zuljin</span> 2017-01-04</td>
                 <td class="hidden-xs patch-changes">19</td>
                 <td class="hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six alarak img-circle" href="hero/alarak.html"></a>
+                  <a class="small-hero-six small-alarak img-circle" href="hero/alarak.html"></a>
                   <a class="hero" href="hero/alarak.html">Alarak</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180306</span> 2018-03-06</td>
-                <td class="visible-lg"><span class="hidden first-release">20160913</span> 2016-09-13</td>
+                <td><span class="hidden last-update">20180306alarak</span> 2018-03-06</td>
+                <td class="visible-lg"><span class="hidden first-release">20160913alarak</span> 2016-09-13</td>
                 <td class="hidden-xs patch-changes">17</td>
                 <td class="hidden-xs hero-updates">5</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight ana img-circle" href="hero/ana.html"></a>
+                  <a class="small-hero-eight small-ana img-circle" href="hero/ana.html"></a>
                   <a class="hero" href="hero/ana.html">Ana</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180306</span> 2018-03-06</td>
-                <td class="visible-lg"><span class="hidden first-release">20170926</span> 2017-09-26</td>
+                <td><span class="hidden last-update">20180306ana</span> 2018-03-06</td>
+                <td class="visible-lg"><span class="hidden first-release">20170926ana</span> 2017-09-26</td>
                 <td class="hidden-xs patch-changes">6</td>
                 <td class="hidden-xs hero-updates">3</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one diablo img-circle" href="hero/diablo.html"></a>
+                  <a class="small-hero-one small-diablo img-circle" href="hero/diablo.html"></a>
                   <a class="hero" href="hero/diablo.html">Diablo</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180306</span> 2018-03-06</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180306diablo</span> 2018-03-06</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313diablo</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">46</td>
                 <td class="hidden-xs hero-updates">16</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven malthael img-circle" href="hero/malthael.html"></a>
+                  <a class="small-hero-seven small-malthael img-circle" href="hero/malthael.html"></a>
                   <a class="hero" href="hero/malthael.html">Malthael</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180221</span> 2018-02-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20170613</span> 2017-06-13</td>
+                <td><span class="hidden last-update">20180221malthael</span> 2018-02-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20170613malthael</span> 2017-06-13</td>
                 <td class="hidden-xs patch-changes">10</td>
                 <td class="hidden-xs hero-updates">5</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four tyrande img-circle" href="hero/tyrande.html"></a>
+                  <a class="small-hero-four small-tyrande img-circle" href="hero/tyrande.html"></a>
                   <a class="hero" href="hero/tyrande.html">Tyrande</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180221</span> 2018-02-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180221tyrande</span> 2018-02-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313tyrande</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">42</td>
                 <td class="hidden-xs hero-updates">19</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five xul img-circle" href="hero/xul.html"></a>
+                  <a class="small-hero-five small-xul img-circle" href="hero/xul.html"></a>
                   <a class="hero" href="hero/xul.html">Xul</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180221</span> 2018-02-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20160301</span> 2016-03-01</td>
+                <td><span class="hidden last-update">20180221xul</span> 2018-02-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20160301xul</span> 2016-03-01</td>
                 <td class="hidden-xs patch-changes">19</td>
                 <td class="hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three zeratul img-circle" href="hero/zeratul.html"></a>
+                  <a class="small-hero-three small-zeratul img-circle" href="hero/zeratul.html"></a>
                   <a class="hero" href="hero/zeratul.html">Zeratul</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180221</span> 2018-02-21</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180221zeratul</span> 2018-02-21</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313zeratul</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">49</td>
                 <td class="hidden-xs hero-updates">16</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven genji img-circle" href="hero/genji.html"></a>
+                  <a class="small-hero-seven small-genji img-circle" href="hero/genji.html"></a>
                   <a class="hero" href="hero/genji.html">Genji</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180206</span> 2018-02-06</td>
-                <td class="visible-lg"><span class="hidden first-release">20170425</span> 2017-04-25</td>
+                <td><span class="hidden last-update">20180206genji</span> 2018-02-06</td>
+                <td class="visible-lg"><span class="hidden first-release">20170425genji</span> 2017-04-25</td>
                 <td class="hidden-xs patch-changes">15</td>
                 <td class="hidden-xs hero-updates">5</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight hanzo img-circle" href="hero/hanzo.html"></a>
+                  <a class="small-hero-eight small-hanzo img-circle" href="hero/hanzo.html"></a>
                   <a class="hero" href="hero/hanzo.html">Hanzo</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180206</span> 2018-02-06</td>
-                <td class="visible-lg"><span class="hidden first-release">20171212</span> 2017-12-12</td>
+                <td><span class="hidden last-update">20180206hanzo</span> 2018-02-06</td>
+                <td class="visible-lg"><span class="hidden first-release">20171212hanzo</span> 2017-12-12</td>
                 <td class="hidden-xs patch-changes">9</td>
                 <td class="hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five ltmorales img-circle" href="hero/ltmorales.html"></a>
+                  <a class="small-hero-five small-ltmorales img-circle" href="hero/ltmorales.html"></a>
                   <a class="hero" href="hero/ltmorales.html">Lt. Morales</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180206</span> 2018-02-06</td>
-                <td class="visible-lg"><span class="hidden first-release">20151006</span> 2015-10-06</td>
+                <td><span class="hidden last-update">20180206ltmorales</span> 2018-02-06</td>
+                <td class="visible-lg"><span class="hidden first-release">20151006ltmorales</span> 2015-10-06</td>
                 <td class="hidden-xs patch-changes">35</td>
                 <td class="hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two rehgar img-circle" href="hero/rehgar.html"></a>
+                  <a class="small-hero-two small-rehgar img-circle" href="hero/rehgar.html"></a>
                   <a class="hero" href="hero/rehgar.html">Rehgar</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180206</span> 2018-02-06</td>
-                <td class="visible-lg"><span class="hidden first-release">20140723</span> 2014-07-23</td>
+                <td><span class="hidden last-update">20180206rehgar</span> 2018-02-06</td>
+                <td class="visible-lg"><span class="hidden first-release">20140723rehgar</span> 2014-07-23</td>
                 <td class="hidden-xs patch-changes">42</td>
                 <td class="hidden-xs hero-updates">20</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four brightwing img-circle" href="hero/brightwing.html"></a>
+                  <a class="small-hero-four small-brightwing img-circle" href="hero/brightwing.html"></a>
                   <a class="hero" href="hero/brightwing.html">Brightwing</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180124</span> 2018-01-24</td>
-                <td class="visible-lg"><span class="hidden first-release">20140415</span> 2014-04-15</td>
+                <td><span class="hidden last-update">20180124brightwing</span> 2018-01-24</td>
+                <td class="visible-lg"><span class="hidden first-release">20140415brightwing</span> 2014-04-15</td>
                 <td class="hidden-xs patch-changes">50</td>
                 <td class="hidden-xs hero-updates">23</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three sgthammer img-circle" href="hero/sgthammer.html"></a>
+                  <a class="small-hero-three small-sgthammer img-circle" href="hero/sgthammer.html"></a>
                   <a class="hero" href="hero/sgthammer.html">Sgt. Hammer</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180124</span> 2018-01-24</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180124sgthammer</span> 2018-01-24</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313sgthammer</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">34</td>
                 <td class="hidden-xs hero-updates">15</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four sylvanas img-circle" href="hero/sylvanas.html"></a>
+                  <a class="small-hero-four small-sylvanas img-circle" href="hero/sylvanas.html"></a>
                   <a class="hero" href="hero/sylvanas.html">Sylvanas</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180124</span> 2018-01-24</td>
-                <td class="visible-lg"><span class="hidden first-release">20150324</span> 2015-03-24</td>
+                <td><span class="hidden last-update">20180124sylvanas</span> 2018-01-24</td>
+                <td class="visible-lg"><span class="hidden first-release">20150324sylvanas</span> 2015-03-24</td>
                 <td class="hidden-xs patch-changes">23</td>
                 <td class="hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven valeera img-circle" href="hero/valeera.html"></a>
+                  <a class="small-hero-seven small-valeera img-circle" href="hero/valeera.html"></a>
                   <a class="hero" href="hero/valeera.html">Valeera</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180124</span> 2018-01-24</td>
-                <td class="visible-lg"><span class="hidden first-release">20170124</span> 2017-01-24</td>
+                <td><span class="hidden last-update">20180124valeera</span> 2018-01-24</td>
+                <td class="visible-lg"><span class="hidden first-release">20170124valeera</span> 2017-01-24</td>
                 <td class="hidden-xs patch-changes">16</td>
                 <td class="hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven garrosh img-circle" href="hero/garrosh.html"></a>
+                  <a class="small-hero-seven small-garrosh img-circle" href="hero/garrosh.html"></a>
                   <a class="hero" href="hero/garrosh.html">Garrosh</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden first-release">20170808</span> 2017-08-08</td>
+                <td><span class="hidden last-update">20180109garrosh</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden first-release">20170808garrosh</span> 2017-08-08</td>
                 <td class="hidden-xs patch-changes">14</td>
                 <td class="hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four johanna img-circle" href="hero/johanna.html"></a>
+                  <a class="small-hero-four small-johanna img-circle" href="hero/johanna.html"></a>
                   <a class="hero" href="hero/johanna.html">Johanna</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden first-release">20150602</span> 2015-06-02</td>
+                <td><span class="hidden last-update">20180109johanna</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden first-release">20150602johanna</span> 2015-06-02</td>
                 <td class="hidden-xs patch-changes">19</td>
                 <td class="hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two nova img-circle" href="hero/nova.html"></a>
+                  <a class="small-hero-two small-nova img-circle" href="hero/nova.html"></a>
                   <a class="hero" href="hero/nova.html">Nova</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20180109nova</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313nova</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">46</td>
                 <td class="hidden-xs hero-updates">21</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six samuro img-circle" href="hero/samuro.html"></a>
+                  <a class="small-hero-six small-samuro img-circle" href="hero/samuro.html"></a>
                   <a class="hero" href="hero/samuro.html">Samuro</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden first-release">20161018</span> 2016-10-18</td>
+                <td><span class="hidden last-update">20180109samuro</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden first-release">20161018samuro</span> 2016-10-18</td>
                 <td class="hidden-xs patch-changes">27</td>
                 <td class="hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight alexstrasza img-circle" href="hero/alexstrasza.html"></a>
+                  <a class="small-hero-eight small-alexstrasza img-circle" href="hero/alexstrasza.html"></a>
                   <a class="hero" href="hero/alexstrasza.html">Alexstrasza</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171220</span> 2017-12-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20171114</span> 2017-11-14</td>
+                <td><span class="hidden last-update">20171220alexstrasza</span> 2017-12-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20171114alexstrasza</span> 2017-11-14</td>
                 <td class="hidden-xs patch-changes">5</td>
                 <td class="hidden-xs hero-updates">2</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven dva img-circle" href="hero/dva.html"></a>
+                  <a class="small-hero-seven small-dva img-circle" href="hero/dva.html"></a>
                   <a class="hero" href="hero/dva.html">D.Va</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171220</span> 2017-12-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20170516</span> 2017-05-16</td>
+                <td><span class="hidden last-update">20171220dva</span> 2017-12-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20170516dva</span> 2017-05-16</td>
                 <td class="hidden-xs patch-changes">14</td>
                 <td class="hidden-xs hero-updates">5</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven lucio img-circle" href="hero/lucio.html"></a>
+                  <a class="small-hero-seven small-lucio img-circle" href="hero/lucio.html"></a>
                   <a class="hero" href="hero/lucio.html">Lucio</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171220</span> 2017-12-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20170214</span> 2017-02-14</td>
+                <td><span class="hidden last-update">20171220lucio</span> 2017-12-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20170214lucio</span> 2017-02-14</td>
                 <td class="hidden-xs patch-changes">11</td>
                 <td class="hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two nazeebo img-circle" href="hero/nazeebo.html"></a>
+                  <a class="small-hero-two small-nazeebo img-circle" href="hero/nazeebo.html"></a>
                   <a class="hero" href="hero/nazeebo.html">Nazeebo</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171220</span> 2017-12-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20171220nazeebo</span> 2017-12-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313nazeebo</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">44</td>
                 <td class="hidden-xs hero-updates">22</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven stukov img-circle" href="hero/stukov.html"></a>
+                  <a class="small-hero-seven small-stukov img-circle" href="hero/stukov.html"></a>
                   <a class="hero" href="hero/stukov.html">Stukov</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171220</span> 2017-12-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20170711</span> 2017-07-11</td>
+                <td><span class="hidden last-update">20171220stukov</span> 2017-12-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20170711stukov</span> 2017-07-11</td>
                 <td class="hidden-xs patch-changes">11</td>
                 <td class="hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one abathur img-circle" href="hero/abathur.html"></a>
+                  <a class="small-hero-one small-abathur img-circle" href="hero/abathur.html"></a>
                   <a class="hero" href="hero/abathur.html">Abathur</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171212</span> 2017-12-12</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20171212abathur</span> 2017-12-12</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313abathur</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">51</td>
                 <td class="hidden-xs hero-updates">22</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two muradin img-circle" href="hero/muradin.html"></a>
+                  <a class="small-hero-two small-muradin img-circle" href="hero/muradin.html"></a>
                   <a class="hero" href="hero/muradin.html">Muradin</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171212</span> 2017-12-12</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20171212muradin</span> 2017-12-12</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313muradin</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">35</td>
                 <td class="hidden-xs hero-updates">20</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one thelostvikings img-circle" href="hero/thelostvikings.html"></a>
+                  <a class="small-hero-one small-thelostvikings img-circle" href="hero/thelostvikings.html"></a>
                   <a class="hero" href="hero/thelostvikings.html">The Lost Vikings</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171212</span> 2017-12-12</td>
-                <td class="visible-lg"><span class="hidden first-release">20150210</span> 2015-02-10</td>
+                <td><span class="hidden last-update">20171212thelostvikings</span> 2017-12-12</td>
+                <td class="visible-lg"><span class="hidden first-release">20150210thelostvikings</span> 2015-02-10</td>
                 <td class="hidden-xs patch-changes">25</td>
                 <td class="hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four kharazim img-circle" href="hero/kharazim.html"></a>
+                  <a class="small-hero-four small-kharazim img-circle" href="hero/kharazim.html"></a>
                   <a class="hero" href="hero/kharazim.html">Kharazim</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171129</span> 2017-11-29</td>
-                <td class="visible-lg"><span class="hidden first-release">20150818</span> 2015-08-18</td>
+                <td><span class="hidden last-update">20171129kharazim</span> 2017-11-29</td>
+                <td class="visible-lg"><span class="hidden first-release">20150818kharazim</span> 2015-08-18</td>
                 <td class="hidden-xs patch-changes">30</td>
                 <td class="hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four tassadar img-circle" href="hero/tassadar.html"></a>
+                  <a class="small-hero-four small-tassadar img-circle" href="hero/tassadar.html"></a>
                   <a class="hero" href="hero/tassadar.html">Tassadar</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171129</span> 2017-11-29</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20171129tassadar</span> 2017-11-29</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313tassadar</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">43</td>
                 <td class="hidden-xs hero-updates">20</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three tychus img-circle" href="hero/tychus.html"></a>
+                  <a class="small-hero-three small-tychus img-circle" href="hero/tychus.html"></a>
                   <a class="hero" href="hero/tychus.html">Tychus</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171129</span> 2017-11-29</td>
-                <td class="visible-lg"><span class="hidden first-release">20140318</span> 2014-03-18</td>
+                <td><span class="hidden last-update">20171129tychus</span> 2017-11-29</td>
+                <td class="visible-lg"><span class="hidden first-release">20140318tychus</span> 2014-03-18</td>
                 <td class="hidden-xs patch-changes">42</td>
                 <td class="hidden-xs hero-updates">20</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three uther img-circle" href="hero/uther.html"></a>
+                  <a class="small-hero-three small-uther img-circle" href="hero/uther.html"></a>
                   <a class="hero" href="hero/uther.html">Uther</a>
                   <span class="hidden role">Support</span>
                   <span class="pull-right icon-role-support role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171129</span> 2017-11-29</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20171129uther</span> 2017-11-29</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313uther</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">41</td>
                 <td class="hidden-xs hero-updates">20</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four azmodan img-circle" href="hero/azmodan.html"></a>
+                  <a class="small-hero-four small-azmodan img-circle" href="hero/azmodan.html"></a>
                   <a class="hero" href="hero/azmodan.html">Azmodan</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171101</span> 2017-11-01</td>
-                <td class="visible-lg"><span class="hidden first-release">20141007</span> 2014-10-07</td>
+                <td><span class="hidden last-update">20171101azmodan</span> 2017-11-01</td>
+                <td class="visible-lg"><span class="hidden first-release">20141007azmodan</span> 2014-10-07</td>
                 <td class="hidden-xs patch-changes">28</td>
                 <td class="hidden-xs hero-updates">14</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-eight junkrat img-circle" href="hero/junkrat.html"></a>
+                  <a class="small-hero-eight small-junkrat img-circle" href="hero/junkrat.html"></a>
                   <a class="hero" href="hero/junkrat.html">Junkrat</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171101</span> 2017-11-01</td>
-                <td class="visible-lg"><span class="hidden first-release">20171017</span> 2017-10-17</td>
+                <td><span class="hidden last-update">20171101junkrat</span> 2017-11-01</td>
+                <td class="visible-lg"><span class="hidden first-release">20171017junkrat</span> 2017-10-17</td>
                 <td class="hidden-xs patch-changes">7</td>
                 <td class="hidden-xs hero-updates">2</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four leoric img-circle" href="hero/leoric.html"></a>
+                  <a class="small-hero-four small-leoric img-circle" href="hero/leoric.html"></a>
                   <a class="hero" href="hero/leoric.html">Leoric</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171101</span> 2017-11-01</td>
-                <td class="visible-lg"><span class="hidden first-release">20150721</span> 2015-07-21</td>
+                <td><span class="hidden last-update">20171101leoric</span> 2017-11-01</td>
+                <td class="visible-lg"><span class="hidden first-release">20150721leoric</span> 2015-07-21</td>
                 <td class="hidden-xs patch-changes">34</td>
                 <td class="hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two raynor img-circle" href="hero/raynor.html"></a>
+                  <a class="small-hero-two small-raynor img-circle" href="hero/raynor.html"></a>
                   <a class="hero" href="hero/raynor.html">Raynor</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171101</span> 2017-11-01</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20171101raynor</span> 2017-11-01</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313raynor</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">35</td>
                 <td class="hidden-xs hero-updates">16</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three zagara img-circle" href="hero/zagara.html"></a>
+                  <a class="small-hero-three small-zagara img-circle" href="hero/zagara.html"></a>
                   <a class="hero" href="hero/zagara.html">Zagara</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171101</span> 2017-11-01</td>
-                <td class="visible-lg"><span class="hidden first-release">20140625</span> 2014-06-25</td>
+                <td><span class="hidden last-update">20171101zagara</span> 2017-11-01</td>
+                <td class="visible-lg"><span class="hidden first-release">20140625zagara</span> 2014-06-25</td>
                 <td class="hidden-xs patch-changes">37</td>
                 <td class="hidden-xs hero-updates">16</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five cho img-circle" href="hero/cho.html"></a>
+                  <a class="small-hero-five small-cho img-circle" href="hero/cho.html"></a>
                   <a class="hero" href="hero/cho.html">Cho</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171011</span> 2017-10-11</td>
-                <td class="visible-lg"><span class="hidden first-release">20151117</span> 2015-11-17</td>
+                <td><span class="hidden last-update">20171011cho</span> 2017-10-11</td>
+                <td class="visible-lg"><span class="hidden first-release">20151117cho</span> 2015-11-17</td>
                 <td class="hidden-xs patch-changes">19</td>
                 <td class="hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five gall img-circle" href="hero/gall.html"></a>
+                  <a class="small-hero-five small-gall img-circle" href="hero/gall.html"></a>
                   <a class="hero" href="hero/gall.html">Gall</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171011</span> 2017-10-11</td>
-                <td class="visible-lg"><span class="hidden first-release">20151117</span> 2015-11-17</td>
+                <td><span class="hidden last-update">20171011gall</span> 2017-10-11</td>
+                <td class="visible-lg"><span class="hidden first-release">20151117gall</span> 2015-11-17</td>
                 <td class="hidden-xs patch-changes">22</td>
                 <td class="hidden-xs hero-updates">7</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five lunara img-circle" href="hero/lunara.html"></a>
+                  <a class="small-hero-five small-lunara img-circle" href="hero/lunara.html"></a>
                   <a class="hero" href="hero/lunara.html">Lunara</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171011</span> 2017-10-11</td>
-                <td class="visible-lg"><span class="hidden first-release">20151215</span> 2015-12-15</td>
+                <td><span class="hidden last-update">20171011lunara</span> 2017-10-11</td>
+                <td class="visible-lg"><span class="hidden first-release">20151215lunara</span> 2015-12-15</td>
                 <td class="hidden-xs patch-changes">17</td>
                 <td class="hidden-xs hero-updates">7</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven probius img-circle" href="hero/probius.html"></a>
+                  <a class="small-hero-seven small-probius img-circle" href="hero/probius.html"></a>
                   <a class="hero" href="hero/probius.html">Probius</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20171011</span> 2017-10-11</td>
-                <td class="visible-lg"><span class="hidden first-release">20170314</span> 2017-03-14</td>
+                <td><span class="hidden last-update">20171011probius</span> 2017-10-11</td>
+                <td class="visible-lg"><span class="hidden first-release">20170314probius</span> 2017-03-14</td>
                 <td class="hidden-xs patch-changes">13</td>
                 <td class="hidden-xs hero-updates">7</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six chromie img-circle" href="hero/chromie.html"></a>
+                  <a class="small-hero-six small-chromie img-circle" href="hero/chromie.html"></a>
                   <a class="hero" href="hero/chromie.html">Chromie</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170926</span> 2017-09-26</td>
-                <td class="visible-lg"><span class="hidden first-release">20160517</span> 2016-05-17</td>
+                <td><span class="hidden last-update">20170926chromie</span> 2017-09-26</td>
+                <td class="visible-lg"><span class="hidden first-release">20160517chromie</span> 2016-05-17</td>
                 <td class="hidden-xs patch-changes">20</td>
                 <td class="hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five dehaka img-circle" href="hero/dehaka.html"></a>
+                  <a class="small-hero-five small-dehaka img-circle" href="hero/dehaka.html"></a>
                   <a class="hero" href="hero/dehaka.html">Dehaka</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170926</span> 2017-09-26</td>
-                <td class="visible-lg"><span class="hidden first-release">20160329</span> 2016-03-29</td>
+                <td><span class="hidden last-update">20170926dehaka</span> 2017-09-26</td>
+                <td class="visible-lg"><span class="hidden first-release">20160329dehaka</span> 2016-03-29</td>
                 <td class="hidden-xs patch-changes">21</td>
                 <td class="hidden-xs hero-updates">9</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one falstad img-circle" href="hero/falstad.html"></a>
+                  <a class="small-hero-one small-falstad img-circle" href="hero/falstad.html"></a>
                   <a class="hero" href="hero/falstad.html">Falstad</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170926</span> 2017-09-26</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20170926falstad</span> 2017-09-26</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313falstad</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">35</td>
                 <td class="hidden-xs hero-updates">17</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four butcher img-circle" href="hero/butcher.html"></a>
+                  <a class="small-hero-four small-butcher img-circle" href="hero/butcher.html"></a>
                   <a class="hero" href="hero/butcher.html">Butcher</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170920</span> 2017-09-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20150630</span> 2015-06-30</td>
+                <td><span class="hidden last-update">20170920butcher</span> 2017-09-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20150630butcher</span> 2015-06-30</td>
                 <td class="hidden-xs patch-changes">26</td>
                 <td class="hidden-xs hero-updates">11</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-seven cassia img-circle" href="hero/cassia.html"></a>
+                  <a class="small-hero-seven small-cassia img-circle" href="hero/cassia.html"></a>
                   <a class="hero" href="hero/cassia.html">Cassia</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170920</span> 2017-09-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20170404</span> 2017-04-04</td>
+                <td><span class="hidden last-update">20170920cassia</span> 2017-09-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20170404cassia</span> 2017-04-04</td>
                 <td class="hidden-xs patch-changes">9</td>
                 <td class="hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one chen img-circle" href="hero/chen.html"></a>
+                  <a class="small-hero-one small-chen img-circle" href="hero/chen.html"></a>
                   <a class="hero" href="hero/chen.html">Chen</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170920</span> 2017-09-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20140910</span> 2014-09-10</td>
+                <td><span class="hidden last-update">20170920chen</span> 2017-09-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20140910chen</span> 2014-09-10</td>
                 <td class="hidden-xs patch-changes">37</td>
                 <td class="hidden-xs hero-updates">14</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one jaina img-circle" href="hero/jaina.html"></a>
+                  <a class="small-hero-one small-jaina img-circle" href="hero/jaina.html"></a>
                   <a class="hero" href="hero/jaina.html">Jaina</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170905</span> 2017-09-05</td>
-                <td class="visible-lg"><span class="hidden first-release">20141202</span> 2014-12-02</td>
+                <td><span class="hidden last-update">20170905jaina</span> 2017-09-05</td>
+                <td class="visible-lg"><span class="hidden first-release">20141202jaina</span> 2014-12-02</td>
                 <td class="hidden-xs patch-changes">20</td>
                 <td class="hidden-xs hero-updates">10</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one illidan img-circle" href="hero/illidan.html"></a>
+                  <a class="small-hero-one small-illidan img-circle" href="hero/illidan.html"></a>
                   <a class="hero" href="hero/illidan.html">Illidan</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170823</span> 2017-08-23</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20170823illidan</span> 2017-08-23</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313illidan</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">31</td>
                 <td class="hidden-xs hero-updates">14</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two kerrigan img-circle" href="hero/kerrigan.html"></a>
+                  <a class="small-hero-two small-kerrigan img-circle" href="hero/kerrigan.html"></a>
                   <a class="hero" href="hero/kerrigan.html">Kerrigan</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170823</span> 2017-08-23</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20170823kerrigan</span> 2017-08-23</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313kerrigan</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">34</td>
                 <td class="hidden-xs hero-updates">17</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six ragnaros img-circle" href="hero/ragnaros.html"></a>
+                  <a class="small-hero-six small-ragnaros img-circle" href="hero/ragnaros.html"></a>
                   <a class="hero" href="hero/ragnaros.html">Ragnaros</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170808</span> 2017-08-08</td>
-                <td class="visible-lg"><span class="hidden first-release">20161214</span> 2016-12-14</td>
+                <td><span class="hidden last-update">20170808ragnaros</span> 2017-08-08</td>
+                <td class="visible-lg"><span class="hidden first-release">20161214ragnaros</span> 2016-12-14</td>
                 <td class="hidden-xs patch-changes">16</td>
                 <td class="hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five rexxar img-circle" href="hero/rexxar.html"></a>
+                  <a class="small-hero-five small-rexxar img-circle" href="hero/rexxar.html"></a>
                   <a class="hero" href="hero/rexxar.html">Rexxar</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170726</span> 2017-07-26</td>
-                <td class="visible-lg"><span class="hidden first-release">20150908</span> 2015-09-08</td>
+                <td><span class="hidden last-update">20170726rexxar</span> 2017-07-26</td>
+                <td class="visible-lg"><span class="hidden first-release">20150908rexxar</span> 2015-09-08</td>
                 <td class="hidden-xs patch-changes">23</td>
                 <td class="hidden-xs hero-updates">9</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-four stitches img-circle" href="hero/stitches.html"></a>
+                  <a class="small-hero-four small-stitches img-circle" href="hero/stitches.html"></a>
                   <a class="hero" href="hero/stitches.html">Stitches</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170726</span> 2017-07-26</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20170726stitches</span> 2017-07-26</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313stitches</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">41</td>
                 <td class="hidden-xs hero-updates">21</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one anubarak img-circle" href="hero/anubarak.html"></a>
+                  <a class="small-hero-one small-anubarak img-circle" href="hero/anubarak.html"></a>
                   <a class="hero" href="hero/anubarak.html">Anub'arak</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170711</span> 2017-07-11</td>
-                <td class="visible-lg"><span class="hidden first-release">20141007</span> 2014-10-07</td>
+                <td><span class="hidden last-update">20170711anubarak</span> 2017-07-11</td>
+                <td class="visible-lg"><span class="hidden first-release">20141007anubarak</span> 2014-10-07</td>
                 <td class="hidden-xs patch-changes">36</td>
                 <td class="hidden-xs hero-updates">17</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two etc img-circle" href="hero/etc.html"></a>
+                  <a class="small-hero-two small-etc img-circle" href="hero/etc.html"></a>
                   <a class="hero" href="hero/etc.html">E.T.C.</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170613</span> 2017-06-13</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20170613etc</span> 2017-06-13</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313etc</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">31</td>
                 <td class="hidden-xs hero-updates">15</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six zarya img-circle" href="hero/zarya.html"></a>
+                  <a class="small-hero-six small-zarya img-circle" href="hero/zarya.html"></a>
                   <a class="hero" href="hero/zarya.html">Zarya</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170420</span> 2017-04-20</td>
-                <td class="visible-lg"><span class="hidden first-release">20160927</span> 2016-09-27</td>
+                <td><span class="hidden last-update">20170420zarya</span> 2017-04-20</td>
+                <td class="visible-lg"><span class="hidden first-release">20160927zarya</span> 2016-09-27</td>
                 <td class="hidden-xs patch-changes">14</td>
                 <td class="hidden-xs hero-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-six guldan img-circle" href="hero/guldan.html"></a>
+                  <a class="small-hero-six small-guldan img-circle" href="hero/guldan.html"></a>
                   <a class="hero" href="hero/guldan.html">Gul'dan</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170404</span> 2017-04-04</td>
-                <td class="visible-lg"><span class="hidden first-release">20160712</span> 2016-07-12</td>
+                <td><span class="hidden last-update">20170404guldan</span> 2017-04-04</td>
+                <td class="visible-lg"><span class="hidden first-release">20160712guldan</span> 2016-07-12</td>
                 <td class="hidden-xs patch-changes">13</td>
                 <td class="hidden-xs hero-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one arthas img-circle" href="hero/arthas.html"></a>
+                  <a class="small-hero-one small-arthas img-circle" href="hero/arthas.html"></a>
                   <a class="hero" href="hero/arthas.html">Arthas</a>
                   <span class="hidden role">Warrior</span>
                   <span class="pull-right icon-role-warrior role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170328</span> 2017-03-28</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20170328arthas</span> 2017-03-28</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313arthas</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">27</td>
                 <td class="hidden-xs hero-updates">12</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-two murky img-circle" href="hero/murky.html"></a>
+                  <a class="small-hero-two small-murky img-circle" href="hero/murky.html"></a>
                   <a class="hero" href="hero/murky.html">Murky</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170328</span> 2017-03-28</td>
-                <td class="visible-lg"><span class="hidden first-release">20140522</span> 2014-05-22</td>
+                <td><span class="hidden last-update">20170328murky</span> 2017-03-28</td>
+                <td class="visible-lg"><span class="hidden first-release">20140522murky</span> 2014-05-22</td>
                 <td class="hidden-xs patch-changes">36</td>
                 <td class="hidden-xs hero-updates">13</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-three gazlowe img-circle" href="hero/gazlowe.html"></a>
+                  <a class="small-hero-three small-gazlowe img-circle" href="hero/gazlowe.html"></a>
                   <a class="hero" href="hero/gazlowe.html">Gazlowe</a>
                   <span class="hidden role">Specialist</span>
                   <span class="pull-right icon-role-specialist role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170314</span> 2017-03-14</td>
-                <td class="visible-lg"><span class="hidden first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden last-update">20170314gazlowe</span> 2017-03-14</td>
+                <td class="visible-lg"><span class="hidden first-release">20140313gazlowe</span> 2014-03-13</td>
                 <td class="hidden-xs patch-changes">31</td>
                 <td class="hidden-xs hero-updates">13</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-five liming img-circle" href="hero/liming.html"></a>
+                  <a class="small-hero-five small-liming img-circle" href="hero/liming.html"></a>
                   <a class="hero" href="hero/liming.html">Li-Ming</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20170314</span> 2017-03-14</td>
-                <td class="visible-lg"><span class="hidden first-release">20160202</span> 2016-02-02</td>
+                <td><span class="hidden last-update">20170314liming</span> 2017-03-14</td>
+                <td class="visible-lg"><span class="hidden first-release">20160202liming</span> 2016-02-02</td>
                 <td class="hidden-xs patch-changes">19</td>
                 <td class="hidden-xs hero-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="hero-sprite-one kaelthas img-circle" href="hero/kaelthas.html"></a>
+                  <a class="small-hero-one small-kaelthas img-circle" href="hero/kaelthas.html"></a>
                   <a class="hero" href="hero/kaelthas.html">Kael'thas</a>
                   <span class="hidden role">Assassin</span>
                   <span class="pull-right icon-role-assassin role-icons hidden-xs"></span>
                 </td>
-                <td><span class="hidden last-update">20161214</span> 2016-12-14</td>
-                <td class="visible-lg"><span class="hidden first-release">20150512</span> 2015-05-12</td>
+                <td><span class="hidden last-update">20161214kaelthas</span> 2016-12-14</td>
+                <td class="visible-lg"><span class="hidden first-release">20150512kaelthas</span> 2015-05-12</td>
                 <td class="hidden-xs patch-changes">25</td>
                 <td class="hidden-xs hero-updates">13</td>
               </tr>
@@ -1214,151 +1094,151 @@
             <tbody class="list">
               <tr>
                 <td>
-                  <a class="bg-sprite hauntedmines img-rounded" href="battleground/hauntedmines.html"></a>
+                  <a class="small-wide-battleground small-wide-hauntedmines img-rounded" href="battleground/hauntedmines.html"></a>
                   <a class="bg" href="battleground/hauntedmines.html">Haunted Mines</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden bg-last-update">20180321hauntedmines</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20140313hauntedmines</span> 2014-03-13</td>
                 <td class="hidden-xs bg-patch-changes">28</td>
                 <td class="hidden-xs bg-updates">15</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite towersofdoom img-rounded" href="battleground/towersofdoom.html"></a>
+                  <a class="small-wide-battleground small-wide-towersofdoom img-rounded" href="battleground/towersofdoom.html"></a>
                   <a class="bg" href="battleground/towersofdoom.html">Towers of Doom</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180321</span> 2018-03-21</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20151117</span> 2015-11-17</td>
+                <td><span class="hidden bg-last-update">20180321towersofdoom</span> 2018-03-21</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20151117towersofdoom</span> 2015-11-17</td>
                 <td class="hidden-xs bg-patch-changes">12</td>
                 <td class="hidden-xs bg-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite volskayafoundry img-rounded" href="battleground/volskayafoundry.html"></a>
+                  <a class="small-wide-battleground small-wide-volskayafoundry img-rounded" href="battleground/volskayafoundry.html"></a>
                   <a class="bg" href="battleground/volskayafoundry.html">Volskaya Foundry</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180206</span> 2018-02-06</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20170926</span> 2017-09-26</td>
+                <td><span class="hidden bg-last-update">20180206volskayafoundry</span> 2018-02-06</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20170926volskayafoundry</span> 2017-09-26</td>
                 <td class="hidden-xs bg-patch-changes">4</td>
                 <td class="hidden-xs bg-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite battlefieldofeternity img-rounded" href="battleground/battlefieldofeternity.html"></a>
+                  <a class="small-wide-battleground small-wide-battlefieldofeternity img-rounded" href="battleground/battlefieldofeternity.html"></a>
                   <a class="bg" href="battleground/battlefieldofeternity.html">Battlefield of Eternity</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20150630</span> 2015-06-30</td>
+                <td><span class="hidden bg-last-update">20180109battlefieldofeternity</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20150630battlefieldofeternity</span> 2015-06-30</td>
                 <td class="hidden-xs bg-patch-changes">15</td>
                 <td class="hidden-xs bg-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite blackheartsbay img-rounded" href="battleground/blackheartsbay.html"></a>
+                  <a class="small-wide-battleground small-wide-blackheartsbay img-rounded" href="battleground/blackheartsbay.html"></a>
                   <a class="bg" href="battleground/blackheartsbay.html">Blackheart's Bay</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden bg-last-update">20180109blackheartsbay</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20140313blackheartsbay</span> 2014-03-13</td>
                 <td class="hidden-xs bg-patch-changes">22</td>
                 <td class="hidden-xs bg-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite braxisholdout img-rounded" href="battleground/braxisholdout.html"></a>
+                  <a class="small-wide-battleground small-wide-braxisholdout img-rounded" href="battleground/braxisholdout.html"></a>
                   <a class="bg" href="battleground/braxisholdout.html">Braxis Holdout</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20160913</span> 2016-09-13</td>
+                <td><span class="hidden bg-last-update">20180109braxisholdout</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20160913braxisholdout</span> 2016-09-13</td>
                 <td class="hidden-xs bg-patch-changes">9</td>
                 <td class="hidden-xs bg-updates">5</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite cursedhollow img-rounded" href="battleground/cursedhollow.html"></a>
+                  <a class="small-wide-battleground small-wide-cursedhollow img-rounded" href="battleground/cursedhollow.html"></a>
                   <a class="bg" href="battleground/cursedhollow.html">Cursed Hollow</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden bg-last-update">20180109cursedhollow</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20140313cursedhollow</span> 2014-03-13</td>
                 <td class="hidden-xs bg-patch-changes">24</td>
                 <td class="hidden-xs bg-updates">6</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite dragonshire img-rounded" href="battleground/dragonshire.html"></a>
+                  <a class="small-wide-battleground small-wide-dragonshire img-rounded" href="battleground/dragonshire.html"></a>
                   <a class="bg" href="battleground/dragonshire.html">Dragon Shire</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20140313</span> 2014-03-13</td>
+                <td><span class="hidden bg-last-update">20180109dragonshire</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20140313dragonshire</span> 2014-03-13</td>
                 <td class="hidden-xs bg-patch-changes">27</td>
                 <td class="hidden-xs bg-updates">12</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite gardenofterror img-rounded" href="battleground/gardenofterror.html"></a>
+                  <a class="small-wide-battleground small-wide-gardenofterror img-rounded" href="battleground/gardenofterror.html"></a>
                   <a class="bg" href="battleground/gardenofterror.html">Garden of Terror</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20140723</span> 2014-07-23</td>
+                <td><span class="hidden bg-last-update">20180109gardenofterror</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20140723gardenofterror</span> 2014-07-23</td>
                 <td class="hidden-xs bg-patch-changes">24</td>
                 <td class="hidden-xs bg-updates">14</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite hanamura img-rounded" href="battleground/hanamura.html"></a>
+                  <a class="small-wide-battleground small-wide-hanamura img-rounded" href="battleground/hanamura.html"></a>
                   <a class="bg" href="battleground/hanamura.html">Hanamura</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20170425</span> 2017-04-25</td>
+                <td><span class="hidden bg-last-update">20180109hanamura</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20170425hanamura</span> 2017-04-25</td>
                 <td class="hidden-xs bg-patch-changes">5</td>
                 <td class="hidden-xs bg-updates">5</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite infernalshrines img-rounded" href="battleground/infernalshrines.html"></a>
+                  <a class="small-wide-battleground small-wide-infernalshrines img-rounded" href="battleground/infernalshrines.html"></a>
                   <a class="bg" href="battleground/infernalshrines.html">Infernal Shrines</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20150826</span> 2015-08-26</td>
+                <td><span class="hidden bg-last-update">20180109infernalshrines</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20150826infernalshrines</span> 2015-08-26</td>
                 <td class="hidden-xs bg-patch-changes">16</td>
                 <td class="hidden-xs bg-updates">9</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite lostcavern img-rounded" href="battleground/lostcavern.html"></a>
+                  <a class="small-wide-battleground small-wide-lostcavern img-rounded" href="battleground/lostcavern.html"></a>
                   <a class="bg" href="battleground/lostcavern.html">Lost Cavern</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20160329</span> 2016-03-29</td>
+                <td><span class="hidden bg-last-update">20180109lostcavern</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20160329lostcavern</span> 2016-03-29</td>
                 <td class="hidden-xs bg-patch-changes">9</td>
                 <td class="hidden-xs bg-updates">3</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite skytemple img-rounded" href="battleground/skytemple.html"></a>
+                  <a class="small-wide-battleground small-wide-skytemple img-rounded" href="battleground/skytemple.html"></a>
                   <a class="bg" href="battleground/skytemple.html">Sky Temple</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20150113</span> 2015-01-13</td>
+                <td><span class="hidden bg-last-update">20180109skytemple</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20150113skytemple</span> 2015-01-13</td>
                 <td class="hidden-xs bg-patch-changes">17</td>
                 <td class="hidden-xs bg-updates">8</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite tombofthespiderqueen img-rounded" href="battleground/tombofthespiderqueen.html"></a>
+                  <a class="small-wide-battleground small-wide-tombofthespiderqueen img-rounded" href="battleground/tombofthespiderqueen.html"></a>
                   <a class="bg" href="battleground/tombofthespiderqueen.html">Tomb of the Spider Queen</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20150324</span> 2015-03-24</td>
+                <td><span class="hidden bg-last-update">20180109tombofthespiderqueen</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20150324tombofthespiderqueen</span> 2015-03-24</td>
                 <td class="hidden-xs bg-patch-changes">14</td>
                 <td class="hidden-xs bg-updates">4</td>
               </tr>
               <tr>
                 <td>
-                  <a class="bg-sprite warheadjunction img-rounded" href="battleground/warheadjunction.html"></a>
+                  <a class="small-wide-battleground small-wide-warheadjunction img-rounded" href="battleground/warheadjunction.html"></a>
                   <a class="bg" href="battleground/warheadjunction.html">Warhead Junction</a>
                 </td>                
-                <td><span class="hidden bg-last-update">20180109</span> 2018-01-09</td>
-                <td class="visible-lg"><span class="hidden bg-first-release">20160927</span> 2016-09-27</td>
+                <td><span class="hidden bg-last-update">20180109warheadjunction</span> 2018-01-09</td>
+                <td class="visible-lg"><span class="hidden bg-first-release">20160927warheadjunction</span> 2016-09-27</td>
                 <td class="hidden-xs bg-patch-changes">9</td>
                 <td class="hidden-xs bg-updates">5</td>
               </tr>
