@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Nova, Samuro, Valeera, Zeratul from 2017-12-12.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2017-12-12.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2017-12-12.html" />
+    <meta property="og:title" content="2017-12-12 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Nova, Samuro, Valeera, Zeratul." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483417096/hero/nova.jpg" />
+        <title>2017-12-12 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=cF71L7YrqN" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2017-12-12 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Nova" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/nova.html">
+              <div class="hero-img hero-nova img-rounded"></div>
+              <div>Nova</div>
+            </a>
+          </h2>
+          <blockquote><em><strong><a href="https://us.battle.net/heroes/en/blog/21273594" target="_blank">Developer Comments:</a></strong></em>
+  <ul>
+  <li>Nova now starts with a new active (called Ghost Protocol) that she can use to immediately enter 
+  Stealth (Default Hotkey: 1) that also spawns a Holo Decoy at her location. Additionally, Nova now 
+  gains a significant movement speed boost when stealthed (currently 15%). These changes should allow 
+  Nova to position a little more aggressively and have some opportunities for escape if she is caught.</li>
+  <li>The Snipe Master talent is now baseline to reward careful positioning and aim without having to 
+  sacrifice a talent tier.</li>
+  <li>Holo Decoys now do a small amount of Nova's damage baseline, and use a smarter AI system. Since 
+  Nova's position will be much more apparent in the new system, we know that Holo Decoys would be 
+  much less effective as a confusion tool. With the new smarter clones and added damage, they might 
+  fake people out a bit more, add a bit of confusion, and can also be used to dismount enemy Heroes, 
+  prevent objective captures, etc.</li>
+  </ul>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-ability flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_snipe.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Snipe</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 6
+            </span>
+          </div>
+          <div>Deal <span class="code-addition">255</span> <span class="code-deletion">310</span> (+4% per level) damage to the first enemy hit.</div>
+          <div class="code-addition">Passive: Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 5%, stacking up to 25%. Gain an additional 25% damage bonus at maximum stacks. All stacks are lost if Snipe fails to hit an enemy.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_pinningshot.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pinning Shot</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 65 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>Deal <span class="code-addition">105</span> <span class="code-deletion">110</span> (+4% per level) damage to an enemy and slow it by 40% for 2.25 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_holodecoy.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Holo Decoy</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Create a Decoy for 5 seconds that <span class="code-addition">attacks enemies, dealing 10% of Nova's normal damage</span> <span class="code-deletion">appears to attack enemies</span>.  Using this Ability does not break Stealth.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_tripletap.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Triple Tap</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for <span class="code-addition">372</span> <span class="code-deletion">338</span> (+4% per level) damage each.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_orbitalstrike.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Precision Strike</h5>
+          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>After a 1.5 second delay, deals 456 (+4% per level) damage to enemies within an area. Unlimited range.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_personalcloaking.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Permanent Cloak</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+          </div>
+          <div>Gain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. <span class="code-addition">Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.</span></div>
+          <div class="code-addition">Passive: Gain 15% Movement Speed while Stealthed.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_personalcloaking.png">
+            <span class="letter-overlay">1</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ghost Protocol</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to instantly grant Stealth to Nova and spawn a Holo Decoy at her location. Nova is Unrevealable for the first 0.5 seconds when Stealthed by Ghost Protocol.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_personalcloaking.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Advanced Cloaking</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div><span class="code-addition">After being Stealthed for 5 seconds, gain an additional 5% Movement Speed.</span> While Stealthed, regenerate 2 Mana per second <span class="code-deletion">and 25% increased movement speed</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_pinningshot_var1.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Covert Ops</h5>
+          </div>
+          <div>After being Stealthed for 5 seconds, Pinning Shot's slow is increased to 55% and costs no Mana. Bonus is lost after losing Stealth for 1 second.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_pinningshot.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Longshot</h5>
+          </div>
+          <div>Increases the cast range of Pinning Shot by 30%. Pinning Shot also increases the range of Nova's next Basic Attack by 2.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_talent_bribe.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Covert Mission</h5>
+          </div>
+          <div>Enemy Minions killed near Nova grant a stack of Bribe. Hero Takedowns grant 10 stacks of Bribe. Use 25 stacks to bribe a Mercenary, instantly defeating them.  Does not work on Bosses.  Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_holodecoy_var2.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Holo Stability</h5>
+          </div>
+          <div>Increase the cast range and duration of Holo Decoy by 100%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_holodecoy_var1.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Rapid Projection</h5>
+          </div>
+          <div>Reduces Holo Decoy's cooldown and Mana cost by 40%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_talent_antiarmorshells.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Anti-Armor Shells</h5>
+          </div>
+          <div>Nova's Basic Attacks deal 250% damage and decrease the Armor of Heroic targets by 10 for 3 seconds, but her Attack Speed is proportionally slower.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>One in the Chamber</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>After using an Ability, Nova's next Basic Attack within 3 seconds deals <span class="code-addition">70%</span> <span class="code-deletion">80%</span> additional damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_snipe.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Perfect Shot</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Hitting an enemy Hero with Snipe reduces the cooldown by <span class="code-addition">2</span> <span class="code-deletion">3</span> seconds. </div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_snipe.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Snipe Master</h5>
+          </div>
+          <div>Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 15%. Stacks up to 5 times. All stacks are lost if Snipe fails to hit an enemy.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_orbitalstrike.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Precision Strike</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>After a 1.5 second delay, deals 456 (+4% per level) damage to enemies within an area. Unlimited range.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_tripletap.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Triple Tap</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for <span class="code-addition">372</span> <span class="code-deletion">338</span> (+4% per level) damage each.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_pinningshot.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Double Tap</h5>
+          </div>
+          <div>Pinning Shot now has 2 charges.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_personalcloaking.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ionic Force Field</h5>
+          </div>
+          <div>Gain 25 Armor for 2 seconds after losing Stealth.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_snipe.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Psionic Efficiency</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Snipe's range is increased by 15%, and <span class="code-addition">hitting a Hero with Snipe refunds its Mana cost</span> <span class="code-deletion">removes Snipe's Mana cost</span>.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_pinningshot.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Crippling Shot</h5>
+          </div>
+          <div>Pinning Shot lowers a Hero's Armor by 25 for the duration of the slow, causing them to take 25% increased damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_snipe.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Explosive Round</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Snipe also deals 50% damage to enemies near the impact.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_holodecoy.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lethal Decoy</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Increases the damage Holo Decoy deals to 50% of Nova's damage.</div>
+          <div class="code-deletion">Holo Decoy deals 40% of Nova's damage.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_personalcloaking.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Apollo Suit</h5>
+          </div>
+          <div>Reduce the cooldown of Permanent Cloak by 2 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_tripletap.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fast Reload</h5>
+          </div>
+          <div>Triple Tap's cooldown is reset if it kills an enemy Hero.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_orbitalstrike.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Precision Barrage</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Precision Strike gains a 2nd charge <span class="code-addition">and its coodown is reduced by 30 seconds</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_talent_rewind.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Rewind</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to reset the cooldowns of your Basic Abilities.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/nova20171212/storm_ui_icon_nova_personalcloaking.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ghost Protocol</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to gain Stealth and become Unrevealable for 2 seconds. Nova's attacks and Abilities will also not break Stealth during this time.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Samuro" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/samuro.html">
+              <div class="hero-img hero-samuro img-rounded"></div>
+              <div>Samuro</div>
+            </a>
+          </h2>
+          <blockquote><em><strong><a href="https://us.battle.net/heroes/en/blog/21273594" target="_blank">Developer Comments:</a></strong></em>
+  <ul>
+  <li>With Samuro's update, we wanted to play up the "3-card monte" gameplay that we originally 
+  intended for this Hero. Samuro should keep his opponents guessing as to which of his images 
+  is real, then "reset" using his new Trait once he's been discovered. To that end:
+  <ul>
+  <li>Samuro can now control his positioning when making new Mirror Images with the real Samuro 
+  always spawning towards your current mouse location. This allows more aggressive and 
+  calculated plays since you have much more direct control over your positioning.</li>
+  <li>Samuro can now swap positions with one of his Mirror Images using his new Trait, Image 
+  Transmission. Choosing the Illusion Master talent will now greatly reduce the cooldown of 
+  Image Transmission.</li>
+  <li>We've shifted a significant portion of the damage dealt by Mirror Images into Samuro 
+  himself, since we want to reward players who can successfully utilize his new trait to 
+  reposition and confuse the enemy.</li>
+  </ul></li>
+  </ul>
+</blockquote>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 stats-label">Stats</div>
+            <div class="col-xs-12 col-sm-10 code-addition stats"><ul>
+<li>Basic Attack damage increased from 88 to 110</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_mirrorimage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mirror Image</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 18
+            </span>
+          </div>
+          <div>Create 2 Mirror Images that deal <span class="code-addition">9 damage</span> <span class="code-deletion">25% of your damage</span> and have 50% of Samuro's current Health. Images last up to 18 seconds, and only two can be active at any one time.  <span class="code-addition">Mirror Image will remove most negative effects from Samuro.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_criticalstrike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Critical Strike</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 10
+<span class="code-deletion">8s</span>            </span>
+          </div>
+          <div>Your next Basic Attack within 10 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk. Passive: You and your Images deal a Critical Strike on every 4th Basic Attack.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_windwalk.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wind Walk</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Enter Stealth for up to 10 seconds or until you attack, use an Ability, or take damage. While Stealthed, your Movement Speed is increased by 25% and you can pass through other units. Damage taken within the first 1 second will not break Wind Walk.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_bladestorm.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bladestorm</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 110
+            </span>
+          </div>
+          <div>Cause a Bladestorm of destructive force around Samuro for 4 seconds, making him Unstoppable and dealing 235 (+4% per level) damage per second to nearby enemies.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_illusiondancer.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Illusion Master</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 6
+            </span>
+          </div>
+          <div>Mirror Images can be controlled individually or as a group and <span class="code-addition">their damage is increased by 100%</span> <span class="code-deletion">deal an additional 10% of Samuro's damage</span>.</div>
+          <div class="code-addition">Passive: Samuro's Basic Attack damage is increased by 10%, and Image Transmission's cooldown is reduced to 8 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_flowingstrikes.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Image Transmission</h5>
+            <span class="label label-primary">Updated</span>
+          </div>
+          <div>
+            &nbsp;<span class="code-addition pull-right">Cooldown: 25
+            </span>
+          </div>
+          <div class="code-addition">Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.</div><div>Advancing Strikes: Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_mirrorimage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Way of Illusion</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Quest: Every time a Mirror Image Critically Strikes a Hero, Samuro gains 0.5 Attack Damage, up to 20. Reward: After hitting 40 Heroes, Samuro gains an additional 20 Attack Damage.</div>
+          <div class="code-deletion">Mirror Images no longer benefit from this talent</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_criticalstrike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Way of the Blade</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Critical Strike now happens for Samuro and his Mirror Images every 3rd Basic Attack <span class="code-deletion">and deals an additional 20% of Samuro's Basic Attack damage</span>.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_windwalk.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Way of the Wind</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Gain 40% Movement Speed for 3 seconds after entering or exiting Wind Walk.</div>
+          <div class="code-deletion">Quest: Attacking a Hero from Stealth increases the Movement Speed bonus of Wind Walk by 1.25%, up to 25%. Reward: After attacking 20 Heroes, Wind Walk's Unrevealable duration is increased to 2.5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_flowingstrikes.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Deflection</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Advancing Strikes grants Samuro <span class="code-addition">and his Mirror Images</span> 25 Physical Armor.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_mirrorimage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mirage</h5>
+          </div>
+          <div>Mirror Image grants Samuro and his Images 40 Spell Armor against the next 2 sources of Spell damage, reducing their damage by 40%.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_windwalk.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>One with the Wind</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">While Samuro has Wind Walk and for 3 seconds after breaking it, both he and his Mirror Images gain 30 Armor, taking 30% reduced damage from all sources.</div>
+          <div class="code-deletion">While Stealthed, gain 60 Armor, taking 60% reduced damage from all sources.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_criticalstrike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Burning Blade</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Critical Strikes from Samuro and Mirror Images deal an additional 65% of <span class="code-addition">their</span> <span class="code-deletion">Samuro's</span> Basic Attack damage to the target and nearby enemies.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_criticalstrike_b.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Crushing Blows</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Critical Strike now has 2 charges<span class="code-deletion">, and Critical Strikes deal an additional 25% of Samuro's Basic Attack damage</span>. <span class="code-addition">Samuro's Basic Attacks against Heroes reduce the cooldown of Critical Strike by 1.5 seconds.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_criticalstrike_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Phantom Pain</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Samuro's Critical Strikes deal an additional 40% of his Basic Attack damage for each Mirror Image that is active.</div>
+          <div class="code-deletion">Mirror Images no longer benefit from this talent</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_bladestorm.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bladestorm</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 110
+            </span>
+          </div>
+          <div>Cause a Bladestorm of destructive force around Samuro for 4 seconds, making him Unstoppable and dealing 235 (+4% per level) damage per second to nearby enemies.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_illusiondancer.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Illusion Master</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 6
+            </span>
+          </div>
+          <div>Mirror Images can be controlled individually or as a group and <span class="code-addition">their damage is increased by 100%</span> <span class="code-deletion">deal an additional 10% of Samuro's damage</span>.</div>
+          <div class="code-addition">Passive: Samuro's Basic Attack damage is increased by 10%, and Image Transmission's cooldown is reduced to 8 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_windwalk.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Kawarimi</h5>
+          </div>
+          <div>Wind Walk creates a Mirror Image at Samuro's location that will continue whatever he was doing.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_mirrorimage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mirrored Steel</h5>
+          </div>
+          <div>Samuro's Basic Attacks against Heroes reduce the cooldown of Mirror Image by 1 second.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_windwalk_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shukuchi</h5>
+          </div>
+          <div>Wind Walk teleports Samuro a short distance in the direction he's currently facing.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_windwalk.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Harsh Winds</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Attacking a Hero during Wind Walk causes them to take 30% increased damage from Samuro for 3 seconds.</div>
+          <div class="code-deletion">Mirror Images no longer benefit from this talent</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_criticalstrike.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Merciless Strikes</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Samuro's Basic Attacks against Stunned, Rooted, or Slowed enemies are always Critical Strikes.</div>
+          <div class="code-deletion">Mirror Images no longer benefit from this talent</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_flowingstrikes.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Press the Attack</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>While Advancing Strikes is active, Samuro and his Mirror Images gain <span class="code-addition">10%</span> <span class="code-deletion">15%</span> Attack Speed every time they Basic Attack, up to <span class="code-addition">40%</span> <span class="code-deletion">60%</span>.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_flowingstrikes.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blademaster's Pursuit</h5>
+          </div>
+          <div>Advancing Strikes grants an additional 15% Movement Speed for Samuro and his Mirror Images, and its duration is increased by 2 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_bladestorm.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dance of Death</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Mirror Images use Bladestorm when Samuro does<span class="code-addition">, but for 50% damage</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_illusiondancer.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Three Blade Style</h5>
+          </div>
+          <div>Samuro's Mirror Images gain an additional 50% of his Health and last up to 36 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/samuro20171212/storm_ui_icon_samuro_windwalk.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wind Strider</h5>
+          </div>
+          <div>Wind Walk's cooldown is reduced by 6 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Valeera" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/valeera.html">
+              <div class="hero-img hero-valeera img-rounded"></div>
+              <div>Valeera</div>
+            </a>
+          </h2>
+          <blockquote><em><strong><a href="https://us.battle.net/heroes/en/blog/21273594" target="_blank">Developer Comments:</a></strong></em>
+  <ul>
+  <li>When considering Valeera, we decided that having two sets of abilities, a number of utility openers, 
+  as well as an on-command stealth meant that she already had a lot of really cool things going on and 
+  didn't require as much work as some of our other Heroes. However, we did feel that Valeera was likely 
+  to be the most impacted by the stealth visual change since she has melee openers and no gap-closing 
+  abilities. In order to address this, we implemented the following changes:
+  <ul>
+  <li>After remaining in stealth for 3 seconds, Valeera's openers teleport her to the enemy.
+  <ul>
+  <li>With this new gap closer, opposing players are still able to see Valeera coming and react, 
+  while Valeera players can use quick maneuvers and careful positioning to still get the jump 
+  on enemies.</li>
+  </ul></li>
+  <li>We've reworked her openers from stealth to be less about stun-locking an opponent and burning 
+  them down, and more about having options to shut down enemy damage dealers.
+  <ul>
+  <li>Cheap Shot: We've significantly reduced the stun duration, but added a blind to counter 
+  Heroes that rely heavily on Basic Attacks.</li>
+  <li>Garrote: To help in shutting down Supports and Assassins that focus on casting spells, 
+  we've buffed the duration of Garrote's silence effect.</li>
+  <li>Assassinate: We've cut out some of the damage of this ability, but added an armor reducing 
+  effect. This should help Valeera take down more durable targets with the help of her team.</li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_sinisterstrike.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sinister Strike</h5>
+          </div>
+          <div>
+            <span>Mana: 30 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 5
+            </span>
+          </div>
+          <div>Dash forward, hitting all enemies in a line for 110 (+4% per level) damage. If Sinister Strike hits a Hero, Valeera stops dashing immediately and the cooldown is reduced to 1 second. Awards 1 Combo Point.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_bladeflurry.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blade Flurry</h5>
+          </div>
+          <div>
+            <span>Mana: 40 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 4
+            </span>
+          </div>
+          <div>Deal 130 (+4% per level) damage in an area around Valeera. Awards 1 Combo Point per enemy Hero hit.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_eviscerate.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Eviscerate</h5>
+          </div>
+          <div>
+            <span>Mana: 25 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 1
+            </span>
+          </div>
+          <div>Eviscerate an enemy, dealing damage per Combo Point.  1 Point: 85 (+4% per level) 2 Points: 170 (+4% per level) 3 Points: 255 (+4% per level).</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_ambush.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ambush</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 10 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 1
+            </span>
+          </div>
+          <div>Ambush an enemy, dealing <span class="code-addition">130</span> <span class="code-deletion">180</span> (+4% per level) damage <span class="code-addition">and reducing their Armor by 10 for 4 seconds</span>.  Awards 1 Combo Point.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_cheapshot.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Cheap Shot</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 30 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 1
+            </span>
+          </div>
+          <div>Deal 30 (+4% per level) damage to an enemy, Stun them for <span class="code-addition">0.75</span> <span class="code-deletion">1.25</span> seconds, <span class="code-addition">and Blind them for 2 seconds once Cheap Shot's Stun expires</span>.  Awards 1 Combo Point.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_garrote.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Garrote</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 30 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 1
+            </span>
+          </div>
+          <div>Deal 20 (+4% per level) damage to an enemy and an additional 140 (+4% per level) damage over 7 seconds, and Silence them for <span class="code-addition">2.75</span> <span class="code-deletion">2.25</span> seconds.  Awards 1 Combo Point.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_smokebomb.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Smoke Bomb</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_cloakofshadows.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Cloak of Shadows</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_vanish.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Vanish</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 8
+            </span>
+          </div>
+          <div>Vanish from sight, becoming Stealthed, gaining <span class="code-addition">20%</span> <span class="code-deletion">10%</span> Movement Speed and access to new Abilities. For the first second, Valeera is Unrevealable and can pass through other units. <span class="code-addition">Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  After being Stealthed for 3 seconds, Ambush, Cheap Shot, and Garrote have 100% increased range, and cause Valeera to teleport to the target when used.</span></div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_talent_block.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Combat Readiness</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Each Combo Point spent grants <span class="code-addition">60</span> <span class="code-deletion">50</span> Physical Armor against the next enemy Hero Basic Attack, reducing its damage by <span class="code-addition">60%</span> <span class="code-deletion">50%</span>. Stores up to 3 charges.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_cripplingpoison.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Crippling Poison</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Activate to make Valeera's next damaging Ability <span class="code-addition">and subsequent Abilities within 4 seconds</span> Slow targets by 25% for <span class="code-addition">4</span> <span class="code-deletion">5</span> seconds.  Activating Crippling Poison does not break Stealth.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_vanish.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Subtlety</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div><span class="code-deletion">After remaining Vanished for at least 4 seconds</span> After teleporting with Ambush, Cheap Shot, or Garrote, regenerate <span class="code-addition">8</span> <span class="code-deletion">10</span> Energy per second for 5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_talent_conjurerspursuit.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Vigor</h5>
+          </div>
+          <div>Valeera regenerates an additional 2 Energy per second. Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_garrote.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hemorrhage</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Valeera's Basic Attacks deal <span class="code-addition">50%</span> <span class="code-deletion">25%</span> additional damage to enemies affected by Garrote.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_vanish.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Initiative</h5>
+          </div>
+          <div>Ambush, Cheap Shot, and Garrote award 1 Combo Points.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_sinisterstrike.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Relentless Strikes</h5>
+          </div>
+          <div>Reduces the Energy cost of Sinister Strike by 10.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_woundpoison.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wound Poison</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Activate to make Valeera's next damaging Ability <span class="code-addition">and subsequent Abilities within 4 seconds</span> reduce enemy healing received by 50% for <span class="code-addition">4</span> <span class="code-deletion">5</span> seconds.  Activating Wound Poison does not break Stealth.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_bladeflurry.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fatal Finesse</h5>
+          </div>
+          <div>Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 3, up to 60. Reward: After damaging 20 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_sinisterstrike.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mutilate</h5>
+          </div>
+          <div>Sinister Strike now hits with both blades, dealing 100% additional damage, but its range is reduced by 1.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_eviscerate.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Slice and Dice</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Eviscerating an enemy with 3 Combo Points grants 150% Attack Speed. Lasts 3 seconds or 3 Basic Attacks. <span class="code-addition">Passive: Basic Attacks restore 2 Energy.</span></div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_cloakofshadows.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Cloak of Shadows</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_smokebomb.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Smoke Bomb</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_cheapshot.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blind</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Increase the duration of Cheap Shot's Blind by 2 seconds.</div>
+          <div class="code-deletion">When Cheap Shot expires, the victim is blinded for 2.5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_ambush.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Death From Above</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Teleporting with Ambush reduces the cooldown of Vanish by 4 seconds.</div>
+          <div class="code-deletion">Ambush now has 6 range and teleports Valeera behind the victim.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_garrote.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Strangle</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Using Garrote on a Hero reduces their Spell Power by <span class="code-addition">40%</span> <span class="code-deletion">25%</span> for <span class="code-addition">6</span> <span class="code-deletion">7</span> seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_ambush.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Assassinate</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>Ambush deals <span class="code-addition">50%</span> <span class="code-deletion">100%</span> additional damage <span class="code-addition">and reduces the target's Armor by an additional 10</span> if no other enemy Heroes are within 4 range of the victim.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_sinisterstrike.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Seal Fate</h5>
+          </div>
+          <div>Sinister Strike deals 50% additional damage and generates an additional Combo Point when used against silenced, rooted, or stunned enemy Heroes.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_thistletea.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Thistle Tea</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to instantly restore 100 Energy. Activating Thistle Tea does not break Vanish.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_eviscerate.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Expose Armor</h5>
+          </div>
+          <div>Eviscerating an enemy with 3 Combo Points causes them to lose 25 Armor for 2 seconds, increasing all damage taken by 25%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_smokebomb.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Adrenaline Rush</h5>
+          </div>
+          <div>While in the Smoke Bomb, Valeera regenerates an additional 30 Energy per second.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_vanish.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Elusiveness</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Increases Valeera's Movement Speed while Vanished by an additional <span class="code-addition">20%</span> <span class="code-deletion">10%</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_cloakofshadows.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Enveloping Shadows</h5>
+          </div>
+          <div>Whenever Valeera uses Vanish, she also gains Cloak of Shadows.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_garrote.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Rupture</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Increase Garrote's damage over time by <span class="code-addition">100%</span> <span class="code-deletion">5%, stacking up to 30%</span>. Valeera's Basic Attacks refresh the duration of Garrote.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/valeera20171212/storm_ui_icon_valeera_vanish.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nightslayer</h5>
+          </div>
+          <div>Reduces the cooldown of Vanish by 3 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Zeratul" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/zeratul.html">
+              <div class="hero-img hero-zeratul img-rounded"></div>
+              <div>Zeratul</div>
+            </a>
+          </h2>
+          <blockquote><em><strong><a href="https://us.battle.net/heroes/en/blog/21273594" target="_blank">Developer Comments:</a></strong></em>
+  <ul>
+  <li>Before these changes, Zeratul was the most competitive Stealth hero in high-level play, and didn't 
+  require as much tuning to normalize across all levels of play. However, we saw an opportunity to make 
+  some tweaks and add a couple of fun new elements to his kit:
+  <ul>
+  <li>Zeratul now has the Vorpal Blade talent as a baseline ability, granting some extra mobility and 
+  letting player pull off some extra-flashy maneuvers.</li>
+  <li>We've added a new Heroic Ability in place of Shadow Assault, Might of the Nerazim, that was 
+  designed with the goal of competing with Void Prison and playing into the technical playstyle 
+  that makes high-level Zeratul players shine:
+  <ul>
+  <li>Might of the Nerazim Passive: Each time you use an ability, your next basic attack deals 
+  bonus damage. With this passive effect, Zeratul  players will want to weave basic attacks in 
+  between abilities for maximum effectiveness.</li>
+  <li>Might of the Nerazim Active: Your Heroic Ability button (Default: R) becomes the last active 
+  Basic Ability you used. If you Blink in, your R is now Blink. You'll want to pay extra 
+  attention to the order in which your abilities are cast. Another Cleave is a great source of 
+  extra damage, but what if you had a second Blink to escape the fight with your life?</li>
+  <li>Might of the Nerazim Storm Talent Upgrade:  Might of the Nerazim resets the cooldown on ALL 
+  basic abilities when used. After choosing this, Zeratul players can weave in basic attacks 
+  between all of their abilities, press R, and do it again!</li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_cleave.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Cleave</h5>
+          </div>
+          <div>
+            <span>Mana: 40 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 6
+            </span>
+          </div>
+          <div>Deal 200 (+4% per level) damage to nearby enemies.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_singularityspike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Singularity Spike</h5>
+          </div>
+          <div>
+            <span>Mana: 80 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>Flings a Singularity Spike that sticks to the first enemy hit. Deals 228 (+4% per level) damage after 1 second and slows the enemy by 40% for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_blink.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blink</h5>
+          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Teleport to the target location.   Using this Ability does not break cloak.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-ability flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_mightofnerazim.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Might of the Nerazim</h5>
+          </div>
+          <div>
+            <span>Mana: 30 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Activate to cast an untalented version of Zeratul's most recently used Basic Ability, dealing 50% less damage.  Passive: After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 40% more damage.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_voidprison.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Void Prison</h5>
+          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_shadowassault.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shadow Assault</h5>
+          </div>
+          <div>
+            <span>Mana: 50
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Basic Attacks cause Zeratul to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_cloak.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Permanent Cloak</h5>
+          </div>
+          <div>
+          </div>
+          <div>Gain Stealth when out of combat for 3 seconds.  Taking damage, attacking, using Abilities, or channeling reveals you.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_vorpalblade.png">
+            <span class="letter-overlay">1</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Vorpal Blade</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Activate to teleport to Zeratul's last non-structure Basic Attack target within 3 seconds. The target is revealed during these 3 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_cleave.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Greater Cleave</h5>
+          </div>
+          <div>Increases the radius of Cleave by 33%.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_cloak.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Move Unseen</h5>
+          </div>
+          <div>Gain 25% Movement Speed while Stealthed.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_blink.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shadow Hunter</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Quest: Gather Regeneration Globes to lower the Mana cost of Blink by <span class="code-addition">3</span> <span class="code-deletion">2</span>.  Reward: Upon gathering <span class="code-addition">15</span> <span class="code-deletion">20</span> Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1 second.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_vorpalblade.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Vorpal Blade</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Activate to teleport to Zeratul's last non-structure Basic Attack target within 3 seconds. The target is revealed during these 3 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_shadowassault.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Darkness Descends</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Activate to gain 40% Attack Speed for 5 seconds. Passive: Gain 10% Attack Speed.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_abilitytalent_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Psionic Strength</h5>
+          </div>
+          <div>Dealing damage to enemy Heroes increases all damage dealt by 6% for 3 seconds, stacking up to 30%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_cleave.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Rending Cleave</h5>
+          </div>
+          <div>Cleave deals an additional 40% damage over 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Combo Slash</h5>
+          </div>
+          <div>After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 40% additional damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_gatheringpower.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Grim Task</h5>
+          </div>
+          <div>Quest: Hero Takedowns increase Spell Power by 5%, up to 50% . This bonus Spell Power is lost on death.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_singularityspike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Seeker in the Dark</h5>
+          </div>
+          <div>Singularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_vorpalblade.png">
+            <span class="letter-overlay">1</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Warp Skirmisher</h5>
+          </div>
+          <div>Vorpal Blade gains a 2nd charge. Teleporting to an enemy with Vorpal Blade causes Zeratul's next Basic Attack within 6 seconds to deal 30% more damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_blink.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wormhole</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>For <span class="code-addition">3</span> <span class="code-deletion">2</span> seconds, reactivate Blink to return to the point where it was cast from.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_blink_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Slip into Shadow</h5>
+          </div>
+          <div>Blink gains an additional charge, but its cooldown is increased by 8 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_mightofnerazim.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Might of the Nerazim</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Activate to cast an untalented version of Zeratul's most recently used Basic Ability, dealing 50% less damage.  Passive: After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 40% more damage.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_voidprison.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Void Prison</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. Zeratul is not affected.</div>
+        </li>
+        <li class="flex-item code-deletion-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_shadowassault.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shadow Assault</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Basic Attacks cause Zeratul to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_autoattack_heal.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mending Strikes</h5>
+          </div>
+          <div>Basic Attacks heal for 35% of the damage dealt.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_cloak.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shroud of Adun</h5>
+          </div>
+          <div>Zeratul gains a shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_spellshield.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Spell Shield</h5>
+          </div>
+          <div>Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Master Warp-Blade</h5>
+          </div>
+          <div>Every third consecutive Basic Attack against the same target deals 125% bonus damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_singularityspike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sentenced to Death</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Deal <span class="code-addition">30%</span> <span class="code-deletion">40%</span> increased damage to enemies while they have a Singularity Spike attached to them.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_cleave.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Void Slash</h5>
+          </div>
+          <div>If Cleave hits more than one enemy Hero, it deals 50% increased damage and its cooldown is reduced by 3 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_voidprison.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Gift of the Xel'naga</h5>
+          </div>
+          <div>Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_autoattack_slow.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nexus Blades</h5>
+          </div>
+          <div>Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_abilitytalent_heal.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shadow Mending</h5>
+          </div>
+          <div>Heal for 75% of Spell Damage dealt to Heroes.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_mightofnerazim.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Twilight Falls</h5>
+          </div>
+          <div>Might of the Nerazim resets the cooldown of all Basic Abilities.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_zeratul_shadowassault.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nerazim Fury</h5>
+          </div>
+          <div>Shadow Assault grants 30% Life Steal, and the duration is increased by 50%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/zeratul20171212/storm_ui_icon_talent_rewind.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Rewind</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to reset the cooldowns of your Basic Abilities.</div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
