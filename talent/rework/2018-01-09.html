@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Malfurion from 2018-01-09.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2018-01-09.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2018-01-09.html" />
+    <meta property="og:title" content="2018-01-09 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Malfurion." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483417095/hero/malfurion.png" />
+        <title>2018-01-09 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=cF71L7YrqN" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2018-01-09 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Malfurion" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/malfurion.html">
+              <div class="hero-img hero-malfurion img-rounded"></div>
+              <div>Malfurion</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While Malfurion has had many adjustments and talent
+  shuffles over the past couple of years, his healing mechanics have stayed
+  relatively straight-forward. The core kit changes in this rework are intended
+  to make his gameplay a bit more active. Turning offensive pressure directly
+  into healing output should reinvigorate Malfurion mains while also greatly
+  raising his skill ceiling. We are very excited to see what you think and are
+  actively listening for any and all feedback you have - Elune grant us
+  strength!</p>
+</blockquote>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 stats-label">Stats</div>
+            <div class="col-xs-12 col-sm-10 code-addition stats"><ul>
+<li>Basic Attack Damage reduced from 64 to 60</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_regrowth.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Regrowth</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 35 
+<span class="code-deletion">45</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 5
+            </span>
+          </div>
+          <div><span class="code-deletion">Heal target ally for 142 (+4% per level) Health instantly and</span> Heal an ally for <span class="code-addition">400</span> <span class="code-deletion">405</span> (+4% per level) Health over <span class="code-addition">20</span> <span class="code-deletion">15</span> seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_moonfire.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Moonfire</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 10 
+<span class="code-deletion">15</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 3
+            </span>
+          </div>
+          <div>Deal <span class="code-addition">90</span> <span class="code-deletion">100</span> (+4% per level) damage to enemies in an area and reveal them for 2 seconds.  <span class="code-addition">Allies with an active Regrowth are healed for 140 (+4% per level) Health for each enemy Hero hit by Moonfire.</span></div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_entanglingroots.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Entangling Roots</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 14
+            </span>
+          </div>
+          <div>Root enemy Heroes in an area for 1.25 seconds, and deal <span class="code-addition">117</span> <span class="code-deletion">111</span> (+4% per level) damage over the duration. Affected area grows over 3 seconds.</div>
+          <div class="code-addition">No longer affects non-Heroic targets</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_tranquility.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Tranquility</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 80 
+<span class="code-deletion">100</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 80
+<span class="code-deletion">100</span>            </span>
+          </div>
+          <div>Heal nearby allied Heroes for <span class="code-addition">80</span> <span class="code-deletion">76</span> (+4% per level) Health per second for <span class="code-addition">8</span> <span class="code-deletion">10</span> seconds. <span class="code-addition">Allies affected by Regrowth within Tranquility's area gain 10 Armor.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_twilightdream.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Twilight Dream</h5>          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 90
+            </span>
+          </div>
+          <div>After 0.5 seconds, deal 355 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_innerrvate.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Innervate</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Grant an allied Hero 20% of their maximum Mana over 5 seconds. While affected by Innervate, their Basic Ability cooldowns recharge 50% faster.  Cannot be used on Heroes that do not use Mana.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_moonfire.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Celestial Alignment</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Increase Moonfire's reveal duration by <span class="code-addition">1</span> <span class="code-deletion">3</span> second. Malfurion's Basic Attacks against Heroes revealed by Moonfire deal <span class="code-addition">75%</span> <span class="code-deletion">100%</span> more damage.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_regrowth.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nature's Swiftness</h5>
+          </div>
+          <div>Malfurion gains 5% Movement Speed per ally Hero affected by Regrowth.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_innerrvate.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shan'do's Clarity</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Innervate's cooldown recharges 25% faster per ally affected by Regrowth.</div>
+          <div class="code-deletion">Reduces Innervate's cooldown by 8 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_talent_scoutingdrone.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Scouting Drone</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Places a Scouting Drone at target location, granting vision and revealing a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks. Stores up to 2 charges.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_entanglingroots_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Deep Roots</h5>
+          </div>
+          <div>Entangling Roots grows 25% larger, and persist on the ground 25% longer.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_entanglingroots.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Strangling Vines</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>Enemy Heroes Rooted by Entangling Roots receive 30% less healing from all sources <span class="code-addition">for 2 seconds</span>.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_entanglingroots_b.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Vengeful Roots</h5>
+          </div>
+          <div>Entangling Roots spawns a Treant that deals 65 damage per second and lasts 10 seconds. Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's Basic Attack damage by 7.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_elunesgrace.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Elune's Grace</h5>
+          </div>
+          <div>Increases the range of Regrowth, Moonfire, and Entangling Roots by 25%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_moonfire.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Full Moonfire</h5>
+          </div>
+          <div>Increases Moonfire's radius by 50% and reduces its Mana cost by 5.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_regrowth.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nature's Cure</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Activate to remove all Stuns, Roots, and Slows from allies affected by Regrowth.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_entanglingroots.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Tenacious Roots</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div><span class="code-deletion">Entangling Roots grows 25% larger, lasts 25% longer, and</span> Increase the Root duration of Entangling Roots by <span class="code-addition">0.3</span> <span class="code-deletion">0.25</span> seconds. <span class="code-addition">When Malfurion is Stunned, the cooldown of Entangling Roots instantly reset. This can only occur every 10 seconds.</span></div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_wildgrowth.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wild Growth</h5>
+          </div>
+          <div>Each Hero hit by Moonfire extends the duration of currently active Regrowths by 1 second.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_tranquility.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Tranquility</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 80
+<span class="code-deletion">100</span>            </span>
+          </div>
+          <div>Heal nearby allied Heroes for <span class="code-addition">80</span> <span class="code-deletion">76</span> (+4% per level) Health per second for <span class="code-addition">8</span> <span class="code-deletion">10</span> seconds. <span class="code-addition">Allies affected by Regrowth within Tranquility's area gain 10 Armor.</span></div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_twilightdream.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Twilight Dream</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 90
+            </span>
+          </div>
+          <div>After 0.5 seconds, deal 355 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_moonfire.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hindering Moonfire</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>Moonfire Slows <span class="code-addition">Heroes</span> <span class="code-deletion">targets</span> hit by 25% for 2 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_talent_iceblock.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ice Block</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_innerrvate.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Revitalize</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Using Innervate also grants Malfurion 50 Mana and causes his Basic Ability cooldowns to refresh 50% faster for 5 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_regrowth.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Life Seed</h5>
+          </div>
+          <div>Nearby damaged allied Heroes will automatically gain the heal over time portion of Regrowth. This effect has a 20 second cooldown.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_talent_shrinkray.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shrink Ray</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_wildgrowth_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Moonlit Harmony</h5>
+          </div>
+          <div>Increase Moonfire's heal by 15% per ally affected by Regrowth.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_wildgrowth.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nature's Balance</h5>
+          </div>
+          <div>Increase Moonfire's area by 25% and Regrowth's duration by 5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_regrowth.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ysera's Gift</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>While Malfurion is above 75% Health, Regrowth's healing-over-time is increased by <span class="code-addition">60%</span> <span class="code-deletion">40%</span>.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_twilightdream.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Astral Communion</h5>
+          </div>
+          <div>Activate to Channel for 1 second, and then instantly teleport and cast Twilight Dream at the targeted location.  Cooldown is shared with Twilight Dream. Passive: Increase Twilight Dream's Silence duration to 4 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_regrowth.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lifebloom</h5>
+          </div>
+          <div>Regrowth instantly heals its target for 10% of their missing Health.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_moonfire_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lunar Shower</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div class="code-addition">If Moonfire hits a Hero, its cooldown is reduced by 1 second and the next Moonfire within 6 seconds deals 20% more damage. This damage bonus stacks up to 60%.</div>
+          <div class="code-deletion">Using Moonfire reduces the cooldown of the next Moonfire by 0.5 seconds, and increases the damage by 15%. Stacks up to 3 times and resets after 6 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_malfurion_tranquility.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Serenity</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Each enemy Hero hit by Moonfire reduces the cooldown of Tranquility by 3 seconds. Increase Tranquility's healing by 10% per ally affected by Regrowth.</div>
+          <div class="code-deletion">Increases Tranquility's healing by 25% and it also restores 5 Mana per second.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_talent_rewind.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Rewind</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to reset the cooldowns of your Basic Abilities.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/malfurion20180109/storm_ui_icon_talent_stormshield.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Storm Shield</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
