@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Sgt. Hammer from 2017-11-29.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2017-11-29.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2017-11-29.html" />
+    <meta property="og:title" content="2017-11-29 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Sgt. Hammer." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483417096/hero/sgthammer.png" />
+        <title>2017-11-29 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=cF71L7YrqN" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2017-11-29 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Sgt. Hammer" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/sgthammer.html">
+              <div class="hero-img hero-sgthammer img-rounded"></div>
+              <div>Sgt. Hammer</div>
+            </a>
+          </h2>
+          
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_spidermines.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Spider Mines</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 45 
+<span class="code-deletion">50</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 14 
+            </span>
+          </div>
+          <div>Create 3 mines that arm after 1.25 seconds. Mines detonate when an enemy comes in range, dealing 96 (+4% per level) damage to nearby enemies and Slowing them by 25% for 1.5 seconds.  <span class="code-addition">Siege Mode: Cast range increased by 100%.</span></div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_concussiveblast.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Concussive Blast</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 60 
+<span class="code-deletion">75</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>Deal 141 (+4% per level) damage to enemies in front of Sgt. Hammer and knock them back.  <span class="code-addition">Siege Mode: Radius increased by 50%.</span></div>
+        </li>
+        <li class="flex-item code-addition-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_neosteelplating.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Neosteel Plating</h5>
+          </div>
+          <div>
+            <span>Mana: 30 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>Gain 25 Armor for 2 seconds.  Siege Mode: Grants 100% more Armor.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_napalmstrike.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Napalm Strike</h5>
+          </div>
+          <div>
+            <span>Mana: 35 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 6 
+            </span>
+          </div>
+          <div>Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_bluntforcegun.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blunt Force Gun</h5>
+          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 70 
+            </span>
+          </div>
+          <div>Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Siege Mode</h5>
+            <span class="label label-info">Moved from E</span>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 2 
+            </span>
+          </div>
+          <div>Activate to enter Siege Mode. While in Siege Mode, Basic Attacks <span class="code-addition">deal 20% more damage</span>, have <span class="code-addition">100%</span> <span class="code-deletion">90%</span> increased range, and deal 25% of their damage as splash damage around the target<span class="code-deletion">, and deal 30% bonus damage to Minions and Structures</span>.</div>
+        </li>
+        <li class="flex-item regular-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_hypercoolingengines.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Thrusters</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30 
+            </span>
+          </div>
+          <div>Increase your Movement Speed by 60% for 4 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_artillery.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Artillery</h5>
+          </div>
+          <div>Basic Attacks deal 30% more damage to distant enemies and Basic Attack range increased by 20%.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Advanced Artillery</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Increase Siege Mode's splash damage to 50% of Basic Attack damage, and increase its splash radius by 25%.</div>
+          <div class="code-deletion">Increase the damage bonus to long distance enemies by 10%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode_var2.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ambush</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Gain Stealth when entering Siege Mode <span class="code-addition">or after not taking or dealing damage for 3 seconds while in Siege Mode.</span> Basic Attacks while Stealthed deal 100% more damage.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode_var1.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Maelstrom Rounds</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 90 
+            </span>
+          </div>
+          <div>Activate to increase Basic Attack damage dealt by 40% for 5 seconds. Hitting Structures with Basic Attacks reduces the cooldown of Maelstrom Rounds by 5 seconds.  Stores up to 3 charges.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_regenerationmaster.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Regeneration Master</h5>
+          </div>
+          <div>Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.  Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Resistant</h5>
+          </div>
+          <div>Being Stunned or Rooted while in Siege Mode grants 50 Armor for 3 seconds, reducing damage taken by 50%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_concussiveblast.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Barricade</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Concussive Blast creates an impassable wall in front of Sgt. Hammer for 4 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Regenerative Bio-Steel</h5>
+          </div>
+          <div>Basic Attacks while in Siege Mode heal for 15% of the damage dealt.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_neosteelplating.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Siege Tactics</h5>
+          </div>
+          <div>Using Neosteel Plating while in Siege Mode grants Unstoppable for 2 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_concussiveblast.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Excessive Force</h5>
+          </div>
+          <div>Double the knock back distance of Concussive Blast.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Focused Attack</h5>
+          </div>
+          <div>Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_autoattack_heal.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Vigorous Assault</h5>
+          </div>
+          <div>Basic Attacks heal for 15% of the damage dealt.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode_var1.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Graduating Range</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>While in Siege Mode, Basic Attack range is increased by 1.1 every 3 seconds, up to <span class="code-addition">3.3</span> <span class="code-deletion">5.5</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hover Siege Mode</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Sgt. Hammer can move at <span class="code-addition">25%</span> <span class="code-deletion">50%</span> Movement Speed while in Siege Mode.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_spidermines.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pulse Detonation Core</h5>
+          </div>
+          <div>Spider Mines detonate 3 times over 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_temp_btn-ability-terran-heal-color.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>First Aid</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60 
+            </span>
+          </div>
+          <div>Activate to heal 35% of your max Health over 6 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_spidermines.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mine Field</h5>
+          </div>
+          <div>Increase the number of mines by 2.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_bluntforcegun.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blunt Force Gun</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 70 
+            </span>
+          </div>
+          <div>Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_napalmstrike.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Napalm Strike</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 6 
+            </span>
+          </div>
+          <div>Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_concussiveblast.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Entrenched</h5>
+          </div>
+          <div>While in Siege Mode, Concussive Blasts's damage and knockback distance are increased by 75%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_hypercoolingengines.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hyper-Cooling Engines</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div class="code-addition">While in Siege Mode, hitting Heroes with Basic Attacks reduces the cooldown of Thrusters by 5 seconds.</div>
+          <div class="code-deletion">Reduce the cooldown of Thrusters by 15 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_spidermines.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Tactical Mine Deployment</h5>
+          </div>
+          <div>Moving while Thrusters is active leaves a trail of up to 5 Spider Mines. Additionally, increase the Slow of Spider Mines by 15%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_spidermines.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bullhead Mines</h5>
+          </div>
+          <div>Middle Spider Mine knocks target back a short distance.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_artillery.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>First Strike</h5>
+          </div>
+          <div>Basic Attacks deal 25% more damage if Sgt. Hammer hasn't been attacked within the last 5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Executioner</h5>
+          </div>
+          <div>Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_autoattack_searing.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Giant Killer</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_neosteelplating.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mechanical Know-how</h5>
+          </div>
+          <div>Neosteel Plating grants 5% maximum Health as a Shield for 2 seconds. If this Shield is destroyed, Basic Attack damage is increased by 50% for 5 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_stoneskin.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Stoneskin</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60 
+            </span>
+          </div>
+          <div>Activate to gain 30% of your maximum Health as a Shield for 5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_napalmstrike.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Advanced Lava Strike</h5>
+          </div>
+          <div>Napalm Strike's range is increased by 75% and its impact does 50% more damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_bluntforcegun.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Orbital BFG</h5>
+          </div>
+          <div>Blunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_spidermines.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shrapnel Mines</h5>
+          </div>
+          <div>Upon detonating, Spider Mines reduce the armor of enemy Heroes hit by 10 for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_sgthammer_siegemode.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ultra Capacitors</h5>
+          </div>
+          <div>Hitting enemy Heroes with Basic Attacks while in Siege Mode grants 5% Attack Speed for 5 seconds, up to 40%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fury of the Storm</h5>
+          </div>
+          <div>Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sgthammer20171129/storm_ui_icon_talent_autoattack_range.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nexus Frenzy</h5>
+          </div>
+          <div>Increases Attack Speed by 20% and Attack Range by 1.1.</div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>

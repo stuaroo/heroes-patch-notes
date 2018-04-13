@@ -29,8 +29,46 @@
       h3 { margin-top: 10.5px; }
       .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
       .hero-img { margin-right: 5px; }
-      h2>div { display: inline-block; vertical-align: middle; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
       h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
 
       /* Line with centered text */
       h3.line-with-text {
@@ -81,6 +119,14 @@
       }
       .flex-item>h5 { 
         font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
         display: inline-block;
       }
 
@@ -152,31 +198,33 @@
     </nav>
     <article class="container">
       <div class="row">
-        <h1>2017-03-06 Rework Diffs - PTR <a href="http://us.battle.net/heroes/en/blog/20581817" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></h1>
+        <h1>2017-03-14 Rework Diffs</h1>
         <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
       </div>
       <hr>
       <h3>Legend</h3>
       <ul class="flex-container">
-        <li class="flex-item code-addition-box">
+        <li class="flex-item code-addition-box example-box">
           <h5>New</h5>
           <div>This talent is all shiny and new, and completely green in color</div>
         </li>
-        <li class="flex-item regular-box">
-          <h5>Changed <span class="label label-primary">Updated</span></h5>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
           <div class="code-addition">The green highlights indicate the new description</div>
           <div class="code-deletion">While the red highlights show what the description used to say</div>
         </li>
-        <li class="flex-item regular-box">
-          <h5>Moved <span class="label label-info">Moved from level X</span></h5>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
           <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
           <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
         </li>
-        <li class="flex-item regular-box">
+        <li class="flex-item regular-box example-box">
           <h5>Unchanged</h5>
           <div>These white boxes are exactly as they were before; nothing changed here</div>
         </li>
-        <li class="flex-item code-deletion-box">
+        <li class="flex-item code-deletion-box example-box">
           <h5>Removed</h5>
           <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
         </li>
@@ -185,8 +233,10 @@
       <div id="Anub'arak" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-img hero-anubarak img-rounded"></div>
-            <div>Anub'arak</div>
+            <a href="../../hero/anubarak.html">
+              <div class="hero-img hero-anubarak img-rounded"></div>
+              <div>Anub'arak</div>
+            </a>
           </h2>
           <blockquote>
   <p><em><strong>Developer Comment:</strong></em> We're currently doing a pass on our Warriors, and
@@ -453,8 +503,10 @@
       <div id="Arthas" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-img hero-arthas img-rounded"></div>
-            <div>Arthas</div>
+            <a href="../../hero/arthas.html">
+              <div class="hero-img hero-arthas img-rounded"></div>
+              <div>Arthas</div>
+            </a>
           </h2>
           <blockquote>
   <p><em><strong>Developer Comment:</strong></em> We're currently doing a pass on our Warriors, and
@@ -709,8 +761,10 @@
       <div id="Cho" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-img hero-cho img-rounded"></div>
-            <div>Cho</div>
+            <a href="../../hero/cho.html">
+              <div class="hero-img hero-cho img-rounded"></div>
+              <div>Cho</div>
+            </a>
           </h2>
           <blockquote>
   <p><em><strong>Developer Comment:</strong></em> When we were first told about the new event "Two
@@ -947,8 +1001,10 @@
       <div id="Gall" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-img hero-gall img-rounded"></div>
-            <div>Gall</div>
+            <a href="../../hero/gall.html">
+              <div class="hero-img hero-gall img-rounded"></div>
+              <div>Gall</div>
+            </a>
           </h2>
           <blockquote>
   <p><em><strong>Developer Comment:</strong></em> When we were first told about the new event "Two
@@ -1196,8 +1252,10 @@
       <div id="Gazlowe" class="row">
         <div class="col-xs-12">
           <h2>
-            <div class="hero-img hero-gazlowe img-rounded"></div>
-            <div>Gazlowe</div>
+            <a href="../../hero/gazlowe.html">
+              <div class="hero-img hero-gazlowe img-rounded"></div>
+              <div>Gazlowe</div>
+            </a>
           </h2>
           <blockquote>
   <p><em><strong>Developer Comment:</strong></em> I'm not exactly sure where this Goblin keeps
