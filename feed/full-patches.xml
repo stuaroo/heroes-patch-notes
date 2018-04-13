@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-04-12T01:25:00.000Z</updated>
+  <updated>2018-04-13T01:41:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-04-12 Hotfix Patch</title>
+    <published>2018-04-13T01:41:00.000Z</published>
+    <updated>2018-04-13T01:41:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-04-12-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-04-12-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-april-12-2018">Heroes of the Storm Hotfix Notes – April 12, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/" target="_blank">Official Patch Notes</a> <small>v 2.31.3</small></div>
+
+<p>We’ve just released a new hotfix for Heroes of the Storm in order to apply a bug fix.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Nova:</strong> Fixed an issue in which Perfect Shot’s cooldown reduction could be applied to Snipe multiple times per cast after learning Explosive Round.</li>
+</ul>
+
+<hr />
+
+<p>We also released a patch on April 11, which included many balance changes and bug fixes. <a href="https://battle.net/heroes/blog/21656682">You can review those patch notes by clicking here</a>.</p>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-04-11 Balance Update</title>
     <published>2018-04-12T01:25:00.000Z</published>
@@ -8666,42 +8695,6 @@ details</a>.</p>
 <li><strong>Hanzo:</strong> Rejoining a game while AI Hanzo was casting Storm Bow will no longer prevent the player from using Hanzo’s Abilities.</li>
 <li><strong>The Butcher:</strong> Fixed an issue preventing The Butcher from using consumable items such as Healing Pulse or Turrets on Volskaya Foundry.</li>
 </ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2017-12-13 Hotfix Patch</title>
-    <published>2017-12-13T06:15:00.000Z</published>
-    <updated>2017-12-13T06:15:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2017-12-13-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2017-12-13-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-december-13-2017">Heroes of the Storm Hotfix Notes – December 13, 2017</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/" target="_blank">Official Patch Notes</a> <small>v 2.29.4</small></div>
-
-<p>We just released a new patch for Heroes of the Storm to apply a few bug fixes.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a crash that could occur after queuing for Heroes Brawl.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Brightwing:</strong> Fixed an issue that could allow Brightwing to cast Phase Shift on enemy Heroes.</li>
-<li><strong>Samuro:</strong> Fixed an issue which allowed Mirror Image to be cast during Bladestorm.</li>
-</ul>
-
-<hr />
-
-<p>We also released a patch for Heroes of the Storm earlier this week, containing Hanzo, the 2018 Gameplay Update, and much more! <a href="http://battle.net/heroes/blog/21307436">Click here to review those patch notes</a>.</p>
 
 <p><a href="#top">Return to Top</a></p>
 ]]></content>
