@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Tyrael from 2018-01-16.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2018-01-16.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2018-01-16.html" />
+    <meta property="og:title" content="2018-01-16 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Tyrael." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483417095/hero/tyrael.jpg" />
+        <title>2018-01-16 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=cF71L7YrqN" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2018-01-16 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Tyrael" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/tyrael.html">
+              <div class="hero-img hero-tyrael img-rounded"></div>
+              <div>Tyrael</div>
+            </a>
+          </h2>
+          
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>El'druin's Might</h5>          </div>
+          <div>
+            <span class="code-addition">Mana: 45 
+<span class="code-deletion">50</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>Throw El'druin to the target area, dealing 110 (+4% per level) damage to nearby enemies and Slowing them by 25% for 2.5 seconds. Reactivating will teleport Tyrael to El'druin and Slow nearby enemies again.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_righteousness.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Righteousness</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 50 
+<span class="code-deletion">60</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Shields Tyrael for 336 (+4% per level) damage and nearby allies for <span class="code-addition">40%</span> <span class="code-deletion">135 (+4% per level)</span> as much for 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_smite.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Smite</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 45 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 6
+            </span>
+          </div>
+          <div>Rake target area for <span class="code-addition">150</span> <span class="code-deletion">144</span> (+4% per level) damage. Allies moving through the targeted area gain 25% increased Movement Speed for 2 seconds.</div>
+          <div class="code-addition">Can now be cast while moving</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_judgement.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Judgment</h5>          </div>
+          <div>
+            <span>Mana: 80 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 70
+            </span>
+          </div>
+          <div>After 0.75 seconds, charge an enemy Hero dealing 150 (+4% per level) damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take 75 (+4% per level) damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_sanctification.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sanctification</h5>          </div>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>After 0.5 seconds create a field of holy energy that makes allied Heroes Invulnerable. Lasts 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_archangelswrath.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Archangel's Wrath</h5>
+          </div>
+          <div>
+          </div>
+          <div>Upon dying, become Invulnerable and explode for 550 (+4% per level) damage after 3.5 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_regenerationmaster.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ardent Restoration</h5>
+          </div>
+          <div>Dealing damage to a Hero heals Tyrael for 12 (+4% per level) Health over 5 seconds. Dealing damage resets this timer, and the heal amount stacks up to 10 times.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_righteousness_var1.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Justice for All</h5>
+          </div>
+          <div>Increase the Shield applied to allies by Righteousness to 100% of the Shield gained by Tyrael.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_righteousness.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Salvation</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div class="code-addition">Increase the Shield amount Tyrael gains from Righteousness by 25% and heal Tyrael for 125 (+4% per level) Health if his Shield is destroyed. Does not increase the Shield amount gained by allies.</div>
+          <div class="code-deletion">Each allied Hero that is affected by Righteousness increases Tyrael's Shield amount by 45%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_archangelswrath_a.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Even In Death</h5>
+          </div>
+          <div>Increases Archangel's Wrath's damage by 25%. Basic Abilities also can be used before exploding, but deal no damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_archangelswrath.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Protection in Death</h5>
+          </div>
+          <div>When Archangel's Wrath explodes, shield nearby allies for 50% of their max Health for 10 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_regenerationmaster.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Regeneration Master</h5>
+          </div>
+          <div>Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.  Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_b.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bound by Law</h5>
+          </div>
+          <div>Increase El'druin's Might's Slow by 10%. Tyrael's Basic Attacks against enemies Slowed by El'druin's Might increase the Slow duration by 1 second, up to 4 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_smite.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Divine Vigor</h5>
+          </div>
+          <div>If Smite hits an enemy, Tyrael's Basic Attacks within the next 4 seconds heal for 50% of the damage dealt.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Stalwart Angel</h5>
+          </div>
+          <div>Gain 25 Armor while El'druin's Might is active, and for 3 seconds after teleporting.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_autoattack_heal.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Vigorous Strike</h5>
+          </div>
+          <div>Basic Attacks heal for 25% of the damage dealt to the primary target.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_smite.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Purge Evil</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div class="code-addition">Each enemy Hero hit by Smite increases Tyrael's Basic Attack damage by 35% for 4 seconds.</div>
+          <div class="code-deletion">Smite deals 30% more damage to Heroes.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_righteousness.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Reciprocate</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>When Tyrael's Shield from Righteousness expires <span class="code-addition">or is destroyed</span>, it deals 170 (+4% per level) damage to nearby enemies.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_smite_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Swift Retribution</h5>
+<span class="label label-info">Moved from level 4</span>          </div>
+          <div>Smite grants <span class="code-addition">20%</span> <span class="code-deletion">10%</span> more Movement Speed and <span class="code-addition">also grants 25% Attack Speed for 2 seconds</span> <span class="code-deletion">increases duration by 1 second</span>.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Angel's Grace</h5>
+          </div>
+          <div>After teleporting using El'druin's Might, gain 40% Movement Speed for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Follow Through</h5>
+          </div>
+          <div>After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_righteousness_var1.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Zealotry</h5>
+          </div>
+          <div>Increases the duration of Righteousness by 50%, and reduces its cooldown by 2 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_judgement.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Judgment</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 70
+            </span>
+          </div>
+          <div>After 0.75 seconds, charge an enemy Hero dealing 150 (+4% per level) damage and stunning them for 1.5 seconds. Nearby enemies are knocked away and take 75 (+4% per level) damage.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_sanctification.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sanctification</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>After 0.5 seconds create a field of holy energy that makes allied Heroes Invulnerable. Lasts 3 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_b.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Holy Ground</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Create a ring that blocks enemies from entering the area teleported to using El'druin's Might.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_zealous_conviction.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Law and Order</h5>
+          </div>
+          <div>Each enemy Hero hit by Smite reduces the cooldown of Righteousness by 1 second. Each allied Hero Shielded by Righteousness increases the damage of the next Smite by 25%.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sword of Justice</h5>
+          </div>
+          <div>Upon teleporting using El'druin's Might, El'druin swaps places with Tyrael, and El'druin's Might can be reactivated to teleport an additional time.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_righteousness.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Angelic Absorption</h5>
+          </div>
+          <div>Enemies that attack Tyrael while shielded grant 240 (+4% per level) Health over 4 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_smite.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Angelic Might</h5>
+          </div>
+          <div>Gain 80% increased damage on Tyrael's next Basic Attack within the next 5 seconds for each Hero hit by Smite.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_burningrage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Burning Rage</h5>
+          </div>
+          <div>Deal 23 (+4% per level) damage per second to nearby enemies.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_b.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Burning Halo</h5>
+          </div>
+          <div>While El'druin's Might is active, both Tyrael and El'druin deal 15 (+4% per level) damage per second to nearby enemies. For 3 seconds after teleporting, Tyrael continues to deal this damage and the damage amount is increased by 100%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Horadric Reforging</h5>
+<span class="label label-info">Moved from level 4</span>          </div>
+          <div class="code-addition">Tyrael's Basic Attacks reduce the cooldown of El'druin's Might by 1.5 seconds.</div>
+          <div class="code-deletion">If El'druin's Might hits an enemy, its cooldown is reduced by 5 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_smite.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Smite the Wicked</h5>
+          </div>
+          <div>While El'druin's Might is active, and for 3 seconds after teleporting, Smite's cooldown recharges 100% faster.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_eldruinsmight_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blade of Justice</h5>
+          </div>
+          <div>After teleporting using El'druin's Might, Tyrael's Attack Speed is increased by 50% for 5 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_bloodforblood.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blood for Blood</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to deal 10% of target enemy Hero's Max Health and heal for twice that amount.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_judgement.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Angel of Justice</h5>
+          </div>
+          <div>Increases the cast range of Judgment by 50%, and reduces the cooldown by 40 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_hardenedshield.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Defense of the Angels</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 120
+            </span>
+          </div>
+          <div>Activate to gain 40 Armor for 5 seconds.  Each time Righteousness's Shield absorbs damage, Defense of the Angel's cooldown is reduced by 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_tyrael_sanctification.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Holy Arena</h5>
+          </div>
+          <div>Increase the duration of Sanctification by 1 second and increase the damage of allies inside by 25%.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_autoattack_speed.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Seal of El'Druin</h5>
+          </div>
+          <div>Using a Basic Ability grants 50% Attack Speed for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_autoattack_slow.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nexus Blades</h5>
+          </div>
+          <div>Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrael20180116/storm_ui_icon_talent_hardenedshield.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nullification Shield</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 40
+            </span>
+          </div>
+          <div>Activate to gain 60 Spell Armor for 5 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
