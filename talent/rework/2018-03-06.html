@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Ana, Medivh, Sonya from 2018-03-06.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2018-03-06.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2018-03-06.html" />
+    <meta property="og:title" content="2018-03-06 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Ana, Medivh, Sonya." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/w_200,h_200,c_thumb,g_face/v1506393707/hero/ana.jpg" />
+        <title>2018-03-06 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=cF71L7YrqN" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2018-03-06 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Ana" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/ana.html">
+              <div class="hero-img hero-ana img-rounded"></div>
+              <div>Ana</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While Ana's current win-rate is sitting above most
+  other Healers, and North of 50%, we have made some changes to make her feel
+  more meaningful in solo-Support compositions. Along with the addition to self-
+  sustain through Shrike, we also took the opportunity to do some Talent
+  balancing as well. While there are no major outliers in terms of win-rate, she
+  definitely has some Talents that are overshadowing others in terms of pick-
+  rates. We have tried to address the majority of these to hopefully open up
+  some new strategic choices for Ana players. We really enjoyed the changes
+  internally, and we're excited to see what players can do with them.</p>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_healing_dart.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Healing Dart</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 15 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 2
+            </span>
+          </div>
+          <div>Fire a dart which heals the first allied Hero hit for <span class="code-addition">215</span> <span class="code-deletion">237</span> (+4% per level) Health.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_biotic_grenade.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Biotic Grenade</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 16
+            </span>
+          </div>
+          <div>Toss a Grenade at the target area. Allied Heroes hit are healed for 166 (+4% per level) Health and receive 25% increased healing <span class="code-addition">from Ana</span> for 4 seconds. Enemies hit take 60 (+4% per level) damage and receive 100% less healing for 2 seconds.</div>
+          <div class="text-warning">Range reduced from 15 to 12</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_sleep_dart.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sleep Dart</h5>          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 14
+            </span>
+          </div>
+          <div>Fire a dart that puts the first enemy Hero hit to Sleep, rendering them unable to act for 3 seconds. Sleep's effects end instantly if the target takes damage after the first 0.5 seconds. Cannot be used on Vehicles.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_overwatch.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Eye of Horus</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 45 
+<span class="code-deletion">75</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 45
+<span class="code-deletion">60</span>            </span>
+          </div>
+          <div>Assume a sniping position, gaining the ability to fire up to <span class="code-addition">6</span> <span class="code-deletion">8</span> specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 (+4% per level) and enemies are damaged for 166 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_nano_bost.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nano Boost</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 60 
+<span class="code-deletion">40</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 60
+<span class="code-deletion">50</span>            </span>
+          </div>
+          <div>Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_shrike.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shrike</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+          </div>
+          <div>Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 (+4% per level) damage over 5 seconds, and stacking up to 5 times.  <span class="code-addition">Every 0.5 seconds, Ana is healed for 50% of the damage dealt to Heroes by Shrike.</span></div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_detachableboxmagazine.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Detachable Box Magazine</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Quest: Stack 5 Doses on an enemy Hero. Reward: After reaching maximum Dosage 5 times, <span class="code-addition">Shrike also heals for the damage it deals to all enemies</span> <span class="code-deletion">Doses deal 50% increase damage to enemies with 5 Doses</span>. Reward: After reaching maximum Dosage 15 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_biotic_grenade.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Grenade Calibration</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Quest: Hit enemy Heroes with Biotic Grenade. Reward: After hitting 10 Heroes, Biotic Grenade does 75% more damage per allied and enemy Hero hit. Reward: After hitting 20 Heroes, Biotic Grenade's duration on allies is increased from 4 seconds to 12 seconds, its healing radius is increased by 100%, <span class="code-addition">and its healing amplification applies to all sources</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_sleep_dart.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Piercing Darts</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Quest: Hit Heroes with Sleep Dart. Reward: After hitting 10 Heroes, Sleep Dart now hits 2 Heroes and its range is increased by <span class="code-addition">25%</span> <span class="code-deletion">50%</span>. Reward: After hitting 20 Heroes, Healing Dart now hits 2 Heroes and its range is increased by <span class="code-addition">25%</span> <span class="code-deletion">50%</span>.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_aim_down_sights.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Aim Down Sights</h5><span class="label label-primary">Updated</span>
+          </div>
+          <div>Shrike can be activated to increase vision radius by 100% and Basic Attack range by 2 but reduce Movement Speed by 20%. Lasts until canceled. <span class="code-addition">Shrike activation cooldown reduced from 10 to 3 seconds
+</span></div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_biotic_grenade.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Air Strike</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Activate to use Biotic Grenade with a <span class="code-addition">275%</span> <span class="code-deletion">200%</span> increased range, but Grenades thrown this way take <span class="code-addition">3</span> <span class="code-deletion">4</span> seconds to land. Passive: Reduce Biotic Grenade cooldown by 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_sleep_dart.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Overdose</h5>
+          </div>
+          <div>Hitting enemies with Sleep Dart applies 3 Doses.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_debilitatingdart.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Debilitating Dart</h5><span class="label label-primary">Updated</span>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 20
+<span class="code-deletion">45</span>            </span>
+          </div>
+          <div>Activate to fire a dart which reduces the damage dealt by the first enemy Hero it hits by 50% for 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_shrike.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mind-Numbing Agent</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Every Dose a Hero has reduces their Spell Power by <span class="code-addition">10%</span> <span class="code-deletion">15%</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_sleep_dart.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Temporary Blindness</h5>
+          </div>
+          <div>After Sleep Dart's effects wear off, targets are Blinded for 2 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_overwatch.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Eye of Horus</h5><span class="label label-primary">Updated</span>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 45
+<span class="code-deletion">60</span>            </span>
+          </div>
+          <div>Assume a sniping position, gaining the ability to fire up to <span class="code-addition">6</span> <span class="code-deletion">8</span> specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 (+4% per level) and enemies are damaged for 166 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_nano_bost.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nano Boost</h5><span class="label label-primary">Updated</span>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 60
+<span class="code-deletion">50</span>            </span>
+          </div>
+          <div>Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_healing_dart_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Purifying Darts</h5>
+          </div>
+          <div>Healing Dart removes Roots and Slows from the target, and heals for 20% more when doing so.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_healing_dart_b.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Smelling Salts</h5>
+          </div>
+          <div>Healing Dart removes Stuns from the target, and grants them 50 Armor for 2 seconds when doing so.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_healing_dart.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Speed Serum</h5>
+          </div>
+          <div>Healing Dart grants 25% Movement Speed to affected Heroes for 2 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_healing_dart_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Concentrated Doses</h5>
+          </div>
+          <div>Increase Healing Dart's healing by 10% for each Dose active on enemy Heroes.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_biotic_grenade.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Contact Healing</h5>
+          </div>
+          <div>Biotic Grenade heals for 30% more per allied and enemy Hero hit.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_healing_dart.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sharpshooter</h5>
+          </div>
+          <div>Healing Dart's healing is increased by 5% each time it heals a Hero, up to 50%. This bonus is reset if Healing Dart fails to hit a Hero.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_overwatch.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ballistic Advantage</h5>
+          </div>
+          <div>Eye of Horus rounds explodes upon impact, healing nearby allies for 300 (+4% per level) and dealing 150 (+4% per level) damage to nearby enemy Heroes.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_aim_down_sights.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Custom Optics</h5>
+          </div>
+          <div>Increase the Aim Down Sights Basic Attack range bonus from 2 to 4.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_talent_autoattack_speed.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dynamic Shooting</h5>
+          </div>
+          <div>Basic Attacks increase Attack Speed by 10% for 4 seconds, up to 100%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_nano_bost.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nano Infusion</h5>
+          </div>
+          <div>Allies affected by Nano Boost heal for 50% of Spell Damage dealt.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/ana20180306/storm_ui_icon_ana_shrike.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Somnolent Doses</h5>
+          </div>
+          <div>Upon stacking 5 Doses, Heroes are put to Sleep for 2 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Medivh" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/medivh.html">
+              <div class="hero-img hero-medivh img-rounded"></div>
+              <div>Medivh</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong><a href="https://us.battle.net/heroes/en/blog/21508381">Developer Comment</a>:</strong></em> When 
+  looking at updating Medivh, we recognized his reputation as a challenging Hero who excels in the right 
+  hands. We absolutely love this about the Hero, and wanted to add even more opportunities for players to 
+  show off their skills while simultaneously reducing some of the frustration players can experience when 
+  playing against Medivh. To accomplish our goal of amping up the more fun and challenging aspects of the 
+  Hero, we are making a modified version of the Master's Touch talent a baseline quest for Medivh, and adding 
+  a version of the Reabsorption talent into Force of Will. On the other hand, in order to combat some of 
+  the frustrations experienced when playing against Medivh, we are reducing the overall uptime on both Force 
+  of Will and Portal. We think these changes, in combination with several exciting new talents, will allow 
+  enemies to effectively play around Medivh, while also rewarding those players who time clutch Force of 
+  Wills and land massive amounts of Arcane Rifts.</p>
+</blockquote>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 stats-label">Stats</div>
+            <div class="col-xs-12 col-sm-10 code-addition stats"><ul>
+<li>Health scaling increased from 4% to 4.5% per level</li>
+<li>Health Regeneration scaling increased from 4% to 4.5% per level</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_arcanemissile.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Arcane Rift</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 7
+            </span>
+          </div>
+          <div>Launch a rift that deals <span class="code-addition">170</span> <span class="code-deletion">200</span> (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.  <span class="code-addition">Quest: Hit 40 enemy Heroes with Arcane Rift without dying. Reward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_forceofwill.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Force of Will</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 60 
+<span class="code-deletion">50</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 8
+<span class="code-deletion">5</span>            </span>
+          </div>
+          <div>Protect an allied Hero from all damage for 1.5 seconds.  <span class="code-addition">Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_portal.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Portal</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 65 
+<span class="code-deletion">75</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 16
+<span class="code-deletion">20</span>            </span>
+          </div>
+          <div>Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_polybomb.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Poly Bomb</h5>          </div>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 40
+            </span>
+          </div>
+          <div>Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_leylineblast.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ley Line Seal</h5>          </div>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 80
+            </span>
+          </div>
+          <div>After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_ravenform.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Raven Form</h5>          </div>
+          <div>
+          </div>
+          <div>Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_portal.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Portal Mastery</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Medivh can manually place both Portal locations <span class="code-addition">and it no longer breaks Raven Form</span>.  Activate Medivh's Trait to cancel an unlinked Portal.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_ravenform_b.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Raven's Intellect</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Raven Form increases Medivh's <span class="code-addition">Mana and Health Regeneration by 75%</span> <span class="code-deletion">Mana Regeneration by 100%</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_ravenform.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Winds of Celerity</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Increases Raven Form's Movement Speed bonus by 50%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_dustofappearance.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dust of Appearance</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Activate to <span class="code-addition">greatly increase sight range for 5 seconds and</span> reveal enemy Heroes in the area for <span class="code-addition">8</span> <span class="code-deletion">10</span> seconds. Does not cancel Raven Form. <span class="code-addition">Passive: Increase Medivh's sight range while in Raven Form by 25%.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_portal.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mage Armor</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>The first time an ally uses a Portal, they gain <span class="code-addition">25 Armor for 4 seconds, reducing their damage taken by 25%</span> <span class="code-deletion">50 Physical Armor against the next 3 enemy Heroic Basic Attacks for 5 seconds</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_portal_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Raven Familiar</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>A Raven Familiar joins allies <span class="code-addition">each time</span> they use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds, dealing 114 (+4% per level) damage <span class="code-addition">and Slowing them by 30% for 2.5 seconds</span>.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_ravenform.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bird's Eye View</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Permanently increase Raven Form's vision range by 25%. Activate to increase this bonus to 200% for 5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_forceofwill.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Arcane Explosion</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">When Force of Will expires, it deals 90 (+4% per level) damage to nearby enemies, plus 100% of the damage it prevented, up to 365 (+4% per level) additional damage.</div>
+          <div class="code-deletion">The first time Force of Will absorbs damage, it deals 183 (+4% per level) damage to nearby enemies.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_forceofwill_b.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Force of Magic</h5>
+          </div>
+          <div>Preventing at least 268 (+4% per level) damage with a single cast of Force of Will grants 20% Spell Power for 12 seconds. Stacks up to 2 times.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_arcanemissile_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mystic Assault</h5>
+          </div>
+          <div>If Arcane Rift hits an enemy Hero, Medivh's next Basic Attack within 6 seconds deals 40% more damage and heals for 40% of the damage dealt.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_arcanemissile_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>The Master's Touch</h5>
+          </div>
+          <div>Quest: Hit 30 enemy Heroes with Arcane Rift without dying. Reward: Permanently increases the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_leylineblast.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ley Line Seal</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 80
+            </span>
+          </div>
+          <div>After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_polybomb.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Poly Bomb</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 40
+            </span>
+          </div>
+          <div>Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_forceofwill.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Circle of Protection</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div><span class="code-deletion">An untalented</span> Force of Will also applies to allies near the target.</div>
+          <div class="code-addition">Radius increased from 2.5 to 3</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_forceofwill_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Enduring Will</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div class="code-addition">Preventing at least 268 (+4% per level) damage with Force of Will reduces its cooldown to 3 seconds.</div>
+          <div class="code-deletion">Increases Force of Will duration by 33%.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_forceofwill_b.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Reabsorption</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div class="code-addition">Increase the amount of healing from Force Of Will to 50% of the damage it absorbed.</div>
+          <div class="code-deletion">Upon expiration, Force of Will heals the target for 50% of the damage it absorbed.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_portal_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Astral Projection</h5>
+          </div>
+          <div>Increases Portal cast range by 50%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_portal.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Quickening</h5>
+          </div>
+          <div>Reduces Portal cooldown by 50%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_arcanemissile.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Arcane Charge</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>When Arcane Rift damages an enemy Hero, the next Arcane Rift deals <span class="code-addition">15%</span> <span class="code-deletion">30%</span> more damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_portal.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Stable Portal</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div><span class="code-addition">Decrease Portal cooldown by 25% and</span> increase Portal duration by 50%.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_arcanemissile_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Temporal Flux</h5>
+          </div>
+          <div>Basic Attacks reduce Medivh's Heroic Ability cooldown by 1 second. Each enemy Hero hit by Arcane Rift reduces Medivh's Heroic Ability cooldown by 3 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_jaina_arcaneintellect.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Arcane Brilliance</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to instantly restore 200 mana to all nearby allied Heroes and grant them 10% Spell Power for 10 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_invisibility.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dust of Disappearance</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Stealth an allied Hero for 20 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Stores up to 2 charges.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_polybomb.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Glyph Of Poly Bomb</h5>
+          </div>
+          <div>Poly Bomb explodes 1 second sooner and the spread radius is increased by 25%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_arcanemissile.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Guardian of Tirisfal</h5>
+          </div>
+          <div>Minions and Catapults hit by Arcane Rift are instantly killed.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_leylineblast.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Medivh Cheats!</h5>
+          </div>
+          <div>Increase the duration of the Time Stop by 33% and gain the ability to redirect the wave once while it's active.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/medivh20180306/storm_ui_icon_medivh_invisibility.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Invisibility</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Stealth an allied Hero for 20 seconds. Stores up to 2 charges.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Sonya" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/sonya.html">
+              <div class="hero-img hero-sonya img-rounded"></div>
+              <div>Sonya</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong><a href="https://us.battle.net/heroes/en/blog/21508381">Developer Comment</a>:</strong></em> For Sonya, 
+  we love her core gameplay but have noticed that there is very little wiggle room in what's generally 
+  considered her default talent path. To combat this, we are opening up more survivability options so players 
+  don't feel pressured into always taking Nerves of Steel and Ignore Pain. We are also adding a couple of fun 
+  new tools into her arsenal, including more disruption options for Ancient Spear and a number of new talents 
+  for Seismic Slam that place more focus on area-of-effect damage. As an example, the Shattered Ground talent 
+  now also increases the splash range of Seismic Slam, allowing some interesting opportunities for poking 
+  opponents in lane, or dishing out tons of damage in a teamfight.</p>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_ancientspear.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ancient Spear</h5>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 13
+            </span>
+          </div>
+          <div>Throw out a spear that pulls you to the first enemy hit, dealing 173 (+4% per level) damage and briefly stunning them. If this hits an enemy, generate 40 Fury.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_seismicslam.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Seismic Slam</h5>          </div>
+          <div>
+            <span>Mana: 25 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 1
+            </span>
+          </div>
+          <div>Deals 176 (+4% per level) damage to the target enemy, and 44 (+4% per level) to enemies behind the target.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_whirlwind.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Whirlwind</h5>          </div>
+          <div>
+            <span>Mana: 40 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 5
+            </span>
+          </div>
+          <div>Deals 441 (+4% per level) damage to nearby enemies over 3 seconds, and heals for 25% of damage dealt. Healing tripled versus Heroes.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_leap.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Leap</h5>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 70
+            </span>
+          </div>
+          <div>Leap into the air, dealing 135 (+4% per level) damage to nearby enemies, and stunning them for 1.25 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_wrathoftheberserker.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wrath of the Berserker</h5>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Increase damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_fury.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fury</h5>          </div>
+          <div>
+          </div>
+          <div>Use Fury instead of Mana, which is gained by taking or dealing damage. Using a Basic or Heroic Ability grants 10% Movement Speed for 4 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_seismicslam.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Furious Blow</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div class="code-addition">Every 4th cast of Seismic Slam deals 40% more damage to the primary target and costs no Fury.</div>
+          <div class="code-deletion">Increases Seismic Slam damage by 50%, but costs 40 Fury.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_block.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Tough As Nails</h5>
+          </div>
+          <div>Every 16 seconds, gain 60 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 60%.  Stores up to 3 charges. Charges refresh 200% faster while Fury's Movement Speed bonus is active.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_autoattack_heal.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>War Paint</h5>
+          </div>
+          <div>Sonya's Basic Attacks heal for 30% of the damage dealt.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_block.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Block</h5>
+          </div>
+          <div>Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_fury.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shot of Fury</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Increases maximum Fury by 50. Sonya's Trait can be activated to gain 50 Fury.  Usable while Whirlwinding.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_mercenarylord.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Battle Rage</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Activate to instantly restore 10% of Sonya's maximum Health. Stores up to 3 charges. Passive: Sonya deals 25% more damage to Mercenaries.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_whirlwind.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hurricane</h5>
+          </div>
+          <div>Reduce the cooldown of Whirlwind by 1 second. Casting Whirlwind removes all Slows and Roots from Sonya.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_seismicslam.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shattered Ground</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div><span class="code-addition">Increase the length of Seismic Slam's splash by 66% and</span> increase its splash damage to 75% of its base damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Focused Attack</h5>
+          </div>
+          <div>Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_mercenarylord.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mercenary Lord</h5>
+          </div>
+          <div>Friendly non-Boss Mercenaries near your Hero deal 50% more damage. Gain 50 Armor against Minions and Mercenaries, reducing the damage taken by 50%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_whirlwind.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Life Funnel</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Increases the healing of Whirlwind to 35% of damage dealt.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_ancientspear.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Poisoned Spear</h5>
+          </div>
+          <div>Ancient Spear deals an additional 100% damage over 6 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_fury.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shot Of Fury</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 40
+            </span>
+          </div>
+          <div>Activate to gain 50 Fury. Usable while Whirlwinding. Passive: After casting Seismic Slam, your next Basic Attack deals 40% more damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_ferocioushealing.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ferocious Healing</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Consume 20 Fury to heal 10% of Sonya's maximum Health.  Usable while Whirlwinding.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Follow Through</h5>
+          </div>
+          <div>After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_leap.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Leap</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 70
+            </span>
+          </div>
+          <div>Leap into the air, dealing 135 (+4% per level) damage to nearby enemies, and stunning them for 1.25 seconds.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_wrathoftheberserker.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wrath of the Berserker</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Increase damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_ancientspear.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mystical Spear</h5>
+          </div>
+          <div>Reduces the cooldown of Ancient Spear by 3 seconds. Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_fury.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>No Escape</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Increases the Movement Speed bonus from using Basic and Heroic Abilities to <span class="code-addition">20%</span> <span class="code-deletion">25%</span>.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_whirlwind.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ruthless</h5>
+          </div>
+          <div>Whirlwind deals an additional 50 (+4% per level) damage per second to Heroes below 33% Health. Does not generate additional healing.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_seismicslam.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Aftershock</h5>
+          </div>
+          <div>Using Seismic Slam reduces its Fury cost by 50% for 2 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_spellshield.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Spell Shield</h5>
+          </div>
+          <div>Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_seismicslam.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Giant Slammer</h5>
+          </div>
+          <div>Seismic Slam deals an additional 2% of Heroes' maximum Health as damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_nervesofsteel.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nerves of Steel</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to gain 25% of your maximum Health as a Shield for 3 seconds. Usable while Whirlwinding.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Rampage</h5>
+          </div>
+          <div>Increase Basic Attack damage by 25%. Basic Attacks reduce the cooldown of Ancient Spear by 0.75 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_imposingpresence.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Imposing Presence</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_leap.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Arreat Crater</h5>
+          </div>
+          <div>Leap leaves behind an impassable crater for 5 seconds.  Reduces Leap's cooldown by 20 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_ancientspear.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Composite Spear</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>Increases Ancient Spear's range by <span class="code-addition">50%</span> <span class="code-deletion">30%</span>. <span class="code-addition">Hitting an enemy Hero with Ancient Spear grants 25 Armor for 4 seconds</span> <span class="code-deletion">increases Fury generated by 20</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_ignorepain.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ignore Pain</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to gain <span class="code-addition">60</span> <span class="code-deletion">75</span> Armor for 4 seconds, taking <span class="code-addition">60%</span> <span class="code-deletion">75%</span> less damage.  Usable while Whirlwinding.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_wrathoftheberserker.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Striding Giant</h5>
+          </div>
+          <div>Wrath of the Berserker increases maximum Health by 10% and grants Striding Giant, which can be activated to become Unstoppable for 2 seconds. 30 second cooldown.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_sonya_wrathoftheberserker.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Anger Management</h5>
+          </div>
+          <div>Increases all Fury generated during Wrath of the Berserker by 100%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/sonya20180306/storm_ui_icon_talent_autoattack_slow.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nexus Blades</h5>
+          </div>
+          <div>Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.</div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
