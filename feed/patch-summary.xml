@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-04-12T01:25:00.000Z</updated>
+  <updated>2018-04-24T16:15:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-04-24 Patch Notes v 2.32.0</title>
+    <published>2018-04-24T16:15:00.000Z</published>
+    <updated>2018-04-24T16:15:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-04-24-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-04-24-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/deckard.png" alt="Deckard" height="60" width="60" /> Deckard</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-04-24" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2018-04-24" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-04-24" target="_blank">Fenix</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2018-04-24" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2018-04-24" target="_blank">Sylvanas</a>, 
+          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-04-24" target="_blank">Zagara</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-04-11 Balance Update v 2.31.2</title>
     <published>2018-04-12T01:25:00.000Z</published>
@@ -241,46 +263,6 @@
       </ul>
       <h4>Reworks</h4>
         <img src="https://heroespatchnotes.com/images/hero/tyrael.png" href="https://heroespatchnotes.com/hero/tyrael.html#patch2018-01-16" alt="Tyrael Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-01-09 Patch Notes v 2.29.7</title>
-    <published>2018-01-09T18:30:00.000Z</published>
-    <updated>2018-01-09T18:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-01-09-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-01-09-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/blaze.png" alt="Blaze" height="60" width="60" /> Blaze</h3>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Regen Globes: healing reduced 23%, mana regen reduced 10%</p>
-</li>
-        <li><p>Gate, Fort, and Keep damage increased 33% vs "Minions, Mercenaries, Monsters, and Heroes"; Keep health increased 6%</p>
-</li>
-        <li><p>Mercenary updates: Hellbats and Warhead Junction boss have health and early-game scaling reduced, late-game scaling increased; Knight camp spell armor now equal between defender and laner</p>
-</li>
-        <li><p>Towers of Doom: Altar respawn increased 20 seconds</p>
-</li>
-        <li><p>Battlefield of Eternity: first immortal spawn and swap events are now fixed; first spawn will be "Heaven South, Hell North", first swap will be "Heaven East, Hell West"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-01-09" target="_blank">Blaze</a>, 
-          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2018-01-09" target="_blank">Garrosh</a>, 
-          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-01-09" target="_blank">Hanzo</a>, 
-          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2018-01-09" target="_blank">Johanna</a>, 
-          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2018-01-09" target="_blank">Malfurion</a>, 
-          <a href="https://heroespatchnotes.com/hero/nova.html#patch2018-01-09" target="_blank">Nova</a>, 
-          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2018-01-09" target="_blank">Samuro</a>, 
-          <a href="https://heroespatchnotes.com/hero/valeera.html#patch2018-01-09" target="_blank">Valeera</a>, 
-          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2018-01-09" target="_blank">Zeratul</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/malfurion.png" href="https://heroespatchnotes.com/hero/malfurion.html#patch2018-01-09" alt="Malfurion Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
