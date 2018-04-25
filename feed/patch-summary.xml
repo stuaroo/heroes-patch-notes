@@ -15,6 +15,16 @@
     <content type="html"><![CDATA[
       <h4>New</h4>
         <h3><img src="https://heroespatchnotes.com/images/hero/deckard.png" alt="Deckard" height="60" width="60" /> Deckard</h3>
+      <h4>UI/Hotkey</h4>
+      <ul>
+        <li><p>Draft lobbies now use 2D portraits instead of animated 3D models to make Heroes "easier to differentiate from one another at a glance"</p>
+</li>
+      </ul>
+      <h4>Battleground</h4>
+      <ul>
+        <li><p>Warhead Junction: Boss no longer burrows, launched Slime Pods explode "on impact and no longer spawn Podlings", Pods can now damage Structures</p>
+</li>
+      </ul>
       <h4>Heroes Affected</h4>
       <ul>
         <li>
