@@ -15,6 +15,10 @@
     <content type="html"><![CDATA[
       <h4>Heroes Affected</h4>
       <ul>
+        <li><p>Tracer: Recall (E) "destination is now visible to enemies"</p>
+</li>
+        <li><p>Ana: Shrike (Trait) "now Heals Ana for Dose damage dealt to all enemies"</p>
+</li>
         <li>
           <a href="https://heroespatchnotes.com/hero/ana.html#patch2018-05-09" target="_blank">Ana</a>, 
           <a href="https://heroespatchnotes.com/hero/auriel.html#patch2018-05-09" target="_blank">Auriel</a>, 
