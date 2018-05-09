@@ -2,10 +2,817 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-05-01T18:37:00.000Z</updated>
+  <updated>2018-05-09T17:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-05-09 Balance Update</title>
+    <published>2018-05-09T17:30:00.000Z</published>
+    <updated>2018-05-09T17:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-05-09-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-05-09-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-may-9-2018">Heroes of the Storm Patch Notes – May 9, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/21749146" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/21749146" target="_blank">Official Patch Notes</a> <small>v 2.32.2</small></div>
+
+<p>We've just released a new Heroes of the Storm patch to apply a number of
+balance changes and bug fixes.</p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#specialist">Specialist</a></th>
+  <th><a href="#support">Support</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#fenix">Fenix</a></td>
+  <td><a href="#medivh">Medivh</a></td>
+  <td><a href="#ana">Ana</a></td>
+  <td><a href="#garrosh">Garrosh</a></td>
+</tr>
+<tr>
+  <td><a href="#guldan">Gul'dan</a></td>
+  <td></td>
+  <td><a href="#auriel">Auriel</a></td>
+  <td><a href="#sonya">Sonya</a></td>
+</tr>
+<tr>
+  <td><a href="#hanzo">Hanzo</a></td>
+  <td></td>
+  <td><a href="#deckard">Deckard</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#kaelthas">Kael'thas</a></td>
+  <td></td>
+  <td><a href="#li-li">Li Li</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#maiev">Maiev</a></td>
+  <td></td>
+  <td><a href="#lt-morales">Lt. Morales</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#thrall">Thrall</a></td>
+  <td></td>
+  <td><a href="#malfurion">Malfurion</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#tracer">Tracer</a></td>
+  <td></td>
+  <td><a href="#stukov">Stukov</a></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#tychus">Tychus</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="fenix">Fenix</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 1200 to 1140.</li>
+<li>Health Regeneration reduced from 2.50 to 2.38.</li>
+<li>Shields reduced from 800 to 760.</li>
+<li>Shield Regeneration reduced from 80 to 76.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Weapon Mode: Phase Bomb (W)</strong>
+<ul>
+<li>Basic Attack range bonus reduced from 1.5 to 1.25.</li>
+</ul></li>
+<li><strong>Warp (E)</strong>
+<ul>
+<li>Cooldown increased from 15 to 17 seconds.</li>
+<li>Range reduced from 11 to 9.</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="guldan">Gul'dan</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Glyph of Drain Life (W)
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li>Chaotic Energy (Passive)
+<ul>
+<li>Adjusted functionality:
+<ul>
+<li>Increases Drain Life's range by 25%.</li>
+<li>Regeneration Globes restore 50% more Health and Mana.</li>
+<li><strong>Reward:</strong> After collecting 20 Regeneration Globes, reduce all Mana costs by 20.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Health Funnel (W)
+<ul>
+<li>Additional functionality:
+<ul>
+<li>Drain Life's cooldown recharges 100% faster while it is active.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Devour the Frail (W)
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li>Curse of Exhaustion (E)
+<ul>
+<li>Adjusted functionality:
+<ul>
+<li>When Drain Life is cast on an enemy who is affected by Corruption, it deals 50% increased damage and Slows the target by 25%.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Haunt (R)
+<ul>
+<li>Armor reduction amount decreased from 25 to 20.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Our resident warlock has been in and out of the meta
+  a couple times since his epic release and his Talent tree has become a bit
+  lopsided. We began these changes by looking at Rain of Destruction (even going
+  as far as testing the Ability without a channel!) but quickly realized that we
+  would need more than just a balance patch to appropriately address the Heroic.
+  We were, however, able to make some Talent adjustments that will hopefully
+  give players fun new ways to drain the life from their opponents!</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="hanzo">Hanzo</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack range decreased from 7.5 to 6.5.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Natural Agility (Trait)</strong>
+<ul>
+<li>Range decreased from 10 to 9.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li>Level 4
+<ul>
+<li>Explosive Arrows (Q)
+<ul>
+<li>Area of effect damage reduced from 100% to 75%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These changes require Hanzo to put himself at greater
+  risk to deal the considerable amount of damage that he can dish out over the
+  course of a game. While we believe Hanzo has a unique place as an Assassin who
+  specializes in using his superior range to kite enemies, he was able to do so
+  too safely, which was crowding out other ranged Assassins.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="kaelthas">Kael'thas</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Energy Roil (E)
+<ul>
+<li>Additional functionality:
+<ul>
+<li>Passively reduces the Mana cost of Gravity Lapse by 70.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Sunfire Enchantment (Trait)
+<ul>
+<li>Spell Damage reduced from 165 to 115.</li>
+<li>Number of empowered Basic Attacks increased from 1 to 2.</li>
+<li>If both empowered Basic Attacks hit enemy Heroes, gain 15% Spell Power for 10 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Pyromaniac (W)
+<ul>
+<li>Cooldown reduction applied per tick of Living Bomb damage decreased from 1 to 0.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Arcane Dynamo (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Ignite (Q)</strong>
+<ul>
+<li>Flamestrikes that hit enemy Heroes also afflict them with Living Bomb.</li>
+<li>Only 1 Living Bomb can be applied per Flamestrike cast.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Presence of Mind
+<ul>
+<li>Hitting enemy Heroes with Pyroblast no longer reduces its cooldown.</li>
+<li>New functionality:
+<ul>
+<li>Heroes who are hit by Flamestrike or have Living Bomb spread to them reduce the cooldown of Pyroblast by 10 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're taking passes at some older Talent trees that,
+  while not in need of a full rework, could use some design tweaks. The changes
+  to Kael'thas in particular went through quite a bit of iteration. We're happy
+  to report that, unlike some of the insane Talents we tried internally, we
+  managed to re-imagine and restore the power of Ignite!</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="maiev">Maiev</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2150 to 2021.</li>
+<li>Health Regeneration reduced from 4.48 to 4.21.</li>
+<li>Basic Attack damage reduced from 150 to 145.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Vault of the Wardens (R)</strong>
+<ul>
+<li>Cooldown increased from 12 to 13 seconds.</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="thrall">Thrall</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Chain Lightning (Q)</strong>
+<ul>
+<li>Damage reduced from 178 to 162.</li>
+<li>Bounce damage reduced from 89 to 81.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Rolling Thunder (Q)
+<ul>
+<li>No longer increases Chain Lightning's range.</li>
+<li>New functionality:
+<ul>
+<li>Hitting a marked enemy restores 2.5% of Thrall's maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Frostwolf Pack (W)
+<ul>
+<li>Quest requirement reduced from 7 to 6 Hero hits.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="tracer">Tracer</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Recall (E)</strong>
+<ul>
+<li>Tracer's Recall destination is now visible to enemies.</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="tychus">Tychus</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Overkill (Q)</strong>
+<ul>
+<li>Cooldown reduced from 13 to 12 seconds.</li>
+<li>Mana cost reduced from 65 to 60.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Fully Loaded (Trait)
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li>The Bigger They Are (Trait)
+<ul>
+<li>Additional functionality:
+<ul>
+<li>Reduces Minigun's cooldown by 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="medivh">Medivh</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Arcane Explosion (W)
+<ul>
+<li>Bonus area of effect damage reduced from 100% to 50% of the damage prevented by Force of Will.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="ana">Ana</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Shrike (Trait)</strong>
+<ul>
+<li>Now Heals Ana for Dose damage dealt to all enemies, rather than only the damage dealt to Heroes.</li>
+</ul></li>
+<li><strong>Healing Dart (Q)</strong>
+<ul>
+<li>Mana cost reduced from 15 to 10.</li>
+</ul></li>
+<li><strong>Nano Boost (R)</strong>
+<ul>
+<li>Cooldown increased from 60 to 70 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Detachable Box Magazine (Passive)
+<ul>
+<li>First reward removed</li>
+<li>Second reward requirements reduced from 15 to 12 maximum Dosage stacks.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Debilitating Dart (Active)
+<ul>
+<li>Reduced damage duration decreased from 4 to 3 seconds.</li>
+<li>Additional functionality:
+<ul>
+<li>Also Slows the target by 50%.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While Ana is showing a positive win rate, we're still
+  not seeing her picked up in the solo-Support position as often as we'd like.
+  These changes should allow her to stick around longer in fights and limit wear
+  and tear on your Hearthstone hotkey.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="auriel">Auriel</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Bestow Hope (Trait)</strong>
+<ul>
+<li>Energy stored when Auriel hits non-Heroes increased from 5% to 10% of the damage dealt.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Repeated Offense (E)
+<ul>
+<li>Additional functionality:
+<ul>
+<li>Increases Detainment Strike's knockback distance by 25%.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Repelling Strike (E)
+<ul>
+<li>Removed.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Diamond Resolve (R)
+<ul>
+<li>Armor granted upon Crystal Aegis expiration increased from 60 to 75.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="deckard">Deckard</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Lorenado (R)</strong>
+<ul>
+<li>Cooldown reduced from 45 to 40 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Sapphire (Active)
+<ul>
+<li>Bonus Slow amount increased from 25% to 30%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Ruby (Active)
+<ul>
+<li>Lesser Healing Potion Heal amount increased from 190 to 205.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Ancient Blessings (Active)
+<ul>
+<li>Damage reduced from 76 to 72.</li>
+<li>Healing reduced from 114 to 106.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Bottomless Flask (Q)
+<ul>
+<li>Healing Potion recharge rate increased from 5 to 6 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Deckard's foray into the Nexus has been incredibly
+  successful from a balance perspective. He's sitting at a healthy win rate of
+  anywhere between 47% and 51% in high level play, depending on the experience
+  of the Deckard player. Many of his Talents are also looking to be in good
+  shape. We're making some tuning changes intended to adjust under and
+  overperforming Talents without impacting his overall win rate too much.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="li-li">Li Li</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Wind Serpent (W)
+<ul>
+<li>No longer reduces Cloud Serpent's cooldown.</li>
+</ul></li>
+<li>Eager Adventurer (Trait)
+<ul>
+<li>Fast Feet duration bonus increased from 50% to 100%.</li>
+<li>Mana regeneration bonus reduced from 150% to 100%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Safety Sprint (Trait)
+<ul>
+<li>Additional Functionality:
+<ul>
+<li>Passively increases Fast Feet's base Movement Speed bonus from 10% to 15%.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Blessings of Yu'lon (W)
+<ul>
+<li>Healing reduced from 1.5% to 1.25% of maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lt-morales">Lt. Morales</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Trauma Trigger (Passive)
+<ul>
+<li>Cooldown reduced from 60 to 30 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Extended Care (Q)
+<ul>
+<li>Range bonus reduced from 40 to 30%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="malfurion">Malfurion</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 1598 to 1525.</li>
+<li>Health Regeneration reduced from 3.33 to 3.18.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Moonfire (W)</strong>
+<ul>
+<li>Healing reduced from 135 to 130.</li>
+</ul></li>
+<li><strong>Twilight Dream (R)</strong>
+<ul>
+<li>Damage reduced from 355 to 310.</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="stukov">Stukov</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Bio-Kill Switch (Trait)</strong>
+<ul>
+<li>Healing reduced from 475 to 435.</li>
+</ul></li>
+<li><strong>Lurking Arm (E)</strong>
+<ul>
+<li>Cooldown increased from 8 to 10 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Growing Infestation (E)
+<ul>
+<li>Additional cooldown duration increased from 4 to 5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>One Good Spread (Q)
+<ul>
+<li>Mana restoration reduced from 30 to 10.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>It Hungers (E)
+<ul>
+<li>Mana restoration increased from 5 to 10.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="garrosh">Garrosh</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Groundbreaker (Q)</strong>
+<ul>
+<li>Stun duration reduced from 0.75 to 0.5 seconds.</li>
+<li>Slow amount increased from 35% to 40%.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Rough Landing (Q)
+<ul>
+<li>Bonus Slow amount reduced from 15% to 10%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These changes are meant to make the immediate
+  aftermath of being thrown by Wrecking Ball a little less punishing for
+  Garrosh's opponents, particularly when he throws an enemy Hero and then Stuns
+  them with Groundbreaker. We're slightly reducing Groundbreaker's Stun duration
+  so that enemy Heroes can more quickly pop defensive cooldowns to try to
+  survive. We're also compensating Garrosh with a slight increase to
+  Groundbreaker's Slow. This way, he can still reliably catch enemies if he
+  starts with Groundbreaker and wants to close in for a throw.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="sonya">Sonya</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Hurricane (E)
+<ul>
+<li>Cooldown reduction increased from 1 to 2 seconds.</li>
+</ul></li>
+<li>Shot of Fury (Trait)
+<ul>
+<li>Moved from Level 7.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Battle Rage (Active)
+<ul>
+<li>Moved from Level 4.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Mystical Spear (Q):
+<ul>
+<li>New functionality:
+<ul>
+<li>Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy. When used this way, its cooldown is reduced by 5 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Battle Rage is proving to be the dominant pick on its
+  Talent tier and provides a lot of generic power to Sonya's kit. Rather than
+  nerf it, we're placing it against stronger Talents at Level 7 to lessen the
+  amount of generic power she can get overall. Similarly, Mystical Spear at 13
+  is giving a bit too much raw power in addition to its utility. It should now
+  be more in-line with the more situational Talents at that tier.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Dragon Shire:</strong> When attempting to capture a Dragon Knight, Channeling is now correctly paused when hit by a Time Stop effect, like Zeratul's Void Prison.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Deckard:</strong> Non-Hero allied units no longer receive area of effect Healing from the Potion of Revival Talent.</li>
+<li><strong>Falstad:</strong> Lightning Rod cooldown reduction applied by the Wingman Talent now correctly appends to both Lightning Rod's Ability tooltip and Wingman's Active Bar tooltip.</li>
+<li><strong>Fenix:</strong> Purification Salvo Channeling can no longer be interrupted by displacement effects, like Raynor's Penetrating Round.</li>
+<li><strong>Hearthstone:</strong> Fixed an issue in which certain Hero Abilities would not interrupt Hearthstone Channeling.</li>
+<li><strong>Ice Block:</strong> Fixed an issue in which certain Abilities remained castable during Ice Block.</li>
+<li><strong>Li Li:</strong> Upon activating Safety Sprint, Fast Feet now correctly persists for its full 3 second duration.</li>
+<li><strong>Stukov:</strong> The It Hungers Talent no longer grants cooldown reduction to Lurking Arm if the Ability is cast without hitting any enemy Heroes.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p>Head to the official Heroes of the Storm forums to share your feedback with us
+and discuss this post with other players.</p>
+
+<p><a href="https://us.battle.net/forums/en/heroes/index">Official Heroes Forums</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-05-01 Hotfix Patch</title>
     <published>2018-05-01T18:37:00.000Z</published>
@@ -7863,1000 +8670,6 @@ changes to Tyrael and a number of bug fixes.</p>
 <li><strong>Malfurion &amp; Zagara:</strong> Nature’s Cure can no longer cleanse Heroes of the Devouring Maw effect.</li>
 <li><strong>Uther:</strong> The Well Met talent will no longer affect non-Heroic units.</li>
 <li><strong>Valeera:</strong> The Strangle talent will no longer affect non-Heroic units.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-01-09 Patch Notes</title>
-    <published>2018-01-09T18:30:00.000Z</published>
-    <updated>2018-01-09T18:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-01-09-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-01-09-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-january-9-2018">Heroes of the Storm Patch Notes — January 9, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21349574" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21349574" target="_blank">Official Patch Notes</a> <small>v 2.29.7</small></div>
-
-<p>Our next Heroes of the Storm patch has just arrived along with Blaze, Veteran
-Firebat.</p>
-
-<hr />
-
-<h3 id="new-hero-blaze">New Hero: Blaze</h3>
-
-<p>Cpl. Miles "Blaze" Lewis has always been drawn to the flame, but it wasn't
-until he joined up with Raynor's Raiders that he put his pyromania to good
-use. He's seen his fair share of battles since then, and has never failed to
-bring the heat.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Pyromania</strong>
-<ul>
-<li>Gain 25 Armor and deal 40 damage to nearby enemies every 0.5 seconds for 4 seconds. Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Flame Stream (Q)</strong>
-<ul>
-<li>Fire two streams of flame that deal 83 damage to enemies hit. Flame Stream sets fire to Oil Spills it comes in contact with.</li>
-</ul></li>
-<li><strong>Oil Spill (W)</strong>
-<ul>
-<li>Vector Targeting. </li>
-<li>Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 40%. Flame Stream can set Oil Spills on fire for 2.5 seconds, dealing 18 damage every 0.3 seconds to enemies inside. While on fire, Oil Spills no longer Slow enemies. Additionally, Blaze is Healed for 49 Health every 0.3 seconds while standing in flaming Oil Spills. Stores up to 2 charges.</li>
-</ul></li>
-<li><strong>Jet Propulsion (E)</strong>
-<ul>
-<li>After 0.5 seconds, charge forward, colliding with the first enemy Hero hit, dealing 52 damage to them and nearby enemy Heroes. Enemies hit are also Stunned for 1.25 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Bunker Drop (R)</strong>
-<ul>
-<li>After 0.5 seconds, deploy and enter a Bunker with 1300 Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.</li>
-</ul></li>
-<li><strong>Combustion (R)</strong>
-<ul>
-<li>Channel up to 2.6 seconds. Once Channeling ends, nearby enemies are Slowed by 60% and take 48 damage every 0.5 seconds. Combustion's Slow and damage over time durations are extended the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="art">Art</h3>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li>Malfurion has received updated visual effects to coincide with Talent changes.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<p><strong>Regeneration Globes</strong></p>
-
-<ul>
-<li>Total Health regen over 5 seconds reduced from 11.7% Maximum Health to 9%</li>
-<li>Total Mana regen over 5 seconds reduced from 7.8% Maximum Mana to 7%</li>
-</ul>
-
-<p><strong>Mercenaries</strong></p>
-
-<ul>
-<li><strong>Hellbats</strong>
-<ul>
-<li>Defender
-<ul>
-<li>Armor Shred amount reduced from 5 to 4% per stack</li>
-<li>Base Health reduced from 4275 to 3420</li>
-</ul></li>
-<li>Laner
-<ul>
-<li>Armor Shred amount reduced from 5 to 4% per stack</li>
-<li>Base Health reduced from 4700 to 3760
-<ul>
-<li>Health Scaling (Minutes 1-5) reduced from 50 to 40</li>
-<li>Health Scaling (Minutes 6-10) increased from 75 to 110</li>
-<li>Health Scaling (Minutes 11 -15) increased from 100 to 150</li>
-<li>Health Scaling (Minutes 16-20) increased from 125 to 235</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Knights</strong>
-<ul>
-<li>Defender Mage Knight
-<ul>
-<li>Spell Armor Aura amount increased from 15 to 20</li>
-</ul></li>
-<li>Laner Mage Knight
-<ul>
-<li>Spell Armor Aura amount reduced from 30 to 20</li>
-</ul></li>
-</ul></li>
-<li><strong>Slime Boss (Warhead Junction)</strong>
-<ul>
-<li>Laner
-<ul>
-<li>Base Health amount reduced from 20000 to 16000
-<ul>
-<li>Scaling (Minutes 1-5) reduced from 630 to 500</li>
-<li>Scaling (Minutes 6-10) increased from 945 to 1050</li>
-<li>Scaling (Minutes 11 -15) increased from 1260 to 1400</li>
-<li>Scaling (Minutes 16-20) increased from 1575 to 2250</li>
-</ul></li>
-<li>Base Basic Attack damage reduced from 400 to 320
-<ul>
-<li>Scaling (Minutes 1-5) reduced from 10 to 8</li>
-<li>Scaling (Minutes 6-10) increased from 15 to 17</li>
-<li>Scaling (Minutes 11 -15) increased from 20 to 23</li>
-<li>Scaling (Minutes 16-20) increased from 25 to 38</li>
-</ul></li>
-<li>Base Spit impact damage reduced from 250 to 200
-<ul>
-<li>Scaling (Minutes 6-10) increased from 5 to 6.25%</li>
-<li>Scaling (Minutes 11 -15) increased from 6 to 7.25%</li>
-<li>Scaling (Minutes 16-20) increased from 6 to 8.25%</li>
-</ul></li>
-<li>Base Spit ‘Damage over Time’ damage reduced from 150 to 120
-<ul>
-<li>Scaling (Minutes 6-10) increased from 5 to 6.25%</li>
-<li>Scaling (Minutes 11 -15) increased from 6 to 7.25%</li>
-<li>Scaling (Minutes 16-20) increased from 6 to 8.25%</li>
-</ul></li>
-<li>Acid Trail Base damage reduced from 80 to 64
-<ul>
-<li>Scaling (Minutes 6-10) increased from 5 to 6.25%</li>
-<li>Scaling (Minutes 11 -15) increased from 6 to 7.25%</li>
-<li>Scaling (Minutes 16-20) increased from 6 to 8.25%</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Forts</strong></p>
-
-<ul>
-<li>Gate Tower Damage to Minions, Mercenaries, Monsters, and Heroes increased by 33%.</li>
-<li>Fort Damage to Minions, Mercenaries, Monsters, and Heroes increased by 33%</li>
-</ul>
-
-<p><strong>Keeps</strong></p>
-
-<ul>
-<li>Gate Tower Damage to Minions, Mercenaries, Monsters, and Heroes increased by 33%</li>
-<li>Keep Damage to Minions, Mercenaries, Monsters, and Heroes increased by 33%</li>
-<li>Keep Health increased from 16,000 to 17,000</li>
-</ul>
-
-<p><strong>Towers of Doom</strong></p>
-
-<ul>
-<li>Altar respawn time increased from 90 to 110 seconds.</li>
-</ul>
-
-<p>​<strong>Battlefield of Eternity</strong></p>
-
-<ul>
-<li>The initial stage of the first event will always be South vs North (Heaven South, Hell North)</li>
-<li>The second stage of the first event will always be East vs West (Heaven East, Hell West)
-<ul>
-<li>All subsequent event stages will be randomized</li>
-</ul></li>
-<li>The Minimap will now indicate upcoming Immortal spawn locations 30 seconds after the game begins.
-<ul>
-<li>Subsequent Immortal indicators will appear on the Minimap shortly after a previously summoned Immortal has been defeated.</li>
-<li>Swap locations will not appear on the Minimap when an Immortal has been reduced to 50% Health.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> As expected, our gameplay update for 2018 resulted in
-  large changes to many of our game systems. While we’re overall happy with the
-  direction of the update, there have been some unintended side effects that
-  we’re hoping to remedy. We overestimated how much more powerful unlimited ammo
-  would be for Structures, and as a result pushing mechanics have become too
-  strong, resulting in lower game times on nearly all maps. We’re giving our
-  towers some of their teeth back with this update, which should help teams hold
-  pushes from Mercenary Camps and map events. We’re also making some tuning
-  changes to some of our Mercenary Camps now that we have had some time to see
-  how they have been performing. Hellbats and Knights in particular are pushing
-  harder than we would like, so we’re reducing their power. We’re also taking a
-  look at the Warhead Junction boss and reducing its early and mid-game pushing
-  power, as right now it is too strong when combined with Nukes from the map
-  event. Lastly, we are reducing the power of Regeneration Globes. While we like
-  the new mini-game that Neutral Regen globes provide in the laning phase, we
-  are not comfortable with how much they are currently benefitting the team that
-  is ahead while they are pushing into a defending team. We’re also seeing
-  players picking up more Regeneration Globes in general, so this will help to
-  keep the game’s overall sustain in check. These are some hefty changes, and
-  it’s likely that there will be more needed to be done over time as things
-  continue to settle. We’ll be keeping an eye on things, and are prepared to
-  make more updates as they’re needed.</p>
-</blockquote>
-
-<p>​<strong>Heroes Brawl</strong></p>
-
-<ul>
-<li><strong>Dodge Brawl</strong>
-<ul>
-<li>Chromie’s Health has been increased from 3 to 5</li>
-<li>Ghost Chromies now display player names overhead</li>
-<li>The in-game camera will now lock to Ghost Chromie until a new round begins</li>
-</ul></li>
-</ul>
-
-<p><strong>Ranked Battleground Rotation</strong></p>
-
-<ul>
-<li><strong>Removed</strong>
-<ul>
-<li>​Warhead Junction</li>
-</ul></li>
-<li><strong>​Added</strong>
-<ul>
-<li>​Volskaya Foundry</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#hanzo">Hanzo</a></td>
-  <td><a href="#malfurion">Malfurion</a></td>
-  <td><a href="#blaze">Blaze</a></td>
-</tr>
-<tr>
-  <td><a href="#nova">Nova</a></td>
-  <td></td>
-  <td><a href="#garrosh">Garrosh</a></td>
-</tr>
-<tr>
-  <td><a href="#samuro">Samuro</a></td>
-  <td></td>
-  <td><a href="#johanna">Johanna</a></td>
-</tr>
-<tr>
-  <td><a href="#valeera">Valeera</a></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#zeratul">Zeratul</a></td>
-  <td></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="hanzo">Hanzo</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Scatter Arrow (W)</strong>
-<ul>
-<li>Spread of Scatter Arrows narrowed by 20%</li>
-<li>Damage reduced from 93 to 90</li>
-</ul></li>
-<li><strong>Natural Agility (D)</strong>
-<ul>
-<li>Cooldown reduced from 25 to 20 seconds</li>
-<li>Range increased from 8 to 10</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Shieldbreaker (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Sharpened Arrowheads (W)
-<ul>
-<li>Moved from level 20</li>
-<li>New functionality:
-<ul>
-<li>Hitting a Hero with Storm Bow or Basic Attacks reduces their Armor by 5 for 4 seconds, stacking up to 25.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Mounted Archery (Z)
-<ul>
-<li>Bonus Movement Speed reduced from 30 to 20%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Giant Slayer (W)
-<ul>
-<li>Damage increased from 1.25 to 1.5% of enemy Hero’s Health</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>(New) Perfect Agility (D)</strong>
-<ul>
-<li>Gain a second charge of Natural Agility, and reduce the cooldown by 5 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We’re reducing the spread of Scatter Arrows so that
-  they’re more effective when opponents aren’t directly next to a wall, while
-  also reducing the damage slightly to compensate. We’ve increased the range of
-  Natural Agility so that it will jump over a wider variety of terrain. We’ve
-  also removed Shieldbreaker because we found that it required a very specific
-  set of circumstances to be effective, but it was extremely powerful in those
-  rare situations. We’ve moved Sharpened Arrowheads to replace it while changing
-  its functionality to be more consistent in all situations.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="nova">Nova</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Snipe (Q)</strong>
-<ul>
-<li>Damage reduced from 245 to 230</li>
-</ul></li>
-<li><strong>Pinning Shot (W)</strong>
-<ul>
-<li>Damage reduced from 105 to 100</li>
-</ul></li>
-<li><strong>Precision Strike (R)</strong>
-<ul>
-<li>Damage reduced from 456 to 435</li>
-</ul></li>
-<li><strong>Precision Sniper (Trait)</strong> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2018-01-09-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li>Damage per stack increased from 5 to 6%</li>
-<li><span class="text-warning">Maximum stacks increased from 25 to 30%</span></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Perfect Shot (Q)
-<ul>
-<li>Cooldown refund for hitting Heroes increased from 2 to 3 seconds</li>
-</ul></li>
-<li>One in the Chamber (Passive)
-<ul>
-<li>Damage bonus reduced from 70 to 60%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Lethal Decoy (E)
-<ul>
-<li>Clone damage reduced from 40 to 35%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> It’s nice to see that the recent changes to Nova have
-  been so widely embraced by players. However, with the addition of some new
-  escape tools and her ability to have multiple clones out at once, we feel like
-  her damage potential against single targets is still a bit too high. Our data
-  is showing that her talent tree is in a very good spot balance wise (besides a
-  couple outliers, which you see here) so we are also lowering her base output
-  and compensating by increasing Precision Sniper’s damage.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="samuro">Samuro</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health increased from 1650 to 1725</li>
-<li>Health Regen increased from 3.4 to 3.6</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Mirror Image (Q)</strong>
-<ul>
-<li>Image Health increased from 825 to 862.5</li>
-<li>Image Health Regen increased from 1.7 to 1.8</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Deflection (Trait)
-<ul>
-<li>Armor increased from 25 to 30</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Burning Blade (W)
-<ul>
-<li>Damage bonus decreased from 65 to 50%</li>
-</ul></li>
-<li>Phantom Pain (W)
-<ul>
-<li>Damage bonus increased from 40 to 45%</li>
-</ul></li>
-<li>Crushing Blows (W)
-<ul>
-<li>Cooldown reduction increased from 1.5 to 1.75 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Samuro’s rework has put him in a good position
-  regarding his talent pick and win rates, as well as his overall performance.
-  In addition to some talent tuning changes, we decided to slightly increase his
-  Health to compensate for the fact that he now has to put himself into
-  dangerous positions much more often to deal damage.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="valeera">Valeera</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Garrote (E)</strong>
-<ul>
-<li>Silence duration reduced from 2.75 to 2.5 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Crippling Poison (Active)
-<ul>
-<li>Slow reduced from 25 to 20%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Hemorrhage (E)
-<ul>
-<li>Damage bonus reduced from 50 to 30%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We’re reducing the duration of Garrote’s Silence
-  slightly so that all openers feel viable, and reducing the damage of
-  Hemorrhage so that Valeera doesn’t have as much damage while also being able
-  to shut down her target.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="zeratul">Zeratul</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Move Unseen (Trait)
-<ul>
-<li>Movement Speed increased from 25 to 30%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Darkness Descends (Active)
-<ul>
-<li>Passive Attack Speed bonus increased from 10 to 20%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Warp Skirmisher (1)
-<ul>
-<li>Bonus Attack Damage increased from 30 to 40%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Zeratul currently has the lowest win rate out of all
-  of our Stealth characters, so we’re tuning up some of his underperforming
-  talents. He traditionally has been a high performer as players learn to master
-  him, so we will be keeping an eye on him over time to see if he needs any more
-  changes.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="malfurion">Malfurion</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack Damage reduced from 64 to 60</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Regrowth (Q)</strong>
-<ul>
-<li>Mana cost reduced from 45 to 35</li>
-<li>No longer has an initial heal effect</li>
-<li>Heal amount per tick decreased from 27 to 20</li>
-<li>Duration increased from 15 to 20 seconds</li>
-</ul></li>
-<li><strong>Moonfire (W)</strong>
-<ul>
-<li>Mana cost reduced from 15 to 10</li>
-<li>Damage reduced from 100 to 90</li>
-<li>Added functionality:
-<ul>
-<li>For every enemy Hero hit with Moonfire, instantly heal all targets with an active Regrowth for 140</li>
-</ul></li>
-</ul></li>
-<li><strong>Entangling Roots (E)</strong>
-<ul>
-<li>No longer affects non-Heroic targets</li>
-</ul></li>
-<li><strong>Tranquility (R)</strong>
-<ul>
-<li>Duration reduced from 10 to 8 seconds</li>
-<li>Cooldown reduced from 100 to 80 seconds</li>
-<li>Mana cost reduced from 100 to 80</li>
-<li>Added functionality:
-<ul>
-<li>All Heroes with an active Regrowth effect gain 10 Armor while in range of Tranquility</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Shan’do’s Clarity (D)
-<ul>
-<li>Functionality changed:
-<ul>
-<li>The cooldown of Innervate regenerates 25% faster for each active Regrowth</li>
-</ul></li>
-</ul></li>
-<li><span class="text-warning">Celestial Alignment (W)</span> <a class="label label-warning" href="https://twitter.com/Adunaiii/status/948627344020983808" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li><span class="text-warning">Reveal duration bonus reduced from 3 to 1 second</span></li>
-</ul></li>
-<li>Scouting Drone (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>New Talent – Nature’s Swiftness (Q)
-<ul>
-<li>Malfurion passively gains 5% Movement Speed for each active Regrowth</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Full Moonfire (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><span class="text-warning">Elune's Grace (Passive)</span> <a class="label label-warning" href="https://twitter.com/Adunaiii/status/948555042474348544" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li><span class="text-warning">Removed</span></li>
-</ul></li>
-<li>Strangling Vines (E)
-<ul>
-<li>Moved from Level 7</li>
-<li>New functionality:
-<ul>
-<li>Enemy Heroes rooted by Entangling Roots receive 25% less healing for 2 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent – Deep Roots (E)</strong>
-<ul>
-<li>Entangling Roots grow 25% larger and last 25% longer</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Tenacious Roots (E)
-<ul>
-<li>Moved from Level 16</li>
-<li>New functionality:
-<ul>
-<li>Root duration is increased by 25%. If Malfurion becomes stunned, refresh the cooldown of Entangling Roots</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent – Nature’s Cure (Active)</strong>
-<ul>
-<li>Activate: Remove all stuns, roots and slows from allies with an active Regrowth. 45 second cooldown.</li>
-</ul></li>
-<li><strong>New Talent – Wild Growth (W)</strong>
-<ul>
-<li>Every time your Moonfire hits an enemy Hero, increase the duration of all active Regrowths by 1 second</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Shrink Ray (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Life Seed (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Revitalize (Q)
-<ul>
-<li>Moved from Level 16</li>
-</ul></li>
-<li>Hindering Moonfire (W)
-<ul>
-<li>Moved from Level 7</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Ysera’s Gift (Q)
-<ul>
-<li>Bonus heal amount increased from 40 to 60%</li>
-</ul></li>
-<li><strong>New Talent – Moonlit Harmony (W)</strong>
-<ul>
-<li>Increase the heal of your Moonfire by 15% for every active Regrowth</li>
-</ul></li>
-<li><strong>New Talent – Nature's Balance (W)</strong>
-<ul>
-<li>Increase the area of Moonfire by 25% and the duration of Regrowth by 5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Serenity (R)
-<ul>
-<li>New functionality:
-<ul>
-<li>Every Hero hit with Moonfire lowers the cooldown of Tranquility by 3 seconds. While active, Tranquility's healing is increased by 10% for each active Regrowth</li>
-</ul></li>
-</ul></li>
-<li>Storm Shield (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Rewind (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Lunar Shower (W)
-<ul>
-<li>Moved from Level 7</li>
-<li>New functionality:
-<ul>
-<li>Hitting an enemy Hero reduces the cooldown of Moonfire by 1 second and ramps the damage of the next Moonfire by 20%, stacking up to 3 times</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent – Lifebloom (Q)</strong>
-<ul>
-<li>Casting Regrowth on a player instantly heals them for 10% of their missing Health</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<table>
-<thead>
-<tr>
-  <th><strong>LEVEL (TIER)</strong></th>
-  <th><strong>Malfurion Talents</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>1 (1)</strong></td>
-  <td><em>Nature's Swiftness (Q)</em></td>
-  <td>Celestial Attunement (W)</td>
-  <td>Shan'do's Clarity (D)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>4 (2)</strong></td>
-  <td><strong>Strangling Vines (E)</strong></td>
-  <td><em>Deep Roots (E)</em></td>
-  <td>(!) Vengeful Roots (E)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>7 (3)</strong></td>
-  <td><em>Wild Growth (Passive)</em></td>
-  <td><strong>Tenacious Roots (E)</strong></td>
-  <td><em>Nature's Cure (Active)</em></td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>10 (4)</strong></td>
-  <td>Tranquility</td>
-  <td>Twilight Dream</td>
-  <td>—</td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>13 (5)</strong></td>
-  <td><strong>Hindering Moonfire (W)</strong></td>
-  <td><strong>Revitalize (D)</strong></td>
-  <td>Ice Block (Active)</td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>16 (6)</strong></td>
-  <td>Ysera's Gift (Q)</td>
-  <td><em>Nature's Balance (Passive)</em></td>
-  <td><em>Moonlit Harmony (Passive)</em></td>
-  <td></td>
-</tr>
-<tr>
-  <td><strong>20 (7)</strong></td>
-  <td>Serenity (R)</td>
-  <td>Astral Communion (R)</td>
-  <td><em>Lifebloom (Q)</em></td>
-  <td><strong>Lunar Shower (W)</strong></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li>(!) indicates a Questing Talent.</li>
-<li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
-<li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While Malfurion has had many adjustments and talent
-  shuffles over the past couple of years, his healing mechanics have stayed
-  relatively straight-forward. The core kit changes in this rework are intended
-  to make his gameplay a bit more active. Turning offensive pressure directly
-  into healing output should reinvigorate Malfurion mains while also greatly
-  raising his skill ceiling. We are very excited to see what you think and are
-  actively listening for any and all feedback you have – Elune grant us
-  strength!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="blaze">Blaze</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fortified Bunker (R)</strong>
-<ul>
-<li>Health increased from 1300 to 1305</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="garrosh">Garrosh</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Groundbreaker (Q)</strong>
-<ul>
-<li>Slow amount increased from 30 to 35%</li>
-<li>Cooldown decreased from 8 to 7 seconds</li>
-<li>Mana cost decreased from 35 to 30</li>
-</ul></li>
-<li><strong>Wrecking Ball (E)</strong>
-<ul>
-<li>Cooldown decreased from 14 to 12 seconds</li>
-<li>Mana cost decreased from 65 to 60</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Warbreaker (Q)
-<ul>
-<li>Cooldown reduction decreased from 3 to 2 seconds</li>
-<li>Damage increased from 50 to 55</li>
-</ul></li>
-<li>Unrivaled Strength (E)
-<ul>
-<li>Bonus damage reduced from 125 to 75%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Into the Fray (1)
-<ul>
-<li>Cooldown increased from 40 to 45 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Earthshaker (E)
-<ul>
-<li>Stun duration reduced from .6 to .5 seconds</li>
-</ul></li>
-<li>Mortal Combo (E)
-<ul>
-<li>Cooldown reduction decreased from 8 to 7 seconds</li>
-</ul></li>
-<li>Rough Landing (Q)
-<ul>
-<li>Slow bonus amount decreased from 20 to 15%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While the changes to Groundbreaker have helped
-  Garrosh feel better to play against, we believe he can use some help with his
-  ability to peel for his team and control the battlefield. We’re also making
-  some tuning changes to his talents to help their pick and win rates.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="johanna">Johanna</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Falling Sword (R)</strong>
-<ul>
-<li>Johanna can no longer take damage or be targeted while initially casting Falling Sword​ </li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Items in the Collection have received updated UI colors to improve readability</li>
-</ul>
-
-<p><strong>New Bundle</strong></p>
-
-<ul>
-<li>Blaze Heroic Bundle – Available until January 22, 2017</li>
-</ul>
-
-<p><strong>New Announcer</strong></p>
-
-<ul>
-<li>Blaze</li>
-<li>Tyrael</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Blaze</strong>
-<ul>
-<li>Hazardous Blaze</li>
-<li>Veteran Blaze</li>
-<li><strong>Fel Reaver Blaze</strong>
-<ul>
-<li>Abominable Fel Reaver Blaze</li>
-<li>Coldfire Fel Reaver Blaze</li>
-<li>Infernal Fel Reaver Blaze</li>
-<li>Smoldering Fel Reaver Blaze</li>
-</ul></li>
-</ul></li>
-<li><strong>Probius</strong>
-<ul>
-<li>Ara Tribe Probius</li>
-<li>Nerazim Probius</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
-</ul>
-
-<p><strong>Art</strong></p>
-
-<ul>
-<li><strong>Abathur:</strong> Casting Ultimate Evolution will no longer cause visual effects to persist on the terrain at Abathur’s previous location.</li>
-<li><strong>Valla:</strong> The color of Lavendar Deputy Valla’s scarf has been updated to match the rest of the skin.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Abathur:</strong> Locusts will now correctly retain their selected skins during Ultimate Evolution.</li>
-<li><strong>Chen:</strong> Fixed an issue that could cause Chen to become unresponsive if Wandering Keg’s duration expired while the barrel was too close to unpathable terrain.</li>
-<li><strong>Garrosh:</strong> Talent descriptions for Inner Rage and Brute Force will no longer swap when selecting either Talent.</li>
-<li><strong>Hanzo:</strong> Enemies hit by Storm Bow with the Explosive Arrows Talent will no longer be ignored by the Piercing Arrows Talent.</li>
-<li><strong>Junkrat:</strong> Total Mayhem will no longer trigger twice if Junkrat is killed by the secondary Basic Attack damaged granted by the Giant Killer Talent.</li>
-<li><strong>Junkrat:</strong> Casting Rocket Ride will no longer cause an empty Health Bar to appear.</li>
-<li><strong>Junkrat:</strong> Fixed an issue in which Ripper Air could grant cooldown reduction to Concussion Mine if a Summon, such as a Creep Tumor, Healing Ward, etc., was also hit when the Mine was detonated.</li>
-<li><strong>Nazeebo:</strong> Gargantuan Stomp can no longer be cast while the Gargantuan is stunned or polymorphed.</li>
-<li><strong>Nazeebo:</strong> Fixed an issue causing Vile Infection to deal bonus damage after choosing certain talents.</li>
-<li><strong>Samuro:</strong> Illusion Master can no longer be cast while Samuro is airborne after being hit by an effects like Junkrat’s Concussion Mine detonation.</li>
-<li><strong>Samuro:</strong> Issuing a Hold Position command to Samuro’s Mirror Images and then selecting one of them will no longer cause the others to cancel the Hold Position command.</li>
-<li><strong>Zul’jin:</strong> Lacerate’s Talent icon is now correctly colored blue, rather than purple.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
