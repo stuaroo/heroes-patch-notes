@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-05-09T17:30:00.000Z</updated>
+  <updated>2018-05-10T21:15:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-05-10 Hotfix Patch</title>
+    <published>2018-05-10T21:15:00.000Z</published>
+    <updated>2018-05-10T21:15:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-05-10-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-05-10-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-may-10-2018">Heroes of the Storm Hotfix Notes – May 10, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/" target="_blank">Official Patch Notes</a> <small>v 2.32.3</small></div>
+
+<p>We’ve just released a new hotfix for Heroes of the Storm in order to apply a bug fix.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Kael'thas:</strong> Fixed an issue causing Pyroblast to receive cooldown reductions from Presence of Mind prior to learning the Talent at level 20.</li>
+</ul>
+
+<hr />
+
+<p>We also released a patch on May 9, which included many balance changes and bug fixes. <a href="https://heroesofthestorm.com/blog/21749146/">You can review those patch notes by clicking here.</a></p>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-05-09 Balance Update</title>
     <published>2018-05-09T17:30:00.000Z</published>
@@ -8431,245 +8460,6 @@ updates and bug fixes.</p>
 <li><strong>Blaze:</strong> Fixed an issue that allowed Heroes to bypass the movement speed reduction from ignited Oil Spills if Blaze chose the Adhesive Petroleum talent.</li>
 <li><strong>Blaze:</strong> Fixed an issue causing Stimpack and Pyromania voiceover lines to be heard globally.</li>
 <li><strong>Tyrael:</strong> Fixed an issue preventing Tyrael from gaining stacks of Ardent Restoration from the damage dealt by the Burning Halo talent.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-01-16 Patch Notes</title>
-    <published>2018-01-16T23:58:00.000Z</published>
-    <updated>2018-01-16T23:58:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-01-16-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-01-16-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-january-16-2018">HEROES OF THE STORM PATCH NOTES — JANUARY 16, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="http://us.battle.net/heroes/en/blog/21349578" target="_blank"></a><a href="http://us.battle.net/heroes/en/blog/21349578" target="_blank">Official Patch Notes</a> <small>v 2.29.8</small></div>
-
-<p>Our most recent Heroes of the Storm patch has arrived featuring significant
-changes to Tyrael and a number of bug fixes.</p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="tyrael">Tyrael</h4>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Tyrael will now face the target of his Basic Attack after attacking. This is a visual change, and does not directly affect gameplay</li>
-<li>Passive Spell Armor has been removed</li>
-</ul>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health increased from 2296 to 2468</li>
-<li>Health Regeneration increased from 4.78 to 5.14</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>El’druin’s Might (Q)</strong>
-<ul>
-<li>Mana cost reduced from 50 to 45</li>
-</ul></li>
-<li><strong>Righteousness (W)</strong>
-<ul>
-<li>Mana cost reduced from 60 to 50</li>
-<li>Allied Shield amount changed from a flat value to 40% of the Tyrael-only Shield value.
-<ul>
-<li>This is the same amount of Shields, but it makes it easier to understand new Talent interactions</li>
-</ul></li>
-</ul></li>
-<li><strong>Smite (E)</strong>
-<ul>
-<li>Can now be cast while moving</li>
-<li>Damage increased from 144 to 150</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Salvation (W)
-<ul>
-<li>Moved from level 16</li>
-<li>New functionality:
-<ul>
-<li>Increase Righteousness’ Tyrael-only Shield amount by 25%. If the Shield is destroyed, heal Tyrael for 125 Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>(New) Justice for All (W)</strong>
-<ul>
-<li>Increases Righteousness’ allied shield value to 100% of the Tyrael-only Shield amount.</li>
-</ul></li>
-<li><strong>(New) Ardent Restoration (Passive)</strong>
-<ul>
-<li>Damaging an enemy Hero grants 2.5 Health per Second to Tyrael for 5 seconds. Stacks up to 10 times.</li>
-</ul></li>
-<li>Protection in Death (Trait)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Even in Death (Trait)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Regeneration Master (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>(New) Stalwart Angel (Q)</strong>
-<ul>
-<li>Tyrael gains 25 Armor while El'druin's Might is out, and for 3 seconds after teleporting.</li>
-</ul></li>
-<li><strong>(New) Bound by Law (Q)</strong>
-<ul>
-<li>Increases El’druin’s Might’s slow amount from 25 to 35%. Tyrael’s Basic Attacks increase the duration of the slow by 1 second, up to 4 seconds.</li>
-</ul></li>
-<li><strong>(New) Divine Vigor (Passive)</strong>
-<ul>
-<li>Damaging an enemy with Smite causes Tyrael's Basic Attacks to heal him for 50% of their damage for 4 seconds.</li>
-</ul></li>
-<li>Vigorous Strike (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Purge Evil (E)
-<ul>
-<li>Moved from level 1</li>
-<li>New functionality:
-<ul>
-<li>Every enemy Hero hit by Smite increases Tyrael's Basic Attack damage by 30% for 4 seconds</li>
-</ul></li>
-</ul></li>
-<li>Swift Retribution (E)
-<ul>
-<li>Movement Speed bonus increased from 10 to 20%</li>
-<li>No longer increases the duration of Smite’s Movement Speed bonus</li>
-<li>Added functionality:
-<ul>
-<li>Now also causes Smite’s friendly effect to increase Attack Speed by 25%</li>
-</ul></li>
-</ul></li>
-<li>Angel’s Grace (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Zealotry (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Follow Through (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Sword of Justice (Q)
-<ul>
-<li>Moved from level 16</li>
-<li>New functionality:
-<ul>
-<li>Can teleport with El'druin's Might twice, returning to Tyrael’s original position.</li>
-</ul></li>
-</ul></li>
-<li>Holy Ground (Q)
-<ul>
-<li>Moved from level 16</li>
-<li>Duration reduced from 4 to 3 seconds</li>
-</ul></li>
-<li><strong>(New) Law and Order (W)</strong>
-<ul>
-<li>Reduce the cooldown of Righteousness by 1 second for each enemy Hero hit by Smite. Righteousness increases the damage of your next Smite by 25% for each ally affected.</li>
-</ul></li>
-<li>Burning Rage (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Angelic Absorption (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Angelic Might (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>(New) Burning Halo (Q)</strong>
-<ul>
-<li>El'druin and Tyrael deal 15 damage per second to nearby enemies. This damage is increased by 100% for Tyrael for 3 seconds after teleporting to El’Druin.</li>
-</ul></li>
-<li>Horadric Reforging (Q)
-<ul>
-<li>Moved from level 4</li>
-<li>New functionality:
-<ul>
-<li>Basic Attacks reduce the cooldown of El'druin's Might by 1.5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>(New) Smite the Wicked (E)</strong>
-<ul>
-<li>Smite’s cooldown recharges 100% faster while El'druin is out and for 3 seconds after teleporting to El’Druin</li>
-</ul></li>
-<li>Blood for Blood (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><span class="text-warning">Blade of Justice (Q)</span> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2018-01-16-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li><span class="text-warning">Removed</span></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>(New) Defense of the Angels (Active)</strong>
-<ul>
-<li>Activate to reduce all incoming damage by 40% for 5 seconds. Any time Tyrael or an ally shielded by Righteousness take damage, reduce the cooldown by 3 seconds. 120 second cooldown</li>
-</ul></li>
-<li><strong>(New) Seal of El’druin (Passive)</strong>
-<ul>
-<li>Every time Tyrael casts a Basic Ability, increase his Attack Speed by 50% for 3 seconds</li>
-</ul></li>
-<li>Nullification Shield (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Nexus Blades (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Blaze:</strong> Fixed an issue allowing players to cast Flame Stream while dead if they entered a Bunker while dying.</li>
-<li><strong>Blaze:</strong> Fixed an issue that could cause Heroes to enter permanent Stasis if they were killed just as they entered a Bunker.</li>
-<li><strong>Hanzo &amp; Leoric:</strong> Fixed an issue causing Towers to spawn if Leoric was directly impacted by Sonic Arrow.</li>
-<li><strong>Malfurion &amp; Stitches:</strong> Fixed an issue that could cause Heroes to become unplayable if Nature’s Cure was cast while they were affected by Stitches’ Gorge.</li>
-<li><strong>Malfurion &amp; Zagara:</strong> Nature’s Cure can no longer cleanse Heroes of the Devouring Maw effect.</li>
-<li><strong>Uther:</strong> The Well Met talent will no longer affect non-Heroic units.</li>
-<li><strong>Valeera:</strong> The Strangle talent will no longer affect non-Heroic units.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
