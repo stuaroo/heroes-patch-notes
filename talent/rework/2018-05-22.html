@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Diablo, Lunara from 2018-05-22.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2018-05-22.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2018-05-22.html" />
+    <meta property="og:title" content="2018-05-22 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Diablo, Lunara." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483416462/hero/diablo.jpg" />
+        <title>2018-05-22 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=B29aZaSIzn" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2018-05-22 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Diablo" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/diablo.html">
+              <div class="hero-img hero-diablo img-rounded"></div>
+              <div>Diablo</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Diablo's update aims to give the Lord of Terror more
+  control over his kit and add fun new gameplay without compromising his core
+  identity in the Nexus. We're putting the power in the hands of Diablo players
+  by allowing them to target their Fire Stomps and allowing multiple fire waves
+  to hit the same Hero to help execute the perfect combo. We're adding self-
+  healing to Fire Stomp so that Diablo has a way to maintain his health beyond
+  relying on a Support to heal him. Shadow Charge now grants increased Movement
+  Speed to reduce situations where enemies are just beyond Overpower's reach
+  after charging in. Diablo's level 4 Talents all allow him to collect souls in
+  new ways, so he can still get the most out of his Trait during low takedown
+  games. There is also a spiderweb of fun synergies and interactions between the
+  Talents in his tree, so we're excited to see what creative combinations
+  players will latch onto.</p>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_shadowcharge_var1.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shadow Charge</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 70 
+<span class="code-deletion">60</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>Charge an enemy, knocking them back, dealing <span class="code-addition">40</span> <span class="code-deletion">75</span> (+4% per level) damage and gaining <span class="code-addition">15% Movement Speed</span> <span class="code-deletion">25 Armor</span> for 2 seconds. If the enemy hits terrain, they are Stunned for 1 second and take an additional <span class="code-addition">120</span> <span class="code-deletion">150</span> (+4% per level) damage.</div>
+          <div class="code-addition">Range increased from 7 to 8.5.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_firestomp.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fire Stomp</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 30 
+<span class="code-deletion">40</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 8
+<span class="code-deletion">6</span>            </span>
+          </div>
+          <div>Unleashes fire waves <span class="code-addition">toward the targeted area</span> <span class="code-deletion">in all directions</span> that deal <span class="code-addition">12</span> <span class="code-deletion">54</span> (+4% per level) damage each. Once they reach maximum range they return, dealing an additional <span class="code-addition">36</span> <span class="code-deletion">81</span> (+4% per level) damage. <span class="code-addition">Diablo heals for 125% of the damage dealt to Heroes.</span></div>
+          <div class="code-addition">Number of fire waves reduced from 8 to 5.</div>
+          <div class="code-addition">Multiple fire waves can now hit the same target.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_overpower_var1.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Overpower</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 40 
+<span class="code-deletion">60</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>Grabs the target and slams it behind Diablo, dealing 73 (+4% per level) damage and Stunning for 0.25 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_apocalypse.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Apocalypse</h5>          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_lightningbreath.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lightning Breath</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 80 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. <span class="code-addition">Enemies affected are Slowed by 5% for 2 seconds, up to 50%.</span> Lightning Breath's direction changes with your mouse cursor position.</div>
+          <div class="code-addition">Range increased from 10.5 to 12.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_blacksoulstone_var1.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Black Soulstone</h5></div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Repeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.4% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_blacksoulstone_var1.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Devil's Due</h5>
+          </div>
+          <div>Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2% per Soul.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_combo_1.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Feast on Fear</h5>
+          </div>
+          <div>Stunning an enemy Hero with Shadow Charge or Overpower heals Diablo for 15% of his maximum Health over 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_blacksoulstone_var2.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Soul Shield</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 60
+            </span>
+          </div>
+          <div class="code-addition">Activate to gain 25 plus 50% of Diablo's current Souls as Spell Armor for 4 seconds.  Every time Diablo damages an enemy Hero, reduce this cooldown by 1 second.</div>
+          <div class="code-deletion">Black Soulstone grants Diablo 0.25 Spell Armor per soul, reducing Ability Damage taken by 0.25% per Soul.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_shadowcharge_var1.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bulwark</h5>
+          </div>
+          <div>Increases the duration of Armor granted by Shadow Charge from 2 seconds to 4 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_talent_autoattack_heal.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Life Leech</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div class="code-addition">Diablo gains 1 Soul and heals for 1.5% of his maximum Health when Basic Attacking an enemy Hero. While at 100 Souls, increase this healing to 3% of his maximum Health.</div>
+          <div class="code-deletion">Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal Diablo for the same amount.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_shadowcharge_var1.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sacrificial Soul</h5>
+          </div>
+          <div>Stunning a Hero with Shadow Charge grants 5 Souls and 15 Armor for 4 seconds. While at 100 Souls, increase this Armor to 30.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_firestomp.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Souls to the Flame</h5>
+          </div>
+          <div>Fire Stomp grants 1 Soul every 3 times it damages an enemy Hero, and heals for an additional 1.25% of its damage dealt per Soul.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_overpower_var1.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Demonic Strength</h5>
+          </div>
+          <div>Once Overpower's stun expires, the target is slowed by 30% for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_shadowcharge_var1.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>From the Shadows</h5>
+          </div>
+          <div>Increases the cast range of Shadow Charge by 40%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_talent_relentless.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Speed Demon</h5>
+          </div>
+          <div>Being Stunned or Rooted increases Diablo's Movement Speed by 30% for 5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_talent_autoattack_cooldown.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Diabolical Momentum</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>When Diablo's Basic Attacks damage enemies, reduce the cooldown of <span class="code-addition">his Basic Abilities</span> <span class="code-deletion">Overpower and Shadow Charge</span> by <span class="code-addition">0.75</span> <span class="code-deletion">1.5</span> second.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_firestomp.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Eternal Flames</h5>
+          </div>
+          <div>When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Malevolence</h5>
+          </div>
+          <div>Basic Abilities cause Diablo's next Basic Attack within 6 seconds to deal an additional 100 Spell Damage. Stores up to 2 charges.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_blacksoulstone_var1.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Soul Feast</h5>
+          </div>
+          <div>Black Soulstone increases Diablo's Health Regeneration by 0.4 per second per Soul.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_apocalypse.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Apocalypse</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 100
+            </span>
+          </div>
+          <div>Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_lightningbreath.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lightning Breath</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. <span class="code-addition">Enemies affected are Slowed by 5% for 2 seconds, up to 50%.</span> Lightning Breath's direction changes with your mouse cursor position.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_combo_1.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Cruelty</h5>
+          </div>
+          <div>Stunning an enemy with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 5 seconds, up to 100%.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_shadowcharge_var1.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Devastating Charge</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Increase Shadow Charge's terrain collision damage by 100%.  Quest: Each time an enemy Hero takes terrain collision damage, increase this bonus by 15%, to a maximum of 75%.</div>
+          <div class="code-deletion">Shadow Charge's terrain collision against Heroes deals an additional 5% of the target's maximum life. Quest: Each time an enemy Hero takes terrain collision damage, increase the maximum life damage by 2%, to a maximum of 10% bonus.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_firestomp_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hellfire</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Each enemy Hero hit by Fire Stomp grants 2% Spell Power for 10 seconds, up to 30%.</div>
+          <div class="code-deletion">Each enemy Hero hit by Fire Stomp increases the damage of the next Fire Stomp by 12%, up to 120%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_firestomp.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fire Devil</h5>
+          </div>
+          <div>Fire Stomp increases Diablo's Basic Attack damage by 20% and surrounds Diablo in flames that deal 20 (+4% per level) damage every second. Lasts 6 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_firestomp.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Debilitating Flames</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Enemy Heroes hit by Fire Stomp are Slowed by <span class="code-addition">5%</span> <span class="code-deletion">15%</span> for <span class="code-addition">4</span> <span class="code-deletion">2</span> seconds, up to <span class="code-addition">50%</span> <span class="code-deletion">30%</span>. <span class="code-addition">Heroes Slowed by 25% or more by Debilitating Flames deal 50% less damage.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_overpower_var1.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Domination</h5>
+          </div>
+          <div>Casting Overpower resets the cooldown of Shadow Charge.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_overpower_var1.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Overpowering Nightmare</h5>
+          </div>
+          <div>Gain 2 additional charges of Overpower, with a 2 second cooldown between uses.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_talent_imposingpresence.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fearful Presence</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Activate to reduce the damage dealt by nearby enemy Heroes by 30% for 3 seconds. Passive: Heroes and Summons that attack Diablo have their Attack Speed slowed by 20% for 2.5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_apocalypse.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dying Breath</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Apocalypse's cooldown is reduced by 20 seconds <span class="code-addition">for every enemy Hero hit (to a minimum of 5 seconds)</span> and is cast for free when Diablo dies.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_talent_boltofthestorm.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hellgate</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 120
+            </span>
+          </div>
+          <div>Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_lightningbreath.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hellstorm</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Lightning Breath lasts <span class="code-addition">200%</span> <span class="code-deletion">50%</span> longer <span class="code-deletion">and reaches 50% longer</span>.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/diablo20180522/storm_ui_icon_diablo_lordofterror.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lord of Terror</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to steal 10% of the maximum Health of nearby enemy Heroes <span class="code-addition">and gain 5 Souls per Hero hit</span>.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Lunara" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/lunara.html">
+              <div class="hero-img hero-lunara img-rounded"></div>
+              <div>Lunara</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Our goals for Lunara's rework are twofold: first, we
+  want to add some gameplay to Wisp and consolidate its related talents into
+  something more interesting. We also want to give Lunara more potential
+  playstyles, which we're doing by adding some new powerful talents into her
+  tree. Because we added so much more power into her talents, we had to reduce
+  her baseline power by a marginal amount to compensate. We've had a blast with
+  Lunara in our internal playtests, and we're excited to release her new and
+  improved version into the wild!</p>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_pollencloud.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Noxious Blossom</h5>          </div>
+          <div>
+            <span>Mana: 60 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 8
+            </span>
+          </div>
+          <div>After 0.5 seconds, cause an area to explode with pollen dealing 160 (+4% per level) damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Crippling Spores</h5>          </div>
+          <div>
+            <span>Mana: 40 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are slowed by 40% decaying over 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wisp.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wisp</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Spawn a Wisp to scout an area. Can be redirected once active. <span class="code-addition">When the Wisp is in a bush for more 2 seconds, its vision radius is increased by 75%.</span>  Lasts 45 seconds.</div>
+          <div class="code-addition">Wisp Movement Speed increased by 100%.</div>
+          <div class="code-addition">Vision radius reduced from 7 to 6.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wildspear.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Thornwood Vine</h5>          </div>
+          <div>
+            <span>Mana: 35 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Send forth vines that deal 164 (+4% per level) damage to all enemies in a line. Stores up to 3 charges.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_boundlessstride.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Leaping Strike</h5>          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_stiflingblossom.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nature's Toxin</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+          </div>
+          <div>Your Basic Attacks and damaging Abilities poison their target, dealing <span class="code-addition">30</span> <span class="code-deletion">34</span> (+5% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_boundlessstride_a.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hippity Hop</h5>
+          </div>
+          <div>After not Basic Attacking or taking damage for 5 seconds, increase the Move Speed bonus of Dryad's Swiftness by 10%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_stiflingblossom.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Natural Perspective</h5>
+          </div>
+          <div>Nature's Toxin reveals enemies for its duration.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wisp.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sentinel Wisp</h5>
+          </div>
+          <div>After remaining in a bush for 5 seconds, Wisp's vision radius is increased by 200% and reveals the surrounding area.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Cruel Spores</h5>
+          </div>
+          <div>When Crippling Spores hits only Minions or Mercenaries, its cooldown is reduced by 80% and 20 Mana is restored.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Photosynthesis</h5>
+          </div>
+          <div>Crippling Spores returns 10 Mana per enemy hit, up to 40 Mana.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_pollencloud.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blossom Swell</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div>Increases Noxious Blossom's <span class="code-addition">range by 25% and its</span> radius by 20%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_stiflingblossom.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nature's Culling</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>Increases Nature's Toxin's damage by 150% to non-Heroes.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_stiflingblossom_var1.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Siphoning Toxin</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>While at least one enemy is afflicted by Nature's Toxin, heal for <span class="code-addition">9</span> <span class="code-deletion">18</span> (+4% per level) per second.  <span class="code-addition">When an enemy Hero has 3 stacks of Nature's Toxin, increase this healing by 28 (+4% per level) per second.</span></div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wisp_c.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dividing Wisp</h5>
+          </div>
+          <div>The first time a Wisp is relocated, it leaves a copy of itself in the previous location.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wisp.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nimble Wisp</h5>
+          </div>
+          <div>Increases Wisp Movement Speed by 100% and vision radius by 50%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wisp_b.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Skybound Wisp</h5>
+          </div>
+          <div>Wisp can see over obstacles and reveals the area for 4 seconds after dying.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wisp_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Timelost Wisp</h5>
+          </div>
+          <div>Wisp costs no Mana and its cooldown recharges 125% faster while no Wisp is active.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_pollencloud_b.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Choking Pollen</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Noxious Blossom deals <span class="code-addition">50%</span> <span class="code-deletion">125%</span> more damage to Heroes afflicted by Nature's Toxin, <span class="code-addition">increased to 100% against enemies with 3 stacks.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_pollencloud.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Splintered Spear</h5>
+          </div>
+          <div>Using Noxious Blossom causes Lunara's next Basic Attack to hit up to 4 enemies. These extra attacks can apply Nature's Toxin.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Wild Vigor</h5>
+          </div>
+          <div>Using Crippling Spores increases the damage of Lunara's next 4 Basic Attacks by 50%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_boundlessstride.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Leaping Strike</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wildspear.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Thornwood Vine</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 15
+            </span>
+          </div>
+          <div>Send forth vines that deal 164 (+4% per level) damage to all enemies in a line. Stores up to 3 charges.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_abolishmagic.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Abolish Magic</h5>
+<span class="label label-info">Moved from level 20</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 35
+            </span>
+          </div>
+          <div>Target an Ally to remove all damage over time and disabling effects from them and Lunara. For 2 seconds after, the duration of disabling effects is reduced by 50%.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Endless Spores</h5>
+          </div>
+          <div>Casting Crippling Spores while at least 2 Heroes are afflicted by Nature's Toxin reduces the cooldown by 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_greaterspellshield.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Greater Spell Shield</h5>
+          </div>
+          <div>Every 30 seconds, gain 75 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 75%. Can be toggled to allow or prevent this talent from triggering automatically.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom_b.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Let Them Wither</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Increases Crippling Spores' Slow <span class="code-addition">duration by 1 second</span> <span class="code-deletion">to 50%</span> and causes it to no longer decay.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Giant Killer</h5>
+          </div>
+          <div>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_pollencloud.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pestering Blossom</h5>
+          </div>
+          <div>Increases Noxious Blossom's range by 50%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_pollencloud.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Accelerated Contamination</h5>
+          </div>
+          <div>While at least 2 enemy Heroes are afflicted with Nature's Toxin, Noxious Blossom's cooldown recharges 100% faster.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Invigorating Spores</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Crippling Spores grants <span class="code-addition">30%</span> <span class="code-deletion">50%</span> Attack Speed for 6 seconds.  <span class="code-addition">Basic Attacks against enemy Heroes with 3 stacks of Nature's Toxin deal damage equal to 1.5% of their maximum Health.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_fullbloom.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Star Wood Spear</h5>
+          </div>
+          <div>Using Crippling Spores increases Lunara's Basic Attack range by 2.75 for 6 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_stiflingblossom.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Unfair Advantage</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Nature's Toxin deals <span class="code-addition">60%</span> <span class="code-deletion">50%</span> more damage to Heroes that are Slowed, <span class="code-addition">Rooted, or Stunned.</span></div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_boundlessstride.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Boundless Stride</h5>
+          <span class="label label-primary">Updated</span></div>
+          <div>All Leaping Strike charges are returned every <span class="code-addition">15</span> <span class="code-deletion">20</span> seconds. Leaping Strike can be used on allies.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_wildspear.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Forest's Wrath</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div><span class="code-addition">Thornwood Vine now applies 2 stacks of Nature's Toxin.</span>  Increase Thornwood Vine's range by 30%<span class="code-deletion">, its speed by 20%,</span> and Lunara's vision radius by 35%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_boundlessstride_a.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Galloping Gait</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Activate to increase the Movement Speed bonus of Dryad's Swiftness to 80% for 6 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/lunara20180522/storm_ui_icon_lunara_stiflingblossom.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Intensifying Toxin</h5>
+          </div>
+          <div>At 3 stacks, Nature's Toxin deals 40% more damage.</div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
