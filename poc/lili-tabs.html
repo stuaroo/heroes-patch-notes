@@ -1,0 +1,1860 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.0/flatly/bootstrap.min.css" integrity="sha256-kdtcRsZ1riA3MJWCgq5rbFTxscePMEDZ9XnFya1YlrA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-KwxQKNj2D0XKEW5O/Y6haRH39PE/xry8SAoLbpbCMraqlX7kUP6KHOnrlrtvuJLR" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Hero Page Test</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-2">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Heroes Patch Notes</a>
+            
+            <div class="collapse navbar-collapse" id="topNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="patchDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="patchDropdown">
+                            <a class="dropdown-item" href="#">Patch Summary</a>
+                            <a class="dropdown-item" href="#">Patch List</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Heroes</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="battlegroundDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="battlegroundDropdown">
+                            <a class="dropdown-item" href="#">Battleground List</a>
+                            <a class="dropdown-item" href="#">Map Rotation</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="talentDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="talentDropdown">
+                            <a class="dropdown-item" href="#">Rework Diffs</a>
+                            <a class="dropdown-item" href="#">Generic Talents</a>
+                            <a class="dropdown-item" href="#">Removed Talents</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="optionsDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="optionsDropdown">
+                            <a class="dropdown-item" href="#">FAQ</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <article class="container">
+        
+            <div class="input-group mt-2">
+                <input type="text" class="form-control typeahead hero-picker" placeholder="Hero" aria-label="Hero">
+                <span class="input-group-append">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" id="heroDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right scrollable-menu" aria-labelledby="heroDropdown">
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/abathur.html"><span class="small-hero-one small-abathur rounded-circle"></span> <span class="ml-1">Abathur</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/alarak.html"><span class="small-hero-six small-alarak rounded-circle"></span> <span class="ml-1">Alarak</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/alexstrasza.html"><span class="small-hero-eight small-alexstrasza rounded-circle"></span> <span class="ml-1">Alexstrasza</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/ana.html"><span class="small-hero-eight small-ana rounded-circle"></span> <span class="ml-1">Ana</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/anubarak.html"><span class="small-hero-one small-anubarak rounded-circle"></span> <span class="ml-1">Anub'arak</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/artanis.html"><span class="small-hero-five small-artanis rounded-circle"></span> <span class="ml-1">Artanis</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/arthas.html"><span class="small-hero-one small-arthas rounded-circle"></span> <span class="ml-1">Arthas</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/auriel.html"><span class="small-hero-six small-auriel rounded-circle"></span> <span class="ml-1">Auriel</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/azmodan.html"><span class="small-hero-four small-azmodan rounded-circle"></span> <span class="ml-1">Azmodan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/blaze.html"><span class="small-hero-eight small-blaze rounded-circle"></span> <span class="ml-1">Blaze</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/brightwing.html"><span class="small-hero-four small-brightwing rounded-circle"></span> <span class="ml-1">Brightwing</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/butcher.html"><span class="small-hero-four small-butcher rounded-circle"></span> <span class="ml-1">Butcher</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/cassia.html"><span class="small-hero-seven small-cassia rounded-circle"></span> <span class="ml-1">Cassia</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/chen.html"><span class="small-hero-one small-chen rounded-circle"></span> <span class="ml-1">Chen</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/cho.html"><span class="small-hero-five small-cho rounded-circle"></span> <span class="ml-1">Cho</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/chromie.html"><span class="small-hero-six small-chromie rounded-circle"></span> <span class="ml-1">Chromie</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/dva.html"><span class="small-hero-seven small-dva rounded-circle"></span> <span class="ml-1">D.Va</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/deckard.html"><span class="small-hero-eight small-deckard rounded-circle"></span> <span class="ml-1">Deckard</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/dehaka.html"><span class="small-hero-five small-dehaka rounded-circle"></span> <span class="ml-1">Dehaka</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/diablo.html"><span class="small-hero-one small-diablo rounded-circle"></span> <span class="ml-1">Diablo</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/etc.html"><span class="small-hero-two small-etc rounded-circle"></span> <span class="ml-1">E.T.C.</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/falstad.html"><span class="small-hero-one small-falstad rounded-circle"></span> <span class="ml-1">Falstad</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/fenix.html"><span class="small-hero-eight small-fenix rounded-circle"></span> <span class="ml-1">Fenix</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/gall.html"><span class="small-hero-five small-gall rounded-circle"></span> <span class="ml-1">Gall</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/garrosh.html"><span class="small-hero-seven small-garrosh rounded-circle"></span> <span class="ml-1">Garrosh</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/gazlowe.html"><span class="small-hero-three small-gazlowe rounded-circle"></span> <span class="ml-1">Gazlowe</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/genji.html"><span class="small-hero-seven small-genji rounded-circle"></span> <span class="ml-1">Genji</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/greymane.html"><span class="small-hero-five small-greymane rounded-circle"></span> <span class="ml-1">Greymane</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/guldan.html"><span class="small-hero-six small-guldan rounded-circle"></span> <span class="ml-1">Gul'dan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/hanzo.html"><span class="small-hero-eight small-hanzo rounded-circle"></span> <span class="ml-1">Hanzo</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/illidan.html"><span class="small-hero-one small-illidan rounded-circle"></span> <span class="ml-1">Illidan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/jaina.html"><span class="small-hero-one small-jaina rounded-circle"></span> <span class="ml-1">Jaina</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/johanna.html"><span class="small-hero-four small-johanna rounded-circle"></span> <span class="ml-1">Johanna</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/junkrat.html"><span class="small-hero-eight small-junkrat rounded-circle"></span> <span class="ml-1">Junkrat</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kaelthas.html"><span class="small-hero-one small-kaelthas rounded-circle"></span> <span class="ml-1">Kael'thas</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kelthuzad.html"><span class="small-hero-eight small-kelthuzad rounded-circle"></span> <span class="ml-1">Kel'Thuzad</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kerrigan.html"><span class="small-hero-two small-kerrigan rounded-circle"></span> <span class="ml-1">Kerrigan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kharazim.html"><span class="small-hero-four small-kharazim rounded-circle"></span> <span class="ml-1">Kharazim</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/leoric.html"><span class="small-hero-four small-leoric rounded-circle"></span> <span class="ml-1">Leoric</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/lili.html"><span class="small-hero-two small-lili rounded-circle"></span> <span class="ml-1">Li Li</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/liming.html"><span class="small-hero-five small-liming rounded-circle"></span> <span class="ml-1">Li-Ming</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/ltmorales.html"><span class="small-hero-five small-ltmorales rounded-circle"></span> <span class="ml-1">Lt. Morales</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/lucio.html"><span class="small-hero-seven small-lucio rounded-circle"></span> <span class="ml-1">Lucio</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/lunara.html"><span class="small-hero-five small-lunara rounded-circle"></span> <span class="ml-1">Lunara</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/maiev.html"><span class="small-hero-eight small-maiev rounded-circle"></span> <span class="ml-1">Maiev</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/malfurion.html"><span class="small-hero-two small-malfurion rounded-circle"></span> <span class="ml-1">Malfurion</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/malthael.html"><span class="small-hero-seven small-malthael rounded-circle"></span> <span class="ml-1">Malthael</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/medivh.html"><span class="small-hero-six small-medivh rounded-circle"></span> <span class="ml-1">Medivh</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/muradin.html"><span class="small-hero-two small-muradin rounded-circle"></span> <span class="ml-1">Muradin</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/murky.html"><span class="small-hero-two small-murky rounded-circle"></span> <span class="ml-1">Murky</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/nazeebo.html"><span class="small-hero-two small-nazeebo rounded-circle"></span> <span class="ml-1">Nazeebo</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/nova.html"><span class="small-hero-two small-nova rounded-circle"></span> <span class="ml-1">Nova</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/probius.html"><span class="small-hero-seven small-probius rounded-circle"></span> <span class="ml-1">Probius</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/ragnaros.html"><span class="small-hero-six small-ragnaros rounded-circle"></span> <span class="ml-1">Ragnaros</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/raynor.html"><span class="small-hero-two small-raynor rounded-circle"></span> <span class="ml-1">Raynor</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/rehgar.html"><span class="small-hero-two small-rehgar rounded-circle"></span> <span class="ml-1">Rehgar</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/rexxar.html"><span class="small-hero-five small-rexxar rounded-circle"></span> <span class="ml-1">Rexxar</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/samuro.html"><span class="small-hero-six small-samuro rounded-circle"></span> <span class="ml-1">Samuro</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/sgthammer.html"><span class="small-hero-three small-sgthammer rounded-circle"></span> <span class="ml-1">Sgt. Hammer</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/sonya.html"><span class="small-hero-three small-sonya rounded-circle"></span> <span class="ml-1">Sonya</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/stitches.html"><span class="small-hero-four small-stitches rounded-circle"></span> <span class="ml-1">Stitches</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/stukov.html"><span class="small-hero-seven small-stukov rounded-circle"></span> <span class="ml-1">Stukov</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/sylvanas.html"><span class="small-hero-four small-sylvanas rounded-circle"></span> <span class="ml-1">Sylvanas</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tassadar.html"><span class="small-hero-four small-tassadar rounded-circle"></span> <span class="ml-1">Tassadar</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/thelostvikings.html"><span class="small-hero-one small-thelostvikings rounded-circle"></span> <span class="ml-1">The Lost Vikings</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/thrall.html"><span class="small-hero-three small-thrall rounded-circle"></span> <span class="ml-1">Thrall</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tracer.html"><span class="small-hero-six small-tracer rounded-circle"></span> <span class="ml-1">Tracer</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tychus.html"><span class="small-hero-three small-tychus rounded-circle"></span> <span class="ml-1">Tychus</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tyrael.html"><span class="small-hero-three small-tyrael rounded-circle"></span> <span class="ml-1">Tyrael</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tyrande.html"><span class="small-hero-four small-tyrande rounded-circle"></span> <span class="ml-1">Tyrande</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/uther.html"><span class="small-hero-three small-uther rounded-circle"></span> <span class="ml-1">Uther</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/valeera.html"><span class="small-hero-seven small-valeera rounded-circle"></span> <span class="ml-1">Valeera</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/valla.html"><span class="small-hero-three small-valla rounded-circle"></span> <span class="ml-1">Valla</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/varian.html"><span class="small-hero-six small-varian rounded-circle"></span> <span class="ml-1">Varian</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/xul.html"><span class="small-hero-five small-xul rounded-circle"></span> <span class="ml-1">Xul</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zagara.html"><span class="small-hero-three small-zagara rounded-circle"></span> <span class="ml-1">Zagara</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zarya.html"><span class="small-hero-six small-zarya rounded-circle"></span> <span class="ml-1">Zarya</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zeratul.html"><span class="small-hero-three small-zeratul rounded-circle"></span> <span class="ml-1">Zeratul</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zuljin.html"><span class="small-hero-seven small-zuljin rounded-circle"></span> <span class="ml-1">Zul'jin</span></a>
+
+                    </div>
+                </span>
+            </div>
+        
+        <div class="row mt-2">
+            <div class="col-lg-4 hero-unit">
+                <div class="hero-img hero-lili rounded"></div>
+                <div class="hero-info">
+                    <div class="hero-name">Li Li</div>
+                    <div class="health">
+                      <div class="base-stats-bar health-bar bg-success">
+                        <span>1552</span> <span class="health-scaling">(+4% per level)</span>  
+                      </div> 
+                    </div>
+                    <div class="mana">
+                      <div class="base-stats-bar mana-bar bg-info">
+                        <span>490</span> <span class="mana-scaling">(+10 per level)</span>
+                      </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 base-stat-values">
+              <div class="bs-header">Base Stats</div>
+              <div class="text-success">3.2343 (+4% per level) per second Health Regen</div>
+              <div class="text-info">2.90 (+0.1% per level) per second Mana Regen</div>
+              <div>0.625 Hero Radius</div>
+            </div>
+            <div class="col-lg-4 base-stat-values">
+              <div class="aa-header">Basic Attack <i class="ra ra-sword"></i></div>
+              <div>63 (+4% per level) Attack Damage</div>
+              <div>0.8 seconds per attack / 1.25 Attack Speed</div>
+              <div>0.1875 seconds Damage Point <a href="#" class="ba-info-tooltip" data-toggle="tooltip" data-placement="right" title="Cast time per attack, or time between issuing an attack command and the attack executing"><i class="fas fa-info-circle"></i></a></div>
+              <div>5.5 Attack Range</div>
+            </div>
+            <div class="col" id="abiltalToggles">
+                <a href="#ability" class="btn btn-primary btn-sm" data-toggle="tab">Abilities</a>
+                <a href="#talents" class="btn btn-primary btn-sm" data-toggle="tab">Talents</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="tab-content col">
+                <div class="tab-pane fade show mt-2" id="ability">
+                    <h3 class="bg-light p-1">Abilities</h3>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                <div class="abil-img-header">
+                                    <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                    <span class="letter-overlay-header">Q</span>
+                                </div>
+                                Healing Brew
+                                <div class="lvl-right float-right">
+                                    <div class="lvl-label text-right">MANA</div>
+                                    <div class="lvl-num text-right">25</div>
+                                </div>
+                                <div class="lvl-right float-right">
+                                    <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                    <div class="lvl-num text-right">4</div>
+                                </div>
+                                </div>
+                                <div class="card-body">
+                                <p class="card-text">Heal lowest Health ally (prioritizing Heroes) within 6 range for 190 (+4% per level) Health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Cloud Serpent
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">35</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">12</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 20 (+4% per level). Lasts for 8 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Blinding Wind
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">30</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">12</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Jug of 1,000 Cups
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">80</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 (+4% per level) Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Water Dragon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">50</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">45</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header trait-overlay">Trait</span>
+                                    </div>
+                                    Fast Feet
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show mt-2" id="talents">
+                    <h3 class="bg-light p-1">Talents</h3>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header">D</span>
+                                    </div>
+                                    Eager Adventurer
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">1</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increase Fast Feet's duration by 50% and increase Mana regeneration by 150% while Fast Feet is active.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    Free Drinks
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">1</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Healing Brew's cooldown is reduced by 1 second and its Mana cost is refunded if it heals a Hero under 50% Health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Wind Serpent
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">1</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">The cooldown of Cloud Serpent is reduced by 2 seconds. Casting Cloud Serpent also launches a Blinding Wind at the nearest enemy to the target.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Serpent Sidekick
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">4</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Cloud Serpent's duration is increased by 0.6 seconds every time it attacks an Hero.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Hindering Winds
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">4</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Blinding Wind Slows enemy Hero Movement Speed by 25% for 2 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header active-overlay">Active</span>
+                                    </div>
+                                    Safety Sprint
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">4</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    The Good Stuff
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">7</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Healing Brew heals for an additional 42 (+4% per level) over 3 seconds. While Fast Feet is active, this heal amount is increased by 100%.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Lightning Serpent
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">7</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Cloud Serpent attacks bounce to hit 2 additional Heroes for 50% damage and healing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_talent_cleanse.png" class="abil-img">
+                                        <span class="letter-overlay-header active-overlay">Active</span>
+                                    </div>
+                                    Let's Go!
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">7</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">40</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Activate to heal an allied Hero for 140 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet. Cannot be used on Li Li.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Jug of 1,000 Cups
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">10</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 (+4% per level) Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Water Dragon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">10</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">45</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Gale Force
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">13</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increase Blinding Wind's duration by 1 second. Li Li's Basic Attacks against Blinded Heroes deal 75% increased damage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind_a.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Surging Winds
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">13</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">If Blinding Wind hits 2 Heroes, its cooldown is reduced by 3 seconds and Li Li gains 10% Spell Power for 10 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind_b.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Mass Vortex
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">13</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increase the number of enemies hit by Blinding Wind from 2 to 3. Blinding Wind deals 75% additional damage if all 3 enemies hit are Heroes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    Two For One
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">16</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1 second.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew_a.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    Pick Me Up
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">16</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Healing Brew's healing for Heroes is increased by 33% if they are under 50% Health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Blessings Of Yu'lon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">16</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Cloud Serpent heals its bearer for 1.5% of their maximum Health each time it attacks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Jug of 1,000,000 Cups
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Jug of 1,000 Cups heals two allies at a time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Double Dragon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">After hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_mistweaver.png" class="abil-img">
+                                        <span class="letter-overlay-header active-overlay">Active</span>
+                                    </div>
+                                    Mistweaver
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">30</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Activate to heal nearby allied Heroes for 165 (+4% per level). Basic Attacks and Cloud Serpent attacks reduce the cooldown of Mistweaver by 1 second.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header">D</span>
+                                    </div>
+                                    Shake It Off
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Gain 8 Armor per second while Fast Feet is active, up to 30 Armor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <nav class="navbar navbar-light bg-light secondary-nav my-4 px-2">
+        <div class="container">            
+            <div class="navbar-brand">History by </div>
+
+            <ul class="nav nav-pills mr-auto" id="midNav">
+                <li class="nav-item px-2 px-lg-0 my-2 my-lg-0">
+                    <a class="nav-link py-0 active" href="#by-date" data-toggle="tab" aria-controls="by-date" role="tab" aria-selected="true">
+                        <div class="by-date-link">
+                            <i class="fal fa-history d-block"></i> DATE
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item px-2 px-lg-0 my-2 my-lg-0">
+                    <a class="nav-link py-0" href="#lili-Q1" data-toggle="tab" role="tab" aria-controls="lili-Q1" aria-selected="false">
+                        <div class="by-ability-icon">
+                            <img src="images/storm_ui_icon_lili_healingbrew.png">
+                            <span class="letter-overlay-header">Q</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item px-2 px-lg-0 my-2 my-lg-0">
+                    <a class="nav-link py-0" href="#lili-W1" data-toggle="tab" role="tab" aria-controls="lili-W1" aria-selected="false">
+                        <div class="by-ability-icon">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png">
+                            <span class="letter-overlay-header">W</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item px-2 px-lg-0 my-2 my-lg-0">
+                    <a class="nav-link py-0" href="#lili-E1" data-toggle="tab" role="tab" aria-controls="lili-E1" aria-selected="false">
+                        <div class="by-ability-icon">
+                            <img src="images/storm_ui_icon_lili_blindingwind.png">
+                            <span class="letter-overlay-header">E</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item px-2 px-lg-0 my-2 my-lg-0">
+                    <a class="nav-link py-0" href="#lili-R1" data-toggle="tab" role="tab" aria-controls="lili-R1" aria-selected="false">
+                        <div class="by-ability-icon">
+                            <img src="images/storm_ui_icon_lili_jugofathousandcups.png">
+                            <span class="letter-overlay-header">R</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item px-2 px-lg-0 my-2 my-lg-0">
+                    <a class="nav-link py-0" href="#lili-R2" data-toggle="tab" role="tab" aria-controls="lili-R2" aria-selected="false">
+                        <div class="by-ability-icon">
+                            <img src="images/storm_ui_icon_lili_waterdragon.png">
+                            <span class="letter-overlay-header">R</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item px-2 px-lg-0 my-2 my-lg-0">
+                    <a class="nav-link py-0" href="#lili-D1" data-toggle="tab" role="tab" aria-controls="lili-D1" aria-selected="false">
+                        <div class="by-ability-icon">
+                            <img src="images/storm_ui_icon_lili_fastfeet.png">
+                            <span class="letter-overlay-header trait-overlay">Trait</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <article id="patch-data" class="container">
+        <div class="row">
+            <div class="tab-content col">
+                <div class="tab-pane fade show active" id="by-date" role="tabpanel">
+
+                    <h4 class="bg-primary p-2" id="patch2018-03-27">
+                        <span>2018-03-27 </span>
+                        <a class="text-muted" href="#patch2018-03-27" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">31.0 <i class="fal fa-file-alt"></i></a>
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <h4>Hero Updates</h4>
+                        <p><strong>Talents</strong></p>
+                        <ul>
+                            <li><strong>Level 1</strong>
+                            <ul>
+                            <li>Wind Serpent (W)
+                            <ul>
+                            <li>New functionality:
+                            <ul>
+                            <li>Reduces Cloud Serpent’s cooldown by 2 seconds.</li>
+                            <li>Casting Cloud Serpent also launches Blinding Wind at an enemy near the target.</li>
+                            </ul></li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Level 4</strong>
+                        <ul>
+                        <li>Hindering Winds (E)
+                        <ul>
+                        <li>Slow amount reduced from 30% to 25%.</li>
+                        </ul></li>
+                        </ul></li>
+                        </ul>
+
+                        <h4 class="bug-fixes">Bug Fixes</h4>
+                        <ul>
+                        <li><strong>Li Li:</strong> Casting Cloud Serpent on Pilot-form D.Va just before she casts Call Mech will no longer prevent the Serpent from following Mech-form D.Va.</li>
+                        </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch2018-02-21">
+                        <span>2018-02-21 </span>
+                        <a class="text-muted" href="#patch2018-02-21" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-info btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">30.3 <i class="fal fa-balance-scale"></i></a>
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <h4 class="bug-fixes">Bug Fixes</h4>
+                        <ul>
+                            <li><strong>Li Li:</strong> After learning the Lightning Serpent Talent, Cloud Serpent attacks that are bouncing to additional targets when the Ability expires will now correctly deal damage.</li>
+                            </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch2018-02-06">
+                        <span>2018-02-06 </span>
+                        <a class="text-muted" href="#patch2018-02-06" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">30.0 <i class="fal fa-file-alt"></i></a>
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <h4 class="bug-fixes">Bug Fixes</h4>
+                        <ul>
+                        <li><strong>Li Li:</strong> Blinding Wind will now correctly deal damage to neutral Mercenaries.</li>
+                        </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch2017-12-20">
+                        <span>2017-12-20 </span>
+                        <a class="text-muted" href="#patch2017-12-20" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-info btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">29.5 <i class="fal fa-balance-scale"></i></a>
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <h4>Hero Updates</h4>
+                        <p><strong>Abilities</strong></p>
+                            <ul>
+                            <li><strong>Cloud Serpent (W)</strong>
+                            <ul>
+                            <li>Health restored per attack increased from 15 to 20</li>
+                            </ul></li>
+                            </ul>
+                            <p><strong>Talents</strong></p>
+                            <ul>
+                            <li><strong>Level 1</strong>
+                            <ul>
+                            <li>Wind Serpent (W)
+                            <ul>
+                            <li>Cooldown reduction granted per Hero hit by Blinding Wind increased from 3 to 4 seconds</li>
+                            </ul></li>
+                            </ul></li>
+                            <li><strong>Level 4</strong>
+                            <ul>
+                            <li>Serpent Sidekick (W)
+                            <ul>
+                            <li>Cloud Serpent duration bonus granted per attack increased from 0.5 to 0.6 seconds</li>
+                            </ul></li>
+                            <li>Safety Sprint (Trait)
+                            <ul>
+                            <li>Duration increased from 2 to 3 seconds</li>
+                            </ul></li>
+                            </ul></li>
+                            <li><strong>Level 7</strong>
+                            <ul>
+                            <li>Let’s Go (Active)
+                            <ul>
+                            <li>Range increased from 4 to 6</li>
+                            </ul></li>
+                            </ul></li>
+                            <li><strong>Level 13</strong>
+                            <ul>
+                            <li>Gale Force (E)
+                            <ul>
+                            <li>Bonus Basic Attack damage against Blinded Heroes increased from 50% to 75%</li>
+                            </ul></li>
+                            </ul></li>
+                            </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch2017-11-29">
+                        <span>2017-11-29 </span>
+                        <a class="text-muted" href="#patch2017-11-29" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-info btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">29.2 <i class="fal fa-balance-scale"></i></a>
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <h4>Hero Updates</h4>
+                        <p><strong>Stats</strong></p>
+                        <ul>
+                        <li>Base Maximum Health reduced from 1552 to 1475</li>
+                        <li>Health Regen from 3.23 to 3.07</li>
+                        <li>Basic Attack Damage reduced from 63 to 60</li>
+                        </ul>
+                        <p><strong>Abilities</strong></p>
+                        <ul>
+                        <li><strong>Healing Brew (Q)</strong>
+                        <ul>
+                        <li>Heal amount increased from 177 to 190</li>
+                        </ul></li>
+                        <li><strong>Cloud Serpent (W)</strong>
+                        <ul>
+                        <li>Heal amount increased from 13.5 to 15</li>
+                        <li>Damage reduced from 27 to 26</li>
+                        </ul></li>
+                        <li><strong>Blinding Wind (E)</strong>
+                        <ul>
+                        <li>Damage reduced from 140 to 133</li>
+                        </ul></li>
+                        <li><strong>Jug of 1000 Cups (R)</strong>
+                        <ul>
+                        <li>Heal amount increased from 66.5 to 70</li>
+                        </ul></li>
+                        <li><strong>Water Dragon (R)</strong>
+                        <ul>
+                        <li>Damage reduced from 318 to 300</li>
+                        </ul></li>
+                        </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch2017-11-14">
+                        <span>2017-11-14 </span>
+                        <a class="text-muted" href="#patch2017-11-14" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">29.0 <i class="fal fa-file-alt"></i></a>
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <h4>Hero Updates</h4>
+                        <p><strong>Abilities</strong></p>
+                        <ul>
+                        <li><strong>Fast Feet (Trait)</strong>
+                        <ul>
+                        <li>Added Functionality:
+                        <ul>
+                        <li>Basic Ability Cooldowns recharge 50% faster while Fast Feet is active. </li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Healing Brew (Q)</strong> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-11-14-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
+                        <ul>
+                        <li><span class="text-warning">Heal amount reduced from 196 to 177</span></li>
+                        <li>Cooldown increased from 3 to 4 seconds</li>
+                        <li>Range reduced from 7 to 6</li>
+                        <li>Mana Cost reduced from 30 to 25</li>
+                        </ul></li>
+                        <li><strong>Cloud Serpent (W)</strong> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-11-14-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
+                        <ul>
+                        <li>Mana Cost increased from 30 to 40</li>
+                        <li>Cooldown increased from 10 to 12 seconds.</li>
+                        <li>Attack Speed <s>increased from .75 to 1</s> <span class="text-warning">reduced from 1.33 to 1</span> attack per second</li>
+                        <li>Damage increased from 25 to 27 </li>
+                        <li>Added Functionality:
+                        <ul>
+                        <li>Each time a Cloud Serpent attacks, the hero it is attached to is healed for a small amount.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Blinding Wind (E)</strong>
+                        <ul>
+                        <li>Cooldown increased from 9 to 12 seconds</li>
+                        <li>Duration reduced from 2 to 1.5 seconds</li>
+                        <li>Mana Cost decreased from 35 to 30</li>
+                        </ul></li>
+                        <li><strong>Jug of 1,000 Cups (R)</strong> <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-11-14-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
+                        <ul>
+                        <li><span class="text-warning">Heal amount reduced from 68 to 66.5</span></li>
+                        <li>Cooldown reduced from 70 seconds to 20 seconds</li>
+                        <li>Jug of 1,000 Cups can now be cancelled early</li>
+                        <li>Added Functionality:
+                        <ul>
+                        <li>Each time an ally is healed by Jug of 1,000 Cups, its cooldown is increased by 2 seconds, to a maximum of 50 additional seconds.</li>
+                        </ul></li>
+                        </ul></li>
+                        </ul>
+                        <p><strong>Talents</strong></p>
+                        <ul>
+                        <li><strong>Level 1</strong>
+                        <ul>
+                        <li>Conjurer’s Pursuit (Passive)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>Pro Toss (Q)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>Timeless Creature (W)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>Gale Force (E)
+                        <ul>
+                        <li>Moved to Level 13</li>
+                        <li>New Functionality
+                        <ul>
+                        <li>Increases the duration of Blinding Wind from 2 to 3 seconds. Lili’s Basic Attacks against Blinded Heroes deal 50% more damage.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>(New Talent) Free Drinks (Q)</strong>
+                        <ul>
+                        <li>If Healing Brew heals a target under 50% health, its Cooldown is reduced by 1 second and its mana cost is refunded.</li>
+                        </ul></li>
+                        <li><strong>(New Talent) Wind Serpent (W)</strong>
+                        <ul>
+                        <li>Cloud Serpent’s Cooldown is reduced by 3 seconds each time you hit a Hero with Blinding Wind.</li>
+                        </ul></li>
+                        <li><strong>(New Talent) Eager Adventurer (Trait)</strong>
+                        <ul>
+                        <li>Increases the duration of Fast Feet by 50% and Mana Regeneration is increased by 150% while Fast Feet is active. </li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Level 4</strong>
+                        <ul>
+                        <li>Healing Ward (Active)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>Mending Serpent (W)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>Mass Vortex (E)
+                        <ul>
+                        <li>Moved to Level 13</li>
+                        <li>New functionality:
+                        <ul>
+                        <li>Blinding Wind hits an additional target. If all targets hit are Heroes, they take 75% increased damage from Blinding Wind.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li>Lingering Blind (E)
+                        <ul>
+                        <li>Removed </li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Level 7</strong>
+                        <ul>
+                        <li>Pitch Perfect (Q)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>The Good Stuff (Q) <a class="label label-warning" href="https://heroespatchnotes.com/patch/2017-11-14-patch-notes.html" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
+                        <ul>
+                        <li><span class="text-warning">Heal amount reduced from 60 over 6 seconds to 42 over 3 seconds</span></li>
+                        <li>New functionality:
+                        <ul>
+                        <li>Healing Brew heals for an additional amount over 3 seconds. While Fast Feet is active, this amount is increased by 100%.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li>Lightning Serpent (W)
+                        <ul>
+                        <li>New functionality:
+                        <ul>
+                        <li>Cloud Serpent attacks bounce to 2 nearby Heroes for 50% damage.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li>Cleanse (Active)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li><strong>(New Talent) Let's Go!</strong>
+                        <ul>
+                        <li>Activate to heal allied Hero for a small amount and make them unstoppable for 1 second. 40 second cooldown. The cooldown of this ability is affected by Fast Feet. </li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Level 13</strong>
+                        <ul>
+                        <li>Elusive Feet (Trait)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>Hindering Winds (E)
+                        <ul>
+                        <li>Moved to Level 4</li>
+                        <li>Slow amount increased to 30%.</li>
+                        </ul></li>
+                        <li>Surging Winds (E)
+                        <ul>
+                        <li>New functionality:
+                        <ul>
+                        <li>If at least two targets of Blinding Wind are Heroes, gain 10 Spellpower for 10 seconds and reduce the cooldown of Blinding Wind by 3 seconds. </li>
+                        </ul></li>
+                        </ul></li>
+                        <li>Shrink Ray (Active)
+                        <ul>
+                        <li>Removed </li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Level 16</strong>
+                        <ul>
+                        <li>Shake It Off (Trait)
+                        <ul>
+                        <li>Moved to Level 20</li>
+                        <li>New functionality:
+                        <ul>
+                        <li>While Fast Feet is active, gain 8 Armor per second, to a maximum of 30 armor.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li>Safety Sprint (Active)
+                        <ul>
+                        <li>Moved to Level 4</li>
+                        <li>New functionality:
+                        <ul>
+                        <li>Activate to gain Fast Feet and increase its movement speed bonus to 30% for 2 seconds. 30 second cooldown.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li>Serpent Sidekick (W)
+                        <ul>
+                        <li>Moved to Level 4</li>
+                        <li>New functionality:
+                        <ul>
+                        <li>Each time a Cloud Serpent attacks a Hero, its duration is increased by .5 seconds.</li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>(New Talent) Pick Me Up (Q)</strong>
+                        <ul>
+                        <li>Healing Brew heals for 33% more if the target is under 50% life.</li>
+                        </ul></li>
+                        <li><strong>(New Talent) Blessings of Yu'lon (W)</strong>
+                        <ul>
+                        <li>Cloud Serpent attacks heal its bearer for an additional 1.5% of their maximum life. </li>
+                        </ul></li>
+                        </ul></li>
+                        <li><strong>Level 20</strong>
+                        <ul>
+                        <li>Kung Fu Hustle (Trait)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li>Storm Shield (Active)
+                        <ul>
+                        <li>Removed</li>
+                        </ul></li>
+                        <li><strong>(New Talent) Mistweaver (Active)</strong>
+                        <ul>
+                        <li>Activate to heal all nearby Allies. 30 second cooldown. The cooldown of this ability is reduced by 1 second each time you or your cloud serpent attacks.</li>
+                        </ul></li>
+                        </ul></li>
+                        </ul>
+                        <table>
+                        <thead>
+                        <tr>
+                        <th><strong>LEVEL (TIER)</strong></th>
+                        <th><strong>Li Li Talents</strong></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <td><strong>1 (1)</strong></td>
+                        <td><em>Free Drinks (Q)</em></td>
+                        <td><em>Wind Serpent (W)</em></td>
+                        <td><em>Eager Adventurer (Trait)</em></td>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td><strong>4 (2)</strong></td>
+                        <td><strong>Serpent Sidekick (W)</strong></td>
+                        <td><strong>Hindering Winds (E)</strong></td>
+                        <td><strong>Safety Sprint (Trait)</strong></td>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td><strong>7 (3)</strong></td>
+                        <td>The Good Stuff (Q)</td>
+                        <td>Lightning Serpent (W)</td>
+                        <td><em>Let's Go! (Active)</em></td>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td><strong>10 (4)</strong></td>
+                        <td>Jug of 1,000 Cups</td>
+                        <td>Water Dragon</td>
+                        <td>—</td>
+                        <td>—</td>
+                        </tr>
+                        <tr>
+                        <td><strong>13 (5)</strong></td>
+                        <td><strong>Gale Force (E)</strong></td>
+                        <td>Surging Winds (E)</td>
+                        <td><strong>Mass Vortex (E)</strong></td>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td><strong>16 (6)</strong></td>
+                        <td>Two for One (Q)</td>
+                        <td><em>Pick Me Up (Q)</em></td>
+                        <td><em>Blessings of Yu'lon (W)</em></td>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td><strong>20 (7)</strong></td>
+                        <td>Jug of 1,000,000 Cups (R)</td>
+                        <td>Double Dragon (R)</td>
+                        <td><em>Mistweaver (Active)</em></td>
+                        <td><strong>Shake It Off (Trait)</strong></td>
+                        </tr>
+                        </tbody>
+                        </table>
+                        <ul>
+                        <li>(!) indicates a Questing Talent.</li>
+                        <li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
+                        <li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
+                        </ul>
+                        <blockquote>
+                        <p><em><strong>Developer Comment:</strong></em> Li Li is one of our oldest Heroes and has remained
+                        relatively unchanged since her debut in 2014. With this rework, we wanted to
+                        preserve her relative mechanical simplicity, but give her other ways to show
+                        mastery of game knowledge. Additionally, we wanted to expand upon her fantasy
+                        of being the enthusiastic sidekick who’s not afraid to put herself in danger
+                        to save her allies. With the new cooldown reduction mechanic on her trait, Li
+                        Li players are encouraged to dart in and out of skirmishes, taking just enough
+                        damage to keep her trait up. The longer she can keep her trait up, the more
+                        ability casts she gets, pushing her into a powerful sustain support role. With
+                        this mechanic she can also bully enemies that lack sustained damage; slowly
+                        forcing them out of lanes or off objectives. However, she’s fairly vulnerable
+                        to crowd control since she relies so heavily on frequent spell casts to
+                        survive. One well timed stun or silence can shut down an overly reckless Li
+                        Li. We’re aware that her Blinding Wind damage build was popular and that many
+                        players preferred her in that role, but we felt it was inappropriate for Li Li
+                        to put out the numbers she did while still providing decent support for her
+                        team. In general, we’re nudging our supports away from being as effective as
+                        Assassins or Specialists in terms of damage and wave clear potential. Li Li
+                        can still put out impressive numbers for a support, but it should be much more
+                        predicated on her ability to position properly and keep her trait up, rather
+                        than simply being constant oppressive force.</p>
+                        </blockquote>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="lili-Q1" role="tabpanel">
+                    
+                    <h4 class="bg-primary p-2" id="patch18-0-Q1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">18.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2016-05-17) </span>
+                        <a class="text-muted" href="#patch18-0-Q1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                            <li>Herbal Cleanse (Talent) removed.</li>
+                        </ul>
+                        <blockquote>
+                        <p><em><strong>Developer Comments:</strong></em> While one of the core components of Li Li's design
+                            has been that she does not target her Abilities, we were not happy with Herbal
+                            Cleanse and its odd usability. In addition to some other minor Talent
+                            adjustments, we've decided to give Cleanse to Li Li to help her compete with
+                            other Supports in this area.</p>
+                        </blockquote>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch10-0-Q1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">10.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-03-24) </span>
+                        <a class="text-muted" href="#patch10-0-Q1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                        <li>Will no longer heal Abathur's Ultimate Evolution Clones or Nova's Holo Decoys</li>
+                        </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch8-0-Q1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">8.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-01-13) </span>
+                        <a class="text-muted" href="#patch8-0-Q1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                        <li><strong>New Talent (Level 1): Pro Toss</strong>
+                        <ul>
+                        <li>Increases Healing Brew's range by 30%</li>
+                        </ul></li>
+                        <li><strong>New Talent (Level 7): Pitch Perfect</strong>
+                        <ul>
+                        <li>After casting Healing Brew, its cost is reduced by 10 Mana for 6 seconds. This effect does not stack.</li>
+                        </ul></li>
+                        <li>The Good Stuff (Talent) functionality has changed
+                        <ul>
+                        <li>Healing Brew now heals for an additional 30% over 6 seconds. Multiple heals extend the duration of this heal over time.</li>
+                        </ul></li>
+                        <li>Two For One (Talent) functionality has changed
+                        <ul>
+                        <li>No longer increases Healing Brew's Mana cost</li>
+                        <li>Now increases Healing Brew's cooldown from 3 to 4.5 seconds</li>
+                        </ul></li>
+                        <li>Herbal Cleanse (Talent)
+                        <ul>
+                        <li>Movement Speed bonus duration increased from 2 to 3 seconds</li>
+                        </ul></li>
+                        <li>Scaling heal decreased from 20 to 18</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="lili-W1" role="tabpanel">
+                    
+                    <h4 class="bg-primary p-2" id="patch25-3-W1">
+                        <a href="#" class="btn btn-info btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">25.3 <i class="fal fa-balance-scale"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-01-13) </span>
+                        <a class="text-muted" href="#patch25-3-W1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                                <li>Damage reduced from 29 to 25</li>
+                                </ul>
+                                
+                                
+                                                        <ul>
+                                                        <li>
+                                                            <strong>Level 7</strong>
+                                                            <ul>
+                                                            <li>
+                                                                Lightning Serpent (Talent)
+                                                                <ul>
+                                <li>Damage reduced from 15 to 14</li>
+                                </ul>
+                                
+                                                            </li>
+                                                            </ul>
+                                                        </li>
+                                                        </ul>
+
+                        <blockquote>
+                        <p><em><strong>Developer Comments:</strong></em> While we're happy that we're seeing more Lili due
+                            to her recent buffs, they have gone a bit far in making the hero too powerful,
+                            particularly in double-support compositions. We're reverting part of her
+                            Blinding Wind buff, and reducing the power of her Cloud Serpent so that she is
+                            not putting out quite as much damage in games.</p>
+                        </blockquote>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch8-0-W1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">8.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-01-13) </span>
+                        <a class="text-muted" href="#patch8-0-W1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                                    <li>Cloud Serpent functionality has changed.
+                                    <ul>
+                                    <li>Cloud Serpent now automatically attacks nearby enemies. Only 1 Cloud Serpent can be active on a Hero at a time.</li>
+                                    </ul></li>
+                                    <li>Cost decreased from 40 to 30 Mana</li>
+                                    <li>Starting damage increased from 15 to 20</li>
+                                    <li>Timeless Creature (Talent) moved from Level 16 to Level 1</li>
+                                    <li>Lightning Serpent (Talent)
+                                    <ul>
+                                    <li>Damage dealt to targets after the first increased from 25% to 50%</li>
+                                    <li>Search range increased by 20%</li>
+                                    </ul></li>
+                                    <li><strong>New Talent (Level 4) : Mending Serpent</strong>
+                                    <ul>
+                                    <li>Cloud Serpent heals its host each time it attacks.</li>
+                                    </ul></li>
+                                    <li><strong>New Talent (Level 16): Serpent Sidekick</strong>
+                                    <ul>
+                                    <li>Li Li gains her own Cloud Serpent after casting Cloud Serpent on an ally.</li>
+                                    </ul></li>
+                                    </ul>
+                                                                        
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch2-5-W1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">2.5 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2014-07-23) </span>
+                        <a class="text-muted" href="#patch2-5-W1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                                    <li>Bringer of Gifts (Talents)
+                                    <ul>
+                                    <li>Moved from Level 4 to Level 7</li>
+                                    </ul></li>
+                                    </ul>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="lili-E1" role="tabpanel">
+                    
+                    <h4 class="bg-primary p-2" id="patch25-3-E1">
+                        <a href="#" class="btn btn-info btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">25.3 <i class="fal fa-balance-scale"></i></a>
+                        <span class="text-muted ability-patch-date"> (2017-05-10) </span>
+                        <a class="text-muted" href="#patch25-3-E1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                            <li>Cooldown increased from 8 to 9 seconds</li>
+                            <li>Mana cost increased from 30 to 35</li>
+                            </ul>
+                            
+                            
+                            <ul>
+                                <li>
+                                <strong>Level 1</strong>
+                                <ul>
+                                    <li>
+                                    Gale Force (Talent)
+                                    <ul>
+                                <li>Damage bonus reduced from 50 to 40%</li>
+                                </ul>
+    
+                                    </li>
+                                </ul>
+                                </li>
+                            </ul>
+
+                            <blockquote>
+                                <p><em><strong>Developer Comments:</strong></em> While we're happy that we're seeing more Lili due
+                                    to her recent buffs, they have gone a bit far in making the hero too powerful,
+                                    particularly in double-support compositions. We're reverting part of her
+                                    Blinding Wind buff, and reducing the power of her Cloud Serpent so that she is
+                                    not putting out quite as much damage in games.</p>
+                                </blockquote>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch24-6-E1">
+                        <a href="#" class="btn btn-info btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">24.6 <i class="fal fa-balance-scale"></i></a>
+                        <span class="text-muted ability-patch-date"> (2017-04-20) </span>
+                        <a class="text-muted" href="#patch24-6-E1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                        <li>Cooldown decreased from 10 to 8 seconds</li>
+                        <li>Mana cost reduced from 40 to 30</li>
+                        <li>Damage increased from 132 to 140</li>
+                        </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch12-1-E1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">12.1 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-06-30) </span>
+                        <a class="text-muted" href="#patch12-1-E1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                        <li>Affected targets now miss all Basic Attacks throughout Blinding Wind's duration.</li>
+                        <li>Duration reduced from 4 to 2 seconds</li>
+                        <li>Lingering Blind (Talent)
+                        <ul>
+                        <li>Now increases Blinding Wind's duration by 50%</li>
+                        </ul></li>
+                        </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch8-0-E1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">8.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-01-13) </span>
+                        <a class="text-muted" href="#patch8-0-E1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                        <li>Number of Basic Attacks missed increased from 1 to 2</li>
+                        <li>Cost decreased from 50 to 40 Mana</li>
+                        <li>Starting damage decreased from 50 to 30</li>
+                        <li>Scaling damage increased from 12 to 13 damage</li>
+                        <li>Gale Force (Talent)
+                        <ul>
+                        <li>Damage bonus increased from 25% to 50%</li>
+                        </ul></li>
+                        <li>Mass Vortex (Talent) moved from Level 1 to Level 4</li>
+                        <li>Lingering Blind (Talent)
+                        <ul>
+                        <li>Increases the number of Basic Attacks missed from 2 to 3</li>
+                        </ul></li>
+                        <li><strong>New Talent (Level 13): Surging Winds</strong>
+                        <ul>
+                        <li>Li Li gains 5% Ability Power for 8 seconds per target hit by Blinding Wind. Additional enemies hit refresh the buff duration and further increase Ability Power. Stacks up to 4 times.</li>
+                        </ul></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="lili-R1" role="tabpanel">
+                    <h4 class="bg-primary p-2" id="patch10-0-R1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">10.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-03-24) </span>
+                        <a class="text-muted" href="#patch10-0-R1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                        <li>Will no longer heal Abathur's Ultimate Evolution Clones or Nova's Holo Decoys</li>
+                        </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch8-0-R1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">8.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-01-13) </span>
+                        <a class="text-muted" href="#patch8-0-R1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                            <li>Cooldown increased from 60 to 70 seconds</li>
+                            <li>Initial heal amount decreased from 35 to 20</li>
+                            <li>Scaling heal increased from 4 to 6.5</li>
+                            </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch7-1-R1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">7.1 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2014-12-02) </span>
+                        <a class="text-muted" href="#patch7-1-R1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                        <ul>
+                        <li>Cooldown decreased from 70 to 60 seconds</li>
+                        <li>Heal scaling increased from 3 to 4</li>
+                        <li>Initial heal increased from 25 to 35</li>
+                        <li>Search range increased to 10</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="lili-R2" role="tabpanel">
+                    <h4 class="bg-primary p-2" id="patch17-1-R2">
+                        <a href="#" class="btn btn-info btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">17.1 <i class="fal fa-balance-scale"></i></a>
+                        <span class="text-muted ability-patch-date"> (2016-04-12) </span>
+                        <a class="text-muted" href="#patch17-1-R2" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                                    <li>Damage increased from 192 (+4% per level) to 318 (+4% per level).</li>
+                                    <li>Mana cost decreased from 100 to 50.</li>
+                                    </ul>
+                                    <blockquote>
+                                            <p><strong><em>Developer Comments:</em></strong> We want to make some basic improvements to a lot
+                                              of the lesser-picked/lower win-rate Heroic Abilities. Most of these are pretty
+                                              simple changes to make them more enticing, like adding more damage, reducing
+                                              cooldowns, or lowering Mana costs. We realize that the primary use case for
+                                              Abilities like Li Li's Water Dragon or E.T.C.'s Stage Dive is not damage, but
+                                              having more of it might help them feel more effective. We're trying to do
+                                              something a little bit different with Brightwing's Emerald Wind and
+                                              Malfurion's Twilight Dream by compensating for some of the Support capability
+                                              you miss out on by picking these Heroics. We're excited to see how these go!
+                                              In Thrall's case, Sundering was a little too strong, so we're reducing its
+                                              stun duration.</p>
+                                            </blockquote>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch8-0-R2">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">8.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2015-01-13) </span>
+                        <a class="text-muted" href="#patch8-0-R2" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                                    <li>Starting damage increased from 130 to 200</li>
+                                    <li>Scaling damage increased from 13 to 20</li>
+                                    <li>Slow amount increased from 40% to 70%</li>
+                                    </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch5-0-R2">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">5.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2014-05-22) </span>
+                        <a class="text-muted" href="#patch5-0-R2" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                                    <li>Now slows targets hit by 40% for 3 seconds</li>
+                                    <li>Search radius increased from 9 to 12</li>
+                                    <li>Base damage reduced from 310 to 260</li>
+                                    <li>Damage gain per level reduced from 60 to 25</li>
+                                    </ul>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="lili-D1" role="tabpanel">
+                    <h4 class="bg-primary p-2" id="patch23-0-D1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">23.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2017-01-24) </span>
+                        <a class="text-muted" href="#patch23-0-D1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                                    <li>
+                                      <strong>Level 13</strong>
+                                      <ul>
+                                        <li>
+                                          Elusive Feet (Talent)
+                                          <ul>
+          <li>Now displays a button on the hotbar showing the cooldown</li>
+          </ul>
+          
+                                        </li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch18-0-D1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">18.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2016-05-17) </span>
+                        <a class="text-muted" href="#patch18-0-D1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                                    <li>Safety Sprint (Talent)
+                                    <ul>
+                                    <li>Now provides the Movement Speed bonus regardless of Li Li's remaining Health.</li>
+                                    </ul></li>
+                                    </ul>
+                                    <blockquote>
+                                            <p><em><strong>Developer Comments:</strong></em> While one of the core components of Li Li's design
+                                              has been that she does not target her Abilities, we were not happy with Herbal
+                                              Cleanse and its odd usability. In addition to some other minor Talent
+                                              adjustments, we've decided to give Cleanse to Li Li to help her compete with
+                                              other Supports in this area.</p>
+                                            </blockquote>
+                    </div>
+
+                    <h4 class="bg-primary p-2" id="patch17-0-D1">
+                        <a href="#" class="btn btn-success btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">17.0 <i class="fal fa-file-alt"></i></a>
+                        <span class="text-muted ability-patch-date"> (2016-03-29) </span>
+                        <a class="text-muted" href="#patch17-0-D1" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="#" class="btn btn-secondary btn-sm btn-sm-rounded" data-toggle="tooltip" data-placement="bottom" title="View official patch notes">Official <i class="far fa-external-link"></i></a>
+                        </div>
+                    </h4>
+
+                    <div class="patch-data table-responsive px-sm-2">
+                            <ul>
+                            <li>Elusive Feet (Talent)
+                            <ul>
+                            <li>Damage reduction amount increased from 50% to 75%</li>
+                            </ul></li>
+                            </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="d-none d-md-block">Useful Links</h6>
+                    <ul class="list-unstyled">
+                    <li class="mb-1"><a href="https://heroespatchnotes.com">Home</a></li>
+                    <li class="mb-1"><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+                    <li class="mb-1"><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="d-none d-md-block">Connect</h6>
+                    <ul class="list-unstyled">
+                    <li class="mb-1"><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>
+                    <li class="mb-1"><a href="//twitter.com/heroespatches" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                    <li class="mb-1"><a href="//www.reddit.com/message/compose/?to=AzizLighting" target="_blank"><i class="fab fa-reddit-alien" aria-hidden="true"></i> Reddit</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="d-none d-md-block">Legal</h6>
+                    <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+                    <div><small>This website is not affiliated with Blizzard Entertainment in any way</small></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <!-- Unable to use slim version due to typeahead; you get a this.transport is not a function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha256-C8oQVJ33cKtnkARnmeWp6SDChkU+u7KvsNMFUzkkUzk=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js" integrity="sha256-RWiU4omUU7tQ2M3wmRQNW9UL50MB4CucbRPCbsQv+X0=" crossorigin="anonymous"></script>
+
+    <script>
+        //start tooltips and tabs
+        $(document).ready(function(){
+            $('#abiltalToggles [data-toggle=tab]').click(function(){
+                $(this).toggleClass('active');
+                $($(this).attr("href")).toggleClass('active');
+                
+            });
+            $('[data-toggle="tooltip"]').tooltip();
+            
+            $('#testTabFlip').click(function(e){
+                e.preventDefault();
+                $('#midNav li:first-child a').tab('show');
+            });
+
+        });
+
+        //typeahead for Heroes
+        var heroes = [
+            { "name" : "Thrall",
+                "attr" : "Thrall is cool"
+            }, 
+            { "name": "Sylvanas",
+                "attr" : "Sylv is cool" 
+            }, 
+            { "name": "Varian",
+                "attr" : "Var is cool" 
+            },
+            { "name": "Genji",
+                "attr" : "Genjo is cool"
+            },
+            { "name": "Sylvano",
+                "attr" : "Sylvano is cooler" 
+            }
+        ];
+
+        var bh = new Bloodhound({
+            datumTokenizer: Bloodhound.tokenizers.obj.whitespace('hero'),
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+            identify: function(obj) { return obj.hero; },
+            prefetch: 'heroes.json'
+        });
+
+        $('.typeahead').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+        },
+        {
+            name: 'heroes',
+            display: 'hero',
+            source: bh,
+            templates: {
+                suggestion: function (data) {
+                    return '<a class="tah-result px-3" href="https://heroespatchnotes.com/hero/' + data.short_name + '.html"><span class="small-hero-' + data.sprite_sheet + ' small-' + data.short_name + ' rounded-circle"></span>' + ' <span class="ml-1">' + data.hero + '</span></a>';
+                }
+            }
+        });
+    </script>
+  </body>
+</html>

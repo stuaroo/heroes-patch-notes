@@ -1,0 +1,1994 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.0/flatly/bootstrap.min.css" integrity="sha256-kdtcRsZ1riA3MJWCgq5rbFTxscePMEDZ9XnFya1YlrA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-KwxQKNj2D0XKEW5O/Y6haRH39PE/xry8SAoLbpbCMraqlX7kUP6KHOnrlrtvuJLR" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://heroespatchnotes.com/css/rpg-awesome.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Hero Page Test</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-2">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Heroes Patch Notes</a>
+            
+            <div class="collapse navbar-collapse" id="topNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="patchDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="patchDropdown">
+                            <a class="dropdown-item" href="#">Patch Summary</a>
+                            <a class="dropdown-item" href="#">Patch List</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Heroes</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="battlegroundDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="battlegroundDropdown">
+                            <a class="dropdown-item" href="#">Battleground List</a>
+                            <a class="dropdown-item" href="#">Map Rotation</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="talentDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="talentDropdown">
+                            <a class="dropdown-item" href="#">Rework Diffs</a>
+                            <a class="dropdown-item" href="#">Generic Talents</a>
+                            <a class="dropdown-item" href="#">Removed Talents</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="optionsDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="optionsDropdown">
+                            <a class="dropdown-item" href="#">FAQ</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <article class="container">
+        
+            <div class="input-group mt-2">
+                <input type="text" class="form-control typeahead hero-picker" placeholder="Hero" aria-label="Hero">
+                <span class="input-group-append">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" id="heroDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right scrollable-menu" aria-labelledby="heroDropdown">
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/abathur.html"><span class="small-hero-one small-abathur rounded-circle"></span> <span class="ml-1">Abathur</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/alarak.html"><span class="small-hero-six small-alarak rounded-circle"></span> <span class="ml-1">Alarak</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/alexstrasza.html"><span class="small-hero-eight small-alexstrasza rounded-circle"></span> <span class="ml-1">Alexstrasza</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/ana.html"><span class="small-hero-eight small-ana rounded-circle"></span> <span class="ml-1">Ana</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/anubarak.html"><span class="small-hero-one small-anubarak rounded-circle"></span> <span class="ml-1">Anub'arak</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/artanis.html"><span class="small-hero-five small-artanis rounded-circle"></span> <span class="ml-1">Artanis</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/arthas.html"><span class="small-hero-one small-arthas rounded-circle"></span> <span class="ml-1">Arthas</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/auriel.html"><span class="small-hero-six small-auriel rounded-circle"></span> <span class="ml-1">Auriel</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/azmodan.html"><span class="small-hero-four small-azmodan rounded-circle"></span> <span class="ml-1">Azmodan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/blaze.html"><span class="small-hero-eight small-blaze rounded-circle"></span> <span class="ml-1">Blaze</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/brightwing.html"><span class="small-hero-four small-brightwing rounded-circle"></span> <span class="ml-1">Brightwing</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/butcher.html"><span class="small-hero-four small-butcher rounded-circle"></span> <span class="ml-1">Butcher</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/cassia.html"><span class="small-hero-seven small-cassia rounded-circle"></span> <span class="ml-1">Cassia</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/chen.html"><span class="small-hero-one small-chen rounded-circle"></span> <span class="ml-1">Chen</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/cho.html"><span class="small-hero-five small-cho rounded-circle"></span> <span class="ml-1">Cho</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/chromie.html"><span class="small-hero-six small-chromie rounded-circle"></span> <span class="ml-1">Chromie</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/dva.html"><span class="small-hero-seven small-dva rounded-circle"></span> <span class="ml-1">D.Va</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/deckard.html"><span class="small-hero-eight small-deckard rounded-circle"></span> <span class="ml-1">Deckard</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/dehaka.html"><span class="small-hero-five small-dehaka rounded-circle"></span> <span class="ml-1">Dehaka</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/diablo.html"><span class="small-hero-one small-diablo rounded-circle"></span> <span class="ml-1">Diablo</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/etc.html"><span class="small-hero-two small-etc rounded-circle"></span> <span class="ml-1">E.T.C.</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/falstad.html"><span class="small-hero-one small-falstad rounded-circle"></span> <span class="ml-1">Falstad</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/fenix.html"><span class="small-hero-eight small-fenix rounded-circle"></span> <span class="ml-1">Fenix</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/gall.html"><span class="small-hero-five small-gall rounded-circle"></span> <span class="ml-1">Gall</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/garrosh.html"><span class="small-hero-seven small-garrosh rounded-circle"></span> <span class="ml-1">Garrosh</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/gazlowe.html"><span class="small-hero-three small-gazlowe rounded-circle"></span> <span class="ml-1">Gazlowe</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/genji.html"><span class="small-hero-seven small-genji rounded-circle"></span> <span class="ml-1">Genji</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/greymane.html"><span class="small-hero-five small-greymane rounded-circle"></span> <span class="ml-1">Greymane</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/guldan.html"><span class="small-hero-six small-guldan rounded-circle"></span> <span class="ml-1">Gul'dan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/hanzo.html"><span class="small-hero-eight small-hanzo rounded-circle"></span> <span class="ml-1">Hanzo</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/illidan.html"><span class="small-hero-one small-illidan rounded-circle"></span> <span class="ml-1">Illidan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/jaina.html"><span class="small-hero-one small-jaina rounded-circle"></span> <span class="ml-1">Jaina</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/johanna.html"><span class="small-hero-four small-johanna rounded-circle"></span> <span class="ml-1">Johanna</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/junkrat.html"><span class="small-hero-eight small-junkrat rounded-circle"></span> <span class="ml-1">Junkrat</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kaelthas.html"><span class="small-hero-one small-kaelthas rounded-circle"></span> <span class="ml-1">Kael'thas</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kelthuzad.html"><span class="small-hero-eight small-kelthuzad rounded-circle"></span> <span class="ml-1">Kel'Thuzad</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kerrigan.html"><span class="small-hero-two small-kerrigan rounded-circle"></span> <span class="ml-1">Kerrigan</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/kharazim.html"><span class="small-hero-four small-kharazim rounded-circle"></span> <span class="ml-1">Kharazim</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/leoric.html"><span class="small-hero-four small-leoric rounded-circle"></span> <span class="ml-1">Leoric</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/lili.html"><span class="small-hero-two small-lili rounded-circle"></span> <span class="ml-1">Li Li</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/liming.html"><span class="small-hero-five small-liming rounded-circle"></span> <span class="ml-1">Li-Ming</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/ltmorales.html"><span class="small-hero-five small-ltmorales rounded-circle"></span> <span class="ml-1">Lt. Morales</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/lucio.html"><span class="small-hero-seven small-lucio rounded-circle"></span> <span class="ml-1">Lucio</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/lunara.html"><span class="small-hero-five small-lunara rounded-circle"></span> <span class="ml-1">Lunara</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/maiev.html"><span class="small-hero-eight small-maiev rounded-circle"></span> <span class="ml-1">Maiev</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/malfurion.html"><span class="small-hero-two small-malfurion rounded-circle"></span> <span class="ml-1">Malfurion</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/malthael.html"><span class="small-hero-seven small-malthael rounded-circle"></span> <span class="ml-1">Malthael</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/medivh.html"><span class="small-hero-six small-medivh rounded-circle"></span> <span class="ml-1">Medivh</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/muradin.html"><span class="small-hero-two small-muradin rounded-circle"></span> <span class="ml-1">Muradin</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/murky.html"><span class="small-hero-two small-murky rounded-circle"></span> <span class="ml-1">Murky</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/nazeebo.html"><span class="small-hero-two small-nazeebo rounded-circle"></span> <span class="ml-1">Nazeebo</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/nova.html"><span class="small-hero-two small-nova rounded-circle"></span> <span class="ml-1">Nova</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/probius.html"><span class="small-hero-seven small-probius rounded-circle"></span> <span class="ml-1">Probius</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/ragnaros.html"><span class="small-hero-six small-ragnaros rounded-circle"></span> <span class="ml-1">Ragnaros</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/raynor.html"><span class="small-hero-two small-raynor rounded-circle"></span> <span class="ml-1">Raynor</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/rehgar.html"><span class="small-hero-two small-rehgar rounded-circle"></span> <span class="ml-1">Rehgar</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/rexxar.html"><span class="small-hero-five small-rexxar rounded-circle"></span> <span class="ml-1">Rexxar</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/samuro.html"><span class="small-hero-six small-samuro rounded-circle"></span> <span class="ml-1">Samuro</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/sgthammer.html"><span class="small-hero-three small-sgthammer rounded-circle"></span> <span class="ml-1">Sgt. Hammer</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/sonya.html"><span class="small-hero-three small-sonya rounded-circle"></span> <span class="ml-1">Sonya</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/stitches.html"><span class="small-hero-four small-stitches rounded-circle"></span> <span class="ml-1">Stitches</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/stukov.html"><span class="small-hero-seven small-stukov rounded-circle"></span> <span class="ml-1">Stukov</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/sylvanas.html"><span class="small-hero-four small-sylvanas rounded-circle"></span> <span class="ml-1">Sylvanas</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tassadar.html"><span class="small-hero-four small-tassadar rounded-circle"></span> <span class="ml-1">Tassadar</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/thelostvikings.html"><span class="small-hero-one small-thelostvikings rounded-circle"></span> <span class="ml-1">The Lost Vikings</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/thrall.html"><span class="small-hero-three small-thrall rounded-circle"></span> <span class="ml-1">Thrall</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tracer.html"><span class="small-hero-six small-tracer rounded-circle"></span> <span class="ml-1">Tracer</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tychus.html"><span class="small-hero-three small-tychus rounded-circle"></span> <span class="ml-1">Tychus</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tyrael.html"><span class="small-hero-three small-tyrael rounded-circle"></span> <span class="ml-1">Tyrael</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/tyrande.html"><span class="small-hero-four small-tyrande rounded-circle"></span> <span class="ml-1">Tyrande</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/uther.html"><span class="small-hero-three small-uther rounded-circle"></span> <span class="ml-1">Uther</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/valeera.html"><span class="small-hero-seven small-valeera rounded-circle"></span> <span class="ml-1">Valeera</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/valla.html"><span class="small-hero-three small-valla rounded-circle"></span> <span class="ml-1">Valla</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/varian.html"><span class="small-hero-six small-varian rounded-circle"></span> <span class="ml-1">Varian</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/xul.html"><span class="small-hero-five small-xul rounded-circle"></span> <span class="ml-1">Xul</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zagara.html"><span class="small-hero-three small-zagara rounded-circle"></span> <span class="ml-1">Zagara</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zarya.html"><span class="small-hero-six small-zarya rounded-circle"></span> <span class="ml-1">Zarya</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zeratul.html"><span class="small-hero-three small-zeratul rounded-circle"></span> <span class="ml-1">Zeratul</span></a>
+                        <a class="dropdown-item py-0 px-3" href="//heroespatchnotes.com/hero/zuljin.html"><span class="small-hero-seven small-zuljin rounded-circle"></span> <span class="ml-1">Zul'jin</span></a>
+
+                    </div>
+                </span>
+            </div>
+        
+        <div class="row mt-2">
+            <div class="col-lg-4 hero-unit">
+                <div class="hero-img hero-lili rounded"></div>
+                <div class="hero-info">
+                    <div class="hero-name">Li Li</div>
+                    <div class="health base-stats collapse">
+                      <div class="base-stats-bar health-bar bg-success">
+                        <span>1552</span> <span class="health-scaling">(+4% per level)</span>  
+                      </div> 
+                    </div>
+                    <div class="mana base-stats collapse">
+                      <div class="base-stats-bar mana-bar bg-info">
+                        <span>490</span> <span class="mana-scaling">(+10 per level)</span>
+                      </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 base-stat-values base-stats collapse">
+              <div class="bs-header">Base Stats</div>
+              <div class="text-success">3.2343 (+4% per level) per second Health Regen</div>
+              <div class="text-info">2.90 (+0.1% per level) per second Mana Regen</div>
+              <div>0.625 Hero Radius</div>
+            </div>
+            <div class="col-lg-4 base-stat-values base-stats collapse">
+              <div class="aa-header">Basic Attack <i class="ra ra-sword"></i></div>
+              <div>63 (+4% per level) Attack Damage</div>
+              <div>0.8 seconds per attack / 1.25 Attack Speed</div>
+              <div>0.1875 seconds Damage Point <a href="#" class="ba-info-tooltip" data-toggle="tooltip" data-placement="right" title="Cast time per attack, or time between issuing an attack command and the attack executing"><i class="fas fa-info-circle"></i></a></div>
+              <div>5.5 Attack Range</div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col" id="abiltalToggles">
+                <a href="#" class="btn btn-primary btn-sm" data-toggle="collapse" data-target=".base-stats" aria-expanded="false">
+                    <i class="fal fa-list-ul list-closed"></i>
+                    <i class="fas fa-list-alt list-open"></i>
+                     Stats
+                </a>
+                <a href="#ability" class="btn btn-primary btn-sm" data-toggle="collapse" aria-expanded="false">
+                    <i class="fal fa-list-ul list-closed"></i>
+                    <i class="fas fa-list-alt list-open"></i>
+                     Abilities
+                </a>
+                <a href="#talents" class="btn btn-primary btn-sm" data-toggle="collapse" aria-expanded="false">
+                    <i class="fal fa-list-ul list-closed"></i>
+                    <i class="fas fa-list-alt list-open"></i>
+                     Talents
+                </a>
+                <a href="old/hero/hero-name.html" class="float-right">classic view <i class="fal fa-history"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="collapse mt-2" id="ability">
+                    <h3 class="bg-light p-1">Abilities</h3>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                <div class="abil-img-header">
+                                    <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                    <span class="letter-overlay-header">Q</span>
+                                </div>
+                                Healing Brew
+                                <div class="lvl-right float-right">
+                                    <div class="lvl-label text-right">MANA</div>
+                                    <div class="lvl-num text-right">25</div>
+                                </div>
+                                <div class="lvl-right float-right">
+                                    <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                    <div class="lvl-num text-right">4</div>
+                                </div>
+                                </div>
+                                <div class="card-body">
+                                <p class="card-text">Heal lowest Health ally (prioritizing Heroes) within 6 range for 190 (+4% per level) Health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Cloud Serpent
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">35</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">12</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 20 (+4% per level). Lasts for 8 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Blinding Wind
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">30</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">12</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Jug of 1,000 Cups
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">80</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 (+4% per level) Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Water Dragon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">MANA</div>
+                                        <div class="lvl-num text-right">50</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">45</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header trait-overlay">Trait</span>
+                                    </div>
+                                    Fast Feet
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse mt-2" id="talents">
+                    <h3 class="bg-light p-1">Talents</h3>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header">D</span>
+                                    </div>
+                                    Eager Adventurer
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">1</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increase Fast Feet's duration by 50% and increase Mana regeneration by 150% while Fast Feet is active.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    Free Drinks
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">1</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Healing Brew's cooldown is reduced by 1 second and its Mana cost is refunded if it heals a Hero under 50% Health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Wind Serpent
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">1</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">The cooldown of Cloud Serpent is reduced by 2 seconds. Casting Cloud Serpent also launches a Blinding Wind at the nearest enemy to the target.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Serpent Sidekick
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">4</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Cloud Serpent's duration is increased by 0.6 seconds every time it attacks an Hero.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Hindering Winds
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">4</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Blinding Wind Slows enemy Hero Movement Speed by 25% for 2 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header active-overlay">Active</span>
+                                    </div>
+                                    Safety Sprint
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">4</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">30</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    The Good Stuff
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">7</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Healing Brew heals for an additional 42 (+4% per level) over 3 seconds. While Fast Feet is active, this heal amount is increased by 100%.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Lightning Serpent
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">7</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Cloud Serpent attacks bounce to hit 2 additional Heroes for 50% damage and healing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_talent_cleanse.png" class="abil-img">
+                                        <span class="letter-overlay-header active-overlay">Active</span>
+                                    </div>
+                                    Let's Go!
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">7</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">40</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Activate to heal an allied Hero for 140 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet. Cannot be used on Li Li.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Jug of 1,000 Cups
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">10</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 (+4% per level) Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Water Dragon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">10</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">45</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Gale Force
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">13</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increase Blinding Wind's duration by 1 second. Li Li's Basic Attacks against Blinded Heroes deal 75% increased damage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind_a.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Surging Winds
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">13</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">If Blinding Wind hits 2 Heroes, its cooldown is reduced by 3 seconds and Li Li gains 10% Spell Power for 10 seconds.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_blindingwind_b.png" class="abil-img">
+                                        <span class="letter-overlay-header">E</span>
+                                    </div>
+                                    Mass Vortex
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">13</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increase the number of enemies hit by Blinding Wind from 2 to 3. Blinding Wind deals 75% additional damage if all 3 enemies hit are Heroes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    Two For One
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">16</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1 second.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_healingbrew_a.png" class="abil-img">
+                                        <span class="letter-overlay-header">Q</span>
+                                    </div>
+                                    Pick Me Up
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">16</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Healing Brew's healing for Heroes is increased by 33% if they are under 50% Health.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                        <span class="letter-overlay-header">W</span>
+                                    </div>
+                                    Blessings Of Yu'lon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">16</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Cloud Serpent heals its bearer for 1.5% of their maximum Health each time it attacks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Jug of 1,000,000 Cups
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Jug of 1,000 Cups heals two allies at a time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img">
+                                        <span class="letter-overlay-header">R</span>
+                                    </div>
+                                    Double Dragon
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">After hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_mistweaver.png" class="abil-img">
+                                        <span class="letter-overlay-header active-overlay">Active</span>
+                                    </div>
+                                    Mistweaver
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                        <div class="lvl-num text-right">30</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Activate to heal nearby allied Heroes for 165 (+4% per level). Basic Attacks and Cloud Serpent attacks reduce the cooldown of Mistweaver by 1 second.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-light mb-3">
+                                <div class="card-header">
+                                    <div class="abil-img-header">
+                                        <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                        <span class="letter-overlay-header">D</span>
+                                    </div>
+                                    Shake It Off
+                                    <div class="lvl-right float-right">
+                                        <div class="lvl-label text-right">LVL</div>
+                                        <div class="lvl-num text-right">20</div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Gain 8 Armor per second while Fast Feet is active, up to 30 Armor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <div class="bg-light my-4">
+        <div class="container">  
+            <div class="row form-group">
+                <div class="col-12 col-md-8 ability-filters">
+                    <div class="d-inline-block mx-2 my-1 filter-header">
+                        <span><i class="fal fa-filter"></i> Filter by</span>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-2 my-1">
+                        <input type="checkbox" class="custom-control-input filter chk-filter" data-value="keyQ1" id="lili-Q1">
+                        <label class="custom-control-label" for="lili-Q1">
+                            <div class="abil-img-filter">
+                                <img src="images/storm_ui_icon_lili_healingbrew.png" class="rounded">
+                                <span class="letter-overlay-header">Q</span>
+                            </div>
+                            <span>Healing Brew</span>
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-2 my-1">
+                        <input type="checkbox" class="custom-control-input filter chk-filter" data-value="keyW1" id="lili-W1">
+                        <label class="custom-control-label" for="lili-W1">
+                            <div class="abil-img-filter">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="rounded">
+                                <span class="letter-overlay-header">W</span>
+                            </div>
+                            <span>Cloud Serpent</span>
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-2 my-1">
+                        <input type="checkbox" class="custom-control-input filter chk-filter" data-value="keyE1" id="lili-E1">
+                        <label class="custom-control-label" for="lili-E1">
+                            <div class="abil-img-filter">
+                                <img src="images/storm_ui_icon_lili_blindingwind.png" class="rounded">
+                                <span class="letter-overlay-header">E</span>
+                            </div>
+                            <span>Blinding Wind</span>
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-2 my-1">
+                        <input type="checkbox" class="custom-control-input filter chk-filter" data-value="keyR1" id="lili-R1">
+                        <label class="custom-control-label" for="lili-R1">
+                            <div class="abil-img-filter">
+                                <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="rounded">
+                                <span class="letter-overlay-header">R</span>
+                            </div>
+                            <span>Jug of 1,000 Cups</span>
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-2 my-1">
+                        <input type="checkbox" class="custom-control-input filter chk-filter" data-value="keyR2" id="lili-R2">
+                        <label class="custom-control-label" for="lili-R2">
+                            <div class="abil-img-filter">
+                                <img src="images/storm_ui_icon_lili_waterdragon.png" class="rounded">
+                                <span class="letter-overlay-header">R</span>
+                            </div>
+                            <span>Water Dragon</span>
+                        </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mx-2 my-1">
+                        <input type="checkbox" class="custom-control-input filter chk-filter" data-value="keyD1" id="lili-D1">
+                        <label class="custom-control-label" for="lili-D1">
+                            <div class="abil-img-filter">
+                                <img src="images/storm_ui_icon_lili_fastfeet.png" class="rounded">
+                                <span class="letter-overlay-header trait-overlay">Trait</span>
+                            </div>
+                            <span>Fast Feet</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 generic-filters">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="custom-control custom-checkbox d-block my-1">
+                                <input type="checkbox" class="custom-control-input filter" data-value="keyStats" id="lili-Stats">
+                                <label class="custom-control-label" for="lili-Stats">
+                                    <span>Stats</span>
+                                </label>
+                            </div>
+                            <div class="custom-control custom-checkbox d-block my-1">
+                                <input type="checkbox" class="custom-control-input filter" data-value="keyActive" id="lili-Active">
+                                <label class="custom-control-label" for="lili-Active">
+                                    <span>Active Talents</span>
+                                </label>
+                            </div>
+                            <div class="custom-control custom-checkbox d-block my-1">
+                                <input type="checkbox" class="custom-control-input filter" data-value="keyPassive" id="lili-Passive">
+                                <label class="custom-control-label" for="lili-Passive">
+                                    <span>Passive Talents</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="custom-control custom-checkbox d-block my-1">
+                                <input type="checkbox" class="custom-control-input filter" data-value="keyBugFixes" id="lili-Bugs">
+                                <label class="custom-control-label" for="lili-Bugs">
+                                    <span>Bug Fixes</span>
+                                </label>
+                            </div>
+                            <div class="custom-control custom-checkbox d-block my-1">
+                                <input type="checkbox" class="custom-control-input filter" data-value="keyDevComments" id="lili-DevComments">
+                                <label class="custom-control-label" for="lili-DevComments">
+                                    <span>Dev Comments</span>
+                                </label>
+                            </div>
+                            <div class="custom-control custom-checkbox d-block my-1">
+                                <input type="checkbox" class="custom-control-input filter" data-value="keyUndocumented" id="lili-Undocumented">
+                                <label class="custom-control-label" for="lili-Undocumented">
+                                    <span>Undocumented</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <article id="filterable" class="container">
+        <div class="list">
+
+            <div class="row">            
+            <div class="col-12">
+                <h4 class="bg-primary p-2" id="patch2018-05-09">
+                    <span>2018-05-09 </span>
+                    <a class="text-muted d-none d-sm-inline" href="#patch2018-05-09" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                    <div class="float-right">
+                        <a href="//heroespatchnotes.com/patch/2018-05-09" class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="bottom" title="View full Patch Notes for v2.32.2.65006">32.2 <i class="fal fa-balance-scale"></i></a>
+                        <a href="#" class="badge badge-pill badge-secondary" data-toggle="tooltip" data-placement="bottom" title="View official patch notes"><span class="d-none d-sm-inline">Official</span> <i class="far fa-external-link"></i></a>
+                    </div>
+                    <span class="d-none hotkey">keyW1 keyD1 keyBugFixes</span>
+                </h4>            
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 1</span>
+                        </div>
+                        <span>Wind Serpent</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-WindSerpent-20180509" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyW1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>No longer reduces Cloud Serpent's cooldown.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-WindSerpent-20180509" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                <span class="letter-overlay-header">W</span>
+                            </div>
+                            Wind Serpent
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">1</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Casting Cloud Serpent also launches a Blinding Wind at the nearest enemy to the target.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>The cooldown of Cloud Serpent is reduced by 2 seconds. Casting Cloud Serpent also launches a Blinding Wind at the nearest enemy to the target.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_fastfeet.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 1</span>
+                        </div>
+                        <span>Eager Adventurer</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-EagerAdventurer-20180509" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyD1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Fast Feet duration bonus increased from 50% to 100%.</li>
+                            <li>Mana regeneration bonus reduced from 150% to 100%.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-EagerAdventurer-20180509" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                <span class="letter-overlay-header trait-overlay">Trait</span>
+                            </div>
+                            Eager Adventurer
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">1</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Increase Fast Feet's duration by 100% and increase Mana regeneration by 100% while Fast Feet is active.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Increase Fast Feet's duration by 50% and increase Mana regeneration by 150% while Fast Feet is active.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_fastfeet.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 4</span>
+                        </div>
+                        <span>Safety Sprint</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-SafetySprint-20180509" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyD1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Additional Functionality:
+                            <ul>
+                            <li>Passively increases Fast Feet's base Movement Speed bonus from 10% to 15%.</li>
+                            </ul></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-SafetySprint-20180509" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                <span class="letter-overlay-header trait-overlay">Trait</span>
+                            </div>
+                            Safety Sprint
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">4</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">30</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active. Passive: Increase the movement speed bonus of Fast Feet to 15%.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 16</span>
+                        </div>
+                        <span>Blessings of Yu'lon</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-BlessingsofYulon-20180509" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyW1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Healing reduced from 1.5% to 1.25% of maximum Health.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-BlessingsofYulon-20180509" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                <span class="letter-overlay-header trait-overlay">W</span>
+                            </div>
+                            Blessings of Yu'lon
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">16</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Cloud Serpent heals its bearer for 1.25% of their maximum Health each time it attacks.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Cloud Serpent heals its bearer for 1.5% of their maximum Health each time it attacks.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row">
+                <div class="col-12 card patch-change-card">
+                    <div class="card-header bug-fix-heading">
+                        <span>Bug Fixes</span>
+                        <span class="d-none hotkey">keyBugFixes</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li><strong>Li Li:</strong> Upon activating Safety Sprint, Fast Feet now correctly persists for its full 3 second duration.</li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="col-12">
+                <h4 class="bg-primary p-2" id="patch2018-03-27">
+                    <span>2018-03-27 </span>
+                    <a class="text-muted d-none d-sm-inline" href="#patch2018-03-27" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                    <div class="float-right">
+                        <a href="//heroespatchnotes.com/patch/2018-03-27" class="badge badge-pill badge-success" data-toggle="tooltip" data-placement="bottom" title="View full Patch Notes for v2.31.0.24567">31.0 <i class="fal fa-file-alt"></i></a>
+                        <a href="#" class="badge badge-pill badge-secondary" data-toggle="tooltip" data-placement="bottom" title="View official patch notes"><span class="d-none d-sm-inline">Official</span> <i class="far fa-external-link"></i></a>
+                    </div>
+                    <span class="d-none hotkey">keyW1 keyE1 keyBugFixes</span>
+                </h4>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 1</span>
+                        </div>
+                        <span>Wind Serpent</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-WindSerpent-20180327" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyW1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>New functionality:
+                            <ul>
+                            <li>Reduces Cloud Serpent’s cooldown by 2 seconds.</li>
+                            <li>Casting Cloud Serpent also launches Blinding Wind at an enemy near the target.</li>
+                            </ul></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-WindSerpent-20180327" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                <span class="letter-overlay-header">W</span>
+                            </div>
+                            Wind Serpent
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">1</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">The cooldown of Cloud Serpent is reduced by 2 seconds. Casting Cloud Serpent also launches a Blinding Wind at the nearest enemy to the target.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Each Hero hit by Blinding Wind reduces the cooldown of Cloud Serpent by 3 seconds.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_blindingwind.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 4</span>
+                        </div>
+                        <span>Hindering Winds</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-HinderingWinds-20180327" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyE1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Slow amount reduced from 30% to 25%.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-HinderingWinds-20180327" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                <span class="letter-overlay-header">E</span>
+                            </div>
+                            Hindering Winds
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">4</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Blinding Wind Slows enemy Hero Movement Speed by 25% for 2 seconds.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Blinding Wind Slows enemy Hero Movement Speed by 30% for 2 seconds.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 card patch-change-card">
+                    <div class="card-header bug-fix-heading">
+                        <span>Bug Fixes</span>
+                        <span class="d-none hotkey">keyBugFixes</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                                <li><strong>Li Li:</strong> Casting Cloud Serpent on Pilot-form D.Va just before she casts Call Mech will no longer prevent the Serpent from following Mech-form D.Va.</li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-12">
+                <h4 class="bg-primary p-2" id="patch2018-02-21">
+                    <span>2018-02-21 </span>
+                    <a class="text-muted d-none d-sm-inline" href="#patch2018-02-21" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                    <div class="float-right">
+                        <a href="//heroespatchnotes.com/patch/2018-02-21" class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">30.3 <i class="fal fa-balance-scale"></i></a>
+                        <a href="#" class="badge badge-pill badge-secondary" data-toggle="tooltip" data-placement="bottom" title="View official patch notes"><span class="d-none d-sm-inline">Official</span> <i class="far fa-external-link"></i></a>
+                    </div>
+                    <span class="d-none hotkey">keyBugFixes</span>
+                </h4>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 card patch-change-card">
+                    <div class="card-header bug-fix-heading">
+                        <span>Bug Fixes</span>
+                        <span class="d-none hotkey">keyBugFixes</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li><strong>Li Li:</strong> After learning the Lightning Serpent Talent, Cloud Serpent attacks that are bouncing to additional targets when the Ability expires will now correctly deal damage.</li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-12">
+                <h4 class="bg-primary p-2" id="patch2018-02-06">
+                    <span>2018-02-06 </span>
+                    <a class="text-muted d-none d-sm-inline" href="#patch2018-02-06" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                    <div class="float-right">
+                        <a href="//heroespatchnotes.com/patch/2018-02-06" class="badge badge-pill badge-success" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">30.0 <i class="fal fa-file-alt"></i></a>
+                        <a href="#" class="badge badge-pill badge-secondary" data-toggle="tooltip" data-placement="bottom" title="View official patch notes"><span class="d-none d-sm-inline">Official</span> <i class="far fa-external-link"></i></a>
+                    </div>
+                    <span class="d-none hotkey">keyBugFixes</span>
+                </h4>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 card patch-change-card">
+                    <div class="card-header bug-fix-heading">
+                        <span>Bug Fixes</span>
+                        <span class="d-none hotkey">keyBugFixes</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li><strong>Li Li:</strong> Blinding Wind will now correctly deal damage to neutral Mercenaries.</li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-12">
+                <h4 class="bg-primary p-2" id="patch2017-12-20">
+                    <span>2017-12-20 </span>
+                    <a class="text-muted d-none d-sm-inline" href="#patch2017-12-20" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                    <div class="float-right">
+                        <a href="//heroespatchnotes.com/patch/2017-12-20" class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">29.5 <i class="fal fa-balance-scale"></i></a>
+                        <a href="#" class="badge badge-pill badge-secondary" data-toggle="tooltip" data-placement="bottom" title="View official patch notes"><span class="d-none d-sm-inline">Official</span> <i class="far fa-external-link"></i></a>
+                    </div>
+                    <span class="d-none hotkey">keyW1 keyD1 keyActive keyE1</span>
+                </h4>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img rounded">
+                            <span class="letter-overlay-header">W</span>
+                        </div>
+                        <span>Cloud Serpent</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-CloudSerpent-20171220" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyW1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Health restored per attack increased from 15 to 20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-CloudSerpent-20171220" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                <span class="letter-overlay-header">W</span>
+                            </div>
+                            Cloud Serpent
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">MANA</div>
+                                <div class="lvl-num text-right">35</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">12</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 20 (+4% per level). Lasts for 8 seconds.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 15 (+4% per level). Lasts for 8 seconds.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 1</span>
+                        </div>
+                        <span>Wind Serpent</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-WindSerpent-20171220" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyW1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Cooldown reduction granted per Hero hit by Blinding Wind increased from 3 to 4 seconds</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-WindSerpent-20171220" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                <span class="letter-overlay-header">W</span>
+                            </div>
+                            Wind Serpent
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">1</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Each Hero hit by Blinding Wind reduces the cooldown of Cloud Serpent by 4 seconds.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Each Hero hit by Blinding Wind reduces the cooldown of Cloud Serpent by 3 seconds.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 4</span>
+                        </div>
+                        <span>Serpent Sidekick</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-SerpentSidekick-20171220" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyW1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Cloud Serpent duration bonus granted per attack increased from 0.5 to 0.6 seconds</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-SerpentSidekick-20171220" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                <span class="letter-overlay-header">W</span>
+                            </div>
+                            Serpent Sidekick
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">4</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Cloud Serpent's duration is increased by 0.5 seconds every time it attacks an Hero.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Cloud Serpent's duration is increased by 0.6 seconds every time it attacks an Hero.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_fastfeet.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 4</span>
+                        </div>
+                        <span>Safety Sprint</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-SafetySprint-20171220" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyD1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Duration increased from 2 to 3 seconds</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-SafetySprint-20171220" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_fastfeet.png" class="abil-img">
+                                <span class="letter-overlay-header trait-overlay">Trait</span>
+                            </div>
+                            Safety Sprint
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">4</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">30</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Activate to gain Fast Feet for 2 seconds and increase its Movement Speed bonus to 30% while active.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_talent_cleanse.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 7</span>
+                        </div>
+                        <span>Let's Go!</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-LetsGo-20171220" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyActive</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Range increased from 4 to 6</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-LetsGo-20171220" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_talent_cleanse.png" class="abil-img">
+                                <span class="letter-overlay-header active-overlay">Active</span>
+                            </div>
+                            Let's Go!
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">7</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">40</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Activate to heal an allied Hero for 140 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet. Cannot be used on Li Li.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Activate to heal an allied Hero for 140 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet. Cannot be used on Li Li.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_blindingwind.png" class="rounded tal-img">
+                            <span class="lvl-overlay">LVL 13</span>
+                        </div>
+                        <span>Gale Force</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-GaleForce-20171220" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyE1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Bonus Basic Attack damage against Blinded Heroes increased from 50% to 75%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-GaleForce-20171220" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                <span class="letter-overlay-header">E</span>
+                            </div>
+                            Gale Force
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">LVL</div>
+                                <div class="lvl-num text-right">13</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Increase Blinding Wind's duration by 1 second. Li Li's Basic Attacks against Blinded Heroes deal 75% increased damage.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Increase Blinding Wind's duration by 1 second. Li Li's Basic Attacks against Blinded Heroes deal 50% increased damage.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="bg-primary p-2" id="patch2017-11-29">
+                        <span>2017-11-29 </span>
+                        <a class="text-muted d-none d-sm-inline" href="#patch2017-11-29" data-toggle="tooltip" data-placement="right" title="Permalink to this location"><i class="fal fa-link"></i></a>
+                        <div class="float-right">
+                            <a href="//heroespatchnotes.com/patch/2017-11-29" class="badge badge-pill badge-info" data-toggle="tooltip" data-placement="bottom" title="View full patch notes">29.2 <i class="fal fa-balance-scale"></i></a>
+                            <a href="#" class="badge badge-pill badge-secondary" data-toggle="tooltip" data-placement="bottom" title="View official patch notes"><span class="d-none d-sm-inline">Official</span> <i class="far fa-external-link"></i></a>
+                        </div>
+                        <span class="d-none hotkey">keyStats keyQ1 keyW1 keyE1 keyR1 keyR2</span>
+                    </h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-6 card patch-change-card">
+                    <div class="card-header bug-fix-heading">
+                        <span>Stats</span>
+                        <span class="d-none hotkey">keyStats</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Base Maximum Health reduced from 1552 to 1475 <span class="d-none d-sm-inline text-danger float-right"><i class="fal fa-arrow-alt-down"></i> 5%</span></li>
+                            <li>Health Regen from 3.23 to 3.07 <span class="d-none d-sm-inline text-danger float-right"><i class="fal fa-arrow-alt-down"></i> 5%</span></li>
+                            <li>Basic Attack Damage reduced from 63 to 60 <span class="d-none d-sm-inline text-danger float-right"><i class="fal fa-arrow-alt-down"></i> 5%</span></li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img rounded">
+                            <span class="letter-overlay-header">Q</span>
+                        </div>
+                        <span>Healing Brew</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-HealingBrew-20171129" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyQ1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Heal amount increased from 177 to 190</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-HealingBrew-20171129" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_healingbrew.png" class="abil-img">
+                                <span class="letter-overlay-header">Q</span>
+                            </div>
+                            Healing Brew
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">MANA</div>
+                                <div class="lvl-num text-right">25</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">4</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Heal lowest Health ally (prioritizing Heroes) within 6 range for 190 (+4% per level) Health.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Heal lowest Health ally (prioritizing Heroes) within 6 range for 177 (+4% per level) Health.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img rounded">
+                            <span class="letter-overlay-header">W</span>
+                        </div>
+                        <span>Cloud Serpent</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-CloudSerpent-20171129" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyW1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Heal amount increased from 13.5 to 15</li>
+                            <li>Damage reduced from 27 to 26</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-CloudSerpent-20171129" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_cloudserpent.png" class="abil-img">
+                                <span class="letter-overlay-header">W</span>
+                            </div>
+                            Cloud Serpent
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">MANA</div>
+                                <div class="lvl-num text-right">35</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">12</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 15 (+4% per level). Lasts for 8 seconds.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 27 (+4% per level) damage and heals the ally for 14 (+4% per level). Lasts for 8 seconds.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img rounded">
+                            <span class="letter-overlay-header">E</span>
+                        </div>
+                        <span>Blinding Wind</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-BlindingWind-20171129" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyE1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Damage reduced from 140 to 133</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-BlindingWind-20171129" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_blindingwind.png" class="abil-img">
+                                <span class="letter-overlay-header">E</span>
+                            </div>
+                            Blinding Wind
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">MANA</div>
+                                <div class="lvl-num text-right">30</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">12</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 140 (+4% per level) damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img rounded">
+                            <span class="letter-overlay-header">R</span>
+                        </div>
+                        <span>Jug of 1,000 Cups</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-Jugof1000Cups-20171129" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyR1</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Heal amount increased from 66.5 to 70</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-Jugof1000Cups-20171129" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_jugofathousandcups.png" class="abil-img">
+                                <span class="letter-overlay-header">R</span>
+                            </div>
+                            Jug of 1,000 Cups
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">MANA</div>
+                                <div class="lvl-num text-right">80</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">20</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 70 (+4% per level) Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 67 (+4% per level) Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8 card patch-change-card">
+                    <div class="card-header">
+                        <div class="abil-img-header">
+                            <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img rounded">
+                            <span class="letter-overlay-header">R</span>
+                        </div>
+                        <span>Water Dragon</span>
+                        <a class="d-block float-right tooltip-right" href="#lili-WaterDragon-20171129" data-toggle="collapse" aria-expanded="false">
+                            <i class="fal fa-chevron-circle-right" data-toggle="tooltip" data-placement="top" title="View tooltip change"></i>
+                            <i class="fal fa-chevron-circle-left" data-toggle="tooltip" data-placement="top" title="Hide tooltip change"></i>
+                        </a>
+                        <span class="d-none hotkey">keyR2</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <ul>
+                            <li>Damage reduced from 318 to 300</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 card extra-info-card">
+                    <div id="lili-WaterDragon-20171129" class="card border-light collapse">
+                        <div class="card-header">
+                            <div class="abil-img-header">
+                                <img src="images/storm_ui_icon_lili_waterdragon.png" class="abil-img">
+                                <span class="letter-overlay-header">R</span>
+                            </div>
+                            Water Dragon
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right">MANA</div>
+                                <div class="lvl-num text-right">50</div>
+                            </div>
+                            <div class="lvl-right float-right">
+                                <div class="lvl-label text-right"><abbr title="Cooldown" class="initialism">CD</abbr></div>
+                                <div class="lvl-num text-right">45</div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</p>
+                        </div>
+                        <div class="card-body text-muted">
+                            <span class="badge badge-secondary">PREVIOUS</span>
+                            <span>Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 318 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+
+        </div>
+    </article>
+
+    <footer class="bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="d-none d-md-block">Useful Links</h6>
+                    <ul class="list-unstyled">
+                    <li class="mb-1"><a href="https://heroespatchnotes.com">Home</a></li>
+                    <li class="mb-1"><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+                    <li class="mb-1"><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="d-none d-md-block">Connect</h6>
+                    <ul class="list-unstyled">
+                    <li class="mb-1"><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>
+                    <li class="mb-1"><a href="//twitter.com/heroespatches" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                    <li class="mb-1"><a href="//www.reddit.com/message/compose/?to=AzizLighting" target="_blank"><i class="fab fa-reddit-alien" aria-hidden="true"></i> Reddit</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="d-none d-md-block">Legal</h6>
+                    <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+                    <div><small>This website is not affiliated with Blizzard Entertainment in any way</small></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <!-- Unable to use slim version due to typeahead; you get a this.transport is not a function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha256-C8oQVJ33cKtnkARnmeWp6SDChkU+u7KvsNMFUzkkUzk=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js" integrity="sha256-RWiU4omUU7tQ2M3wmRQNW9UL50MB4CucbRPCbsQv+X0=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+    <script>
+        //start tooltips and tabs
+        $(document).ready(function(){
+            $('#abiltalToggles [data-toggle=tab]').click(function(){
+                $(this).toggleClass('active');
+                $($(this).attr("href")).toggleClass('active');
+                
+            });
+            $('[data-toggle="tooltip"]').tooltip();
+
+            var options = {
+                valueNames: ['hotkey']
+            };
+
+            var articleList = new List('filterable', options);
+            var activeFilters = [];
+
+            //filter
+            $('.filter').change(function() {
+                var isChecked = this.checked;
+                var value = $(this).data("value");
+
+                if(isChecked){
+                    //  add to list of active filters
+                    activeFilters.push(value);
+                }
+                else
+                {
+                    // remove from active filters
+                    activeFilters.splice(activeFilters.indexOf(value), 1);
+                }
+
+                articleList.filter(function (item) {
+                    if(activeFilters.length > 0)
+                    {
+                        //return(activeFilters.indexOf(item.values().hotkey)) > -1;
+                        for (var i = 0; i < activeFilters.length; i++) {
+                            if(item.values().hotkey.indexOf(activeFilters[i]) > -1) {
+                                return true;
+                            } 
+                        }
+                        return false;
+                    }
+                    return true;
+                });
+            });
+
+
+        });
+
+        //typeahead for Heroes
+        var bh = new Bloodhound({
+            datumTokenizer: Bloodhound.tokenizers.obj.whitespace('hero'),
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+            identify: function(obj) { return obj.hero; },
+            prefetch: 'heroes.json'
+        });
+
+        $('.typeahead').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+        },
+        {
+            name: 'heroes',
+            display: 'hero',
+            source: bh,
+            templates: {
+                suggestion: function (data) {
+                    return '<a class="tah-result px-3" href="https://heroespatchnotes.com/hero/' + data.short_name + '.html"><span class="small-hero-' + data.sprite_sheet + ' small-' + data.short_name + ' rounded-circle"></span>' + ' <span class="ml-1">' + data.hero + '</span></a>';
+                }
+            }
+        });
+    </script>
+  </body>
+</html>

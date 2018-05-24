@@ -1,0 +1,397 @@
+[
+    { 
+        "hero" : "Abathur" 
+        , "short_name" : "abathur"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Alarak" 
+        , "short_name" : "alarak"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Alexstrasza" 
+        , "short_name" : "alexstrasza"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Ana" 
+        , "short_name" : "ana"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Anub'arak" 
+        , "short_name" : "anubarak"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Artanis" 
+        , "short_name" : "artanis"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Arthas" 
+        , "short_name" : "arthas"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Auriel" 
+        , "short_name" : "auriel"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Azmodan" 
+        , "short_name" : "azmodan"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Blaze" 
+        , "short_name" : "blaze"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Brightwing" 
+        , "short_name" : "brightwing"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Butcher" 
+        , "short_name" : "butcher"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Cassia" 
+        , "short_name" : "cassia"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Chen" 
+        , "short_name" : "chen"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Cho" 
+        , "short_name" : "cho"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Chromie" 
+        , "short_name" : "chromie"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Deckard" 
+        , "short_name" : "deckard"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Dehaka" 
+        , "short_name" : "dehaka"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Diablo" 
+        , "short_name" : "diablo"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "D.Va" 
+        , "short_name" : "dva"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "E.T.C." 
+        , "short_name" : "etc"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Falstad" 
+        , "short_name" : "falstad"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Fenix" 
+        , "short_name" : "fenix"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Gall" 
+        , "short_name" : "gall"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Garrosh" 
+        , "short_name" : "garrosh"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Gazlowe" 
+        , "short_name" : "gazlowe"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Genji" 
+        , "short_name" : "genji"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Greymane" 
+        , "short_name" : "greymane"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Gul'dan" 
+        , "short_name" : "guldan"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Hanzo" 
+        , "short_name" : "hanzo"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Illidan" 
+        , "short_name" : "illidan"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Jaina" 
+        , "short_name" : "jaina"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Johanna" 
+        , "short_name" : "johanna"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Junkrat" 
+        , "short_name" : "junkrat"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Kael'thas" 
+        , "short_name" : "kaelthas"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Kel'Thuzad" 
+        , "short_name" : "kelthuzad"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Kerrigan" 
+        , "short_name" : "kerrigan"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Kharazim" 
+        , "short_name" : "kharazim"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Leoric" 
+        , "short_name" : "leoric"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Li Li" 
+        , "short_name" : "lili"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Li-Ming" 
+        , "short_name" : "liming"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "The Lost Vikings" 
+        , "short_name" : "thelostvikings"
+        , "sprite_sheet" : "one"
+    },
+    { 
+        "hero" : "Lt. Morales" 
+        , "short_name" : "ltmorales"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Lucio" 
+        , "short_name" : "lucio"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Lunara" 
+        , "short_name" : "lunara"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Maiev" 
+        , "short_name" : "maiev"
+        , "sprite_sheet" : "eight"
+    },
+    { 
+        "hero" : "Malfurion" 
+        , "short_name" : "malfurion"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Malthael" 
+        , "short_name" : "malthael"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Medivh" 
+        , "short_name" : "medivh"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Muradin" 
+        , "short_name" : "muradin"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Murky" 
+        , "short_name" : "murky"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Nazeebo" 
+        , "short_name" : "nazeebo"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Nova" 
+        , "short_name" : "nova"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Probius" 
+        , "short_name" : "probius"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Ragnaros" 
+        , "short_name" : "ragnaros"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Raynor" 
+        , "short_name" : "raynor"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Rehgar" 
+        , "short_name" : "rehgar"
+        , "sprite_sheet" : "two"
+    },
+    { 
+        "hero" : "Rexxar" 
+        , "short_name" : "rexxar"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Samuro" 
+        , "short_name" : "samuro"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Sgt. Hammer" 
+        , "short_name" : "sgthammer"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Sonya" 
+        , "short_name" : "sonya"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Stitches" 
+        , "short_name" : "stitches"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Stukov" 
+        , "short_name" : "stukov"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Sylvanas" 
+        , "short_name" : "sylvanas"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Tassadar" 
+        , "short_name" : "tassadar"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Thrall" 
+        , "short_name" : "thrall"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Tracer" 
+        , "short_name" : "tracer"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Tychus" 
+        , "short_name" : "tychus"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Tyrael" 
+        , "short_name" : "tyrael"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Tyrande" 
+        , "short_name" : "tyrande"
+        , "sprite_sheet" : "four"
+    },
+    { 
+        "hero" : "Uther" 
+        , "short_name" : "uther"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Valeera" 
+        , "short_name" : "valeera"
+        , "sprite_sheet" : "seven"
+    },
+    { 
+        "hero" : "Valla" 
+        , "short_name" : "valla"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Varian" 
+        , "short_name" : "varian"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Xul" 
+        , "short_name" : "xul"
+        , "sprite_sheet" : "five"
+    },
+    { 
+        "hero" : "Zagara" 
+        , "short_name" : "zagara"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Zarya" 
+        , "short_name" : "zarya"
+        , "sprite_sheet" : "six"
+    },
+    { 
+        "hero" : "Zeratul" 
+        , "short_name" : "zeratul"
+        , "sprite_sheet" : "three"
+    },
+    { 
+        "hero" : "Zul'jin" 
+        , "short_name" : "zuljin"
+        , "sprite_sheet" : "seven"
+    }
+]
