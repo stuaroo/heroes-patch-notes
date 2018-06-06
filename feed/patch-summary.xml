@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-05-22T16:22:00.000Z</updated>
+  <updated>2018-06-06T17:35:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-06-06 Balance Update v 2.33.1</title>
+    <published>2018-06-06T17:35:00.000Z</published>
+    <updated>2018-06-06T17:35:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-06-06-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-06-06-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2018-06-06" target="_blank">Anub'arak</a>, 
+          <a href="https://heroespatchnotes.com/hero/arthas.html#patch2018-06-06" target="_blank">Arthas</a>, 
+          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2018-06-06" target="_blank">Auriel</a>, 
+          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2018-06-06" target="_blank">Brightwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2018-06-06" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2018-06-06" target="_blank">Diablo</a>, 
+          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-06-06" target="_blank">Fenix</a>, 
+          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2018-06-06" target="_blank">Garrosh</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2018-06-06" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2018-06-06" target="_blank">Johanna</a>, 
+          <a href="https://heroespatchnotes.com/hero/kaelthas.html#patch2018-06-06" target="_blank">Kael'thas</a>, 
+          <a href="https://heroespatchnotes.com/hero/lunara.html#patch2018-06-06" target="_blank">Lunara</a>, 
+          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-06-06" target="_blank">Maiev</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2018-06-06" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/varian.html#patch2018-06-06" target="_blank">Varian</a>, 
+          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-06-06" target="_blank">Zagara</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-05-22 Patch Notes v 2.33.0</title>
     <published>2018-05-22T16:22:00.000Z</published>
@@ -251,48 +281,6 @@
           <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-02-09" target="_blank">Maiev</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-02-06 Patch Notes v 2.30.0</title>
-    <published>2018-02-06T17:25:00.000Z</published>
-    <updated>2018-02-06T17:25:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-02-06-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-06-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/maiev.png" alt="Maiev" height="60" width="60" /> Maiev</h3>
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>Target Info Panels: left-clicking a friendly or enemy target opens a panel with the "unit's gameplay stats in real time"</p>
-</li>
-        <li><p>Battleground Objective Counters: visual indicators have been added when "count is high enough to complete a turn-in"</p>
-</li>
-      </ul>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Volskaya Foundry: Healing pulse is now a totem that's placed, Turrets can be placed instantly</p>
-</li>
-        <li><p>Volskaya Foundry: Triglav Protector gets 10 Armor, 10% health increase, 25% increased damage if both seats filled; Rocket Fist (W) structure debuff increased from 2 to 4 seconds, Gatling Cannon (W) travels 50% faster and fires immediately</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2018-02-06" target="_blank">Auriel</a>, 
-          <a href="https://heroespatchnotes.com/hero/genji.html#patch2018-02-06" target="_blank">Genji</a>, 
-          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2018-02-06" target="_blank">Greymane</a>, 
-          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-02-06" target="_blank">Hanzo</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2018-02-06" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-02-06" target="_blank">Maiev</a>, 
-          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2018-02-06" target="_blank">Malthael</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2018-02-06" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2018-02-06" target="_blank">Sonya</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2018-02-06" target="_blank">Tyrael</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/malthael.png" href="https://heroespatchnotes.com/hero/malthael.html#patch2018-02-06" alt="Malthael Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
