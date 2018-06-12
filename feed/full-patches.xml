@@ -2,10 +2,561 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-06-06T17:35:00.000Z</updated>
+  <updated>2018-06-12T16:25:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-06-12 Patch Notes</title>
+    <published>2018-06-12T16:25:00.000Z</published>
+    <updated>2018-06-12T16:25:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-06-12-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-06-12-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-june-12-2018">Heroes of the Storm Patch Notes – June 12, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/21849060" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/21849060" target="_blank">Official Patch Notes</a> <small>v 2.34.0</small></div>
+
+<p>In our latest patch, Heroes are called to join forces with the Horde and
+Alliance in preparation for the battle to control the upcoming Alterac Pass
+Battleground. This patch also brings Yrel, a new Warrior Hero, into the Nexus,
+as well as the Echoes of Alterac event, a 50% XP bonus, and much more!</p>
+
+<p><span class="text-warning"><strong>NOTE: Orange text indicates a difference between the PTR and Live patch notes.</strong></span></p>
+
+<hr />
+
+<h3 id="echoes-of-alterac">Echoes of Alterac</h3>
+
+<p><em>Catch additional details about the Echoes of Alterac event on the <a href="https://heroesofthestorm.com/game/events/echoes-of-
+alterac/">Heroes of
+the Storm website</a>!</em></p>
+
+<p>An age-old rivalry has flared up as the Horde and Alliance battle for
+dominance over a strategic pass through the Alterac Mountains. Generals from
+each faction rally Heroes to their banners in an effort to gain the upper-hand
+in the struggle to control Alterac Pass. You must decide whether to side with
+Vanndar Stormpike and the Alliance or Drek'thar and the Horde. Choose wisely!
+Your decision is permanent, and these battle-hardened Generals will not
+tolerate traitors among their ranks.</p>
+
+<p><strong>Starting the week of June 12, until July 9,</strong> those who successfully complete quests for their General of choice will be handsomely rewarded with in-game loot, including a <strong>Warcraft Reinforcements Chest,</strong> which guarantees a Warcraft Hero of epic or higher rarity.</p>
+
+<p><strong>Alliance Quest Chain and Rewards</strong> </p>
+
+<ul>
+<li><strong>Reconnaissance:</strong> Play 4 games as a Warcraft Hero.
+<ul>
+<li><strong>Reward:</strong> Warcraft Reinforcements Loot Chest.</li>
+</ul></li>
+<li><strong>Raiding Camp:</strong> Achieve 50 Takedowns in winning games.
+<ul>
+<li><strong>Reward:</strong> Alliance Portrait.</li>
+</ul></li>
+<li><strong>Carry the Banner:</strong> Play 6 games with a friend.
+<ul>
+<li><strong>Reward:</strong> Alliance Banner.</li>
+</ul></li>
+<li><strong>For the Alliance:</strong> Win 8 games as a Warcraft Hero.
+<ul>
+<li><strong>Rewards:</strong> Swift Ram Mount.</li>
+</ul></li>
+</ul>
+
+<p><strong>Horde Quest Chain and Rewards</strong></p>
+
+<ul>
+<li><strong>Scout:</strong> Play 4 games as a Warcraft Hero.
+<ul>
+<li><strong>Reward:</strong> Warcraft Reinforcements Loot Chest.</li>
+</ul></li>
+<li><strong>Strike Back:</strong> Achieve 50 Takedowns in winning games.
+<ul>
+<li><strong>Reward:</strong> Horde Portrait.</li>
+</ul></li>
+<li><strong>Gaining Drek'thar's Favor:</strong> Play 6 games with a friend.
+<ul>
+<li><strong>Reward:</strong> Horde Banner.</li>
+</ul></li>
+<li><strong>For the Horde:</strong> Win 8 games as a Warcraft Hero.
+<ul>
+<li><strong>Rewards:</strong> Raging Wolf Mount.</li>
+</ul></li>
+</ul>
+
+<p><span class="text-warning"><strong>50% XP Bonus</strong></span></p>
+
+<ul>
+<li><span class="text-warning">Now through July 9, players can earn 50% more XP by playing Heroes of the Storm with friends! </span>
+<ul>
+<li><span class="text-warning">Complete Heroes matches in Versus A.I., Quick Match, Unranked Draft, Heroes Brawl, or Team League while partied with a friend to receive a 50% XP bonus.</span></li>
+<li><span class="text-warning">Read our <em><strong><a href="https://heroesofthestorm.com/blog/21793050/">XP Bonus blog</a></strong></em> for more details.</span></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-battleground-alterac-pass">New Battleground: Alterac Pass</h3>
+
+<p><span class="text-warning"><strong>Please Note:</strong> Alterac Pass will become available for play in two stages during the coming weeks:</span></p>
+
+<ul>
+<li><span class="text-warning"><strong>Non-Ranked Modes:</strong> During the week of June 19, Alterac Pass will enter Quick Match, Unranked, and Versus A.I. matchmaking queues, as well as Custom Games.</span></li>
+<li><span class="text-warning"><strong>Ranked Play:</strong> During the week of July 10, Alterac Pass will enter the Ranked Battleground Rotation.</span></li>
+</ul>
+
+<p><em>Learn even more about Alterac Pass by visiting the <a href="https://heroesofthestorm.com/battlegrounds/alterac-pass/">Heroes of the Storm
+website</a>!</em></p>
+
+<p>Alterac Pass is a 3-lane Battleground where Heroes must free imprisoned allied
+troops, call in their cavalry, and take down the opposing General to claim the
+Pass for their faction. In addition to enemy forces, the Alterac Mountains are
+home to many treacherous hazards! Heroes must remain vigilant, as a misstep
+into a mud pit can prove fatal. Teams would also be wise to recruit the
+Armored Gnolls and Ice Giants who inhabit the Pass before the enemy faction
+can harness these deadly creatures for their own gain.</p>
+
+<p><strong>Cores Replaced by Generals</strong></p>
+
+<ul>
+<li>Each team's Core has been replaced by a General who will aid them in fending off attackers.
+<ul>
+<li><strong>Vanndar Stormpike</strong> leads the Alliance (left team) in driving back the Horde forces at Alterac Pass.</li>
+<li><strong>Drek'Thar</strong> has rallied the Horde (right team) to aid in defending the Pass against Alliance invaders.</li>
+</ul></li>
+<li>Each General receives bonus Armor and damage based on the number of allied Keeps remaining. Destroy enemy Keeps to weaken their General.</li>
+<li>When attacking a General directly, be prepared to finish the job! Vanndar and Drek'thar will regenerate Health once they are out of combat.</li>
+<li>In addition to their Basic Attacks, they can also use two Abilities:
+<ul>
+<li><strong>Whirlwind:</strong> Deals damage in an area around the General.</li>
+<li><strong>Charge:</strong> The General dashes to the target enemy, dealing damage.</li>
+</ul></li>
+</ul>
+
+<p><strong>Capture Prison Camps to Call in the Cavalry!</strong></p>
+
+<ul>
+<li>Three minutes after a match begins, a Prison Camp will spawn for each team. Invade enemy territory, take out the Guards, and free the allied prisoners to call in a Cavalry Charge!
+<ul>
+<li>Channel an opposing Prison Camp to begin a breakout, and then free the prisoner by preventing the enemy team from regaining control of the Camp for 30 seconds.
+<ul>
+<li>Watch out for enemy Heroes and Guards! They will attempt to stop any attackers and Channel on their Prison Camp to retake control.</li>
+<li>Each subsequent breakout will require the capturing team to maintain control for an additional 10 seconds, up to a maximum of 50 seconds.</li>
+</ul></li>
+</ul></li>
+<li>Once a team frees the prisoners at an enemy camp, allied Cavalry will charge down all three lanes, attacking any enemies and Structures in their paths.
+<ul>
+<li>Cavalry units generate an aura that increases nearby Minion and Hero Movement Speeds, and grants a damage bonus to nearby allied Heroes.
+<ul>
+<li>The aura's damage bonus will increase based on the number of Prison Camp events completed so far, up to a maximum of 3 events.
+<ul>
+<li>Cavalry on both teams will benefit from these increases independent of which team won each Prison Camp event.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Subsequent Prison Camps will spawn at random within a range of time after all Cavalry from the previous event have been eliminated. This range of time is determined as follows:
+<ul>
+<li>From 110 – (# of game minutes elapsed * 2) seconds to 150 – (# of game minutes elapsed * 2) seconds.</li>
+<li><strong>For example:</strong> If all Cavalry from the most recent event are defeated at the 10-minute mark, the next set of Prison Camps will spawn at random between 90 and 130 seconds later.</li>
+</ul></li>
+</ul>
+
+<p><strong>Mercenaries</strong></p>
+
+<ul>
+<li><strong>Armored Gnolls – Siege Camp</strong>
+<ul>
+<li>Watch out for the Gnolls who inhabit the Pass! They're formidable creatures who wield a cleaving attack that can shred a Hero's Armor in no time.</li>
+</ul></li>
+<li><strong>Ice Giants – Boss Camp</strong>
+<ul>
+<li>The Ice Giants at the northern and southernmost points of the Pass tend to mind their own business, but once provoked, they've been known to hurl deadly balls of ice and even stomp the ground in an effort to Slow or Stun their foes.</li>
+</ul></li>
+</ul>
+
+<p><strong>Mud Pits</strong></p>
+
+<ul>
+<li>Combatants who don't mind where they step can fall victim to one of several mud pits that have sprung up within Alterac Pass.
+<ul>
+<li>Any Hero who enters a mud pit will find their Movement Speed reduced by 16% per second, to a maximum of 60%, for as long as they remain there.</li>
+<li>Upon finding solid ground, the Hero will regain Movement Speed at 50% per second.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-hero-yrel">New Hero: Yrel</h3>
+
+<p><em>Learn even more about Yrel by visiting her Hero page on the <a href="https://heroesofthestorm.com/heroes/yrel/">Heroes of the
+Storm website!</a></em></p>
+
+<p>After traveling to an Alternate Draenor, the forces of Azeroth saved the
+acolyte Yrel from the Iron Horde. With their aid, she rose to the rank of
+Exarch and fought back the demonic invasion of her world. Now, she finds
+herself where time, space, and dimensions converge: the Nexus.</p>
+
+<p><strong>Trait</strong> </p>
+
+<ul>
+<li><strong>Divine Purpose (D)</strong>
+<ul>
+<li>Activate to instantly charge Yrel's next Basic Ability at no mana cost.</li>
+<li><strong>Passive:</strong> Yrel's Basic Abilities charge up over 1.5 seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by 25%.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Vindication (Q)</strong>
+<ul>
+<li>Unleash holy energy around Yrel, dealing 38 damage to nearby enemies and healing her for 96.</li>
+<li>Charging up this Ability increases its damage up to <span class="text-warning"><s>125</s> 140</span>, and Healing up to 320.</li>
+</ul></li>
+<li><strong>Righteous Hammer (W)</strong>
+<ul>
+<li>Swing Yrel's hammer, dealing 38 damage to enemies in front of her and knocking them away.</li>
+<li>Charging up this Ability increases its knockback distance, and damage up to 125. Enemies hit at maximum charge are Stunned for 0.75 seconds.</li>
+</ul></li>
+<li><strong>Avenging Wrath (E)</strong>
+<ul>
+<li>Leap to a location, dealing 150 damage to enemies in an area and Slowing them by 50% for 1 second.</li>
+<li>Charging up this Ability increases its range.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Ardent Defender (R)</strong>
+<ul>
+<li>Surround Yrel in a barrier for 3 seconds, absorbing all damage taken and Healing her for 50% of the damage received.</li>
+</ul></li>
+<li><strong>Sacred Ground (R)</strong>
+<ul>
+<li>Yrel sanctifies the ground around her, gaining 40 Armor until she leaves the area.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="art">Art</h3>
+
+<p><strong>Hero Select Screen</strong></p>
+
+<ul>
+<li>Starting today, troops will now make their Hero selections among the snowy, picturesque peaks of Alterac.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li>The following Heroes have received updated visual effects for their Abilities:
+<ul>
+<li>Auriel</li>
+<li>Muradin</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="design">Design</h3>
+
+<p><strong>Vehicles</strong></p>
+
+<ul>
+<li>Vehicle Exit hotkey has been moved to the Trait key (default: “D”), and Vehicle Trait hotkeys have been moved to the Heroic key (default: “R”). This includes:
+<ul>
+<li>Dragon Knight</li>
+<li>Garden Terror</li>
+<li>Triglav Protector</li>
+<li>Blaze's Bunker Drop</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Ragnaros:</strong> Empower Sulfuras will now miss when Ragnaros is Blinded, and the Ability's cooldown will be consumed.</li>
+<li><strong>Abathur:</strong> Allied and enemy Symbiote hosts will now display a crown icon above their portraits on the Minimap.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<p><span class="text-warning"><strong>Warhead Junction</strong></span></p>
+
+<ul>
+<li><span class="text-warning"><strong>Nuke (F)</strong></span>
+<ul>
+<li><span class="text-warning">Bonus damage has been removed and Nukes now deal a flat amount of damage across the entire area of impact.</span>
+<ul>
+<li><span class="text-warning"><strong>Note:</strong> This change was originally made in the Nexomania patch on May 22, but did not make it into that set of patch notes. We apologize for any confusion this caused in the meantime.</span></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><span class="text-warning"><em><strong>Developer Comment:</strong></em> The bonus damage dealt by Warheads had very little
+  counterplay in late-game situations. Teams could hoard Warheads and kill any
+  Structure—including the Core—very quickly. Although this center bonus damage
+  presented players with interesting decision points, the mechanic's problems
+  outweighed its positives. We feel encouraging players to hit as many
+  structures as possible is a similarly fun mechanic that is healthier for the
+  game.</span></p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="yrel">Yrel</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li><span class="text-warning">Basic Attack damage increased from 140 to 155.</span></li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Vindication (Q)</strong></span>
+<ul>
+<li><span class="text-warning">Charged up damage increased from 125 to 140.</span></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>New Bundles and Skin Packs</strong></p>
+
+<ul>
+<li>The following new bundle will soon become available for a limited time:
+<ul>
+<li><strong>Yrel Heroic Bundle</strong> – Available until June 25.</li>
+<li><strong>Heroes of Warcraft Bundle</strong> – Available until July 9.</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcers</strong></p>
+
+<ul>
+<li>Yrel Announcer</li>
+<li>Drek'Thar Announcer</li>
+<li>Vanndar Announcer</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li>The following new Skins will enter the Nexus during the <strong>week of June 12:</strong>
+<ul>
+<li><strong>Yrel</strong>
+<ul>
+<li>Mad Jester Yrel</li>
+<li>Mad Harlequin Yrel</li>
+<li>Sparkle Jester Yrel</li>
+<li>Dreamknight Yrel</li>
+<li>Silver Hand Yrel</li>
+</ul></li>
+<li><strong>Falstad</strong>
+<ul>
+<li>Ironforge Falstad</li>
+<li>Midnight Buccaneer Falstad</li>
+</ul></li>
+<li><strong>Greymane</strong>
+<ul>
+<li>Seafarer Greymane</li>
+</ul></li>
+<li><strong>Rehgar</strong>
+<ul>
+<li>Gladiator Rehgar</li>
+</ul></li>
+<li><strong>Varian</strong>
+<ul>
+<li>Copper Varian</li>
+<li>Prince Varian</li>
+</ul></li>
+<li><strong>Zul'jin</strong>
+<ul>
+<li>Frostmane Zul'jin</li>
+</ul></li>
+</ul></li>
+<li><span class="text-warning">The following new Skins will enter the Nexus during the <strong>week of June 19:</strong></span>
+<ul>
+<li><span class="text-warning"><strong>Auriel</strong></span>
+<ul>
+<li><span class="text-warning">Spirit Healer Auriel</span></li>
+<li><span class="text-warning">Ethereal Spirit Healer Auriel</span></li>
+<li><span class="text-warning">Vengeful Spirit Healer Auriel</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Garrosh</strong></span>
+<ul>
+<li><span class="text-warning">High Warlord Garrosh</span></li>
+<li><span class="text-warning">Chaos Warlord Garrosh</span></li>
+<li><span class="text-warning">Frostwolf Warlord Garrosh</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Junkrat</strong></span>
+<ul>
+<li><span class="text-warning">Sapper Junkrat</span></li>
+<li><span class="text-warning">Darkspear Sapper Junkrat</span></li>
+<li><span class="text-warning">Kezan Sapper Junkrat</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Johanna</strong></span>
+<ul>
+<li><span class="text-warning">Warsong Johanna</span></li>
+<li><span class="text-warning">Frostwolf Johanna</span></li>
+<li><span class="text-warning">Mag'har Johanna</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Muradin</strong></span>
+<ul>
+<li><span class="text-warning">Vanndar Muradin</span></li>
+<li><span class="text-warning">Expedition Vanndar Muradin</span></li>
+<li><span class="text-warning">Ironheart Vanndar Muradin</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Rehgar</strong></span>
+<ul>
+<li><span class="text-warning">Drek'Thar Rehgar</span></li>
+<li><span class="text-warning">Alterac Drek'Thar Rehgar</span></li>
+<li><span class="text-warning">Draenor Drek'Thar Rehgar</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Varian</strong></span>
+<ul>
+<li><span class="text-warning">Grand Marshal Varian</span></li>
+<li><span class="text-warning">Stromgarde Marshal Varian</span></li>
+<li><span class="text-warning">Kul Tiran Marshal Varian</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Valeera</strong></span>
+<ul>
+<li><span class="text-warning">Nightslayer Valeera</span></li>
+<li><span class="text-warning">7th Legion Nightslayer Valeera</span></li>
+<li><span class="text-warning">Sunfury Nightslayer Valeera</span></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>New Mounts</strong></p>
+
+<ul>
+<li><span class="text-warning">The following new Mounts will enter the Nexus during the <strong>week of June 19:</strong></span>
+<ul>
+<li><span class="text-warning"><strong>Swift Stormpike Ram</strong></span>
+<ul>
+<li><span class="text-warning">Swift Dark Iron Ram</span></li>
+<li><span class="text-warning">Swift Stormwind Ram</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Raging War Wolf</strong></span>
+<ul>
+<li><span class="text-warning">Raging Timber Wolf</span></li>
+<li><span class="text-warning">Raging Night Wolf</span></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits and Sprays</strong></p>
+
+<ul>
+<li>We've once again teamed up with Carbot Animations to add even more HeroStorm-themed portraits and sprays in their signature art style!</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
+</ul>
+
+<p><strong>A.I.</strong></p>
+
+<ul>
+<li><strong>Chromie:</strong> A.I. Chromie will no longer cast Temporal Loop on Vehicles, like the Dragon Knight or Garden Terror.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> Removed an excess visual effect that could appear after casting Symbiote on a Monstrosity while using the Xenotech Abathur skin.</li>
+<li><strong>Abathur:</strong> Ultimate Evolution clones of Lil' Ragnaros will now use the correct death model when the Ability expires or the clone is destroyed.</li>
+<li><strong>Gall:</strong> The Double Back Talent now displays the base Dread Orb icon art the Talent selection pane.</li>
+<li><strong>Genji:</strong> Genji no longer occasionally uses a default pose after being affected by a Time Stop effect during Dragonblade.</li>
+<li><strong>Greymane:</strong> Hunter Greymane no longer hides his face behind his shoulder pad on the post-match summary screen.</li>
+<li><strong>Leoric:</strong> The Consume Vitality Talent now displays the base Skeletal Swing icon art in the Talent selection pane.</li>
+<li><strong>Medivh:</strong> The Mystic Assault Talent and Arcane Rift's quest icon now display the base Arcane Rift icon art.</li>
+<li><strong>Tassadar:</strong> The Psi-Infusion Talent now displays the base Psionic Storm icon art in the Talent selection pane.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Try Mode:</strong> A.I. Heroes will now ignore Mercenary Camps. However, an allied Hero will still engage a Mercenary Camp if the player attacks it while that ally is following them.</li>
+<li><strong>Volskaya Foundry:</strong> Minions can no longer clip through the northern Wall near the Fort in the bottom lane.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Artanis:</strong> Purifier Beam is now correctly interrupted if its target is a Hero with a post death effect, like Leoric or Uther, who is killed while the Ability is being cast.</li>
+<li><strong>Deckard:</strong> Stay Awhile and Listen's book model no longer visually persists if the Ability is interrupted by a Taunt effect.</li>
+<li><strong>Deckard:</strong> Casting Horadric Cube while on a conveyor belt no longer causes the Ability's area of effect to disjoint from its visual effects.</li>
+<li><strong>Deckard:</strong> Casting Scroll of Sealing while on a conveyor belt no longer causes the Ability's area of effect to disjoint from its visual effects.</li>
+<li><strong>Deckard:</strong> Fixed an issue that could prevent a Healing Potion from being picked up if it was placed between an injured ally and Deckard when Deckard is at full Health.</li>
+<li><strong>Fenix:</strong> Offensive Cadence will no longer stop functioning if Fenix is killed when his next Basic Attack would have triggered the Talent's bonus damage.</li>
+<li><strong>Li-Ming:</strong> Fixed an issue causing Disintegrate to deal one less damage tick than intended.</li>
+<li><strong>Ragnaros:</strong> When cast on Ragnaros in his normal form, Alarak's Rite of Rak'shir and Alexstrasza's Blessing of the Red will not persist after casting Molten Core. However, Ragnaros will regain those marks once Molten Core expires.</li>
+</ul>
+
+<p><strong>Sound</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> Increased the volume of Xenotech Abathur's voiceover lines during Symbiote.</li>
+<li><strong>Announcers:</strong> A number of Announcers' countdown lines that play at the start of a match will no longer end earlier than intended.</li>
+<li><strong>Hero Interactions:</strong> Fixed an issue that prevented unique voiceover lines from playing when a clash between two specific Heroes, such as Arthas vs. Uther, resulted in a kill.</li>
+<li><strong>Leoric:</strong> Reduced the volume of Leoric's Basic Attack sound effects.</li>
+<li><strong>Tychus:</strong> Enemy A.I. Tychus was a little too chatty on the battlefield. He's been ordered to do less talkin' and more fightin'.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li><strong>Abathur:</strong> Symbiote now correctly creates a crown icon above an allied target's minimap portrait.</li>
+<li><strong>Artanis:</strong> Damage dealt by the Plasma Burn Talent now displays correctly in Death Recaps.</li>
+<li><strong>Stukov:</strong> Healing done by the Superstrain Talent no longer displays as “Unknown” in Death Recaps.</li>
+<li><strong>Tychus:</strong> The Event Log now correctly displays the yellow Run and Gun icon upon completing the Dash Talent's quest.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p>Head to the official Heroes of the Storm forums to discuss this post with
+other players.</p>
+
+<p><a href="https://us.battle.net/forums/en/heroes/index">Official Heroes Forums</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-06-06 Balance Update</title>
     <published>2018-06-06T17:35:00.000Z</published>
@@ -9967,39 +10518,6 @@ Communication, as well as apply some balance updates and bug fixes.</p>
 <li><strong>Movement Abilities:</strong> Certain movement-based Abilities, like Greymane’s Dark Flight or Chen’s Flying Kick, will no longer fail to move the Hero toward a target currently affected by Varian’s Taunt or Garrosh’s Warlord’s Challenge.</li>
 <li><strong>Sgt. Hammer:</strong> Can now correctly deploy Biotic Emitters on Volskaya Foundry while in Siege Mode.</li>
 <li><strong>The Butcher:</strong> Fixed an issue that prevented The Butcher from collecting Meat while piloting the Triglav Protector, Dragon Knight, or Garden Terror.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-02-14 Hotfix Patch</title>
-    <published>2018-02-14T18:36:00.000Z</published>
-    <updated>2018-02-14T18:36:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-02-14-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-14-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-february-14-2018">Heroes of the Storm Hotfix Notes — February 14, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://us.battle.net/heroes/en/blog/21514203" target="_blank"></a><a href="https://us.battle.net/heroes/en/blog/21514203" target="_blank">Official Patch Notes</a> <small>v 2.30.2</small></div>
-
-<p>We’ve just released a new Heroes of the Storm patch to apply a few bug fixes.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>Heroes, Talents, &amp; Abilities</strong></p>
-
-<ul>
-<li><strong>Genji:</strong> Fixed an issue preventing certain cleave attacks, such as Malthael’s Basic Attacks and Xul’s Cursed Strikes, from removing stacks of Genji’s Dodge.</li>
-<li><strong>Ice Block:</strong> Fixed an issue allowing certain Abilities to be cast during Ice Block, including Jaina’s Ice Blink, Brightwing’s Storm Shield, and Malfurion’s Astral Communion.</li>
-<li><strong>Jaina:</strong> The Wintermute Talent now correctly causes Jaina’s Water Elemental to mimic her Basic Abilities.</li>
-<li><strong>Lunara:</strong> The Galloping Gait Talent no longer grants a permanent Movement Speed bonus.</li>
-<li><strong>Tyrael:</strong> The Stalwart Angel Talent’s tooltip now displays the correct values for its duration and Armor bonus.</li>
-<li><strong>Maiev:</strong> Casting Spirit of Vengeance just as a Core is destroyed will no longer cause the Spirit to cease animating.</li>
-<li><strong>Maiev:</strong> Activating Naisha’s Memento will now correctly display an icon indicating its duration in the buff bar.</li>
-<li><strong>Nova:</strong> Fixed an issue causing Holo Decoys to deal slightly more damage than intended after learning Lethal Decoy.</li>
-<li><strong>Rehgar:</strong> The Rising Storm Talent will no longer increase Lightning Shield’s damage versus non-Heroic enemies.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>

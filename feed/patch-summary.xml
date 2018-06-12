@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-06-06T17:35:00.000Z</updated>
+  <updated>2018-06-12T16:25:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-06-12 Patch Notes v 2.34.0</title>
+    <published>2018-06-12T16:25:00.000Z</published>
+    <updated>2018-06-12T16:25:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-06-12-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-06-12-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/yrel.png" alt="Yrel" height="60" width="60" /> Yrel</h3>
+        <h3><img src="https://heroespatchnotes.com/images/battleground/alteracpass.png" alt="Alterac Pass" height="60" width="60" /> Alterac Pass</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2018-06-12" target="_blank">Abathur</a>, 
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-06-12" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/ragnaros.html#patch2018-06-12" target="_blank">Ragnaros</a>, 
+          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-06-12" target="_blank">Yrel</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-06-06 Balance Update v 2.33.1</title>
     <published>2018-06-06T17:35:00.000Z</published>
@@ -273,21 +294,6 @@
           <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-02-21" target="_blank">Tyrande</a>, 
           <a href="https://heroespatchnotes.com/hero/xul.html#patch2018-02-21" target="_blank">Xul</a>, 
           <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2018-02-21" target="_blank">Zeratul</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-02-09 Balance Update v 2.30.1</title>
-    <published>2018-02-09T18:40:00.000Z</published>
-    <updated>2018-02-09T18:40:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-02-09-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-09-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-02-09" target="_blank">Maiev</a>
         </li>
       </ul>
       ]]></content>
