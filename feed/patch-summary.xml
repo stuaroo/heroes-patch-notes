@@ -16,6 +16,11 @@
       <h4>New</h4>
         <h3><img src="https://heroespatchnotes.com/images/hero/yrel.png" alt="Yrel" height="60" width="60" /> Yrel</h3>
         <h3><img src="https://heroespatchnotes.com/images/battleground/alteracpass.png" alt="Alterac Pass" height="60" width="60" /> Alterac Pass</h3>
+      <h4>Battleground</h4>
+      <ul>
+        <li><p>Alterac Pass: will enter Non-Ranked modes (<abbr title="Quick Match" class="initialism">QM</abbr>, <abbr title="Unranked Draft" class="initialism">UD</abbr>, vs AI) on June 19, added to the Ranked pool July 10</p>
+</li>
+      </ul>
       <h4>Heroes Affected</h4>
       <ul>
         <li>
@@ -77,6 +82,11 @@
       <h4>UI/Hotkey</h4>
       <ul>
         <li><p>"Players can no longer vote for themselves on the end of match awards screen."</p>
+</li>
+      </ul>
+      <h4>Battleground</h4>
+      <ul>
+        <li><p>Warhead Junction: Nuke "bonus damage has been removed and Nukes now deal a flat amount of damage across the entire area of impact"</p>
 </li>
       </ul>
       <h4>Heroes Affected</h4>
