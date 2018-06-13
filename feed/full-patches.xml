@@ -21,6 +21,8 @@ Alliance in preparation for the battle to control the upcoming Alterac Pass
 Battleground. This patch also brings Yrel, a new Warrior Hero, into the Nexus,
 as well as the Echoes of Alterac event, a 50% XP bonus, and much more!</p>
 
+<p><span class="text-warning"><strong>Please Note:</strong> Shortly after releasing our Echoes of Alterac patch (version 34.0), we also applied a new hotfix (34.1) to resolve issues affecting Ragnaros, Thrall, and the Home Screen. These have been added to the Bug Fixes section below.</span></p>
+
 <p><span class="text-warning"><strong>NOTE: Orange text indicates a difference between the PTR and Live patch notes.</strong></span></p>
 
 <hr />
@@ -482,6 +484,14 @@ herself where time, space, and dimensions converge: the Nexus.</p>
 <hr />
 
 <h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><span class="text-warning"><strong>Hotfix Additions</strong></span></p>
+
+<ul>
+<li><span class="text-warning"><strong>Home Screen:</strong> The leftmost tile on Yrel's Home Screen now correctly opens her Hero page in the Collection.</span></li>
+<li><span class="text-warning"><strong>Ragnaros:</strong> Lava Wave now correctly dissipates after reaching the end of the targeted lane on Towers of Doom.</span></li>
+<li><span class="text-warning"><strong>Thrall:</strong> The Feral Resilience Talent now correctly states that it grants 50 Physical Armor, rather than 75.</span></li>
+</ul>
 
 <p><strong>General</strong></p>
 
