@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-06-12T16:25:00.000Z</updated>
+  <updated>2018-06-27T17:40:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-06-27 Balance Update v 2.34.3</title>
+    <published>2018-06-27T17:40:00.000Z</published>
+    <updated>2018-06-27T17:40:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-06-27-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-06-27-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/ana.html#patch2018-06-27" target="_blank">Ana</a>, 
+          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2018-06-27" target="_blank">Anub'arak</a>, 
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-06-27" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2018-06-27" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2018-06-27" target="_blank">Deckard</a>, 
+          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2018-06-27" target="_blank">Diablo</a>, 
+          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-06-27" target="_blank">Fenix</a>, 
+          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2018-06-27" target="_blank">Greymane</a>, 
+          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2018-06-27" target="_blank">Johanna</a>, 
+          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-06-27" target="_blank">Maiev</a>, 
+          <a href="https://heroespatchnotes.com/hero/nazeebo.html#patch2018-06-27" target="_blank">Nazeebo</a>, 
+          <a href="https://heroespatchnotes.com/hero/probius.html#patch2018-06-27" target="_blank">Probius</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2018-06-27" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2018-06-27" target="_blank">Tracer</a>, 
+          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-06-27" target="_blank">Yrel</a>, 
+          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-06-27" target="_blank">Zagara</a>, 
+          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-06-27" target="_blank">Zul'jin</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-06-12 Patch Notes v 2.34.0</title>
     <published>2018-06-12T16:25:00.000Z</published>
@@ -280,32 +311,6 @@
         <img src="https://heroespatchnotes.com/images/hero/ana.png" href="https://heroespatchnotes.com/hero/ana.html#patch2018-03-06" alt="Ana Rework" height="44" width="44" />
         <img src="https://heroespatchnotes.com/images/hero/medivh.png" href="https://heroespatchnotes.com/hero/medivh.html#patch2018-03-06" alt="Medivh Rework" height="44" width="44" />
         <img src="https://heroespatchnotes.com/images/hero/sonya.png" href="https://heroespatchnotes.com/hero/sonya.html#patch2018-03-06" alt="Sonya Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-02-21 Balance Update v 2.30.3</title>
-    <published>2018-02-21T18:35:00.000Z</published>
-    <updated>2018-02-21T18:35:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-02-21-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-02-21-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p><a href="https://us.battle.net/heroes/en/blog/21535471">Voice Chat</a> has been added</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-02-21" target="_blank">Maiev</a>, 
-          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2018-02-21" target="_blank">Malthael</a>, 
-          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2018-02-21" target="_blank">Sonya</a>, 
-          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2018-02-21" target="_blank">Thrall</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-02-21" target="_blank">Tyrande</a>, 
-          <a href="https://heroespatchnotes.com/hero/xul.html#patch2018-02-21" target="_blank">Xul</a>, 
-          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2018-02-21" target="_blank">Zeratul</a>
-        </li>
-      </ul>
       ]]></content>
   </entry>
 </feed>
