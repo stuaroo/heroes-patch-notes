@@ -204,6 +204,7 @@ your experiences.</p>
 <tr>
   <td><a href="#chromie">Chromie</a></td>
   <td></td>
+  <td></td>
 </tr>
 <tr>
   <td><a href="#raynor">Raynor</a></td>
@@ -359,7 +360,7 @@ your experiences.</p>
 </ul></li>
 <li><strong>New Talent: Sustaining Rounds (Trait)</strong>
 <ul>
-<li>Give ‘Em Some Pepper heals Raynor for 3% of his maximum Health, increased to 6% is the primary target is a Hero.</li>
+<li>Give ‘Em Some Pepper heals Raynor for 3% of his maximum Health, increased to 6% if the primary target is a Hero.</li>
 </ul></li>
 <li><strong>New Talent: Behemoth Armor (Passive)</strong>
 <ul>
@@ -882,6 +883,28 @@ your experiences.</p>
 <li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
 </ul>
 
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> In Azmodan's update, we've embraced and expanded his
+  role as a late-game siege monster. He now has a baseline stacking quest for
+  Globe of Annihilation that's a hybrid of the old Taste for Blood and Sieging
+  Wrath Talents. Whether you're focusing on PvE or PvP objectives you should see
+  Globe of Annihilation become more powerful as a game goes on. To compensate
+  for this increase in baseline power, we've made Globe's impact area more
+  quickly visible to enemies, which will give them a chance to dodge their
+  impending doom. We've also made major mechanical changes to Black Pool (now
+  called Tide of Sin) and focused it solely on Globe's damage without the need
+  for targeting or alt-casting. Demon Warriors are now individually stronger and
+  deal constant AoE damage, but are slower and no longer have multiple charges.
+  The new All Shall Burn should be much more consistently useful and certain
+  Talent combinations can be used boost Azmodan's short to mid-range potential.
+  Demon Lieutenant (formerly General Of Hell) is still a global pushing ability,
+  but is less reliant on needing a large Minion wave to get value. Demonic
+  Invasion's changes are geared towards expanding its use in PvP scenarios
+  without affecting its old structure-bustin' potential. Dropping an Invasion on
+  the enemy team will force them to run away or take a large amount of delayed
+  damage.</p>
+</blockquote>
+
 <p><a href="#heroes">Return</a></p>
 
 <hr />
@@ -895,7 +918,7 @@ your experiences.</p>
 <ul>
 <li><strong>Life-Binder (R)</strong>
 <ul>
-<li>Now also heals Alexstrasza and her target for 100 Health per second during channeling.</li>
+<li>Now also heals Alexstrasza and her target for 300 Health per second during channeling.</li>
 </ul></li>
 </ul>
 
