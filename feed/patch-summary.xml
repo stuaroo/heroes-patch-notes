@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-06-27T17:40:00.000Z</updated>
+  <updated>2018-07-03T20:20:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-07-03 Balance Update </title>
+    <published>2018-07-03T20:20:00.000Z</published>
+    <updated>2018-07-03T20:20:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-07-03-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-03-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Battleground</h4>
+      <ul>
+        <li><p>Alterac Pass: Cavalry base damage and Health reduced by ~20%, damage and Health scaling increased ~20%, "no longer gain additional Armor for nearby Heroes"; Generals base Health reduced but scales over time</p>
+</li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-06-27 Balance Update v 2.34.3</title>
     <published>2018-06-27T17:40:00.000Z</published>
@@ -291,30 +305,6 @@
           <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-03-21" target="_blank">Zul'jin</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-03-06 Patch Notes v 2.30.4</title>
-    <published>2018-03-12T17:30:00.000Z</published>
-    <updated>2018-03-12T17:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-03-06-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-03-06-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2018-03-06" target="_blank">Alarak</a>, 
-          <a href="https://heroespatchnotes.com/hero/ana.html#patch2018-03-06" target="_blank">Ana</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2018-03-06" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/medivh.html#patch2018-03-06" target="_blank">Medivh</a>, 
-          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2018-03-06" target="_blank">Sonya</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/ana.png" href="https://heroespatchnotes.com/hero/ana.html#patch2018-03-06" alt="Ana Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/medivh.png" href="https://heroespatchnotes.com/hero/medivh.html#patch2018-03-06" alt="Medivh Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/sonya.png" href="https://heroespatchnotes.com/hero/sonya.html#patch2018-03-06" alt="Sonya Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
