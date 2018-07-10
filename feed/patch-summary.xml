@@ -14,6 +14,15 @@
     <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-10-patch-notes.html"/>
     <content type="html"><![CDATA[
       <h4>New</h4>
+      <h4>Play Mode</h4>
+      <ul>
+        <li><p>Third Ban: "a third Hero ban has been added to draft modes", with two bans during the initial ban phase.</p>
+</li>
+        <li><p>"The number of level 5+ Heroes required to participate in Hero League has been increased from 14 to 16"</p>
+</li>
+        <li><p>Rank decay added for inactive players, new players will "no longer be seeded into placement matches higher than Gold 5", players on an extended break from <abbr title="Hero League" class="initialism">HL</abbr> "will no longer be re-seeded into placement matches based on their performance in other modes"</p>
+</li>
+      </ul>
       <h4>Battleground</h4>
       <ul>
         <li><p>Mercenaries: "Heroes can no longer Heal, Shield, or target allied Mercenaries with Abilities unless an Ability specifically states that Mercenaries are valid targets"</p>
