@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-07-10T16:30:00.000Z</updated>
+  <updated>2018-07-25T17:59:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-07-25 Balance Update v 2.35.1</title>
+    <published>2018-07-25T17:59:00.000Z</published>
+    <updated>2018-07-25T17:59:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-07-25-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-25-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2018-07-25" target="_blank">Alarak</a>, 
+          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2018-07-25" target="_blank">Artanis</a>, 
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2018-07-25" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-07-25" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/cho.html#patch2018-07-25" target="_blank">Cho</a>, 
+          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2018-07-25" target="_blank">Deckard</a>, 
+          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2018-07-25" target="_blank">Diablo</a>, 
+          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-07-25" target="_blank">Fenix</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2018-07-25" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-07-25" target="_blank">Hanzo</a>, 
+          <a href="https://heroespatchnotes.com/hero/kaelthas.html#patch2018-07-25" target="_blank">Kael'thas</a>, 
+          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2018-07-25" target="_blank">Malfurion</a>, 
+          <a href="https://heroespatchnotes.com/hero/murky.html#patch2018-07-25" target="_blank">Murky</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2018-07-25" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2018-07-25" target="_blank">Sgt. Hammer</a>, 
+          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2018-07-25" target="_blank">Tracer</a>, 
+          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-07-25" target="_blank">Yrel</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-07-10 Patch Notes v 2.35.0</title>
     <published>2018-07-10T16:30:00.000Z</published>
@@ -289,32 +320,6 @@
           <a href="https://heroespatchnotes.com/hero/zarya.html#patch2018-04-11" target="_blank">Zarya</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-03-27 Patch Notes v 2.31.0</title>
-    <published>2018-03-27T16:15:00.000Z</published>
-    <updated>2018-03-27T16:15:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-03-27-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-03-27-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/fenix.png" alt="Fenix" height="60" width="60" /> Fenix</h3>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p>Varian: Heroic Abilities moved from lvl 10 to lvl 4</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2018-03-27" target="_blank">Auriel</a>, 
-          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-03-27" target="_blank">Fenix</a>, 
-          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2018-03-27" target="_blank">Kel'Thuzad</a>, 
-          <a href="https://heroespatchnotes.com/hero/lili.html#patch2018-03-27" target="_blank">Li Li</a>, 
-          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2018-03-27" target="_blank">Tracer</a>, 
-          <a href="https://heroespatchnotes.com/hero/varian.html#patch2018-03-27" target="_blank">Varian</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/varian.png" href="https://heroespatchnotes.com/hero/varian.html#patch2018-03-27" alt="Varian Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
