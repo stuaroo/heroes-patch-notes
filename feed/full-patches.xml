@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-07-25T17:59:00.000Z</updated>
+  <updated>2018-07-27T19:20:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-07-27 Hotfix Patch</title>
+    <published>2018-07-27T19:20:00.000Z</published>
+    <updated>2018-07-27T19:20:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-07-27-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-27-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-july-27-2018">Heroes of the Storm Hotfix Notes – July 27, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/" target="_blank">Official Patch Notes</a> <small>v 2.35.2</small></div>
+
+<p>We’ve just released a Heroes of the Storm patch in order to address a few live bugs. Read on for details.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Artanis:</strong> Fixed an issue that could cause Shield Overload to trigger twice in some rare instances.</li>
+<li><strong>Malfurion:</strong> Fixed an issue that could cause Malfurion to have negative Health Regeneration.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-07-25 Balance Update</title>
     <published>2018-07-25T17:59:00.000Z</published>
@@ -10526,49 +10552,6 @@ balance changes and bug fixes.</p>
 <li><strong>Probius:</strong> Disruption Pulse no longer gains bonus damage from the Particle Accelerator Talent when it passes through non-targetable units, like Gazlowe’s Scrap.</li>
 <li><strong>Varian:</strong> Learning Colossus Smash no longer reduces Varian’s Health Regeneration by more than the intended 10%.</li>
 <li><strong>Zeratul:</strong> Casting Void Prison on Blaze’s Bunker while players are inside no longer halts their Ability cooldowns indefinitely after Void Prison expires.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-03-30 Hotfix Patch</title>
-    <published>2018-03-30T18:55:00.000Z</published>
-    <updated>2018-03-30T18:55:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-03-30-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-03-30-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-march-30-2018">Heroes of the Storm Hotfix Notes – March 30, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://us.battle.net/heroes/en/blog/21670794" target="_blank"></a><a href="https://us.battle.net/heroes/en/blog/21670794" target="_blank">Official Patch Notes</a> <small>v 2.31.1</small></div>
-
-<p>We’ve just released a new hotfix for Heroes of the Storm to apply a few bug
-fixes.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>Battlegrounds</strong></p>
-
-<ul>
-<li><strong>Structures:</strong> Fixed an issue in which certain Abilities could be used to move Structures.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Diablo:</strong> Fixed a visual issue affecting Fenix’s walk animations after being hit by Overpower.</li>
-<li><strong>Fenix:</strong> Fixed an issue that could cause Fenix’s model to visually disjoint from his actual position in-game.</li>
-<li><strong>Fenix:</strong> Issuing a movement command during Purification Salvo will no longer cancel Fenix’s firing animation for the duration of the Ability.</li>
-<li><strong>Fenix:</strong> Purification Salvo’s visual and sound effects will no longer continue to play if the Ability is cancelled due to its target becoming invalid, such as when Gul’dan casts Demonic Circle to teleport far beyond Purification Salvo’s range.</li>
-<li><strong>Fenix:</strong> Unconquered Spirit’s icon in the Activated Talent hotbar is now visually consistent with other passive Talents, and no longer appears activatable.</li>
-<li><strong>Hanzo:</strong> The Target Practice Talent will now correctly grant 30% increased Storm Bow range upon completing its first quest requirement.</li>
-</ul>
-
-<p><strong>Sound</strong></p>
-
-<ul>
-<li><strong>Announcers:</strong> Fixed a processing issue affecting one of the Mira Han Announcer’s voiceover lines in the Chinese game client.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
