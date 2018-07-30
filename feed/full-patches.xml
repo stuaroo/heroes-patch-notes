@@ -2,10 +2,521 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-07-27T19:20:00.000Z</updated>
+  <updated>2018-07-30T18:15:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-07-30 PTR Patch Notes</title>
+    <published>2018-07-30T18:15:00.000Z</published>
+    <updated>2018-07-30T18:15:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-07-30-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-30-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-july-30-2018">Heroes of the Storm PTR Patch Notes – July 30, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/21971414" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/21971414" target="_blank">Official Patch Notes</a> <small>v 2.36.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until August 6. As always, if you encounter any
+bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
+forum</a> to let us know about
+your experiences.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li>Reduced the amount of bandwidth required to transfer gameplay information between the client and server.</li>
+<li>Reduced the size of replay files.</li>
+</ul>
+
+<hr />
+
+<h3 id="new-hero-whitemane">New Hero: Whitemane</h3>
+
+<p>As the High Inquisitor of the Scarlet Crusade, Sally Whitemane zealously leads
+her champions in a never-ending war against the undead. Under her guiding
+Light, all who have been touched by the plague of death will be purged by her
+cleansing flame… no matter how much they protest.</p>
+
+<p><strong>Trait</strong> </p>
+
+<ul>
+<li><strong>Zeal</strong>
+<ul>
+<li>Whitemane's Healing abilities apply Zeal for 8 seconds.</li>
+<li>Allies with Zeal are healed for 100% of the damage Whitemane deals to Heroes.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Desperate Plea (Q)</strong>
+<ul>
+<li>Mana: 30</li>
+<li>No cooldown</li>
+<li>Heal an allied Hero for 145 and gain Desperation for 4 seconds.</li>
+<li>Desperation increases Desperate Plea's Mana cost by 60 and stacks up to 3 times.</li>
+</ul></li>
+<li><strong>Inquisition (W)</strong>
+<ul>
+<li>Channel on an enemy Hero for up to 3 seconds, dealing 53 damage every 0.5 seconds and slowing them by 30%</li>
+</ul></li>
+<li><strong>Searing Lash (E)</strong>
+<ul>
+<li>After 0.5 seconds, smite enemies in a straight line for 82 damage.</li>
+<li>If the first strike hits an enemy Hero, a second strike will occur after a short delay.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Scarlet Aegis (R)</strong>
+<ul>
+<li>Cooldown: 60 seconds</li>
+<li>Bolster the spirits of nearby allied Heroes, healing them for 250 and granting them 40 Armor for 4 seconds.</li>
+</ul></li>
+<li><strong>Divine Reckoning (R)</strong>
+<ul>
+<li>Cooldown: 100 seconds</li>
+<li>After a 1 second delay, consecrate an area for 4 seconds, dealing 50 damage every 0.5 seconds to enemies in the area.​</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="art">Art</h3>
+
+<ul>
+<li>Hero, Skin, and Mount platforms in the Collections menus have received a visual update.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="design">Design</h3>
+
+<p><strong>Summon Abilities</strong></p>
+
+<ul>
+<li>Summoned creatures (Zagara Roaches, Azmodan Demons, etc.) now deal ability damage which can be enhanced by the Hero's Ability Power.</li>
+<li>Summoned creatures now obey Blind and Evade rules.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#support">Support</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#chromie">Chromie</a></td>
+  <td><a href="#stukov">Stukov</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="chromie">Chromie</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack Range has been increased from 5.5 to 7</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Sand Blast (Q)</strong>
+<ul>
+<li>No longer gains bonus damage when hitting enemy Heroes</li>
+<li>Range has been decreased from 17 to 15</li>
+<li>Scaling damage increased from 2 to 4%</li>
+<li>Echo scaling damage increased from 2 to 4%</li>
+<li>Cast time decreased from 1 to .8 seconds</li>
+<li>Mana cost decreased from 20 to 15</li>
+</ul></li>
+<li><strong>Past and Future Me (Sand Blast Quest)</strong>
+<ul>
+<li>Echo unlock requirements reduced from 60 to 50 Sand Blast hits</li>
+</ul></li>
+<li><strong>Dragon's Breath (W)</strong>
+<ul>
+<li>Mana cost reduced from 70 to 50</li>
+<li>Range decreased from 17 to 15</li>
+<li>Dragon's Breath's ground splat is now visible to enemies .5 seconds after cast</li>
+<li>Damage reduced from 480 to 360</li>
+<li>Cooldown reduced from 12 to 9 seconds</li>
+</ul></li>
+<li><strong>Trait Addition: Bronze Talons</strong>
+<ul>
+<li>Hitting an enemy Hero with a Basic Ability increases the damage of Chromie's next Basic Attack by 100%</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Mounting Sand (Q)
+<ul>
+<li>Additional Functionality:
+<ul>
+<li>Now also increases the damage of Sand Blast's Echo by 40%</li>
+</ul></li>
+</ul></li>
+<li>Timewalker's Pursuit (Active)
+<ul>
+<li>Adjusted Functionality:
+<ul>
+<li>No longer grants Mana Regeneration per Regen Globe gathered. Now grants 1 extra Mana Regeneration on quest complete.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 2</strong>
+<ul>
+<li>Bronze Talons (Passive)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Draconic Barrage (Trait)</strong>
+<ul>
+<li>Increase the bonus Basic Attack damage from casting Abilities by an additional 100%. Hitting an enemy Hero with Sand Blast grants 2 empowered Basic Attacks.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 5</strong>
+<ul>
+<li>Mobius Loop (W)
+<ul>
+<li>New functionality:
+<ul>
+<li>If an enemy Hero is hit by Dragon's Breath, lower the cooldown by 2 seconds and refund the Mana cost</li>
+</ul></li>
+</ul></li>
+<li>Chrono Sickness (E)
+<ul>
+<li>Slow amount reduced from 50 to 35%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 11</strong>
+<ul>
+<li>Time Out (Active)
+<ul>
+<li>Duration reduced from 7 to 5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 14</strong>
+<ul>
+<li>Fast Forward (Q)
+<ul>
+<li>Range requirement reduced from 75 to 70%</li>
+</ul></li>
+<li>Quantum Overdrive (Active)
+<ul>
+<li>Ability Power bonus increased from 20 to 25%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're making a few changes to Chromie to reduce the
+  frustration when playing against her and to reduce her wide power variance
+  between games. A number of these changes are designed to increase counter-play
+  when playing against Chromie, like reducing her range on her abilities and
+  letting enemies see Dragon's Breath shortly after it has been cast. In
+  exchange, Chromie's Sand Blast has a shorter cast time, and she will now have
+  a modified version of Bronze Talons baseline, where she can weave in auto-
+  attacks for hitting enemy Heroes with her abilities. The reason we decided to
+  give her the additional Bronze Talons trait is so that Chromie players are
+  encouraged to interact more with their opponents. We're rewarding them for
+  getting into more dangerous positions with the possibility of increased damage
+  output. This also lets us redistribute her damage away from her high burst,
+  long range abilities, and more into something her opponents have a better
+  opportunity to play around. We like Chromie's unique place in our game as a
+  long-range, artillery mage that requires enemies to pay attention to their
+  positioning but over time we found that she simply had too much range and
+  burst for players to feel like they had an engaging experience when playing
+  against her. While we've had a blast with these changes, we'll continue to
+  keep an eye on her going forward and are prepared to make additional tweaks as
+  needed.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="stukov">Stukov</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Low Blow (E)
+<ul>
+<li>Moved from Level 13</li>
+<li>Bonus damage reduced from 150 to 100%</li>
+</ul></li>
+<li>Poppin' Pustules (D)
+<ul>
+<li>No longer has a Quest component</li>
+<li>New functionality:
+<ul>
+<li>Detonating a Weighted Pustule within 1.5 seconds of it expiring increases its damage by 100% and applies its damage and slow in an area</li>
+</ul></li>
+<li>Explosion radius reduced from 4.5 to 3.75</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Biotic Armor (Q)
+<ul>
+<li>Physical Armor reduced from 50 to 15</li>
+<li>Now works on all targets that have Healing Pathogen</li>
+<li>Additional Functionality:
+<ul>
+<li>Now also grants 50 Physical Armor for 2.5 seconds to targets who have Healing Pathogen when Bio-Kill Switch is detonated</li>
+</ul></li>
+</ul></li>
+<li>Vigorous Reuptake (D)
+<ul>
+<li>No longer has a Quest component</li>
+<li>New functionality:
+<ul>
+<li>Bio-Kill Switch's healing is increased by 25% if 3 or more targets have Healing Pathogen on them when Bio-Kill Switch is detonated</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Within My Reach (E)
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>The Long Pitch (W)
+<ul>
+<li>Bonus range reduced from 100 to 50%</li>
+<li>Additional functionality:
+<ul>
+<li>Detonating 2 or more Weighted Pustules with a single cast of Bio-Kill Switch causes the cooldowns of non-Heroic abilities to recharge 100% faster for 3 seconds.</li>
+</ul></li>
+</ul></li>
+<li>Growing Infestation (E)
+<ul>
+<li>Moved from Level 1</li>
+<li>No longer increases the cooldown of Lurking Arm</li>
+<li>New functionality:
+<ul>
+<li>Now reduces Lurking Arm's channel duration to 4 seconds</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>It Hungers (E)
+<ul>
+<li>Moved from Level 7</li>
+<li>New functionality:
+<ul>
+<li>Increase the range of Lurking Arm by 20%. If Lurking Arm hits enemy Heroes 15 times, reset its cooldown and refund its Mana cost</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Push Comes to Shove (R)
+<ul>
+<li>Speed bonus removed</li>
+<li>Additional functionality:
+<ul>
+<li>After colliding with terrain, enemy Heroes are slowed by 50% for 4 seconds</li>
+</ul></li>
+</ul></li>
+<li>Top Off (Q)
+<ul>
+<li>Moved from Level 4</li>
+<li>Bonus healing reduced from 50% to 30%</li>
+<li>Adjusted Functionality:
+<ul>
+<li>Increased healing is now applied to all targets that have Healing Pathogen</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> In the same vein as our earlier changes to Kael'thas,
+  we felt that Stukov could use some love in the talent diversity department.
+  We've made a number of functionality changes that should open up new builds
+  and play styles, particularly in his earlier talent tiers.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are available for a limited time! Be sure to check out the latest <a href="https://heroesofthestorm.com/en-us/blog/21992993">In-Development blog</a> for more details.
+<ul>
+<li>Bow Before Viper Bundle</li>
+<li>Whitemane Heroic Bundle</li>
+<li>Sidewinder Ana Skin Pack</li>
+<li>Imperator Stukov Skin Pack</li>
+<li>Deathfang Genji Skin Pack</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcers</strong></p>
+
+<ul>
+<li>Whitemane</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Whitemane</strong>
+<ul>
+<li>Scarlet Whitemane</li>
+<li>Twilight Whitemane</li>
+<li>Celestial Empress Whitemane</li>
+<li>Galactic Empress Whitemane</li>
+<li>Warpspace Empress Whitemane</li>
+</ul></li>
+<li><strong>Ana</strong>
+<ul>
+<li>Sidewinder Ana</li>
+<li>Noxious Sidewinder Ana</li>
+<li>Arctic Sidewinder Ana</li>
+</ul></li>
+<li><strong>Stukov</strong>
+<ul>
+<li>Imperator Stukov</li>
+<li>Noxious Imperator Stukov</li>
+<li>Arctic Imperator Stukov</li>
+</ul></li>
+<li><strong>Genji</strong>
+<ul>
+<li>Deathfang Genji</li>
+<li>Noxious Deathfang Genji</li>
+<li>Arctic Deathfang Genji</li>
+</ul></li>
+<li><strong>Muradin</strong>
+<ul>
+<li>Butterscotch Kandy King Muradin</li>
+<li>Frosted Kandy King Muradin</li>
+</ul></li>
+<li><strong>Lunara</strong>
+<ul>
+<li>Emerald Lunara</li>
+</ul></li>
+<li><strong>Murky</strong>
+<ul>
+<li>Clownfish Murky</li>
+</ul></li>
+<li><strong>Chen</strong>
+<ul>
+<li>Pristine Chen</li>
+</ul></li>
+<li><strong>Chromie</strong>
+<ul>
+<li>Obsidian Chromie</li>
+</ul></li>
+</ul>
+
+<p><strong>New Mounts</strong></p>
+
+<ul>
+<li><strong>Viper Dominator</strong>
+<ul>
+<li>Hazardous Viper Dominator</li>
+<li>Noxious Viper Dominator</li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits, Sprays, and Emojis</strong></p>
+
+<ul>
+<li>Several new emoji packs and portraits have also been added to the game. You can get a look in our most recent <a href="https://heroesofthestorm.com/en-us/blog/21992993">In-Development blog</a>.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
+<li>Fixed an issue causing some abilities to repeatedly automatically cast if right-click was held.</li>
+<li><strong>Quick Cast:</strong> Fixed an issue causing some vector targeted abilities to behave as if quick cast was always enabled.</li>
+</ul>
+
+<p><strong>Sound</strong></p>
+
+<ul>
+<li>Increased the volume of Alarak's announcer pack.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li><strong>Diablo:</strong> Fixed an issue with the geometry of Diablo's tail.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Alterac Pass:</strong> Fixed an issue that could cause the Cavalry's aura effect to fail to display on low settings.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Hanzo:</strong> The Target Practice quest tracker will now differentiate between targets that have been hit 3 times and those who haven't been hit at all.</li>
+<li><strong>Leoric:</strong> Fixed an issue causing the visual effect seen on Heroes affected by Ominous Wraith to fail to appear.</li>
+<li><strong>Lt. Morales:</strong> Healing Beam will no longer heal units affected by Time Stop.</li>
+<li><strong>Medivh:</strong> Medivh the Black's raven has been updated to match the theme of the skin.</li>
+<li><strong>Medivh:</strong> Medivh can now be selected while in Raven Form when attempting to view his target info panel.</li>
+<li><strong>Medivh:</strong> Portal Mastery portals can now be affected by cooldown reduction.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://battle.net/forums/heroes/index">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-07-27 Hotfix Patch</title>
     <published>2018-07-27T19:20:00.000Z</published>
@@ -9857,702 +10368,6 @@ speaks, it’s wise to stay awhile and listen.</p>
 <hr />
 
 <p>We also released a patch on April 11, which included many balance changes and bug fixes. <a href="https://battle.net/heroes/blog/21656682">You can review those patch notes by clicking here</a>.</p>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-04-11 Balance Update</title>
-    <published>2018-04-12T01:25:00.000Z</published>
-    <updated>2018-04-12T01:25:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-04-11-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-04-11-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-april-11-2018">Heroes of the Storm Patch Notes – April 11, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://us.battle.net/heroes/en/blog/21656682" target="_blank"></a><a href="https://us.battle.net/heroes/en/blog/21656682" target="_blank">Official Patch Notes</a> <small>v 2.31.2</small></div>
-
-<p>Our most recent Heroes of the Storm patch is now live containing a number of
-balance changes and bug fixes.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#multiclass">Multiclass</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#falstad">Falstad</a></td>
-  <td><a href="#varian">Varian</a></td>
-  <td><a href="#medivh">Medivh</a></td>
-  <td><a href="#kharazim">Kharazim</a></td>
-  <td><a href="#chen">Chen</a></td>
-</tr>
-<tr>
-  <td><a href="#fenix">Fenix</a></td>
-  <td></td>
-  <td><a href="#sylvanas">Sylvanas</a></td>
-  <td><a href="#malfurion">Malfurion</a></td>
-  <td><a href="#dehaka">Dehaka</a></td>
-</tr>
-<tr>
-  <td><a href="#hanzo">Hanzo</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#leoric">Leoric</a></td>
-</tr>
-<tr>
-  <td><a href="#li-ming">Li-Ming</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#tyrael">Tyrael</a></td>
-</tr>
-<tr>
-  <td><a href="#nova">Nova</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#zarya">Zarya</a></td>
-</tr>
-<tr>
-  <td><a href="#tracer">Tracer</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="falstad">Falstad</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Gathering Storm (Q)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Every Hero Hammerang hits also returns 10 Mana.</li>
-</ul></li>
-</ul></li>
-<li><strong>Wingman (Active)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Reduces Lightning Rod’s cooldown by 3 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Updraft (E)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Removes the duration of Shields granted by Barrel Roll.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="fenix">Fenix</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage reduced from 96 to 86.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Plasma Cutter (Q)</strong>
-<ul>
-<li>Damage reduced from 145 to 135.</li>
-</ul></li>
-<li><strong>Planet Cracker (R)</strong>
-<ul>
-<li>Damage increased from 105 to 108.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Advanced Targeting (Q)</strong>
-<ul>
-<li>Damage bonus reduced from 0.75 to 0.5.</li>
-<li>Maximum bonus damage reduced from 75 to 60.</li>
-</ul></li>
-<li><strong>Arsenal Synergy (W)</strong>
-<ul>
-<li>Damage bonus increased from 100% to 175%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Emergency Protocol (Trait)</strong>
-<ul>
-<li>Movement Speed bonus reduced from 30% to 25%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Combat Advantage (Q)</strong>
-<ul>
-<li>Damage bonus against Slowed targets reduced from 50% to 40%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Auxiliary Shields (Trait)</strong>
-<ul>
-<li>Shield regeneration reduced from 20% to 15% of Basic Attack damage dealt.</li>
-</ul></li>
-<li><strong>Dampening Field (Trait)</strong>
-<ul>
-<li>Spell Armor increased from 15 to 20.</li>
-</ul></li>
-<li><strong>Rapid Recharge (Trait)</strong>
-<ul>
-<li>Shield recharge increased from 20% to 40% of healing received.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Singularity Charge (W)</strong>
-<ul>
-<li>Repeater Cannon bonus Attack Speed increased from 50% to 100%.</li>
-</ul></li>
-<li><strong>Unconquered Spirit (Passive)</strong>
-<ul>
-<li>Shield amount increased from 600 to 800.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Fenix has proven himself quite powerful, mainly due
-  to his capability for consistent damage output. While we’re happy with how he
-  plays, we’re making a few changes to bring his damage in line and address
-  Talent imbalances.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="hanzo">Hanzo</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Natural Agility (Trait)</strong>
-<ul>
-<li>Cooldown increased from 20 to 25 seconds.</li>
-</ul></li>
-<li><strong>Dragon Strike (R)</strong>
-<ul>
-<li>Damage increased from 64 to 70.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Serrated Arrows (W)</strong>
-<ul>
-<li>Bonus damage granted versus Minions, Mercenaries, and Monsters reduced from 150% to 100%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="li-ming">Li-Ming</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Aether Walker (E)</strong>
-<ul>
-<li>Reduced the time required after taking damage from 5 to 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Dominance (Trait)</strong>
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>Takedowns now restore 30% of missing Health.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="nova">Nova</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Perfect Shot (Q)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Each Hero hit also grants an additional Precision Sniper stack.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Ionic Force Field (Trait)</strong>
-<ul>
-<li>Armor duration increased from 2 to 3 seconds.</li>
-</ul></li>
-<li><strong>Double Tap (W)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Also increases Pinning Shot’s cooldown by 2 seconds.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Lethal Decoy (E)</strong>
-<ul>
-<li>Holo Decoy damage bonus reduced from 35% to 30%.</li>
-</ul></li>
-<li><strong>Crippling Shot (W)</strong>
-<ul>
-<li>Armor negation reduced from 25 to 20.</li>
-</ul></li>
-<li><strong>Explosive Round (Q)</strong>
-<ul>
-<li>Area of effect damage increased from 50% to 70%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tracer">Tracer</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 1350 to 1280.</li>
-<li>Health Regeneration reduced from 5.625 to 5.332.</li>
-<li>Basic Attack damage reduced from 29 to 28.</li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="multiclass">Multiclass</h3>
-
-<h4 id="varian">Varian</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 1850 to 1924.</li>
-<li>Health Regeneration increased from 3.8554 to 4.0078.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Taunt (R)</strong>
-<ul>
-<li>Bonus Health and Health Regeneration reduced from 30% to 25%.</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="medivh">Medivh</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Force of Magic (W)</strong>
-<ul>
-<li>Bonus Spell Power increased from 20% to 25%.</li>
-</ul></li>
-<li><strong>Arcane Explosion (W)</strong>
-<ul>
-<li>Base damage reduced from 90 to 80.</li>
-<li>Maximum additional damage reduced from 350 to 315.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Circle of Protection (W)</strong>
-<ul>
-<li>Now also increases Force of Will’s cooldown by 2 seconds.</li>
-</ul></li>
-<li><strong>Reabsorption (W)</strong>
-<ul>
-<li>Heal amount increased from 60% to 70%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="sylvanas">Sylvanas</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage increased from 85 to 90.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Black Arrows (Trait)</strong>
-<ul>
-<li>Abilities no longer disable Structures.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> As part of our ongoing quest to increase counter-play
-  and curb frustration when playing against certain Heroes, we’re changing
-  Sylvanas’ Black Arrows trait so that her Abilities no longer disable
-  Structures. This effect is incredibly powerful and, in the past, has limited
-  how Battlegrounds can be designed and played. We realize that turning off
-  enemy Structures is an important part of Sylvanas’ identity, so rather than
-  removing this functionality completely, we’re addressing it in such a way that
-  she now has to put herself in danger to get maximum value. This should allow
-  more counter-play for opponents when Sylvanas is pushing, and enable us to
-  improve her teamfight capabilities, which we’re doing initially via a small
-  Basic Attack damage buff. We’ll be keeping an eye on her performance, and are
-  ready to make further tuning changes as needed.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="kharazim">Kharazim</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 1949 to 2027.</li>
-<li>Health Regeneration increased from 4.0585 to 4.2226.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Transcendence (Trait)
-<ul>
-<li>Healing increased from 98 to 104.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malfurion">Malfurion</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Regrowth</strong>
-<ul>
-<li>Heal amount reduced from 400 to 380.</li>
-</ul></li>
-<li><strong>Moonfire</strong>
-<ul>
-<li>Heal amount reduced from 140 to 135.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Strangling Vines (E)</strong>
-<ul>
-<li>Heal reduction duration increased from 2 to 3 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="chen">Chen</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Accumulating Flame (Q)</strong>
-<ul>
-<li>Adjusted quest reward functionality:
-<ul>
-<li>Gain 15 Armor per Hero ignited with Breath of Fire. This lasts 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Freshest Ingredients (Trait)</strong>
-<ul>
-<li>Health Regeneration granted by gathering Regeneration Globes no longer caps at 30.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Keg Toss (W)</strong>
-<ul>
-<li>Bonus damage per Hero hit increased from 3 to 4.</li>
-<li>Bonus damage maximum increased from 60 to 80.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Purifying Brew (Trait)</strong>
-<ul>
-<li>Added functionality:
-<ul>
-<li>Spell Armor persists as long as Chen has Fortifying Brew Shields.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="dehaka">Dehaka</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Adaptation (R)</strong>
-<ul>
-<li>Cooldown reduced from 90 to 80 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Enduring Swarm (W)</strong>
-<ul>
-<li>Spell Armor increased from 40 to 50.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Lurker Strain (E)</strong>
-<ul>
-<li>Slow duration increased from 2 to 3 seconds.</li>
-</ul></li>
-<li><strong>Hero Stalker (Trait)</strong>
-<ul>
-<li>Added functionality
-<ul>
-<li>Enemy Heroes hit by Dark Swarm grant 1 Essence.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Ferocious Stalker (W)</strong>
-<ul>
-<li>Bonus damage increased from 40% to 50%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="leoric">Leoric</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage increased from 105 to 109.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Drain Hope (W)</strong>
-<ul>
-<li>Cooldown reduced from 11 to 10 seconds.</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tyrael">Tyrael</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Ardent Restoration (Passive)</strong>
-<ul>
-<li>Healing increased from 13.75 to 15 per stack.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Stalwart Angel (Q)</strong>
-<ul>
-<li>Armor increased from 20 to 25.</li>
-<li>Armor duration reduced from 3 to 2 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Purge Evil (E)</strong>
-<ul>
-<li>Basic Attack damage bonus increased from 35% to 45%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Burning Halo (Q)</strong>
-<ul>
-<li>Damage increased from 15 to 18.</li>
-<li>Bonus damage after teleporting increased from 100% to 150%.</li>
-<li>Bonus damage duration reduced from 3 to 2 seconds.</li>
-</ul></li>
-<li><strong>Smite the Wicked (E)</strong>
-<ul>
-<li>Cooldown recharge rate increased from 100% to 125%.</li>
-<li>Cooldown recharge rate duration after teleporting reduced from 3 to 2 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We’re making adjustments focused on the viability of
-  some of Tyrael’s Talents. In particular, Sword of Justice was not picked very
-  often, and was underperforming. We’re addressing this by taking a few Talents
-  (Stalwart Angel, Burning Halo, and Smite the Wicked) and increasing their
-  synergy with Sword of Justice by increasing the bonuses that Tyrael receives
-  while El’druin is out, but reducing the bonuses for teleporting. This should
-  enhance Sword of Justice’s playstyle, by allowing players to teleport into a
-  fight, but still having an active El’druin’s.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="zarya">Zarya</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 2225 to 2292.</li>
-<li>Health Regeneration increased from 4.6406 to 4.7750.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Particle Grenade (Q)</strong>
-<ul>
-<li>Damage increased from 71 to 75.</li>
-</ul></li>
-<li><strong>Graviton Surge (R)</strong>
-<ul>
-<li>Cooldown reduced from 80 to 60 seconds.</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a pair of issues that could cause the game client to crash.</li>
-</ul>
-
-<p><strong>Art</strong></p>
-
-<ul>
-<li><strong>Johanna:</strong> Learning Holy Renewal and casting Shield Glare while using one of Johanna’s Enforcer Skins no longer causes placeholder art to appear at her feet.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Ana:</strong> After learning Grenade Calibration, Biotic Grenade’s floating combat text now displays the correct amount of Healing received with each tick.</li>
-<li><strong>Auriel:</strong> Bestow Hope’s buff and visual effects will no longer be removed if the target enters a Stasis effect, like Zagara’s Devouring Maw.</li>
-<li><strong>Cassia:</strong> After learning Martial Law, Basic Attacks now correctly apply bonus damage against Slowed Heroes.</li>
-<li><strong>Fenix:</strong> Fixed an issue that could prevent the Rapid Recharge Talent from providing its Shield recharge effect when Healed.</li>
-<li><strong>Fenix:</strong> Plasma Cutter is now correctly interrupted by Stasis effects, like Stitches’ Gorge and Anub’arak’s Cocoon.</li>
-<li><strong>Fenix:</strong> Casting Plasma Cutter on an Invulnerable target no longer grants quest progress for the Advanced Targeting Talent.</li>
-<li><strong>Fenix:</strong> After learning Singularity Charge, the Talent description that is appended to the Weapon Mode Ability tooltip now states the correct amount of bonus range provided to Phase Bomb Basic Attacks.</li>
-<li><strong>Greymane:</strong> The Wizened Duelist Talent’s Basic Attack counter no longer continues to update after achieving maximum quest progress.</li>
-<li><strong>Leoric:</strong> Fixed an issue preventing Leoric from casting Hearthstone while in Undying form.</li>
-<li><strong>Malthael:</strong> After learning Black Harvest, quest progress indicators now correctly appear every second while a target is affected by Reaper’s Mark.</li>
-<li><strong>Medivh:</strong> Fixed an issue in which Medivh could create four Portals at once after learning Portal Mastery.</li>
-<li><strong>Medivh:</strong> Is no longer dismounted after casting Arcane Brilliance.</li>
-<li><strong>Probius:</strong> Disruption Pulse no longer gains bonus damage from the Particle Accelerator Talent when it passes through non-targetable units, like Gazlowe’s Scrap.</li>
-<li><strong>Varian:</strong> Learning Colossus Smash no longer reduces Varian’s Health Regeneration by more than the intended 10%.</li>
-<li><strong>Zeratul:</strong> Casting Void Prison on Blaze’s Bunker while players are inside no longer halts their Ability cooldowns indefinitely after Void Prison expires.</li>
-</ul>
 
 <p><a href="#top">Return to Top</a></p>
 ]]></content>
