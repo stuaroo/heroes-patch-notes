@@ -208,6 +208,7 @@ article>#top ul {
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
+.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180807.png") 0 0 no-repeat; background-size: 44px 44.47826091px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20180612.png") 0 0 no-repeat; 
   background-size: 50.6px 814.0px; width: 44px; height: 44px;
@@ -365,6 +366,8 @@ article>#top ul {
 .hero-valla{ background: url("//heroespatchnotes.com/images/hero/valla.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-varian, .medium-varian{ background-position: 0px -382.608696px; }
 .hero-varian{ background: url("//heroespatchnotes.com/images/hero/varian.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
+.small-whitemane, .medium-whitemane{ background-position: 0px 0.0px; }
+.hero-whitemane{ background: url("//heroespatchnotes.com/images/hero/whitemane.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-xul, .medium-xul{ background-position: 0px -382.608696px; }
 .hero-xul{ background: url("//heroespatchnotes.com/images/hero/xul.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-yrel, .medium-yrel{ background-position: 0px -430.434783px; }
@@ -500,6 +503,7 @@ article>#top ul {
 #valeera{ background: url("//heroespatchnotes.com/images/hero/valeera.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #valla{ background: url("//heroespatchnotes.com/images/hero/valla.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #varian{ background: url("//heroespatchnotes.com/images/hero/varian.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
+#whitemane{ background: url("//heroespatchnotes.com/images/hero/whitemane.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #xul{ background: url("//heroespatchnotes.com/images/hero/xul.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #yrel{ background: url("//heroespatchnotes.com/images/hero/yrel.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #zagara{ background: url("//heroespatchnotes.com/images/hero/zagara.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
@@ -518,6 +522,7 @@ article>#top ul {
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
+  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180807.png") 0 0 no-repeat; background-size: 60px 60.652173909px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 1110.0px; width: 60px; height: 60px; 
   }
@@ -596,6 +601,7 @@ article>#top ul {
   .medium-valeera{ background-position: 0px -65.2173913px; }
   .medium-valla{ background-position: 0px -260.8695652px; }
   .medium-varian{ background-position: 0px -521.7391304px; }
+  .medium-whitemane{ background-position: 0px 0.0px; }
   .medium-xul{ background-position: 0px -521.7391304px; }
   .medium-yrel{ background-position: 0px -586.9565217px; }
   .medium-zagara{ background-position: 0px -326.0869565px; }
