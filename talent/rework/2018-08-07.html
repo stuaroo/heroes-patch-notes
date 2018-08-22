@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Chromie from 2018-08-07.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2018-08-07.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2018-08-07.html" />
+    <meta property="og:title" content="2018-08-07 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Chromie." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483416462/hero/chromie.jpg" />
+        <title>2018-08-07 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=TiK39YNWVK" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2018-08-07 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Chromie" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/chromie.html">
+              <div class="hero-img hero-chromie img-rounded"></div>
+              <div>Chromie</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're making a few changes to Chromie to reduce the
+  frustration when playing against her and to reduce her wide power variance
+  between games. A number of these changes are designed to increase counter-play
+  when playing against Chromie, like reducing her range on her abilities and
+  letting enemies see Dragon's Breath shortly after it has been cast. In
+  exchange, Chromie's Sand Blast has a shorter cast time, and she will now have
+  a modified version of Bronze Talons baseline, where she can weave in auto-
+  attacks for hitting enemy Heroes with her abilities. The reason we decided to
+  give her the additional Bronze Talons trait is so that Chromie players are
+  encouraged to interact more with their opponents. We're rewarding them for
+  getting into more dangerous positions with the possibility of increased damage
+  output. This also lets us redistribute her damage away from her high burst,
+  long range abilities, and more into something her opponents have a better
+  opportunity to play around. We like Chromie's unique place in our game as a
+  long-range, artillery mage that requires enemies to pay attention to their
+  positioning but over time we found that she simply had too much range and
+  burst for players to feel like they had an engaging experience when playing
+  against her. While we've had a blast with these changes, we'll continue to
+  keep an eye on her going forward and are prepared to make additional tweaks as
+  needed.</p>
+</blockquote>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 stats-label">Stats</div>
+            <div class="col-xs-12 col-sm-10 code-addition stats"><ul>
+<li>Basic Attack Range has been increased from 5.5 to 7</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_aethercannon.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sand Blast</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 15 
+<span class="code-deletion">20</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 2.5
+            </span>
+          </div>
+          <div>After <span class="code-addition">0.8</span> <span class="code-deletion">1</span> seconds, fire a missile that deals 300 <span class="code-addition">(+4% per level)</span> <span class="code-deletion">(+2% per level)</span> damage to the first enemy Hero hit.  Quest: Hit <span class="code-addition">50</span> <span class="code-deletion">60</span> Heroes with Sand Blast. Consecutive hits without missing count as hitting 2 Heroes.  <span class="code-deletion">Reward: Each Hero hit increases Sand Blast's damage by 5.</span>  Reward: After hitting <span class="code-addition">50</span> <span class="code-deletion">60</span> Heroes, casting Sand Blast leaves an Echo behind.  The next time Sand Blast is cast, the Echo also casts an untalented Sand Blast that deals 40% damage.</div>
+          <div class="code-addition">Range has been decreased from 17 to 15</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_sandstrike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dragon's Breath</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 50 
+<span class="code-deletion">70</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 9
+<span class="code-deletion">12</span>            </span>
+          </div>
+          <div>Fire a blast into the air that lands after 1.5 seconds, dealing <span class="code-addition">360</span> <span class="code-deletion">480</span> (+4% per level) damage to enemies in an area.  <span class="code-deletion">Enemies cannot see where the blast will land.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timetrap.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Time Trap</h5>          </div>
+          <div>
+            <span>Mana: 25 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 18
+            </span>
+          </div>
+          <div>Place a Time Trap that arms and Stealths after 2 seconds. The first enemy Hero to touch it is placed in Time Stop for 2 seconds. Only 1 trap can exist at once.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_looper.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Temporal Loop</h5>          </div>
+          <div>
+            <span>Mana: 60 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 70
+            </span>
+          </div>
+          <div>Choose an enemy Hero. After 3 seconds, they will teleport back to the location where Temporal Loop was cast on them.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timewarp.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Slowing Sands</h5>          </div>
+          <div>
+            <span>Mana: 4 per second</span>
+            &nbsp;<span class="pull-right">Cooldown: 5
+            </span>
+          </div>
+          <div>Place a sand vortex that greatly Slows enemies inside it. The longer it is active the more it Slows, up to 60% after 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timetraveler.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Timewalker</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+          </div>
+          <div>Chromie has traveled to the future, and as such, will learn her Talents 2 levels earlier than her teammates!  <span class="code-addition">Bronze Talons  Hitting an enemy Hero with a Basic Ability increases the damage of Chromie's next Basic Attack by 100%.</span></div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_sandstrike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Deep Breathing</h5>
+          </div>
+          <div>Quest: Every time Dragon's Breath hits a Hero increase its damage by 3, up to 60.  Reward: After hitting 20 Heroes, increase its damage by an additional 140 and also increase Chromie's sight radius by 100%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_aethercannon.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mounting Sand</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div><span class="code-addition">Increase the damage of Echo's Sand Blast by 40%.</span> Hitting 3 or more consecutive Sand Blasts without missing counts as hitting 3 Heroes.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_talent_clairvoyance.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Timewalker's Pursuit</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 25
+            </span>
+          </div>
+          <div>Activate to reveal the targeted area for 2 seconds. Enemies seen are revealed for 4 seconds.  <span class="code-deletion">Quest: Gathering a Regeneration Globe increases Chromie's Mana Regeneration by 0.1, up to 1.5.</span>  Quest: Gather 15 Regeneration Globes.  Reward: After gathering 15 Globes, Chromie gains 5% Spell Power <span class="code-addition">and her Mana Regeneration is increased by 1.</span></div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_aethercannon.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Draconic Barrage</h5>
+          </div>
+          <div>Increase the damage from Bronze Talons by an additional 100%. Hitting an enemy Hero with Sand Blast applies Bronze Talons to Chromie's next 2 Basic Attacks.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_sandstrike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Enveloping Assault</h5>
+          </div>
+          <div>Increase Dragon's Breath's radius by 25%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timetrap.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Timely Surprise</h5>
+          </div>
+          <div>Increase Time Trap's cast range by 33%. Additionally, the cooldowns of Sand Blast and Dragon's Breath are reset when Time Trap is triggered.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bronze Talons</h5>
+          </div>
+          <div>Increase Chromie's Basic Attack range by 35%. Using Sand Blast increases the damage of her next Basic Attack by 250%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timetrap.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Chrono Sickness</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Reduce Time Trap's cooldown and Mana cost by 50%. After the Time Stop ends, the enemy is also Slowed by <span class="code-addition">35%</span> <span class="code-deletion">50%</span> for 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_sandstrike_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dragon's Eye</h5>
+          </div>
+          <div>Dragon’s Breath deals 25% more damage to enemies in the center.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_sandstrike.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mobius Loop</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">If Dragon's Breath hits a Hero, reduce its cooldown by 2 seconds and restore 50 Mana.</div>
+          <div class="code-deletion">Reduce Dragon’s Breath's Mana cost and cooldown by 50%, but also reduce its damage by 25%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timewarp.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Slowing Sands</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 5
+            </span>
+          </div>
+          <div>Place a sand vortex that greatly Slows enemies inside it. The longer it is active the more it Slows, up to 60% after 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_looper.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Temporal Loop</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 70
+            </span>
+          </div>
+          <div>Choose an enemy Hero. After 3 seconds, they will teleport back to the location where Temporal Loop was cast on them.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_poof.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bye Bye!</h5>
+          </div>
+          <div>Reduce the cast time of Hearthstone by 75%, and it is not interrupted by taking damage.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_herethere.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Here and There</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Activate to swap Chromie's position with her Sand Blast Echo.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timeblock.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Time Out</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to place Chromie in Stasis and gain Invulnerability for up to <span class="code-addition">5</span> <span class="code-deletion">7</span> seconds. Can be reactivated to end the effect early.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_aethercannon_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fast Forward</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>If Sand Blast travels at least <span class="code-addition">70%</span> <span class="code-deletion">75%</span> of its base distance and hits a Hero, its cooldown is reduced to 0.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_hyperdrivesreach.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Quantum Overdrive</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Activate to increase Spell Power by <span class="code-addition">25%</span> <span class="code-deletion">20%</span> for 10 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_aethercannon.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shifting Sands</h5>
+          </div>
+          <div>Hitting an enemy Hero with Sand Blast grants 8% Spell Power for 10 seconds, up to a maximum of 40%. The duration is refreshed whenever an enemy is damaged by Sand Blast.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timetrap.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Andorhal Anomaly</h5>
+          </div>
+          <div>Time Trap gains 2 charges, and when the cooldown finishes, Chromie gains all charges at once. Maximum 3 active Time Traps.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_aethercannon.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Piercing Sands</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Sand Blast will now hit all Heroes in its path. Additional hits do not grant <span class="code-deletion">bonus damage or </span> Quest progress.</div>
+          
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_timewarp.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pocket of Time</h5>
+          </div>
+          <div>Remove Slowing Sands Mana cost and increase the Slow from 60% to 80%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/chromie20180807/storm_ui_icon_chromie_looper.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Stuck in a Loop</h5>
+          </div>
+          <div>Temporal Loop teleports the target a second time after the first.</div>
+        </li>
+      </ul>
+      <hr>
+    
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
