@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-08-07T17:37:00.000Z</updated>
+  <updated>2018-08-22T18:03:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-08-22 Balance Update v 2.36.2</title>
+    <published>2018-08-22T18:03:00.000Z</published>
+    <updated>2018-08-22T18:03:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-08-22-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-08-22-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2018-08-22" target="_blank">Artanis</a>, 
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2018-08-22" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2018-08-22" target="_blank">Chromie</a>, 
+          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2018-08-22" target="_blank">Deckard</a>, 
+          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2018-08-22" target="_blank">Kel'Thuzad</a>, 
+          <a href="https://heroespatchnotes.com/hero/lili.html#patch2018-08-22" target="_blank">Li Li</a>, 
+          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2018-08-22" target="_blank">Lt. Morales</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2018-08-22" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2018-08-22" target="_blank">Sonya</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2018-08-22" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/tychus.html#patch2018-08-22" target="_blank">Tychus</a>, 
+          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2018-08-22" target="_blank">Whitemane</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-08-07 Patch Notes v 2.36.0</title>
     <published>2018-08-07T17:37:00.000Z</published>
@@ -287,38 +313,6 @@
           <a href="https://heroespatchnotes.com/hero/thrall.html#patch2018-05-09" target="_blank">Thrall</a>, 
           <a href="https://heroespatchnotes.com/hero/tracer.html#patch2018-05-09" target="_blank">Tracer</a>, 
           <a href="https://heroespatchnotes.com/hero/tychus.html#patch2018-05-09" target="_blank">Tychus</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-04-24 Patch Notes v 2.32.0</title>
-    <published>2018-04-24T16:15:00.000Z</published>
-    <updated>2018-04-24T16:15:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-04-24-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-04-24-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/deckard.png" alt="Deckard" height="60" width="60" /> Deckard</h3>
-      <h4>UI/Hotkey</h4>
-      <ul>
-        <li><p>Draft lobbies now use 2D portraits instead of animated 3D models to make Heroes "easier to differentiate from one another at a glance"</p>
-</li>
-      </ul>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Warhead Junction: Boss no longer burrows, launched Slime Pods explode "on impact and no longer spawn Podlings", Pods can now damage Structures</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-04-24" target="_blank">Blaze</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2018-04-24" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-04-24" target="_blank">Fenix</a>, 
-          <a href="https://heroespatchnotes.com/hero/genji.html#patch2018-04-24" target="_blank">Genji</a>, 
-          <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2018-04-24" target="_blank">Sylvanas</a>, 
-          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-04-24" target="_blank">Zagara</a>
         </li>
       </ul>
       ]]></content>
