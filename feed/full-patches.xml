@@ -108,7 +108,7 @@ balance changes and bug fixes.</p>
 <li>Cooldown reduced from 10 to 8 seconds</li>
 <li>Damage reduced from 212 to 180</li>
 </ul></li>
-<li><strong>Chains of Kel'thuzad (E)</strong>
+<li><strong>Chains of Kel'Thuzad (E)</strong>
 <ul>
 <li>Cooldown reduced from 12 to 10 seconds</li>
 <li>Can no longer be used on Structures</li>
@@ -171,14 +171,14 @@ balance changes and bug fixes.</p>
 <ul>
 <li>Chain Link (E)
 <ul>
-<li>Now only requires 1 Hero to be pulled by Chains of Kel'thuzad</li>
+<li>Now only requires 1 Hero to be pulled by Chains of Kel'Thuzad</li>
 <li>Cooldown reduction increased from 4 to 5 seconds</li>
 </ul></li>
 <li>Icy Grasp (W)
 <ul>
 <li>New functionality:
 <ul>
-<li>Increase the slow of Frost Nova by 10%. Each time Kel'thuzad deals damage to enemy Heroes that are slowed by Frost Nova, its duration is increased by .5 seconds</li>
+<li>Increase the slow of Frost Nova by 10%. Each time Kel'Thuzad deals damage to enemy Heroes that are slowed by Frost Nova, its duration is increased by .5 seconds</li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -199,7 +199,7 @@ balance changes and bug fixes.</p>
 </ul>
 
 <blockquote>
-  <p><em><strong>Developer Comment:</strong></em> These changes to Kel'thuzad are being made with two
+  <p><em><strong>Developer Comment:</strong></em> These changes to Kel'Thuzad are being made with two
   goals in mind. Our first goal, which is in line with many changes we make, is
   to improve talent diversity. We've moved Glacial Spike into his baseline first
   quest reward, which should both help his Level 7 talent choices as well as
@@ -209,7 +209,7 @@ balance changes and bug fixes.</p>
   Spike being his first quest reward, he can now combo enemy Heroes anywhere in
   the field, without needing to rely purely on having other enemy Heroes or
   structures nearby. In exchange for this, we've removed some of his burst
-  damage and the ability to use Chains of Kel'thuzad on structures. While
+  damage and the ability to use Chains of Kel'Thuzad on structures. While
   chaining enemy Heroes to structures made for some cool moments, it could be
   oppressive to play against, particularly on maps with large pushing objectives
   like the Punisher on Infernal Shrines.</p>
