@@ -7,7 +7,7 @@
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180807.png") 0 0 no-repeat; background-size: 44px 44.47826091px; height: 44px; width: 44px; }
+.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180904.png") 0 0 no-repeat; background-size: 44px 92.30434791px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20180612.png") 0 0 no-repeat; 
   background-size: 50.6px 814.0px; width: 44px; height: 44px;
@@ -113,6 +113,8 @@
 .hero-malthael{ background: url("//heroespatchnotes.com/images/hero/malthael.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-medivh, .medium-medivh{ background-position: 0px -95.652174px; }
 .hero-medivh{ background: url("//heroespatchnotes.com/images/hero/medivh.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
+.small-mephisto, .medium-mephisto{ background-position: 0px -47.826087px; }
+.hero-mephisto{ background: url("//heroespatchnotes.com/images/hero/mephisto.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-muradin, .medium-muradin{ background-position: 0px -143.478261px; }
 .hero-muradin{ background: url("//heroespatchnotes.com/images/hero/muradin.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-murky, .medium-murky{ background-position: 0px -191.304348px; }
@@ -276,6 +278,7 @@
 #malfurion{ background: url("//heroespatchnotes.com/images/hero/malfurion.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #malthael{ background: url("//heroespatchnotes.com/images/hero/malthael.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #medivh{ background: url("//heroespatchnotes.com/images/hero/medivh.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
+#mephisto{ background: url("//heroespatchnotes.com/images/hero/mephisto.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #muradin{ background: url("//heroespatchnotes.com/images/hero/muradin.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #murky{ background: url("//heroespatchnotes.com/images/hero/murky.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #nazeebo{ background: url("//heroespatchnotes.com/images/hero/nazeebo.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
@@ -321,7 +324,7 @@
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180807.png") 0 0 no-repeat; background-size: 60px 60.652173909px; height: 60px; width: 60px; }
+  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180904.png") 0 0 no-repeat; background-size: 60px 125.869565209px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 1110.0px; width: 60px; height: 60px; 
   }
@@ -374,6 +377,7 @@
   .medium-malfurion{ background-position: 0px -586.9565217px; }
   .medium-malthael{ background-position: 0px -456.5217391px; }
   .medium-medivh{ background-position: 0px -130.4347826px; }
+  .medium-mephisto{ background-position: 0px -65.2173913px; }
   .medium-muradin{ background-position: 0px -195.6521739px; }
   .medium-murky{ background-position: 0px -260.8695652px; }
   .medium-nazeebo{ background-position: 0px -326.0869565px; }
