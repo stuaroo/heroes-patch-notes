@@ -154,8 +154,25 @@ to reunite the Prime Evils and enslave humanity.</p>
 <li><strong>Life-Binder (R)</strong>
 <ul>
 <li>Heal over Time base Heal amount reduced from 75 to 60</li>
+<li>Lifebinder is now affected by healing reduction and amplification effects (Mortal Strike, Biotic Grenade, etc.)
+<ul>
+<li><strong>NOTE:</strong> This has been active in the live client for a few patches, but was not clearly documented.</li>
+</ul></li>
 </ul></li>
 </ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We've seen amazing results since adding a front-
+  loaded heal-over-time to Lifebinder in the Warchrome Wastes patch. In fact,
+  this addition has brought Lifebinder's win-rate up to be neck-and-neck and the
+  popular Cleansing Flame Heroic. However, after adding this, we noticed some
+  inconsistencies with how the ability functioned compared to other healing
+  abilities in the game. While we think that ‘setting' a Hero's Health to a
+  given percent was cool and unique, at its core it was still using a heal
+  effect that was being uniquely handled to ignore Mortal Strike/Amplification
+  effects. At the end of the day we decided to unify this heal and have the end
+  effect take into account any of these debuffs/buffs.</p>
+</blockquote>
 
 <p><a href="#heroes">Return</a></p>
 
@@ -200,9 +217,9 @@ to reunite the Prime Evils and enslave humanity.</p>
 <li>Armor reduction decreased from 25 to 15</li>
 <li>Range increased from 5.5 to 6</li>
 </ul></li>
-<li><strong>Shadowstalk (R)</strong>
+<li><strong>Shadowstalk (R)</strong> <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1037017058305662977" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
 <ul>
-<li>Cooldown increased from 60 to 80 seconds</li>
+<li>Cooldown increased from <span class="text-warning">20</span> <s>60</s> to 80 seconds</li>
 <li>New functionality:
 <ul>
 <li>Grant Stealth to all Allied Heroes and heal them for 400 Health over 10 seconds.</li>
@@ -215,16 +232,17 @@ to reunite the Prime Evils and enslave humanity.</p>
 <ul>
 <li><strong>Level 1</strong>
 <ul>
-<li>Moonlit Arrows (Q)
+<li>Moonlit Arrows (Q) <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1037017058305662977" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
 <ul>
 <li>Moved from Level 4</li>
+<li><span class="text-warning">Cooldown reduction for Light of Elune decreased from 0.75 to 0.25 per Basic Attack</span></li>
 </ul></li>
-<li>Celestial Attunement (Q)
+<li>Celestial Attunement (Q) <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1037017058305662977" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
 <ul>
 <li>Moved from Level 4</li>
 <li>New functionality:
 <ul>
-<li>Light of Elune now removes all Stuns and Slows from its target</li>
+<li>Light of Elune now removes all Stuns<span class="text-warning">, Silences,</span> and Slows from its target</li>
 </ul></li>
 </ul></li>
 <li>Kaldorei Resistance (Q)
@@ -348,11 +366,12 @@ to reunite the Prime Evils and enslave humanity.</p>
 <li>Increase Shadowstalk's heal by 50% for allies who are under 50% of their Maximum Health</li>
 </ul></li>
 </ul></li>
-<li>Shooting Star (Passive)
+<li>Shooting Star (Passive) <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1037017058305662977" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
 <ul>
 <li>Attacks needed reduced from 10 to 8</li>
 <li>No longer requires Heroic targets to gain stacks</li>
 <li>No longer only targets Heroic units (but does prefer them)</li>
+<li><span class="text-warning">Bonus Basic Attack range decreased from 1.1 to 1</span></li>
 </ul></li>
 </ul></li>
 </ul>
