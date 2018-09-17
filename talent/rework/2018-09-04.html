@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Tyrande from 2018-09-04.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2018-09-04.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2018-09-04.html" />
+    <meta property="og:title" content="2018-09-04 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Tyrande." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483417748/hero/tyrande.jpg" />
+        <title>2018-09-04 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=bV4TB11zAm" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2018-09-04 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Tyrande" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/tyrande.html">
+              <div class="hero-img hero-tyrande img-rounded"></div>
+              <div>Tyrande</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While we enjoy the flexibility of Tyrande's kit, she
+  has struggled to find a home in the current meta. As we started looking at
+  broadening our Hero roles, we felt like we had an opportunity to make some
+  simple yet very substantial changes to our Night Elf Priestess. This rework
+  pulls her slightly away from her hybrid status, reducing her damage output
+  potential while introducing a lot more healing potential. While she keeps the
+  vast majority of her older talents, they have been updated and shuffled to
+  better coincide with her changes. We have enjoyed playing her internally and
+  are excited to see what our players can do with her!</p>
+</blockquote>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 stats-label">Stats</div>
+            <div class="col-xs-12 col-sm-10 code-addition stats"><ul>
+<li>Basic Attack damage reduced from 82 to 55</li>
+<li>Basic Attack range increased from 5.5 to 6</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lightofelune.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Light of Elune</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 10 
+<span class="code-deletion">30</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 15
+<span class="code-deletion">11</span>            </span>
+          </div>
+          <div>Heal target <span class="code-addition">allied Hero for 275</span> <span class="code-deletion">ally for 270</span> (+4% per level) Health.   <span class="code-addition">Stores up to 2 charges. Light of Elune's cooldown replenishes all charges at the same time.</span>  Passive: Basic Attacks lower the cooldown of this Ability by <span class="code-addition">1.5</span> <span class="code-deletion">2</span> seconds. <span class="code-addition">Passive: Damaging Heroes with Abilities lowers the cooldown of this Ability by 1.5 seconds.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_sentinel.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sentinel</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 50 
+<span class="code-deletion">70</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 15
+<span class="code-deletion">18</span>            </span>
+          </div>
+          <div>Send an Owl across the battleground revealing its path, dealing <span class="code-addition">120</span> <span class="code-deletion">165</span> (+4% per level) damage to the first Hero hit, and revealing them for 5 seconds.</div>
+          <div class="code-deletion">Repeatable Quest:  Every 8 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lunarflare.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lunar Flare</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 60 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>After 0.75 seconds, deal <span class="code-addition">150</span> <span class="code-deletion">195</span> (+4% per level) damage and Stun enemies in the target area for 0.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_shadowstalk.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shadowstalk</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 75 
+<span class="code-deletion">40</span>            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 80
+<span class="code-deletion">20</span>            </span>
+          </div>
+          <div><span class="code-addition">Grant all allied Heroes Stealth for 10 seconds and heal them for 400 (+4% per level) Health over 10 seconds.</span> Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.</div>
+          <div class="code-deletion">Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_starfall.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Starfall</h5>          </div>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 80
+            </span>
+          </div>
+          <div>Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 6 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_huntersmark.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hunter's Mark</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Reveal a non-Structure enemy and reduce their Armor by <span class="code-addition">15</span> <span class="code-deletion">25</span> for 4 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lightofelune_b.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Celestial Attunement</h5>
+<span class="label label-info">Moved from level 4</span>          </div>
+          <div>Light of Elune removes Stuns, Silences, <span class="code-addition">and Slows</span> from its target. <span class="code-deletion">When a Stun or Silence is removed this way, Light of Elune may be used for free within 4 seconds. This free cast cannot benefit from Celestial Attunement.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lightofelune_a.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Kaldorei Resistance</h5>
+<span class="label label-info">Moved from level 4</span>          </div>
+          <div>Light of Elune grants the target 15 Spell Armor for <span class="code-addition">3</span> <span class="code-deletion">6</span> seconds. This effect stacks up to <span class="code-addition">2</span> <span class="code-deletion">3</span> times.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lightofelune.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Moonlit Arrows</h5>
+<span class="label label-info">Moved from level 4</span>          </div>
+          <div>Basic Attacks decrease the cooldown of Light of Elune by an additional <span class="code-addition">0.25</span> <span class="code-deletion">0.75</span> seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lunarflare.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Lunar Blaze</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div><span class="code-addition">Increase Lunar Flare's range by 50%.</span>  <span class="code-deletion">Repeatable</span> Quest: Hitting a Hero with Lunar Flare increases its damage by <span class="code-addition">5%, up to 100%</span> <span class="code-deletion">3%</span>.  <span class="code-deletion">Reward: After hitting 10 Heroes, Lunar Flare no longer has a Mana cost.  Reward: After hitting 20 Heroes, increase the range of Lunar Flare by 40%.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_sentinel.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ranger</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 30</span>
+          </div>
+          <div><span class="code-addition">Activate to make the next Sentinel pierce through all Heroes hit.</span>  Passive: Sentinel's width is increased by 25% and deals up to <span class="code-addition">150%</span> <span class="code-deletion">75%</span> more damage based on distance traveled.  <span class="code-deletion">Repeatable Quest: Hitting enemy Heroes with Sentinel increases the maximum damage bonus by 3%.</span></div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_trueshotaura.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Trueshot Aura</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div class="code-addition">Activate to reset the cooldown of Hunter's Mark and grant 20% increased Basic Attack damage to nearby allied Heroes for 5 seconds.  Passive: Basic Attack damage increased by 20%.</div>
+          <div class="code-deletion">Passively grant 10% increased Attack Damage to nearby allied Heroes. Activate to double this bonus for 5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_talent_autoattack_heal.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Elune's Chosen</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 30
+            </span>
+          </div>
+          <div>Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for <span class="code-addition">10</span> <span class="code-deletion">5</span> seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lightofelune.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Everlasting Light</h5>
+          </div>
+          <div>If Light of Elune's second charge is cast on a different target from the first, it heals for 40% more.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_huntersmark.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mark of Mending</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div>Tyrande's Basic Attacks heal her for 2% of her maximum Health. Basic Attacks against targets with Hunter's Mark heal the attacker for 2% of their maximum Health.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_shadowstalk.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shadowstalk</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 80
+<span class="code-deletion">20</span>            </span>
+          </div>
+          <div><span class="code-addition">Grant all allied Heroes Stealth for 10 seconds and heal them for 400 (+4% per level) Health over 10 seconds.</span> Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.</div>
+          <div class="code-deletion">Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_starfall.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Starfall</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 80
+            </span>
+          </div>
+          <div>Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 6 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_sentinel_a.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Harsh Moonlight</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Sentinel Slows the <span class="code-addition">first</span> target hit by <span class="code-addition">40%</span> <span class="code-deletion">25%</span> and reduces their damage dealt by <span class="code-addition">40%</span> <span class="code-deletion">25%</span> for 4 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lightofelune.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Quickening Blessing</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div><span class="code-addition">Gain 10% Movement Speed.</span> Light of Elune increases the target's Movement Speed by <span class="code-addition">20%</span> <span class="code-deletion">30%</span> for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_huntersmark.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ranger's Mark</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div>Basic Attacks reduce the cooldown of Hunter's Mark by 1 second. <span class="code-addition">Basic Attacks against marked targets increase the duration of Hunter's Mark by 0.5 seconds.</span></div>
+          <div class="code-deletion">Repeatable Quest: Every 50 Basic Attacks against enemy Heroes increase the duration of Hunter's Mark by 1 second.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Darnassian Archery</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>Basic Attacks against enemy Heroes grant a stacking <span class="code-addition">10%</span> <span class="code-deletion">5%</span> increased Attack Damage bonus for <span class="code-addition">8</span> <span class="code-deletion">4</span> seconds. This bonus is lost when Basic Attacking non-Heroes.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_sentinel.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Empower</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Reduce Sentinel's cooldown by <span class="code-addition">3</span> <span class="code-deletion">2</span> seconds. <span class="code-addition">The first Hero hit by Sentinel takes bonus damage equal to 7% of their maximum Health.</span>  <span class="code-deletion">Reduce Sentinel's cooldown by 2 seconds. Every time it hits a Hero, reduce its cooldown by an additional 4 seconds.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_huntersmark.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Huntress' Fury</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div>Increase the cast range <span class="code-addition">and duration</span> of Hunter's Mark by <span class="code-addition">25%</span> <span class="code-deletion">50%</span>. Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby <span class="code-addition">enemies</span> <span class="code-deletion">Heroes and Mercenaries</span>.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_lightofelune.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Overflowing Light</h5>
+          </div>
+          <div>While Tyrande is above 60% Health, Light of Elune's healing is increased by 30%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_starfall.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Celestial Wrath</h5>
+          </div>
+          <div>Starfall applies Hunter's Mark to enemy Heroes while inside of its area of effect.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_tyrande_shadowstalk.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Eyes of the Huntress</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Shadowstalk reveals all enemy Heroes for 2 seconds and heals allies below 50% Health for 50% more.</div>
+          <div class="code-deletion">After casting Shadowstalk, reveal all enemy Heroes for 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_talent_autoattack_slow.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Iceblade Arrows</h5>
+          </div>
+          <div>Increase Attack Speed by 25%. Basic Attacks against enemy Heroes reduce their damage dealt by 8% for 2 seconds. This effect stacks up to 5 times.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/tyrande20180904/storm_ui_icon_talent_autoattack_speed.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shooting Star</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Increase Basic Attack range by <span class="code-addition">1</span> <span class="code-deletion">1.1</span>. Every <span class="code-addition">8th</span> <span class="code-deletion">10th</span> Basic Attack casts a free Lunar Flare at a random <span class="code-addition">enemy</span> <span class="code-deletion">Hero</span> near Tyrande's position. <span class="code-addition">This prefers Heroic targets.</span></div>
+        </li>
+      </ul>
+      <hr>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
