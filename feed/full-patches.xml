@@ -16,8 +16,8 @@
 
 <div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22484230" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22484230" target="_blank">Official Patch Notes</a> <small>v 2.37.1</small></div>
 
-<p>We've just released a new Heroes of the Storm patch to apply a number of
-balance changes and bug fixes.</p>
+<p>We're about to release a new Heroes of the Storm patch to apply a number of
+balance changes and bug fixes. Read on for details.</p>
 
 <hr />
 
@@ -689,6 +689,30 @@ your experiences.</p>
 <li>The Fall of Kings Questline is now available for players. The hunt is on for the generals of the Raven Lord!</li>
 <li>Loot Chests have been replaced with Seasonal Loot chests for the duration of this event.</li>
 </ul>
+
+<p><strong>Ranked Play</strong></p>
+
+<ul>
+<li><strong>Team League</strong>
+<ul>
+<li>Team League now supports all party sizes, including solo players.
+<ul>
+<li>All solo players will need to choose which League to play for the first time after the patch.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Heroes of the Storm is primarily a team-based
+  experience and, with this change, we're hoping to make it easier to have that
+  experience without putting restrictions on party size. In our current system,
+  competitive solo players do not have many opportunities to find groups of
+  players to play with in a ranked queue. To give these players more options for
+  their competitive experience, we have removed all party size queue
+  restrictions from Team League. Our hope is that this leads to a more robust
+  Team League experience and that solo players find more regular groups to play
+  with.</p>
+</blockquote>
 
 <hr />
 
