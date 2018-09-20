@@ -212,6 +212,7 @@ balance changes and bug fixes. Read on for details.</p>
 <li><strong>Consume Souls (R)</strong>
 <ul>
 <li>Slow amount reduced from 40 to 25%</li>
+<li>Consume Souls will now go on a full cooldown if interrupted by any source (including friendly.)</li>
 </ul></li>
 <li><strong>Durance of Hate (R)</strong>
 <ul>
