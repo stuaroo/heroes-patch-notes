@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A diff of changes for Hero reworks in Heroes of the Storm. Brightwing, Kerrigan from 2018-09-25.">
+    <link rel="canonical" href="https://heroespatchnotes.com/talent/rework/2018-09-25.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@heroespatches" />
+    <meta property="og:url" content="https://heroespatchnotes.com/talent/rework/2018-09-25.html" />
+    <meta property="og:title" content="2018-09-25 Rework Diff - Heroes Patch Notes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Overview of talent and ability changes for major hero reworks, including: Brightwing, Kerrigan." />
+    <meta property="og:image" content="https://res.cloudinary.com/heroespatches/image/upload/v1483416462/hero/brightwing.jpg" />
+        <title>2018-09-25 Rework Diffs</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-XYCjB+hFAjSbgf9yKUgbysEjaVLOXhCgATTEBpCqT1R3jvG5LGRAK5ZIyRbH5vpX" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+    <link href="//heroespatchnotes.com/css/main.min.css?v=bV4TB11zAm" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=jw6RXk3E8g">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=jw6RXk3E8g" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=jw6RXk3E8g" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=jw6RXk3E8g">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jw6RXk3E8g" color="#2c3e50">
+    <link rel="shortcut icon" href="/favicon.ico?v=jw6RXk3E8g">
+    <meta name="theme-color" content="#3498db">
+
+    <style>
+      h3 { margin-top: 10.5px; }
+      .table > tbody > tr > td.level { vertical-align: middle; text-align: center; }
+      .hero-img { margin-right: 5px; }
+      h2>a>div { display: inline-block; vertical-align: middle; }
+      h1, div.row>p { padding: 0 10px; }
+      h2>a { color: inherit; }
+      h2>a:hover { text-decoration: none; }
+
+      /* Image and overlay */
+      .abil-img-wrap { 
+        display: inline-block; 
+        position: relative; 
+        vertical-align: top; 
+        margin-right: 5px; 
+      }
+
+      .letter-overlay { 
+        position: absolute; 
+        width: 20px; 
+        height: 20px; 
+        line-height: 20px; 
+        bottom: 0; 
+        right: 0; 
+        border-radius: 5px; 
+        background: rgba(0, 0, 0, 0.5); 
+        text-align: center; 
+        font-size: 12px; 
+        font-weight: bold; 
+        color: #ffffff;
+      }
+      .active-overlay {
+        width: 40px;
+      }
+      .passive-overlay {
+        width: 45px;
+      }
+      li.flex-item>div.abil-attr>h5 {
+        margin-bottom: 3px;
+        font-size: 18px;
+      }
+      li.code-deletion-box>div.abil-img-wrap>img {
+        filter: grayscale(100%);
+      }
+
+      /* Line with centered text */
+      h3.line-with-text {
+          overflow: hidden;
+          text-align: center;
+      }
+      h3.line-with-text:before,
+      h3.line-with-text:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 1px;
+          position: relative;
+          vertical-align: middle;
+          width: 50%;
+      }
+      h3.line-with-text:before {
+          right: 0.5em;
+          margin-left: -50%;
+      }
+      h3.line-with-text:after {
+          left: 0.5em;
+          margin-right: -50%;
+      }
+      /* Flexbox */
+      .flex-container {
+        padding: 2px;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .flex-item {
+        border-radius: 5px;
+        padding: 5px 10px;
+        width: 200px;
+        /*height: 250px;*/
+        flex: 1 1 auto;
+        margin: 2px;
+      }
+      .flex-item>h5 { 
+        font-weight: bold; 
+      }
+
+      .flex-ability {
+        width: 250px;
+      }
+
+      li.example-box > h5 {
+        font-weight: normal;
+        display: inline-block;
+      }
+
+      .flex-item > div {
+        font-size: 14px;
+      }
+
+      @media (min-width: 768px) {
+        .heroic { 
+          width: 350px; 
+          flex: 0 1 auto;
+        }
+
+        .flex-grow-2 { flex: 2 1 auto; }
+        .flex-grow-3 { flex: 3 1 auto; }
+      }
+
+      @media (min-width: 1500px) {
+        .container { width: 1465px; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://heroespatchnotes.com">Heroes Patch Notes</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsed-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Patches <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/patch/summary.html">Patch Summary</a></li>
+                <li><a href="https://heroespatchnotes.com/patch/">Patch List</a></li>
+              </ul>
+            </li>
+            <li><a href="https://heroespatchnotes.com/#heroes">Heroes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Battlegrounds <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/#battlegrounds">Battleground List</a></li>
+                <li><a href="https://heroespatchnotes.com/battleground/rotation.html">Map Rotation</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Talents <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/talent/rework/">Rework Diffs</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/generic.html">Generic Talents</a></li>
+                <li><a href="https://heroespatchnotes.com/talent/removed.html">Removed Talents</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article class="container">
+      <div class="row">
+        <h1>2018-09-25 Rework Diffs</h1>
+        <p>Looking for an overview of changes from a recent hero rework?  You've found the place.  Green stuff is new, red has been removed.  Refer to the Legend below for specifics on box and line highlights.</p>
+      </div>
+      <hr>
+      <h3>Legend</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box example-box">
+          <h5>New</h5>
+          <div>This talent is all shiny and new, and completely green in color</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Changed</h5>
+          <span class="label label-primary">Updated</span>
+          <div class="code-addition">The green highlights indicate the new description</div>
+          <div class="code-deletion">While the red highlights show what the description used to say</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Moved</h5>
+          <span class="label label-info">Moved from level X</span>
+          <div class="code-addition">This talent has been moved levels; it will have a blue label describing the move.</div>
+          <div class="code-deletion">Will generally be followed by a red section listing the old description too</div>
+        </li>
+        <li class="flex-item regular-box example-box">
+          <h5>Unchanged</h5>
+          <div>These white boxes are exactly as they were before; nothing changed here</div>
+        </li>
+        <li class="flex-item code-deletion-box example-box">
+          <h5>Removed</h5>
+          <div>This removed talent is entirely red and sad because it no longer exists for this hero :(</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Brightwing" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/brightwing.html">
+              <div class="hero-img hero-brightwing img-rounded"></div>
+              <div>Brightwing</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Late last year we decided that we wanted to add a fun
+  mini-game to Brightwing utilizing her Arcane Flare as the focal point. As it
+  often happens, while making the initial changes we started diving in deeper
+  and deeper. Nearly a year later, we are excited to showcase a fully updated
+  talent tree alongside some fundamental game-play changes to our resident
+  Faerie Dragon. With a baseline AoE cleanse-type effect and added healing
+  potential to her Arcane Flare, Brightwing should bring some new major play-
+  making abilities to her team.</p>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_arcaneflare.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Arcane Flare</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 35 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 6
+            </span>
+          </div>
+          <div>Shoot a flare dealing <span class="code-addition">75</span> <span class="code-deletion">87</span> (+4% per level) damage to enemies hit, and an additional <span class="code-addition">105</span> <span class="code-deletion">173</span> (+4% per level) damage to enemies in the center. <span class="code-addition">If a Hero is hit by the center, Soothing Mist's passive healing instantly activates.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_polymorph.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Polymorph</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 50 
+            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 12
+<span class="code-deletion">10</span>            </span>
+          </div>
+          <div>Polymorph a target for <span class="code-addition">1.5</span> <span class="code-deletion">1.25</span> seconds, Slowing their Movement Speed by 25% and Silencing them. Targets are not able to attack while Polymorphed.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pixie Dust</h5>          </div>
+          <div>
+            <span>Mana: 60 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Increase target's Movement Speed by 20%, and grant them 25 Spell Armor for 3 seconds, reducing Spell damage taken by 25%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_blinkheal.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blink Heal</h5>
+         </div>
+          <div>
+            <span>Mana: 40 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 9
+            </span>
+          </div>
+          <div>Teleport to a nearby ally. When teleporting to a Hero, heal them for 200 (+4% per level).  Stores up to 2 charges.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_emeraldwind.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Emerald Wind</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 90 
+            </span>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 50
+<span class="code-deletion">60</span>            </span>
+          </div>
+          <div>After 0.5 seconds, create an expanding nova of wind, dealing <span class="code-addition">225</span> <span class="code-deletion">303</span> (+4% per level) damage and pushing enemies away. <span class="code-deletion">Passive: Increases the healing of Soothing Mist by 5%.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_soothingmist.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Soothing Mist</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 120
+<span class="code-deletion">4</span>            </span>
+          </div>
+          <div><span class="code-addition">Activate to remove all Stun, Root, Slow, and Silence effects from nearby allied Heroes.</span>  Passive: Brightwing heals nearby allied Heroes for <span class="code-addition">100</span> <span class="code-deletion">112</span> (+4% per level) every 4 seconds</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_hypershift.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Phase Shift</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 60
+<span class="code-deletion">55</span>            </span>
+          </div>
+          <div>After 2 seconds, teleport to an allied Hero <span class="code-addition">and heal them for 20% of their maximum Health.</span></div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_polymorph.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Greater Polymorph</h5>
+<span class="label label-info">Moved from level 16</span>          </div>
+          <div class="code-addition">Increase Polymorph's range by 30%. Hero Takedowns refresh the cooldown of Polymorph.</div>
+          <div class="code-deletion">Increases the duration of Polymorph by 0.75 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_hypershift.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hyper Shift</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Increase Phase Shift's healing by an additional 10% of the target's maximum Health. Nearby enemy Minion deaths reduce Phase Shift's cooldown by 2 seconds.</div>
+          <div class="code-deletion">Each allied Hero healed by Soothing Mist reduces the cooldown of Phase Shift by 3 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_talent_bribe.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pixie Charm</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Activate to consume 20 stacks of Bribe to instantly defeat an uncaptured Mercenary.  <span class="code-addition">Passive: Gain 1 stack of Bribe when a nearby enemy Minion dies, and 5 stacks when hitting an enemy Hero with Arcane Flare's center.</span> <span class="code-deletion">Each time Brightwing heals an Allied Hero with Soothing Mist, she gains a stack of Bribe.</span> Maximum 80 stacks.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_arcaneflare.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Dream Shot</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div>Increase Arcane Flare's range by 50%. Hitting a Hero with Arcane Flare's center reduces its cooldown to <span class="code-addition">2</span> <span class="code-deletion">1</span> seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_talent_autoattack_cooldown.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Magic Spit</h5>
+          </div>
+          <div>Increase Basic Attack range by 1.1. Basic Attacks against Heroes reduce the cooldown of Soothing Mist by 5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_polymorph.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Unstable Anomaly</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Increase Polymorph's Slow by 15%. Upon expiration, Polymorph deals damage to nearby enemy Heroes equal to 2% of their maximum Health.</div>
+          <div class="code-deletion">When Polymorph ends, deal 108 (+4% per level) damage to the target and all nearby enemies.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Manic Pixie</h5>
+          </div>
+          <div>When Soothing Mist heals an ally with Pixie Dust on them, they heal for an additional 104 (+4% per level) over 4 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_soothingmist.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Critical Mist</h5>
+          </div>
+          <div>If Soothing Mist removes a disabling effect from an ally, heal them for 200 (+4% per level).</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_hypershift.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Peekaboo!</h5>
+<span class="label label-info">Moved from level 4</span>          </div>
+          <div>Phase Shifting to an ally <span class="code-addition">grants both Brightwing and her target a 335 (+4% per level) point Shield</span> <span class="code-deletion">casts a free Pixie Dust on them</span> and reveals a large area around them <span class="code-addition">for 5</span> <span class="code-deletion"> and all enemies in it for 6</span> seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_arcaneflare.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sticky Flare</h5>
+<span class="label label-info">Moved from level 13</span>          </div>
+          <div>Enemy <span class="code-addition">Heroes</span> hit by Arcane Flare have their Movement Speed Slowed by <span class="code-addition">20% for 3</span> <span class="code-deletion">40% for 2</span> seconds. <span class="code-addition">Increase the Slow to 40% if they are hit by the center portion.</span></div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_talent_cleanse.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Cleanse</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_soothingmist.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mistified</h5>
+          </div>
+          <div>Reduces the cooldown of Soothing Mist by 0.5 seconds every time Brightwing casts a Basic Ability.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_hypershift.png">
+            <span class="letter-overlay">Z</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Phase Shield</h5>
+          </div>
+          <div>After finishing the teleport, both Brightwing and her target gain a 335 (+4% per level) point Shield for 10 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_blinkheal.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blink Heal</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 9
+            </span>
+          </div>
+          <div>Teleport to a nearby ally. When teleporting to a Hero, heal them for 200 (+4% per level).  Stores up to 2 charges.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_emeraldwind.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Emerald Wind</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right code-addition">Cooldown: 50
+<span class="code-deletion">60</span>            </span>
+          </div>
+          <div>After 0.5 seconds, create an expanding nova of wind, dealing <span class="code-addition">225</span> <span class="code-deletion">303</span> (+4% per level) damage and pushing enemies away. <span class="code-deletion">Passive: Increases the healing of Soothing Mist by 5%.</span></div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pixie Boost</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Pixie Dust gives <span class="code-addition">40%</span> <span class="code-deletion">50%</span> bonus Movement Speed, decaying to 20% over <span class="code-addition">3</span> <span class="code-deletion">1.5</span> seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust_b.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Pixie Power</h5>
+          </div>
+          <div>Reduce the cooldown of Pixie Dust by 3 seconds and increase the Spell Armor granted by 25.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust_a.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Safety Dust</h5>
+          </div>
+          <div>Increase Pixie Dust's duration by 1 second. Brightwing heals allies with an active Pixie Dust for 25% more.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_talent_iceblock.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ice Block</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust_var1.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Shield Dust</h5>
+          </div>
+          <div>Pixie Dust grants 50 Physical Armor for 3 seconds, reducing Physical damage taken by 50%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_polymorph.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Critterize</h5>
+          </div>
+          <div>While Polymorphed, the target's Armor is reduced by 25, increasing the damage they take by 25%.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_arcaneflare.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hush!</h5>
+          </div>
+          <div>Enemy Heroes hit by the center of Arcane Flare are Silenced for 1 second and deal 25% less damage for 3 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_stasis.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Phase Out</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 20
+            </span>
+          </div>
+          <div>Activate to place Brightwing in Stasis for 0.75 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bouncy Dust</h5>
+          </div>
+          <div>Pixie Dust bounces to another nearby ally upon impact.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_talent_hardenedfocus.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Hardened Focus</h5>
+          </div>
+          <div>While above 80% life, your Basic Ability cooldowns regenerate 50% faster.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_pixiedust.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Faerie Protector</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Activate to apply Pixie Dust to all nearby Heroes.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_emeraldwind.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Intensive Winds</h5>
+          </div>
+          <div>Permanently reduce Emerald Wind's cooldown to 5 seconds and increase its Mana cost to 200.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-ability flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_blinkheal.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Invisible Friends</h5>
+          </div>
+          <div>Blink Heal grants Stealth to Brightwing. If Blink Heal is cast on a Hero, they are also granted Stealth. While Stealthed by Invisible Friends, Heroes heal for 20 (+4% per level) Health per second and are Unrevealable for the first 0.5 seconds  Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_hypershift.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Speedy Dragon</h5>
+          </div>
+          <div>Permanently gain 20% Movement Speed.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_emeraldwind.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Continuous Winds</h5>
+          </div>
+          <div>Emerald Wind releases two additional novas that deal 25% damage. Also further increases the healing bonus of Soothing Mist by 7%.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_blinkheal.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Double Wyrmhole</h5>
+          </div>
+          <div>Blink Heal can be cast a second time on a different target within 2 seconds without consuming a charge.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_brightwing_soothingmist.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Revitalizing Mist</h5>
+          </div>
+          <div>Healing another Hero with Soothing Mist increases their healing received from Soothing Mist by 25% for 6 seconds. Stacks 3 times.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-ability">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/brightwing20180925/storm_ui_icon_talent_stormshield.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Storm Shield</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 45
+            </span>
+          </div>
+          <div>Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.</div>
+        </li>
+      </ul>
+      <hr>
+      <div id="Kerrigan" class="row">
+        <div class="col-xs-12">
+          <h2>
+            <a href="../../hero/kerrigan.html">
+              <div class="hero-img hero-kerrigan img-rounded"></div>
+              <div>Kerrigan</div>
+            </a>
+          </h2>
+          <blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Kerrigan is receiving an update to increase the
+  tactical depth of using her abilities and increase the impact that her Talents
+  have on her playstyle. We've reduced the range on Ravage but added a second
+  charge so that smart Kerrigan players can use it to maneuver on the
+  battlefield, as well as utilize a lot of her Talents to get the most out of
+  the ability. We've added a secondary explosion to Primal Grasp so that
+  Kerrigan will want to continue to worry about her positioning after her
+  initial engagement occurs, as well as provide the opportunity for new Talent
+  interactions. We've also added a skillshot component to Ultralisk so that the
+  Heroic can feel like it has a big moment when it is first unleashed. Overall,
+  Kerrigan should play mostly the same, but have increased room for mastery and
+  playstyle specific builds.</p>
+</blockquote>
+
+        </div>
+      </div>
+
+      <h3>Abilities</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Ravage</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span class="code-addition">Mana: 20 
+<span class="code-deletion">40</span>            </span>
+            &nbsp;<span class="pull-right">Cooldown: 8
+            </span>
+          </div>
+          <div>Leap to a target, dealing <span class="code-addition">130</span> <span class="code-deletion">210</span> (+4% per level) damage. If the enemy dies within 1.5 seconds, <span class="code-addition">restore 1 charge and refund 20 Mana.</span> <span class="code-deletion">this cooldown is instantly reset</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_impalingblades.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Impaling Blades</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 75 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 12
+            </span>
+          </div>
+          <div>After 1.25 seconds, deal <span class="code-addition">180</span> <span class="code-deletion">261</span> (+4% per level) damage to enemies within the target area, stunning them for 1 second.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_primalgrasp.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Primal Grasp</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 60 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 10
+            </span>
+          </div>
+          <div>Pulls enemies within the target area towards Kerrigan, dealing <span class="code-addition">25</span> <span class="code-deletion">114</span> (+4% per level) damage. <span class="code-addition">After 2.5 seconds, an explosion occurs around Kerrigan, dealing 180 (+4% per level) damage to nearby enemies.</span></div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ultralisk.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Summon Ultralisk</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 80
+            </span>
+          </div>
+          <div><span class="code-addition">After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 250 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.</span>  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk. <span class="code-deletion">Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Lasts for 20 seconds.</span></div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_maelstrom.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Maelstrom</h5>          </div>
+          <div>
+            <span>Mana: 100 
+            </span>
+            &nbsp;<span class="pull-right">Cooldown: 90
+            </span>
+          </div>
+          <div>Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_assimilation.png">
+            <span class="letter-overlay active-overlay">Trait</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Assimilation</h5><span class="label label-primary">Updated</span>          </div>
+          <div>
+          </div>
+          <div>Gain <span class="code-addition">15%</span> <span class="code-deletion">10%</span> of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)</div>
+        </li>
+      </ul>
+      <hr>
+      <h3>Talents</h3>
+      <h3 class="line-with-text">1</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_assimilation.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Assimilation Mastery</h5>
+<span class="label label-info">Moved from level 7</span>          </div>
+          <div><span class="code-addition">Regeneration Globe healing grants 40 (+4% per level) points of Assimilation Shields per second while active.</span> <span class="code-deletion">Increases the duration of Assimilation by 100%.</span> While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 100%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_autoattack_aoe.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Fury of the Swarm</h5>
+<span class="label label-info">Moved from level 4</span>          </div>
+          <div class="code-addition">Gain 10% more Assimilation Shields from Basic Attacks. After casting Ravage, Kerrigan's next 2 Basic Attacks within 3 seconds to splash for 100% damage around the target.</div>
+          <div class="code-deletion">Kerrigan's Basic Attacks splash for 60% damage around the target.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Siphoning Impact</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Hitting an enemy Hero with Ravage grants 90 (+4% per level) points of Assimilation Shields.</div>
+          <div class="code-deletion">If the targeted enemy dies within 1.5 seconds, Kerrigan heals for 10% of her maximum Health.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_block.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Block</h5>
+          </div>
+          <div>Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">4</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_impalingblades.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Kinetic Fulmination</h5>
+          </div>
+          <div>Damaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 15%, up to 150%.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_primalgrasp.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Psionic Pulse</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Primal Grasp explodes a second time 2.5 seconds after its first explosion.</div>
+          <div class="code-deletion">After casting Primal Grasp, deal 36 (+4% per level) damage per second to nearby enemies. Lasts 5 seconds.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Sharpened Blades</h5>
+<span class="label label-info">Moved from level 1</span>          </div>
+          <div class="code-addition">Quest: Minions and Heroes that die within 1.5 seconds of being hit by Ravage increase its damage up to a maximum of 50.  Minions grant 0.5 increased damage and Heroes grant 5 increased damage.  Reward: After reaching a 50 damage increase, Ravage gains 50 additional damage.</div>
+          <div class="code-deletion">Impaling Blades deals 25% more damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Clean Kill</h5>
+          </div>
+          <div>If Ravage kills the target, it restores 75% of its Mana cost and increases the damage of the next Ravage by 25%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_envenom.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Envenom</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to poison an enemy Hero, dealing 352 (+4% per level) damage over 10 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">7</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_autoattack_cooldown.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Bladed Momentum</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>Basic Attacks <span class="code-addition">against enemy Heroes</span> reduce the cooldown of Kerrigan's Basic Abilities by 0.6 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage_b.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Boundless Fury</h5>
+          </div>
+          <div>Hitting an enemy Hero with Ravage grants a charge of Ravage. Can only occur once every 10 seconds per Hero.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Queen of Blades</h5>
+          </div>
+          <div>Damaging a Hero with Primal Grasp reduces Ravage's cooldown by 4 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_impalingblades.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Blade Torrent</h5>
+          </div>
+          <div>Increases Impaling Blades' radius by 30%.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">10</h3>
+      <ul class="flex-container">
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_maelstrom.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Maelstrom</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 90
+            </span>
+          </div>
+          <div>Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.</div>
+        </li>
+        <li class="flex-item regular-box heroic">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ultralisk.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Summon Ultralisk</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 80
+            </span>
+          </div>
+          <div><span class="code-addition">After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 250 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.</span>  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk. <span class="code-deletion">Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Lasts for 20 seconds.</span></div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">13</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box flex-grow-3">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_chrysalis.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Chrysalis</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 90
+            </span>
+          </div>
+          <div>Activate to place Kerrigan in a Chrysalis with 550 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 5% of her maximum Health per second.  Enemies can destroy the Chrysalis to end its effects early.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_primalgrasp.png">
+            <span class="letter-overlay">E</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Psionic Barrier</h5>
+          </div>
+          <div>Each enemy Hero hit by Primal Grasp grants 15 Spell Armor for 4 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_assimilation.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Volatile Power</h5>
+          </div>
+          <div>Increase the amount of Assimilation Shields granted from damage dealt by 15%, but reduce duration of Assimilation by 3 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage_a.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Double Strike</h5>
+          </div>
+          <div>When a Basic Ability damages an enemy, Kerrigan's next Basic Attack hits for 75% bonus damage.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Eviscerate</h5>
+          </div>
+          <div>Increases Ravage's range by 40%.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_queensrush.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Queen's Rush</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 50
+            </span>
+          </div>
+          <div>Activate to gain 30% Movement Speed for 4 seconds. Queen's Rush is also applied for free on Takedowns.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">16</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ravage.png">
+            <span class="letter-overlay">Q</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Mounting Potency</h5>
+          </div>
+          <div>Ravage grants 5% Spell Power for 4 seconds, up to 40%.</div>
+        </li>
+        <li class="flex-item code-addition-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_impalingblades.png">
+            <span class="letter-overlay">W</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Painful Spikes</h5>
+          </div>
+          <div>Enemies hit by Impaling Blades take an additional 75 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds.</div>
+        </li>
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_abilitytalent_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Unbridled Energy</h5>
+          </div>
+          <div>Damaging a Hero with a Heroic Ability grants 30% Spell Power for 4 seconds.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_assimilation.png">
+            <span class="letter-overlay">D</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Aggressive Defense</h5>
+          </div>
+          <div>Increases base Shield amount gained from Assimilation by 100%.</div>
+        </li>
+        <li class="flex-item code-deletion-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_assimilation_a.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Essence for Essence</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 60
+            </span>
+          </div>
+          <div>Activate to deal 10% of target enemy Hero's Max Health and gain Assimilation Shields for twice that amount.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_overdrive.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Overdrive</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 25
+            </span>
+          </div>
+          <div>Activate to increase Spell Power by 25% and Mana costs by 40% for 5 seconds.</div>
+        </li>
+      </ul>
+      <h3 class="line-with-text">20</h3>
+      <ul class="flex-container">
+        <li class="flex-item code-addition-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_autoattack_damage.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Assimilation Blades</h5>
+          </div>
+          <div>Damaging an enemy increases Basic Attack damage by 2% for 5 seconds, up to 40%.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_maelstrom.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Omegastorm</h5>
+<span class="label label-primary">Updated</span>          </div>
+          <div class="code-addition">Maelstrom's duration is increased by 0.125 seconds every time it damages a Hero.</div>
+          <div class="code-deletion">Maelstrom size increased by 25%. Amount of Assimilation Shields generated by Maelstrom increased by 100%.</div>
+        </li>
+        <li class="flex-item regular-box flex-grow-2">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_boltofthestorm.png">
+            <span class="letter-overlay active-overlay">Active</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Psionic Shift</h5>
+          </div>
+          <div>
+            &nbsp;<span class="pull-right">Cooldown: 70
+            </span>
+          </div>
+          <div>Activate to teleport to a nearby location, dealing 50 (+4% per level) damage to nearby enemies. Generates 300% increased Assimilation Shields from the damage dealt.</div>
+        </li>
+        <li class="flex-item regular-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_kerrigan_ultralisk.png">
+            <span class="letter-overlay">R</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Torrasque</h5>
+          </div>
+          <div>The Ultralisk morphs into an egg when it dies. If the egg isn't killed within 4 seconds, a new Ultralisk is born.</div>
+        </li>
+        <li class="flex-item code-deletion-box">
+          <div class="abil-img-wrap pull-left">
+            <img class="img-rounded" src="../../images/rework/kerrigan20180925/storm_ui_icon_talent_autoattack_slow.png">
+            <span class="letter-overlay passive-overlay">Passive</span>
+          </div>
+          <div class="abil-attr clearfix">
+            <h5>Nexus Blades</h5>
+          </div>
+          <div>Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.</div>
+        </li>
+      </ul>
+      <hr>
+      
+    </article>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Useful Links</h5>
+            <ul>
+              <li><a href="https://heroespatchnotes.com">Home</a></li>
+              <li><a href="https://heroespatchnotes.com/feed/">Feeds</a></li>
+              <li><a href="https://heroespatchnotes.com/faq.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5 class="hidden-xs">Connect</h5>
+            <ul>
+              <li><a href="mailto:admin@heroespatchnotes.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+              <li><a href="//twitter.com/heroespatches" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="//www.reddit.com/user/AzizLighting" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5 class="hidden-xs">Legal</h5>
+            <p><small>All patch notes, images, and character info copyright &copy;2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.</small></p>
+            <p><small>This website is not affiliated with Blizzard Entertainment in any way</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-76608065-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
