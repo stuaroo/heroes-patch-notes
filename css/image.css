@@ -7,7 +7,7 @@
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180904.png") 0 0 no-repeat; background-size: 44px 140.13043491px; height: 44px; width: 44px; }
+.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20181016.png") 0 0 no-repeat; background-size: 44px 140.13043491px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20180612.png") 0 0 no-repeat; 
   background-size: 50.6px 814.0px; width: 44px; height: 44px;
@@ -327,7 +327,7 @@
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20180904.png") 0 0 no-repeat; background-size: 60px 191.086956509px; height: 60px; width: 60px; }
+  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20181016.png") 0 0 no-repeat; background-size: 60px 191.086956509px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 1110.0px; width: 60px; height: 60px; 
   }
