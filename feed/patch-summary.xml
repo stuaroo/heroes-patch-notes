@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-10-10T22:05:00.000Z</updated>
+  <updated>2018-10-16T19:09:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-10-16 Patch Notes v 2.39.0</title>
+    <published>2018-10-16T19:09:00.000Z</published>
+    <updated>2018-10-16T19:09:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-10-16-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-10-16-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/malganis.png" alt="Mal'Ganis" height="60" width="60" /> Mal'Ganis</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2018-10-16" target="_blank">Alexstrasza</a>, 
+          <a href="https://heroespatchnotes.com/hero/ana.html#patch2018-10-16" target="_blank">Ana</a>, 
+          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2018-10-16" target="_blank">Brightwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/lili.html#patch2018-10-16" target="_blank">Li Li</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2018-10-16" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-10-16" target="_blank">Tyrande</a>, 
+          <a href="https://heroespatchnotes.com/hero/uther.html#patch2018-10-16" target="_blank">Uther</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-10-10 Balance Update v 2.38.2</title>
     <published>2018-10-10T22:05:00.000Z</published>
@@ -259,41 +282,6 @@
       <ul>
         <li><p>Alterac Pass: Cavalry base damage and Health reduced by ~20%, damage and Health scaling increased ~20%, "no longer gain additional Armor for nearby Heroes"; Generals base Health reduced but scales over time</p>
 </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-06-27 Balance Update v 2.34.3</title>
-    <published>2018-06-27T17:40:00.000Z</published>
-    <updated>2018-06-27T17:40:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-06-27-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-06-27-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p>Ana: Doses can now be applied to Structures</p>
-</li>
-        <li><p>Baseline changes: Zul'jin gets Amani Rage as an Active ability</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/ana.html#patch2018-06-27" target="_blank">Ana</a>, 
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2018-06-27" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-06-27" target="_blank">Blaze</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2018-06-27" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2018-06-27" target="_blank">Deckard</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2018-06-27" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-06-27" target="_blank">Fenix</a>, 
-          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2018-06-27" target="_blank">Greymane</a>, 
-          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2018-06-27" target="_blank">Johanna</a>, 
-          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2018-06-27" target="_blank">Maiev</a>, 
-          <a href="https://heroespatchnotes.com/hero/nazeebo.html#patch2018-06-27" target="_blank">Nazeebo</a>, 
-          <a href="https://heroespatchnotes.com/hero/probius.html#patch2018-06-27" target="_blank">Probius</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2018-06-27" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2018-06-27" target="_blank">Tracer</a>, 
-          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-06-27" target="_blank">Yrel</a>, 
-          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-06-27" target="_blank">Zagara</a>, 
-          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-06-27" target="_blank">Zul'jin</a>
-        </li>
       </ul>
       ]]></content>
   </entry>
