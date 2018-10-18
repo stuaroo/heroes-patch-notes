@@ -306,6 +306,32 @@ champion... yet a demon does not die so easily.</p>
 ]]></content>
   </entry>
   <entry>
+    <title type="text">2018-10-11 Hotfix Patch</title>
+    <published>2018-10-18T05:33:00.000Z</published>
+    <updated>2018-10-18T05:33:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-10-11-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-10-11-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-october-11-2018">Heroes of the Storm Hotfix Patch Notes – October 11, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><small>v 2.38.3</small></div>
+
+<p>A patch was recently released for Heroes of the Storm in order to address a 
+live bug. No official notes exist.  The only <a href="https://www.reddit.com/r/heroesofthestorm/comments/9nfmx6/hotfix_just_went_out/e7m1jce/">developer-confirmed fix</a> is listed below:</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed an issue causing a crash that was introduced with yesterday's 38.2 release.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title type="text">2018-10-10 Balance Update</title>
     <published>2018-10-10T22:05:00.000Z</published>
     <updated>2018-10-10T22:05:00.000Z</updated>
@@ -9613,38 +9639,6 @@ balance changes and bug fixes.</p>
 and discuss this post with other players.</p>
 
 <p><a href="https://eu.battle.net/forums/en/heroes/index">Official Heroes Forums</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-06-15 Hotfix Patch</title>
-    <published>2018-06-15T22:59:00.000Z</published>
-    <updated>2018-06-15T22:59:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-06-15-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-06-15-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-notes-june-15-2018">Heroes of the Storm Hotfix Notes – June 15, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/21867179" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/21867179" target="_blank">Official Patch Notes</a> <small>v 2.34.2</small></div>
-
-<p>We've just released a new hotfix for Heroes of the Storm in order to apply a
-few bug fixes.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>E.T.C.:</strong> Mosh Pit's sound effects will no longer continue to play if casting is interrupted after learning the Tour Bus Talent.</li>
-<li><strong>Garrosh:</strong> Can no longer use Into the Fray to throw an allied Boss.</li>
-<li><strong>Ragnaros:</strong> Fixed an issue that could allow allied displacement Abilities to move Ragnaros while he was in Molten Core form.</li>
-</ul>
-
-<hr />
-
-<p>We also released a new patch on June 12, which included a new Hero, the Echoes
-of Alterac event, and much more! <strong><a href="https://heroesofthestorm.com/blog/21849060">You can review those patch notes by
-clicking here.</a></strong></p>
 ]]></content>
   </entry>
 </feed>

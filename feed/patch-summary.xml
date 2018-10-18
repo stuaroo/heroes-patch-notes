@@ -17,6 +17,10 @@
         <h3><img src="https://heroespatchnotes.com/images/hero/malganis.png" alt="Mal'Ganis" height="60" width="60" /> Mal'Ganis</h3>
       <h4>Heroes Affected</h4>
       <ul>
+        <li><p>Support Abilities: "the vast majority" no longer affect Minions or Mercenaries; exceptions that still work on Minions: Morales-Q, Rehgar-Q, Tyrael-W, Uther-W, Tassadar-Q</p>
+</li>
+        <li><p>Ana: "Healing Dart will now pierce targets at full Health"</p>
+</li>
         <li>
           <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2018-10-16" target="_blank">Alexstrasza</a>, 
           <a href="https://heroespatchnotes.com/hero/ana.html#patch2018-10-16" target="_blank">Ana</a>, 
