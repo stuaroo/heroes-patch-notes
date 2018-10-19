@@ -1208,7 +1208,7 @@ champion... yet a demon does not die so easily.</p>
 <li><strong>Gall:</strong> Fixed an issue where not all cases of Damage Reduction would work on Gall.</li>
 <li><strong>Gul'dan:</strong> Fixed an issue where Darkness Within's bonus Spell Power would not increase the healing of Drain Life.</li>
 <li><strong>Kharazim:</strong> Can now Radiant Dash to all allied units, including Mercenaries, Creep Tumors, and Toxic Nests.</li>
-<li><strong>Li-Ming:</strong> Fixed an issue where Tal'Rasha's Elements would grant bonus damage to Calamity after being twice in a row.</li>
+<li><strong>Li-Ming:</strong> Fixed an issue where Tal'Rasha's Elements would grant bonus damage to Calamity after being cast twice in a row.</li>
 <li><strong>Murky:</strong> Egg Hunt's Slime no longer benefits from Slime talents.</li>
 <li><strong>Sylvanas:</strong> Targets of Mind Control will now clear their move orders when affected by the ability.</li>
 <li><strong>Uther:</strong> Fixed an issue where Holy Fire's damage was affected by Spell Power.</li>
