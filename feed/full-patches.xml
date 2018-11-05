@@ -2,10 +2,271 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-10-31T20:20:00.000Z</updated>
+  <updated>2018-11-05T21:54:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-11-05 PTR Patch Notes</title>
+    <published>2018-11-05T21:54:00.000Z</published>
+    <updated>2018-11-05T21:54:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-11-05-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-11-05-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-november-5-2018">Heroes of the Storm PTR Patch Notes – November 5, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22636771" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22636771" target="_blank">Official Patch Notes</a> <small>v 2.40.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until November 12. As always, if you encounter
+any bugs during your PTR play sessions, please stop by the <a href="https://us.forums.blizzard.com/en/heroes/c/ptr-bug-report">PTR Bug Report
+forum</a> to let us
+know about your experiences.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li><strong>Call of the Nexus</strong>
+<ul>
+<li>Players who queue for Quickmatch games using roles that are in short supply will receive 50% bonus experience for being team players. Just look for the “Call of the Nexus” Bonus Experience indicator located above each Hero when viewing the Hero Selection screen.
+<ul>
+<li>NOTE: Call of the Nexus will not be active immediately active, but will be enabled a short time after this patch hits the live servers.</li>
+</ul></li>
+</ul></li>
+<li><strong>Boost</strong>
+<ul>
+<li>What was once called a Stimpack is now a Boost, and in addition to buffing your own experience and Gold gains at the end of a match, all players will receive 5% bump in experience for each player in their match who had an active Boost. That mean players can receive up to a 45% XP bonus if all 10 players in game have a Boost active!</li>
+<li>In addition to stacking Boost XP buffs, you'll now be able to retroactively Boost your Gold and XP gains at the end of a match by applying a Boost from the Score Screen.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="design">Design</h3>
+
+<ul>
+<li><strong>Channeled Healing Abilities</strong>
+<ul>
+<li>Alextrasza's Lifebinder (R) and Rehgar's Ancestral Healing (R) abilities are no longer cancelled under any conditions other than enemy abilities that remove the target from play (Devouring Maw, Gorge, Cocoon.)</li>
+</ul></li>
+<li><strong>Spell Power Modifiers</strong>
+<ul>
+<li>The following abilities and talents have been updated to have any percentage-based spell power modifiers stack <em>additively</em> when calculating damage: (This is the default behavior for all other abilities and talents unless otherwise stated in the tooltip)
+<ul>
+<li>Zul'jin's Buzzsaw (R) talent</li>
+<li>Hanzo's Dragonstrike (R) center damage effect</li>
+<li>Gul'dan's Rampant Hellfire (Q) talent</li>
+</ul></li>
+<li>The following abilities have had their tooltips updated to reflect that percentage-based spell power modifiers will stack <em>multiplicatively</em> when calculating damage:
+<ul>
+<li>Kael'thas' Phoenix (R) ability</li>
+<li>Nazeebo's Vile Infection (Passive) talent</li>
+<li>Li Li's Lightning Serpent (W) talent</li>
+<li>Li-Ming's Arcane Orbit (W) talent</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<ul>
+<li><strong>Dragon Shire:</strong>
+<ul>
+<li>Dragon Shire has received updated Battleground art (including an updated Dragon Knight)</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-hero-orphea-assassin">New Hero: Orphea (Assassin)</h3>
+
+<p>Rejecting the dark power her father had begun to consort with, Orphea tried to
+run away from the Raven Lord's influence. But after witnessing King's Crest
+fall to his machinations, she was convinced she needed to stand and fight. She
+now vows to protect the innocent – as a Hero of the Nexus.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Overflowing Chaos (Trait)</strong>
+<ul>
+<li>Hitting an enemy Hero with a Basic Ability grants 1 Chaos. Chaos can stack up to 3 times.</li>
+<li>While Orphea has Chaos, her Basic Attacks against Heroes consumes all Chaos, dealing 50% increased damage per stack, and healing for 100% of the damage dealt.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Shadow Waltz (Q)</strong>
+<ul>
+<li>After 0.5 seconds, deal 150 damage to enemies in a line.</li>
+<li>Hitting a Hero with Shadow Waltz sets its cooldown to 2 seconds and causes Orphea to dash a short distance upon moving.</li>
+</ul></li>
+<li><strong>Chomp (W)</strong>
+<ul>
+<li>After 0.6 seconds, deal 285 damage to nearby enemies in front of Orphea.</li>
+</ul></li>
+<li><strong>Dread (E)</strong>
+<ul>
+<li>Release a wave of dread that deals 85 damage to enemies hit.</li>
+<li>Dread erupts 0.75 seconds after reaching the end of its path, dealing 175 damage and Slowing enemies in the area by 25% for 2 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Eternal Feast (R)</strong>
+<ul>
+<li>After 1.5 seconds, deal 210 damage in an area.</li>
+<li>Eternal Feast repeats every 1 second as long as it hits an enemy Hero.</li>
+</ul></li>
+<li><strong>Crushing Jaws (R)</strong>
+<ul>
+<li>After 1.25 seconds, pulls enemies in an area towards the center, dealing 275 damage and Stunning them for 0.75 seconds.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="user-interface">User Interface</h3>
+
+<ul>
+<li>Additional space for Heroes has been added to the Hero select screen.</li>
+<li>Battlegrounds with mechanics that add additional (default hotkey: F) buttons (Warhead Junction, Snow Brawl, etc.) have had the appearances of their panels unified.</li>
+<li>A new “Bundles” page has been added to the Collection tab.</li>
+</ul>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="guldan">Gul'dan</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Rampant Hellfire (Q)
+<ul>
+<li>​Damage bonus increased from 8 to 10%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>NOTE:</strong> Many of the new items announced at BlizzCon 2018 will not be immediately available with this patch but will be added to the game in the coming weeks.</p>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are only available for a limited time!
+<ul>
+<li>Orphea Heroic Bundle</li>
+</ul></li>
+<li>The following bundles have been added to the collection:
+<ul>
+<li>Welcome to the Nexus Bundle</li>
+<li>Heroic Reinforcement Bundle</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcers</strong></p>
+
+<ul>
+<li>Orphea</li>
+<li>Ka</li>
+<li>Neithis</li>
+</ul>
+
+<p><strong>New Mount</strong></p>
+
+<ul>
+<li><strong>Raven Runner</strong>
+<ul>
+<li>Haunted Raven Runner</li>
+<li>Bloodmoon Raven Runner</li>
+</ul></li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Orphea</strong>
+<ul>
+<li>Hallowed Orphea</li>
+<li>Verdant Orphea</li>
+<li>Slacker Orphea</li>
+<li>RCHS Slacker Orphea</li>
+<li>Spoiled Slacker Orphea</li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits, Sprays, and Emojis</strong></p>
+
+<ul>
+<li>Several new emoji packs, sprays, and portraits have also been added to the game. </li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed an issue that caused some Shielding and Healing values to track improperly on the score/stats screen.</li>
+<li>Fixed an issue allowing some summoned units to grant vision of Heroes inside brush if placed at the edge of the brush.</li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li>Fixed an issue causing some spell effects associated with taunt animations to appear after the animation was canceled.</li>
+<li><strong>Whitemane:</strong> Fixed an issue causing Witch Whitemane's custom mount animation to cease playing after she died once in a match.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li>Fixed a number of tooltip issues and inaccuracies across the game.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Kerrigan:</strong> Fixed an issue that disabled Health and Mana regeneration during Chrysalis.</li>
+<li><strong>Stukov:</strong> Fixed an issue preventing Lurking Arm from revealing damaged targets if they were at the edge of its area of effect.</li>
+<li><strong>Tyrande:</strong> Fixed an issue preventing Elune's Chosen from healing allies if damage was dealt to Shielded/Protected targets.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-10-31 Balance Update</title>
     <published>2018-10-31T20:20:00.000Z</published>
@@ -8199,67 +8460,6 @@ major Hero updates for Raynor and Azmodan, new skins, and more!</p>
 
 <p>Head to the official Heroes of the Storm forums to discuss this post with
 other players.</p>
-
-<p><a href="https://us.battle.net/forums/en/heroes/index">Official Heroes Forums</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-07-03 Balance Update</title>
-    <published>2018-07-03T20:20:00.000Z</published>
-    <updated>2018-07-03T20:20:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-07-03-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-03-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="alterac-pass-balance-changes-july-3-2018">Alterac Pass Balance Changes – July 3, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/21936685" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/21936685" target="_blank">Official Patch Notes</a></div>
-
-<p>We've just applied a number of balance changes to the Alterac Pass
-Battleground.</p>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<p><strong>Alterac Pass</strong></p>
-
-<ul>
-<li><strong>Generals</strong>
-<ul>
-<li>Health reduced from 24,000 to 20,000.</li>
-<li>Now gain 405 maximum Health every minute until minute 21 (excluding minute 1).</li>
-</ul></li>
-<li><strong>Cavalry</strong>
-<ul>
-<li>No longer gain additional Armor for nearby Heroes.</li>
-<li>Health reduced from 10,000 to 8,000.</li>
-<li>Health scaling increased by 19%.</li>
-<li>Damage reduced from 85 to 65.</li>
-<li>Damage scaling increased by 22%.</li>
-</ul></li>
-<li><strong>Reaver Minions</strong>
-<ul>
-<li>Damage scaling increased by 50%.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're making a few changes to Alterac Pass to reduce
-  the frequency that one team can run away with an early lead, while still
-  keeping the average game time roughly in line with our other Battlegrounds.
-  We're removing the mechanic that grants Cavalry additional Armor for every
-  allied Hero in their aura, since we feel that multi-Hero pushes are already
-  strong enough. We've also made Health scaling adjustments so that Vanndar and
-  Drek'thar (the Core replacements) won't be demolished as quickly by late game
-  Heroes that have outscaled them and reduced their Armor. However, we are
-  increasing the scaling of Cavalry and Reavers (Catapult replacements), so that
-  games still end in a timely fashion. This should only come into play during
-  games that become prolonged.</p>
-</blockquote>
-
-<hr />
-
-<p>Head to the official Heroes of the Storm forums to share your feedback with us
-and discuss this post with other players.</p>
 
 <p><a href="https://us.battle.net/forums/en/heroes/index">Official Heroes Forums</a></p>
 ]]></content>
