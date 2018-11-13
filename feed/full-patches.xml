@@ -2,10 +2,334 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-11-05T21:54:00.000Z</updated>
+  <updated>2018-11-13T18:12:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-11-13 Patch Notes</title>
+    <published>2018-11-13T18:12:00.000Z</published>
+    <updated>2018-11-13T18:12:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-11-13-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-11-13-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-november-13-2018">Heroes of the Storm Patch Notes – November 13, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22647956" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22647956" target="_blank">Official Patch Notes</a> <small>v 2.40.0</small></div>
+
+<p>Our newest patch, featuring Orphea, is now live! Read on for a detailed
+breakdown of what's new in the Nexus.</p>
+
+<p><span class="text-warning"><strong>NOTE: Orange text indicates a change between the PTR and Live notes.</strong></span></p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li><strong>Boost</strong>
+<ul>
+<li>What was once called a Stimpack is now a Boost, and in addition to buffing your own experience and Gold gains at the end of a match, all players will receive 5% bump in experience for each player in their match who had an active Boost. That mean players can receive up to a 45% XP bonus if all 10 players in game have a Boost active!</li>
+<li>In addition to stacking Boost XP buffs, you'll now be able to retroactively Boost your Gold and XP gains at the end of a match by applying a Boost from the Score Screen.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="design">Design</h3>
+
+<ul>
+<li><strong>Channeled Healing Abilities</strong>
+<ul>
+<li>Alextrasza's Lifebinder (R) and Rehgar's Ancestral Healing (R) abilities are no longer cancelled under any conditions other than enemy abilities that remove the target from play (Devouring Maw, Gorge, Cocoon.)</li>
+</ul></li>
+<li><strong>Spell Power Modifiers</strong>
+<ul>
+<li>The following abilities and talents have been updated to have any percentage-based spell power modifiers stack <em>additively</em> when calculating damage: (This is the default behavior for all other abilities and talents unless otherwise stated in the tooltip)
+<ul>
+<li>Zul'jin's Buzzsaw (R) talent</li>
+<li>Hanzo's Dragonstrike (R) center damage effect</li>
+<li>Gul'dan's Rampant Hellfire (Q) talent</li>
+</ul></li>
+<li>The following abilities have had their tooltips updated to reflect that percentage-based spell power modifiers will stack <em>multiplicatively</em> when calculating damage:
+<ul>
+<li>Kael'thas' Phoenix (R) ability</li>
+<li>Nazeebo's Vile Infection (Passive) talent</li>
+<li>Li Li's Lightning Serpent (W) talent</li>
+<li>Li-Ming's Arcane Orbit (W) talent</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<ul>
+<li><span class="text-warning">Experience gains from Mercenary Camp captures have been unified. All Mercenary Camps now grant all Experience on capture.</span></li>
+<li><strong>Dragon Shire:</strong>
+<ul>
+<li>Dragon Shire has received updated Battleground art (including an updated Dragon Knight)</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-hero-orphea-assassin">New Hero: Orphea (Assassin)</h3>
+
+<p>Rejecting the dark power her father had begun to consort with, Orphea tried to
+run away from the Raven Lord's influence. But after witnessing King's Crest
+fall to his machinations, she was convinced she needed to stand and fight. She
+now vows to protect the innocent – as a Hero of the Nexus.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Overflowing Chaos (Trait)</strong>
+<ul>
+<li>Hitting an enemy Hero with a Basic Ability grants 1 Chaos. Chaos can stack up to 3 times.</li>
+<li>While Orphea has Chaos, her Basic Attacks against Heroes consumes all Chaos, dealing 50% increased damage per stack, and healing for 100% of the damage dealt.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Shadow Waltz (Q)</strong>
+<ul>
+<li>After 0.5 seconds, deal 150 damage to enemies in a line.</li>
+<li>Hitting a Hero with Shadow Waltz sets its cooldown to 2 seconds and causes Orphea to dash a short distance upon moving.</li>
+</ul></li>
+<li><strong>Chomp (W)</strong>
+<ul>
+<li>After 0.6 seconds, deal 285 damage to nearby enemies in front of Orphea.</li>
+</ul></li>
+<li><strong>Dread (E)</strong>
+<ul>
+<li>Release a wave of dread that deals 85 damage to enemies hit.</li>
+<li>Dread erupts 0.75 seconds after reaching the end of its path, dealing 175 damage and Slowing enemies in the area by 25% for 2 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Eternal Feast (R)</strong>
+<ul>
+<li>After 1.5 seconds, deal 210 damage in an area.</li>
+<li>Eternal Feast repeats every 1 second as long as it hits an enemy Hero.</li>
+</ul></li>
+<li><strong>Crushing Jaws (R)</strong>
+<ul>
+<li>After 1.25 seconds, pulls enemies in an area towards the center, dealing 275 damage and Stunning them for 0.75 seconds.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="user-interface">User Interface</h3>
+
+<ul>
+<li>Additional space for Heroes has been added to the Hero select screen.</li>
+<li>Battlegrounds with mechanics that add additional (default hotkey: F) buttons (Warhead Junction, Snow Brawl, etc.) have had the appearances of their panels unified.</li>
+<li>A new “Bundles” page has been added to the Collection tab.</li>
+</ul>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#guldan">Gul'dan</a></td>
+</tr>
+<tr>
+  <td><a href="#orphea">Orphea</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="guldan">Gul'dan</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Rampant Hellfire (Q)
+<ul>
+<li>​Damage bonus increased from 8 to 10%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="orphea">Orphea</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li><span class="text-warning">Maximum Base Health reduced from 1750 to 1662</span></li>
+<li><span class="text-warning">Health Regen reduced from 4.09 to 3.46</span></li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Shadow Waltz (Q)</strong></span>
+<ul>
+<li><span class="text-warning">Base cooldown increased from 5 to 6 seconds</span></li>
+<li><span class="text-warning">Mana cost increased from 25 to 40</span></li>
+<li><span class="text-warning">Mana refund on hit increased from 25 to 40</span></li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Level 7</strong></span>
+<ul>
+<li><span class="text-warning">Ravenous Hunger (W)</span>
+<ul>
+<li><span class="text-warning">Damage per Minion kill reduced from 3 to 2</span></li>
+<li><span class="text-warning">Damage per Hero kill reduced from 60 to 40</span></li>
+</ul></li>
+</ul></li>
+<li><span class="text-warning"><strong>Level 20</strong></span>
+<ul>
+<li><span class="text-warning">Eldritch Conduit (Trait)</span>
+<ul>
+<li><span class="text-warning">Spell Power per stack reduced from 5 to 3%</span></li>
+<li><span class="text-warning">Spell power max stack bonus reduced from 50 to 30%</span></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>NOTE:</strong> Many of the new items announced at BlizzCon 2018 will not be immediately available with this patch but will be added to the game in the coming weeks.</p>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are only available for a limited time!
+<ul>
+<li>Orphea Heroic Bundle</li>
+</ul></li>
+<li>The following bundles have been added to the collection:
+<ul>
+<li>Welcome to the Nexus Bundle</li>
+<li>Heroic Reinforcement Bundle</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcers</strong></p>
+
+<ul>
+<li>Orphea</li>
+<li>Ka</li>
+<li>Neithis</li>
+</ul>
+
+<p><strong>New Mount</strong></p>
+
+<ul>
+<li><strong>Raven Runner</strong>
+<ul>
+<li>Haunted Raven Runner</li>
+<li>Bloodmoon Raven Runner</li>
+</ul></li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Orphea</strong>
+<ul>
+<li>Hallowed Orphea</li>
+<li>Verdant Orphea</li>
+<li>Slacker Orphea</li>
+<li>RCHS Slacker Orphea</li>
+<li>Spoiled Slacker Orphea</li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits, Sprays, and Emojis</strong></p>
+
+<ul>
+<li>Several new emoji packs, sprays, and portraits have also been added to the game. </li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed an issue that caused some Shielding and Healing values to track improperly on the score/stats screen.</li>
+<li>Fixed an issue allowing some summoned units to grant vision of Heroes inside brush if placed at the edge of the brush.</li>
+<li><span class="text-warning">Fixed an issue causing new item counts to appear over the wrong category.</span></li>
+</ul>
+
+<p><strong>Art</strong></p>
+
+<ul>
+<li>Fixed an issue causing some spell effects associated with taunt animations to appear after the animation was canceled.</li>
+<li><strong>Whitemane:</strong> Fixed an issue causing Witch Whitemane's custom mount animation to cease playing after she died once in a match.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li>Fixed a number of tooltip issues and inaccuracies across the game.</li>
+<li><span class="text-warning">Fixed an issue with the Boost button being one pixel lower than the adjacent end-of-match buttons.</span>
+<ul>
+<li><span class="text-warning">We gathered the team, pooled resources, and after a lot of squinting at our monitors and a brief search for a magnifying glass, we've located the issue and boosted up the boost button to be in line with its neighbors. Thanks for paying such close attention!</span></li>
+</ul></li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Kerrigan:</strong> Fixed an issue that disabled Health and Mana regeneration during Chrysalis.</li>
+<li><strong>Stukov:</strong> Fixed an issue preventing Lurking Arm from revealing damaged targets if they were at the edge of its area of effect.</li>
+<li><strong>Tyrande:</strong> Fixed an issue preventing Elune's Chosen from healing allies if damage was dealt to Shielded/Protected targets.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-11-05 PTR Patch Notes</title>
     <published>2018-11-05T21:54:00.000Z</published>
@@ -7347,1119 +7671,6 @@ balance changes and bug fixes.</p>
 
 <p>Head to the official Heroes of the Storm forums to share your feedback with us
 and discuss this post with other players.</p>
-
-<p><a href="https://us.battle.net/forums/en/heroes/index">Official Heroes Forums</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-07-10 Patch Notes</title>
-    <published>2018-07-10T16:30:00.000Z</published>
-    <updated>2018-07-10T16:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-07-10-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-10-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-july-10-2018">Heroes of the Storm Patch Notes – July 10, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/21940930" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/21940930" target="_blank">Official Patch Notes</a> <small>v 2.35.0</small></div>
-
-<p>Our latest Heroes of the Storm patch includes improvements for ranked play,
-major Hero updates for Raynor and Azmodan, new skins, and more!</p>
-
-<hr />
-
-<h3 id="ranked-play">Ranked Play</h3>
-
-<p><strong>2018 Ranked Season 3 Has Begun!</strong></p>
-
-<ul>
-<li>Ranked rewards have been granted to players based on their performance during 2018 Ranked Season 2.</li>
-<li>Learn more about the rewards that are up for grabs during the new season by checking out our <a href="https://heroesofthestorm.com/blog/21905735">2018 Ranked Season 3 Dates and Rewards blog</a>.</li>
-<li>A number of ranked play improvements have also been made with the start of 2018 Ranked Season 3, including the addition of a third ban, rank decay, seeding changes, and Hero League matchmaking adjustments. Read on for details.</li>
-</ul>
-
-<p><strong>Third Ban</strong></p>
-
-<ul>
-<li>A third Hero ban has been added to draft modes as part of the initial ban phase.
-<ul>
-<li>During the initial ban phase, teams will alternate until each has banned two Heroes.</li>
-<li>Ban and pick times have been adjusted in order to offset the addition of the new ban.</li>
-</ul></li>
-<li>The number of level 5+ Heroes required to participate in Hero League has been increased from 14 to 16 to ensure players will always have a Hero available if they pick last.</li>
-</ul>
-
-<p><strong>Rank Decay</strong></p>
-
-<ul>
-<li>Diamond, Master, and Grand Master Hero League players who have placed in the current season but haven't completed any games in a while will be considered “inactive”.</li>
-<li>Once a player becomes inactive, they will receive a small amount of rank and MMR decay each day until they complete one Hero League match.
-<ul>
-<li>Diamond, Master, and Grand Master each have their own threshold for inactivity.</li>
-<li>Players can earn additional “grace period” days by regularly playing Hero League matches during the current season.</li>
-</ul></li>
-<li>Inactive players can avoid decay and regain active status by playing a single Hero League match to completion.</li>
-</ul>
-
-<table>
-<thead>
-<tr>
-  <th>League</th>
-  <th>Inactive Days Before Decay</th>
-  <th>Extra "Grace Period" Days</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>Diamond</strong></td>
-  <td>20</td>
-  <td>10</td>
-</tr>
-<tr>
-  <td><strong>Master</strong></td>
-  <td>15</td>
-  <td>10</td>
-</tr>
-<tr>
-  <td><strong>Grand Master</strong></td>
-  <td>10</td>
-  <td>10</td>
-</tr>
-</tbody>
-</table>
-
-<p><strong>Seeding Changes</strong></p>
-
-<ul>
-<li>Players who enter ranked play for the first time can no longer be seeded into placement matches higher than Gold 5.</li>
-<li>Players who return to Hero League after an extended break will no longer be re-seeded into placement matches based on their performance in other modes.</li>
-</ul>
-
-<p><strong>Hero League Matchmaking Changes</strong></p>
-
-<ul>
-<li><strong>Ratings Rather Than Points</strong>
-<ul>
-<li>For Master and Grand Master players, the Master-level players they are matched with and against are now determined by skill rating, and rank points no longer play a role.
-<ul>
-<li>This should provide better experiences for players of very high skill levels who start playing later in a season.</li>
-<li>These players' games should have allies and opponents of more consistent skill levels, which also match their own.</li>
-</ul></li>
-</ul></li>
-<li><strong>Match Quality Restrictions and Notifications</strong>
-<ul>
-<li>Players below Master who have waited fewer than three minutes in queue will not be placed into any matches that are outside of the game quality restrictions that would have been used if the match had been formed around that player.</li>
-<li>Players will now receive a notification in the UI when these quality restrictions are expanded in order to help them find a match more quickly.</li>
-</ul></li>
-<li><strong>Stricter Rank Difference Requirements</strong>
-<ul>
-<li>Master and Grand Master players will now only be matched with allies and opponents who are within 1 division of their own ranks. This means:
-<ul>
-<li>Master players can be matched with players who are either ranked Diamond 1 or Grand Master, but never both.</li>
-<li>Grand Master players will not be matched with players below Masters.</li>
-</ul></li>
-<li>This restriction will not loosen for players in Europe and North America. However, it can loosen for players in other regions after they have waited in queue for 1 hour.</li>
-</ul></li>
-<li><strong>Stricter Rating Differences</strong>
-<ul>
-<li>Master and Grand Master players now have narrower ranges of acceptable skill ratings for the players they are matched with. For example:
-<ul>
-<li>It is extremely unlikely that a top Grand Master player will be matched with a Master who is on the cusp of demotion to Diamond.</li>
-<li>If a Master player is placed into a Grand Master game, it is because that player's skill rating is very similar to that of the Grand Master players.
-<ul>
-<li>In this situation, the Master player's ranked points have not yet caught up to their rating.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<p><strong>Non-Ranked Battleground Pool</strong> </p>
-
-<ul>
-<li>All Battlegrounds that were temporarily removed during the Echoes of Alterac event have returned to Versus A.I., Quick Match, and Unranked matchmaking queues.</li>
-</ul>
-
-<p><strong>Mercenaries</strong></p>
-
-<ul>
-<li>Heroes can no longer Heal, Shield, or target allied Mercenaries with Abilities unless an Ability specifically states that Mercenaries are valid targets.</li>
-</ul>
-
-<p><strong>Alterac Pass</strong></p>
-
-<ul>
-<li><strong>Ice Giants</strong>
-<ul>
-<li>Attack speed reduced by approximately 30%.</li>
-<li>Neutral Ice Giant Attack damage increased from 240 to 312.</li>
-<li>Captured Ice Giant Attack damage increased from 400 to 520.</li>
-</ul></li>
-<li><strong>Cavalry</strong>
-<ul>
-<li>The damage bonus provided by Cavalry units is now a flat 10%, and no longer scales with each completed event.</li>
-</ul></li>
-</ul>
-
-<p><strong>Battlefield of Eternity</strong></p>
-
-<ul>
-<li><strong>Minimap</strong>
-<ul>
-<li>The Minimap icons that represent Immortals during an event have received updates.
-<ul>
-<li>The opposing Immortal now uses an icon depicting crossed axes, while the allied Immortal displays a shield icon.</li>
-<li>This should help players more quickly identify which Immortal to attack and which to defend.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Braxis Holdout</strong></p>
-
-<ul>
-<li><strong>Beacons</strong>
-<ul>
-<li>Now become contested immediately when Heroes from both teams are on the point.</li>
-</ul></li>
-<li><strong>Zerg Waves</strong> <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1016024635975061505" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li>The baseline zerg wave has been strengthened significantly.
-<ul>
-<li>This should encourage teams to split up in order to defend against an incoming zerg wave, rather than send all five players to attack with an allied wave.</li>
-<li><span class="text-warning">Base wave increased from 6 zerglings to 10 zerglings, 2 hydralisks, 1 guardian, and 1 ultralisk.</span></li>
-</ul></li>
-</ul></li>
-<li><strong>Beacon Progress Bars</strong> <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1016024635975061505" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li>The progress bars in the lower-right corner of the screen have received visual updates to coincide with the above changes.</li>
-<li><span class="text-warning">Total beacon capture time increased from 30 seconds to 37.5 seconds.</span>
-<ul>
-<li><span class="text-warning">Time between 2% intervals increased from 0.6 seconds to 0.75 seconds.</span></li>
-</ul></li>
-</ul></li>
-<li><span class="text-warning"><strong>Structures</strong></span> <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1016024635975061505" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li><span class="text-warning">Damage to zerg waves increased by 75%.</span></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#cassia">Cassia</a></td>
-  <td><a href="#azmodan">Azmodan</a></td>
-  <td><a href="#alexstrasza">Alexstrasza</a></td>
-</tr>
-<tr>
-  <td><a href="#chromie">Chromie</a></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#raynor">Raynor</a></td>
-  <td></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="cassia">Cassia</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Blinding Light (W)</strong>
-<ul>
-<li>Now also deals 50 damage (+4% per level) to enemies in the target area.</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="chromie">Chromie</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Time Trap (E)</strong>
-<ul>
-<li>Melee Heroes who can see a Time Trap can now use melee attacks to destroy it without triggering its effects.</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="raynor">Raynor</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 1,302 to 1,450.</li>
-<li>Health Regeneration increased from 2.71 to 3.02.</li>
-<li>Basic Attack damage reduced from 122 to 92.</li>
-<li>Basic Attack range is now set to 6.5 and is no longer based on Raynor's Trait.</li>
-<li>Scaling increased from 4% to 5% per level.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>New Trait: Give ‘Em Some Pepper</strong>
-<ul>
-<li>Every 4th Basic Attack splashes in a small area and deals 125% more damage to the primary target.</li>
-</ul></li>
-<li><strong>Penetrating Round (Q)</strong>
-<ul>
-<li>Damage reduced from 240 to 220.</li>
-<li>Mana cost reduced from 60 to 50.</li>
-<li>Additional functionality:
-<ul>
-<li>Slows enemy Movement Speed by 20% for 2 seconds.</li>
-<li>Knockback distance is based on the target's proximity to Raynor.</li>
-</ul></li>
-</ul></li>
-<li><strong>Inspire (W)</strong>
-<ul>
-<li>Cooldown increased from 10 to 12 seconds.</li>
-<li>New functionality:
-<ul>
-<li>Raynor and all nearby allied Minions and Mercenaries gain 30% Attack Speed and 10% Movement Speed for 4 seconds.</li>
-<li>Casting Inspire resets Raynor's Basic Attack cooldown.</li>
-</ul></li>
-</ul></li>
-<li><strong>Adrenaline Rush (E)</strong>
-<ul>
-<li>Cooldown increased from 30 to 45 seconds.</li>
-<li>Mana cost increased from 0 to 75.</li>
-<li>New functionality:
-<ul>
-<li>Heal Raynor for 25% of his maximum Health over 1 second. Raynor's Basic Attacks reduce Adrenaline Rush's cooldown by 0.5 seconds, doubled against Heroes.</li>
-</ul></li>
-</ul></li>
-<li><strong>Raynor's Raider (R)</strong>
-<ul>
-<li>Health increased from 766 to 1,000.</li>
-<li>Damage per missile reduced from 31 to 24.</li>
-<li>Attacks per second increased from 0.8 to 2.</li>
-<li>New functionality:
-<ul>
-<li>Summon a Banshee that assists Raynor. The Banshee deals 96 damage per second and regenerates 75 Health per second if it hasn't taken damage in the last 4 seconds. Can reactivate to retarget or move the Banshee.</li>
-<li>The Banshee respawns automatically after 45 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Seasoned Marksman (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Scouting Drone (Active)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>New Talent: Veteran Marksman (Trait)</strong>
-<ul>
-<li><strong>Quest:</strong> Every time the primary target of Give ‘Em Some Pepper is a Hero, permanently increase its damage bonus by 0.75%.</li>
-</ul></li>
-<li><strong>New Talent: Ace in the Hole (Passive)</strong>
-<ul>
-<li>Deal <strong>30%</strong> more damage to Stunned or Slowed enemy <strong>Heroes.</strong></li>
-</ul></li>
-<li><strong>New Talent: Exterminator (Passive)</strong>
-<ul>
-<li>Basic Attacks deal 50% more damage to Minions, Mercenaries, and Monsters. This is increased to 100% while Inspire is active.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Focused Attack (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Vigorous Assault (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Confident Aim (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Relentless Leader (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Fight or Flight (E)
-<ul>
-<li>Moved from Level 7.</li>
-<li>New functionality:
-<ul>
-<li>Reduce Adrenaline Rush's cooldown by 10 seconds. Casting Adrenaline Rush grants 25 Armor for 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Sustaining Rounds (Trait)</strong>
-<ul>
-<li>Give ‘Em Some Pepper heals Raynor for 3% of his maximum Health, increased to 6% if the primary target is a Hero.</li>
-</ul></li>
-<li><strong>New Talent: Behemoth Armor (Passive)</strong>
-<ul>
-<li>Gain 250 bonus maximum Health.</li>
-<li><strong>Quest:</strong> Every time Give ‘Em Some Pepper's primary target is a Hero, gain an additional 5 maximum Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Hamstring Shot (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Revolution Overdrive (W)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Puttin' On A Clinic (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>New Talent: Fuel the Rush (Passive)</strong>
-<ul>
-<li>While Inspire is active, increase Adrenaline Rush's cooldown reduction from Basic Attacks by 200%.</li>
-</ul></li>
-<li><strong>New Talent: Unstable Compound (Trait)</strong>
-<ul>
-<li>Increase the area of Give ‘Em Some Pepper by 15%, and enemies hit by it are Slowed by 10% for 3 seconds.</li>
-</ul></li>
-<li><strong>New Talent: Heavy Slugs (Active)</strong>
-<ul>
-<li>Activate to increase the distance of the next Penetrating Round by 30% and increase its Slow duration to 6 seconds. 30 second cooldown.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Giant Killer (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Double-Barreled (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Steel Resolve (W)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>New Talent: Debilitating Rounds (Passive)</strong>
-<ul>
-<li>Decrease the cooldown of Penetrating Round by 3 seconds. While Inspire is active, Penetrating Round's Slow is increased by 20%.</li>
-</ul></li>
-<li><strong>New Talent: Rallying Cry (W)</strong>
-<ul>
-<li>Increase the duration of Inspire by 1 second. Casting Inspire grants nearby allied Heroes 10% Movement and Attack Speed for its duration.</li>
-</ul></li>
-<li><strong>New Talent: Giddy-Up (W)</strong>
-<ul>
-<li>Gain 10% Movement Speed while mounted and unmounted. Inspire grants 10% more Movement Speed.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Executioner (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Cluster Round (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Bullseye (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Give Me More (E)
-<ul>
-<li>Moved from Level 1.</li>
-<li>New functionality:
-<ul>
-<li>Increase Adrenaline Rush healing by 50%. While Inspire is active, gain 1 Basic Attack range.</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Paint Them Red (Q)</strong>
-<ul>
-<li>Increase the damage of Penetrating Round by 50% and heal for 100% of the damage it deals to Heroes.</li>
-</ul></li>
-<li><strong>New Talent: Bounty Hunter (Trait) (D)</strong>
-<ul>
-<li>If Give ‘Em Some Pepper's target is a Hero, it deals an additional 3% of their maximum Health as damage and grants Raynor <strong>5</strong> Armor for 3 seconds.</li>
-<li>Activate Give ‘Em Some Pepper to apply it to Raynor's next Basic Attack. 40 second cooldown.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Scorched Earth (R)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>A Card to Play (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Nexus Frenzy (Passive)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Dusk Wing (R)
-<ul>
-<li>Increase the damage, Health, and leash range of Raynor's Raider by 100%. When it dies, both Inspire and Adrenaline Rush are activated for free.</li>
-</ul></li>
-<li><strong>New Talent: Indomitable Resolve (R)</strong>
-<ul>
-<li>Give ‘Em Some Pepper lowers the cooldown of Hyperion by 5 seconds if the primary target is a Hero. Inspire grants Raynor Unstoppable for 2 seconds.</li>
-</ul></li>
-<li><strong>New Talent: Weak Spot Acquired (Trait)</strong>
-<ul>
-<li>An enemy Hero who is the primary target of Give ‘Em Some Pepper has their Armor reduced by 25 for 2 seconds.</li>
-</ul></li>
-<li><strong>New Talent: Execute (Passive)</strong>
-<ul>
-<li>Increase Attack Speed by 20%. Your Basic Attack damage is increased by 25% against targets below 50% Health.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<table>
-<thead>
-<tr>
-  <th><strong>LEVEL (TIER)</strong></th>
-  <th><strong>Raynor Talents</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>1 (1)</strong></td>
-  <td><em>(!) Veteran Marksman (Trait)</em></td>
-  <td><em>Ace in the Hole (Passive)</em></td>
-  <td><em>Exterminator (Passive)</em></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>4 (2)</strong></td>
-  <td><strong>Fight or Flight (E)</strong></td>
-  <td><em>Sustaining Rounds (Trait)</em></td>
-  <td><em>(!) Behemoth Armor (Passive)</em></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>7 (3)</strong></td>
-  <td><em>Fuel the Rush (Passive)</em></td>
-  <td><em>Unstable Compound (Trait)</em></td>
-  <td><em>Heavy Slugs (Active)</em></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>10 (4)</strong></td>
-  <td>Hyperion (R)</td>
-  <td>Raynor's Raider (R)</td>
-  <td>—</td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>13 (5)</strong></td>
-  <td><em>Debilitating Rounds (Passive)</em></td>
-  <td><em>Rallying Cry (W)</em></td>
-  <td><em>Giddy-Up (W)</em></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>16 (6)</strong></td>
-  <td><em>Paint Them Red (Q)</em></td>
-  <td><strong>Give Me More! (E)</strong></td>
-  <td><em>Bounty Hunter (Trait)</em></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>20 (7)</strong></td>
-  <td><em>Indomitable Resolve (R)</em></td>
-  <td>Dusk Wing (R)</td>
-  <td><em>Weak Spot Acquired (Trait)</em></td>
-  <td><em>Execute (Passive)</em></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li>(!) indicates a Quest Talent.</li>
-<li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
-<li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're extremely excited to bring Raynor's long-
-  awaited rework to the Nexus! We've been reading and absorbing all the amazing
-  feedback that you have sent us over the past year and think the new design
-  will do him justice. We've massively increased his wave-clear potential with a
-  new Trait and completely overhauled his Talent tree (one of the oldest in the
-  game). Raynor mains should have a whole new set of tools to play around with
-  while new users should still be able to pick him up and right-click their way
-  to victory. We have been having a ton of fun with the changes and hope you do
-  as well. As always, please send us any feedback you have and get ready to fill
-  your enemies full of daylight!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="azmodan">Azmodan</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 2,738 to 2,464.</li>
-<li>Health Regeneration reduced from 5.7031 to 5.1328.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>General of Hell (Trait) (D)</strong>
-<ul>
-<li>Renamed to Demon Lieutenant.</li>
-<li>New Functionality:
-<ul>
-<li>Summon a Demon Lieutenant at any allied Mercenary, Minion, or Azmodan Demon. The Lieutenant will cast Demonic Smite every 7 seconds, instantly killing an enemy Minion. Lasts 20 seconds. 60 Second cooldown.</li>
-<li>Can now be cast on the Minimap.</li>
-<li>Can be used while channeling All Shall Burn.</li>
-</ul></li>
-</ul></li>
-<li><strong>Globe of Annihilation (Q)</strong>
-<ul>
-<li>New Quest:
-<ul>
-<li>Hitting a Hero or killing a Minion within 1.5 seconds of being hit by Globe of Annihilation grants 2 Annihilation.</li>
-</ul></li>
-<li>Reward:
-<ul>
-<li>Each stack of Annihilation increases Globe of Annihilation's damage by 1, up to 400.</li>
-</ul></li>
-<li>Greatly reduced the delay before impact warning effects appear.</li>
-<li>Range reduced from 35 to 30.</li>
-<li>Casting time reduced from 0.75 to 0.5625 seconds.</li>
-<li>Globe speed increased from 15 to 18.</li>
-</ul></li>
-<li><strong>Demon Warrior (W)</strong> <a class="label label-warning" href="https://twitter.com/ChaosOS_59/status/1015298575163674627" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li>Can now be cast while channeling All Shall Burn.</li>
-<li>No longer has charges.</li>
-<li>Demon Warriors now deal a small amount of damage to nearby enemies every second.</li>
-<li>Health increased from 365 to 390.</li>
-<li>Attack damage reduced from 37 to 28.</li>
-<li>Attack range reduced from 1.5 to 1.</li>
-<li>Movement Speed reduced from 4 to 3.6.</li>
-<li><span class="text-warning">Mana cost reduced from 40 to 30.</span></li>
-</ul></li>
-<li><strong>All Shall Burn (E)</strong>
-<ul>
-<li>New functionality:
-<ul>
-<li>Channel a beam of death on an enemy, dealing 136 damage per second for 2.5 seconds. If the Channel lasts its full duration, deal an extra 272 damage to the target.</li>
-<li>Azmodan's Movement Speed is reduced by <strong>30%</strong> while Channeling.</li>
-</ul></li>
-<li>Cooldown increased from 6 to 8 seconds.</li>
-<li>Mana cost changed from 12 per second to a flat 30 Mana.</li>
-<li>Range reduced from 7 to 6.</li>
-</ul></li>
-<li><strong>Demonic Invasion (R)</strong>
-<ul>
-<li>New Functionality:
-<ul>
-<li>Rain a small army of Demonic Grunts down on enemies, dealing 65 damage per impact. Grunts deal 42 damage, have 750 Health and last up to 8 seconds. When Grunts die they explode, dealing 65 damage to nearby enemies.</li>
-</ul></li>
-<li>Grunt Health increased from 365 to 750.</li>
-<li>Grunt Health now decays over 8 seconds.</li>
-<li>Grunt attack damage reduced from 51 to 42.</li>
-<li>Cooldown reduced from 100 to 90 seconds.</li>
-<li>Mana cost reduced from 100 to 60.</li>
-</ul></li>
-<li><strong>New Heroic Ability: Tide of Sin (R)</strong>
-<ul>
-<li>Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage. <strong>20</strong> second cooldown.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Taste for Blood (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Sieging Wrath (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Gluttony (Q)
-<ul>
-<li>Moved from Level 4.</li>
-<li>New functionality:
-<ul>
-<li>Increase the number of stacks of Annihilation gained by hitting Heroes with Globe of Annihilation from 2 to 3.</li>
-<li><strong>Quest:</strong> After gaining 200 Annihilation, each enemy hit by Globe of Annihilation reduces its cooldown by 0.25 seconds, doubled against Heroes.</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Greed (Q)</strong>
-<ul>
-<li>Increase the timeframe in which Minion kills grant Annihilation from 1.5 to 3 seconds.</li>
-<li><strong>Quest:</strong> After gaining 200 Annihilation, Globe of Annihilation's range is increased by 33% and the damage it deals against Minions and Mercenaries is increased by 20%.</li>
-</ul></li>
-<li><strong>New Talent: Wrath (Q)</strong>
-<ul>
-<li>Basic Attacks against Heroes under 75% Health grant 1 Annihilation.</li>
-<li>Quest: After gaining 200 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 4 seconds by the amount of Annihilation he has.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Hellish Hirelings (Trait)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Army of Hell (W)
-<ul>
-<li>New Functionality:
-<ul>
-<li>Summon Demon Warrior spawns an additional Demon, but its cooldown is increased by 10 seconds.</li>
-</ul></li>
-</ul></li>
-<li>Hellforged Armor (W)
-<ul>
-<li>Moved from Level 13</li>
-<li>New Functionality:
-<ul>
-<li>Demon Warriors and Lieutenants gain 35 armor and last 4 seconds longer.</li>
-</ul></li>
-</ul></li>
-<li>Battleborn (Passive)
-<ul>
-<li>Moved from Level 16</li>
-<li>New Functionality:
-<ul>
-<li>Azmodan's Basic Attacks reduce the cooldown of Summon Demon Warrior by 0.5 seconds and Demon Lieutenant by 1 second.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Infernal Globe (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Bound Minion (Trait)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Gluttonous Ward (Active)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Master of Destruction (E)
-<ul>
-<li>Moved from Level 1.</li>
-<li>New Functionality:
-<ul>
-<li>All Shall Burn's final damage applies to all enemies in an area around the target and grants 2 Annihilation per Hero hit.</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Bombardment (Q)</strong>
-<ul>
-<li>After casting Globe of Annihilation, Azmodan's Basic Attacks within the next 3 seconds have an additional <strong>2</strong> range and can hit 2 additional targets. Hitting Heroes with Basic Attacks empowered by Bombardment grant 1 Annihilation.</li>
-</ul></li>
-<li><strong>New Talent: Art of Chaos (Q)</strong>
-<ul>
-<li>If Globe of Annihilation hits 2 or more Heroes, restore <strong>30</strong> Mana. If it hits 3 or more Heroes, gain an extra 5 Annihilation.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Hedonism (Q)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Infused Power (E)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>New Talent: Brutish Vanguard (W)</strong>
-<ul>
-<li>Demon Warriors gain 25% increased Health and Slow nearby enemies by 20%.</li>
-</ul></li>
-<li><strong>New Talent: Cydaea's Kiss (Q)</strong>
-<ul>
-<li>Reduces the Channel time of All Shall Burn by 0.5 seconds. If All Shall Burn's Channel lasts its full duration against a Hero, Azmodan is healed for <strong>8%</strong> of his maximum Health.</li>
-</ul></li>
-<li><strong>New Talent: Chain of Command (Trait) (D)</strong>
-<ul>
-<li>Demon Lieutenants also grant 25% increased damage to nearby friendly Minions, Mercenaries, and Azmodan's summoned Demons.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Demonic Smite (Trait)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Sin for Sin (Active)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Forced Recruiment (D)
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>Sin's Grasp (E)
-<ul>
-<li>Moved from Level 4.</li>
-<li>New Functionality:
-<ul>
-<li>Increases the range of All Shall Burn by 20%.</li>
-<li>If All Shall Burn channels for its full duration on a Hero, its cooldown is reduced by 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Hell Rift (E)</strong>
-<ul>
-<li>If the channel lasts its full duration, a Demon Warrior is summoned at your target and your Demon Warriors deal 100% increased damage for 4 seconds.</li>
-</ul></li>
-<li><strong>New Talent: Total Annihilation (Q)</strong>
-<ul>
-<li>Globe of Annihilation damages Heroes for an additional <strong>5%</strong> of their maximum Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>New Talent: Siegebreaker (R)</strong>
-<ul>
-<li>Azmodan's Demons deal 50% increased damage to Structures.</li>
-</ul></li>
-<li><strong>New Talent: Black Pool (R)</strong>
-<ul>
-<li>Globes of Annihilation empowered by Tide of Sin also leave a Black Pool at their impact location for 5 seconds. Enemies within the pool lose 8 Armor per second, and take 56 damage per second.</li>
-</ul></li>
-<li><strong>New Talent: Pride (Q)</strong>
-<ul>
-<li>After gaining 400 Annihilation, Globe of Annihilation's area is increased by 15% and its damage is increased by 100.</li>
-</ul></li>
-<li><strong>New Talent: Trample (Active)</strong>
-<ul>
-<li>Activate to charge a short distance, dealing 240 damage and Slowing enemies caught in the path by 60% for 1 second. 60 second cooldown.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<table>
-<thead>
-<tr>
-  <th><strong>LEVEL (TIER)</strong></th>
-  <th><strong>Azmodan Talents</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>1 (1)</strong></td>
-  <td><em>(!) Greed (Q)</em></td>
-  <td><strong>(!) Gluttony (Q)</strong></td>
-  <td><em>(!) Wrath (Q)</em></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>4 (2)</strong></td>
-  <td>Army of Hell (W)</td>
-  <td><strong>Hellforged Armor (W)</strong></td>
-  <td><strong>Battleborn (Passive)</strong></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>7 (3)</strong></td>
-  <td><em>Art of Chaos (Q)</em></td>
-  <td><em>Bombardment (Q)</em></td>
-  <td><strong>Master of Destruction (E)</strong></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>10 (4)</strong></td>
-  <td>Demonic Invasion (R)</td>
-  <td><em>Tide of Sin (R)</em></td>
-  <td>—</td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>13 (5)</strong></td>
-  <td><em>Brutish Vanguard (W)</em></td>
-  <td><em>Cydaea's Kiss (Q)</em></td>
-  <td><em>Chain of Command (Trait)</em></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>16 (6)</strong></td>
-  <td><em>Total Annihilation (Q)</em></td>
-  <td><em>Hell Rift (E)</em></td>
-  <td><strong>Sin's Grasp (E)</strong></td>
-  <td>—</td>
-</tr>
-<tr>
-  <td><strong>20 (7)</strong></td>
-  <td><em>Siegebreaker (R)</em></td>
-  <td><em>Black Pool (R)</em></td>
-  <td><em>Pride (Q)</em></td>
-  <td><em>Trample (Active)</em></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li>(!) indicates a Quest Talent.</li>
-<li><em>Italic text</em> indicates a <em>NEW</em> Talent.</li>
-<li><strong>Bold</strong> text indicates a <strong>MOVED</strong> Talent.</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> In Azmodan's update, we've embraced and expanded his
-  role as a late-game siege monster. He now has a baseline stacking quest for
-  Globe of Annihilation that's a hybrid of the old Taste for Blood and Sieging
-  Wrath Talents. Whether you're focusing on PvE or PvP objectives you should see
-  Globe of Annihilation become more powerful as a game goes on. To compensate
-  for this increase in baseline power, we've made Globe's impact area more
-  quickly visible to enemies, which will give them a chance to dodge their
-  impending doom. We've also made major mechanical changes to Black Pool (now
-  called Tide of Sin) and focused it solely on Globe's damage without the need
-  for targeting or alt-casting. Demon Warriors are now individually stronger and
-  deal constant AoE damage, but are slower and no longer have multiple charges.
-  The new All Shall Burn should be much more consistently useful and certain
-  Talent combinations can be used boost Azmodan's short to mid-range potential.
-  Demon Lieutenant (formerly General Of Hell) is still a global pushing ability,
-  but is less reliant on needing a large Minion wave to get value. Demonic
-  Invasion's changes are geared towards expanding its use in PvP scenarios
-  without affecting its old structure-bustin' potential. Dropping an Invasion on
-  the enemy team will force them to run away or take a large amount of delayed
-  damage.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="alexstrasza">Alexstrasza</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Life-Binder (R)</strong>
-<ul>
-<li>Now also heals Alexstrasza and her target for 300 Health per second during channeling.</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>New Bundles and Skin Packs</strong></p>
-
-<ul>
-<li>The following new bundles will soon become available for a limited time:
-<ul>
-<li><strong>Heroes of the Dorm 2018 Bundle</strong> – Available now until July 23.</li>
-<li><strong>Raiders of Warchrome Bundle</strong> – Available now until August 6.</li>
-</ul></li>
-<li>The following new skin packs are available now until August 6:
-<ul>
-<li><strong>Dominus Vile Azmodan Skin Pack</strong></li>
-<li><strong>Diesel Speaker Nazeebo Skin Pack</strong></li>
-<li><strong>Roadraider Raynor Skin Pack</strong></li>
-</ul></li>
-</ul>
-
-<p><strong>Warchrome Skins</strong></p>
-
-<ul>
-<li><strong>Azmodan</strong>
-<ul>
-<li>Dominus Vile Azmodan</li>
-<li>Hazardus Vile Azmodan</li>
-<li>Machinus Vile Azmodan</li>
-</ul></li>
-<li><strong>Nazeebo</strong>
-<ul>
-<li>Diesel Speaker Nazeebo</li>
-<li>Hexplug Diesel Speaker Nazeebo</li>
-<li>Neon Diesel Speaker Nazeebo</li>
-</ul></li>
-<li><strong>Raynor</strong>
-<ul>
-<li>Roadraider Raynor</li>
-<li>Ghostly Roadraider Raynor</li>
-<li>Nameless Roadraider Raynor</li>
-</ul></li>
-</ul>
-
-<p><strong>Additional New Skins</strong></p>
-
-<ul>
-<li><strong>Arthas</strong>
-<ul>
-<li>Ruby Frostwyrm Arthas</li>
-<li>Stromgarde Prince Arthas</li>
-</ul></li>
-<li><strong>Azmodan</strong>
-<ul>
-<li>Champion Azmodunk</li>
-</ul></li>
-<li><strong>E.T.C.</strong>
-<ul>
-<li>Fel E.T.C.</li>
-<li>New Glam Metal E.T.C.</li>
-</ul></li>
-<li><strong>Gul'dan</strong>
-<ul>
-<li>Shadowmoon Gul'dan</li>
-</ul></li>
-<li><strong>Kerrigan</strong>
-<ul>
-<li>Champion Cheerleader Kerrigan</li>
-</ul></li>
-<li><strong>Li-Ming</strong>
-<ul>
-<li>Champion Striker Li-Ming</li>
-</ul></li>
-<li><strong>Samuro</strong>
-<ul>
-<li>Fel Burning Blade Samuro</li>
-<li>Draenor Burning Blade Samuro</li>
-</ul></li>
-</ul>
-
-<p><strong>New Mounts</strong></p>
-
-<ul>
-<li><strong>Celestial Billie</strong>
-<ul>
-<li>This Mount will be granted to players the first time they purchase gems using real money following the release of this patch.</li>
-</ul></li>
-<li><strong>Helldorado</strong>
-<ul>
-<li>Helldorado</li>
-<li>Ghostly Helldorado</li>
-<li>Nameless Helldorado</li>
-</ul></li>
-<li><strong>2018 Ranked Season 2 Mount Rewards</strong>
-<ul>
-<li>The following Mounts have been awarded to players based on their performance during 2018 Ranked Season 2:
-<ul>
-<li>Primal Direhorn</li>
-<li>Sholazar Direhorn</li>
-<li>Hellfire Direhorn</li>
-<li>Epic Primal Direhorn</li>
-<li>Epic Sholazar Direhorn</li>
-<li>Epic Hellfire Direhorn</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of typo and tooltip errors across several aspects of the game.</li>
-</ul>
-
-<p><strong>Art</strong></p>
-
-<ul>
-<li><strong>Diablo:</strong> Will no longer appear to face the wrong direction while walking after Shadow Charge is interrupted.</li>
-<li><strong>Malthael:</strong> Fear the Reaper's icon art in the buff bar now correctly matches its icon art in the Talent pane.</li>
-</ul>
-
-<p><strong>Battlegrounds</strong></p>
-
-<ul>
-<li><strong>Haunted Mines:</strong> Fixed an issue that could cause the Grave Golem in the Mines to stop issuing Basic Attacks and casting its Root Ability when defending against nearby Heroes.</li>
-<li><strong>Warhead Junction:</strong> Visual effects created by Boss and Podling Abilities are no longer visible through the Fog of War.</li>
-<li><strong>Try Mode:</strong> Changing the Enemy Hero setting to None and then using the Set Level button no longer causes an enemy Hero to spawn.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Abilities:</strong> Fixed an issue in which certain Abilities, like Stukov's Lurking Arm, could be unintentionally canceled immediately after casting.</li>
-<li><strong>Alarak:</strong> Deadly Charge will now always fire in the direction the player clicked, instead of the direction Alarak was facing when the Ability was cast.</li>
-<li><strong>Alexstrasza:</strong> Can no longer use Cleansing Flame to switch between the upper and lower levels of Haunted Mines.</li>
-<li><strong>Alexstrasza:</strong> Fixed an issue that could cause Cleansing Flame to fail if it was cast in the same moment that Dragonqueen was ending.</li>
-<li><strong>Cassia:</strong> Fixed an issue in which the Plate of the Whale Talent required more Basic Attacks to be absorbed per Health Regeneration stack than intended.</li>
-<li><strong>Deckard:</strong> Can now correctly use Healing Potions while affected by Zarya's Graviton Surge.</li>
-<li><strong>Deckard:</strong> Canceling Stay Awhile and Listen no longer prevents the next source of damage from waking Sleeping enemies.</li>
-<li><strong>Diablo:</strong> No longer becomes unable to use any Abilities if Shadow Charge fails to cast.</li>
-<li><strong>Diablo:</strong> Fixed an issue that could prevent Diablo from using additional Abilities after casting Shadow Charge on an enemy who is using a dash, like Chen's Flying Kick or Illidan's Dive.</li>
-<li><strong>D.Va:</strong> Shift-queuing movement commands during Boosters no longer causes D.Va to become stuck indefinitely.</li>
-<li><strong>Garrosh:</strong> Can now correctly cast Into the Fray on Unstoppable allied Heroes.</li>
-<li><strong>Garrosh:</strong> Warlord's Challenge no longer cancels Abilities that end upon taking damage, like Muradin's Second Wind or Fenix's Shield Capacitor.</li>
-<li><strong>Nova:</strong> After learning Anti-Armor Shells, the Target Info Panel now displays the correct amount of Basic Attack damage dealt.</li>
-<li><strong>Sleep:</strong> Damage over time effects that do not initially apply damage, like Gul'dan's Corruption and Blaze's Combustion, will now correctly wake Sleeping enemies.</li>
-<li><strong>Stukov:</strong> Healing Pathogen's timer is no longer visually removed if the target becomes Polymorphed.</li>
-<li><strong>Takedown Credit:</strong> Fixed an issue in which takedown credit could still be granted to a Hero even if they left combat long before the target was killed.</li>
-<li><strong>The Butcher:</strong> Ruthless Onslaught's visual effects will no longer persist on the target if they interrupt the Ability by entering Stealth.</li>
-<li><strong>Valeera:</strong> Sinister Strike's targeting indicator now more closely matches the Ability's area of effect.</li>
-<li><strong>Varian:</strong> Colossus Smash now moves Varian to a valid landing location, rather than placing him within a space that's already occupied by the target.</li>
-</ul>
-
-<p><strong>Sound</strong></p>
-
-<ul>
-<li><strong>Sonya:</strong> The La Pantera Sonya skin no longer plays sword impact sound effects when attacking Structures.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p>Head to the official Heroes of the Storm forums to discuss this post with
-other players.</p>
 
 <p><a href="https://us.battle.net/forums/en/heroes/index">Official Heroes Forums</a></p>
 ]]></content>

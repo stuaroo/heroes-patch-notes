@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-10-31T20:20:00.000Z</updated>
+  <updated>2018-11-13T18:12:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-11-13 Patch Notes v 2.40.0</title>
+    <published>2018-11-13T18:12:00.000Z</published>
+    <updated>2018-11-13T18:12:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-11-13-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-11-13-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/orphea.png" alt="Orphea" height="60" width="60" /> Orphea</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2018-11-13" target="_blank">Alexstrasza</a>, 
+          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2018-11-13" target="_blank">Anub'arak</a>, 
+          <a href="https://heroespatchnotes.com/hero/guldan.html#patch2018-11-13" target="_blank">Gul'dan</a>, 
+          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-11-13" target="_blank">Hanzo</a>, 
+          <a href="https://heroespatchnotes.com/hero/kaelthas.html#patch2018-11-13" target="_blank">Kael'thas</a>, 
+          <a href="https://heroespatchnotes.com/hero/lili.html#patch2018-11-13" target="_blank">Li Li</a>, 
+          <a href="https://heroespatchnotes.com/hero/liming.html#patch2018-11-13" target="_blank">Li-Ming</a>, 
+          <a href="https://heroespatchnotes.com/hero/nazeebo.html#patch2018-11-13" target="_blank">Nazeebo</a>, 
+          <a href="https://heroespatchnotes.com/hero/orphea.html#patch2018-11-13" target="_blank">Orphea</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2018-11-13" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2018-11-13" target="_blank">Stitches</a>, 
+          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-11-13" target="_blank">Zagara</a>, 
+          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-11-13" target="_blank">Zul'jin</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-10-31 Balance Update v 2.39.2</title>
     <published>2018-10-31T20:20:00.000Z</published>
@@ -258,47 +287,6 @@
           <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-07-25" target="_blank">Yrel</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-07-10 Patch Notes v 2.35.0</title>
-    <published>2018-07-10T16:30:00.000Z</published>
-    <updated>2018-07-10T16:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-07-10-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-10-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-      <h4>Play Mode</h4>
-      <ul>
-        <li><p>Third Ban: "a third Hero ban has been added to draft modes", with two bans during the initial ban phase.</p>
-</li>
-        <li><p>"The number of level 5+ Heroes required to participate in Hero League has been increased from 14 to 16"</p>
-</li>
-        <li><p>Rank decay added for inactive players, new players will "no longer be seeded into placement matches higher than Gold 5", players on an extended break from <abbr title="Hero League" class="initialism">HL</abbr> "will no longer be re-seeded into placement matches based on their performance in other modes"</p>
-</li>
-      </ul>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Mercenaries: "Heroes can no longer Heal, Shield, or target allied Mercenaries with Abilities unless an Ability specifically states that Mercenaries are valid targets"</p>
-</li>
-        <li><p>Alterac Pass: Cavalry "damage bonus...is now a flat 10%, and no longer scales with each completed event"; Boss attack speed reduced 30%, damage increased 30%</p>
-</li>
-        <li><p>Braxis Holdout: Baseline zerg wave significantly buffed, total beacon capture time increased from 30 seconds to 37.5 seconds, Structure damage to zerg increased by 75%</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2018-07-10" target="_blank">Alexstrasza</a>, 
-          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2018-07-10" target="_blank">Azmodan</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2018-07-10" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2018-07-10" target="_blank">Chromie</a>, 
-          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2018-07-10" target="_blank">Raynor</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/azmodan.png" href="https://heroespatchnotes.com/hero/azmodan.html#patch2018-07-10" alt="Azmodan Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/raynor.png" href="https://heroespatchnotes.com/hero/raynor.html#patch2018-07-10" alt="Raynor Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
