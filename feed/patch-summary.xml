@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-11-13T18:12:00.000Z</updated>
+  <updated>2018-11-28T18:59:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-11-28 Patch Notes v 2.40.1</title>
+    <published>2018-11-28T18:59:00.000Z</published>
+    <updated>2018-11-28T18:59:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-11-28-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-11-28-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2018-11-28" target="_blank">Abathur</a>, 
+          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2018-11-28" target="_blank">Alarak</a>, 
+          <a href="https://heroespatchnotes.com/hero/ana.html#patch2018-11-28" target="_blank">Ana</a>, 
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2018-11-28" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-11-28" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2018-11-28" target="_blank">Deckard</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2018-11-28" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-11-28" target="_blank">Hanzo</a>, 
+          <a href="https://heroespatchnotes.com/hero/kerrigan.html#patch2018-11-28" target="_blank">Kerrigan</a>, 
+          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2018-11-28" target="_blank">Mal'Ganis</a>, 
+          <a href="https://heroespatchnotes.com/hero/nova.html#patch2018-11-28" target="_blank">Nova</a>, 
+          <a href="https://heroespatchnotes.com/hero/orphea.html#patch2018-11-28" target="_blank">Orphea</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2018-11-28" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-11-28" target="_blank">Tyrande</a>, 
+          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2018-11-28" target="_blank">Whitemane</a>, 
+          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-11-28" target="_blank">Yrel</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-11-13 Patch Notes v 2.40.0</title>
     <published>2018-11-13T18:12:00.000Z</published>
@@ -255,43 +286,6 @@
       </ul>
       <h4>Reworks</h4>
         <img src="https://heroespatchnotes.com/images/hero/chromie.png" href="https://heroespatchnotes.com/hero/chromie.html#patch2018-08-07" alt="Chromie Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-07-25 Balance Update v 2.35.1</title>
-    <published>2018-07-25T17:59:00.000Z</published>
-    <updated>2018-07-25T17:59:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-07-25-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-07-25-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p>Sgt. Hammer: BFG (R) "no longer deals damage to enemy Structures"</p>
-</li>
-        <li><p>Malfurion: lvl 13 Iceblock talent removed</p>
-</li>
-        <li><p>Cho: lvl 16 Surging Fist "no longer grants Cho Unstoppable"</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2018-07-25" target="_blank">Alarak</a>, 
-          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2018-07-25" target="_blank">Artanis</a>, 
-          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2018-07-25" target="_blank">Azmodan</a>, 
-          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-07-25" target="_blank">Blaze</a>, 
-          <a href="https://heroespatchnotes.com/hero/cho.html#patch2018-07-25" target="_blank">Cho</a>, 
-          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2018-07-25" target="_blank">Deckard</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2018-07-25" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-07-25" target="_blank">Fenix</a>, 
-          <a href="https://heroespatchnotes.com/hero/genji.html#patch2018-07-25" target="_blank">Genji</a>, 
-          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-07-25" target="_blank">Hanzo</a>, 
-          <a href="https://heroespatchnotes.com/hero/kaelthas.html#patch2018-07-25" target="_blank">Kael'thas</a>, 
-          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2018-07-25" target="_blank">Malfurion</a>, 
-          <a href="https://heroespatchnotes.com/hero/murky.html#patch2018-07-25" target="_blank">Murky</a>, 
-          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2018-07-25" target="_blank">Raynor</a>, 
-          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2018-07-25" target="_blank">Sgt. Hammer</a>, 
-          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2018-07-25" target="_blank">Tracer</a>, 
-          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-07-25" target="_blank">Yrel</a>
-        </li>
-      </ul>
       ]]></content>
   </entry>
 </feed>
