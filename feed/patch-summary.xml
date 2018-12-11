@@ -14,8 +14,28 @@
     <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-12-11-patch-notes.html"/>
     <content type="html"><![CDATA[
       <h4>New</h4>
+      <h4>Gameplay</h4>
+      <ul>
+        <li><p>Fort and Keep XP: "removed all Experience earned from destroying a Fort or Keep...now provide[s] your team with a stacking 20% increase in Passively-earned Experience"</p>
+</li>
+        <li><p>XP changes: Passive XP increased 15%, destroying Towers gives 50% less XP, defeating defending Mercenaries gives 100% more XP</p>
+</li>
+        <li><p>Catapults: "when a team destroys a Fort, they'll now gain a Catapult in every 3rd Minion wave"; catapult damage, splash size, range, and health will scale over time</p>
+</li>
+        <li><p>Mercenaries: Bosses and major camps on Hanamura and Volskaya now flagged as Elite; "Elite Mercenary Camps are Unstoppable &amp; Unbribable"</p>
+</li>
+        <li><p>Radius reductions for most heroes "to improve visual clarity when many heroes are on-screen"</p>
+</li>
+      </ul>
+      <h4>Battleground</h4>
+      <ul>
+        <li><p>Volskaya Foundry: "Channelling to enter the Triglav Protector is no longer interrupted by damage"</p>
+</li>
+      </ul>
       <h4>Heroes Affected</h4>
       <ul>
+        <li><p>Armor changes: "the game will apply only the highest (or lowest) amount of Armor to a Hero at any given time" (i.e. Armor does not stack additively)</p>
+</li>
         <li>
           <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2018-12-11" target="_blank">Anub'arak</a>, 
           <a href="https://heroespatchnotes.com/hero/butcher.html#patch2018-12-11" target="_blank">Butcher</a>, 
