@@ -2,10 +2,475 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-12-14T00:54:00.000Z</updated>
+  <updated>2018-12-19T19:04:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2018-12-19 Balance Update</title>
+    <published>2018-12-19T19:04:00.000Z</published>
+    <updated>2018-12-19T19:04:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2018-12-19-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-12-19-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-december-19-2018">Heroes of the Storm Balance Patch Notes – December 19, 2018</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22819175" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22819175" target="_blank">Official Patch Notes</a> <small>v 2.41.2</small></div>
+
+<p>We've just released a new Heroes of the Storm patch to apply a number of
+balance changes and bug fixes.</p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#assassin">Assassin</a></th>
+  <th><a href="#specialist">Specialist</a></th>
+  <th><a href="#support">Support</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#gall">Gall</a></td>
+  <td><a href="#sylvanas">Sylvanas</a></td>
+  <td><a href="#auriel">Auriel</a></td>
+  <td><a href="#cho">Cho</a></td>
+</tr>
+<tr>
+  <td><a href="#orphea">Orphea</a></td>
+  <td><a href="#zagara">Zagara</a></td>
+  <td><a href="#deckard">Deckard</a></td>
+  <td><a href="#dva">D.Va</a></td>
+</tr>
+<tr>
+  <td><a href="#samuro">Samuro</a></td>
+  <td></td>
+  <td><a href="#lt-morales">Lt. Morales</a></td>
+  <td><a href="#malganis">Mal'Ganis</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#uther">Uther</a></td>
+  <td><a href="#stitches">Stitches</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="assassin">Assassin</h3>
+
+<h4 id="gall">Gall</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Runic Blast (E)</strong>
+<ul>
+<li>Damage from 233 to 210</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Taskmaster (Z)
+<ul>
+<li>No longer reduces the cooldown of Shove by 10 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Bomb's Away (E)
+<ul>
+<li>Bonus damage now caps at 200</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Double Trouble (Q)
+<ul>
+<li>Quest unlock cooldown reduction decreased from 1 to .5 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="orphea">Orphea</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Maximum Health reduced from 1662 to 1525</li>
+<li>Health Regen reduced from 3.46 to 3.18</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Crushing Jaws (R)</strong>
+<ul>
+<li>Damage reduced from 275 to 250</li>
+<li>Stun duration reduced from .75 to .5 seconds</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Ancestral Strength (Trait)
+<ul>
+<li>Damage bonus reduced from 25 to 20%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Fright (E)
+<ul>
+<li>The slow effects no longer stack</li>
+</ul></li>
+<li>Backbiter (W)
+<ul>
+<li>Added functionality:
+<ul>
+<li>Passively increase your maximum Health by 10%</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="samuro">Samuro</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Illusion Master (R)</strong>
+<ul>
+<li>Cooldown increased from 8 to 10 seconds</li>
+<li>No longer grants Samuro bonus Basic Attack damage</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Way of Illusion (Q)
+<ul>
+<li>Bonus Attack Damage per quest stack reduced from .5 to .25</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Samuro has become a bit of a nuisance for many
+  players to deal with, particularly when playing against people who are
+  competent in using Illusion Master. We're reducing the power of Way of
+  Illusion and Illusion Master, which should generally reduce the overall damage
+  that Samuro can deal throughout the game.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="sylvanas">Sylvanas</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Maximum Health increased from 1550 to 1650</li>
+<li>Health Regeneration increased from 3.23 to 3.44</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Shadow Dagger (W)</strong>
+<ul>
+<li>Damage increased from 29 to 32</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We are still gathering and evaluating data on
+  Sylvanas, but her win rate is looking a little low, so we are giving her some
+  small preliminary buffs while people figure out how to play with her updated
+  kit and talents.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="zagara">Zagara</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack Damage reduced from 80 to 76</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Hunter Killer (W)</strong>
+<ul>
+<li>Cooldown increased from 14 to 16 seconds</li>
+<li>Damage reduced from 65 to 71</li>
+<li>Health increased from 420 to 450</li>
+<li>Mana cost increased from 60 to 75</li>
+</ul></li>
+<li><strong>Nydus Network (R)</strong>
+<ul>
+<li>Cooldown reduction per Basic Attack reduced from .5 to .4 seconds</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li>Hydralisk Transfusion (W)
+<ul>
+<li>Life Leech reduced from 75 to 60% of damage dealt</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="auriel">Auriel</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Increasing Clarity (Q)
+<ul>
+<li>Damage bonus upon quest completion increased from 150 to 180</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="deckard">Deckard</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Field Study (E)
+<ul>
+<li>Spell Power bonus increased from 15 to 20% per stack</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Ruby (Active)
+<ul>
+<li>Healing increased from 205 to 220</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Potion of Revival (Q)
+<ul>
+<li>Healing increased from 35 to 45%</li>
+</ul></li>
+<li>Super Healing Potion (Q)
+<ul>
+<li>Healing increased from 80 to 100%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Safety in Numbers (Trait)
+<ul>
+<li>Armor bonus increased from 10 to 15</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> After the last round of changes, Deckard's win rate
+  has fallen more than we would like. Rather than put more power back into his
+  base kit, we are buffing some of his talents on various tiers to make his
+  talent choices more impactful and to increase his power growth throughout the
+  game.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lt-morales">Lt. Morales</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Physical Therapy (W)
+<ul>
+<li>No longer grants cooldown reduction when removing Slows with Safeguard
+<ul>
+<li>Additional functionality:
+<ul>
+<li>Reduce the cooldown of Safeguard by 2 seconds</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="uther">Uther</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Armor of Faith (Q)
+<ul>
+<li>Now has a 20-second cooldown</li>
+<li>Additional functionality:
+<ul>
+<li>Now also restores 90 Mana when Uther is Stunned, Rooted, or Silenced</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> There was a large disparity of the value that Uther
+  could receive when taking Armor of Faith against various heroes who have small
+  stuns that proc often against enemies (such as Johanna.) While we still like
+  the idea of this talent turning crowd control against Uther into a boon for
+  him, we want to be able to control its frequency so that his output isn't
+  drastically different when facing off against certain heroes. To compensate
+  for the loss of uptime in these situations, we are giving him a fairly
+  significant Mana return, which should offset the cooldown reduction that he
+  receives on Holy Light when this talent activates.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="cho">Cho</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Maximum Health reduced from 2950 to 2750</li>
+<li>Health regeneration reduced from 6.15 to 5.73</li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="dva">D.Va</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Mech Basic Attack damage increased from 24 to 26</li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="malganis">Mal'Ganis</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Fueled by Torment (W)
+<ul>
+<li>Healing reduced from 12 to 11</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="stitches">Stitches</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Base Maximum Health increased from 3000 to 3060</li>
+<li>Health Regen increased from 6.25 to 6.38</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Chop Chop (W)
+<ul>
+<li>Attack Speed slow duration increased from 4 to 5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Digestive Juices (E)
+<ul>
+<li>Damage reduction bonus increased from 40 to 50%</li>
+<li>Duration increased from 4 to 5 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a number of tooltip issues across the game.</li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Sylvanas:</strong> Fixed an issue preventing Banshee's Curse from working against Battleground event monsters.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-12-13 Hotfix Patch</title>
     <published>2018-12-14T00:54:00.000Z</published>
@@ -8240,41 +8705,6 @@ balance changes and bug fixes.</p>
 <hr />
 
 <p><strong><a href="https://battle.net/forums/heroes/index">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-08-16 Hotfix Patch</title>
-    <published>2018-08-16T18:39:00.000Z</published>
-    <updated>2018-08-16T18:39:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-08-16-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-08-16-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-august-16-2018">Heroes of the Storm Hotfix Patch Notes – August 16, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22298419" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22298419" target="_blank">Official Patch Notes</a> <small>v 2.36.1</small></div>
-
-<p>We've just released a Heroes of the Storm patch in order to address a few live
-bugs. Read on for details.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>Reconnect:</strong> Fixed an issue causing some players to lose control of their Heroes after reconnecting to a game.</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li><strong>Whitemane:</strong> Clemency will now appear under Quick Cast settings in the Hotkeys menu.</li>
-<li><strong>Observer:</strong> Fixed an issue that could cause game crashes if messages were sent as an observer.</li>
-<li><strong>Profile:</strong> Fixed an issue that caused the Profile pane to stop displaying individual seasons after playing a game.</li>
-<li><strong>Profile:</strong> Fixed an issue that caused the statistics pane to fail to update when viewing a mode with no games played.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
 ]]></content>
   </entry>
 </feed>
