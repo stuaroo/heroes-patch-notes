@@ -2,10 +2,240 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2018-12-19T19:04:00.000Z</updated>
+  <updated>2019-01-02T18:59:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-01-02 PTR Patch Notes</title>
+    <published>2019-01-02T18:59:00.000Z</published>
+    <updated>2019-01-02T18:59:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-01-02-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-01-02-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-january-2-2019">Heroes of the Storm PTR Patch Notes – January 2, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22819178" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22819178" target="_blank">Official Patch Notes</a> <small>v 2.42.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until January 8. As always, if you encounter any
+bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
+forum</a> to let us know about
+your experiences.</p>
+
+<hr />
+
+<h3 id="new-hero-imperius-warrior">New Hero: Imperius (Warrior)</h3>
+
+<p>Leader of the Angiris Council and Aspect of Valor, Imperius has valiantly led
+the armies of the High Heavens to innumerous victories over the demons of the
+Burning Hells. While his methods are exact and severe, there is no greater
+defender of righteousness in the entirety of creation.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Valorous Brand</strong>
+<ul>
+<li>Each Basic Ability marks enemy Heroes hit for 10 seconds. Basic Attacks consume the target's marks, dealing 30% bonus damage per mark.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Celestial Charge (Q)</strong>
+<ul>
+<li>Lunge towards a targeted direction and stab, dealing 35 damage. If an enemy Hero is hit, Channel to Stun for 1 second and deal 70 additional damage when it fully finishes.</li>
+</ul></li>
+<li><strong>Solarion's Flare (W)</strong>
+<ul>
+<li>Release a fiery wave that deals 100 damage. Enemies hit by the center take 50 bonus damage and are Slowed by 40% for 3 seconds.</li>
+</ul></li>
+<li><strong>Molten Armor (E)</strong>
+<ul>
+<li>Shroud Imperius in flames for 3 seconds, striking a nearby enemy for 19 damage every 0.25 seconds. Imperius heals for 100% of the damage dealt, with healing doubled versus Heroes.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Angelic Armaments (R)</strong>
+<ul>
+<li>Summon a ring of blazing swords that grants 1000 Shield for 3 seconds.If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 damage to the first enemy hit.</li>
+</ul></li>
+<li><strong>Wrath of the Angiris (R)</strong>
+<ul>
+<li>After 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.After 2 seconds, slam the target into the ground, dealing 375 damage and Stunning them for 1 second.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="user-interface">User Interface</h3>
+
+<ul>
+<li>A number of visual improvements have been implemented for the Boost system both in and out of games.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#specialist">Specialist</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#abathur">Abathur</a></td>
+  <td><a href="#arthas">Arthas</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#diablo">Diablo</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="abathur">Abathur</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Evolve Monstrosity (R)</strong>
+<ul>
+<li>Health increased from 1000 to 1350</li>
+<li>Basic Attack damage increased from 73 to 85</li>
+<li>Health bonus per minion killed reduced from 5 to 2%</li>
+<li>Damage bonus per minion killed reduced from 5 to 2%</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="arthas">Arthas</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Summon Sindragosa (R)</strong>
+<ul>
+<li>No longer disables enemy Summons</li>
+<li>Enemy Summons are now slowed by 60% for 4 seconds</li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="diablo">Diablo</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Soul Shield (Passive)
+<ul>
+<li>Soul Shield will now dynamically update if Diablo gains Souls while the Spell Armor is active</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are only available for a limited time!
+<ul>
+<li>Imperius Heroic Bundle</li>
+<li>Angiris Council Bundle</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcer</strong></p>
+
+<ul>
+<li>Imperius Announcer</li>
+<li>Johanna Announcer</li>
+<li>Ilarian Announcer</li>
+</ul>
+
+<p><strong>New Mount</strong></p>
+
+<ul>
+<li><strong>Crystalline Saddled Battle Beast</strong></li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Imperius</strong>
+<ul>
+<li>Vindicator Imperius</li>
+<li>Indomitable Imperius</li>
+<li>Demonic Imperius</li>
+<li>Abyssal Demonic Imperius</li>
+<li>Vile Demonic Imperius</li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits, Sprays, and Emojis</strong></p>
+
+<ul>
+<li>Several new emoji packs and portraits have also been added to the game. </li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li>Fixed a number of tooltip issues and inaccuracies across the game.</li>
+<li>Fixed an issue causing Battleground names to be difficult to read on the Hero Select screen of Custom Games.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Brightwing:</strong> Fixed an issue preventing the Unstable Anomaly talent from increasing Polymorph's slow.</li>
+<li><strong>Malthael:</strong> Fixed an issue that caused some of Malthael's spell effects to become visible in the fog of war.</li>
+<li><strong>Zul'jin:</strong> Fixed an issue that could cause the No Mercy! Talent to reduce damage dealt by Grievous Throw.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2018-12-19 Balance Update</title>
     <published>2018-12-19T19:04:00.000Z</published>
@@ -8163,549 +8393,6 @@ to reunite the Prime Evils and enslave humanity.</p>
 
 <ul>
 <li>Fixed an issue that caused responsiveness degradation when using the middle-mouse button on fullscreen settings.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://battle.net/forums/heroes/index">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-08-22 Balance Update</title>
-    <published>2018-08-22T18:03:00.000Z</published>
-    <updated>2018-08-22T18:03:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-08-22-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-08-22-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-august-22-2018">Heroes of the Storm Patch Notes – August 22, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22358469" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22358469" target="_blank">Official Patch Notes</a> <small>v 2.36.2</small></div>
-
-<p>We've just released a new Heroes of the Storm patch to apply a number of
-balance changes and bug fixes.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#chromie">Chromie</a></td>
-  <td><a href="#azmodan">Azmodan</a></td>
-  <td><a href="#deckard">Deckard</a></td>
-  <td><a href="#artanis">Artanis</a></td>
-</tr>
-<tr>
-  <td><a href="#kelthuzad">Kel'Thuzad</a></td>
-  <td></td>
-  <td><a href="#li-li">Li Li</a></td>
-  <td><a href="#sonya">Sonya</a></td>
-</tr>
-<tr>
-  <td><a href="#raynor">Raynor</a></td>
-  <td></td>
-  <td><a href="#lt-morales">Lt. Morales</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#tychus">Tychus</a></td>
-  <td></td>
-  <td><a href="#stukov">Stukov</a></td>
-  <td></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td><a href="#whitemane">Whitemane</a></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="chromie">Chromie</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Sand Blast (Q)</strong>
-<ul>
-<li>Damage increased from 300 to 315</li>
-</ul></li>
-<li><strong>Dragon's Breath (W)</strong>
-<ul>
-<li>Damage increased from 360 to 390</li>
-</ul></li>
-<li><strong>Bronze Talons (Passive)</strong>
-<ul>
-<li>Bonus Basic Attack damage increased from 100 to 125%</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kelthuzad">Kel'Thuzad</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Death and Decay (Q)</strong>
-<ul>
-<li>Cooldown reduced from 6 to 5 seconds</li>
-<li>Periodic damage increased from 70 to 82</li>
-</ul></li>
-<li><strong>Frost Nova (W)</strong>
-<ul>
-<li>Cooldown reduced from 10 to 8 seconds</li>
-<li>Damage reduced from 212 to 180</li>
-</ul></li>
-<li><strong>Chains of Kel'Thuzad (E)</strong>
-<ul>
-<li>Cooldown reduced from 12 to 10 seconds</li>
-<li>Can no longer be used on Structures</li>
-<li>Duration reduced from 4 to 3 seconds</li>
-</ul></li>
-<li><strong>Master of the Cold Dark (Trait)</strong>
-<ul>
-<li>First reward no longer grants cooldown reduction</li>
-<li>First reward now grants the Glacial Spike ability</li>
-</ul></li>
-<li><strong>Frost Blast (R)</strong>
-<ul>
-<li>Damage increased from 100 to 115</li>
-<li>Minimum speed increased from 1 to 5
-<ul>
-<li>This matches the starting speed of Pyroblast</li>
-</ul></li>
-</ul></li>
-<li><strong>Shadow Fissure (R)</strong>
-<ul>
-<li>Damage reduced from 400 to 360</li>
-<li>Cooldown reduced from 20 to 16 seconds</li>
-<li>Mana cost reduced from 60 to 45</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong> </p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Blighted Frost (W)
-<ul>
-<li>Bonus damage increased from 50 to 75%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Strip Shields (E)
-<ul>
-<li>Shield amount increased from 120 to 128</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Glacial Spike (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>New Talent: Ice Cold (1)</strong>
-<ul>
-<li>Reduce the cooldown of Glacial Spike by 5 seconds and increase its damage by 250%</li>
-</ul></li>
-<li>Accelerated Decay (Q)
-<ul>
-<li>Bonus damage decreased from 25 to 20%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Chain Link (E)
-<ul>
-<li>Now only requires 1 Hero to be pulled by Chains of Kel'Thuzad</li>
-<li>Cooldown reduction increased from 4 to 5 seconds</li>
-</ul></li>
-<li>Icy Grasp (W)
-<ul>
-<li>New functionality:
-<ul>
-<li>Increase the slow of Frost Nova by 10%. Each time Kel'Thuzad deals damage to enemy Heroes that are slowed by Frost Nova, its duration is increased by .5 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Arcane Echoes (Q)
-<ul>
-<li>Cooldown reduction increased from 1.25 to 1.5 seconds</li>
-</ul></li>
-<li>Hungering Cold (W)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>Enemies that are rooted take an additional 55 damage each time they are damaged by Kel'Thuzad</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> These changes to Kel'Thuzad are being made with two
-  goals in mind. Our first goal, which is in line with many changes we make, is
-  to improve talent diversity. We've moved Glacial Spike into his baseline first
-  quest reward, which should both help his Level 7 talent choices as well as
-  open up new build possibilities with the increased flexibility on that tier.
-  Second, we want to slightly reduce his variance and increase his reliability.
-  We've moved most of his cooldown reduction reward baseline, and with Glacial
-  Spike being his first quest reward, he can now combo enemy Heroes anywhere in
-  the field, without needing to rely purely on having other enemy Heroes or
-  structures nearby. In exchange for this, we've removed some of his burst
-  damage and the ability to use Chains of Kel'Thuzad on structures. While
-  chaining enemy Heroes to structures made for some cool moments, it could be
-  oppressive to play against, particularly on maps with large pushing objectives
-  like the Punisher on Infernal Shrines.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="raynor">Raynor</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack Damage increased from 92 to 103</li>
-<li>Basic Attack Damage scaling reduced from 5 to 4%</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Ace in The Hole (Passive)
-<ul>
-<li>Damage bonus reduced from 20 to 15%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Giddy Up (W)
-<ul>
-<li>Bonus baseline Movement Speed reduced from 10 to 8%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Paint Them Red (Q)
-<ul>
-<li>Healing done from Penetrating Round decreased from 100 to 90%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tychus">Tychus</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage increased from 48 to 50</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 16</strong>
-<ul>
-<li>Lead Rain (Q)
-<ul>
-<li>Slow increased from 20 to 30% </li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="azmodan">Azmodan</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Greed (Q)
-<ul>
-<li>Quest completion 20% damage bonus now applies to all non-heroic targets, not just Minions and Mercs.</li>
-</ul></li>
-<li>Wrath (Q)
-<ul>
-<li>Quest completion bonus damage reduced from 100 to 75% of Annihilation value.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Hellforged Armor (W/D)
-<ul>
-<li>Armor bonus reduced from 30 to 25</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Total Annihilation (Q)
-<ul>
-<li>Damage reduced from 5 to 4% of target's maximum Health</li>
-</ul></li>
-<li>Hell Rift (E)
-<ul>
-<li>Demon Warrior buff duration reduced from 6 to 5 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="deckard">Deckard</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li>Ancient Blessings (Trait)
-<ul>
-<li>Damage reduced from 68 to 62</li>
-<li>Healing reduced from 100 to 90</li>
-</ul></li>
-<li>Potion of Revival (Q)
-<ul>
-<li>Healing increased from 30 to 35%</li>
-</ul></li>
-<li>Super Healing Potion (Q)
-<ul>
-<li>Healing bonus increased from 75 to 80%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Bottomless Flask (Q)
-<ul>
-<li>Recharge time increased from 6 to 8 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="li-li">Li Li</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Cloud Serpent (W)</strong>
-<ul>
-<li>No longer has a cast time (Currently .25) and no longer cancels existing move orders.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li>Gale Force (E)
-<ul>
-<li>Blind duration bonus reduced from 1 to .75 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Mistweaver (Active)
-<ul>
-<li>Heal reduced from 165 to 149</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lt-morales">Lt. Morales</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Healing Beam (Q)</strong>
-<ul>
-<li>No longer cancels existing move orders.</li>
-</ul></li>
-<li><strong>Safeguard (W)</strong>
-<ul>
-<li>No longer cancels existing move orders.</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stukov">Stukov</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Base Maximum Health increased from 1682 to 1765</li>
-<li>Health Regeneration increased from 3.5 to 3.7</li>
-<li>Basic Attack damage increased from 249 to 261</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Vigorous Reuptake (Trait)
-<ul>
-<li>Bonus Healing increased from 25 to 30%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="whitemane">Whitemane</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Clemency (W)
-<ul>
-<li>Passive cooldown reduction increased from 3 to 4 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Unwavering Faith (Q)
-<ul>
-<li>Desperate Plea Mana cost reduction decreased from 30 to 15</li>
-</ul></li>
-<li>High Inquisitor (W)
-<ul>
-<li>Mana return per Desperation stack increased from 60 to 75</li>
-</ul></li>
-<li>Indulgence (E)
-<ul>
-<li>Secondary lash Mana return reduced from 30 to 25</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Radiance (Q)
-<ul>
-<li>Heal amount reduced from 200 to 175</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Judgment Day (R)
-<ul>
-<li>Damage bonus reduced from 50 to 30%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="artanis">Artanis</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Psionic Synergy (E)
-<ul>
-<li>Armor amount increased from 15 to 20</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Plasma Burn (Trait)
-<ul>
-<li>Damage increased from 60 to 70</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="sonya">Sonya</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Shattered Ground (W)
-<ul>
-<li>Splash damage bonus increased from 75 to 100%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Giant Slammer (W)
-<ul>
-<li>New Functionality:
-<ul>
-<li>Seismic Slam and Basic Attacks deal 1.25% of the target's Maximum Health as bonus damage</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed an issue that could cause Damage Reduction visual effects to persist indefinitely.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Cassia:</strong> Fixed an issue that could cause Valkyrie to fail to pull its target if Cassia entered movement commands in the direction opposite the pull.</li>
-<li><strong>Kel'Thuzad:</strong> Fixed some confusing wording in the tooltip for the Hungering Cold talent.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
