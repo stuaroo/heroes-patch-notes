@@ -125,6 +125,15 @@ defender of righteousness in the entirety of creation.</p>
 </ul></li>
 </ul>
 
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We discovered an issue with Evolve Monstrosity where
+  its damage scaling was incorrect. To fix the bug, we would have massively
+  increased its Basic Attack damage once it was fully stacked, which is already
+  fairly high. Instead, we are taking this opportunity to re-tune the
+  Monstrosity so that it is not quite so powerful once fully stacked, but is
+  stronger right away, which should be an overall buff in most use cases.</p>
+</blockquote>
+
 <p><a href="#heroes">Return</a></p>
 
 <hr />
@@ -142,6 +151,14 @@ defender of righteousness in the entirety of creation.</p>
 <li>Enemy Summons are now slowed by 60% for 4 seconds</li>
 </ul></li>
 </ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> This change is primarily being made to address cases
+  where Sindragosa would disable high-impact Summons like Jaina's Water
+  Elemental for exceptionally long periods of time. Now enemy Summons who find
+  themselves in the sights of a giant, undead Frost dragon will only tremble in
+  fear instead of being frozen by it.</p>
+</blockquote>
 
 <p><a href="#heroes">Return</a></p>
 
@@ -1338,6 +1355,22 @@ Sylvanas &amp; Stitches gameplay updates, and more! Read on for more details.</p
 <hr />
 
 <h3 id="warrior">Warrior</h3>
+
+<h4 id="cho">Cho</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><span class="text-warning">Twilight Veil (Active)</span> <a class="label label-warning" href="https://github.com/heroespatchnotes/heroes-talents/commit/caf522e6f64e5678bbc028a1ba7432c8d98cbfcc#diff-ca62b3d665d381dc025fd344cd474aad" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
+<ul>
+<li><span class="text-warning">Activatable armor bonus decreased from 200% to 100%</span></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
 
 <h4 id="stitches">Stitches</h4>
 
