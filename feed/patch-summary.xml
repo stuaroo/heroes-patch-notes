@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2018-12-19T19:04:00.000Z</updated>
+  <updated>2019-01-08T18:12:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-01-08 Patch Notes v 2.42.0</title>
+    <published>2019-01-08T18:12:00.000Z</published>
+    <updated>2019-01-08T18:12:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-01-08-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-01-08-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/imperius.png" alt="Imperius" height="60" width="60" /> Imperius</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2019-01-08" target="_blank">Abathur</a>, 
+          <a href="https://heroespatchnotes.com/hero/arthas.html#patch2019-01-08" target="_blank">Arthas</a>, 
+          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2019-01-08" target="_blank">Diablo</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2018-12-19 Balance Update v 2.41.2</title>
     <published>2018-12-19T19:04:00.000Z</published>
@@ -301,26 +320,6 @@
           <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-09-19" target="_blank">Yrel</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-09-04 Patch Notes v 2.37.0</title>
-    <published>2018-09-04T17:35:00.000Z</published>
-    <updated>2018-09-04T17:35:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-09-04-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-09-04-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/mephisto.png" alt="Mephisto" height="60" width="60" /> Mephisto</h3>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2018-09-04" target="_blank">Alexstrasza</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-09-04" target="_blank">Tyrande</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/tyrande.png" href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-09-04" alt="Tyrande Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>

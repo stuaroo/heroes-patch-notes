@@ -2,10 +2,254 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-01-02T18:59:00.000Z</updated>
+  <updated>2019-01-08T18:12:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-01-08 Patch Notes</title>
+    <published>2019-01-08T18:12:00.000Z</published>
+    <updated>2019-01-08T18:12:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-01-08-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-01-08-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-january-8-2019">Heroes of the Storm Patch Notes – January 8, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22856152" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22856152" target="_blank">Official Patch Notes</a> <small>v 2.42.0</small></div>
+
+<p>We've just released our newest patch to the live servers which brings
+Imperius, Archangel of Valor, to the Nexus! Read on for details.</p>
+
+<hr />
+
+<h3 id="new-hero-imperius-warrior">New Hero: Imperius (Warrior)</h3>
+
+<p>Leader of the Angiris Council and Aspect of Valor, Imperius has valiantly led
+the armies of the High Heavens to innumerous victories over the demons of the
+Burning Hells. While his methods are exact and severe, there is no greater
+defender of righteousness in the entirety of creation.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Valorous Brand</strong>
+<ul>
+<li>Each Basic Ability marks enemy Heroes hit for 10 seconds. Basic Attacks consume the target's marks, dealing 30% bonus damage per mark.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Celestial Charge (Q)</strong>
+<ul>
+<li>Lunge towards a targeted direction and stab, dealing 35 damage. If an enemy Hero is hit, Channel to Stun for 1 second and deal 70 additional damage when it fully finishes.</li>
+</ul></li>
+<li><strong>Solarion's Flare (W)</strong>
+<ul>
+<li>Release a fiery wave that deals 100 damage. Enemies hit by the center take 50 bonus damage and are Slowed by 40% for 3 seconds.</li>
+</ul></li>
+<li><strong>Molten Armor (E)</strong>
+<ul>
+<li>Shroud Imperius in flames for 3 seconds, striking a nearby enemy for 19 damage every 0.25 seconds. Imperius heals for 100% of the damage dealt, with healing doubled versus Heroes.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Angelic Armaments (R)</strong>
+<ul>
+<li>Summon a ring of blazing swords that grants 1000 Shield for 3 seconds.If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 damage to the first enemy hit.</li>
+</ul></li>
+<li><strong>Wrath of the Angiris (R)</strong>
+<ul>
+<li>After 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.After 2 seconds, slam the target into the ground, dealing 375 damage and Stunning them for 1 second.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="user-interface">User Interface</h3>
+
+<ul>
+<li>A number of visual improvements have been implemented for the Boost system both in and out of games.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#specialist">Specialist</a></th>
+  <th><a href="#warrior">Warrior</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#abathur">Abathur</a></td>
+  <td><a href="#arthas">Arthas</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#diablo">Diablo</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="specialist">Specialist</h3>
+
+<h4 id="abathur">Abathur</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Evolve Monstrosity (R)</strong>
+<ul>
+<li>Health increased from 1000 to 1350</li>
+<li>Basic Attack damage increased from 73 to 85</li>
+<li>Health bonus per minion killed reduced from 5 to 2%</li>
+<li>Damage bonus per minion killed reduced from 5 to 2%</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We discovered an issue with Evolve Monstrosity where
+  its damage scaling was incorrect. To fix the bug, we would have massively
+  increased its Basic Attack damage once it was fully stacked, which is already
+  fairly high. Instead, we are taking this opportunity to re-tune the
+  Monstrosity so that it is not quite so powerful once fully stacked, but is
+  stronger right away, which should be an overall buff in most use cases.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="warrior">Warrior</h3>
+
+<h4 id="arthas">Arthas</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Summon Sindragosa (R)</strong>
+<ul>
+<li>No longer disables enemy Summons</li>
+<li>Enemy Summons are now slowed by 60% for 4 seconds</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> This change is primarily being made to address cases
+  where Sindragosa would disable high-impact Summons like Jaina's Water
+  Elemental for exceptionally long periods of time. Now enemy Summons who find
+  themselves in the sights of a giant, undead Frost dragon will only tremble in
+  fear instead of being frozen by it.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="diablo">Diablo</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Soul Shield (Passive)
+<ul>
+<li>Soul Shield will now dynamically update if Diablo gains Souls while the Spell Armor is active</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are only available for a limited time!
+<ul>
+<li>Imperius Heroic Bundle</li>
+<li>Angiris Council Bundle</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcer</strong></p>
+
+<ul>
+<li>Imperius Announcer</li>
+<li>Johanna Announcer</li>
+<li>Ilarian Announcer</li>
+</ul>
+
+<p><strong>New Mount</strong></p>
+
+<ul>
+<li><strong>Crystalline Saddled Battle Beast</strong></li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Imperius</strong>
+<ul>
+<li>Vindicator Imperius</li>
+<li>Indomitable Imperius</li>
+<li>Demonic Imperius</li>
+<li>Abyssal Demonic Imperius</li>
+<li>Vile Demonic Imperius</li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits, Sprays, and Emojis</strong></p>
+
+<ul>
+<li>Several new emoji packs and portraits have also been added to the game. </li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li>Fixed a number of tooltip issues and inaccuracies across the game.</li>
+<li>Fixed an issue causing Battleground names to be difficult to read on the Hero Select screen of Custom Games.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, and Talents</strong></p>
+
+<ul>
+<li><strong>Brightwing:</strong> Fixed an issue preventing the Unstable Anomaly talent from increasing Polymorph's slow.</li>
+<li><strong>Malthael:</strong> Fixed an issue that caused some of Malthael's spell effects to become visible in the fog of war.</li>
+<li><strong>Zul'jin:</strong> Fixed an issue that could cause the No Mercy! Talent to reduce damage dealt by Grievous Throw.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-01-02 PTR Patch Notes</title>
     <published>2019-01-02T18:59:00.000Z</published>
@@ -7892,435 +8136,6 @@ to reunite the Prime Evils and enslave humanity.</p>
 <li>No longer requires Heroic targets to gain stacks</li>
 <li>No longer only targets Heroic units (but does prefer them)</li>
 <li><span class="text-warning">Bonus Basic Attack range decreased from 1.1 to 1</span></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While we enjoy the flexibility of Tyrande's kit, she
-  has struggled to find a home in the current meta. As we started looking at
-  broadening our Hero roles, we felt like we had an opportunity to make some
-  simple yet very substantial changes to our Night Elf Priestess. This rework
-  pulls her slightly away from her hybrid status, reducing her damage output
-  potential while introducing a lot more healing potential. While she keeps the
-  vast majority of her older talents, they have been updated and shuffled to
-  better coincide with her changes. We have enjoyed playing her internally and
-  are excited to see what our players can do with her!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>New Bundles</strong></p>
-
-<ul>
-<li>The following new bundles are available for a limited time! Be sure to check out the latest In-Development blog for more details.
-<ul>
-<li>Mephisto Heroic Bundle</li>
-<li>Hellforged Heroes Bundle</li>
-</ul></li>
-</ul>
-
-<p><strong>New Announcers</strong></p>
-
-<ul>
-<li>Mephisto</li>
-<li>Beleth</li>
-<li>Athena</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Mephisto</strong>
-<ul>
-<li>Star Wraith Mephisto</li>
-<li>Cybernetic Star Wraith Mephisto</li>
-<li>Eternal Star Wraith Mephisto</li>
-<li>Golden Mephisto</li>
-<li>Soulburn Mephisto</li>
-</ul></li>
-</ul>
-
-<p><strong>New Portraits, Sprays, and Emojis</strong></p>
-
-<ul>
-<li>Several new emoji packs and portraits have also been added to the game. You can get a look in our most recent In-Development blog.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>Loading Screen:</strong> Fixed an issue that could cause a vertical black line to appear on loading screens in certain resolutions.</li>
-<li><strong>Custom Games:</strong> Fixed an issue that could cause game stalls when launching custom games with more than 8 players.</li>
-</ul>
-
-<p><strong>Art</strong></p>
-
-<ul>
-<li>Fixed an issue that could cause Heroes to appear to walk on their mounts if certain abilities were cast immediately after mounting.</li>
-</ul>
-
-<p><strong>Battlegrounds</strong></p>
-
-<ul>
-<li><strong>Volskaya Foundry:</strong> Fixed an issue that caused Time Stop effects to fail to cancel channels on the Volskaya Protector.</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>The Unstoppable effect now has a status duration bar underneath nameplates.</li>
-<li><strong>Alarak:</strong> Alarak's Deadly Charge now has an icon in the death recap screen.</li>
-<li><strong>Ana:</strong> Ana's abilities amplified by Nano Boost's Spell Power buff now display critical effects.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Cassia:</strong> Fixed an issue that could cause the stun effect from Valkyrie to end early if the target collided with terrain.</li>
-<li><strong>Diablo:</strong> Fixed an issue that prevented Diablo from being thrown by Garrosh's Wrecking Ball if Diablo was casting Overpower.</li>
-<li><strong>Johanna &amp; Li-Ming:</strong> Fixed an issue that prevented some “marked” effects from being consumed if the target was Shielded or Protected.</li>
-<li><strong>Lunara &amp; Stitches:</strong> Fixed an issue that could cause permanent screen shaking if Lunara was hooked by Stitches under certain conditions.</li>
-</ul>
-
-<p><strong>Mac</strong></p>
-
-<ul>
-<li>Fixed an issue that caused responsiveness degradation when using the middle-mouse button on fullscreen settings.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://battle.net/forums/heroes/index">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-08-27 PTR Patch Notes</title>
-    <published>2018-08-27T17:54:00.000Z</published>
-    <updated>2018-08-27T17:54:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-08-27-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-08-27-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-august-27-2018">Heroes of the Storm PTR Patch Notes – August 27, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22358471" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22358471" target="_blank">Official Patch Notes</a> <small>v 2.37.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until September 3. As always, if you encounter
-any bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
-forum</a> to let us know about
-your experiences.</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<ul>
-<li>Certain game visuals now appear smoother, such as Channel/Duration progress bars and Fog of War.</li>
-<li><strong>Dynamic Spell Power Updating</strong>
-<ul>
-<li>Ability Damage is now calculated while abilities are in flight instead of only at the time of cast.</li>
-</ul></li>
-</ul>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<ul>
-<li><strong>Hanamura Temple</strong>
-<ul>
-<li>Hanamura has been renamed to Hanamura Temple and has received a significant gameplay update.</li>
-<li>Hanamura Temple has been added to the Battleground Rotation.</li>
-</ul></li>
-<li><strong>Battleground Rotation</strong>
-<ul>
-<li>The Unranked Battleground Rotation has been updated to the following (For PTR, only Hanamura Temple will be available in queues):
-<ul>
-<li>Cursed Hollow</li>
-<li>Dragon Shire</li>
-<li>Alterac Pass</li>
-<li>Hanamura Temple</li>
-<li>Towers of Doom</li>
-<li>Infernal Shrines</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<hr />
-
-<h3 id="new-hero-mephisto">New Hero: Mephisto</h3>
-
-<p>Dul'Mephistos, the Lord of Hatred, is said to the be most cunning among his
-brethren. Even while imprisoned in a soulstone, his vile influence corrupted
-the Zakarum and manipulated them into breaking the seal, giving him free reign
-to reunite the Prime Evils and enslave humanity.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Lord of Hatred</strong>
-<ul>
-<li>Hitting enemy Heroes with Basic Abilities reduces Mephisto's Basic Ability cooldowns.</li>
-<li>Skull Missile and Shade of Mephisto grant 1.5 seconds of cooldown reduction per Hero hit, and Lightning Nova grants 0.3 seconds per Hero hit.</li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Skull Missile (Q)</strong>
-<ul>
-<li>Conjure a skull that travels in the target direction after 0.75 seconds, dealing 127 damage to enemies hit and Slowing Heroes hit by 25% for 2 seconds.</li>
-</ul></li>
-<li><strong>Lightning Nova (W)</strong>
-<ul>
-<li>A ring of lightning appears around Mephisto for 2.5 seconds. Enemies within the ring take 48 damage every 0.25 seconds.</li>
-<li>Each time a cast of Lightning Nova hits a Hero, its damage is increased by 4%, up to 40%.</li>
-</ul></li>
-<li><strong>Shade of Mephisto (E)</strong>
-<ul>
-<li>Teleport to a location, dealing 78 damage to nearby enemies and leaving behind a Shade of Mephisto at Mephisto's original location. After 2.5 seconds, Mephisto is teleported back to the Shade's location.</li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Consume Souls (R)</strong>
-<ul>
-<li>Channel for 2.5 seconds, revealing all enemy Heroes. After the Channel completes, all enemy Heroes take 357 damage and are Slowed by 40% for 2.5 seconds.</li>
-</ul></li>
-<li><strong>Durance of Hate (R)</strong>
-<ul>
-<li>After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2 seconds and deal 160 damage to them over the same duration.</li>
-<li>Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="user-interface">User Interface</h3>
-
-<p><strong>Jaina</strong> </p>
-
-<ul>
-<li>Jaina has received updated UI elements for her baseline Frostbite quest</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="tyrande">Tyrande</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage reduced from 82 to 55</li>
-<li>Basic Attack range increased from 5.5 to 6</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Light of Elune (Q)</strong>
-<ul>
-<li>Heal increased from 270 to 275</li>
-<li>Cooldown increased from 11 to 15 seconds</li>
-<li>Mana cost reduced from 30 to 10</li>
-<li>New functionality:
-<ul>
-<li>Now has two charges that refresh simultaneously.</li>
-<li>The cooldown is lowered by 1.5 seconds every time you Basic Attack.</li>
-<li>The cooldown is lowered by 1.5 seconds every time you damage an enemy Hero with an ability.</li>
-<li>There is a one second cooldown between charge uses.</li>
-</ul></li>
-</ul></li>
-<li><strong>Sentinel (W)</strong>
-<ul>
-<li>Mana cost reduced from 70 to 50</li>
-<li>Cooldown reduced from 18 to 15 seconds</li>
-<li>Damage reduced from 165 to 120</li>
-<li>The Sentinel baseline quest has been removed.</li>
-</ul></li>
-<li><strong>Lunar Flare (E)</strong>
-<ul>
-<li>Damage reduced from 195 to 150</li>
-</ul></li>
-<li><strong>Hunter's Mark (D)</strong>
-<ul>
-<li>Armor reduction decreased from 25 to 15</li>
-<li>Range increased from 5.5 to 6</li>
-</ul></li>
-<li><strong>Shadowstalk (R)</strong>
-<ul>
-<li>Cooldown increased from 60 to 80 seconds</li>
-<li>New functionality:
-<ul>
-<li>Grant Stealth to all Allied Heroes and heal them for 400 Health over 10 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Moonlit Arrows (Q)
-<ul>
-<li>Moved from Level 4</li>
-</ul></li>
-<li>Celestial Attunement (Q)
-<ul>
-<li>Moved from Level 4</li>
-<li>New functionality:
-<ul>
-<li>Light of Elune now removes all Stuns and Slows from its target</li>
-</ul></li>
-</ul></li>
-<li>Kaldorei Resistance (Q)
-<ul>
-<li>Moved from Level 4</li>
-<li>Duration of Spell Armor decreased from 6 to 3 seconds</li>
-<li>Maximum stacks of Spell Armor decreased from 3 to 2</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Ranger (W)
-<ul>
-<li>Moved from Level 1</li>
-<li>Bonus travel damage increased from 75 to 150%</li>
-<li>Added functionality:
-<ul>
-<li>Activate to have your next Sentinel pierce all targets. 30 second cooldown.</li>
-</ul></li>
-</ul></li>
-<li>Lunar Blaze (E)
-<ul>
-<li>Moved from Level 1</li>
-<li>New functionality:
-<ul>
-<li>Increase the range of Lunar Flare by 50%</li>
-<li>Quest: Hitting a Hero increases the damage of Lunar Flare by 5% up to a maximum of 100%</li>
-</ul></li>
-</ul></li>
-<li>Trueshot Aura (Active)
-<ul>
-<li>Moved from Level 7</li>
-<li>New functionality:
-<ul>
-<li>Tyrande permanently gains 20% Basic Attack damage.</li>
-<li>Activate - Instantly reset Hunter's Mark and grant nearby allies 20% additional Basic Attack damage for 5 seconds. 60 second cooldown.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Mark of Mending (D)
-<ul>
-<li>Moved from Level 16</li>
-</ul></li>
-<li>Elune's Chosen (Active)
-<ul>
-<li>Moved from Level 16</li>
-<li>Duration increased from 5 to 10 seconds</li>
-<li>Your Basic Attacks heal your target for 200% of the damage they deal. 30 second Cooldown.</li>
-</ul></li>
-<li><strong>New Talent: Everlasting Light (Q)</strong>
-<ul>
-<li>The healing granted by the second charge of Light of Elune is increased by 40% if used on a different target.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Quickening Blessing (Q)
-<ul>
-<li>Movement Speed decreased from 30 to 20%</li>
-<li>Added functionality:
-<ul>
-<li>Tyrande permanently gains 10% Movement Speed</li>
-</ul></li>
-</ul></li>
-<li>Ranger's Mark (D)
-<ul>
-<li>Moved from Level 1</li>
-<li>New functionality:
-<ul>
-<li>Basic Attacks lower the cooldown of Hunter's Mark by 1 second. Tyrande's Basic Attacks against marked targets extend the duration of Hunter's Mark by .5 seconds</li>
-</ul></li>
-</ul></li>
-<li>Harsh Moonlight (W)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>The first Hero hit with Sentinel is slowed by 40% and deals 40% less damage for 4 seconds.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Overflowing Light (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Huntress' Fury (D)
-<ul>
-<li>Moved from Level 7</li>
-<li>Basic Attacks now splash to all nearby targets</li>
-<li>Range increase reduced from 50 to 25%</li>
-<li>Added functionality:
-<ul>
-<li>Increases the duration of Hunter's Mark by 1 second</li>
-</ul></li>
-</ul></li>
-<li>Empower (W)
-<ul>
-<li>Moved from Level 13</li>
-<li>New functionality:
-<ul>
-<li>Reduce the cooldown of Sentinel by 3 seconds. The first enemy hit takes an additional 7% of their Maximum Health in damage.</li>
-</ul></li>
-</ul></li>
-<li>Darnassian Archery (Passive)
-<ul>
-<li>Moved from Level 7</li>
-<li>Damage bonus per attack increased from 5 to 10%</li>
-<li>Duration increased from 4 to 8 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Eyes of the Huntress (R)
-<ul>
-<li>Enemy reveal duration reduced from 3 to 2 seconds</li>
-<li>Added functionality:
-<ul>
-<li>Increase Shadowstalk's heal by 50% for allies who are under 50% of their Maximum Health</li>
-</ul></li>
-</ul></li>
-<li>Shooting Star (Passive)
-<ul>
-<li>Attacks needed reduced from 10 to 8</li>
-<li>No longer requires Heroic targets to gain stacks</li>
-<li>No longer only targets Heroic units (but does prefer them)</li>
 </ul></li>
 </ul></li>
 </ul>
