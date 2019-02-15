@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-02-12T18:24:00.000Z</updated>
+  <updated>2019-02-15T23:59:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-02-15 Hotfix Patch</title>
+    <published>2019-02-15T23:59:00.000Z</published>
+    <updated>2019-02-15T23:59:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-02-15-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-02-15-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-february-15-2019">Heroes of the Storm Hotfix Patch Notes – February 15, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22887058" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22887058" target="_blank">Official Patch Notes</a> <small>v 2.43.1</small></div>
+
+<p>We've recently released a Heroes of the Storm patch in order to address a few
+live bugs. Read on for details.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li><strong>AI:</strong> A.I. Heroes will no longer immediate run to Mercenary Camps after they spawn.</li>
+<li>Fixed a rare issue that could cause the client to crash.</li>
+</ul>
+
+<p><strong>Battlegrounds</strong></p>
+
+<ul>
+<li><strong>Boss Mercenaries:</strong> Fixed an issue allowing Boss mercenaries to be slowed.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-02-12 Patch Notes</title>
     <published>2019-02-12T18:24:00.000Z</published>
@@ -7803,39 +7836,6 @@ champion... yet a demon does not die so easily.</p>
 <hr />
 
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-09-26 Hotfix Patch</title>
-    <published>2018-09-26T21:48:00.000Z</published>
-    <updated>2018-09-26T21:48:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-09-26-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-09-26-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-september-25-2018">Heroes of the Storm Hotfix Patch Notes – September 25, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22552046" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22552046" target="_blank">Official Patch Notes</a> <small>v 2.38.1</small></div>
-
-<p>We've recently released a Heroes of the Storm patch in order to address a few
-live bugs. Read on for details.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed an issue preventing healing and shielding from tracking on the out-of-game score screen and event quest trackers.</li>
-<li>Fixed an issue causing event progress to fail to track if the quest was chosen while a player was in queue.</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>Fixed an issue causing ability icons to appear slightly zoomed in.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
 ]]></content>
   </entry>
 </feed>
