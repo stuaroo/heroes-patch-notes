@@ -2,10 +2,596 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-03-08T00:41:00.000Z</updated>
+  <updated>2019-03-18T18:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-03-18 PTR Patch Notes</title>
+    <published>2019-03-18T18:30:00.000Z</published>
+    <updated>2019-03-18T18:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-03-18-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-03-18-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-march-18-2019">Heroes of the Storm PTR Patch Notes – March 18, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22933130" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22933130" target="_blank">Official Patch Notes</a> <small>v 2.44.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until the week of March 25. As always, if you
+encounter any bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug
+Report forum</a> to let us know
+about your experiences.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li>The cap on maximum negative Armor has been increased from -25 to -75, now that different Armor effects no longer stack 
+<ul>
+<li><em><strong>Developer Comment:</strong></em> The negative Armor cap was originally instituted as a safety precaution so that stacking long term negative Armor effects wouldn't lead to degenerate gameplay. We don't anticipate many effects to go beyond -25, but there are a few cases where this can happen (including the new Unraveling Talent on Chromie and Sgt. Hammer's Shrapnel Mines).</li>
+</ul></li>
+<li>Hero Roles Update 
+<ul>
+<li>Updated roles include: Tank, Bruiser, Support, Healer, Melee Assassin, and Ranged Assassin</li>
+<li>For more information, please review our blog <a href="https://heroesofthestorm.com/en-us/blog/22921910/">here</a></li>
+</ul></li>
+<li>Loot chests are no longer available for Gem purchase</li>
+<li>Rare loot chests are now available for Gold purchase (3000 each)</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-event-caldeum-complex">New Event: Caldeum Complex</h3>
+
+<p>Welcome to the Caldeum Arcopolis, 2103 AD. A city bought and sold a hundred
+times over, now giant Mega Corporations hold more sway in the ever-shifting
+politics of the world than governments. Down on the rain slicked streets,
+humans, mutants, machines and synthetics all struggle to find their place in
+the light of the neon glow beneath the towering monuments to capitalism
+lording over them.</p>
+
+<p>With such oppression, the common people often turn to a life of crime. The
+leader of one of the largest gangs, the Azure Dragons, goes by the nickname,
+<strong>Chromie.</strong> Both a hacker and an anti-corporate street artist, many have said
+her work has an almost prophetic quality, as if she sees through time itself.
+The corporate media would have you believe she uses her gang of hackers to
+illegally ensure her prophecies become true, but lately her work has turned
+dark, as if she's seen a cataclysmic force on the horizon…</p>
+
+<p>Recently, the Dragons have found an ally in the Onyx Turtles. While it's rare
+to see the gangs working together, as the noose of systemic oppression has
+grown tighter, those in the underbelly of the mega-city have had to find new
+ways to survive. <strong>Kharazim</strong> and his Turtles are a harder sort of stock than
+most, with many known gladiators and street fighters serving in the ranks.
+This new alliance has provided the Azure dragons a strong defense against
+threats in the physical world.</p>
+
+<p>High above, the Jigoku Cybenetics Corporation, a primary manufacturer of
+mechanical augmentations, has become a target of both groups. In the mean
+streets, human enhancement has become one of the few options left to move the
+playing field more into the favor of those willing to bend the law. But their
+efforts have not gone unnoticed, and any who would dare to impugn the honor of
+Jigoku find themselves in the sights of the CyberOni, Jigoku's elite agents:
+merciless killers at the beck and call of their bureaucratic masters.</p>
+
+<h3 id="caldeum-complex-quest-chain">Caldeum Complex Quest Chain</h3>
+
+<ul>
+<li><strong>Make Contact with the Dragons:</strong> Capture 8 Mercenary camps in winning games 
+<ul>
+<li><strong>Reward:</strong> Azure Dragons Spray and 3 Day Boost</li>
+</ul></li>
+<li><strong>Meet the Azure Prophet:</strong> Win 2 games as a Melee or Ranged Assassin 
+<ul>
+<li><strong>Reward:</strong> Azure Dragon Chromie Portrait and a Caldeum Complex Loot Chest</li>
+</ul></li>
+<li><strong>Earn the Turtles' Trust:</strong> Contribute 25,000 XP in winning games 
+<ul>
+<li><strong>Reward:</strong> Onyx Turtles Spray and 250 Gold</li>
+</ul></li>
+<li><strong>Spar with Kharazim:</strong> Win 2 Games as Healer or Support 
+<ul>
+<li><strong>Reward:</strong> Onyx Turtle Kharazim Portrait and Cyberpunk Phrases Pack</li>
+</ul></li>
+<li><strong>Join the Tigers' Hunt:</strong> Kill 150 Minions in winning games 
+<ul>
+<li><strong>Reward:</strong> Ivory Tigers Spray and 250 Gold</li>
+</ul></li>
+<li><strong>Prove Your Valor to Johanna:</strong> Win 2 games as Tank or Bruiser 
+<ul>
+<li><strong>Reward:</strong> Ivory Tiger Johanna Portrait and a Caldeum Complex Loot Chest</li>
+</ul></li>
+<li><strong>Take Down the CyberOni Butcher:</strong> Achieve 50 takedowns in winning games 
+<ul>
+<li><strong>Reward:</strong> Jigoku Cybernetics Spray and Jigoku Cybernetics Butcher Portrait</li>
+</ul></li>
+<li><strong>Raid Jigoku Cybernetics Research Facility:</strong> Destroy 10 Forts or Keeps in winning games 
+<ul>
+<li><strong>Reward:</strong> Jigoku Cyber Oni Warboar and 500 Gold</li>
+</ul></li>
+</ul>
+
+<h3 id="caldeum-complex-loot-chests">Caldeum Complex Loot Chests</h3>
+
+<p>Starting the week of March 26, all Loot chests earned through progression
+(except Hero-specific Chests), Heroes Brawl, or by spending Gold will be
+Caldeum Complex Loot Chests. These loot chests guarantee at least one item
+from the Caldeum Complex or previous years' Lunar New Year Spring events.
+Carve out your place among the infamous gangs and score yourself some sweet
+loot before the streets calm on April 30!</p>
+
+<p><strong>Note:</strong> Loot Chests earned prior to the start of this event will <strong>not</strong> become Caldeum Complex Loot Chests.</p>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="storm-league">Storm League</h3>
+
+<ul>
+<li>Hero League and Team League have been merged into a single ranked queue: Storm League</li>
+<li>Players must have 16 or more Heroes available and account level 50 or above to queue for Storm League</li>
+<li>Additional Details: 
+<ul>
+<li>Players can choose their preferred roles in the Ranked menu, so other team members can understand their play style</li>
+<li>Players can see party members' win count under their rank badges on the Storm League queue screen</li>
+<li>The starting MMR in Storm League will be taken from a player's last highest MMR from Hero League or Team League, whichever is higher</li>
+<li>Players will be prevented from queuing up in Storm League as a party together if their rank difference is more than 2 leagues apart 
+<ul>
+<li>There is a tooltip available to indicate this</li>
+<li><strong>Exception:</strong> For players in a party of 5, any member outside the party's League spread maximum will not be counted toward matchmaking requirements</li>
+<li><strong>Exception:</strong> Players who have not yet placed are able to play with anyone</li>
+</ul></li>
+<li>Leaderboards have been updated to reflect Storm League</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<p><em>We have recently revamped hero roles. For more information on this, check out
+our blog <a href="https://heroesofthestorm.com/en-us/blog/22921910/">here</a>.</em></p>
+
+<table>
+<thead>
+<tr>
+  <th><strong>Healers</strong></th>
+  <th><strong>Ranged Assassins</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#lucio">Lucio</a></td>
+  <td><a href="#chromie">Chromie</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#lunara">Lunara</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="healers">Healers</h3>
+
+<h4 id="lucio">Lúcio</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Crossfade (W)</strong>
+<ul>
+<li>Healing decreased from 16 to 15 per second</li>
+<li>Movement Speed aura reduced from 20% to 10%</li>
+</ul></li>
+<li><strong>Amp It Up (E)</strong>
+<ul>
+<li>Healing Boost heal reduced from 114 to 112 per second</li>
+<li>Speed Boost Movement Speed reduced from 45% to 30%</li>
+</ul></li>
+<li><strong>Wall Ride (Z)</strong>
+<ul>
+<li>Moved from (Trait) to (Z)</li>
+</ul></li>
+<li><strong>Skate Mode (Z)</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Trait – Push Off</strong>
+<ul>
+<li>While Wall Ride is active, you can jump off the wall, dealing 100 damage and slowing all enemies hit by 75% for 1 second</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Maximum Tempo (E) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Party Mix (E) 
+<ul>
+<li>Moved from Level 7</li>
+</ul></li>
+<li>New Talent – Smooth Moves (Z) 
+<ul>
+<li>Increase Wall Ride duration by 1 second; while Wall Ride is active, your Basic Attacks heal Lúcio for 30% of their damage and restore 0.5 Mana</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Chase the Base (Q) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Subwoofer (Q) 
+<ul>
+<li>Additional functionality: 
+<ul>
+<li>Close enemies are knocked back 75% further</li>
+<li>Quest: Hit 3 enemy Heroes with the same Soundwave</li>
+<li>Reward: Increase Soundwave arc by 50% and range by 20%</li>
+</ul></li>
+</ul></li>
+<li>New Talent – Supersonic (Trait) 
+<ul>
+<li>Push Off recharges 100% faster while you have the Wall Ride buff</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Sonic Amplifier (W) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Reverse Amp (W) 
+<ul>
+<li>Moved from Level 10</li>
+<li>New functionality: 
+<ul>
+<li>While Amp It Up is active, Healing Boost deals 50 damage a second and Speed Boost slows by 20% to enemies in the aura</li>
+</ul></li>
+</ul></li>
+<li>New Talent – Good Vibrations (Q) 
+<ul>
+<li>Every enemy hit with Soundwave grants Lúcio a 35-point Shield for 7 seconds; this value is tripled for enemy Heroes hit</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>New Heroic – High Five (R) 
+<ul>
+<li>Activate: Quickly skate towards target allied Hero, healing them for 250 and granting Unstoppable for 1 second (15 second cooldown per allied Hero)</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Beat Mixing (W) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Can't Stop, Won't Stop (Trait) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Back in the Mix (Trait) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Hard Style (Trait) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Slip (Z) 
+<ul>
+<li>Moved from Level 1</li>
+<li>New functionality: 
+<ul>
+<li>While Wall Ride is active you gain 20 Armor and if you pass through an enemy Hero, you gain 40% Movement Speed for 1 second</li>
+</ul></li>
+</ul></li>
+<li>New Talent – All Together (W) 
+<ul>
+<li>Each allied Hero in your Crossfade aura grants 5% base Movement Speed (this bonus stacks with other Movement Speed buffs)</li>
+</ul></li>
+<li>New Talent – Heavy Casters (Trait) 
+<ul>
+<li>Push Off no longer Slows but instead Stuns enemies for 0.5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Bring It Together (E) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Up the Frequency (E) 
+<ul>
+<li>No longer reduces Mana Cost</li>
+<li>Additional functionality: 
+<ul>
+<li>While Wall-Riding, increase your Basic Attack range by 40%; Basic Attacks lower the cooldown of Amp It Up by .45 seconds</li>
+</ul></li>
+</ul></li>
+<li>New Talent – Up to Eleven (E) 
+<ul>
+<li>Activate: Increase the duration of your active Amp It Up by 2 seconds (60 second cooldown)</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>Synaesthesia Auditiva (E) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Bonus Track (E) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Nonstop Remix (R) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>New Heroic Mastery – Mixing Fire (R) 
+<ul>
+<li>You can now High Five enemy Heroes, damaging them for 225 and reducing all healing done to them by 50% for 3 seconds.</li>
+<li>Passive: Increase the duration of Amp It Up by 1 second</li>
+</ul></li>
+<li>New Talent – House Party (W) 
+<ul>
+<li>All of your healing is increased by 10% for each allied Hero in your aura</li>
+</ul></li>
+<li>New Talent – Summer Anthem (W) 
+<ul>
+<li>Activate: Other allies in your Crossfade aura cannot be reduced below 1 Health for 1.5 seconds (75 second cooldown)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Lúcio's rework is unlocking some new ways to help your allies and further harass your enemies! His old Trait, Wall Ride, is still completely functional but has been moved to his Mount (Z). The replacement Trait, Push Off, is a new utility Ability that gives Lúcio more mobility with a built-in way to peel enemies for his allies.</p>
+  
+  <p>That is just the beginning, though, as Lúcio has also gained a new Heroic
+  Ability—High Five. This Ability allows him a small bit of burst healing to
+  help compete with Sound Barrier while also granting an on-demand Unstoppable
+  buff to allies that may have bitten off more than they can chew. If you were a
+  big fan of Reverse Amp, no need to worry, it stays on his kit in the form of a
+  talent and has similar functionality! In response to the added power, we are
+  slowing him down a little so he is not quite as frustrating to lock down.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="ranged-assassins">Ranged Assassins</h3>
+
+<h4 id="chromie">Chromie</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Sand Blast (Q)</strong>
+<ul>
+<li>Now hits all enemy types, though stops travel after one hit</li>
+<li>Deals 50% damage to Structures</li>
+<li>Baseline quest has been removed</li>
+<li>Casting a Sand Blast now spawns an Echo that replicates Chromie's Sand Blasts and Basic Attacks, dealing 50% damage; Maximum of one Echo active at a time</li>
+<li>Damage reduced from 315 to 280</li>
+<li>Cooldown increased from 2.5 to 3 seconds</li>
+<li>Cast time reduced from .8125 to .5 seconds</li>
+<li>Initial missile speed has been reduced, but acceleration has been added 
+<ul>
+<li>The time the missile takes to travel its full distance has been increased from .4375 to .625 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Dragon's Breath (W)</strong>
+<ul>
+<li>Ground warning is no longer visible to enemy heroes</li>
+<li>Damage reduced from 390 to 195</li>
+<li>Now fires a succession of 3 blasts with a 0.75 second delay towards a vector targeted direction</li>
+<li>Cooldown increased from 8 to 15 seconds</li>
+<li>Mana cost increased from 50 to 75</li>
+</ul></li>
+<li><strong>Time Trap (E)</strong>
+<ul>
+<li>Once placed, now requires Chromie to re-activate the Trap with (D) to detonate and puts all units in the area in Time Stop</li>
+<li>Now affects allies as well as enemies</li>
+<li>Search area increased from 1.5 to 2 radius</li>
+<li>Mana cost increased from 25 to 30</li>
+<li>Health increased from 300 to 500</li>
+</ul></li>
+<li><strong>Timewalker/Bronze Talons (Trait)</strong>
+<ul>
+<li>The Bronze Talons Basic Attack component of her trait has been removed</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Deep Breathing (W) 
+<ul>
+<li>Stacks increased from 12 to 25</li>
+<li>Bonus reduced from 5 to 2 per stack</li>
+<li>Bonus at maximum stacks reduced from 140 to 50</li>
+</ul></li>
+<li>New Talent – Once Again the First Time (Q) 
+<ul>
+<li>Quest: Hit an enemy Hero with Sand Blast 40 times</li>
+<li>Reward: Sand Blast's maximum Sand Echoes increased from 1 to 2</li>
+</ul></li>
+<li>Mounting Sand (Q) 
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 2</strong>
+<ul>
+<li>Andorhal Anomaly (E) 
+<ul>
+<li>Moved from Level 18</li>
+<li>No longer causes all three charges to refresh at once</li>
+<li>Additional functionality: 
+<ul>
+<li>Reduces the cooldown of Time Trap by 5 seconds</li>
+<li>All Time Traps are detonated at the same time</li>
+</ul></li>
+</ul></li>
+<li>New Talent – Chronic Conditions (E) 
+<ul>
+<li>After Time Stop ends, enemies affected by Time Trap are Slowed by 25% for 3 seconds and allies gain 25% Movement Speed for 3 seconds</li>
+</ul></li>
+<li>New Talent – Time Troubles (E) 
+<ul>
+<li>After Time Stop ends, enemies affected by Time Trap lose 20 Armor for 3 seconds and allies gain 20 Armor for 3 seconds</li>
+</ul></li>
+<li>Enveloping Assault (W) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Timely Surprise (E) 
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 5</strong>
+<ul>
+<li>Mobius Loop (W) 
+<ul>
+<li>Cooldown reduction reduced from 3 to 1.5 seconds per enemy Hero hit</li>
+<li>Mana return reduced from 100 to 40 per enemy Hero hit</li>
+</ul></li>
+<li>Bronze Talons (Q) 
+<ul>
+<li>Has been redesigned</li>
+<li>When Chromie hits an enemy Hero with Sand Blast, she deals 30% additional Basic Attack damage for 5 seconds</li>
+</ul></li>
+<li>New Talent – A Proper Greeting 
+<ul>
+<li>Passive: When Chromie damages a Slowed, Rooted, or Stunned enemy Hero, she deals 25% additional damage for 5 seconds</li>
+</ul></li>
+<li>Dragons Eye (W) 
+<ul>
+<li>Removed</li>
+</ul></li>
+<li>Chrono Sickness (E) 
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 8</strong>
+<ul>
+<li>Slowing Sands (R1) 
+<ul>
+<li>Redesigned: Slow now increases the longer an enemy is in the affected area</li>
+<li>Now Slows by 5% every 0.25 seconds, up to a maximum of 70%</li>
+</ul></li>
+<li>Temporal Loop (R2) 
+<ul>
+<li>Range reduced from 11 to 8</li>
+<li>Now also increases the recharge rate of Chromie's Basic Abilities by 500% for 3 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 11</strong>
+<ul>
+<li>Here and There (Active) 
+<ul>
+<li>Now has a range of 9</li>
+<li>Now teleports Chromie to a targeted location near a Sand Echo, and teleports the Sand Echo back to her old location</li>
+</ul></li>
+<li>New Talent – Gnome Speed Ahead! (Q) 
+<ul>
+<li>After casting Sand Blast, Chromie gains 200% increased Health and Mana Regeneration and 20% Movement Speed for 3 seconds</li>
+</ul></li>
+<li>Bye Bye (B) 
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 18</strong>
+<ul>
+<li>New Talent – Unravelling (R1) 
+<ul>
+<li>Every 0.25 seconds, enemy Heroes Slowed by Slowing Sands have their Spell Armor reduced by 2, up to 30</li>
+</ul></li>
+<li>Stuck in a Loop (R2) 
+<ul>
+<li>Now also increases the duration of Temporal Loop's cooldown reduction buff by 3 seconds</li>
+</ul></li>
+<li>New Talent – Blessing of the Bronze 
+<ul>
+<li>Passive: While Chromie is alive, she and all her allies gain 10% Movement Speed and their Basic Abilities recharge 30% faster</li>
+</ul></li>
+<li>Pocket of Time (R1) 
+<ul>
+<li>Removed</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Our goal with this Chromie update is to create various degrees of success that Chromie can enjoy, so that she doesn't feel like quite the same all-or-nothing mage that she's historically been. Traditionally, Chromie has often required a hard counter to keep her in check or completely wrecked an opposing team, creating polarizing experiences.</p>
+  
+  <p>We're instituting a lot of changes that allow Chromie to get partial success
+  with her Abilities (multiple Sand Blasts baseline, 3 blasts of Dragon's
+  Breath), while also widening her toolkit (friendly Stasis, Basic Attack
+  damage, PvE damage). While we're diversifying her kit, we also want to make
+  sure that Chromie feels special, and we think that her Sand Echoes and
+  predictive gameplay with Dragon's Breath are still unique parts of her that
+  embody the feeling of artillery mage while still having moments of counter
+  play for opponents.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lunara">Lunara</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Blossom Swell (Q) 
+<ul>
+<li>Movement Speed bonus reduced from 15% to 12%</li>
+<li>This Movement Speed bonus now stacks with other Movement Speed bonuses</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Due to Lunara's unique Movement Speed mechanics, our recent update to Blossom Swell was not as beneficial to Lunara as we had hoped. To address this, we are slightly reducing its bonus but allowing it to stack with other Movement Speed bonuses, including Lunara's trait, which should dramatically increase the total Movement Speed that she gets from this talent.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<ul>
+<li>Fixed an issue where the healing nameplate UI would be hidden when the total equals 0</li>
+<li>Fixed an issue where broadcasts would sometimes appear twice when sent</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-03-07 Hotfix Patch</title>
     <published>2019-03-08T00:41:00.000Z</published>
@@ -7887,32 +8473,6 @@ champion... yet a demon does not die so easily.</p>
 <hr />
 
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-10-11 Hotfix Patch</title>
-    <published>2018-10-18T05:33:00.000Z</published>
-    <updated>2018-10-18T05:33:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-10-11-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-10-11-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-october-11-2018">Heroes of the Storm Hotfix Patch Notes – October 11, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><small>v 2.38.3</small></div>
-
-<p>A patch was recently released for Heroes of the Storm in order to address a 
-live bug. No official notes exist.  The only <a href="https://www.reddit.com/r/heroesofthestorm/comments/9nfmx6/hotfix_just_went_out/e7m1jce/">developer-confirmed fix</a> is listed below:</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed an issue causing a crash that was introduced with yesterday's 38.2 release.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
 ]]></content>
   </entry>
 </feed>
