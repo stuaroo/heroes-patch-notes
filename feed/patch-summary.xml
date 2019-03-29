@@ -14,8 +14,21 @@
     <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-03-26-patch-notes.html"/>
     <content type="html"><![CDATA[
       <h4>New</h4>
+      <h4>Play Mode</h4>
+      <ul>
+        <li><p>Storm League: "Hero League and Team League have been merged into a single ranked queue"</p>
+</li>
+        <li><p>Storm League: "Players can choose their preferred roles in the Ranked menu"</p>
+</li>
+        <li><p>Storm League: Players "more than 2 leagues apart" will no longer be able to queue together (except parties of 5)</p>
+</li>
+      </ul>
       <h4>Heroes Affected</h4>
       <ul>
+        <li><p>Armor: "maximum negative Armor has been increased from -25 to -75"</p>
+</li>
+        <li><p><a href="https://heroesofthestorm.com/en-us/blog/22921910/">Hero Roles</a>: changed from Warrior, Assassin, Support, Specialist to Tank, Bruiser, Support, Healer, Melee Assassin and Ranged Assassin</p>
+</li>
         <li>
           <a href="https://heroespatchnotes.com/hero/chromie.html#patch2019-03-26" target="_blank">Chromie</a>, 
           <a href="https://heroespatchnotes.com/hero/lucio.html#patch2019-03-26" target="_blank">Lucio</a>, 
@@ -73,6 +86,8 @@
       <h4>New</h4>
       <h4>Heroes Affected</h4>
       <ul>
+        <li><p>"Rehgar can now self-cast Ancestral Healing"</p>
+</li>
         <li>
           <a href="https://heroespatchnotes.com/hero/abathur.html#patch2019-02-12" target="_blank">Abathur</a>, 
           <a href="https://heroespatchnotes.com/hero/ana.html#patch2019-02-12" target="_blank">Ana</a>, 
