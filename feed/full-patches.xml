@@ -2,10 +2,1270 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-03-26T17:33:00.000Z</updated>
+  <updated>2019-04-17T22:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-04-17 Balance Update</title>
+    <published>2019-04-17T22:30:00.000Z</published>
+    <updated>2019-04-17T22:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-04-17-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-04-17-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-april-17">Heroes of the Storm Balance Patch Notes — April 17</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22933137" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22933137" target="_blank">Official Patch Notes</a> <small>v 2.44.1</small></div>
+
+<p>Heroes of the Storm has just been updated with Hero balance changes and bug
+fixes! Read on for details.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li>The party size of enemies will no longer be shown during the match loading screen</li>
+<li>Removed all party-size restrictions during the matchmaking process</li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These changes should help address both queue times
+  for certain party sizes while also removing the pre-game bias that forms when
+  facing parties of players that may be larger than your own. In order to ensure
+  fair matches are created, one of the variables used to determine whether a
+  match has an acceptable win probability is the party size. In the event the
+  party sizes across both teams aren't equal ([5]vs[1-1-1-1-1] for example),
+  other variables will be weighted differently to make sure the match created is
+  balanced. One example of this is that a team of [5] may have a lower MMR vs a
+  team of [1-1-1-1-1] to help balance out the advantage.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#tank">Tank</a></th>
+  <th><a href="#bruiser">Bruiser</a></th>
+  <th><a href="#healer">Healer</a></th>
+  <th><a href="#support">Support</a></th>
+  <th><a href="#melee-assassin">Melee Assassin</a></th>
+  <th><a href="#ranged-assassin">Ranged Assassin</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#anubarak">Anub'arak</a></td>
+  <td><a href="#dehaka">Dehaka</a></td>
+  <td><a href="#ana">Ana</a></td>
+  <td><a href="#abathur">Abathur</a></td>
+  <td><a href="#alarak">Alarak</a></td>
+  <td><a href="#azmodan">Azmodan</a></td>
+</tr>
+<tr>
+  <td><a href="#arthas">Arthas</a></td>
+  <td><a href="#imperius">Imperius</a></td>
+  <td><a href="#deckard">Deckard</a></td>
+  <td></td>
+  <td><a href="#butcher">Butcher</a></td>
+  <td><a href="#chromie">Chromie</a></td>
+</tr>
+<tr>
+  <td><a href="#diablo">Diablo</a></td>
+  <td><a href="#malthael">Malthael</a></td>
+  <td><a href="#lucio">Lúcio</a></td>
+  <td></td>
+  <td><a href="#zeratul">Zeratul</a></td>
+  <td><a href="#greymane">Greymane</a></td>
+</tr>
+<tr>
+  <td><a href="#garrosh">Garrosh</a></td>
+  <td><a href="#rexxar">Rexxar</a></td>
+  <td><a href="#rehgar">Rehgar</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#hanzo">Hanzo</a></td>
+</tr>
+<tr>
+  <td><a href="#stitches">Stitches</a></td>
+  <td><a href="#varian">Varian</a></td>
+  <td><a href="#stukov">Stukov</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#li-ming">Li-Ming</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#xul">Xul</a></td>
+  <td><a href="#uther">Uther</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#lunara">Lunara</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#yrel">Yrel</a></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#raynor">Raynor</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#sgt-hammer">Sgt. Hammer</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#sylvanas">Sylvanas</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#zuljin">Zul'jin</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> As we promised in the past, we took a look at the
+  overall Mana tension of all the Heroes in the game. We also have some
+  philosophies about Mana that we want to keep going forward. They are:</p>
+  
+  <ol>
+  <li><p>Mana should be a meaningful part of the game, particularly in the early
+  stages when wave clear is at a higher premium. We believe that as the game
+  progresses, Mana tension should become less important as Heroes gain more base
+  Mana and the game's focus shifts to team fighting.</p></li>
+  <li><p>Mana tension doesn't have to be the same for every Hero, but every Hero
+  should feel it to some degree, otherwise it serves no purpose.</p></li>
+  <li><p>We like that some talents heavily mitigate Mana tension.</p></li>
+  </ol>
+  
+  <p>When we took a look at Mana tension in the game, we saw that, overall,
+  things are in a fairly healthy spot, but could be fine-tuned and improved
+  upon. We like the tension that the heroes who are closer to the middle of the
+  spectrum have, with some examples being Malfurion, Tychus, and E.T.C. Our goal
+  with these changes is to bring the outliers closer to the center. We are open
+  to your feedback going forward if you think that the game needs to be stricter
+  or more lenient in this area, or if you believe there are any outliers that we
+  missed.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="tank">Tank</h3>
+
+<h4 id="anubarak">Anub'arak</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage reduced from 85 to 81</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Impale (Q)</strong>
+<ul>
+<li>Damage reduced from 95 to 90</li>
+</ul></li>
+<li><strong>Burrow Charge (E)</strong>
+<ul>
+<li>Damage reduced from 96 to 91</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Legion of Beetles (Trait)
+<ul>
+<li>Spell Armor reduced from 40 to 30</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>Cocoon (R2)
+<ul>
+<li>Cooldown increased from 60 to 70 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Since his last round of changes, Anub'arak has been
+  performing a little too well. We're knocking him down a peg with small nerfs
+  to his overall damage, Legion of Beetles, and Cocoon.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="arthas">Arthas</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Frozen Tempest (E)</strong>
+<ul>
+<li>Mana cost reduced from 15 to 13 per second</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Frozen Wastes (E)
+<ul>
+<li>Mana cost reduction reduced from 4 to 2 per second</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> For Arthas' Mana tension, we decided to give him some
+  of the benefit for taking Frozen Wastes at Level 4 baseline. We still like
+  that he has relatively high Mana tension that he can reduce by taking Eternal
+  Hunger or Frozen Wastes, but we feel that he is currently too dependent on
+  taking one of these talents, so we are reducing the opportunity cost for going
+  with other options.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="diablo">Diablo</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Fire Stomp (W)</strong>
+<ul>
+<li>Mana cost increased from 30 to 35</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="garrosh">Garrosh</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Groundbreaker (Q)</strong>
+<ul>
+<li>Mana cost increased from 30 to 40</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="stitches">Stitches</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Slam (W)</strong>
+<ul>
+<li>Mana cost increased from 35 to 40</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bruiser">Bruiser</h3>
+
+<h4 id="dehaka">Dehaka</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Enduring Swarm (W)
+<ul>
+<li>Additional Functionality: Increase the duration of Dark Swarm by .5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Lurker Strain (E)
+<ul>
+<li>Additional Functionality: Reduce the cooldown of Burrow by 4 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>Isolation (R1)
+<ul>
+<li>Mana cost reduced from 100 to 70</li>
+</ul></li>
+<li>Adaptation (R2)
+<ul>
+<li>Cooldown reduced from 80 to 60 seconds</li>
+<li>Mana cost reduced from 85 to 70</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Ferocious Stalker (W)
+<ul>
+<li>Additional Functionality: Now also causes Dark Swarm to Slow enemy heroes by 15% for .75 seconds while Brushstalker's movement Speed bonus is active</li>
+<li>Now shows Crit kickers when dealing increased damage</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We took a look at some of Dehaka's less popular
+  talents and are making some changes that should open up new build paths for
+  everyone's favorite Primal Zerg.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="imperius">Imperius</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Solarian's Fire (W)</strong>
+<ul>
+<li>Mana cost reduced from 60 to 50</li>
+</ul></li>
+<li><strong>Molten Armor (E)</strong>
+<ul>
+<li>Mana cost increased from 50 to 75</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Consuming Flame (W)
+<ul>
+<li>Adjusted Functionality: No longer has a quest component; Imperius gains bonus damage and slow to Solarion's Fire when picking the talent</li>
+<li>Bonus damage reduced from 150 to 125</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Bulwark of Flame (W)
+<ul>
+<li>Physical Armor amount increased from 70 to 75</li>
+<li>Maximum Charges increased from 4 to 6</li>
+</ul></li>
+<li>Unshakable Faith (E)
+<ul>
+<li>Adjusted Functionality: No longer requires removing a disabling effect in order for Imperius to be healed</li>
+<li>Healing reduced from 250 to 200</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Flash of Anger (Q)
+<ul>
+<li>Damage increased from 180 to 198</li>
+<li>Now shows Crit kickers when this damage procs</li>
+</ul></li>
+<li>Holy Fervor (Active)
+<ul>
+<li>Cooldown increased from 18 to 25 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Imperius is performing exactly where we would like
+  him to, with a win rate of exactly 50.0% at high level play. While we love
+  basking in this balance nirvana, Imperius does suffer from some pick rate
+  issues, particularly in his earlier tiers. Rather than only nerfing the
+  talents that are often picked, we are instead looking to buff up the
+  alternatives in hope that they see more play.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="malthael">Malthael</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li>Tormented Souls (R1)
+<ul>
+<li>Additional Functionality: When Tormented Souls is cast and when it expires, reset the cooldown of Wraith Strike</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We promised Tomo00 that we would do this in our last
+  AMA. This is us keeping that promise.</p>
+  
+  <p>Our reasoning behind this change is that we want to make Tormented Souls
+  more interesting, but due to its ease of use and previous meta-defining power,
+  we are hesitant to give mechanics like more Healing, Armor, or Life Steal that
+  simply add power to the Heroic. Instead, we are giving Malthael the ability to
+  create more options for himself by having more opportunities to move around
+  the battlefield with Wraith Strike.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="rexxar">Rexxar</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li>We've adjusted Rexxar's talents to be positioned in the same order as other heroes (ex. Q talents on top, then W, then E) </li>
+<li><strong>Level 1</strong>
+<ul>
+<li>Easy Prey (Passive)
+<ul>
+<li>Bonus damage no longer applies to Misha, Charge!</li>
+<li>Bonus damage to Minions and Mercenaries increased from 150% to 200%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> An unintended side-effect of buffing the damage of
+  Misha, Charge! to be much more meaningful was its interaction with Easy Prey.
+  We intend Easy Prey to be the better talent when taking Mercenary Camps, while
+  having a smaller effect of buffing Rexxar's general wave clear. When this
+  talent also becomes the best Wave Clear option, it encroaches too much on Bird
+  of Prey's design space, so we're removing that functionality.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="varian">Varian</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Parry (W)</strong>
+<ul>
+<li>Mana cost increased from 20 to 30</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Lion's Maw (Q)
+<ul>
+<li>Damage bonus per hit increased from 4 to 5</li>
+<li>Enemy Heroes hit required for quest completion reduced from 30 to 25</li>
+</ul></li>
+<li>High King's Quest (Passive)
+<ul>
+<li>Damage bonus upon quest completion reduced from 45 to 30</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> In addition to bringing Varian's Mana costs in line,
+  we are slightly increasing the power of Lion's Maw and reducing the power of
+  High King's Quest. Currently High King's Quest is outperforming other options
+  on the tier, and is the go-to talent when going Twin Blades, which we are also
+  seeing perform a little too well at the lower to mid-levels of play.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="xul">Xul</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Cursed Strikes (W)</strong>
+<ul>
+<li>Mana cost reduced from 60 to 50</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Reaper's Toll (Q)
+<ul>
+<li>Quest requirement reduced from 20 to 16</li>
+<li>Additional Functionality: When completed, now also reduces the Mana cost of Spectral Scythe by 20</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> In addition to reducing Cursed Strikes Mana cost to
+  more normalize Xul's Mana usage compared to other Heroes, we are also buffing
+  Reaper's Toll, which has been underperforming compared to other talents on its
+  tier.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="yrel">Yrel</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Light of Karabor (Q)
+<ul>
+<li>Adjusted Functionality: Increase Vindication's radius by 15%. If Vindication hits an enemy Hereo, increase its healing by 40%. If Vindication hits 2 or more enemy Heroes, increase its healing by 80%.</li>
+</ul></li>
+<li>Dauntless (Passive)
+<ul>
+<li>Physical Armor amount increased from 35 to 50</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>Sacred Ground (R2)
+<ul>
+<li>Armor amount increased from 40 to 50</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> With these changes, we're trying to buff up
+  Yrel's lesser-picked talents to compete with their counterparts. I'm trying to
+  think of ways to fluff up this dev comment but there's not much more to say
+  here… so yeah, that's it!</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="healer">Healer</h3>
+
+<h4 id="ana">Ana</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Biotic Enhancements (W)
+<ul>
+<li>Cooldown reduction reduced from 4 seconds to 2 seconds</li>
+</ul></li>
+<li>Overdose (E)
+<ul>
+<li>Additional Functionality: While Aim Down Sights is active, Sleep Dart now pierces all enemy Heroes</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Night Terrors
+<ul>
+<li>Damage increased from 8% to 10% maximum Health</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While we are very happy with Ana's new direction
+  since her rework, her early level talent diversity is not as great as we would
+  like. We're improving some of her other options to better compete with Biotic
+  Grenade-focused talents and slightly nerfing the Grenade build, which we're
+  hoping will open up new ways to play her.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="deckard">Deckard</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Potion (Q)</strong>
+<ul>
+<li>Healing amount increased from 255 to 270</li>
+</ul></li>
+<li><strong>Horadric Cube (W)</strong>
+<ul>
+<li>Cooldown reduced from 14 seconds to 12 seconds</li>
+<li>Mana cost reduced from 40 to 35</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Ruby (Active)
+<ul>
+<li>Lesser Healing Potion amount increased from 220 to 250</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>Cube Mastery (W)
+<ul>
+<li>Additonal Functionality: Reduce the Mana cost of Scroll of Sealing from 40 to 30</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Despite our recent buffs, Deckard is still
+  underperforming compared to other Heroes. While before we generally targeted
+  his later talents, this time we are targeting his base kit and earlier
+  talents, which should have a greater impact on his performance over the entire
+  game.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="lucio">Lúcio</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Boombox (Active)
+<ul>
+<li>Health of the Boombox has been increased from 217 to 350</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>High Five (R2)
+<ul>
+<li>Mana cost decreased from 50 to 35</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Up the Frequency (E)
+<ul>
+<li>Cooldown reduction per Basic Attack reduced from .45 to .4 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>House Party (W)
+<ul>
+<li>Bonus healing per ally in Crossfade aura reduced from 10% to 8%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Lúcio's rework has turned out to be pretty balanced
+  so far. We're seeing both decent win rates and talent pick rates across the
+  gathered data. There were a couple outliers that we have made some small
+  changes to, especially the higher Mana cost of High Five. We will continue to
+  monitor and make additional tweaks as necessary!</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="rehgar">Rehgar</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li>Rising Storm (W)
+<ul>
+<li>New Functionality: Casting Lightning Shield on an ally also casts an untalented version on Rehgar. Every time either Lightning Shield damages an enemy Hero, increase the damage of both Lightning Shields. Stacks up to 15 times.</li>
+<li>Damage reduced from 15% to 10% per stack</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While we felt that the talent offered some cool
+  gameplay for Rehgar, we removed Lightning Bond in the past due to its ability
+  to make Rehgar incredibly powerful at clearing Minion waves and taking
+  Mercenary Camps at a time in the game where these aspects of a Hero are
+  incredibly powerful. We're giving him back that power, but introducing it at
+  Level 16, where its primary focus will more often be on improving his team
+  fighting potential.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="stukov">Stukov</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li>We've adjusted Stukov's Level 1 talents to be positioned in the same order as other heroes (ex. Q talents on top, then W then E)</li>
+<li><strong>Level 1</strong>
+<ul>
+<li>Reactive Ballistospores (W)
+<ul>
+<li>Moved from Level 13</li>
+<li>Cooldown increased from 10 to 15 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Biotic Armor (Q)
+<ul>
+<li>Armor bonus when detonating Bio-Kill switch increased from 50 to 75</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>Flailing Swipe (R1)
+<ul>
+<li>Mana cost reduced from 100 to 80</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Poppin' Pustules (Trait)
+<ul>
+<li>Moved from Level 1</li>
+<li>Damage bonus increased from 100% to 150%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> In order to improve the pick and win rates of
+  Reactive Ballistospores and Poppin' Pustules, we're switching the talents with
+  one another. This should open up new talent synergy possibilities for Poppin'
+  Pustules and offer the considerable strength of Reactive Ballistospores
+  earlier in the game. We're also buffing Biotic Armor to be a fairly
+  significant Physical Armor buff when Bio-Kill Switch is activated, which
+  should make its moment of power feel much more meaningful.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="uther">Uther</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Holy Light (Q)</strong>
+<ul>
+<li>Mana cost reduced from 90 to 80</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="abathur">Abathur</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Locust Strain (Trait)</strong>
+<ul>
+<li>Damage increased from 40 to 46</li>
+</ul></li>
+<li><strong>Carapace (E)</strong>
+<ul>
+<li>Shield amount reduced from 157 to 150</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Reinforced Carapace (E)
+<ul>
+<li>Bonus Shielding reduced from 40% to 30%</li>
+</ul></li>
+<li>Survival Instincts (Trait)
+<ul>
+<li>Bonus Health increased from 60% to 100%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>Prolific Dispersal
+<ul>
+<li>Additional Functionality: Now also increases the range of Toxic Nest by 30%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Bombard Strain (Trait)
+<ul>
+<li>Duration bonus increased from 50% to 75%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li>Volatile Mutation (Heroic)
+<ul>
+<li>Healing increased from 50% to 75% of the damage dealt</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Abathur has been performing fairly well since his
+  rework. However, his non-Carapace related talents could use some love compared
+  to other options. We're giving Abathur some buffs to play styles that focus
+  more on controlling the map and taking some power out of Carapace to
+  compensate.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="melee-assassin">Melee Assassin</h3>
+
+<h4 id="alarak">Alarak</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Discord Strike (Q)</strong>
+<ul>
+<li>Mana cost increased from 45 to 55</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Ruthless Momentum (W)
+<ul>
+<li>Adjusted Functionality: Reduce the Mana cost of Telekinesis from 30 to 20. Telekinesis' cooldown recharges 100% faster while above 75% health</li>
+<li>Telekinesis' button will now glow when this cooldown bonus is active</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li>Blade of the Highlord (Trait)
+<ul>
+<li>Maximum Sadism bonus increased from 30% to 40%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We've gotten feedback from players that they missed
+  the old Quick Mind talent that existed before Alarak's rework, as it allowed
+  them to use Telekinesis in more creative ways since they felt more free to
+  cast the ability when it was on a shorter cooldown. We agree, and we're using
+  the Ruthless Momentum talent to allow this to happen. Instead of reducing all
+  of Alarak's cooldowns, we're instead specializing the talent to greatly reduce
+  the cooldown of Telekinesis. This should allow players who pick this talent to
+  reposition themselves, peel for their allies, or fish for initiations on the
+  enemy more often.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="butcher">Butcher</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Butcher's Brand (W)</strong>
+<ul>
+<li>Mana cost reduced from 65 to 60</li>
+</ul></li>
+<li><strong>Ruthless Onslaught (E)</strong>
+<ul>
+<li>Mana cost reduced from 55 to 50</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="zeratul">Zeratul</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Singularity Spike (W)</strong>
+<ul>
+<li>Mana cost reduced from 80 to 70</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="ranged-assassin">Ranged Assassin</h3>
+
+<h4 id="azmodan">Azmodan</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Globe of Annihilation (Q)</strong>
+<ul>
+<li>Mana cost increased from 60 to 70</li>
+</ul></li>
+<li><strong>Summon Demon Warrior (W)</strong>
+<ul>
+<li>Mana cost reduced from 30 to 25</li>
+</ul></li>
+<li><strong>All Shall Burn (E)</strong>
+<ul>
+<li>Mana cost reduced from 40 to 30</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li>Art of Chaos (Q)
+<ul>
+<li>Mana refund increased from 30 to 40</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> To promote some build diversity away from Globe of
+  Annihilation, we're moving around some of Azmodan's Mana costs. We are
+  increasing the Mana cost of Globe of Annihilation, but reducing it from Summon
+  Demon Warrior and All Shall Burn. This should make Azmodan think a little more
+  in the early game about casting optimal Globes to stack properly, while
+  leaving him freer to use his other abilities when necessary. In the later
+  parts of the game, this should also be a buff to other non-Q centric talents
+  like Hell Rift and Sin's Grasp.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="chromie">Chromie</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage increased from 73 to 82</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Sand Blast (Q)</strong>
+<ul>
+<li>Damage increased from 280 to 315</li>
+<li>Echo damage reduced from 50% to 40% of Chromie's damage</li>
+</ul></li>
+<li><strong>Dragon's Breath (W)</strong>
+<ul>
+<li>Damage increased from 195 to 204</li>
+<li>Coolddown reduced from 15 to 14 seconds</li>
+<li>Mana cost reduced from 75 to 65</li>
+</ul></li>
+<li><strong>Time Trap (E)</strong>
+<ul>
+<li>Mana cost reduced from 30 to 20</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Deep Breathing (W)
+<ul>
+<li>Damage bonus increased from 2 (up to 50) to 3 (up to 60)</li>
+<li>Damage bonus at Quest Complete increased from an additional 50 to 60</li>
+</ul></li>
+<li>Timewalker's Pursuit (Active)
+<ul>
+<li>No longer provides Mana Regeneration at Quest Complete</li>
+<li>Spell Power bonus increased from 5% to 10%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 2</strong>
+<ul>
+<li>Andorhal Anomaly (E)
+<ul>
+<li>Cooldown reduction increased from 5 to 8 seconds</li>
+</ul></li>
+<li>Chronic Conditions (E)
+<ul>
+<li>Slow increased from 25% to 30%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 8</strong>
+<ul>
+<li>Slowing Sands (R1)
+<ul>
+<li>Mana cost reduced from 4 to 3 per second</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 11</strong>
+<ul>
+<li>Gnome Speed Ahead (Q)
+<ul>
+<li>No longer increases Mana Regeneration</li>
+</ul></li>
+<li>Here and There (Active)
+<ul>
+<li>Range increased from 9 to 11</li>
+<li>Range from which you can teleport to an Echo increased from 3 to 4</li>
+<li>Cooldown reduced from 30 to 25</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 14</strong>
+<ul>
+<li>Shifting Sands (Q)
+<ul>
+<li>Spell Power bonus per enemy hit reduced from 8% to 5%</li>
+<li>Spell Power bonus maximum increased from 40% to 50%</li>
+<li>Duration reduced from 10 to 8 seconds</li>
+</ul></li>
+<li>Fast Forward (Q)
+<ul>
+<li>Cooldown of Sand Blast reduced from .75 to .5 seconds</li>
+<li>Range required to hit Sand Blast reduced from 70% to 50%</li>
+</ul></li>
+<li>Quantum Overdrive (Active)
+<ul>
+<li>Cooldown increased from 30 to 45 seconds</li>
+<li>Duration reduced from 10 to 8 seconds</li>
+<li>Hitting an enemy Hero with Sand Blast reduces Quantum Overdrive's cooldown by 3 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 18</strong>
+<ul>
+<li>Unravelling (R1)
+<ul>
+<li>Spell Armor reduction increased from 2 to 5 per 0.25 seconds (maximum is still -30)</li>
+</ul></li>
+<li>Stuck in a Loop (R2)
+<ul>
+<li>Now also increases recharge rate from 500% to 700%</li>
+</ul></li>
+<li>Blessing of the Bronze (Active)
+<ul>
+<li>Is now an activatable Talent with a 90 second cooldown</li>
+<li>Now lasts 8 seconds</li>
+<li>Basic Ability recharge rate increased from 30% to 35%</li>
+<li>Movement Speed increased from 10% to 20%</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're pretty happy with how Chromie's rework is
+  playing, though there is a small amount of space to buff her up overall (even
+  with the understanding that her winrate will go up as players get used to her
+  new playstyle). We're trying to give a small buff to her base kit, while also
+  balancing out a few of the Talent tiers. In particular, we're changing
+  Blessing of the Bronze to be an activated ability, so that opponents have
+  greater counterplay. Chromie (and the community) saw this one coming, so we
+  were ready to pull the trigger quickly on this change.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="greymane">Greymane</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Swipe (Q)</strong>
+<ul>
+<li>Mana cost reduced from 30 to 25</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="hanzo">Hanzo</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Storm Bow (Q)</strong>
+<ul>
+<li>Mana cost increased from 15 to 20</li>
+</ul></li>
+<li><strong>Scatter Arrow (W)</strong>
+<ul>
+<li>Mana cost increased from 40 to 50</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="li-ming">Li-Ming</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Aether Walker (E)</strong>
+<ul>
+<li>Adjusted Functionality: Now removes the Mana cost of Teleport</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> How about now?</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="lunara">Lunara</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Crippling Spores (W)</strong>
+<ul>
+<li>Mana cost increased from 40 to 50</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="raynor">Raynor</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Penetrating Round (Q)</strong>
+<ul>
+<li>Mana cost increased from 50 to 65</li>
+</ul></li>
+<li><strong>Inspire (W)</strong>
+<ul>
+<li>Mana cost increased from 40 to 50</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="sgt-hammer">Sgt. Hammer</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Spider Mines (Q)</strong>
+<ul>
+<li>Mana cost increased from 45 to 50</li>
+</ul></li>
+<li><strong>Concussive Blast (W)</strong>
+<ul>
+<li>Mana cost increased from 60 to 80</li>
+</ul></li>
+<li><strong>Neosteel Plating (E)</strong>
+<ul>
+<li>Mana cost increased from 30 to 60</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="sylvanas">Sylvanas</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li>Possession (Active)
+<ul>
+<li>Cooldown increased from 8 to 12 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Possession provides Sylvanas a significant swing in
+  pushing power while also outperforming other talents in its tier. To bring
+  both of these in line, we're increasing its cooldown so that she has to think
+  more about when she wants to use its effect.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="zuljin">Zul'jin</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Greivous Throw (Q)</strong>
+<ul>
+<li>Mana cost reduced from 50 to 40</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<ul>
+<li>The AI now has a better understanding of when to attack and when to defend Immortals on Battlefield of Eternity</li>
+<li>Garrosh is no longer able to throw Hanamura Temple's Payload</li>
+<li>Chromie can no longer use Here and There to get outside of a Battleground's playable area</li>
+<li>The Caldeum Complex event now displays the correct time remaining in the Quest Panel</li>
+<li>Cyberpunk skin tints now properly display with the Spring Event icon in the Collection</li>
+<li>Viewing replays generated between March 26's and April 17's patches has been disabled to prevent client crashes</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-03-26 Patch Notes</title>
     <published>2019-03-26T17:33:00.000Z</published>
@@ -8792,32 +10052,6 @@ balance changes and bug fixes. Read on for details.</p>
 <hr />
 
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-10-26 Hotfix Patch</title>
-    <published>2018-10-26T18:25:00.000Z</published>
-    <updated>2018-10-26T18:25:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-10-26-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-10-26-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-october-26-2018">Heroes of the Storm Hotfix Patch Notes – October 26, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22630027" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22630027" target="_blank">Official Patch Notes</a> <small>v 2.39.1</small></div>
-
-<p>We've recently released a Heroes of the Storm patch in order to address a few
-live bugs. Read on for details.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed an issue allowing players to exit D.Va's Mech at will using custom hotkeys.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
 ]]></content>
   </entry>
 </feed>

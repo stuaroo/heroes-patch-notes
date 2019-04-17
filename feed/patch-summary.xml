@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2019-03-26T17:33:00.000Z</updated>
+  <updated>2019-04-17T22:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-04-17 Balance Update v 2.44.1</title>
+    <published>2019-04-17T22:30:00.000Z</published>
+    <updated>2019-04-17T22:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-04-17-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-04-17-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2019-04-17" target="_blank">Abathur</a>, 
+          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2019-04-17" target="_blank">Alarak</a>, 
+          <a href="https://heroespatchnotes.com/hero/ana.html#patch2019-04-17" target="_blank">Ana</a>, 
+          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2019-04-17" target="_blank">Anub'arak</a>, 
+          <a href="https://heroespatchnotes.com/hero/arthas.html#patch2019-04-17" target="_blank">Arthas</a>, 
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2019-04-17" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/butcher.html#patch2019-04-17" target="_blank">Butcher</a>, 
+          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2019-04-17" target="_blank">Chromie</a>, 
+          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2019-04-17" target="_blank">Deckard</a>, 
+          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2019-04-17" target="_blank">Dehaka</a>, 
+          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2019-04-17" target="_blank">Diablo</a>, 
+          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2019-04-17" target="_blank">Garrosh</a>, 
+          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2019-04-17" target="_blank">Greymane</a>, 
+          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2019-04-17" target="_blank">Hanzo</a>, 
+          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2019-04-17" target="_blank">Imperius</a>, 
+          <a href="https://heroespatchnotes.com/hero/liming.html#patch2019-04-17" target="_blank">Li-Ming</a>, 
+          <a href="https://heroespatchnotes.com/hero/lucio.html#patch2019-04-17" target="_blank">Lucio</a>, 
+          <a href="https://heroespatchnotes.com/hero/lunara.html#patch2019-04-17" target="_blank">Lunara</a>, 
+          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2019-04-17" target="_blank">Malthael</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2019-04-17" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2019-04-17" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/rexxar.html#patch2019-04-17" target="_blank">Rexxar</a>, 
+          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2019-04-17" target="_blank">Sgt. Hammer</a>, 
+          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2019-04-17" target="_blank">Stitches</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2019-04-17" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2019-04-17" target="_blank">Sylvanas</a>, 
+          <a href="https://heroespatchnotes.com/hero/uther.html#patch2019-04-17" target="_blank">Uther</a>, 
+          <a href="https://heroespatchnotes.com/hero/varian.html#patch2019-04-17" target="_blank">Varian</a>, 
+          <a href="https://heroespatchnotes.com/hero/xul.html#patch2019-04-17" target="_blank">Xul</a>, 
+          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2019-04-17" target="_blank">Yrel</a>, 
+          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2019-04-17" target="_blank">Zeratul</a>, 
+          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2019-04-17" target="_blank">Zul'jin</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2019-03-26 Patch Notes v 2.44.0</title>
     <published>2019-03-26T17:33:00.000Z</published>
@@ -317,32 +363,6 @@
           <a href="https://heroespatchnotes.com/hero/stitches.html#patch2018-11-13" target="_blank">Stitches</a>, 
           <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-11-13" target="_blank">Zagara</a>, 
           <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-11-13" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-10-31 Balance Update v 2.39.2</title>
-    <published>2018-10-31T20:20:00.000Z</published>
-    <updated>2018-10-31T20:20:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-10-31-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-10-31-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2018-10-31" target="_blank">Artanis</a>, 
-          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2018-10-31" target="_blank">Blaze</a>, 
-          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2018-10-31" target="_blank">Dehaka</a>, 
-          <a href="https://heroespatchnotes.com/hero/falstad.html#patch2018-10-31" target="_blank">Falstad</a>, 
-          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2018-10-31" target="_blank">Kel'Thuzad</a>, 
-          <a href="https://heroespatchnotes.com/hero/lili.html#patch2018-10-31" target="_blank">Li Li</a>, 
-          <a href="https://heroespatchnotes.com/hero/lucio.html#patch2018-10-31" target="_blank">Lucio</a>, 
-          <a href="https://heroespatchnotes.com/hero/lunara.html#patch2018-10-31" target="_blank">Lunara</a>, 
-          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2018-10-31" target="_blank">Mal'Ganis</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-10-31" target="_blank">Tyrande</a>, 
-          <a href="https://heroespatchnotes.com/hero/uther.html#patch2018-10-31" target="_blank">Uther</a>, 
-          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-10-31" target="_blank">Zagara</a>
         </li>
       </ul>
       ]]></content>
