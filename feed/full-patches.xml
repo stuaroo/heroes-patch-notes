@@ -2,10 +2,204 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-04-17T22:30:00.000Z</updated>
+  <updated>2019-04-22T23:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-04-22 PTR Patch Notes</title>
+    <published>2019-04-22T23:00:00.000Z</published>
+    <updated>2019-04-22T23:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-04-22-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-04-22-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-april-22-2019">Heroes of the Storm PTR Patch Notes — April 22, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22933140" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22933140" target="_blank">Official Patch Notes</a> <small>v 2.45.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until the week of April 29. As always, if you
+encounter any bugs during your PTR play sessions, please stop by the <a href="https://us.forums.blizzard.com/en/heroes/c/ptr-bug-report">PTR Bug
+Report forum</a> to
+let us know about your experiences.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li>The Log Out button has been disabled after being matched for matchmade games</li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> This is to prevent players from dodging quick matches after checking hero composition</p>
+</blockquote>
+
+<hr />
+
+<h3 id="new-hero-anduin-king-of-stormwind">New Hero: Anduin, King of Stormwind</h3>
+
+<p>With Shalamayne by his side, Anduin, King of Stormwind, has entered the Nexus
+to take his place by his warrior father's side. Anduin is a Ranged Healer who
+comes with an arsenal of abilities aimed at keeping his teammates alive, but
+also has the potential to unleash the Light's swift justice to enemies on the
+battlefield.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>Leap of Faith (D)</strong>
+<ul>
+<li>Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel 
+<ul>
+<li>Cooldown: 80 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Flash Heal (Q)</strong>
+<ul>
+<li>Cast for 0.75 seconds to heal an allied Hero for 260
+<ul>
+<li>Cost: 30 mana</li>
+<li>Cooldown: 4 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Divine Star (W)</strong>
+<ul>
+<li>Send light that deals 140 damage to enemies and then returns to Anduin, healing allied Heroes for 130 in a wider path. Healing increases by 25% per enemy Hero hit. 
+<ul>
+<li>Cost: 45 mana</li>
+<li>Cooldown: 9 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Chastise (E)</strong>
+<ul>
+<li>Shove a swell of light forward, dealing 145 damage to the first enemy Hero hit and Rooting them for 1.25 seconds 
+<ul>
+<li>Cost: 40 mana</li>
+<li>Cooldown: 10 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Holy Word: Salvation (R1)</strong>
+<ul>
+<li>After 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 25% of their max Health and are Protected. 
+<ul>
+<li>Cost: 70 mana</li>
+<li>Cooldown: 80 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Lightbomb (R2)</strong>
+<ul>
+<li>Imbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 damage to enemies and Stunning them for 1.25 seconds. The target gains a Shield that absorbs 140 damage per enemy Hero hit. Lasts for 5 seconds. 
+<ul>
+<li>Cost: 70 mana</li>
+<li>Cooldown: 60 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are only available for a limited time!
+<ul>
+<li>Anduin Heroic Bundle</li>
+<li>Footman Varian Skin Pack</li>
+</ul></li>
+</ul>
+
+<p><strong>New Announcer</strong></p>
+
+<ul>
+<li>Anduin Announcer</li>
+</ul>
+
+<p><strong>New Mount</strong></p>
+
+<ul>
+<li>Reverence</li>
+<li>Redridge Reverence</li>
+<li>Darkshire Reverence</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Anduin</strong>
+<ul>
+<li>Elwynn Anduin</li>
+<li>Westfall Anduin</li>
+<li>Neo-President Anduin</li>
+<li>Neo-Steel Anduin</li>
+<li>Neo-Vigilante Anduin</li>
+</ul></li>
+<li><strong>Varian</strong>
+<ul>
+<li>Stormwind Footman Varian</li>
+<li>Stromgarde Footman Varian</li>
+<li>Kul Tiras Footman Varian</li>
+</ul></li>
+</ul>
+
+<p><strong>New Portraits, Sprays, and Emojis</strong></p>
+
+<ul>
+<li>Several new emoji packs, sprays, and portraits have also been added to the game</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Cosmetics</strong></p>
+
+<ul>
+<li>Fixed an issue where Genie Chromie's hourglass would not animate during the draft cutscene</li>
+<li>Fixed an issue where Watergun Tychus would call on unavailable SFX</li>
+<li>Fixed an issue where the Horns of the Cyber Oni Warboard would clip into its mane when coming to a stop</li>
+<li>Fixed an issue where Cyber Oni Warboar's front left leg would pop during its run animation</li>
+<li>Fixed an issue where Cyber Oni Warboar's shoulder would slide when coming to a stop</li>
+</ul>
+
+<p><strong>Heroes, Abilities, &amp; Talents</strong></p>
+
+<ul>
+<li>Adjusted the intensity of Tyrael's Holy Ground ability on low settings to be more visible</li>
+<li>Fixed an issue where Leoric's Basic Attack and Wrath of the Bone King animations would desync with his attack cycle</li>
+<li>Fixed an issue where Orphea's Eternal Feast would continue bouncing if an Abathur Ultimate Evolution clone expired in the area</li>
+<li>Fixed an issue where Orphea's Eternal Feast tooltip data reference for repeat duration was not functioning</li>
+<li>Fixed an issue where the Butcher's FX would appear outside of his model while cocooned</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li>Fixed an issue where the Target Info Panel was using an old version of the Dragon Knight portrait</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-04-17 Balance Update</title>
     <published>2019-04-17T22:30:00.000Z</published>
@@ -9624,427 +9818,6 @@ now vows to protect the innocent – as a Hero of the Nexus.</p>
 <li><strong>Kerrigan:</strong> Fixed an issue that disabled Health and Mana regeneration during Chrysalis.</li>
 <li><strong>Stukov:</strong> Fixed an issue preventing Lurking Arm from revealing damaged targets if they were at the edge of its area of effect.</li>
 <li><strong>Tyrande:</strong> Fixed an issue preventing Elune's Chosen from healing allies if damage was dealt to Shielded/Protected targets.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-10-31 Balance Update</title>
-    <published>2018-10-31T20:20:00.000Z</published>
-    <updated>2018-10-31T20:20:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-10-31-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-10-31-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-october-31-2018">Heroes of the Storm Balance Patch Notes - October 31, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22636768" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22636768" target="_blank">Official Patch Notes</a> <small>v 2.39.2</small></div>
-
-<p>We're about to release a new Heroes of the Storm patch to apply a number of
-balance changes and bug fixes. Read on for details.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#falstad">Falstad</a></td>
-  <td><a href="#zagara">Zagara</a></td>
-  <td><a href="#li-li">Li Li</a></td>
-  <td><a href="#artanis">Artanis</a></td>
-</tr>
-<tr>
-  <td><a href="#kelthuzad">Kel'Thuzad</a></td>
-  <td></td>
-  <td><a href="#lucio">Lucio</a></td>
-  <td><a href="#blaze">Blaze</a></td>
-</tr>
-<tr>
-  <td><a href="#lunara">Lunara</a></td>
-  <td></td>
-  <td><a href="#tyrande">Tyrande</a></td>
-  <td><a href="#dehaka">Dehaka</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td><a href="#uther">Uther</a></td>
-  <td><a href="#malganis">Mal'Ganis</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="falstad">Falstad</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Flight (Z)</strong>
-<ul>
-<li>Cooldown increased from 60 to 75 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li>Epic Mount (Z)
-<ul>
-<li>Cooldown reduction increased from 30 to 40 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kelthuzad">Kel'Thuzad</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Frost Blast (R)</strong>
-<ul>
-<li>Cooldown reduced from 70 to 60 seconds</li>
-<li>Mana cost reduced from 60 to 50</li>
-<li>Root duration increased from 1.5 to 1.75 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Barbed Chains (E)
-<ul>
-<li>Armor reduction decreased from 15 to 10</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Ice Cold (Passive)
-<ul>
-<li>Damage bonus increased from 250 to 300%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Icy Grasp (W)
-<ul>
-<li>Frost Nova slow increase changed from 10 to 15%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lunara">Lunara</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Choking Pollen (Q)
-<ul>
-<li>Damage bonus to enemies afflicted by Nature's Toxin increased from 75 to 85%</li>
-<li>Damage bonus to enemies afflicted by 3 stacks of Nature's Toxin increased from 125 to 135%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="zagara">Zagara</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Nydus Network (R)</strong>
-<ul>
-<li>Maximum number of active Nydus Worms reduced from 10 to 4</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="li-li">Li Li</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Healing Brew (Q)</strong>
-<ul>
-<li>Base healing amount reduced from 190 to 181</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Hindering Winds (E)
-<ul>
-<li>Duration reduced from 2 to 1.5 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lucio">Lucio</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Crossfade (W)</strong>
-<ul>
-<li>Speed Boost Movement Speed increased from 15 to 20%</li>
-</ul></li>
-<li><strong>Amp It Up (E)</strong>
-<ul>
-<li>Cooldown reduced from 15 to 13 seconds</li>
-<li>Mana cost reduced from 100 to 90</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>We Move Together (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tyrande">Tyrande</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Light of Elune (Q)</strong>
-<ul>
-<li>Heal amount reduced from 265 to 255</li>
-</ul></li>
-<li><strong>Lunar Flare (E)</strong>
-<ul>
-<li>Cooldown increased from 12 to 13 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Kaldorei Resistance (Q)
-<ul>
-<li>Spell Armor duration reduced from 3 to 2 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Ranger (W)
-<ul>
-<li>Bonus maximum range damage increased from 150 to 250%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Iceblade Arrows (Passive)
-<ul>
-<li>Basic Attack Speed increase reduced from 25 to 20%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="uther">Uther</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Hammer of Justice (E)</strong>
-<ul>
-<li>Stun duration increased from .75 to 1 second</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="artanis">Artanis</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Phase Prism (E)</strong>
-<ul>
-<li>Cooldown reduced from 16 to 14 seconds</li>
-<li>Mana cost reduced from 70 to 60</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li>Graviton Vortex (E)
-<ul>
-<li>Mana cost reduction decreased from 35 to 30</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="blaze">Blaze</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Oil Spill (W)</strong>
-<ul>
-<li>Slow amount increased from 40 to 50%</li>
-<li>Ignited Oil Spill damage reduced from 18 to 16</li>
-</ul></li>
-<li><strong>Jet Propulsion (E)</strong>
-<ul>
-<li>Cooldown reduced from 10 to 9 seconds</li>
-<li>Mana cost reduced from 50 to 45</li>
-</ul></li>
-<li><strong>Pyromania (D)</strong>
-<ul>
-<li>Armor amount increased from 25 to 35</li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="dehaka">Dehaka</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Brushstalker (Z)</strong>
-<ul>
-<li>Cooldown increased from 60 to 75 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li>Apex Predator (Z)
-<ul>
-<li>Cooldown reduction increased from 25 to 35 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malganis">Mal'Ganis</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fel Claws (Q)</strong>
-<ul>
-<li>Damage reduced from 72 to 69</li>
-</ul></li>
-<li><strong>Vampiric Touch (Trait)</strong>
-<ul>
-<li>Healing against non-Heroic targets reduced from 15 to 10%</li>
-</ul></li>
-<li><strong>Carrion Swarm (R)</strong>
-<ul>
-<li>Healing against Heroes reduced from 100 to 75%</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 16</strong>
-<ul>
-<li>Plague Bats (W)
-<ul>
-<li>Damage reduced from 85 to 81</li>
-</ul></li>
-<li>Frenzied Assault (Passive)
-<ul>
-<li>Bonus Physical Damage increased from 10 to 15%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>Banner:</strong> Fixed an issue with the Roll 20 Esports Banner textures.</li>
-<li><strong>Announcer:</strong> Fixed an issue that caused the Mal'Ganis announcer pack to change to Malfurion after loading into a game.</li>
-</ul>
-
-<p><strong>Heroes</strong></p>
-
-<ul>
-<li><strong>Ana:</strong> Fixed an issue that caused Ana's Level 13 Healing Dart talents to fail to apply to Heroes that were at full health.</li>
-<li><strong>Mal'Ganis:</strong> Fixed an issue that could grant Mal'Ganis vision from summoned units while the Blind as a Bat talent was active.</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>Fixed an issue causing Level 5 and Level 15 progression reward icons to appear as white squares.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
