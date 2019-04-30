@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2019-04-17T22:30:00.000Z</updated>
+  <updated>2019-04-30T17:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-04-30 Patch Notes v 2.45.0</title>
+    <published>2019-04-30T17:30:00.000Z</published>
+    <updated>2019-04-30T17:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-04-30-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-04-30-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/anduin.png" alt="Anduin" height="60" width="60" /> Anduin</h3>
+      <h4>Battleground</h4>
+      <ul>
+        <li><p>Infernal Shrines: Frozen Punisher can now disable Structures, Mortar Punisher mortar damage increased ~28%</p>
+</li>
+        <li><p>Volskaya Foundry: Triglav Protector updated to "shift...the vehicles power out of its team fight potential, and into its pushing power (particularly in the early game)"</p>
+</li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2019-04-17 Balance Update v 2.44.1</title>
     <published>2019-04-17T22:30:00.000Z</published>
@@ -328,41 +346,6 @@
           <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2018-11-28" target="_blank">Tyrande</a>, 
           <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2018-11-28" target="_blank">Whitemane</a>, 
           <a href="https://heroespatchnotes.com/hero/yrel.html#patch2018-11-28" target="_blank">Yrel</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-11-13 Patch Notes v 2.40.0</title>
-    <published>2018-11-13T18:12:00.000Z</published>
-    <updated>2018-11-13T18:12:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-11-13-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-11-13-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/orphea.png" alt="Orphea" height="60" width="60" /> Orphea</h3>
-      <h4>General</h4>
-      <ul>
-        <li><p>Stimpacks renamed Boosts with additional functionality: "all players will receive 5% bump in experience for each player in their match who had an active Boost"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2018-11-13" target="_blank">Alexstrasza</a>, 
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2018-11-13" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/guldan.html#patch2018-11-13" target="_blank">Gul'dan</a>, 
-          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2018-11-13" target="_blank">Hanzo</a>, 
-          <a href="https://heroespatchnotes.com/hero/kaelthas.html#patch2018-11-13" target="_blank">Kael'thas</a>, 
-          <a href="https://heroespatchnotes.com/hero/lili.html#patch2018-11-13" target="_blank">Li Li</a>, 
-          <a href="https://heroespatchnotes.com/hero/liming.html#patch2018-11-13" target="_blank">Li-Ming</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2018-11-13" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/nazeebo.html#patch2018-11-13" target="_blank">Nazeebo</a>, 
-          <a href="https://heroespatchnotes.com/hero/orphea.html#patch2018-11-13" target="_blank">Orphea</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2018-11-13" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2018-11-13" target="_blank">Stitches</a>, 
-          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-11-13" target="_blank">Zagara</a>, 
-          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-11-13" target="_blank">Zul'jin</a>
         </li>
       </ul>
       ]]></content>

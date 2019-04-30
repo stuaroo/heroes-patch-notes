@@ -7,7 +7,7 @@
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190108.png") 0 0 no-repeat; background-size: 44px 235.78260891px; height: 44px; width: 44px; }
+.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190430.png") 0 0 no-repeat; background-size: 44px 283.60869591px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20180612.png") 0 0 no-repeat; 
   background-size: 50.6px 814.0px; width: 44px; height: 44px;
@@ -25,6 +25,8 @@
 .hero-alexstrasza{ background: url("//heroespatchnotes.com/images/hero/alexstrasza.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-ana, .medium-ana{ background-position: 0px -47.826087px; }
 .hero-ana{ background: url("//heroespatchnotes.com/images/hero/ana.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
+.small-anduin, .medium-anduin{ background-position: 0px -239.130435px; }
+.hero-anduin{ background: url("//heroespatchnotes.com/images/hero/anduin.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-anubarak, .medium-anubarak{ background-position: 0px -47.826087px; }
 .hero-anubarak{ background: url("//heroespatchnotes.com/images/hero/anubarak.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-artanis, .medium-artanis{ background-position: 0px -47.826087px; }
@@ -240,6 +242,7 @@
 #alarak{ background: url("//heroespatchnotes.com/images/hero/alarak.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #alexstrasza{ background: url("//heroespatchnotes.com/images/hero/alexstrasza.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #ana{ background: url("//heroespatchnotes.com/images/hero/ana.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
+#anduin{ background: url("//heroespatchnotes.com/images/hero/anduin.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #anubarak{ background: url("//heroespatchnotes.com/images/hero/anubarak.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #artanis{ background: url("//heroespatchnotes.com/images/hero/artanis.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #arthas{ background: url("//heroespatchnotes.com/images/hero/arthas.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
@@ -333,7 +336,7 @@
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190108.png") 0 0 no-repeat; background-size: 60px 321.521739109px; height: 60px; width: 60px; }
+  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190430.png") 0 0 no-repeat; background-size: 60px 386.739130409px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 1110.0px; width: 60px; height: 60px; 
   }
@@ -342,6 +345,7 @@
   .medium-alarak{ background-position: 0px -391.3043478px; }
   .medium-alexstrasza{ background-position: 0px -195.6521739px; }
   .medium-ana{ background-position: 0px -65.2173913px; }
+  .medium-anduin{ background-position: 0px -326.0869565px; }
   .medium-anubarak{ background-position: 0px -65.2173913px; }
   .medium-artanis{ background-position: 0px -65.2173913px; }
   .medium-arthas{ background-position: 0px -130.4347826px; }
