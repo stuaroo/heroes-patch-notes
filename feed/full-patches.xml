@@ -304,7 +304,7 @@ fixes! Read on for details.</p>
 </ul></li>
 <li><strong>Body Check [Active]</strong>
 <ul>
-<li>Slow amount reduced from 30% to 35%</li>
+<li>Slow amount reduced from 40% to 35%</li>
 <li>No longer deals bonus damage or Slow amount based on Armor Up's bonus</li>
 <li>Additional functionality: Now causes enemies to receive 40% reduced Healing for the next 3 seconds</li>
 </ul></li>
@@ -580,7 +580,7 @@ fixes! Read on for details.</p>
 <li><strong>Consuming Flame [W]</strong>
 <ul>
 <li>Damage bonus changed from 125% to 100%</li>
-<li>This slightly reduces the bonus damage at Level 1 from 281 to 260, but at Level 20 will change from 454 to 54</li>
+<li>This slightly reduces the bonus damage at Level 1 from 281 to 260, but at Level 20 will change from 454 to 548</li>
 </ul></li>
 </ul></li>
 <li><strong>Level 7</strong>
