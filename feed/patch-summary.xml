@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2019-05-22T22:00:00.000Z</updated>
+  <updated>2019-06-18T17:05:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-06-18 Patch Notes v 2.46.0</title>
+    <published>2019-06-18T17:05:00.000Z</published>
+    <updated>2019-06-18T17:05:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/chen.html#patch2019-06-18" target="_blank">Chen</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/chen.png" href="https://heroespatchnotes.com/hero/chen.html#patch2019-06-18" alt="Chen Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2019-05-22 Balance Update v 2.45.1</title>
     <published>2019-05-22T22:00:00.000Z</published>
@@ -293,63 +311,6 @@
           <a href="https://heroespatchnotes.com/hero/zagara.html#patch2018-12-19" target="_blank">Zagara</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-12-11 Patch Notes v 2.41.0</title>
-    <published>2018-12-11T17:34:00.000Z</published>
-    <updated>2018-12-11T17:34:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-12-11-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-12-11-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>Fort and Keep XP: "removed all Experience earned from destroying a Fort or Keep...now provide[s] your team with a stacking 20% increase in Passively-earned Experience"</p>
-</li>
-        <li><p>XP changes: Passive XP increased 15%, destroying Towers gives 50% less XP, defeating defending Mercenaries gives 100% more XP</p>
-</li>
-        <li><p>Catapults: "when a team destroys a Fort, they'll now gain a Catapult in every 3rd Minion wave"; catapult damage, splash size, range, and health will scale over time</p>
-</li>
-        <li><p>Mercenaries: Bosses and major camps on Hanamura and Volskaya now flagged as Elite; "Elite Mercenary Camps are Unstoppable &amp; Unbribable"</p>
-</li>
-        <li><p>Radius reductions for most heroes "to improve visual clarity when many heroes are on-screen"</p>
-</li>
-      </ul>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Volskaya Foundry: "Channelling to enter the Triglav Protector is no longer interrupted by damage"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p>Armor changes: "the game will apply only the highest (or lowest) amount of Armor to a Hero at any given time" (i.e. Armor does not stack additively)</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2018-12-11" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/butcher.html#patch2018-12-11" target="_blank">Butcher</a>, 
-          <a href="https://heroespatchnotes.com/hero/chen.html#patch2018-12-11" target="_blank">Chen</a>, 
-          <a href="https://heroespatchnotes.com/hero/cho.html#patch2018-12-11" target="_blank">Cho</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2018-12-11" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/etc.html#patch2018-12-11" target="_blank">E.T.C.</a>, 
-          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2018-12-11" target="_blank">Fenix</a>, 
-          <a href="https://heroespatchnotes.com/hero/gazlowe.html#patch2018-12-11" target="_blank">Gazlowe</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2018-12-11" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/nova.html#patch2018-12-11" target="_blank">Nova</a>, 
-          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2018-12-11" target="_blank">Raynor</a>, 
-          <a href="https://heroespatchnotes.com/hero/rexxar.html#patch2018-12-11" target="_blank">Rexxar</a>, 
-          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2018-12-11" target="_blank">Stitches</a>, 
-          <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2018-12-11" target="_blank">Sylvanas</a>, 
-          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2018-12-11" target="_blank">Tassadar</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2018-12-11" target="_blank">Tyrael</a>, 
-          <a href="https://heroespatchnotes.com/hero/uther.html#patch2018-12-11" target="_blank">Uther</a>, 
-          <a href="https://heroespatchnotes.com/hero/valeera.html#patch2018-12-11" target="_blank">Valeera</a>, 
-          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2018-12-11" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/stitches.png" href="https://heroespatchnotes.com/hero/stitches.html#patch2018-12-11" alt="Stitches Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/sylvanas.png" href="https://heroespatchnotes.com/hero/sylvanas.html#patch2018-12-11" alt="Sylvanas Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>

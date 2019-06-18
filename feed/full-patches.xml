@@ -2,10 +2,376 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-06-10T21:20:00.000Z</updated>
+  <updated>2019-06-18T17:05:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-06-18 Patch Notes</title>
+    <published>2019-06-18T17:05:00.000Z</published>
+    <updated>2019-06-18T17:05:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-june-18-2019">Heroes of the Storm Live Patch Notes - June 18, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23013882" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23013882" target="_blank">Official Patch Notes</a> <small>v 2.46.0</small></div>
+
+<p>Our next Heroes of the Storm patch is live and brings several bug fixes, a new
+event, new bundles, skins and mounts, along with a Chen rework and more! Read
+on for more information.</p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p>Many seasonal items have made their way back into the collection and will be
+available for crafting and in Loot Chests for a limited time!</p>
+
+<p><strong>New Bundles (Limited Time Only!)</strong></p>
+
+<ul>
+<li>MechasStorm II Bundle</li>
+<li>Mecha Yrel Skin Pack</li>
+<li>Mecha Valla Skin Pack</li>
+<li>Xenotech Malthael Skin Pack</li>
+<li>Seraph Wing Bundle</li>
+</ul>
+
+<p><strong>New Skins (Limited Time Only!)</strong></p>
+
+<ul>
+<li><strong>Mecha Yrel</strong>
+<ul>
+<li>Prototype Mecha Yrel</li>
+<li>Master Mecha Yrel</li>
+<li>Lunar Mecha Yrel</li>
+<li>Carbon Fiber Mecha Yrel</li>
+</ul></li>
+<li><strong>Mecha Valla</strong>
+<ul>
+<li>​Prototype Mecha Valla </li>
+<li>Master Mecha Valla</li>
+<li>Solar Mecha Valla</li>
+<li>Alloy Mecha Valla</li>
+</ul></li>
+<li><strong>Xenotech Malthael</strong>
+<ul>
+<li>Apex Xenotech Malthael</li>
+<li>Twilight Xenotech Malthael</li>
+<li>Umbral Xenotech Malthael</li>
+<li>Gamma Xenotech Malthael</li>
+</ul></li>
+<li><strong>Hunter Mecha Dehaka</strong></li>
+<li><strong>Galactic Xenotech Abathur</strong></li>
+<li><strong>Maritime Dropkick Kharazim</strong></li>
+</ul>
+
+<p><strong>New Mounts (Limited Time Only!)</strong></p>
+
+<ul>
+<li><strong>Seraph Wing</strong>
+<ul>
+<li>Holy Seraph Wing</li>
+<li>Fierce Seraph Wing</li>
+<li>Eternal Seraph Wing</li>
+<li>Guardian Seraph Wing</li>
+<li>Prototype Seraph Wing</li>
+</ul></li>
+<li><strong>Fel Razorgrin</strong></li>
+</ul>
+
+<p><strong>New Portraits and Sprays (Limited Time Only!)</strong></p>
+
+<ul>
+<li>Several new sprays and portraits have also been added to the game.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="mechastorm-ii">MechaStorm II</h3>
+
+<p>Xenotech threatens the planet once again. This new invasion is being led by
+Mecha Malthael, sowing havoc and destruction across Neo-Stormwind. Many
+outposts and cities have already felt the wrath of the Mecha Archangel of
+Death.</p>
+
+<p>&nbsp;</p>
+
+<p>A new generation of Heroes arise to defend the innocent. Equipped with cutting
+edge Mecha technology provided by Neo-President Anduin, the young pilots
+prepare for the battles ahead.</p>
+
+<p>&nbsp;</p>
+
+<p>You must stand together alongside Valla and Yrel as members of the MechaStorm
+to help bring Xenotech's Mecha Malthael's advance to a halt. However, you must
+first make sure your equipment is up to the task.</p>
+
+<h3 id="mechastorm-ii-quest-chain">MechaStorm II Quest Chain</h3>
+
+<p>Repair, upgrade and run repeatable combat simulation missions for each part of
+Mecha Tyrael. Join the Neo-Stormwind's mobile Mecha squadron alongside Valla
+and Yrel to help push back the Xenotech invasion being led by Mecha Malthael.</p>
+
+<p>&nbsp;</p>
+
+<p>Earn Mecha-themed sprays, portraits and loot boxes while working to unlock
+Tyrael the Hero as well as the unique Perfect Mecha Tyrael skin.</p>
+
+<h3 id="mechastorm-ii-loot-chests">MechaStorm II Loot Chests</h3>
+
+<p>From June 17th to August 5th, your main goal will be working to thwart the
+Xenotech invasion. During this time all Loot Chests earned or bought with Gold
+will be Mechastorm II Loot Chests (excluding Hero-specific ones). These Loot
+Chests guarantee at least one item from either MechaStorm II or previous
+years' Summer Events.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Note:</strong> Loot Chests earned prior to the start of this event will not become MechaStorm II Loot Chests.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>UPDATE:</strong> The Ranked Season naming convention has been changed. We are changing the naming convention to be a numbers and year string instead. </p>
+
+<p>Examples:</p>
+
+<ul>
+<li>For the 1st season ending in 2019 the string would be "2019 Season 1"</li>
+<li>Storm League Preseason would be "2019 Season 2"</li>
+<li>Storm League initial season would be "2019 Season 3"</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bruiser">Bruiser</h3>
+
+<h4 id="chen">Chen</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Keg Smash [W]</strong>
+<ul>
+<li>Brew cost increased from 20 to 30</li>
+<li><strong>New functionality:</strong> Smash Chen's keg, dealing damage, drenching affected enemies in Brew for 3 seconds, and Slowing them by 10% for 1.5 seconds. After 1.5 seconds, the Slow is increased to 40% for 1.5 seconds. After being used, this ability becomes Breath of Fire.</li>
+</ul></li>
+<li><strong>Breath of Fire [E]</strong>
+<ul>
+<li>This ability has been moved to the W button, and is available after Keg Smash has been used</li>
+<li>Cooldown reduced from 5 seconds to 1.5 seconds</li>
+<li>Impact damage reduced from 96 to 85</li>
+<li>Periodic damage increased from 32 to 55</li>
+<li>Brew cost reduced from 30 to 10</li>
+<li><strong>Adjusted functionality:</strong> Using Breath of Fire on Brew-soaked enemy causes them to be Ignited, dealing damage over 3 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash. After being used or after 6 seconds, this ability becomes Keg Smash</li>
+</ul></li>
+<li><strong>New Ability: Stagger [E]</strong>
+<ul>
+<li>Damage taken over the next 3 seconds is prevented. Once this effect ends, Chen receives 75% of the damage taken over 5 seconds. 18-second CD</li>
+</ul></li>
+<li><strong>Fortifying Brew [Trait]</strong>
+<ul>
+<li>No longer grants 25 Brew instantly</li>
+<li>Brew regeneration increased from 30 to 50 per second</li>
+<li>Cooldown increased from 5 to 7 seconds</li>
+<li>Channel time reduced from 5 to 4 seconds</li>
+<li>Shield amount decreased from 196 to 180 per second</li>
+<li>This reduces the total shields for fully drinking from 588 to 540</li>
+<li>Shield duration increased from 2 to 4 seconds</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li>Stormstout Secret Recipe [Passive]
+<ul>
+<li>Moved from Level 20</li>
+<li>Healing increased from 1.5% to 2% of Chen's maximum health</li>
+</ul></li>
+<li>New Talent: Eye of the Tiger [Passive]
+<ul>
+<li><strong>Adjusted functionality - Quest:</strong> Increase Regeneration Globe Healing duration by 100%. Reward: After collecting 15 Regeneration Globes, 50% of the Shield from Fortifying Brew persists indefinitely after drinking</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Keg Toss [W]</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Withering Flames [W]</strong>
+<ul>
+<li>Moved from Level 13</li>
+<li>Duration increased from 3 to 4 seconds</li>
+</ul></li>
+<li><strong>Accumulating Flame [W]</strong>
+<ul>
+<li>Moved from Level 1</li>
+<li><strong>New functionality:</strong> Increase Ignited damage by 25% and Basic Attacks against enemy Heroes who are Ignited increase its duration by .75 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Bolder Flavor [Trait]</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Elusive Brawler [Active]</strong>
+<ul>
+<li>Moved from Level 1</li>
+<li>Additional functionality: While active, also grants Chen 30% Movement Speed</li>
+</ul></li>
+<li><strong>New Talent: Gift of the Ox [E]</strong>
+<ul>
+<li>Increase Stagger's duration by .5 seconds, and reduce the amount of damage taken over time to 60% of damage taken</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Wandering Keg [R1]</strong>
+<ul>
+<li>Wandering Keg's Movement Speed bonus no longer stacks with other Movement Speed bonuses.</li>
+<li>Movement speed bonus increased from 60% to 70% </li>
+<li>Knockback duration increased by ~28%</li>
+<li>Knockback speed increased by ~53%</li>
+</ul></li>
+<li><strong>Storm Earth Fire [R2]</strong>
+<ul>
+<li>Spirit Health reduced from 75% of Chen's Health to 70%</li>
+<li>Each ability can only be cast once. The final ability that is cast is empowered.</li>
+<li><strong>Storm [Q]</strong>
+<ul>
+<li><strong>New functionality:</strong> The spirits gain a shield for 400 over 3 seconds. If this is the final ability cast, the shield amount is increased to 750 with no limited duration, and the duration of Storm Earth Fire is increased by 5 seconds.</li>
+</ul></li>
+<li><strong>Earth [W]</strong>
+<ul>
+<li><strong>New functionality:</strong> Fire and Earth leap to the target location, dealing 32 damage and slowing enemies in a large area by 70% for 1.5 seconds. If this is the final ability cast, increase the damage dealt by 300% and the leap instead roots enemy Heroes hit for 1.75 seconds.</li>
+<li>Earth Ability range increased from 7 to 9</li>
+<li>Earth Unit basic attack Slow reduced from 2 seconds to 1.75 seconds</li>
+<li>Earth Unit attack period increased from 2 to 1.5</li>
+</ul></li>
+<li><strong>Fire [E]</strong>
+<ul>
+<li><strong>New functionality:</strong> Increase the attack speed and attack damage of the spirits by 50% for 5 seconds. If this is the final ability cast, increase the attack speed and attack damage bonus to 75% and the spirits gain 50% movement speed for its duration</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Ring of Fire [W]</strong>
+<ul>
+<li>Moved from Level 4</li>
+<li>Adjusted functionality: After Igniting an enemy, burst into flames, dealing damage to nearby enemies</li>
+<li>Duration increased from 3 to 5 seconds</li>
+<li>Damage increased from 52 to 60</li>
+</ul></li>
+<li><strong>Enough to Share [Trait]</strong>
+<ul>
+<li>Moved from Level 16</li>
+<li>Additional functionality:Duration increased from 2 to 4 seconds</li>
+<li>Allied Shield amount increased from 27 to 70</li>
+<li>Additional functionality: Now also instantly Shields Chen for 180</li>
+</ul></li>
+<li><strong>Pressure Point [Q]</strong>
+<ul>
+<li><strong>Adjusted functionality:</strong> Flying Kick Slows the target enemy for 35% for 1 second, or by 70% if Chen has Shields from Fortifying Brew</li>
+</ul></li>
+<li><strong>A Touch of Honey [W]</strong>
+<ul>
+<li>New functionality: Increase the Slow from Keg Smash by 10% and its duration by .5 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Another Round [W]</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>New Talent: Celerity [E]</strong>
+<ul>
+<li>Basic Attacks against Slowed, Rooted, or Stunned enemy Heroes reduce the cooldown of Stagger by 1.5 seconds and grant Chen 15 Armor for 3 seconds</li>
+</ul></li>
+<li><strong>New Talent: Combo Strikes [Trait]</strong>
+<ul>
+<li>Every 3rd Basic Attack against the same target deals 75% bonus damage. While Chen has Shields from Fortifying Brew and for 2 seconds after, he gains 50% Attack Speed</li>
+</ul></li>
+<li><strong>Flying Leap [Q]</strong>
+<ul>
+<li>Additional Functionality: Reduce the cooldown of Flying Leap by .5 seconds each time an enemy Hero takes damage from being Ignited</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Purifying Brew [Trait]</strong>
+<ul>
+<li>Moved from Level 7</li>
+<li>New functionality: Casting Fortifying Brew grants Chen Unstoppable for 1.5 seconds</li>
+</ul></li>
+<li><strong>New Talent: Energizing Brew [Trait]</strong>
+<ul>
+<li>If Chen fully completes his cast of Fortifying Brew, then he gains 20% maximum Health and 20% increased damage for 25 seconds</li>
+</ul></li>
+<li><strong>Untapped Potential [R1]</strong>
+<ul>
+<li>Armor bonus increased from 60 to 75</li>
+<li>Armor bonus now lasts for 3 seconds after Wandering Keg expires</li>
+<li>Movement Speed increased from 100% to 125%</li>
+</ul></li>
+<li><strong>Elemental Conduit [R2]</strong>
+<ul>
+<li>New functionality: Increase the spirits' Health to 100% of Chen's maximum Health and all of their abilities are empowered</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> The new Chen has finally arrived! We had a blast tinkering with him, and look forward to seeing him unleashed to his full potential in your hands. When taking a look at how to best change him, we primarily focused on adding more opportunities for Chen to make plays and for his opponents to interact with him. Some of his power has been taken out of Fortifying Brew and put into his new ability, Stagger, as well as into his talents. While he may take a bit of time to master, proper management of Chen's cooldowns should result in a formidable hero that will make a great addition to any team.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li><strong>FIXED:</strong> Tassadar displays the 'Support' role icon, and is not selected as a valid healer pick when both sides are given a Healer in Shuffle Pick.</li>
+<li><strong>FIXED:</strong> Mercenary Camp captures will show Score Credit Tracking to always match the amount of experience that is being awarded. </li>
+<li><strong>FIXED:</strong> Minions on Tomb of the Spider Queen no longer gain an extra minute of scaling at the start of the game.</li>
+<li><strong>FIXED:</strong> Players will get credit for capturing a Mercenary Camp if you are within an extra 5 radius of the capture point (and on the same team)</li>
+<li><strong>FIXED:</strong> TargetUnit Abilities that can be placed on allies no longer appear invisible to enemy Heroes hit by their area.</li>
+<li><strong>FIXED:</strong> Respec on Try Me Mode map now respawns the player Hero to properly reset all Talents and Quests that Hero had chosen.</li>
+<li><strong>FIXED:</strong> Mecha Valla plays ability sounds that were missing.</li>
+<li><strong>FIXED:</strong> Sledgehammer no longer grants additional Stormbolt Quest stacks on non-Heroic targets.</li>
+</ul>
+
+<p><strong>Heroes, Abilities, &amp; Talents</strong></p>
+
+<ul>
+<li><strong>Jaina:</strong> Jaina's Water Elemental mimic damage from Wintermute now correctly reflects the tooltip and Balance Update. 50% of Jaina's Basic Frostbolt and Cone of Cold damage is mimicked by the Water Elemental.</li>
+<li><strong>D.Va:</strong> D.Va's Mech is no longer immune to friendly abilities.</li>
+<li><strong>Chromie:</strong> Here and There no longer requires Chromie to have vision of her target location, or the clone she is swapping with. </li>
+<li><strong>Sylvanas:</strong> Using any attack on any previously enemy footmen who have been affected by Possession and turned allied, will still receive friendly fire damage from attacks.</li>
+<li><strong>Raynor:</strong> Raynor's Hyperion Splat now properly matches both its warning splat and its targeting guide.</li>
+<li><strong>Anub'arak:</strong> Cocoon is no longer disjointed by teleports. Cocoon will now redirect, similarly to pyroblast, and fall off if the teleport is far enough away.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-06-10 PTR Patch Notes</title>
     <published>2019-06-10T21:20:00.000Z</published>
@@ -9803,830 +10169,6 @@ Sylvanas &amp; Stitches gameplay updates, and more! Read on for more details.</p
 <li><span class="text-warning"><strong>Stitches:</strong> Slam will now reveal its impact area and targets.</span></li>
 <li><p><span class="text-warning"><strong>Stitches:</strong> Serrated Edge no longer deals bonus damage to friendly targets when using Helping Hand.</span></p></li>
 <li><p><strong>Stukov:</strong> Fixed an issue causing Massive Shove to remove Weighted Pustule from its target.</p></li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>Fixed a number of tooltip issues and inaccuracies across the game.</li>
-<li>Fixed an issue causing Hero models to prevent players from pressing the Ready button in the queue screen.</li>
-<li>Fixed an issue causing grandmaster numbers of 3 digits to extend beyond portrait frames while in a party.</li>
-<li><strong>Kel'Thuzad:</strong> Added a quick-cast option for Glacial Spike.</li>
-<li><strong>Zul'jin:</strong> Added a quick-cast option for Amani Rage.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2018-12-03 PTR Patch Notes</title>
-    <published>2018-12-03T19:35:00.000Z</published>
-    <updated>2018-12-03T19:35:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2018-12-03-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2018-12-03-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-december-3-2018">Heroes of the Storm PTR Patch Notes – December 3, 2018</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22791355" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22791355" target="_blank">Official Patch Notes</a> <small>v 2.41.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until December 10. As always, if you encounter
-any bugs during your PTR play sessions, please stop by the <a href="https://us.forums.blizzard.com/en/heroes/c/ptr-bug-report">PTR Bug Report
-forum</a> to let us
-know about your experiences.</p>
-
-<hr />
-
-<h3 id="art">Art</h3>
-
-<ul>
-<li>Stitches has received several updated effects and animations to match his gameplay updates.</li>
-<li>Sylvanas has received several updated effects and animations to match her gameplay updates.</li>
-</ul>
-
-<hr />
-
-<h3 id="design">Design</h3>
-
-<p><strong>Armor</strong></p>
-
-<ul>
-<li>Now, just like Movement Speed modifiers, the game will apply only the highest (or lowest) amount of Armor to a Hero at any given time. We've adjusted ability/talent Armor values on a per Hero basis to account for this change:
-<ul>
-<li><strong>Anub'arak</strong>
-<ul>
-<li>Nerubian Armor (W)
-<ul>
-<li>New functionality:
-<ul>
-<li>Increase the Spell Armor granted from Harden Carapace by 20 (to 60)</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>The Butcher</strong>
-<ul>
-<li>Enraged (Passive)
-<ul>
-<li>Armor increased from 15 to 25</li>
-</ul></li>
-</ul></li>
-<li><strong>Chen</strong>
-<ul>
-<li>Purifying Brew (Trait)
-<ul>
-<li>Spell Armor increased from 30 to 40</li>
-</ul></li>
-<li>Untapped Potential (R)
-<ul>
-<li>Armor increased from 50 to 60</li>
-</ul></li>
-</ul></li>
-<li><strong>Diablo</strong>
-<ul>
-<li>Sacrificial Soul (Q)
-<ul>
-<li>Armor increased from 20 to 25</li>
-<li>Armor at max Souls increased from 40 to 50</li>
-</ul></li>
-</ul></li>
-<li><strong>E.T.C.</strong>
-<ul>
-<li>Rockstar (Trait)
-<ul>
-<li>Armor increased from 20 to 25</li>
-</ul></li>
-<li>Show Stopper (Q)
-<ul>
-<li>Armor increased from 15 to 35</li>
-</ul></li>
-</ul></li>
-<li><strong>Gazlowe</strong>
-<ul>
-<li>Robo-Goblin (R)
-<ul>
-<li>Armor increased from 30 to 40</li>
-</ul></li>
-</ul></li>
-<li><strong>Lt. Morales</strong>
-<ul>
-<li>Safeguard (W)
-<ul>
-<li>Armor increased from 25 to 30</li>
-</ul></li>
-<li>Trauma Trigger (Passive)
-<ul>
-<li>Armor increased from 30 to 40</li>
-</ul></li>
-</ul></li>
-<li><strong>Nova</strong>
-<ul>
-<li>Anti-Armor Shells (Passive)
-<ul>
-<li>Physical Armor shred increased from 10 to 15</li>
-</ul></li>
-</ul></li>
-<li><strong>Raynor</strong>
-<ul>
-<li>Bounty Hunter (Trait)
-<ul>
-<li>Armor increased from 5 to 10</li>
-</ul></li>
-</ul></li>
-<li><strong>Rexxar</strong>
-<ul>
-<li>Hunter-Gatherer (Passive)
-<ul>
-<li>Armor increased from 10 to 15</li>
-</ul></li>
-</ul></li>
-<li><strong>Tassadar</strong>
-<ul>
-<li>Khala's Light (Q)
-<ul>
-<li>Armor increased from 15 to 20</li>
-</ul></li>
-</ul></li>
-<li><strong>Tyrael</strong>
-<ul>
-<li>Defense of the Angels (Active)
-<ul>
-<li>Armor increased from 40 to 50</li>
-</ul></li>
-</ul></li>
-<li><strong>Uther</strong>
-<ul>
-<li>Devotion (Trait)
-<ul>
-<li>Armor increased from 15 to 25</li>
-</ul></li>
-</ul></li>
-<li><strong>Valeera</strong>
-<ul>
-<li>Smoke Bomb (R)
-<ul>
-<li>Armor increased from 25 to 30</li>
-</ul></li>
-</ul></li>
-<li><strong>Zul'jin</strong>
-<ul>
-<li>Amani Hide (Active)
-<ul>
-<li>Armor increased from 10 to 15</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Catapults</strong></p>
-
-<ul>
-<li>When a team destroys a Fort, they'll now gain a Catapult in every 3rd Minion wave.
-<ul>
-<li><strong>NOTE:</strong> In order to keep early-game Catapults from being too devastating to defending teams, Catapult attack splash size, attack range, and damage/health will gradually increase as the game progresses.</li>
-</ul></li>
-</ul>
-
-<p><strong>Experience Changes</strong></p>
-
-<ul>
-<li>Removed all Experience earned from destroying a Fort or Keep</li>
-<li>Decreased Experience earned from destroying Towers by 50%</li>
-<li>Passive Experience gain increased by 15%</li>
-<li>Increased Experience gained by defeating defending Mercenaries by 100%</li>
-<li>Laning Mercenary Experience
-<ul>
-<li><s>Defeating Laning Mercenaries will now grant 100% of Defending Mercenaries Experience.</s></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> After listening to feedback, we have decided to pull
-  back the laning Mercenary change outlined in our 2019 gameplay updates in
-  order to give winning teams more opportunities to pull ahead.</p>
-</blockquote>
-
-<p><strong>Mercenaries</strong></p>
-
-<ul>
-<li>Boss Camps, Sentinel Camps (Hanamura Temple), and Support Camps (Volskaya Foundry) will now be flagged as Elite. 
-<ul>
-<li>Elite Mercenary Camps are Unstoppable &amp; Unbribable</li>
-</ul></li>
-</ul>
-
-<p><strong>Unit Radii</strong></p>
-
-<ul>
-<li>The unit radius values for most Heroes has been reduced by 5-15%</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="user-interface">User Interface</h3>
-
-<ul>
-<li>Armor, increased Healing, and decreased Healing healthbar indicators have received a visual update.</li>
-</ul>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#assassin">Assassin</a></th>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#fenix">Fenix</a></td>
-  <td><a href="#sylvanas">Sylvanas</a></td>
-  <td><a href="#stitches">Stitches</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="assassin">Assassin</h3>
-
-<h4 id="fenix">Fenix</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Purification Salvo (R)</strong>
-<ul>
-<li>Damage reduced from 86 to 79</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Inhibiting Energy (W)
-<ul>
-<li>Now applies to all slows (except itself), and not just Plasma Cutter's slows</li>
-<li>Slow duration reduced from 4 to 3 seconds</li>
-<li>Slow amount reduced from 35 to 30%</li>
-</ul></li>
-<li>Warp Conduit (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Warp Warfare (E)
-<ul>
-<li>Added functionality:
-<ul>
-<li>Now also resets the cooldown of Warp when Fenix gets a Hero takedown</li>
-</ul></li>
-</ul></li>
-<li>Divert Power: Weapons (Active)
-<ul>
-<li>New functionality:
-<ul>
-<li>Activate to gain 40% Basic Attack damage for 5 seconds. Basic Attacks against Heroes refresh this duration. When this damage bonus falls off, remove all of Fenix's Shields. 40 second cooldown.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Dampening Field (Trait)
-<ul>
-<li>Spell Armor increased from 20 to 25</li>
-</ul></li>
-<li>Auxiliary Shields (Trait)
-<ul>
-<li>Shield amount increased from 20 to 40%</li>
-<li>Health loss increased from 10 to 30%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="sylvanas">Sylvanas</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 1425 to 1550</li>
-<li>Health Regen increased from 2.969 to 3.23</li>
-<li>Basic Attack damage reduced from 90 to 81</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Withering Fire (Q)</strong>
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>Pressing Q once fires 5 Withering Fire arrows at the closest enemy</li>
-</ul></li>
-<li>Mana cost increased from 0 to 25</li>
-<li>Damage reduced from 48 to 39</li>
-<li>Range increased from 6.25 to 8</li>
-<li>Cooldown increased from 2 to 8 seconds</li>
-<li>Cooldown now restores all charges</li>
-<li>No longer gains charges on Minion kills</li>
-<li>Nearby Heroes takedowns now refresh the cooldown of this ability</li>
-<li>Fire rate reduced from .188 to .375 (50% slower)</li>
-<li>Withering Fire cannot be cast while a previous cast of Withering Fire is still firing</li>
-</ul></li>
-<li><strong>Shadow Dagger (W)</strong>
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>Shadow Dagger no longer spreads to nearby targets each time it does damage. </li>
-<li>Damage dealt by Sylvanas to the primary target of Shadow Dagger spreads its effect to all nearby enemies.</li>
-</ul></li>
-<li>Mana cost decreased from 75 to 50</li>
-<li>Duration increased from 2 to 2.5 seconds</li>
-<li>Damage reduced from 37 to 29</li>
-</ul></li>
-<li><strong>Haunting Wave (E)</strong>
-<ul>
-<li>Banshee travel speed increased by ~6%</li>
-</ul></li>
-<li><strong>Mind Control (R)</strong>
-<ul>
-<li>Cooldown reduced from 60 to 50 seconds</li>
-<li>New functionality:
-<ul>
-<li>After a .25 second cast, launch a missile that impacts the first enemy Hero in its path. Impacted Heroes are Silenced, Slowed by 30%, and forced to walk towards Sylvanas for 1.75 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Black Arrows (Trait)</strong>
-<ul>
-<li>New functionality:
-<ul>
-<li>Activate to cause all Basic Attacks and Abilities to Stun Minions, Mercenaries, and Structures for 3 seconds over the next 10 seconds. 40 second cooldown</li>
-</ul></li>
-<li>New Passive functionality – Banshee's Curse:
-<ul>
-<li>Basic Attacks infect enemies with Banshee's Curse for 3 seconds. Sylvanas deals 25% bonus damage to enemies with 3 stacks of Banshee's Curse.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Overflowing Quiver (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Dreadful Wake (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Overwhelming Affliction (Trait)
-<ul>
-<li>Moved from Level 16</li>
-<li>Adjusted functionality:
-<ul>
-<li>Enemy Heroes with 3 stacks of Banshee's Curse are slowed by 15%. Basic Attacks against Slowed enemy Heroes deal 1% of their maximum Health in damage</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Unfurling Shadows (W)</strong>
-<ul>
-<li>Quest: Each time Shadow Dagger deals damage to enemy Heroes with 3 stacks of Banshee's Curse, increase its damage by .5%</li>
-</ul></li>
-<li><strong>New Talent: Banshee's Curse (Q)</strong>
-<ul>
-<li>Hitting an enemy Hero with Withering Fire increases Sylvanas' Attack Speed and Ability Power by 5% for 6 seconds, stacking up to 5 times</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>With the Wind (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Mercenary Queen (Trait)
-<ul>
-<li>Moved from Level 1</li>
-<li>Adjusted functionality:
-<ul>
-<li>Friendly non-Elite Mercenaries near Sylvanas deal 60% more damage. Sylvanas Stuns and deals 30% additional damage to Mercenaries with 3 stacks of Banshee's Curse.</li>
-</ul></li>
-</ul></li>
-<li>Possession (Active)
-<ul>
-<li>Moved from Level 7</li>
-<li>Now requires 3 charges to be used on Catapults</li>
-</ul></li>
-<li>Unstable Poison (W)
-<ul>
-<li>Moved from Level 7</li>
-<li>Damage increased from 116 to 130</li>
-<li>Now triggers on enemy minions who are afflicted by Banshee's Curse, Black Arrows, or Shadow Dagger</li>
-<li>Radius increased from 2 to 2.5</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Barbed Shot (Q)
-<ul>
-<li>New functionality:
-<ul>
-<li>Hitting the same enemy with 5 shots of Withering Fire causes the last shot to deal 350% bonus damage</li>
-</ul></li>
-</ul></li>
-<li>Lost Soul (W)
-<ul>
-<li>Moved from Level 4</li>
-<li>Adjusted functionality:
-<ul>
-<li>Reduce Shadow Dagger's cooldown by 1.75 seconds each time Sylvanas uses a Basic Attack on an enemy Hero with 3 stacks of Banshee's Curse.</li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Festering Wounds (E)</strong>
-<ul>
-<li>Haunting Wave deals 25% more damage and applies 3 stacks of Banshee's Curse. </li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Cold Embrace (W)
-<ul>
-<li>Moved from Level 16</li>
-<li>Duration increased from 2 to 2.5 seconds</li>
-<li>Now also reduces the Armor of targets that Shadow Dagger spreads to by 10</li>
-</ul></li>
-<li>Spell Shield (Active)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Remorseless (Trait)
-<ul>
-<li>Moved from Level 16</li>
-<li>New functionality:
-<ul>
-<li>Increase Sylvanas' Basic Attack range by 1. Basic Attacks against enemy Heroes with 3 stacks of Banshee's Curse fire an untalented shot of Withering Fire. This shot applies Banshee's Curse.</li>
-</ul></li>
-</ul></li>
-<li>Windrunner (E)
-<ul>
-<li>Adjusted functionality:
-<ul>
-<li>Teleporting with Haunting Wave resets the cooldown of Withering Fire. Haunting Wave can be cast a second time for free within 5 seconds after teleporting</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Life Drain (W)
-<ul>
-<li>Moved from Level 13</li>
-<li>New functionality:
-<ul>
-<li>Dealing damage to enemies with 3 stacks of Banshee's Curse heals Sylvanas for 15% of the damage dealt. Doubled against Heroes</li>
-</ul></li>
-</ul></li>
-<li>Evasive Fire (Q)
-<ul>
-<li>Adjusted Functionality:
-<ul>
-<li>Hitting enemies with Withering Fire grants Sylvanas 6% bonus Movement Speed for 2 seconds, stacking up to 30%. Basic Attacks refresh this duration.</li>
-</ul></li>
-</ul></li>
-<li>Will of the Forsaken (Active)
-<ul>
-<li>Moved from Level 13</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Dark Lady's Call (R)
-<ul>
-<li>New functionality:
-<ul>
-<li>Reduce the cooldown of Mind Control by 30 seconds. Heroes hit by Mind Control have their vision greatly reduced for 5 seconds. </li>
-</ul></li>
-</ul></li>
-<li>Withering Barrage (Q)
-<ul>
-<li>Moved from Level 4</li>
-<li>New functionality:
-<ul>
-<li>Hitting an enemy Hero with Withering Fire decreases its cooldown by .75 seconds</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="stitches">Stitches</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Hook (Q)</strong>
-<ul>
-<li>Range reduced from 12.5 to 11</li>
-</ul></li>
-<li><strong>Slam (W)</strong>
-<ul>
-<li>Cast time increased from .25 to .313</li>
-<li>Cooldown reduced from 8 to 6 seconds</li>
-<li>Range increased from 8 to 9.5</li>
-<li>Mana cost reduced from 40 to 30</li>
-<li>Added functionality:
-<ul>
-<li>Now has an Inner area that deals 40% Bonus Damage and applies a 40% slow for 1.5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Devour (E)</strong>
-<ul>
-<li>Ability Effects now occur at the start of the ability's cast, rather than at the end</li>
-</ul></li>
-<li><strong>Vile Cleaver (Passive)</strong>
-<ul>
-<li>New Functionality:
-<ul>
-<li>Basic Attacks apply Vile Gas to nearby enemies, poisoning for 45 damage over 3 seconds. Re-applying Vile Gas increases its duration rather than resetting it, up to 10 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Chew Your Food (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Dampen Magic (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Heavy Slam (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Hungry for More (Passive)
-<ul>
-<li>New functionality:
-<ul>
-<li>Quest: Regen Globes grant 30 permanent Health</li>
-<li>Every 15 Regen globes, Stitches gains 5% permanent Movement speed up to a maximum of 20%</li>
-</ul></li>
-</ul></li>
-<li>Savor the Flavor (E)
-<ul>
-<li>Moved from level 7
-<ul>
-<li>New Functionality:
-<ul>
-<li>Casting Devour on a Hero restores an additional 10% of maximum Health and Mana over 5 seconds and permanently increases Stitches' health regeneration by 1.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>New Talent: Patchwork Creation (Passive)</strong>
-<ul>
-<li>Increase all healing received by 15%.</li>
-<li>Nearby Minion and Hero kills Heal Stiches (Minions for 30, Heroes for 300)</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Amplified Healing (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Restorative Fumes (Trait)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Putrid Ground (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>New Talent – Playtime! (W)</strong>
-<ul>
-<li>Heroes hit by Slam reduce the cooldowns of Stitches's other Basic Abilities by .5 seconds. This cooldown reduction is increased to 2 seconds for Heroes that are hit by Slam's inner impact area.</li>
-</ul></li>
-<li><strong>New Talent – Chop Chop (W)</strong>
-<ul>
-<li>Hitting a Hero with the inner area of Slam increases Stitches' Basic Attack Speed by 50% for 4 seconds.</li>
-</ul></li>
-<li><strong>New Talent: Serrated Edge (Q)</strong>
-<ul>
-<li>Hooking an enemy Hero deals 5% of their max life as damage and decreases Hook's cooldown by 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Last bite (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>New Talent - Blight (Trait)</strong>
-<ul>
-<li>Vile Gas heals for 33% of the damage it deals. Activate to apply Vile Gas to all nearby enemies and reduce their healing taken by 20% for 5 seconds. 40 second CD</li>
-</ul></li>
-<li>Cannibalize (Passive)
-<ul>
-<li>Moved from level 20</li>
-<li>New functionality:
-<ul>
-<li>Heroes hit by Basic Attacks and Slam's inner area heal Stitches for 2% of his maximum health.</li>
-</ul></li>
-</ul></li>
-<li>Tenderizer (Passive)
-<ul>
-<li>New functionality:
-<ul>
-<li>Basic Attacks slow the target by 25% for 2.5 seconds. If the target is afflicted with Slam's Slow, refresh its duration.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Flea Bag (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Mega Smash (W)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Indigestion (E)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>New Talent – Lacerate (W)</strong>
-<ul>
-<li>Slam afflicts enemies with Vile Gas and reduces armor by 10 for 4 seconds.</li>
-</ul></li>
-<li><strong>New Talent – Digestive Juices (E)</strong>
-<ul>
-<li>Devouring an enemy Hero reduces their damage dealt by 40% for 4 seconds.</li>
-</ul></li>
-<li><strong>New Talent – Gas Flare (Passive)</strong>
-<ul>
-<li>Stitches deals 16 damage per second to enemies around you. This damage is increased by 150% for 4 seconds after successfully Hooking an enemy Hero</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Pulverize (W)
-<ul>
-<li>New functionality:
-<ul>
-<li>Slam slows all enemies by 75% for 1 second.</li>
-</ul></li>
-</ul></li>
-<li>Shish Kabob (Q)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Toxic Gas (Passive)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Fishing Hook (Q)
-<ul>
-<li>Range bonus increased from 40 to 50%</li>
-</ul></li>
-<li><strong>New Talent - Meat Hook (Q)</strong>
-<ul>
-<li>Hooking an enemy Hero restores 16% of maximum health over 4 seconds. For 4 seconds, Basic Attacks against the Hooked Hero will refresh the duration of this healing effect.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>New Talent – Second Helping (E)</strong>
-<ul>
-<li>Gain an additional charge of Devour. Devouring an enemy Hero reduces the cooldown of your Heroic ability by 5 seconds.</li>
-</ul></li>
-<li><strong>New Talent – Shambling Horror (Active)</strong>
-<ul>
-<li>Passive: Stitches is no longer affected by Slowing effects</li>
-<li>Activate to gain 50 Armor for 4 seconds. 60 second CD. </li>
-</ul></li>
-</ul></li>
-</ul>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>Many seasonal items have made their way back into the collection and will be available for crafting and in Loot Chests for a limited time!</strong></p>
-
-<p><strong>New Bundles</strong></p>
-
-<ul>
-<li>The following new bundles are only available for a limited time!
-<ul>
-<li>Toy Heroes Bundle</li>
-<li>Cuddle Bear Stitches Skin Pack</li>
-<li>Cosmic Force Valeera Skin Pack</li>
-<li>Dehakasaurus Rex Skin Pack</li>
-</ul></li>
-</ul>
-
-<p><strong>New Skins (Limited Time Only!)</strong></p>
-
-<ul>
-<li><strong>Stitches</strong>
-<ul>
-<li>Cuddle Bear Stitches</li>
-<li>Snuggle Bear Stitches</li>
-<li>Honey Bear Stitches</li>
-</ul></li>
-<li><strong>Dehaka</strong>
-<ul>
-<li>Dehakasaurus Rex</li>
-<li>Dino-Metal Dehakasaurus Rex</li>
-<li>Playtime Dehakasaurus Rex</li>
-</ul></li>
-<li><strong>Valeera</strong>
-<ul>
-<li>Cosmic Force Valeera</li>
-<li>Psionic Cosmic Force Valeera</li>
-<li>Nega Force Valeera</li>
-</ul></li>
-<li><strong>Sylvanas</strong>
-<ul>
-<li>Mint Sugar Plum Sylvanas</li>
-</ul></li>
-</ul>
-
-<p><strong>New Mounts (Limited Time Only!)</strong></p>
-
-<ul>
-<li><strong>Cosmic Lion</strong>
-<ul>
-<li>Psionic Lion</li>
-<li>Nega Lion</li>
-</ul></li>
-<li><strong>Plush Unicorn</strong>
-<ul>
-<li>Plush Zombicorn</li>
-<li>Pretty Plush Unicorn</li>
-<li>Fuzzy Plush Unicorn</li>
-<li>Honey Plush Unicorn</li>
-</ul></li>
-</ul>
-
-<p><strong>New Portraits, Sprays, and Emojis</strong></p>
-
-<ul>
-<li>Several new emoji packs and portraits have also been added to the game.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed an issue causing camera jumps and cursor resets when using drag scroll.</li>
-<li>Made a number of improvements to AI behavior.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Brightwing:</strong> Fixed an issue preventing Brightwing from applying the Sticky Flare talent effect if it hit more than one target.</li>
-<li><strong>Brightwing:</strong> Fixed an issue preventing Brightwing from applying the Hush! talent effect if it hit more than one target.</li>
-<li><strong>Chromie:</strong> Dragon's Breath's warning splat will now display after the ability has been cast.</li>
-<li><strong>Deckard:</strong> Fixed an issue causing Deckard's portal to be visible in Fog of War when using Hearthstone.</li>
-<li><strong>Leoric:</strong> Fixed an issue that allowed Drain Hope's damage and healing to persist through time stop effects.</li>
-<li><strong>Lunara:</strong> Fixed an issue preventing Lunara from playing a voice line when she died.</li>
-<li><strong>Stukov:</strong> Fixed an issue causing Massive Shove to remove Weighted Pustule from its target.</li>
 </ul>
 
 <p><strong>User Interface</strong></p>
