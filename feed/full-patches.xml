@@ -447,7 +447,9 @@ fixes! Read on for details.</p>
 <ul>
 <li><strong>Hand of Freedom [Active]</strong>
 <ul>
-<li>Redesigned: Celestial Charge's final damage is increased by 50%</li>
+<li>Can now be used on Yrel</li>
+<li>Cooldown reduced from 22 to 20 seconds</li>
+<li>Movement Speed bonus reduced from 50% to 35%</li>
 </ul></li>
 </ul></li>
 <li><strong>Level 7</strong>
@@ -552,7 +554,7 @@ fixes! Read on for details.</p>
 </ul></li>
 <li><strong>Binding Heal [Q]</strong>
 <ul>
-<li>Heal amount increased from 95 to 100</li>
+<li>Heal amount increased from 95 to 104</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -586,7 +588,7 @@ fixes! Read on for details.</p>
 <ul>
 <li><strong>Tidal Waves [Q]</strong>
 <ul>
-<li><strong>​Additional Functionality: Also reduces the Mana cost of Chain Heal from 55 to 40</strong></li>
+<li>Additional Functionality: Also reduces the Mana cost of Chain Heal from 55 to 40</li>
 </ul></li>
 </ul></li>
 </ul>
