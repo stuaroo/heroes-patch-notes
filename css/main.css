@@ -208,7 +208,7 @@ article>#top ul {
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190430.png") 0 0 no-repeat; background-size: 44px 283.60869591px; height: 44px; width: 44px; }
+.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190806.png") 0 0 no-repeat; background-size: 44px 331.43478291px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20180612.png") 0 0 no-repeat; 
   background-size: 50.6px 814.0px; width: 44px; height: 44px;
@@ -334,6 +334,8 @@ article>#top ul {
 .hero-orphea{ background: url("//heroespatchnotes.com/images/hero/orphea.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-probius, .medium-probius{ background-position: 0px -143.478261px; }
 .hero-probius{ background: url("//heroespatchnotes.com/images/hero/probius.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
+.small-qhira, .medium-qhira{ background-position: 0px -286.956522px; }
+.hero-qhira{ background: url("//heroespatchnotes.com/images/hero/qhira.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-ragnaros, .medium-ragnaros{ background-position: 0px -430.434783px; }
 .hero-ragnaros{ background: url("//heroespatchnotes.com/images/hero/ragnaros.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-raynor, .medium-raynor{ background-position: 0px -334.782609px; }
@@ -497,6 +499,7 @@ article>#top ul {
 #nova{ background: url("//heroespatchnotes.com/images/hero/nova.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #orphea{ background: url("//heroespatchnotes.com/images/hero/orphea.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #probius{ background: url("//heroespatchnotes.com/images/hero/probius.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
+#qhira{ background: url("//heroespatchnotes.com/images/hero/qhira.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #ragnaros{ background: url("//heroespatchnotes.com/images/hero/ragnaros.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #raynor{ background: url("//heroespatchnotes.com/images/hero/raynor.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #rehgar{ background: url("//heroespatchnotes.com/images/hero/rehgar.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
@@ -537,7 +540,7 @@ article>#top ul {
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190430.png") 0 0 no-repeat; background-size: 60px 386.739130409px; height: 60px; width: 60px; }
+  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190806.png") 0 0 no-repeat; background-size: 60px 451.956521709px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 1110.0px; width: 60px; height: 60px; 
   }
@@ -600,6 +603,7 @@ article>#top ul {
   .medium-nova{ background-position: 0px -391.3043478px; }
   .medium-orphea{ background-position: 0px -195.6521739px; }
   .medium-probius{ background-position: 0px -195.6521739px; }
+  .medium-qhira{ background-position: 0px -391.3043478px; }
   .medium-ragnaros{ background-position: 0px -586.9565217px; }
   .medium-raynor{ background-position: 0px -456.5217391px; }
   .medium-rehgar{ background-position: 0px -521.7391304px; }

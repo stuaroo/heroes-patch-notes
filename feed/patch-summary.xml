@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2019-07-11T00:40:00.000Z</updated>
+  <updated>2019-08-06T16:45:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-08-06 Patch Notes v 2.47.0</title>
+    <published>2019-08-06T16:45:00.000Z</published>
+    <updated>2019-08-06T16:45:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-08-06-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-08-06-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/qhira.png" alt="Qhira" height="60" width="60" /> Qhira</h3>
+      <h4>Play Mode</h4>
+      <ul>
+        <li><p>Storm League: "Ranked Points are now directly mapped to a player's Storm League MMR"</p>
+</li>
+        <li><p>Storm League: placement matches "reduced from 10 to 3"; "Promotion and Demotion games have been removed"</p>
+</li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2019-07-10 Balance Update v 2.46.1</title>
     <published>2019-07-11T00:40:00.000Z</published>
@@ -306,25 +324,6 @@
           <a href="https://heroespatchnotes.com/hero/thelostvikings.html#patch2019-01-23" target="_blank">The Lost Vikings</a>, 
           <a href="https://heroespatchnotes.com/hero/zagara.html#patch2019-01-23" target="_blank">Zagara</a>, 
           <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2019-01-23" target="_blank">Zeratul</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-01-08 Patch Notes v 2.42.0</title>
-    <published>2019-01-08T18:12:00.000Z</published>
-    <updated>2019-01-08T18:12:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-01-08-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-01-08-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/imperius.png" alt="Imperius" height="60" width="60" /> Imperius</h3>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2019-01-08" target="_blank">Abathur</a>, 
-          <a href="https://heroespatchnotes.com/hero/arthas.html#patch2019-01-08" target="_blank">Arthas</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2019-01-08" target="_blank">Diablo</a>
         </li>
       </ul>
       ]]></content>
