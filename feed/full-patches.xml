@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-08-06T16:45:00.000Z</updated>
+  <updated>2019-08-15T07:55:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-08-14 Hotfix Patch</title>
+    <published>2019-08-15T07:55:00.000Z</published>
+    <updated>2019-08-15T07:55:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-08-14-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-08-14-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-august-14-2019">Heroes of the Storm Hotfix Patch Notes - August 14, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23096767" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23096767" target="_blank">Official Patch Notes</a> <small>v 2.47.1</small></div>
+
+<p>We've just released a Heroes of the Storm patch in order to address a few live
+bugs. Read on for details.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Qhira</strong>
+<ul>
+<li>Fatal Wounds no longer causes Blood Rage to deal bonus damage to enemies that have less than 5 stacks.</li>
+<li>Fatal Wounds no longer causes the activated portion of Blood Rage to deal bonus damage.</li>
+</ul></li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li><strong>Ranked:</strong> Post-game point breakdown animation now properly counts up or down.</li>
+<li>Season names now properly display in order on the Profile.</li>
+<li>Fixed an issue where Blizzard Checkout could fail to load when purchasing Gems.</li>
+<li>The Loot Chest award animation no longer improperly displays two Loot Chests granted when a Hero Levels and a quest is completed within the same game.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-08-06 Patch Notes</title>
     <published>2019-08-06T16:45:00.000Z</published>
@@ -9962,253 +10001,6 @@ balance changes and bug fixes.</p>
 
 <p>We've just released our newest patch to the live servers which brings
 Imperius, Archangel of Valor, to the Nexus! Read on for details.</p>
-
-<hr />
-
-<h3 id="new-hero-imperius-warrior">New Hero: Imperius (Warrior)</h3>
-
-<p>Leader of the Angiris Council and Aspect of Valor, Imperius has valiantly led
-the armies of the High Heavens to innumerous victories over the demons of the
-Burning Hells. While his methods are exact and severe, there is no greater
-defender of righteousness in the entirety of creation.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Valorous Brand</strong>
-<ul>
-<li>Each Basic Ability marks enemy Heroes hit for 10 seconds. Basic Attacks consume the target's marks, dealing 30% bonus damage per mark.</li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Celestial Charge (Q)</strong>
-<ul>
-<li>Lunge towards a targeted direction and stab, dealing 35 damage. If an enemy Hero is hit, Channel to Stun for 1 second and deal 70 additional damage when it fully finishes.</li>
-</ul></li>
-<li><strong>Solarion's Flare (W)</strong>
-<ul>
-<li>Release a fiery wave that deals 100 damage. Enemies hit by the center take 50 bonus damage and are Slowed by 40% for 3 seconds.</li>
-</ul></li>
-<li><strong>Molten Armor (E)</strong>
-<ul>
-<li>Shroud Imperius in flames for 3 seconds, striking a nearby enemy for 19 damage every 0.25 seconds. Imperius heals for 100% of the damage dealt, with healing doubled versus Heroes.</li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Angelic Armaments (R)</strong>
-<ul>
-<li>Summon a ring of blazing swords that grants 1000 Shield for 3 seconds.If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 damage to the first enemy hit.</li>
-</ul></li>
-<li><strong>Wrath of the Angiris (R)</strong>
-<ul>
-<li>After 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.After 2 seconds, slam the target into the ground, dealing 375 damage and Stunning them for 1 second.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="user-interface">User Interface</h3>
-
-<ul>
-<li>A number of visual improvements have been implemented for the Boost system both in and out of games.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#specialist">Specialist</a></th>
-  <th><a href="#warrior">Warrior</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#abathur">Abathur</a></td>
-  <td><a href="#arthas">Arthas</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td><a href="#diablo">Diablo</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="specialist">Specialist</h3>
-
-<h4 id="abathur">Abathur</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Evolve Monstrosity (R)</strong>
-<ul>
-<li>Health increased from 1000 to 1350</li>
-<li>Basic Attack damage increased from 73 to 85</li>
-<li>Health bonus per minion killed reduced from 5 to 2%</li>
-<li>Damage bonus per minion killed reduced from 5 to 2%</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We discovered an issue with Evolve Monstrosity where
-  its damage scaling was incorrect. To fix the bug, we would have massively
-  increased its Basic Attack damage once it was fully stacked, which is already
-  fairly high. Instead, we are taking this opportunity to re-tune the
-  Monstrosity so that it is not quite so powerful once fully stacked, but is
-  stronger right away, which should be an overall buff in most use cases.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="warrior">Warrior</h3>
-
-<h4 id="arthas">Arthas</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Summon Sindragosa (R)</strong>
-<ul>
-<li>No longer disables enemy Summons</li>
-<li>Enemy Summons are now slowed by 60% for 4 seconds</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> This change is primarily being made to address cases
-  where Sindragosa would disable high-impact Summons like Jaina's Water
-  Elemental for exceptionally long periods of time. Now enemy Summons who find
-  themselves in the sights of a giant, undead Frost dragon will only tremble in
-  fear instead of being frozen by it.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="diablo">Diablo</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Soul Shield (Passive)
-<ul>
-<li>Soul Shield will now dynamically update if Diablo gains Souls while the Spell Armor is active</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>New Bundles</strong></p>
-
-<ul>
-<li>The following new bundles are only available for a limited time!
-<ul>
-<li>Imperius Heroic Bundle</li>
-<li>Angiris Council Bundle</li>
-</ul></li>
-</ul>
-
-<p><strong>New Announcer</strong></p>
-
-<ul>
-<li>Imperius Announcer</li>
-<li>Johanna Announcer</li>
-<li>Ilarian Announcer</li>
-</ul>
-
-<p><strong>New Mount</strong></p>
-
-<ul>
-<li><strong>Crystalline Saddled Battle Beast</strong></li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Imperius</strong>
-<ul>
-<li>Vindicator Imperius</li>
-<li>Indomitable Imperius</li>
-<li>Demonic Imperius</li>
-<li>Abyssal Demonic Imperius</li>
-<li>Vile Demonic Imperius</li>
-</ul></li>
-</ul>
-
-<p><strong>New Portraits, Sprays, and Emojis</strong></p>
-
-<ul>
-<li>Several new emoji packs and portraits have also been added to the game. </li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>Fixed a number of tooltip issues and inaccuracies across the game.</li>
-<li>Fixed an issue causing Battleground names to be difficult to read on the Hero Select screen of Custom Games.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, and Talents</strong></p>
-
-<ul>
-<li><strong>Brightwing:</strong> Fixed an issue preventing the Unstable Anomaly talent from increasing Polymorph's slow.</li>
-<li><strong>Malthael:</strong> Fixed an issue that caused some of Malthael's spell effects to become visible in the fog of war.</li>
-<li><strong>Zul'jin:</strong> Fixed an issue that could cause the No Mercy! Talent to reduce damage dealt by Grievous Throw.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-01-02 PTR Patch Notes</title>
-    <published>2019-01-02T18:59:00.000Z</published>
-    <updated>2019-01-02T18:59:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-01-02-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-01-02-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-january-2-2019">Heroes of the Storm PTR Patch Notes – January 2, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22819178" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22819178" target="_blank">Official Patch Notes</a> <small>v 2.42.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until January 8. As always, if you encounter any
-bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug Report
-forum</a> to let us know about
-your experiences.</p>
 
 <hr />
 
