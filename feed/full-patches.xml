@@ -2,10 +2,531 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-09-05T18:09:00.000Z</updated>
+  <updated>2019-09-16T18:45:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-09-16 PTR Patch Notes</title>
+    <published>2019-09-16T18:45:00.000Z</published>
+    <updated>2019-09-16T18:45:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-09-16-ptr-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-09-16-ptr-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-september-16-2019">Heroes of the Storm PTR Patch Notes - September 16, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23145200" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23145200" target="_blank">Official Patch Notes</a> <small>v 2.48.0</small></div>
+
+<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
+be available for playtesting until the week of September 23rd. As always, if
+you encounter any bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR
+Bug Report forum</a> to let us
+know about your experiences.</p>
+
+<hr />
+
+<h2 id="general">General</h2>
+
+<ul>
+<li><strong>MacOS Update:</strong>
+<ul>
+<li>With this patch, Heroes of the Storm will use Metal for rendering on macOS. This change ensures that Heroes is compatible with macOS Catalina and that it continues to be compatible with macOS for a long time to come. As a result, the minimum required version of macOS to run Heroes of the Storm is being increased to macOS 10.12 Sierra</li>
+<li>There are a few known issues in this release:
+<ul>
+<li>Stuttering and stalling may be experienced early on in a game, particularly when the game first loads in and when the enemy team is first encountered. These stalls will get better over the course of a game and over the course of several games as macOS optimizes Heroes of the Storm behind the scenes</li>
+<li>Some outlines render black</li>
+<li>Some outlines and team color-based textures may render using colors from the color blind palette when color blind mode is disabled</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We will continue to work hard to resolve these and
+  any other issues as we commit to providing a quality experience for our macOS
+  players.</p>
+</blockquote>
+
+<ul>
+<li><strong>Free Loot Chest with 30 Day Boost Promotion (Twitch Promotion)</strong>
+<ul>
+<li>Until October 22nd, receive a free Legendary Scarlet Heist Chest when you purchase a 30 day boost!</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h2 id="new-event-the-scarlet-heist">New Event: The Scarlet Heist</h2>
+
+<p>New Tirisfal City. A town where every cop is on the take and every crook pays
+their dues. From her penthouse suite atop the Scarlet Monastery Casino,
+Whitemane runs the largest criminal empire this side of Tirisfal. There isn't
+a deal that gets made, a job that gets pulled, a scam that gets run without
+Whitemane giving her blessing and getting her cut. Until now.</p>
+
+<p><strong>Scarlet Heist Event Dates</strong></p>
+
+<ul>
+<li>The Scarlet Heist is the fall event for Heroes of the Storm running from the week of September 24 – December 3. You'll be able to equip skins for Junkrat, Orphea, Sgt. Hammer, and Whitemane, and complete quests to unlock Portraits, Sprays, Emojis, and special Mounts.</li>
+</ul>
+
+<p><strong>Scarlet Heist Loot Chests</strong></p>
+
+<ul>
+<li>During the Scarlet Heist event, all Loot Chests you earn through progression, Heroes Brawl, or by spending gold will be Scarlet Heist Loot Chests. (Except Hero-specific Chests, which will remain unchanged.) Most limited-time items shown above have a chance to drop from Scarlet Heist Loot Chests only. You can also score Items from previous years' limited-time Fall of King's Crest event in Scarlet Heist Loot Chests!</li>
+</ul>
+
+<p><strong>Scarlet Heist Quests</strong></p>
+
+<ul>
+<li>Orphea's plan is simple: she grabs the safe while Junkrat brings the firepower and Bama provides the getaway. Whitemane would never expect anyone to be bold (or stupid) enough to steal from the Scarlet Mafia. And that's the best thing that Orphea's crew has going for them. As you complete quests you will unlock rewards and if you can pull off the heist you'll unlock the Royal Getaway Sidecar mount.</li>
+</ul>
+
+<p>​<a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h4 id="whitemane">Whitemane</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li><strong>Weapon</strong>
+<ul>
+<li>Damage from 60 to 55</li>
+</ul></li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Desperate Plea [Q]</strong>
+<ul>
+<li>Range from 7.5 to 8</li>
+<li>Mana cost from 30 to 45</li>
+<li>Compounding Mana cost from 60 to 45​</li>
+</ul></li>
+<li><strong>Inquisition [W]</strong>
+<ul>
+<li>Damage from 350 to 329</li>
+</ul></li>
+<li><strong>Searing Lash [E]</strong>
+<ul>
+<li>Range from 8.5 to 8</li>
+<li>Damage from 82 to 75</li>
+</ul></li>
+<li><strong>Clemency [1]</strong>
+<ul>
+<li>Now available baseline</li>
+<li>Now costs 75 Mana</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Righteous Flame</strong>
+<ul>
+<li><strong>Changed Functionality:</strong> Increase the damage of Searing Lash by 25%. Increase this to 50% if the target is Stunned, Rooted, Silenced, or Slowed</li>
+</ul></li>
+<li><strong>Pity the Frail</strong>
+<ul>
+<li><strong>Changed Functionality:</strong> Enemy Heroes hit by Searing Lash reduce the Cooldown of Inquisition by 1 second. All of your Healing is increased by 25% on targets below 25% Health</li>
+</ul></li>
+<li><strong>[New Talent] - Inquisitor's Prayer</strong>
+<ul>
+<li><strong>Quest:</strong> Hit Heroes with Searing Lash</li>
+<li><strong>Reward:</strong> Each Hero hit grants 3 permanent Health and 2 permanent Mana. Heroes hit with the second strike count as 2 hits</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>High Inquisitor</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Unwavering Faith</strong>
+<ul>
+<li><strong>New Functionality:</strong> Gain 20% Basic Attack range. Each active Zeal buff increases your Basic Attack damage by 20%</li>
+</ul></li>
+<li><strong>Martyrdom</strong>
+<ul>
+<li>Moved from Level 1</li>
+<li><strong>Changed Functionality:</strong> Increase Desperate Prayer's healing by 10%. Each active Zeal buff increases this by an additional 10%</li>
+</ul></li>
+<li><strong>Indulgence</strong>
+<ul>
+<li><strong>New Functionality:</strong> Gain 5% Movement Speed. Each active Zeal buff increases this by an additional 5%</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Intercession</strong>
+<ul>
+<li>Cooldown from 60 to 45 seconds</li>
+</ul></li>
+<li><strong>[New Talent] - Scarlet Wrath</strong>
+<ul>
+<li>Basic Attacks against enemy Heroes increase the duration of Zeal by .75 seconds</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Scarlet Aegis</strong>
+<ul>
+<li>Cooldown from 60 to 90 seconds</li>
+</ul></li>
+<li><strong>Divine Reckoning</strong>
+<ul>
+<li>Cooldown from 100 to 75 seconds</li>
+<li><strong>Added Functionality:</strong> Restore Mana equal to 25% of the damage dealt to Heroes​</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Self-Righteous</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Guiding Light</strong>
+<ul>
+<li>​Removed</li>
+</ul></li>
+<li><strong>Subjugation</strong>
+<ul>
+<li>Moved from Level 20</li>
+<li>Damage reduction from 75 to 50%</li>
+</ul></li>
+<li><strong>Lashing Out</strong>
+<ul>
+<li>Moved from Level 16</li>
+<li><strong>Removed Functionality:</strong> No longer grants bonus damage on the second strike of Searing Lash</li>
+</ul></li>
+<li><strong>[New Talent]: Saintly Greatstafff</strong>
+<ul>
+<li>Zeal heals for an additional 100% from Basic Attacks</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Harsh Discipline</strong>
+<ul>
+<li>Moved from Level 13</li>
+</ul></li>
+<li><strong>Shared Punishment</strong>
+<ul>
+<li><strong>Added Functionality:</strong> Enemies affected by Inquisition lose 10 Armor</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Judgement Day</strong>
+<ul>
+<li>Bonus damage from 30 to 50%</li>
+</ul></li>
+<li><strong>Fanatical Power</strong>
+<ul>
+<li>Moved from Level 7</li>
+<li><strong>New Functionality:</strong> Activate to grant target ally a permanent Zeal. Only one Hero can have this at a time (15 second CD)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>​<a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h4 id="junkrat">Junkrat</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li><strong>Basic Attack damage reduced from 116 to 110</strong></li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Frag Launcher [Q]</strong>
+<ul>
+<li>Damage reduced from 128 to 118</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Put Some English On It [Q]</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Boucny Bouncy [Q]</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Tricky Shuffles [Q]</strong>
+<ul>
+<li>Moved from Level 7</li>
+<li>Bonus Movement Speed reduced from 15% to 10%</li>
+<li>Additional functionality: While Frag Launcher has no charges left, Junkrat gains 15% bonus Basic Attack damage</li>
+</ul></li>
+<li><strong>Extra-Wound Timers [Q]</strong>​ 
+<ul>
+<li><strong>Additional Functionality:</strong> The final grenade from Frag Launcher deals 60% bonus damage</li>
+</ul></li>
+<li><strong>[New Talent]: Blow 'Em Up! [W]</strong>
+<ul>
+<li>Hitting an enemy hero with Concussion Mine or Steel Trap causes Junkrat to deal 25% more damage with Basic Attacks and Basic Abilities for 6 seconds​</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Bonzer Hits [W]</strong>
+<ul>
+<li>Removed</li>
+</ul></li>
+<li><strong>Chattering Teeth [E]</strong>
+<ul>
+<li>Moved to Level 13</li>
+</ul></li>
+<li><strong>BOOM POW [W]</strong>
+<ul>
+<li>Moved from Level 20</li>
+<li>Cooldown reduction reduced from 12 to 8 seconds</li>
+</ul></li>
+<li><strong>Taste for Explosions [Q]</strong>
+<ul>
+<li>Damage scaling changed from .5 per stack to .2%</li>
+<li>Maximum bonus damage changed from 100 to 40%​</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Bogged Down [W]</strong>
+<ul>
+<li>Moved from Level 13</li>
+<li>Slow amount reduced from 60% to 40%</li>
+<li>Slow Duration increased from 2 to 2.5 seconds</li>
+</ul></li>
+<li><strong>Big As [E]</strong>
+<ul>
+<li><strong>Additional Functionality:</strong> Enemy Heroes who are hit by Steel Trap have their Armor lowered by 10 to 3.5 seconds</li>
+</ul></li>
+<li><strong>Sticky Wicket [E]</strong>
+<ul>
+<li><strong>New Functionality:</strong> Enemy Heroes who are hit by Steel Trap are Silenced for 2.5 seconds</li>
+</ul></li>
+<li><strong>[New Talent]: Dirty Trickster [Trait]</strong>
+<ul>
+<li>Increase the explosion radius of Total Mayhem by 20%. When Junkrat is Stunned, Rooted, or damaged by an enemy Hero while below 50% Health, he uses Total Mayhem, dropping 5 Grenades at his feet, dealing damage to nearby enemies; 12-second CD</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>RIP-Tire [R1]</strong>
+<ul>
+<li>Cooldown reduced from 80 seconds to 75 seconds</li>
+</ul></li>
+<li><strong>Rocket Ride [R2]</strong>
+<ul>
+<li>Movement Speed increased from 5.5 to 6</li>
+<li>Impact damage increased from 750 to 815</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Gotta Trap 'Em All</strong>
+<ul>
+<li>Moved to Level 4</li>
+<li>No longer has a quest component to gain benefits</li>
+<li>Maximum number of Traps reduced from 3 to 2</li>
+<li>Cooldown reduction increased from 3 to 5 seconds​</li>
+</ul></li>
+<li><strong>[New Talent]: Bombs Away [Q]</strong>
+<ul>
+<li>​Increase Junkrat's Basic Attack range by 1. Frag Launcher grenades fired within .5 seconds of using a Basic Attack deal 25% bonus damage</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Extra Oomph [R1]</strong>
+<ul>
+<li>Cooldown reduction increased from 20 to 25 seconds</li>
+</ul></li>
+<li><strong>Puckish Scamp [R2]</strong>
+<ul>
+<li><strong>New Functionality:</strong> Junkrat gains the ability to use RIP-Tire. Each time he uses his Heroic, it swaps to the alternate ability. Each Heroic has its own separate cooldown</li>
+</ul></li>
+<li>​​<strong>[New Talent]: I Hate Waiting! [Z]</strong>
+<ul>
+<li>Junkrat always rides his Rocket mount, which moves at an additional 150% Movement Speed, but his mount cooldown is increased to 12 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>​<a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h2 id="collection">Collection</h2>
+
+<p>Many seasonal items have made their way back into the collection and will be
+available for crafting and in Loot Chests for a limited time!</p>
+
+<p>For the duration of the Scarlet Heist event, the Legendary Scarlet Heist loot
+chest will be available for purchase for 12,000 gold! (Limit 1 per region per
+account)</p>
+
+<p><strong>New Bundles (Limited Time Only!)</strong></p>
+
+<ul>
+<li>Scarlet Heist Bundle</li>
+<li>Showstopper Whitemane Bundle</li>
+<li>Big Shot Sgt. Hammer Bundle</li>
+<li>Wiseguy Junkrat Bundle</li>
+<li>Baby-Face Orphea Bundle</li>
+<li>Raccoon Bundle</li>
+<li>Getaway Sidecar Bundle</li>
+<li>Fall of King's Crest Bundle</li>
+</ul>
+
+<p><strong>New Skins (Limited Time Only!)</strong></p>
+
+<ul>
+<li><strong>Showstopper Whitemane</strong>
+<ul>
+<li>Noir Showstopper Whitemane</li>
+<li>Idol Showstopper Whitemane</li>
+<li>Diamond Dust Showstopper Whitemane</li>
+<li>Silver Screen Showstopper Whitemane</li>
+</ul></li>
+<li><strong>Big Shot Sgt. Hammer</strong>
+<ul>
+<li>Cabbie Big Shot Sgt. Hammer</li>
+<li>Hot Shot Sgt. Hammer</li>
+<li>Untouchable Big Shot Sgt. Hammer</li>
+<li>Dragster Big Shot Sgt. Hammer</li>
+</ul></li>
+<li><strong>Wiseguy Junkrat</strong>
+<ul>
+<li>Slick Wiseguy Junkrat</li>
+<li>Henchman Wiseguy Junkrat</li>
+<li>High Roller Wiseguy Junkrat</li>
+<li>Prankster Wiseguy Junkrat</li>
+</ul></li>
+<li><strong>Baby-Face Orphea</strong>
+<ul>
+<li>Honey Baby-Face Orphea</li>
+<li>Lovely Baby-Face Orphea</li>
+<li>Sly Baby-Face Orphea</li>
+<li>Devious Baby-Face Orphea​</li>
+</ul></li>
+</ul>
+
+<p><strong>New Mounts (Limited Time Only!)</strong></p>
+
+<ul>
+<li><strong>Timmy Raccon</strong>
+<ul>
+<li>Bobby Raccoon</li>
+<li>Frankie Raccoon</li>
+<li>Joey Raccoon</li>
+<li>Escobar Racoon</li>
+<li>Tommy Raccoon</li>
+</ul></li>
+<li><strong>Getaway Sidecar</strong>
+<ul>
+<li>Classic Getaway Sidecar</li>
+<li>Blazing Getaway Sidecar</li>
+<li>Smooth Getaway Sidecar</li>
+<li>Swell Getaway Sidecar</li>
+</ul></li>
+<li><strong>Revered Tombstone</strong></li>
+<li><strong>Venomous Tombstone</strong></li>
+</ul>
+
+<p><strong>New Content (Limited Time Only!)</strong></p>
+
+<ul>
+<li>Several new sprays and portraits have also been added to the game</li>
+</ul>
+
+<p>​<a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed an issue where purchasing items in the Store can cause the Blizzard Checkout screen to display as black</li>
+<li>Fixed an issue where Loot Chests can fail to open when you use Loot Chest award notification on end of game screen to navigate to Loot screen</li>
+<li>Removed Minion flag from Mercenaries and Monsters</li>
+<li><strong>[Score Screen Updates]:</strong> Self Healing/Shielding score is no longer being added to Healing/Shielding score and will instead become its own score that replaces Damage Taken in the Tab Score Screen​</li>
+<li><strong>[Try Me Mode]:</strong> Cassia's Titan's Revenge armor will now fully reset when resetting Talents in Try Me Mode</li>
+<li>Abilities learned while the Hero is disabled due to crowd control effects will not be usable while the Hero is disabled by channeling or other Crowd Control effects</li>
+</ul>
+
+<p><strong>Heroes, Abilities, &amp; Talents</strong></p>
+
+<ul>
+<li><strong>Leoric:</strong> Updated Wraith Walk's Movement Speed to correctly get up to a 50% bonus</li>
+<li><strong>[Rework] Junkrat:</strong> Concussion Mines will now always knock back all enemy types and Junkrat when they explode</li>
+<li><strong>Stitches:</strong> Shambling Horror's movement speed has been updated to match the new base Hero move speed</li>
+<li><strong>Li Li:</strong> Blinding Wind can no longer target and blind Immune targets</li>
+<li><strong>Artanis:</strong> Interupting Blade Dash before a second missle is launched no longer places in Artanis in unpathable terrain</li>
+<li><strong>Azmodan:</strong> All Shall Burn no longer continues to cast on targets in Post-Death states</li>
+<li><strong>Orphea:</strong> Orphea is now granted Mana when she uses Shadow Waltz</li>
+<li><strong>Yrel:</strong>
+<ul>
+<li>Yrel will now automatically mount after Hearthing back to base after using Bubble Hearth</li>
+<li>Yrel can no longer become temporarily stuck channeling a Basic Ability by using her remaining Mana on Ardent Defender</li>
+</ul></li>
+<li><strong>Qhira:</strong>
+<ul>
+<li>Updated No Santuary to include a 20% damage bonus to Blood Rage, Pulsing Pain, and Final Strike</li>
+<li>Grappling Hook chain will no longer sometimes remain after casting the hook against Terrain</li>
+<li>Swing Life Away no longer gives Spell Armor even if Revoling Sweep ends</li>
+<li>The Thirst no longer heals Qhira after Carnage has hit non-Heroic targets</li>
+<li>Qhira no longer pops at the end of her dance animation</li>
+</ul></li>
+<li><strong>Kel'Thuzad:</strong></li>
+</ul>
+
+<p>​<strong>Talents</strong></p>
+
+<ul>
+<li><strong>​Level 10</strong>
+<ul>
+<li><strong>Shadow Fissure [R2]</strong>
+<ul>
+<li>Hitting an enemy Hero no longer instantly resets the cooldown of Shadow Fissure, but instead sets it to 1.5 seconds</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Talk about fireworks?! With our last balance patch,
+  we introduced some changes to Shadow Fissure that ended up causing a bit more
+  mayhem than we had expected. While we like rewarding players for hitting their
+  abilities, a full instant reset of the ability ended up feeling pretty bad to
+  play against in a lot of circumstances. This was compounded with the changes
+  we also made to Might of the Scourge, so instead of a full reset, we decided
+  to dial it back a notch and set the cooldown to 1.5 seconds instead.</p>
+</blockquote>
+
+<p>​<a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-09-05 Hotfix Patch</title>
     <published>2019-09-05T18:09:00.000Z</published>
@@ -10152,32 +10673,6 @@ your experiences.</p>
 <hr />
 
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-01-31 Hotfix Patch</title>
-    <published>2019-01-31T23:32:00.000Z</published>
-    <updated>2019-01-31T23:32:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-01-31-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-01-31-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-january-31-2019">Heroes of the Storm Hotfix Patch Notes – January 31, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/" target="_blank">Official Patch Notes</a> <small>v 2.42.2</small></div>
-
-<p>We've recently released a Heroes of the Storm patch in order to address a few
-live bugs. Read on for details.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a number of issues with tooltips in non-english clients.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
 ]]></content>
   </entry>
 </feed>
