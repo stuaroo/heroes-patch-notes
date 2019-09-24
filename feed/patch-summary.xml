@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2019-08-28T21:34:00.000Z</updated>
+  <updated>2019-09-24T17:05:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-09-24 Patch Notes v 2.48.0</title>
+    <published>2019-09-24T17:05:00.000Z</published>
+    <updated>2019-09-24T17:05:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-09-24-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-09-24-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2019-09-24" target="_blank">Junkrat</a>, 
+          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2019-09-24" target="_blank">Kel'Thuzad</a>, 
+          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2019-09-24" target="_blank">Whitemane</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2019-08-28 Balance Update v 2.47.2</title>
     <published>2019-08-28T21:34:00.000Z</published>
@@ -298,30 +316,6 @@
           <a href="https://heroespatchnotes.com/hero/zagara.html#patch2019-02-27" target="_blank">Zagara</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-02-12 Patch Notes v 2.43.0</title>
-    <published>2019-02-12T18:24:00.000Z</published>
-    <updated>2019-02-12T18:24:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-02-12-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-02-12-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p>"Rehgar can now self-cast Ancestral Healing"</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2019-02-12" target="_blank">Abathur</a>, 
-          <a href="https://heroespatchnotes.com/hero/ana.html#patch2019-02-12" target="_blank">Ana</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2019-02-12" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2019-02-12" target="_blank">Whitemane</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/abathur.png" href="https://heroespatchnotes.com/hero/abathur.html#patch2019-02-12" alt="Abathur Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/ana.png" href="https://heroespatchnotes.com/hero/ana.html#patch2019-02-12" alt="Ana Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
