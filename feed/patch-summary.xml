@@ -14,6 +14,11 @@
     <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-09-24-patch-notes.html"/>
     <content type="html"><![CDATA[
       <h4>New</h4>
+      <h4>Battleground</h4>
+      <ul>
+        <li><p>Sky Temple: <a href="https://www.reddit.com/r/heroesofthestorm/comments/d5ftwe/sky_temple_gets_new_lighting_on_ptr/f0md19w/">Art and Lighting adjusted to improve clarity of certain FX</a></p>
+</li>
+      </ul>
       <h4>Heroes Affected</h4>
       <ul>
         <li>
@@ -80,6 +85,12 @@
 </li>
         <li><p>Storm League: "A Ranked Seasonal Questline is now available to players...and must be completed in order to be eligible for both the Ranked Seasonal Rewards and the Grand Master Leaderboards"</p>
 </li>
+      </ul>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/qhira.html#patch2019-08-06" target="_blank">Qhira</a>
+        </li>
       </ul>
       ]]></content>
   </entry>
