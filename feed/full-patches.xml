@@ -722,6 +722,37 @@ fixes! Read on for details.</p>
 ]]></content>
   </entry>
   <entry>
+    <title type="text">2019-10-02 Hotfix Patch</title>
+    <published>2019-11-08T23:55:00.000Z</published>
+    <updated>2019-11-08T23:55:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-10-02-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-10-02-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-october-2-2019">Heroes of the Storm Hotfix Patch Notes – October 2, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-october-2-2019/27063" target="_blank"></a><a href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-october-2-2019/27063" target="_blank">Official Patch Notes</a> <small>v 2.48.1</small></div>
+
+<p>We've released a hotfix today to address bugs below.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>E.T.C.</strong></p>
+
+<ul>
+<li>E.T.C. Mosh Pit will now be properly interrupted by Crowd Control during the cast time.</li>
+</ul>
+
+<p><strong>MAC</strong></p>
+
+<ul>
+<li>Fixed an issue that would cause Mac players to crash when certain mounts were used with stealth-ed Heroes.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title type="text">2019-09-25 Hotfix Patch</title>
     <published>2019-09-30T01:20:00.000Z</published>
     <updated>2019-09-30T01:20:00.000Z</updated>
@@ -9971,32 +10002,6 @@ our blog <a href="https://heroesofthestorm.com/en-us/blog/22921910/">here</a>.</
 <ul>
 <li>Fixed an issue where the healing nameplate UI would be hidden when the total equals 0</li>
 <li>Fixed an issue where broadcasts would sometimes appear twice when sent</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-03-07 Hotfix Patch</title>
-    <published>2019-03-08T00:41:00.000Z</published>
-    <updated>2019-03-08T00:41:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-03-07-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-03-07-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-march-7-2019">Heroes of the Storm Hotfix Patch Notes – March 7, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22921912" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22921912" target="_blank">Official Patch Notes</a> <small>v 2.43.3</small></div>
-
-<p>We've recently released a Heroes of the Storm patch in order to address a live
-bug. Read on for details.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>AI:</strong> Improved behavior for pinged AI Heroes to limit situations where they would not properly fall back to their human leader.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
