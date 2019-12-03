@@ -2,10 +2,497 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-11-25T22:50:00.000Z</updated>
+  <updated>2019-12-03T18:40:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-12-03 Patch Notes</title>
+    <published>2019-12-03T18:40:00.000Z</published>
+    <updated>2019-12-03T18:40:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-12-03-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-12-03-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-december-3-2019">Heroes of the Storm Live Patch Notes - December 3, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23239990" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23239990" target="_blank">Official Patch Notes</a> <small>v 2.49.0</small></div>
+
+<p>The next Heroes of the Storm patch has arrived! The update brings a new Hero,
+Deathwing the Destroyer, new Experience Globes, new bundles, new skins, and
+much more! Dive on in for more information.</p>
+
+<p><span class="text-warning"><strong>NOTE: Orange text indicates a change between PTR and Live notes.</strong></span></p>
+
+<hr />
+
+<h3 id="nexus-anomaly-experience-globes">Nexus Anomaly – Experience Globes</h3>
+
+<p>Nexus Anomalies are seasonal gameplay changes that directly affect all game
+modes in Heroes of the Storm. These events will last the entire season,
+allowing us time to receive feedback on them. Depending on this evaluation,
+some of them may become permanent additions to the game, while others may just
+be a limited time event.</p>
+
+<p>&nbsp;</p>
+
+<p>The first Nexus Anomaly has arrived! In order to make collecting experience
+more satisfying and intuitive, we're changing how experience is collected from
+Minions in the Heroes of the Storm. Players will no longer get experience from
+simply being nearby, but instead need to gather an Experience Globe dropped by
+dying Minions.</p>
+
+<p><strong>Experience Globes</strong></p>
+
+<ul>
+<li>Minions no longer give Experience by killing them, but instead drop an Experience Globe that must be collected. 
+<ul>
+<li>Footman and Archer Minions (and their equivalent on different Battlegrounds) drop an Experience Globe that lasts for 6 seconds and awards 80 experience (plus 2 every minute).</li>
+<li>Wizard Minions no longer give Experience, but Experience Globe values have been increased to compensate.</li>
+<li>Experience Globes slowly move toward the closest allied Hero within 6 range, and are collected when an allied Hero comes within 1.5 range.</li>
+<li>Experience Globes will not move toward Heroes that are hidden in bushes or Stealthed, but they can be still collected by these Heroes if they move within 1.5 range.</li>
+</ul></li>
+<li>A few Heroes have special interactions with Experience Globes. 
+<ul>
+<li>Ragnaros Lava Wave will now instantly collect Experience Globes as it passes by.</li>
+<li>Abathur's Symbiote is treated as a Hero for the purposes of collecting Experience Globes.</li>
+<li>Hallucinations like Samuro's Mirror Images or Nova's Holo Clones are treated as a Hero for the purposes of collecting Experience Globes.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<p><strong>Storm League</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Team Leaders will now be chosen based solely on highest Rank.</strong></span></li>
+<li>Players who are Master or above may only queue for Storm League in a party with a maximum of one other player. The second player must also be Master or above. Both players in the party must be within 5000 Rank Points of each other.</li>
+<li>Players who have completed their placement games may no longer play Storm League in a party with players who have not completed their placement games.</li>
+</ul>
+
+<p><strong>Toys 2 Event Quests</strong></p>
+
+<ul>
+<li>Toys 2 is the winter event for Heroes of the Storm running from the week of December 16 to week of February 3, PST. Roll dice, complete quests, and join Tickle Mephisto on a board game adventure in the Nexus for awesome rewards... and sweet revenge!</li>
+</ul>
+
+<p><strong>Loot Chests</strong></p>
+
+<ul>
+<li>During the Toys 2 event, all Loot Chests you earn through progression, Heroes Brawl, or by spending gold will be<em>* New Toy Loot Chests<strong>. (Except Hero-specific Chests, which will remain unchanged.) Most limited-time items shown above have a chance to drop from</strong> New Toy Loot Chests</em>* only. You can also score Items from previous years' winter events limited-time loot chests!</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li>User Interface improvements for heroes with multiple forms have been added to the Hero Collection and Hero Select Ability screens for Deathwing and to the Hero Select Ability screen for Greymane.</li>
+</ul>
+
+<p><strong>AI</strong></p>
+
+<ul>
+<li>AI will now pay more attention to lanes that need to be defended or attacked.</li>
+<li>AI will no longer be aware of the status of mercenary camps they cannot see.</li>
+<li>AI will path through enemy towns less often.</li>
+<li>AI will more highly value preventing a mercenary camp from leashing.</li>
+<li>Mercenary camp goal base scores have been standardized on all maps. This will make it easier to observe and tweak AI agent mercenary capture behavior.</li>
+<li>Many map goal objective scores have been standardized on all maps. This will make it easier to observe and tweak AI agent objective behavior.</li>
+<li>Volskaya Foundry 
+<ul>
+<li>AI will no longer wait 8 seconds before using the Triglav Protector unless there is a human player on their team.</li>
+<li>Agents will be much more consistent and willing to pick up and use Turrets and Bio Emitters on Volskaya Foundry.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="new-hero-deathwing-the-destroyer">New Hero: Deathwing, The Destroyer</h3>
+
+<p>Now prepare for the unmaking of your world as Deathwing descends upon the
+Nexus. The Worldbreaker has set his sights on the realms of the Nexus to
+spread his reign of death and destruction.</p>
+
+<p><strong>Trait</strong></p>
+
+<ul>
+<li><strong>The Aspect of Death</strong>
+<ul>
+<li>Deathwing is covered by Adamantium Armor Plates, granting him Armor.</li>
+<li>He deals double damage to Heroes and is permanently Unstoppable but is unable to be affected by allied abilities.</li>
+</ul></li>
+</ul>
+
+<p><strong>Mount</strong></p>
+
+<ul>
+<li><strong>Dragonflight [Z]</strong>
+<ul>
+<li>After 3 seconds, fly into the air becoming immune to all effects and heal for 2.5% of your maximum Health per second. Once cast, this ability cannot be interrupted. Cannot be cast 4 seconds after taking damage, Basic Attacking or casting an Ability.</li>
+<li>After remaining in the air for at least 8 seconds, Deathwing can channel for 1.75 seconds and land anywhere that his team has vision of in either Destroyer or Worldbreaker forms, dealing 75 damage to enemies. His abilities are put on a 3 second cooldown upon landing. 
+<ul>
+<li>Energy: No Energy cost.</li>
+<li>Cooldown: 45 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Molten Flame [Q]</strong>
+<ul>
+<li>Breathe a stream of molten flame, dealing 192 damage per second. 
+<ul>
+<li>Molten Flame has an initial cost of 10 Energy, then drains 30 Energy per second.</li>
+<li>Cooldown: 3 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Incinerate [W - Destroyer]</strong>
+<ul>
+<li>Flap your wings in a downward blast, dealing 85 damage to nearby enemies. 
+<ul>
+<li>Energy: 15 Energy.</li>
+<li>Cooldown: 4 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Lava Burst [W - Worldbreaker]</strong>
+<ul>
+<li>After a 1 second delay, create a pool of magma that deals 16 damage per second and slows enemies by 35%. Lasts 6 seconds. 
+<ul>
+<li>Energy: 20 Energy.</li>
+<li>Cooldown: 6 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Onslaught [E - Destroyer]</strong>
+<ul>
+<li>Lunge in a targeted direction, dealing 42 damage and slowing enemies by 35% for 2 seconds.</li>
+<li>At the end of the lunge, Deathwing bites enemies for an additional 80 damage. 
+<ul>
+<li>Energy: 20 Energy.</li>
+<li>Cooldown: 5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Earth Shatter [E - Worldbreaker]</strong>
+<ul>
+<li>Create a fissure in the earth that deals 80 damage to enemies and stuns them for .75 seconds. 
+<ul>
+<li>Energy: 25 Energy.</li>
+<li>Cooldown: 12 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Ability</strong></p>
+
+<ul>
+<li><strong>Cataclysm [R]</strong>
+<ul>
+<li>After 2 seconds, fly in the targeted direction, dealing 90 damage on impact and leave scorched ground that deals an additional 48 damage per second for 6 seconds. 
+<ul>
+<li>Energy: No Energy cost.</li>
+<li>Cooldown: 90 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p>Many seasonal items will be returning to the Collection the week of <strong>December
+16</strong>, PST, and will be available for crafting and in Loot Chests for a limited
+time!</p>
+
+<p><strong>New Bundles</strong></p>
+
+<ul>
+<li>The following new bundles are only available for a limited time! 
+<ul>
+<li>Destroyer Brightwing Bundle</li>
+<li>Lil' Destroyers Bundle</li>
+</ul></li>
+<li>The following bundles will be available starting the week of <strong>December 16</strong>, PST: 
+<ul>
+<li>Toys 2019 Bundle</li>
+<li>Toys 2018 Bundle</li>
+<li>Cosmonaut Qhira Bundle</li>
+<li>Tickle Mephisto Bundle</li>
+<li>Green Army Bundle</li>
+<li>Train Bundle</li>
+</ul></li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Deathwing</strong>
+<ul>
+<li>Tyrannical Deathwing</li>
+<li>Iron Deathwing</li>
+<li>Glorious Deathwing</li>
+</ul></li>
+<li><strong>Destroyer Brightwing</strong>
+<ul>
+<li>Savage Destroyer Brightwing</li>
+<li>Ancient Destroyer Brightwing</li>
+<li>Tyrannical Destroyer Brightwing</li>
+<li>Iron Destroyer Brightwing</li>
+<li>Glorious Destroyer Brightwing</li>
+</ul></li>
+</ul>
+
+<p>The following skins will be available for a limited time starting the week of
+<strong>December 16</strong>, PST:</p>
+
+<ul>
+<li><strong>Tickle Mephisto</strong>
+<ul>
+<li>Grumpy Tickle Mephisto</li>
+<li>Crazed Tickle Mephisto</li>
+<li>Shocking Tickle Mephisto</li>
+<li>Cuddly Tickle Mephisto</li>
+<li>Unlucky Tickle Mephisto</li>
+</ul></li>
+<li><strong>Cosmonaut Qhira</strong>
+<ul>
+<li>Commander Cosmonaut Qhira</li>
+<li>Blazing Cosmonaut Qhira</li>
+<li>Explorer Cosmonaut Qhira</li>
+<li>Eternal Cosmonaut Qhira</li>
+<li>Super Cosmonaut Qhira</li>
+</ul></li>
+<li>Green Army Deckard Pain</li>
+<li>Green Army Commandant Varian</li>
+<li>Green Army Raynor</li>
+<li>Bitter Bear Stitches</li>
+<li>Shabby Bear Stitches</li>
+<li>Fuzzy Bear Stitches</li>
+<li>Galactic Force Valeera</li>
+<li>Proto Force Valeera</li>
+<li>Ferocious Dehakasaurus Rex</li>
+<li>X-Treme Dehakasaurus Rex</li>
+</ul>
+
+<p><strong>New Mount</strong></p>
+
+<p>The following mounts will be available for a limited time starting the week of
+<strong>December 16</strong>, PST:</p>
+
+<ul>
+<li><strong>Toy Train</strong>
+<ul>
+<li>Speedy Toy Train</li>
+<li>Blazing Toy Train</li>
+<li>Cosmic Toy Train</li>
+<li>Royal Toy Train</li>
+<li>Grimrail Toy Train</li>
+</ul></li>
+<li>Galactic Lion</li>
+<li>Proto Lion</li>
+<li>Gloomy Plush Unicorn</li>
+<li>Shabby Plush Unicorn</li>
+<li>Mellow Snowflake</li>
+<li>Periwinkle Snowflake</li>
+</ul>
+
+<p><strong>New Announcer</strong></p>
+
+<ul>
+<li>Deathwing Announcer</li>
+</ul>
+
+<p><strong>New Content</strong></p>
+
+<ul>
+<li>Several new portraits, sprays and other items have been added to the collection!</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#support">SUPPORT</a></th>
+  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#the-lost-vikings">The Lost Vikings</a></td>
+  <td><a href="#mephisto">Mephisto</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h4 id="the-lost-vikings">The Lost Vikings</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li><strong>Baleog</strong>
+<ul>
+<li>Health increased from 1095 to 1180.</li>
+<li>Health Regeneration increased from 2.22 to 2.46.</li>
+<li>Basic Attack damage increased from 73 to 78.</li>
+</ul></li>
+<li><strong>Erik</strong>
+<ul>
+<li>Health increased from 767 to 840.</li>
+<li>Health Regeneration increased from 1.6 to 1.75.</li>
+<li>Basic Attack damage increased from 60 to 65.</li>
+</ul></li>
+<li><strong>Olaf</strong>
+<ul>
+<li>Health increased from 1424 to 1540.</li>
+<li>Health Regeneration increased from 2.97 to 3.21.</li>
+<li>Basic Attack damage increased from 52 to 57.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Longboat Raid [R1]</strong>
+<ul>
+<li>Mortar damage increased from 205 to 228.</li>
+<li>Viking Stun duration when the Longboat is destroyed reduced from 1.5 to 1 second.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Due to the changes to how experience is gathered, we
+  expect the Lost Vikings to have a harder time filling their role on a team. To
+  help them out a bit, we're giving them a bit of a baseline buff, as well as
+  buffing Longboat Raid.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="mephisto">Mephisto</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Furious Spark [W]</strong>
+<ul>
+<li>Bonus damage is now dealt every 3rd hit.</li>
+<li>Damage reduced from 95 to 72.</li>
+<li>Additional functionality: Now also grants Mephisto 2 Mana when dealing damage with Furious Spark.</li>
+</ul></li>
+<li><strong>Malicious Intent [E]</strong>
+<ul>
+<li>Additional functionality: If Mephisto hits enemy Heroes at least 20 times with Basic Abilities while Shade of Mephisto is active, then increase the duration of the Spell Power bonus to 10 seconds after it ends.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Spite [Passive]</strong>
+<ul>
+<li>Regeneration Globe duration increased from 125% to 150%.</li>
+<li>Cooldown reduction increased from .75 seconds to 1 second.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Frost Storm [E]</strong>
+<ul>
+<li>No longer Slows enemy Heroes near the Shade of Mephisto.</li>
+<li>Additional functionality: Enemy Heroes who are hit by Lightning Nova while Shade of Mephisto is active are Slowed by 15% for 1 second.</li>
+</ul></li>
+<li><strong>Trickery [E]</strong>
+<ul>
+<li>No longer removes Slows and Roots from Mephisto.</li>
+<li>Additional functionality: If Mephisto hits enemy Heroes at least 20 times with Basic Abilities while Shade of Mephisto is active, then reset its cooldown.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Hysteria [Trait]</strong>
+<ul>
+<li>Additional functionality: Mephisto gains 15% of his maximum Health and Mana when he casts his Heroic Ability.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Animosity [W]</strong>
+<ul>
+<li>New functionality: Increase the duration of Lightning Nova by .5 seconds Basic Attacks against enemy Heroes while Lightning Nova is active increase the duration of Lightning Nova by an additional .25 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Mephisto's talents have been largely unchanged since
+  his release. While many of them seem to be in a good spot, some talents and
+  talent tiers had some systemic issues that we felt could be improved with some
+  changed functionality. We're not looking to overhaul the Mephisto that you
+  know and love, but we felt that he could use some new builds to play with.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed an issue where some parts of Sky Temple and Blackheart's Bay would be invisible when using Low graphics settings.</li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Genji</strong>
+<ul>
+<li>Fixed an issue where Swift Strike's reset UI appeared when Genji hit an enemy Hero with Dragonblade but did not have The Dragon Becomes Me talent.</li>
+</ul></li>
+<li><strong>Nova</strong>
+<ul>
+<li>Nova Holo Decoy Snipe no longer deals full damage if the Decoy dies while Snipe is in flight.</li>
+</ul></li>
+<li><strong>Samuro</strong>
+<ul>
+<li>Samuro's Press The Attack Talent will now correctly grant Attack Speed on his first Basic Attack.</li>
+</ul></li>
+</ul>
+
+<p><strong>Mac</strong></p>
+
+<ul>
+<li>Fixed an issue that could cause Blackheart's Bay to crash on load.</li>
+<li>Fixed an issue where some parts of Sky Temple and Blackheart's Bay would render with a strobing/flickering effect when using Low graphics settings.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-11-25 PTR Patch Notes</title>
     <published>2019-11-25T22:50:00.000Z</published>
@@ -8598,200 +9085,6 @@ battlefield.</p>
 <ul>
 <li>Players can no longer view the profile of Storm League enemies by using the Whisper system</li>
 </ul>
-
-<p><strong>Cosmetics</strong></p>
-
-<ul>
-<li>Fixed an issue where Genie Chromie's hourglass would not animate during the draft cutscene</li>
-<li>Fixed an issue where Watergun Tychus would call on unavailable SFX</li>
-<li>Fixed an issue where the Horns of the Cyber Oni Warboard would clip into its mane when coming to a stop</li>
-<li>Fixed an issue where Cyber Oni Warboar's front left leg would pop during its run animation</li>
-<li>Fixed an issue where Cyber Oni Warboar's shoulder would slide when coming to a stop</li>
-</ul>
-
-<p><strong>Heroes, Abilities, &amp; Talents</strong></p>
-
-<ul>
-<li>Adjusted the intensity of Tyrael's Holy Ground ability on low settings to be more visible</li>
-<li>Fixed an issue where Leoric's Basic Attack and Wrath of the Bone King animations would desync with his attack cycle</li>
-<li>Fixed an issue where Orphea's Eternal Feast would continue bouncing if an Abathur Ultimate Evolution clone expired in the area</li>
-<li>Fixed an issue where Orphea's Eternal Feast tooltip data reference for repeat duration was not functioning</li>
-<li>Fixed an issue where the Butcher's FX would appear outside of his model while cocooned</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>Fixed an issue where the Target Info Panel was using an old version of the Dragon Knight portrait</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-04-22 PTR Patch Notes</title>
-    <published>2019-04-22T23:00:00.000Z</published>
-    <updated>2019-04-22T23:00:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-04-22-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-04-22-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-april-22-2019">Heroes of the Storm PTR Patch Notes — April 22, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22933140" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22933140" target="_blank">Official Patch Notes</a> <small>v 2.45.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until the week of April 29. As always, if you
-encounter any bugs during your PTR play sessions, please stop by the <a href="https://us.forums.blizzard.com/en/heroes/c/ptr-bug-report">PTR Bug
-Report forum</a> to
-let us know about your experiences.</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<ul>
-<li>The Log Out button has been disabled after being matched for matchmade games</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> This is to prevent players from dodging quick matches after checking hero composition</p>
-</blockquote>
-
-<hr />
-
-<h3 id="new-hero-anduin-king-of-stormwind">New Hero: Anduin, King of Stormwind</h3>
-
-<p>With Shalamayne by his side, Anduin, King of Stormwind, has entered the Nexus
-to take his place by his warrior father's side. Anduin is a Ranged Healer who
-comes with an arsenal of abilities aimed at keeping his teammates alive, but
-also has the potential to unleash the Light's swift justice to enemies on the
-battlefield.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Leap of Faith (D)</strong>
-<ul>
-<li>Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel 
-<ul>
-<li>Cooldown: 80 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Flash Heal (Q)</strong>
-<ul>
-<li>Cast for 0.75 seconds to heal an allied Hero for 260
-<ul>
-<li>Cost: 30 mana</li>
-<li>Cooldown: 4 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Divine Star (W)</strong>
-<ul>
-<li>Send light that deals 140 damage to enemies and then returns to Anduin, healing allied Heroes for 130 in a wider path. Healing increases by 25% per enemy Hero hit. 
-<ul>
-<li>Cost: 45 mana</li>
-<li>Cooldown: 9 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Chastise (E)</strong>
-<ul>
-<li>Shove a swell of light forward, dealing 145 damage to the first enemy Hero hit and Rooting them for 1.25 seconds 
-<ul>
-<li>Cost: 40 mana</li>
-<li>Cooldown: 10 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Holy Word: Salvation (R1)</strong>
-<ul>
-<li>After 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 25% of their max Health and are Protected. 
-<ul>
-<li>Cost: 70 mana</li>
-<li>Cooldown: 80 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Lightbomb (R2)</strong>
-<ul>
-<li>Imbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 damage to enemies and Stunning them for 1.25 seconds. The target gains a Shield that absorbs 140 damage per enemy Hero hit. Lasts for 5 seconds. 
-<ul>
-<li>Cost: 70 mana</li>
-<li>Cooldown: 60 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>New Bundles</strong></p>
-
-<ul>
-<li>The following new bundles are only available for a limited time!
-<ul>
-<li>Anduin Heroic Bundle</li>
-<li>Footman Varian Skin Pack</li>
-</ul></li>
-</ul>
-
-<p><strong>New Announcer</strong></p>
-
-<ul>
-<li>Anduin Announcer</li>
-</ul>
-
-<p><strong>New Mount</strong></p>
-
-<ul>
-<li>Reverence</li>
-<li>Redridge Reverence</li>
-<li>Darkshire Reverence</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Anduin</strong>
-<ul>
-<li>Elwynn Anduin</li>
-<li>Westfall Anduin</li>
-<li>Neo-President Anduin</li>
-<li>Neo-Steel Anduin</li>
-<li>Neo-Vigilante Anduin</li>
-</ul></li>
-<li><strong>Varian</strong>
-<ul>
-<li>Stormwind Footman Varian</li>
-<li>Stromgarde Footman Varian</li>
-<li>Kul Tiras Footman Varian</li>
-</ul></li>
-</ul>
-
-<p><strong>New Portraits, Sprays, and Emojis</strong></p>
-
-<ul>
-<li>Several new emoji packs, sprays, and portraits have also been added to the game</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
 
 <p><strong>Cosmetics</strong></p>
 

@@ -7,7 +7,7 @@
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190806.png") 0 0 no-repeat; background-size: 44px 331.43478291px; height: 44px; width: 44px; }
+.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20191203.png") 0 0 no-repeat; background-size: 44px 379.26086991px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20180612.png") 0 0 no-repeat; 
   background-size: 50.6px 814.0px; width: 44px; height: 44px;
@@ -53,6 +53,8 @@
 .hero-chromie{ background: url("//heroespatchnotes.com/images/hero/chromie.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-dva, .medium-dva{ background-position: 0px -286.956522px; }
 .hero-dva{ background: url("//heroespatchnotes.com/images/hero/dva.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
+.small-deathwing, .medium-deathwing{ background-position: 0px -334.782609px; }
+.hero-deathwing{ background: url("//heroespatchnotes.com/images/hero/deathwing.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-deckard, .medium-deckard{ background-position: 0px -382.608696px; }
 .hero-deckard{ background: url("//heroespatchnotes.com/images/hero/deckard.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-dehaka, .medium-dehaka{ background-position: 0px -430.434783px; }
@@ -258,6 +260,7 @@
 #cho{ background: url("//heroespatchnotes.com/images/hero/cho.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #chromie{ background: url("//heroespatchnotes.com/images/hero/chromie.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #dva{ background: url("//heroespatchnotes.com/images/hero/dva.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
+#deathwing{ background: url("//heroespatchnotes.com/images/hero/deathwing.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #deckard{ background: url("//heroespatchnotes.com/images/hero/deckard.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #dehaka{ background: url("//heroespatchnotes.com/images/hero/dehaka.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #diablo{ background: url("//heroespatchnotes.com/images/hero/diablo.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
@@ -339,7 +342,7 @@
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20190806.png") 0 0 no-repeat; background-size: 60px 451.956521709px; height: 60px; width: 60px; }
+  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20191203.png") 0 0 no-repeat; background-size: 60px 517.173913009px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 1110.0px; width: 60px; height: 60px; 
   }
@@ -362,6 +365,7 @@
   .medium-cho{ background-position: 0px -195.6521739px; }
   .medium-chromie{ background-position: 0px -65.2173913px; }
   .medium-dva{ background-position: 0px -391.3043478px; }
+  .medium-deathwing{ background-position: 0px -456.5217391px; }
   .medium-deckard{ background-position: 0px -521.7391304px; }
   .medium-dehaka{ background-position: 0px -586.9565217px; }
   .medium-diablo{ background-position: 0px -326.0869565px; }
