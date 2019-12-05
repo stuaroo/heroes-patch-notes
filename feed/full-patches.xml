@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-12-03T18:40:00.000Z</updated>
+  <updated>2019-12-05T22:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-12-04 Hotfix Patch</title>
+    <published>2019-12-05T22:00:00.000Z</published>
+    <updated>2019-12-05T22:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-12-04-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-12-04-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-december-4-2019">Heroes of the Storm Hotfix Patch Notes – December 4, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-december-4-2019/30208" target="_blank"></a><a href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-december-4-2019/30208" target="_blank">Official Patch Notes</a> <small>v 2.49.0</small></div>
+
+<p>We've released a hotfix today to address a bug below.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed a bug with shaders that was causing crashes to occur.</li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Abathur</strong>
+<ul>
+<li><span class="text-warning">Abathur's Symbiote Experience Globe collection range increased from 0 to 1.5</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/e67au1/undocumented_abathur_symbiote_buff_in_hotfix_patch" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-12-03 Patch Notes</title>
     <published>2019-12-03T18:40:00.000Z</published>
@@ -8757,359 +8791,6 @@ fixes! Read on for details.</p>
 <ul>
 <li>Fixed some display issues with Season Time Remaining</li>
 <li>Garden Terror Spawning Vines will no longer get stuck at Gates while trying to path through them</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-04-30 Patch Notes</title>
-    <published>2019-04-30T17:30:00.000Z</published>
-    <updated>2019-04-30T17:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-04-30-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-04-30-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-april-30-2019">Heroes of the Storm Live Patch Notes - April 30, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22976064" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22976064" target="_blank">Official Patch Notes</a> <small>v 2.45.0</small></div>
-
-<p>Our next Heroes of the Storm patch is now live and brings several bug fixes, a
-few map updates, and a brand new hero, Anduin, King of Stormwind! Read on for
-more information.</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<ul>
-<li>Ranked Battlegrounds
-<ul>
-<li>The Ranked Battleground rotation has been updated
-<ul>
-<li>Added to Rotation
-<ul>
-<li>Garden of Terror</li>
-<li>Hanamura Temple</li>
-</ul></li>
-<li>Removed from Rotation
-<ul>
-<li>Braxis Holdout</li>
-<li>Volskaya Foundry</li>
-</ul></li>
-<li>The full Ranked Battleground Rotation is now as follows:
-<ul>
-<li>Alterac Pass</li>
-<li>Battlefield of Eternity</li>
-<li>Cursed Hollow</li>
-<li>Dragon Shire</li>
-<li>Garden of Terror</li>
-<li>Hanamura Temple</li>
-<li>Infernal Shrines</li>
-<li>Tomb of the Spider Queen</li>
-<li>Towers of Doom</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li>The Log Out button has been disabled after being matched for matchmade games</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> This is to prevent players from dodging quick matches after checking hero composition</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="new-hero-anduin-king-of-stormwind">New Hero: Anduin, King of Stormwind</h3>
-
-<p>With Shalamayne by his side, Anduin, King of Stormwind, has entered the Nexus
-to take his place by his warrior father's side. Anduin is a Ranged Healer who
-comes with an arsenal of abilities aimed at keeping his teammtes alive, but
-also has the potential to unlease the Light's swift justice to enemies on the
-battlefield.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Leap of Faith (D)</strong>
-<ul>
-<li>Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel 
-<ul>
-<li>Cooldown: 80 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Flash Heal (Q)</strong>
-<ul>
-<li>Cast for 0.75 seconds to heal an allied Hero for 260. 
-<ul>
-<li>Cost: 30 mana</li>
-<li>Cooldown: 4 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Divine Star (W)</strong>
-<ul>
-<li>Send light that deals 140 damage to enemies and then returns to Anduin, healing allied Heroes for 130 in a wider path. Healing increases by 25% per enemy Hero hit. 
-<ul>
-<li>Cost: 45 mana</li>
-<li>Cooldown: 9 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Chastise (E)</strong>
-<ul>
-<li>Shove a swell of light forward, dealing 145 damage to the first enemy Hero hit and Rooting them for 1.25 seconds 
-<ul>
-<li>Cost: 40 mana</li>
-<li>Cooldown: 10 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Holy Word: Salvation (R1)</strong>
-<ul>
-<li>After 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 25% of their max Health and are Protected. 
-<ul>
-<li>Cost: 70 mana</li>
-<li>Cooldown: 80 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Lightbomb (R2)</strong>
-<ul>
-<li>Imbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 damage to enemies and Stunning them for 1.25 seconds. The target gains a Shield that absorbs 140 damage per enemy Hero hit. Lasts for 5 seconds. 
-<ul>
-<li>Cost: 70 mana</li>
-<li>Cooldown: 60 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="map-updates">Map Updates</h3>
-
-<ul>
-<li>Battlefield of Eternity
-<ul>
-<li>The gate near each team's Summoner Mercenary Camp now has two Towers on either side of it</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We've added Towers near each team's central Healing Well to prevent certain Heroes from being able to destroy them too easily</p>
-</blockquote>
-
-<ul>
-<li><p>Dragon Shire</p>
-
-<ul>
-<li>Dragon Shire has received a significant update to its art</li>
-</ul></li>
-<li><p>Infernal Shrines</p>
-
-<ul>
-<li>Re-tuned the damage across all three Punisher types to bring them closer in parity
-<ul>
-<li>Arcane Punisher
-<ul>
-<li>Arcane damage increased from 52 to 53</li>
-<li>Arcane damage scaling reduced from 11 to 8 per minute</li>
-</ul></li>
-<li>Frozen Punisher
-<ul>
-<li>Frozen damage base increased from 110 to 120</li>
-<li>Frozen area increased from 3 to 3.25</li>
-<li>Number of Frozen explosions reduced from 6 to 5</li>
-<li>When Frozen explosions damage an enemy Structure, they are disabled for 3 seconds</li>
-</ul></li>
-<li>Mortar Punisher
-<ul>
-<li>Mortar damage base increased from 90 to 115</li>
-<li>Mortar damage scaling increased from 5 to 17 per minute</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> These changes are designed to bring the 3 types of Punishers more closely aligned in power, while preserving what makes them special. Mortar is now a properly scary amount of damage up front, while Arcane had its damage reduced but maintains the highest damage over a long period of time. Frozen has had structure disabled added to it, further encouraging teams to dive into enemy towns alongside him.</p>
-</blockquote>
-
-<ul>
-<li>Volskaya Foundry
-<ul>
-<li>Triglav Protector
-<ul>
-<li>Swap Vehicle (R)
-<ul>
-<li>Removed</li>
-</ul></li>
-<li>Pilot
-<ul>
-<li>Now properly scales Health and Basic Attack damage at the first minute of a game</li>
-<li>Basic Attacks
-<ul>
-<li>Starting damage reduced from 200 to 140</li>
-<li>Scaling damage reduced from 10 to 7 from minutes 1 to 5</li>
-<li>Scaling damage reduced from 15 to 10.5 from minutes 6 to 10</li>
-<li>Scaling damage reduced from 20 to 14 from minutes 11 to 15</li>
-<li>Scaling damage reduced from 25 to 17.5 from minutes 16 to 20</li>
-<li>Scaling damage reduced from 30 to 21 from minutes 21 to 60</li>
-<li>Now deal 50% bonus damage to Structures</li>
-</ul></li>
-<li>Health
-<ul>
-<li>Health scaling increased from 1100 to 1375 from minutes 16 to 20</li>
-<li>Health scaling increased from 1375 to 1650 from minutes 21 to 25</li>
-</ul></li>
-<li>Charge (Q)
-<ul>
-<li>Impact radius reduced from 2.5 to 2</li>
-<li>Starting damage decreased from 225 to 140</li>
-<li>Scaling damage decreased from 20 to 14 per minute</li>
-<li>Damage bonus to non-Heroes increased from 200% to 400%</li>
-</ul></li>
-<li>Rocket Fist (W)
-<ul>
-<li>Width increased from 1 to 1.5</li>
-<li>No longer roots Heroes, but knocks them back equal to the full distance the Rocket Fist would travel instead</li>
-<li>Starting damage reduced from 200 to 150</li>
-<li>Scaling damage increased from 10 to 15 per minute</li>
-</ul></li>
-</ul></li>
-<li>Gunner
-<ul>
-<li>Particle Cannon (Q)
-<ul>
-<li>Starting damage decreased from 225 to 190</li>
-<li>Scaling damage increased from 15 to 19 per minute</li>
-</ul></li>
-<li>Gatling Cannon (W)
-<ul>
-<li>Impact radius reduced from 0.5 to 0.3</li>
-<li>Starting damage reduced from 45 to 38</li>
-<li>Scaling damage increased from 3.5 to 3.8 per minute</li>
-</ul></li>
-<li>Scorching Laser (E)
-<ul>
-<li>Impact radius reduced from 2.25 to 1.25</li>
-<li>Starting primary impact damage reduced 75 to 60</li>
-<li>Scaling primary impact damage increased from 3 to 6 per minute</li>
-<li>Starting delayed explosion damage reduced from 500 to 380</li>
-<li>Scaling delayed explosion damage increased from 25 to 38 per minute</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're making these changes to the Triglav Protector to shift a little of the vehicles power out of its team fight potential, and into its pushing power (particularly in the early game). We believe that it has to have some teeth to discourage enemies from committing to a team fight when it pushes, but its capability to nuke someone from almost full health was a little too powerful. We've changed Rocket Fist's root into a knockback to make landing all its abilities more difficult as well, but still force enemies to disengage when it connects. We've also taken this time to adjust some of the scaling of the Protector, so that it follows a more typical power curve in relation to Heroes, Minions, and Mercenaries. We've removed the Swap Vehicle button as well. While it was cool, it was a hold out from the previous undesired gameplay of a solo player controlling both seats of a vehicle that we discouraged via the Spell Power buff to both seats being occupied.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p><strong>New Bundles</strong></p>
-
-<ul>
-<li>The following new bundles are only available for a limited time!
-<ul>
-<li>Anduin Heroic Bundle</li>
-<li>Footman Varian Skin Pack</li>
-</ul></li>
-</ul>
-
-<p><strong>New Announcer</strong></p>
-
-<ul>
-<li>Anduin Announcer</li>
-</ul>
-
-<p><strong>New Mount</strong></p>
-
-<ul>
-<li>Reverence</li>
-<li>Redridge Reverence</li>
-<li>Darkshire Reverence</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Anduin</strong>
-<ul>
-<li>Elwynn Anduin</li>
-<li>Westfall Anduin</li>
-<li>Neo-President Anduin</li>
-<li>Neo-Steel Anduin</li>
-<li>Neo-Vigilante Anduin</li>
-</ul></li>
-<li><strong>Varian</strong>
-<ul>
-<li>Stormwind Footman Varian</li>
-<li>Stromgarde Footman Varian</li>
-<li>Kul Tiras Footman Varian</li>
-</ul></li>
-</ul>
-
-<p><strong>New Portraits, Sprays, and Emojis</strong></p>
-
-<ul>
-<li>Several new emoji packs, sprays, and portraits have also been added to the game</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Players can no longer view the profile of Storm League enemies by using the Whisper system</li>
-</ul>
-
-<p><strong>Cosmetics</strong></p>
-
-<ul>
-<li>Fixed an issue where Genie Chromie's hourglass would not animate during the draft cutscene</li>
-<li>Fixed an issue where Watergun Tychus would call on unavailable SFX</li>
-<li>Fixed an issue where the Horns of the Cyber Oni Warboard would clip into its mane when coming to a stop</li>
-<li>Fixed an issue where Cyber Oni Warboar's front left leg would pop during its run animation</li>
-<li>Fixed an issue where Cyber Oni Warboar's shoulder would slide when coming to a stop</li>
-</ul>
-
-<p><strong>Heroes, Abilities, &amp; Talents</strong></p>
-
-<ul>
-<li>Adjusted the intensity of Tyrael's Holy Ground ability on low settings to be more visible</li>
-<li>Fixed an issue where Leoric's Basic Attack and Wrath of the Bone King animations would desync with his attack cycle</li>
-<li>Fixed an issue where Orphea's Eternal Feast would continue bouncing if an Abathur Ultimate Evolution clone expired in the area</li>
-<li>Fixed an issue where Orphea's Eternal Feast tooltip data reference for repeat duration was not functioning</li>
-<li>Fixed an issue where the Butcher's FX would appear outside of his model while cocooned</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>Fixed an issue where the Target Info Panel was using an old version of the Dragon Knight portrait</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
