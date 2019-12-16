@@ -2,10 +2,917 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-12-05T22:00:00.000Z</updated>
+  <updated>2019-12-16T22:47:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-12-16 Balance Update</title>
+    <published>2019-12-16T22:47:00.000Z</published>
+    <updated>2019-12-16T22:47:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-12-16-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-12-16-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-december-16-2019">Heroes of the Storm Balance Patch Notes - December 16, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23239993" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23239993" target="_blank">Official Patch Notes</a> <small>v 2.49.1</small></div>
+
+<p>Heroes of the Storm has just been updated with Hero balance changes! Read on
+for details.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li><strong>Toys 2 Event Quests</strong>
+<ul>
+<li>Toys 2 is the winter event for Heroes of the Storm running from the week of December 16 to the week of March 3, PST. Roll dice, complete quests, and join Tickle Mephisto on a board game adventure in the Nexus for awesome rewards... and sweet revenge!</li>
+</ul></li>
+<li><strong>Loot Chests</strong>
+<ul>
+<li>During the Toys 2 event, all Loot Chests you earn through progression, Heroes Brawl, or by spending gold will be New Toy Loot Chests. (Except Hero-specific Chests, which will remain unchanged.) Most limited-time items shown above have a chance to drop from New Toy Loot Chests only. You can also score Items from previous years' winter events limited-time loot chests!</li>
+</ul></li>
+<li><strong>Balance</strong>
+<ul>
+<li>Gaining Unstoppable now prevents and removes Blinds.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We've read recent feedback that it is strange that
+  Silences are removed by the Unstoppable behavior, but Blinds are not. While
+  Unstoppable has traditionally been primarily intended to remove effects that
+  cause a hero to not be able to control the movement of their character, this
+  philosophy gets a little grey when it comes to Silences, as heroes can still
+  freely move, but they lose their ability to use movement abilities. In the
+  past we decided that it was better for Silences to be removed, but understand
+  the argument that Blinds are effectively Silences for auto-attack based
+  heroes. We're trying this change to see how it pans out, as Blinds have
+  traditionally been very powerful forms of soft CC in our game and this can
+  help out heroes that are heavily shut down by them.</p>
+</blockquote>
+
+<ul>
+<li><strong>Experience Globes</strong>
+<ul>
+<li>Heroes who kill Minions with Abilities or Basic Attacks will automatically collect the experience from the Minions.</li>
+<li>Experience Globes will no longer time out while travelling to a hero.</li>
+<li>They will still expire if the hero moves out of range of the Experience Globe before it reaches them.</li>
+<li>Removed a .5 second delay before Experience Globes can be collected.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While we're excited for the experience globes and the
+  increased clarity that they offer in regards to how experience is gained,
+  we've read the feedback that it can be too difficult for many heroes to gain
+  the globes. While we think there are some good reasons to keep them as a pick-
+  up only mechanic, we overall agree with the sentiment, and are going to allow
+  heroes who kill Minions to get the experience from them. We still believe that
+  this change will allow for more interesting hero interactions overall, and are
+  excited to see how it pans out over the course of the rest of the season.
+  We're also including some quality of life changes that should make Experience
+  Globes feel generally better to collect.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p>Many seasonal items will be returning to the Collection, and will be available
+for crafting and in Loot Chests for a limited time!</p>
+
+<p><strong>New Bundles (Limited Time Only!)</strong></p>
+
+<ul>
+<li>Toys 2019 Bundle</li>
+<li>Toys 2018 Bundle</li>
+<li>Cosmonaut Qhira Bundle</li>
+<li>Tickle Mephisto Bundle</li>
+<li>Green Army Bundle</li>
+<li>Train Bundle</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li><strong>Tickle Mephisto</strong>
+<ul>
+<li>Grumpy Tickle Mephisto</li>
+<li>Crazed Tickle Mephisto</li>
+<li>Shocking Tickle Mephisto</li>
+<li>Cuddly Tickle Mephisto</li>
+<li>Unlucky Tickle Mephisto</li>
+</ul></li>
+<li><strong>Cosmonaut Qhira</strong>
+<ul>
+<li>Commander Cosmonaut Qhira</li>
+<li>Blazing Cosmonaut Qhira</li>
+<li>Explorer Cosmonaut Qhira</li>
+<li>Eternal Cosmonaut Qhira</li>
+<li>Super Cosmonaut Qhira</li>
+</ul></li>
+<li>Green Army Deckard Pain</li>
+<li>Green Army Commandant Varian</li>
+<li>Green Army Raynor</li>
+<li>Bitter Bear Stitches</li>
+<li>Shabby Bear Stitches</li>
+<li>Fuzzy Bear Stitches</li>
+<li>Galactic Force Valeera</li>
+<li>Proto Force Valeera</li>
+<li>Ferocious Dehakasaurus Rex</li>
+<li>X-Treme Dehakasaurus Rex</li>
+</ul>
+
+<p><strong>New Mount</strong></p>
+
+<ul>
+<li><strong>Toy Train</strong>
+<ul>
+<li>Speedy Toy Train</li>
+<li>Blazing Toy Train</li>
+<li>Cosmic Toy Train</li>
+<li>Royal Toy Train</li>
+<li>Grimrail Toy Train</li>
+</ul></li>
+<li>Galactic Lion</li>
+<li>Proto Lion</li>
+<li>Gloomy Plush Unicorn</li>
+<li>Shabby Plush Unicorn</li>
+<li>Mellow Snowflake</li>
+<li>Periwinkle Snowflake</li>
+</ul>
+
+<p><strong>New Content</strong></p>
+
+<ul>
+<li>New portraits, sprays and other items have been added to the collection!</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#tank">TANK</a></th>
+  <th><a href="#bruiser">BRUISER</a></th>
+  <th><a href="#healer">HEALER</a></th>
+  <th><a href="#melee-assassin">MELEE ASSASSIN</a></th>
+  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#anubarak">Anub'arak</a></td>
+  <td><a href="#deathwing">Deathwing</a></td>
+  <td><a href="#auriel">Auriel</a></td>
+  <td><a href="#illidan">Illidan</a></td>
+  <td><a href="#gall">Gall</a></td>
+</tr>
+<tr>
+  <td><a href="#cho">Cho</a></td>
+  <td><a href="#thrall">Thrall</a></td>
+  <td><a href="#brightwing">Brightwing</a></td>
+  <td><a href="#samuro">Samuro</a></td>
+  <td><a href="#greymane">Greymane</a></td>
+</tr>
+<tr>
+  <td><a href="#johanna">Johanna</a></td>
+  <td><a href="#varian">Varian</a></td>
+  <td><a href="#uther">Uther</a></td>
+  <td></td>
+  <td><a href="#nazeebo">Nazeebo</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#yrel">Yrel</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#zagara">Zagara</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="tank">Tank</h3>
+
+<h4 id="anubarak">Anub'arak</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Locust Swarm [R1]</strong>
+<ul>
+<li>Damage increased from 62 to 68.</li>
+<li>Healing increased from 21 to 24.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Debilitation [E]</strong>
+<ul>
+<li>Spellpower reduction duration increased from 4 to 5 seconds.</li>
+</ul></li>
+<li><strong>Beetle, Juiced [Trait]</strong>
+<ul>
+<li>Additional functionality: Increase the Health of Beetles by 20%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These buffs are to some of Anub'arak's talents that
+  have been lagging behind their competitors for some time. Beetle, Juiced in
+  particular should now be more consistent in its benefit to round out a Beetle-
+  oriented build, even if Anub'arak isn't able to get a lot of Basic Attacks off
+  on enemy Heroes.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="cho">Cho</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Surging Fist [Q]</strong>
+<ul>
+<li>Channel time to charge maximum distance reduced from 4 to 2 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Calloused Hide [Trait]</strong>
+<ul>
+<li>Additional functionality: While Ogre Hide is active, Cho gains 15% Movement Speed.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Enraged Regeneration [Trait]</strong>
+<ul>
+<li>Additional functionality: While Gall's Ogre Rage is active, enemy Heroes who are hit by Gall's Dread Orb have their Healing reduced by 35% for 4 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Twilight Veil [Active]</strong>
+<ul>
+<li>Armor bonus increased from 100% to 200%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> It's been awhile since our Old God worshipping Ogre
+  has had some love, so we're both buffing up some of Cho's weaker talents as
+  well as reducing the time that Surging Fist needs to be channeled in order to
+  get a significant charge. This should help make Cho's Q build more viable as
+  well as allow him to better reposition himself during teamfights.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="johanna">Johanna</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2700 to 2625.</li>
+<li>Health Regeneration reduced from 5.625 to 5.469.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Condemn [W]</strong>
+<ul>
+<li>Damage reduced from 58 to 55.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Johanna's become a dominant force in the tanking
+  world, and is currently the #1 most picked hero at high level play. Because of
+  this, we're slightly reducing her Health, as well as reverting her previous
+  Condemn buff.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bruiser">Bruiser</h3>
+
+<h4 id="deathwing">Deathwing</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 3200 to 2920.</li>
+<li>Health Regeneration reduced from 6.67 to 6.08.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Incinerate [W]</strong>
+<ul>
+<li>Damage reduced from 85 to 80.</li>
+</ul></li>
+<li><strong>Onslaught [E]</strong>
+<ul>
+<li>Damage reduced from 42 to 40.</li>
+<li>Damage at the end of the lunge reduced from 80 to 75.</li>
+</ul></li>
+<li><strong>Cataslysm [R]</strong>
+<ul>
+<li>Periodic damage reduced from 12 to 11.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Draconic Might [Trait]</strong>
+<ul>
+<li>Healing reduced from 40% to 30%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Skyfall [E]</strong>
+<ul>
+<li>Healing reduced from 5% to 3% maximum Health.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Burn Beneath My Shadow [R1]</strong>
+<ul>
+<li>Bonus damage reduced from 150% to 100%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Elementium Plating [Active]</strong>
+<ul>
+<li>Shield amount reduced from 35% to 30% missing Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> It turns out that Deathwing has lived up to his name,
+  and has been destroying the Nexus since his release. Cataclysm and Burn
+  Beneath My Shadow in particular have proven to be incredibly powerful, so
+  we're reducing their effectiveness by a fairly significant amount. In addition
+  to these changes, we're reducing the power of some overperforming talents as
+  well as slightly nerfing his Destroyer form. Even with these changes, we
+  expect Deathwing to continue to be a powerful addition to any team that he's
+  on.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="thrall">Thrall</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Rolling Thunder [Q]</strong>
+<ul>
+<li>New functionality: [Passive] Increase the number of Chain Lightning bounces by 1. For 8 seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them grants him a stack of Frostwolf Resilience. If the target is an enemy Hero, then he also deals damage to them equal to 2% of their maximum Health and healing for the same amount.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Echo of the Elements and Crash Lightning are both
+  fairly solid talents that have different use cases for when to pick them.
+  Rolling Thunder has been less successful, so we're trying something new with
+  the talent. We're still keeping its theme of marking targets with Chain
+  Lightning and then hitting them for a bonus, but now this bonus will allow
+  Thrall to deal bonus damage to enemy Heroes while also interacting with
+  Frostwolf Resilience.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="varian">Varian</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Frenzy [R3]</strong>
+<ul>
+<li>No longer increases Varian's Attack Speed by 15%.</li>
+<li>Additional functionality: Increase the damage of Heroic Strike by 25%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We weren't super happy with the power of Frenzy's
+  buff, as well as that it asked Varian players to learn a new Basic Attack
+  cadence after being used to one speed the whole game. Instead, we're turning
+  the Attack Speed bonus into a bonus to his damage over time by buffing Heroic
+  Strike instead.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="yrel">Yrel</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Dauntless [Passive]</strong>
+<ul>
+<li>Physical Armor duration increased from 2 to 2.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Holy Avenger [E]</strong>
+<ul>
+<li>Additional functionality: Hitting an enemy Hero with Avenging Wrath at maximum charge also increases its damage by 25%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Templar's Verdict [W]</strong>
+<ul>
+<li>Damage increased from 6% to 7% maximum Health.</li>
+</ul></li>
+<li><strong>Divine Favor [Trait]</strong>
+<ul>
+<li>Cooldown reduction increased from 1.5 to 2 seconds.</li>
+</ul></li>
+<li><strong>Holy Wrath [Passive]</strong>
+<ul>
+<li>Bonus splash damage increased from 20% to 30%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Word of Glory [R1]</strong>
+<ul>
+<li>Additional functionality: Increase the amount that Yrel heals from damage received from 50% to 75%.</li>
+<li>Range of allied healing increased from 8 to 12.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These changes are mostly looking to buff Yrel's late-
+  game by adding more power to her Level 16 talents. We want her to be more
+  relevant without dominating the solo lane too much, so we're opting to make
+  her Level 16 tier to be an exciting spike for her to hit in her games.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="healer">Healer</h3>
+
+<h4 id="auriel">Auriel</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Resurrect [R1]</strong>
+<ul>
+<li>Resurrected Hero's Health increased from 50% to 100%.</li>
+<li>Delay before resurrection reduced from 5 to 3 seconds.</li>
+<li>Additional functionality: Auriel can now see her own ghost. If she presses R while dead, she will cast Resurrect on herself.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're trying some fairly significant buffs to
+  Resurrect in order to help it better compete with Crystal Aegis. Auriel can
+  now Resurrect herself, which should help if she is the focus of the enemy
+  team, and her targets will now come back faster and with all of their Health.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="brightwing">Brightwing</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Greater Polymorph [W]</strong>
+<ul>
+<li>Adjusted functionality: Increase Polymorph's range by 30%. If Brightwing hits an enemy Hero with Arcane Flare's center within 2 seconds of being Polymorphed, then reduce Polymorph's cooldown by 7 seconds and gain 50 Mana.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Our last changes to Brightwing have better rounded
+  out her talents, however Greater Polymorph was a little too hard to
+  consistently proc. Instead of requiring her to hit a Polymorphed target, she
+  now has a slightly larger window of time to get the cooldown reduction proc.
+  We're also increasing the cooldown reduction bonus from 6 to 7 seconds.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="uther">Uther</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2156 to 2075.</li>
+<li>Health Regeneration reduced from 4.49 to 4.32.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Bulwark of Light [R1]</strong>
+<ul>
+<li>New functionality: Divine Shield is also applied to an allied Hero with the lowest Health near its initial target, and its duration is increased by 1 second.</li>
+</ul></li>
+<li><strong>Divine Hurricane [R2]</strong>
+<ul>
+<li>Cooldown reduction increased from 20 to 40 seconds.</li>
+</ul></li>
+<li><strong>Divine Protection [Trait]</strong>
+<ul>
+<li>New functionality: Increase Devotion's Armor to 40, and its duration by .5 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Uther is in a bit of a strange spot at the moment, as
+  he has recently had a spike in his win rate, and at higher level play we've
+  been seeing him flexed into the main tank role. We think it's pretty cool that
+  heroes can sometimes splash into other roles, but in general Uther is
+  overperforming, so we're lowering his Health a bit. On an unrelated note,
+  similar to Greymane, Uther's Level 20 talents have long been dominated by one
+  choice, in this case Redemption. We're giving the other talents on the tier
+  some significant buffs so that they can better compete. We hope that this
+  won't increase his win rate significantly as Redemption has always been a
+  fairly powerful talent, and are prepared to make adjustments if this ends up
+  not being the case.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="melee-assassin">Melee Assassin</h3>
+
+<h4 id="illidan">Illidan</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 1650 to 1725.</li>
+<li>Health regeneration increased from 3.44 to 3.59.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Fiery Brand [Passive]</strong>
+<ul>
+<li>Damage increased from 8% to 9% maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> It's just a little more Health on Illidan. What could
+  go wrong?</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="samuro">Samuro</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage reduced from 110 to 102.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Mirror Image [Q]</strong>
+<ul>
+<li>Cooldown reduced from 18 to 14 seconds.</li>
+<li>Duration reduced from 18 to 8 seconds.</li>
+<li>Images now have their duration increased by 1 second each time they or Samuro use a Basic Attack against an enemy Hero.</li>
+<li>Mirror Image Basic Attack damage increased from 9 to 11.</li>
+</ul></li>
+<li><strong>Wind Walk [E]</strong>
+<ul>
+<li>Additional functionality: Samuro is healed for 1% of his maximum Health every second that he has Wind Walk active.</li>
+</ul></li>
+<li><strong>Image Transmission [Trait]</strong>
+<ul>
+<li>Cooldown reduced from 25 to 14 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Way of the Blade [W]</strong>
+<ul>
+<li>Physical Armor reduction reduced from 10 to 5, stacking up to 3 times.</li>
+<li>Physical Armor debuff duration increased from 2 to 2.25 seconds.</li>
+<li>Additional functionality: Mirror Images now also apply the Physical Armor reduction.</li>
+</ul></li>
+<li><strong>Way of the Wind [E]</strong>
+<ul>
+<li>No longer grants cooldown reduction to Wind Walk when attacking enemy Heroes.</li>
+<li>Additional functionality: Casting Windwalk heals Samuro for 5% of his maximum Health.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Burning Blade [W]</strong>
+<ul>
+<li>Fixed an issue where Illusions did not deal bonus splash damage with Burning Blade when Illusion Master was picked.</li>
+</ul></li>
+<li><strong>Phantom Pain [W]</strong>
+<ul>
+<li>Bonus damage reduced from 45% to 35%.</li>
+<li>Additional functionality: Now also reduces the cooldown of Image Transmission by 10% when Samuro Critical Strikes an enemy Hero.</li>
+</ul></li>
+<li><strong>Crushing Blows [W]</strong>
+<ul>
+<li>No longer gives Critical Strike 2 charges.</li>
+<li>Cooldown reduction increased from 1.75 to 2 seconds.</li>
+<li>Additional functionality: Critical Strikes against enemy Heroes increase Samuro's Basic Attack damage by 15% for 4 seconds, stacking up to 3 times.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Bladestorm [R1]</strong>
+<ul>
+<li>Cooldown reduced from 110 to 25 seconds.</li>
+<li>Damage reduced from 47 to 36.</li>
+<li>Duration reduced from 4 to 3 seconds.</li>
+<li>Removed functionality: Bladestorm no longer grants Unstoppable.</li>
+<li>Additional functionality: Bladestorm now also grants Samuro 25 Armor for its duration.</li>
+</ul></li>
+<li><strong>Illusion Master [R2]</strong>
+<ul>
+<li>Cooldown reduced from 10 to 8 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Mirrored Steel [Q]</strong>
+<ul>
+<li>Cooldown reduction reduced from 1 to .75 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Dance of Death [R1]</strong>
+<ul>
+<li>Damage increased from 25% to 30%.</li>
+<li>Additional functionality: If Samuro hits enemy Heroes at least 25 times with Bladestorm, then reset its cooldown.</li>
+</ul></li>
+<li><strong>Three Blade Style [R2]</strong>
+<ul>
+<li>Mirror Image duration reduced from 36 to 16 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These changes are intended to limit Samuro's split-
+  pushing capabilities, particularly with Illusion Master, as well as increase
+  his presence in teamfights. A good Samuro player can be a bit of a pain to
+  deal with, particularly when he's spending most of his time macroing and not
+  engaging with the enemy team except to swap to a far away clone. These changes
+  should make this scenario happen less often, while also giving Samuro more
+  rewarding tools for engaging and fighting the enemy team.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="ranged-assassin">Ranged Assassin</h3>
+
+<h4 id="gall">Gall</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Keep Moving! [Z]</strong>
+<ul>
+<li>Additional functionality: Increase the Movement Speed bonus of Shove from 25% to 35%.</li>
+</ul></li>
+<li><strong>We See You! [Passive]</strong>
+<ul>
+<li>Additional functionality: Increase the number of Basic Attacks required to kill Eye of Kilrogg by 1.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Edge of Madness [Q]</strong>
+<ul>
+<li>Bonus damage increased from 8% to 12% per stack.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Twilight Nova [W]</strong>
+<ul>
+<li>Additional functionality: Reduce the cooldown of Dread Orb by 1 second.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Leaden Orb [W]</strong>
+<ul>
+<li>Stun duration increased from .75 seconds to 1 second.</li>
+</ul></li>
+<li><strong>Shadowsnare [Passive]</strong>
+<ul>
+<li>New functionality: All of Gall's Basic Abilities Slow enemy Heroes by 15% for 4 seconds. This effect can stack up to 2 times.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Similar to Cho, we took a look at Gall and we're
+  giving him some talent love. The buffs to Leaden Orb and Shadowsnare should
+  hopefully cascade into other talents in his tree becoming more powerful as
+  well.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="greymane">Greymane</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Incendiary Elixir [Q]</strong>
+<ul>
+<li>Adjusted functionality: Reduce the cooldown of Gilnean Cocktail by 2 seconds. Upon quest completion, reduce the cooldown of Gilnean Cocktail by an additional 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Unleashed [R1]</strong>
+<ul>
+<li>New functionality: Increase the damage of Go for the Throat by 25%. If Go for the Throat kills an enemy Hero, reset the cooldown of all of Greymane's abilities.</li>
+</ul></li>
+<li><strong>Gilnean Roulette [R2]</strong>
+<ul>
+<li>New functionality: Reduce the cooldown of Cursed Bullet by 20 seconds and its damage to 30% of the enemy Hero's current Health.</li>
+</ul></li>
+<li><strong>Tooth and Claw [Trait]</strong>
+<ul>
+<li>Additional functionality: Increase the damage of Razor Swipe by 100%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> For Greymane, we're giving part of Incendiary
+  Elixir's cooldown reduction bonus baseline so that the talent gives him some
+  baseline power, as well as making it easier for him to complete the quest. In
+  addition to this change, we're addressing his Level 20 talent diversity, which
+  has not been the best. We're giving 3 of his talents significant buffs so that
+  they can compete with Hunter's Blunderbuss, which has traditionally been the
+  go-to option. Unleashed now makes it easier to proc Go for the Throat, as well
+  as causing those procs to give him significantly more mobility and damage due
+  to resetting his cooldowns. For Gilnean Roulette, we're trying the idea of the
+  talent changing Cursed Bullet to be more like a 4th Basic Ability that can be
+  used multiple times in a teamfight or as a potent poke tool. Finally, Tooth
+  and Claw is now also turning Razor Swipe into a significant source of damage.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="nazeebo">Nazeebo</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Thing of the Deep [Passive]</strong>
+<ul>
+<li>Spell Power bonus reduced from 10% to 5% for each quest completion.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We went a little overboard with Thing of the Deep, so
+  we're pulling back on the Spell power bonus that it provides.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="zagara">Zagara</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Jagged Barbs [Trait]</strong>
+<ul>
+<li>Attack damage bonus increased from 30% to 40%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Yay buffs.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Fixed an issue where enemy XP Globes could be visible through fog of war.</li>
+<li>Fixed an issue where placed and unplaced accounts could not queue together in Unranked games.</li>
+<li>Current Ranked Season has been renamed to 2020 Season 1.</li>
+<li>Seasonal reward portraits for 2019 Season 3 now have the year 2019 (rather than 2020) on them.</li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Samuro</strong>
+<ul>
+<li>Critical Strikes' bonus is now properly applied for 50% increased damage when cast with Merciless Strikes.</li>
+</ul></li>
+<li><strong>Whitemane</strong>
+<ul>
+<li>Casting Zeal no longer interrupts channeled effects.</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-12-04 Hotfix Patch</title>
     <published>2019-12-05T22:00:00.000Z</published>
@@ -7429,1368 +8336,6 @@ years' Summer Events.</p>
 <li><strong>Sylvanas:</strong> Minions who are Possessed now properly remove all friendly damaging abilities that were applied before they were Possessed. </li>
 <li><strong>Raynor:</strong> Raynor's Hyperion Splat now properly matches both its warning splat and its targeting guide.</li>
 <li><strong>Anub'arak:</strong> Cocoon is no longer disjointed by teleports. Cocoon will now redirect, similarly to pyroblast, and fall off if the teleport is far enough away.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-05-22 Balance Update</title>
-    <published>2019-05-22T22:00:00.000Z</published>
-    <updated>2019-05-22T22:00:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-05-22-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-05-22-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-may-22-2019">Heroes of the Storm Balance Patch Notes - May 22, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/22990045" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/22990045" target="_blank">Official Patch Notes</a> <small>v 2.45.1</small></div>
-
-<p>Heroes of the Storm has just been updated with Hero balance changes and bug
-fixes! Read on for details.</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<ul>
-<li><p>New Bundles </p>
-
-<ul>
-<li>The following new bundles are only available for a limited time! 
-<ul>
-<li>Glory to the Firstborn Bundle</li>
-<li>Reaver Bundle</li>
-</ul></li>
-</ul></li>
-<li><p>New Mount </p>
-
-<ul>
-<li>Reaver</li>
-<li>Solarite Reaver</li>
-<li>Tal'darim Reaver</li>
-</ul></li>
-<li><p>New Skins </p>
-
-<ul>
-<li>Fenix</li>
-<li>Crystalline Ruinwalker Fenix</li>
-<li>Arcane Ruinwalker Fenix</li>
-<li>Falstad</li>
-<li>Spectral Buccaneer Falstad</li>
-<li>Zagara</li>
-<li>Smoldering Desert Queen Zagara</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#tank">Tank</a></th>
-  <th><a href="#bruiser">Bruiser</a></th>
-  <th><a href="#healer">Healer</a></th>
-  <th><a href="#support">Support</a></th>
-  <th><a href="#melee-assassin">Melee Assassin</a></th>
-  <th><a href="#ranged-assassin">Ranged Assassin</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#anubarak">Anub'arak</a></td>
-  <td><a href="#imperius">Imperius</a></td>
-  <td><a href="#ana">Ana</a></td>
-  <td><a href="#zarya">Zarya</a></td>
-  <td><a href="#alarak">Alarak</a></td>
-  <td><a href="#guldan">Gul'dan</a></td>
-</tr>
-<tr>
-  <td><a href="#blaze">Blaze</a></td>
-  <td><a href="#malthael">Malthael</a></td>
-  <td><a href="#anduin">Anduin</a></td>
-  <td></td>
-  <td><a href="#maiev">Maiev</a></td>
-  <td><a href="#jaina">Jaina</a></td>
-</tr>
-<tr>
-  <td><a href="#etc">E.T.C.</a></td>
-  <td><a href="#ragnaros">Ragnaros</a></td>
-  <td><a href="#deckard">Deckard</a></td>
-  <td></td>
-  <td><a href="#zeratul">Zeratul</a></td>
-  <td><a href="#lunara">Lunara</a></td>
-</tr>
-<tr>
-  <td><a href="#garrosh">Garrosh</a></td>
-  <td><a href="#rexxar">Rexxar</a></td>
-  <td><a href="#kharazim">Kharazim</a></td>
-  <td></td>
-  <td></td>
-  <td><a href="#raynor">Raynor</a></td>
-</tr>
-<tr>
-  <td><a href="#johanna">Johanna</a></td>
-  <td></td>
-  <td><a href="#stukov">Stukov</a></td>
-  <td></td>
-  <td></td>
-  <td><a href="#sylvanas">Sylvanas</a></td>
-</tr>
-<tr>
-  <td><a href="#malganis">Mal'Ganis</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#muradin">Muradin</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td><a href="#stitches">Stitches</a></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="tank">Tank</h3>
-
-<h4 id="anubarak">Anub'arak</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Legion of Beetles [Trait]</strong>
-<ul>
-<li>Cooldown to spawn a Beetle increased from 8 seconds to 12 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Cocoon [R2]</strong>
-<ul>
-<li>Health reduced from 32 to 28</li>
-<li>This reduces the time that the Cocoon naturally decays from 8 to 7 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Anub'arak is still overperforming compared to other
-  Warriors, so this time we are reducing the power of Legion of Beetles and
-  Cocoon, which are still stand out talents for him. We are hesitant to over-
-  nerf him, so our strategy going forward is to combine these smaller nerfs with
-  buffs to other Warriors to create a healthier meta for the role.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="blaze">Blaze</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Jet Propulsion [E]</strong>
-<ul>
-<li>Cooldown reduced from 9 to 8 seconds</li>
-<li>Mana cost reduced from 45 to 40</li>
-</ul></li>
-<li><strong>Pyromania [Trait]</strong>
-<ul>
-<li>Armor bonus increased from 35 to 40</li>
-</ul></li>
-</ul>
-
-<p>​<strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Oil Dispersal [W]</strong>
-<ul>
-<li>Additional functionality: Each enemy Hero hit with Flame Stream reduces the cooldown of Oil Spill by 1 second and refunds 5 Mana</li>
-</ul></li>
-<li><strong>Feeding the Flame [Q]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Bunker Drop [R1]</strong>
-<ul>
-<li>Cooldown reduced from 80 to 70 seconds</li>
-<li>Mana cost reduced from 80 to 70​</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Suppressive Fire [Q]</strong>
-<ul>
-<li>Spell Power reduction increased from 20% to 25% per stack</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Thermal Protection [E]</strong>
-<ul>
-<li>Cooldown reduction reduced from 1.5 to 1.25 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Blaze has been outperformed by other heroes in the
-  last few months, and these changes are intended to bring him a bit more back
-  into the meta. Most of these buffs are intended to help his tanking
-  capabilities, particularly when it comes to his initiation and survivability.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="etc">E.T.C.</h4>
-
-<p>​<strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Guitar Hero [E]</strong>
-<ul>
-<li>Additional functionality: Basic Attacks now increase the duration of Guitar Solo by .25 seconds</li>
-<li>Healing reduced from 50% to 40%</li>
-</ul></li>
-<li><strong>Block Party [Trait]</strong>
-<ul>
-<li>Physical Armor amount increased from 50 to 75</li>
-</ul></li>
-</ul></li>
-<li>​<strong>Level 4</strong>
-<ul>
-<li><strong>​Speed Metal [Trait]</strong>
-<ul>
-<li>Bonus Movement Speed increased from 15% to 20%</li>
-</ul></li>
-</ul></li>
-<li>​<strong>Level 7​</strong>
-<ul>
-<li><strong>Hammer-On [Passive]</strong>
-<ul>
-<li>Bonus damage increased from 35% to 40%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Some of ETC's talents could use some beefing up, so
-  we're milking this opportunity to bring ETC more into the meta so he can
-  better compete with the likes of Anub'arak, Diablo, and Garrosh. Don't worry,
-  if these changes butcher his balance we'll take stock of the situation and
-  nerf him appropriately.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="garrosh">Garrosh</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Wrecking Ball [E]</strong>
-<ul>
-<li>Cooldown increased from 14 to 16 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Unrivaled Strength [E]</strong>
-<ul>
-<li>Damage bonus increased from 75% to 125%</li>
-</ul></li>
-<li><strong>Body Check [Active]</strong>
-<ul>
-<li>Slow amount reduced from 40% to 35%</li>
-<li>No longer deals bonus damage or Slow amount based on Armor Up's bonus</li>
-<li>Additional functionality: Now causes enemies to receive 40% reduced Healing for the next 3 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Brute Force [Active]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Decimate [R1]</strong>
-<ul>
-<li>Slow amount increased from 30% to 40%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Mortal Combo [Q]</strong>
-<ul>
-<li>Cooldown reduction increased from 9 to 10 seconds</li>
-<li>Additional Functionality: Now also gives Garrosh cooldown reduction if an enemy Hero is hit by Groundbreaker within 3 seconds of being hit by Wrecking Ball.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Deadly Calm [R2]</strong>
-<ul>
-<li>Damage reduction increased from 20% to 25%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While Garrosh is incredibly popular due to his
-  ability to heavily displace enemy Heroes, he is not outperforming other Heroes
-  in the game, sitting at a 48% win rate at higher levels of play in the hands
-  of people who are skilled with him specifically. At lower levels of play his
-  win rate drops to 47.2%, where he wins the award for being the second lowest
-  win-rate Warrior in the game. We're slightly nerfing Wrecking Ball's cooldown
-  to help address his high popularity and frustrations playing against him, and
-  buffing some of his under-picked talents to better compete with their peers to
-  help stabilize his talent tree.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="johanna">Johanna</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Condemn [W]</strong>
-<ul>
-<li>Damage increased from 55 to 58</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Hold Your Ground [Trait]</strong>​
-<ul>
-<li>Cooldown reduction increased from 4 to 5 seconds</li>
-<li>Shield bonus increased from 50% to 60</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Eternal Retaliation [W]</strong>​
-<ul>
-<li>Cooldown reduction per enemy hit increased from .5 to .75 seconds</li>
-<li>Maximum targets reduced from 10 to 8</li>
-</ul></li>
-<li><strong>Zealous Glare [E]</strong>
-<ul>
-<li>Shield Glare duration increased from .75 seconds to 1 second</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Radiating Faith [R2]</strong>
-<ul>
-<li>Additional functionality: Additional enemies hit by Blessed Shield are now Stunned for its full duration</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Johanna is a solid, versatile Warrior that brings a
-  strong frontline presence to her team. In addition to giving her some talent
-  buffs, we're increasing the damage of Condemn to further push her unique role
-  as a Warrior who brings a considerable amount of waveclear.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malganis">Mal'Ganis</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Winged Guard [W]</strong>
-<ul>
-<li>Physical Armor bonus increased from 50 to 75</li>
-</ul></li>
-<li><strong>Vampiric Aura [Trait]</strong>
-<ul>
-<li>Healing increased from 10% to 15% of Physical damage dealt</li>
-</ul></li>
-<li><strong>Time to Feed [Passive]</strong>
-<ul>
-<li>Healing increased from 48 to 52</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Might of Sargeras [W]</strong>
-<ul>
-<li>Armor bonus duration increased from 2 seconds to 2.5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Black Claws [Q]</strong>
-<ul>
-<li>Damage bonus increased from 45% to 60%</li>
-</ul></li>
-<li><strong>Spreading Plague [E]</strong>
-<ul>
-<li>Duration increased from 4 to 5 seconds</li>
-</ul></li>
-<li><strong>Nightmare Fuel [Passive]</strong>
-<ul>
-<li>No longer grants Mal'ganis 30% bonus damage while in a bush or after leaving a bush</li>
-<li>Additional Functionality: Increase the duration of Night Rush by .75 seconds when it is cast from a bush</li>
-<li>Bonus damage when waking Sleeping targets increased from 150% to 200%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Frenzied Assault [Passive]</strong>
-<ul>
-<li>Bonus Attack Speed increased from 40% to 50%</li>
-<li>Bonus Physical damage increased from 15% to 20%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We've nerfed Mal'ganis multiple times since his
-  release, and he has fallen off a bit too much since our last round. These
-  buffs to various talents are meant to increase his overall effectiveness while
-  also rounding out his talent tiers to be more competitive.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="muradin">Muradin</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li>Changed the order of Muradin's Level 1 talents to be the same as other Heroes (Q, W, E, etc.)</li>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Third Wind [Trait]</strong>
-<ul>
-<li>Health Restoration rate increased from 83 to 90, and the improved rate from 166 to 180</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Sledgehammer [Q]</strong>
-<ul>
-<li>Additional functionality: Enemy Heroes hit grant an additional stack of his baseline quest</li>
-</ul></li>
-<li><strong>Reverberation [W]</strong>
-<ul>
-<li>Additional functionality: Every enemy Hero hit reduces Muradin's Heroic Ability cooldown by 5%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Heavy Impact [E]</strong>
-<ul>
-<li>Slow duration increased from .75 to 1.25 seconds</li>
-</ul></li>
-<li><strong>Skullcracker [Passive]</strong>
-<ul>
-<li>Bonus damage increased from 70% to 90%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Thunder Strike [W]</strong>
-<ul>
-<li>Additional functionality: Now also increases Muradin's Dwarf Toss Armor duration from 2 to 4 seconds</li>
-</ul></li>
-<li><strong>Bronzebeard Rage [Passive]</strong>
-<ul>
-<li>Damage increased from 19 to 20</li>
-<li>Additional functionality: Now also heals Muradin for 75% of the damage dealt</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're buffing some of Muradin's underutilized
-  talents, and giving all of his Level 13 options some kind of survivability so
-  that they better compete with Healing Static.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stitches">Stitches</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Chop Chop [W]</strong>
-<ul>
-<li>Duration increased from 5 to 6 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Digestive Juices [E]</strong>
-<ul>
-<li>No longer increases the damage of Devour to enemy Heroes</li>
-<li>Additional functionality: Hitting enemy Heroes with Devour reduces its cooldown by 5 seconds</li>
-</ul></li>
-<li><strong>Gas Flare [Passive]</strong>
-<ul>
-<li>Bonus damage duration after hitting enemy Heroes with Hook increased from 4 to 8 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Meat Hook [Q]</strong>
-<ul>
-<li>Bonus Healing increased from 16% to 20%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Stitches like buffs. We like Stitches. We give
-  Stitches buffs. When Stitches happy, you happy too!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bruiser">Bruiser</h3>
-
-<h4 id="imperius">Imperius</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Consuming Flame [W]</strong>
-<ul>
-<li>Damage bonus changed from 125% to 100%</li>
-<li>This slightly reduces the bonus damage at Level 1 from 281 to 260, but at Level 20 will change from 454 to 548</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Flash of Anger [Q]</strong>
-<ul>
-<li>Adjusted functionality: Consuming a mark from Celestial Charge deals damage around the target and gives Imperius a Shield for 300 over 4 seconds</li>
-<li>Damage reduced from 198 to 180</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> To make it more consistent with other damage
-  modifiers, we are changing Consuming Flame's bonus from a flat amount to a
-  percent bonus, which will make it scale with Imperius's level. This is a
-  slight nerf to his Level 1 damage, but overall a fairly significant buff to
-  the talent during the middle and later portions of the game. To make Flash of
-  Anger more reliable, we are changing its functionality to be about consuming
-  marks of Celestial Charge instead of trying to hit enemy Heroes first with
-  Solarion's Fire. To compensate for the power and reliability bonuses we're
-  giving, we are reverting the damage bonus that we gave to the talent last
-  patch. This functionality change should make the use case for the talent much
-  more clear: Impale enemies, gain benefits.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malthael">Malthael</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Throwing Shade [E]</strong>
-<ul>
-<li>Quest requirement reduced from 15 to 12</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Tormented Souls [R1]</strong>
-<ul>
-<li>Mana cost reduced from 100 to 20</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Mortality [W]</strong>
-<ul>
-<li>Damage increased from 6% to 8% maximum Health</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We read the feedback that it is difficult to
-  capitalize on the cooldown resets on Wraith Strike due to the high Mana cost
-  of casting the ability multiple times. To compensate for this, we are
-  drastically reducing the Mana cost of Tormented Souls, which should make it
-  much easier to get value.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="ragnaros">Ragnaros</h4>
-
-<p><strong>Base Stats</strong></p>
-
-<ul>
-<li>Health increased from 2000 to 2075</li>
-<li>Health Regeneration increased from 4.168 to 4.323</li>
-<li>Basic Attack damage increased from 171 to 180</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Flames of Sulfuron [R1]</strong>
-<ul>
-<li>Bonus Stun duration increased from .5 seconds to 1 second</li>
-<li>Slow duration increased from 2 to 2.5 seconds</li>
-</ul></li>
-<li><strong>Submerge [Active]</strong>
-<ul>
-<li>Cooldown reduced from 90 to 60 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> It's been awhile since we've reevaluated the
-  Firelord's place in the Nexus. Overall he's doing fairly well, but we felt he
-  could use a small buff to compete with the current meta heroes in the game. We
-  also saw this as an opportunity to help his Level 20 pick rates out, so we're
-  buffing Flames of Sulfuron to be a fairly meaningful Stun increase and
-  increasing the uptime of Submerge.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="rexxar">Rexxar</h4>
-
-<p><strong>Base Stats</strong></p>
-
-<ul>
-<li>Misha's Health reduced from 1762 to 1620</li>
-<li>Misha's Health Regeneration reduced from 3.671 to 3.375</li>
-<li>Misha's Health scaling increased from 4% to 4.75%</li>
-<li>Misha's Health Regeneration scaling increased from 4% to 4.75%</li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> These changes are to make Rexxar's laning phase a little less overwhelming for the majority of opponents, particularly on maps with control points. We're slightly lowering Misha's power in the early game, but increasing her scaling so that she is less powerful in early-game trades, but is still a threat in the mid to late portions of the game.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="healer">Healer</h3>
-
-<h4 id="ana">Ana</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Biotic Grenade [W]</strong>
-<ul>
-<li>Allied Healing amount reduced from 166 to 152</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While Ana is currently not greatly outperforming
-  other Healers, even at the highest level of play, she is being seen much more
-  often compared to her peers. We're reducing the healing power of Biotic
-  Grenade, which should bring her down a notch as well as reduce the power of
-  its associated talents.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="anduin">Anduin</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Flash Heal [Q]</strong>
-<ul>
-<li>Mana cost reduced from 30 to 25</li>
-</ul></li>
-<li><strong>Divine Star [Q]</strong>
-<ul>
-<li>Mana cost increased from 45 to 50</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Renew [Q]</strong>
-<ul>
-<li>Healing increased from 23 to 26 per second</li>
-</ul></li>
-<li><strong>Pursued by Grace [Passive]</strong>
-<ul>
-<li>Healing increased from 28 to 33</li>
-</ul></li>
-<li><strong>Bold Strategy [Passive]</strong>
-<ul>
-<li>Cooldown increase increased from 1 to 2 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Holy Reach [E]</strong>
-<ul>
-<li>Bonus Basic Attack damage increased from 50% to 75%</li>
-<li>Healing increased from 90 to 100</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Binding Heal [Q]</strong>
-<ul>
-<li>Healing increased from 80 to 95</li>
-</ul></li>
-<li><strong>Power Word: Shield [W]</strong>
-<ul>
-<li>Shielding increased from 165 to 172</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Light Bomb [R2]</strong>
-<ul>
-<li>Shielding increased from 140 to 165</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Enchant Boots – Lion's Speed [Trait]</strong>
-<ul>
-<li>Movement Speed increased from triple to quadruple while Leap of Faith's cooldown is available</li>
-</ul></li>
-<li><strong>Push Forward [Passive]</strong>
-<ul>
-<li>Maximum Movement Speed increased from 15% to 20%</li>
-<li>Movement Speed per enemy hit increased from 2% to 2.5%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Evenhanded Blessings [Q]</strong>
-<ul>
-<li>Cooldown reduction increased from 40% to 50%</li>
-</ul></li>
-<li><strong>Holy Nova [W]</strong>
-<ul>
-<li>Damage increased from 100 to 105</li>
-<li>Healing increased from 100 to 105</li>
-</ul></li>
-<li><strong>Inner Focus [Active]</strong>
-<ul>
-<li>Cooldown reduction per Hero hit with Divine Star reduced from 10 to 8 seconds</li>
-</ul></li>
-<li><strong>Lightwell [Active]</strong>
-<ul>
-<li>Cooldown increased from 70 to 80 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Anduin's Light is bringing victory! Just about
-  48% of the time, which is great for a new Hero release. What we're aiming to
-  do though is buff up a lot of the lesser chosen Talents on him so that he
-  feels like he has a greater variety of options. We're also looking to make
-  Bold Strategy a little more bold, and a little less automatic. We're aiming to
-  do this by reducing his higher than typical Mana tension baseline (which Bold
-  Strategy helped alleviated by increasing Flash Heal's cooldown and making his
-  healing more efficient), while also increasing the cooldown penalty for Bold
-  Strategy. This is in addition to buffing up the other two Talents on the tier,
-  which also buffs Bold Strategy. Net result is that Pursued by Grace and Renew
-  will give Anduin a little more consistent healing, and potentially open up
-  synergy with the significantly buffed Binding Heal at level 7.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="deckard">Deckard</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Perfect Gems [W]</strong>
-<ul>
-<li>Horadric Cube cooldown reduction increased from 5 to 6 seconds</li>
-</ul></li>
-<li><strong>Respect the Elderly [R1]</strong>
-<ul>
-<li>Silence and Blind duration increased from 2 to 3 seconds</li>
-</ul></li>
-<li><strong>Morenados! [R2]</strong>
-<ul>
-<li>Cooldown reduction increased from 6 to 10 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Deckard has been performing well since his last round
-  of buffs. These changes are to increase the competitiveness of his Level 20
-  talents, which are all currently being outshone by Bottomless Flask.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kharazim">Kharazim</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Radiant Dash [Q]</strong>
-<ul>
-<li>Mana cost reduced from 30 to 25</li>
-</ul></li>
-<li><strong>Deadly Reach [E]</strong>
-<ul>
-<li>Mana cost reduced from 50 to 45</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Heavenly Zeal [W]</strong>
-<ul>
-<li>Additional functionality: Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3 seconds</li>
-<li>Now shows Crit kickers for when allies gain increased healing</li>
-</ul></li>
-<li><strong>Blazing Fists [E]</strong>
-<ul>
-<li>Additional functionality: Now also increases the duration of Deadly Reach by 100%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Divine Palm [R1]</strong>
-<ul>
-<li>Cooldown reduced from 60 to 50 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Fists of Fury [E]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>​​<strong>Dash of Light [W]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> To better round out Kharazim's Level 7 talents, we
-  are baking in some of the functionality of talents that normally come online
-  for him later on. This should make this tier more competitive while also
-  opening up other options for players to take as a replacement for the talents
-  that have been removed. For example, players who want to get in and punch a
-  lot with Blazing Fists will now have a defensive option to take at Level 13
-  since they no longer have to take Fists of Fury to complete the build.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stukov">Stukov</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Fetid Touch [W]</strong>
-<ul>
-<li>Additional functionality: After hitting 15 enemy Heroes with Weighted Pustule, remove half of its Mana cost</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Targeted Excision [Trait]</strong>
-<ul>
-<li>Additional functionality: Also reduces the cooldowns of Stukov's Basic Abilities by 1.5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>It Hungers [E]</strong>
-<ul>
-<li>Enemy Heroes hit required reduced from 12 to 10</li>
-</ul></li>
-<li><strong>Poppin' Pustules [Trait]</strong>
-<ul>
-<li>Additional functionality: Enemies hit by the explosion also have a Weighted Pustule applied to them</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Universal Carrier [Q]</strong>
-<ul>
-<li>Healing reduction on Healing Pathogen reduced from 50% to 40%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're making some quality of life changes to some of
-  Stukov's talents to make them better. Targeted Excision in particular suffered
-  from some awkwardness where when used properly, the cooldown of Bio-Kill
-  Switch would often be lower than the cooldowns of his Healing Pathogen and
-  Weighted Pustule, which made part of its benefit meaningless. This change
-  should make its 5-second cooldown more important, as he can use his other
-  abilities sooner after his initial cast of Bio-Kill Switch.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="zarya">Zarya</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Together We Are Strong [E]</strong>
-<ul>
-<li>Damage done by allies per energy gained reduced from 6 to 5</li>
-<li>Maximum energy gain per Shield increased from 30 to 40</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Gravity Kills [R1]</strong>
-<ul>
-<li>No longer deals damage to enemy Heroes</li>
-<li>Additional functionality: Now Silences enemy Heroes for its duration</li>
-</ul></li>
-<li><strong>Clear Out [R2]</strong>
-<ul>
-<li>No longer increases Zarya's maximum Energy</li>
-<li>Additional functionality: Now increases the duration of Expulsion Zone by 1.5 seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We saw an opportunity to improve Zarya's Heroic
-  options, and while taking a look at her saw that Together We Are Strong was
-  also underperforming compared to its peers, so we're giving all of these
-  talents a bit more punch.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="melee-assassin">Melee Assassin</h3>
-
-<h4 id="alarak">Alarak</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Chaos Reigns [Q]</strong>
-<ul>
-<li>Damage bonus after hitting 15 Heroes increased from 50 to 60</li>
-<li>Damage bonus after hitting 2 Heroes with a single Discord Strike increased from 50 to 60</li>
-<li>Damage bonus for hitting 3 enemy Heroes in a single Discord Strike increased from 80 to 100</li>
-</ul></li>
-<li><strong>Negatively Charged [E]</strong>
-<ul>
-<li>Damage bonus per stack reduced from 5% to 4%</li>
-</ul></li>
-<li><strong>Show of Force [Trait]</strong>
-<ul>
-<li>Damage reduced from 80 to 68</li>
-<li>Additional Functionality: Hitting an enemy Hero with 3 of Alarak's abilities within 2 seconds also grants Alarak 2% Sadism, up to 20% maximum. This bonus Sadism is lost on death</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> These changes are meant to create better competition
-  between Alarak's Level 4 talents. We are buffing Chaos Reigns and giving Show
-  of Force an exciting new scaling bonus, while also reducing the power of
-  Negatively Charged. While we realize that Negatively Charged is an extremely
-  attractive talent that can sometimes get out of control when Alarak gets a lot
-  of stacks, and an obvious way to nerf it would be to cap its stacks, a large
-  part of the enjoyment of playing Alarak and of taking talents like Negatively
-  Charged is about living the dream when playing well. We are instead going to
-  try simply reducing the bonus and making the other talents on the tier more
-  attractive, which should hopefully help talent picks on other tiers as well.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="maiev">Maiev</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Spirit of Vengeance [E]</strong>
-<ul>
-<li>Damage reduced from 180 to 150</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Sudden Vengeance [E]</strong>
-<ul>
-<li>No longer requires Maiev to Blink within .35 seconds of the Spirit of Vengeance hitting an enemy Hero for its effect to proc</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Ruthless Spirit [E]</strong>
-<ul>
-<li>New functionality: Hitting an enemy Hero with Spirit of Vengeance causes Maiev to deal 15% increased damage for 4 seconds. This can stack up to 2 times.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> To help curb Maiev's performance at the highest
-  levels of play, we are reducing her wave clear damage with Spirit of
-  Vengeance, which should mitigate her ability to easily rotate between lanes
-  for ganks. Due to the fairly low pick rates of talents related to the ability,
-  we also saw an opportunity to beef them up and make them more meaningful
-  options compared to others on their tiers.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="zeratul">Zeratul</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Cleave [Q]</strong>
-<ul>
-<li>Damage reduced from 212 to 200</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Zeratul has been a considerable threat, particularly
-  at the higher levels of play. This change is meant to simply reduce his power.
-  We chose to nerf Cleave because it is his least interactive way of dealing
-  damage, particularly when combined with Wormhole.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="ranged-assassin">Ranged Assassin</h3>
-
-<h4 id="guldan">Gul'dan</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Pursuit of Flame [Q]</strong>
-<ul>
-<li>Quest requirement reduced from 40 to 30</li>
-</ul></li>
-<li><strong>Chaotic Energy [W]</strong>
-<ul>
-<li>Regen Globes required for quest reduced from 20 to 15</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Bound by Shadow [Q]</strong>
-<ul>
-<li>Cooldown reduction increased from 1 to 1.5 seconds</li>
-</ul></li>
-<li><strong>Curse of Exhaustion [W]</strong>
-<ul>
-<li>Slow amount increased from 35% to 50%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Rain of Destruction [R2]</strong>
-<ul>
-<li>Adjusted functionality: Now has a 1.5 second cast time. No longer requires Gul'dan to channel for its duration</li>
-<li>Cast range reduced from 15 to 10</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>​<strong>Darkness Within [Trait]</strong>
-<ul>
-<li>Bonus damage increased from 25% to 30%</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Rain of Destruction has not been the predominant
-  Heroic since Gul'dan's release. We believe there are two reasons for this: the
-  first being that it has some randomness to its output in regards to where the
-  meteors land, and the second being that it requires Gul'dan to channel for 7
-  seconds, which gives his opponents an incredibly long time to interrupt him
-  while also not allowing him to use his other abilities or provide any other
-  output during that time. We're targeting the second issue with this change,
-  which will allow Gul'dan to gain the ability to move and use his abilities
-  while the Rain of Destruction is happening. We may in the future look at the
-  randomness of the Heroic's meteors, but at this time we want to try this
-  change as it retains most of the original fantasy of Gul'dan raining Hellfire
-  upon his enemies. We're also improving some of Gul'dan's lesser picked
-  talents. We realize that he has some fundamental issues with Corruption
-  focused talents dominating his talent tree, and are looking at exploring ways
-  in the future to make alternative ways to play more meaningfully competitive.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="jaina">Jaina</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Ice Lance [Q]</strong>
-<ul>
-<li>Cooldown reduction reduced from 2 to 1.5 seconds</li>
-</ul></li>
-<li><strong>Icefury Wand [Passive]</strong>
-<ul>
-<li>Cooldown reduction increased from 1.5 to 2 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Storm Front [W]</strong>
-<ul>
-<li>Cast range increase reduced from 100% to 75%</li>
-<li>Additional functionality: Now also increases the radius of Blizzard by 30%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Snowstorm [W]</strong>
-<ul>
-<li>New functionality: The second wave of Blizzard deals 20% bonus damage. The third wave of Blizzard deals 60% bonus damage.​</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Ice Lance has been outperforming the other talents on
-  its tier for a long time. While we enjoy the playstyle that it enables, it is
-  slightly too powerful compared to the other options. We are reducing its
-  cooldown reduction while also giving Jaina other build paths to consider.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lunara">Lunara</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Hippity Hop [Z]</strong>
-<ul>
-<li>Out of combat requirement for the Movement Speed bonus reduced from 5 to 4 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Blossom Swell [Q]</strong>
-<ul>
-<li>Movement Speed bonus increased from 12% to 15%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Choking Pollen [Q]</strong>
-<ul>
-<li>Damage bonus to targets with Nature's Toxin increased from 85% to 100%</li>
-<li>Damage bonus to targets with 3 stacks of Nature's Toxin increased from 135% to 150%</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Thornwood Vine [R1]</strong>
-<ul>
-<li>Damage increased from 164 to 176</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Abolish Magic [Active]</strong>
-<ul>
-<li>Cooldown reduced from 35 to 30 seconds</li>
-</ul></li>
-<li><strong>Endless Spores [W]</strong>
-<ul>
-<li>Cooldown reduction increased from 3 to 4 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Accelerated Contamination [Q]</strong>
-<ul>
-<li>Additional functionality: Now also reduces the Mana cost of Noxious Blossom from 60 to 40</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Lunara is in the middle of the pack in regards to her
-  performance against other ranged assassins. We're buffing a slew of her
-  talents to make her stand out more, and to make playstyles more attractive
-  that currently aren't as popular on her.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="raynor">Raynor</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7​</strong>
-<ul>
-<li><strong>Fuel the Rush [Passive]</strong>
-<ul>
-<li>Additional functionality: Reduce the Mana cost of Adrenaline Rush from 75 to 50</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Debilitating Roungs [Passive]</strong>
-<ul>
-<li>Additional functionality: Also reduces the Mana cost of Pentetrating Round from 65 to 45</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Now that Raynor has fairly meaningful Mana costs on
-  his abilities, we are adding some reductions in his talents so that he isn't
-  punished in regards to his Mana consumption when taking them.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="sylvanas">Sylvanas</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Shadow Dagger [W]</strong>
-<ul>
-<li>Damage reduced from 32 to 30</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Sylvanas is a little bit too powerful, so we're
-  slightly lowering her damage to bring her more in line with other ranged
-  assassins.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed some display issues with Season Time Remaining</li>
-<li>Garden Terror Spawning Vines will no longer get stuck at Gates while trying to path through them</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
