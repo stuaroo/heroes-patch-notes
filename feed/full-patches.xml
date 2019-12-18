@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-12-16T22:47:00.000Z</updated>
+  <updated>2019-12-18T01:12:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2019-12-17 Hotfix Patch</title>
+    <published>2019-12-18T01:12:00.000Z</published>
+    <updated>2019-12-18T01:12:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2019-12-17-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-12-17-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-december-17-2019">Heroes of the Storm Hotfix Patch Notes – December 17, 2019</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-december-17-2019/31152" target="_blank"></a><a href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-december-17-2019/31152" target="_blank">Official Patch Notes</a> <small>v 2.49.1</small></div>
+
+<p>We've released a hotfix today with updates below.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Made minor configuration changes in some regions to improve matchmaking queue times.</li>
+<li>Updated some tooltip descriptions to show proper localization.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-12-16 Balance Update</title>
     <published>2019-12-16T22:47:00.000Z</published>
@@ -7981,359 +8007,6 @@ years' Summer Events.</p>
 <li><strong>D.Va:</strong> D.Va's Mech is no longer immune to friendly abilities.</li>
 <li><strong>Chromie:</strong> Here and There no longer requires Chromie to have vision of her target location, or the clone she is swapping with. </li>
 <li><strong>Sylvanas:</strong> Using any attack on any previously enemy footmen who have been affected by Possession and turned allied, will still receive friendly fire damage from attacks.</li>
-<li><strong>Raynor:</strong> Raynor's Hyperion Splat now properly matches both its warning splat and its targeting guide.</li>
-<li><strong>Anub'arak:</strong> Cocoon is no longer disjointed by teleports. Cocoon will now redirect, similarly to pyroblast, and fall off if the teleport is far enough away.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-06-10 PTR Patch Notes</title>
-    <published>2019-06-10T21:20:00.000Z</published>
-    <updated>2019-06-10T21:20:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-06-10-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-06-10-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-june-10-2019">Heroes of the Storm PTR Patch Notes — June 10, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23018655" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23018655" target="_blank">Official Patch Notes</a> <small>v 2.46.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until the week of June 17. As always, if you
-encounter any bugs during your PTR play sessions, please stop by the <a href="http://us.battle.net/heroes/en/forum/20013840/">PTR Bug
-Report forum</a> to let us know
-about your experiences.</p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p>Many seasonal items have made their way back into the collection and will be
-available for crafting and in Loot Chests for a limited time!</p>
-
-<p><strong>New Bundles (Limited Time Only!)</strong></p>
-
-<ul>
-<li>MechaStorm II Bundle</li>
-<li>Mecha Yrel Skin Pack</li>
-<li>Mecha Valla Skin Pack</li>
-<li>Xenotech Malthael Skin Pack</li>
-<li>Seraph Wing Bundle</li>
-</ul>
-
-<p><strong>New Skins (Limited Time Only!)</strong></p>
-
-<ul>
-<li><strong>Mecha Yrel</strong>
-<ul>
-<li>Prototype Mecha Yrel</li>
-<li>Master Mecha Yrel</li>
-<li>Lunar Mecha Yrel</li>
-<li>Carbon Fiber Mecha Yrel</li>
-</ul></li>
-<li><strong>Mecha Valla</strong>
-<ul>
-<li>​Prototype Mecha Valla </li>
-<li>Master Mecha Valla</li>
-<li>Solar Mecha Valla</li>
-<li>Alloy Mecha Valla</li>
-</ul></li>
-<li><strong>Xenotech Malthael</strong>
-<ul>
-<li>Apex Xenotech Malthael</li>
-<li>Twilight Xenotech Malthael</li>
-<li>Umbral Xenotech Malthael</li>
-<li>Gamma Xenotech Malthael</li>
-</ul></li>
-<li><strong>Hunter Mecha Dehaka</strong></li>
-<li><strong>Galactic Xenotech Abathur</strong></li>
-<li><strong>Maritime Dropkick Kharazim</strong></li>
-</ul>
-
-<p><strong>New Mounts (Limited Time Only!)</strong></p>
-
-<ul>
-<li><strong>Seraph Wing</strong>
-<ul>
-<li>Holy Seraph Wing</li>
-<li>Fierce Seraph Wing</li>
-<li>Eternal Seraph Wing</li>
-<li>Guardian Seraph Wing</li>
-<li>Prototype Seraph Wing</li>
-</ul></li>
-<li><strong>Fel Razorgrin</strong></li>
-</ul>
-
-<p><strong>New Portraits and Sprays (Limited Time Only!)</strong></p>
-
-<ul>
-<li>Several new sprays and portraits have also been added to the game.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="mechastorm-ii">MechaStorm II</h3>
-
-<p>Xenotech threatens the planet once again. This new invasion is being led by
-Mecha Malthael, sowing havoc and destruction across Neo-Stormwind. Many
-outposts and cities have already felt the wrath of the Mecha Archangel of
-Death.</p>
-
-<p>&nbsp;</p>
-
-<p>A new generation of Heroes arise to defend the innocent. Equipped with cutting
-edge Mecha technology provided by Neo-President Anduin, the young pilots
-prepare for the battles ahead.</p>
-
-<p>&nbsp;</p>
-
-<p>You must stand together alongside Valla and Yrel as members of the MechaStorm
-to help bring Xenotech's Mecha Malthael's advance to a halt. However, you must
-first make sure your equipment is up to the task.</p>
-
-<h3 id="mechastorm-ii-quest-chain">MechaStorm II Quest Chain</h3>
-
-<p>Repair, upgrade and run repeatable combat simulation missions for each part of
-Mecha Tyrael. Join the Neo-Stormwind's mobile Mecha squadron alongside Valla
-and Yrel to help push back the Xenotech invasion being led by Mecha Malthael.</p>
-
-<p>&nbsp;</p>
-
-<p>Earn Mecha-themed sprays, portraits and loot boxes while working to unlock
-Tyrael the Hero as well as the unique Perfect Mecha Tyrael skin.</p>
-
-<h3 id="mechastorm-ii-loot-chests">MechaStorm II Loot Chests</h3>
-
-<p>From June 17th to August 5th, your main goal will be working to thwart the
-Xenotech invasion. During this time all Loot Chests earned or bought with Gold
-will be MechaStorm II Loot Chests (excluding Hero-specific ones). These Loot
-Chests guarantee at least one item from either MechaStorm II or previous
-years' Summer Events.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Note:</strong> Loot Chests earned prior to the start of this event will not become MechaStorm II Loot Chests.</p>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bruiser">Bruiser</h3>
-
-<h4 id="chen">Chen</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Keg Smash [W]</strong>
-<ul>
-<li>Brew cost increased from 20 to 30</li>
-<li><strong>New functionality:</strong> Smash Chen's keg, dealing damage, drenching affected enemies in Brew for 3 seconds, and Slowing them by 10% for 1.5 seconds. After 1.5 seconds, the Slow is increased to 40% for 1.5 seconds. After being used, this ability becomes Breath of Fire.</li>
-</ul></li>
-<li><strong>Breath of Fire [W]</strong>
-<ul>
-<li>This ability has been moved to the W button, and is available after Keg Smash has been used</li>
-<li>Cooldown reduced from 5 seconds to 1.5 seconds</li>
-<li>Impact damage reduced from 96 to 85</li>
-<li>Periodic damage increased from 32 to 55</li>
-<li>Brew cost reduced from 30 to 10</li>
-<li><strong>Adjusted functionality:</strong> Using Breath of Fire on Brew-soaked enemy causes them to be Ignited, dealing damage over 3 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash. After being used or after 6 seconds, this ability becomes Keg Smash</li>
-</ul></li>
-<li><strong>New Ability: Stagger [E]</strong>
-<ul>
-<li>Damage taken over the next 3 seconds is prevented. Once this effect ends, Chen receives 75% of the damage taken over 5 seconds. 18-second CD</li>
-</ul></li>
-<li><strong>Fortifying Brew [Trait]</strong>
-<ul>
-<li>No longer grants 25 Brew instantly</li>
-<li>Brew regeneration increased from 30 to 50 per second</li>
-<li>Cooldown increased from 5 to 7 seconds</li>
-<li>Channel time reduced from 5 to 4 seconds</li>
-<li>Shield amount decreased from 196 to 180 per second</li>
-<li>This reduces the total shields for fully drinking from 588 to 540</li>
-<li>Shield duration increased from 2 to 4 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Stormstout Secret Recipe [Passive]
-<ul>
-<li>Moved from Level 20</li>
-<li>Healing increased from 1.5% to 2% of Chen's maximum health</li>
-</ul></li>
-<li>New Talent: Eye of the Tiger [Passive]
-<ul>
-<li><strong>Adjusted functionality - Quest:</strong> Increase Regeneration Globe Healing duration by 100%. Reward: After collecting 15 Regeneration Globes, 50% of the Shield from Fortifying Brew persists indefinitely after drinking</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Keg Toss [W]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>Withering Flames [W]</strong>
-<ul>
-<li>Moved from Level 13</li>
-<li>Duration increased from 3 to 4 seconds</li>
-</ul></li>
-<li><strong>Accumulating Flame [W]</strong>
-<ul>
-<li>Moved from Level 1</li>
-<li><strong>New functionality:</strong> Increase Ignited damage by 25% and Basic Attacks against enemy Heroes who are Ignited increase its duration by .75 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Bolder Flavor [Trait]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>Elusive Brawler [Active]</strong>
-<ul>
-<li>Moved from Level 1</li>
-<li>Additional functionality: While active, also grants Chen 30% Movement Speed</li>
-</ul></li>
-<li><strong>New Talent: Gift of the Ox [E]</strong>
-<ul>
-<li>Increase Stagger's duration by .5 seconds, and reduce the amount of damage taken over time to 60% of damage taken</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Wandering Keg [R1]</strong>
-<ul>
-<li>Movement speed bonus increased from 60% to 70%</li>
-<li>Knockback duration increased by ~28%</li>
-<li>Knockback speed increased by ~53%</li>
-</ul></li>
-<li><strong>Storm Earth Fire [R2]</strong>
-<ul>
-<li>Spirit Health reduced from 75% of Chen's Health to 70%</li>
-<li>Each ability can only be cast once. The final ability that is cast is empowered.</li>
-<li><strong>Storm [Q]</strong>
-<ul>
-<li><strong>New functionality:</strong> The spirits gain a shield for 400 over 3 seconds. If this is the final ability cast, the shield amount is increased to 750 with no limited duration, and the duration of Storm Earth Fire is increased by 5 seconds.</li>
-</ul></li>
-<li><strong>Earth [W]</strong>
-<ul>
-<li><strong>New functionality:</strong> Fire and Earth leap to the target location, dealing 32 damage and slowing enemies in a large area by 70% for 1.5 seconds. If this is the final ability cast, increase the damage dealt by 300% and the leap instead roots enemy Heroes hit for 1.75 seconds.</li>
-<li>Earth Ability range increased from 7 to 9</li>
-<li>Earth Unit basic attack Slow reduced from 2 seconds to 1.75 seconds</li>
-<li>Earth Unit attack period increased from 2 to 1.5</li>
-</ul></li>
-<li><strong>Fire [E]</strong>
-<ul>
-<li><strong>New functionality:</strong> Increase the attack speed and attack damage of the spirits by 50% for 5 seconds. If this is the final ability cast, increase the attack speed and attack damage bonus to 75% and the spirits gain 50% movement speed for its duration</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Ring of Fire [W]</strong>
-<ul>
-<li>Moved from Level 4</li>
-<li>Adjusted functionality: After Igniting an enemy, burst into flames, dealing damage to nearby enemies</li>
-<li>Duration increased from 3 to 5 seconds</li>
-<li>Damage increased from 52 to 60</li>
-</ul></li>
-<li><strong>Enough to Share [Trait]</strong>
-<ul>
-<li>Moved from Level 16</li>
-<li>Additional functionality:Duration increased from 2 to 4 seconds</li>
-<li>Allied Shield amount increased from 27 to 70</li>
-<li>Additional functionality: Now also instantly Shields Chen for 180</li>
-</ul></li>
-<li><strong>Pressure Point [Q]</strong>
-<ul>
-<li><strong>Adjusted functionality:</strong> Flying Kick Slows the target enemy for 35% for 1 second, or by 70% if Chen has Shields from Fortifying Brew</li>
-</ul></li>
-<li><strong>A Touch of Honey [W]</strong>
-<ul>
-<li>New functionality: Increase the Slow from Keg Smash by 10% and its duration by .5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Another Round [W]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>New Talent: Celerity [E]</strong>
-<ul>
-<li>Basic Attacks against Slowed, Rooted, or Stunned enemy Heroes reduce the cooldown of Stagger by 1.5 seconds and grant Chen 15 Armor for 3 seconds</li>
-</ul></li>
-<li><strong>New Talent: Combo Strikes [Trait]</strong>
-<ul>
-<li>Every 3rd Basic Attack against the same target deals 75% bonus damage. While Chen has Shields from Fortifying Brew and for 2 seconds after, he gains 50% Attack Speed</li>
-</ul></li>
-<li><strong>Flying Leap [Q]</strong>
-<ul>
-<li>Additional Functionality: Reduce the cooldown of Flying Leap by .5 seconds each time an enemy Hero takes damage from being Ignited</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Purifying Brew [Trait]</strong>
-<ul>
-<li>Moved from Level 7</li>
-<li>New functionality: Casting Fortifying Brew grants Chen Unstoppable for 1.5 seconds</li>
-</ul></li>
-<li><strong>New Talent: Energizing Brew [Trait]</strong>
-<ul>
-<li>If Chen fully completes his cast of Fortifying Brew, then he gains 20% maximum Health and 20% increased damage for 25 seconds</li>
-</ul></li>
-<li><strong>Untapped Potential [R1]</strong>
-<ul>
-<li>Armor bonus increased from 60 to 75</li>
-<li>Armor bonus now lasts for 3 seconds after Wandering Keg expires</li>
-<li>Movement Speed increased from 100% to 125%</li>
-</ul></li>
-<li><strong>Elemental Conduit [R2]</strong>
-<ul>
-<li>New functionality: Increase the spirits' Health to 100% of Chen's maximum Health and all of their abilities are empowered</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> The new Chen has finally arrived! We had a blast tinkering with him, and look forward to seeing him unleashed to his full potential in your hands. When taking a look at how to best change him, we primarily focused on adding more opportunities for Chen to make plays and for his opponents to interact with him. Some of his power has been taken out of Fortifying Brew and put into his new ability, Stagger, as well as into his talents. While he may take a bit of time to master, proper management of Chen's cooldowns should result in a formidable hero that will make a great addition to any team.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>FIXED:</strong> Tassadar displays the 'Support' role icon, and is not selected as a valid healer pick when both sides are given a Healer in Shuffle Pick.</li>
-<li><strong>FIXED:</strong> Mercenary Camp captures will show Score Credit Tracking to always match the amount of experience that is being awarded. </li>
-<li><strong>FIXED:</strong> Minions on Tomb of the Spider Queen no longer gain an extra minute of scaling at the start of the game.</li>
-<li><strong>FIXED:</strong> Players will get credit for capturing a Mercenary Camp if you are within an extra 5 radius of the capture point (and on the same team)</li>
-<li><strong>FIXED:</strong> TargetUnit Abilities that can be placed on allies no longer appear invisible to enemy Heroes hit by their area.</li>
-<li><strong>FIXED:</strong> Respec on Try Me Mode map now respawns the player Hero to properly reset all Talents and Quests that Hero had chosen.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, &amp; Talents</strong></p>
-
-<ul>
-<li><strong>Jaina:</strong> Jaina's Water Elemental mimic damage from Wintermute now correctly reflects the tooltip and Balance Update. 50% of Jaina's Basic Frostbolt and Cone of Cold damage is mimicked by the Water Elemental.</li>
-<li><strong>D.Va:</strong> D.Va's Mech is no longer immune to friendly abilities.</li>
-<li><strong>Chromie:</strong> Here and There no longer requires Chromie to have vision of her target location, or the clone she is swapping with. </li>
-<li><strong>Sylvanas:</strong> Minions who are Possessed now properly remove all friendly damaging abilities that were applied before they were Possessed. </li>
 <li><strong>Raynor:</strong> Raynor's Hyperion Splat now properly matches both its warning splat and its targeting guide.</li>
 <li><strong>Anub'arak:</strong> Cocoon is no longer disjointed by teleports. Cocoon will now redirect, similarly to pyroblast, and fall off if the teleport is far enough away.</li>
 </ul>
