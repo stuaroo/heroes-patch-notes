@@ -2,10 +2,880 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2019-12-18T01:12:00.000Z</updated>
+  <updated>2020-01-23T01:50:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-01-22 Balance Update</title>
+    <published>2020-01-23T01:50:00.000Z</published>
+    <updated>2020-01-23T01:50:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-01-22-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-01-22-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-january-22-2020">Heroes of the Storm Balance Patch Notes - January 22, 2020</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23237905" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23237905" target="_blank">Official Patch Notes</a> <small>v 2.49.2</small></div>
+
+<p>Heroes of the Storm has just been updated with Hero balance changes! Read on
+for details.</p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<ul>
+<li><strong>Toys 2 Event</strong>
+<ul>
+<li>Toys 2 Event has been extended to April 7, 2020, PT.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#tank">TANK</a></th>
+  <th><a href="#bruiser">BRUISER</a></th>
+  <th><a href="#support">SUPPORT</a></th>
+  <th><a href="#healer">HEALER</a></th>
+  <th><a href="#melee-assassin">MELEE ASSASSIN</a></th>
+  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#anubarak">Anub'arak</a></td>
+  <td><a href="#chen">Chen</a></td>
+  <td><a href="#abathur">Abathur</a></td>
+  <td><a href="#auriel">Auriel</a></td>
+  <td><a href="#maiev">Maiev</a></td>
+  <td><a href="#azmodan">Azmodan</a></td>
+</tr>
+<tr>
+  <td><a href="#arthas">Arthas</a></td>
+  <td><a href="#deathwing">Deathwing</a></td>
+  <td></td>
+  <td><a href="#kharazim">Kharazim</a></td>
+  <td><a href="#samuro">Samuro</a></td>
+  <td><a href="#mephisto">Mephisto</a></td>
+</tr>
+<tr>
+  <td><a href="#cho">Cho</a></td>
+  <td><a href="#thrall">Thrall</a></td>
+  <td></td>
+  <td><a href="#stukov">Stukov</a></td>
+  <td></td>
+  <td><a href="#nazeebo">Nazeebo</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#whitemane">Whitemane</a></td>
+  <td></td>
+  <td><a href="#orphea">Orphea</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#probius">Probius</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#sgt-hammer">Sgt. Hammer</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="tank">Tank</h3>
+
+<h4 id="anubarak">Anub'arak</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Beetle, Juiced [Trait]</strong>
+<ul>
+<li>Bonus Health increased from 20% to 40%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Hive Master [R1]</strong>
+<ul>
+<li>Healing increased from 37 to 50.</li>
+</ul></li>
+<li><strong>Cryptweave [R2]</strong>
+<ul>
+<li>Bonus Cocoon duration increased from 4 to 6 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're giving Anub'arak some additional small buffs to
+  underused talents, which should help increase his diversity in the latter
+  portions of the game.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="arthas">Arthas</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Deathlord [Q]</strong>
+<ul>
+<li>Additional functionality: Increase the range of Death Coil by 30%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We heard you Kyle and Garrett. We're sorry we took it
+  away. Here, have it back.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="cho">Cho</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 2850 to 2950.</li>
+<li>Health Regeneration increased from 5.94 to 6.15.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Upheaval [R2]</strong>
+<ul>
+<li>Cooldown reduced from 60 to 40 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Favor of the Old Gods [R2]</strong>
+<ul>
+<li>Root duration increased from 1.5 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Cho like buffs.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bruiser">Bruiser</h3>
+
+<h4 id="chen">Chen</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Stormstout Secret Recipe [Passive]</strong>
+<ul>
+<li>Healing increased from 3% to 3.5% maximum Health.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Withering Flames [W]</strong>
+<ul>
+<li>Spell Power reduction increased from 50% to 60%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Gift of the Ox [E]</strong>
+<ul>
+<li>Bonus Stagger duration increased from 1 to 1.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Wandering Keg [R1]</strong>
+<ul>
+<li>Cooldown reduced from 60 to 50 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Pressure Point [Q]</strong>
+<ul>
+<li>Slow amount increased from 35% to 40%.</li>
+<li>Slow amount when Chen has Shields from Fortifying Brew increased from 70% to 80%.</li>
+</ul></li>
+<li><strong>A Touch of Honey [W]</strong>
+<ul>
+<li>Slow amount bonus increased from 15% to 20%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While Chen's talents are in a relatively good spot,
+  there is generally one talent on every tier that is being picked a bit less
+  than its counter-parts. We're giving some significant buffs to the talents
+  that aren't currently as popular in hopes that players try out new ways to
+  play the Panderan Brewmaster.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="deathwing">Deathwing</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2920 to 2850.</li>
+<li>Health Regeneration reduced from 6.08 to 5.94.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Incinerate [W]</strong>
+<ul>
+<li>Damage reduced from 80 to 75.</li>
+</ul></li>
+<li><strong>Onslaught [E]</strong>
+<ul>
+<li>Damage reduced from 40 to 38.</li>
+<li>Damage at the end of the lunge reduced from 75 to 72.</li>
+</ul></li>
+<li><strong>Lava Burst [W]</strong>
+<ul>
+<li>Periodic damage increased from 8 to 10 per second.</li>
+</ul></li>
+<li><strong>Earth Shatter [E]</strong>
+<ul>
+<li>Damage increased from 80 to 90.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Molten Blood [Trait]</strong>
+<ul>
+<li>Healing increased from .4 to .5% per second.</li>
+</ul></li>
+<li><strong>Draconic Might [Trait]</strong>
+<ul>
+<li>Healing reduced from 30% to 25% damage dealt.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Heat Wave [W]</strong>
+<ul>
+<li>Damage after using Incinerate reduced from 16 to 14 per second.</li>
+</ul></li>
+<li><strong>Dragon's Ire [Trait]</strong>
+<ul>
+<li>Bonus damage reduced from 30% to 25%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Firestorm [Z]</strong>
+<ul>
+<li>Cooldown reduction increased from 12 to 25 seconds.</li>
+</ul></li>
+<li><strong>Skyfall [E]</strong>
+<ul>
+<li>Cooldown reduction reduced from 1.5 seconds to 1 second.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Burn Beneath My Shadow [R1]</strong>
+<ul>
+<li>Bonus damage reduced from 100% to 80%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While in a much better spot, Deathwing is still
+  overperforming, so we're bringing him down a peg in various ways. This time,
+  however, we are including some buffs to parts of his kit that could use it,
+  particularly to his Worldbreaker form and to some of his talents.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="thrall">Thrall</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Rolling Thunder [Q]</strong>
+<ul>
+<li>Bonus damage and healing on Heroic targets increased from 2% to 3%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Rolling Thunder's tuning was a bit low initially.
+  This should make it much more appropriately attractive compared to the other
+  powerful options Thrall has on the tier.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="support">Support</h3>
+
+<h4 id="abathur">Abathur</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Locust Strain [Trait]</strong>
+<ul>
+<li>Locust Health increased from 316 to 350.</li>
+<li>Additional functionality: Locusts deal 50% bonus damage to enemy Structures.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Envenomed Nest [W]</strong>
+<ul>
+<li>Additional functionality: Enemy Heroes who are hit by Toxic Nests have their Armor reduced by 10 for 4 seconds.</li>
+</ul></li>
+<li><strong>Reinforced Carapace [E]</strong>
+<ul>
+<li>Shield amount increased from 30% to 40%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Volatile Mutation [R]</strong>
+<ul>
+<li>Healing increased from 75% to 100% of damage dealt.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Evolutionary Link [R1]</strong>
+<ul>
+<li>Shield amount Increased from 25% to 35% maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> In addition to buffing underperforming talents, we're
+  experimenting with giving Locusts a larger presence in Abathur's kit. If left
+  unattended, they will now do increased damage to Structures, which will reward
+  good Abathur players who pay close attention to their position on the map and
+  the state of the game.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="healer">Healer</h3>
+
+<h4 id="auriel">Auriel</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Resurrect [R1]</strong>
+<ul>
+<li>Cast range reduced from 7 to 5.</li>
+<li>Cast time increased from .5 seconds to 1 second.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We knew Auriel's Resurrect changes were going to be a
+  big deal, and for the most part they have been going fairly well. It's now
+  picked much more often, and, to our pleasant surprise, isn't winning by a
+  large margin over Crystal Aegis. While we like the epic moment of power that
+  the current iteration offers, there is understandably a bit of frustration
+  with Heroic now. To add some more counter-play, we're reducing its cast range
+  and adding more to its cast time to give opponents a better chance to
+  interrupt her. Auriel players will now have to choose their moments much more
+  wisely if they hope to get a Resurrect off on a key ally who recently died.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="kharazim">Kharazim</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage increased from 60 to 64.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Transcendence [Trait]</strong>
+<ul>
+<li>Movement Speed bonus duration increased from 2 to 2.5 seconds.</li>
+</ul></li>
+<li><strong>Iron Fists [Trait]</strong>
+<ul>
+<li>Movement Speed bonus duration increased from 2 to 2.5 seconds.</li>
+</ul></li>
+<li><strong>Insight [Trait]</strong>
+<ul>
+<li>Movement Speed bonus duration increased from 2 to 2.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Air Ally [Active]</strong>
+<ul>
+<li>Cooldown increased from 20 to 30 seconds.</li>
+<li>Health increased from 75 to 200.</li>
+<li>Duration reduced from 40 to 10 seconds.</li>
+<li>Charges reduced from 2 to 1.</li>
+<li>Additional functionality: Now also grants nearby allied Heroes 15% Spell Power for its duration.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Play Kharazim! Also, Air Ally does cool things now.
+  Play that too.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="stukov">Stukov</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Bio-Explosion Switch [Trait]</strong>
+<ul>
+<li>Silence duration increased from 2 to 2.5 seconds.</li>
+<li>Additional functionality: Detonating Lurking Arm also deals 230 damage to enemies caught in its explosion.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Bio-Explosion Switch has always been in a bit of an
+  awkward spot due to the opportunity cost of ending Lurking Arm early. To make
+  the talent more obviously powerful, we're adding some significant damage to
+  the explosion and a larger Silence duration to the detonation to make up for
+  the fact that Stukov's Lurking Arm goes away when the explosion happens. Now,
+  if Stukov players properly detonate the Lurking Arm right as their enemies are
+  leaving it, they should have a significant benefit when taking this talent.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="whitemane">Whitemane</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Saintly Greatstaff [E]</strong>
+<ul>
+<li>Damage increased from 50 to 55.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Due to an issue with Saintly Greatstaff causing
+  Whitemane's Basic Attacks to heal for more than intended, we are buffing the
+  talent to compensate for the fix.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="melee-assassin">Melee Assassin</h3>
+
+<h4 id="maiev">Maiev</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Cruel Chain [W]</strong>
+<ul>
+<li>New functionality: Umbral Bind grants 25% Movement Speed for 2.5 seconds, and its pull damage is increased by 30% for each tethered target beyond the first, up to 120%.</li>
+</ul></li>
+<li><strong>Vengeful Knives [E]</strong>
+<ul>
+<li>New functionality: for 5 seconds after teleporting with Spirit of Vengeance, Fan of Knives will deal 1% maximum Health as bonus damage to enemy Heroes. Increase this damage bonus by an additional 1% for each enemy Hero hit by Spirit of Vengeance.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> While Maiev is a terror in the hands of the more
+  elite portion of our playerbase, we don't want that to be a reason to not
+  improve talents that we feel could use the help. Cruel Chain and Vengeful
+  Knives have parts of their functionality that didn't feel particularly
+  impactful, so we're adding more clear and useful benefits to each of them,
+  which should make them more usable.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="samuro">Samuro</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Way of Illusion [Q]</strong>
+<ul>
+<li>Quest reward bonus damage increased from 20 to 30.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Deflection [Passive]</strong>
+<ul>
+<li>Armor bonus increased from 30 to 35.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Samuro's rework, statistically, has gone very well.
+  His pick and win rates across his talents are in a better spot, and we believe
+  his frustration levels have decreased since the changes. We're being tame with
+  our initial changes due to some bug fixes that can change how some talents pan
+  out over the long haul. While we wait, we wanted to buff a couple
+  underperforming talents that shouldn't be affected by these fixes.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="ranged-assassin">Ranged Assassin</h3>
+
+<h4 id="azmodan">Azmodan</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Summon Demon Warrior [W]</strong>
+<ul>
+<li>Basic Attack damage increased from 30 to 35.</li>
+<li>Damage per second to nearby enemies increased from 16 to 18.</li>
+</ul></li>
+<li><strong>All Shall Burn [E]</strong>
+<ul>
+<li>Periodic damage per second increased from 120 to 128.</li>
+<li>Final explosion damage increased from 320 to 340.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Battleborn [Passive]</strong>
+<ul>
+<li>Additional functionality: Reduce the Mana cost of Summon Demon Warrior from 25 to 20.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Bombardment [Q]</strong>
+<ul>
+<li>Empowered Basic Attacks duration increased from 3 to 4 seconds.</li>
+</ul></li>
+<li><strong>Master of Destruction [E]</strong>
+<ul>
+<li>Bonus Annihilation per Hero hit increased from 3 to 4.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Azmodan's been in a decent spot in regards to his
+  talent diversity for some time, but he has been slightly underperforming
+  compared to other heroes as a whole. We're giving him some buffs to his base
+  kit and to a couple underperforming talents, which should help players feel
+  better about having the Lord of Sin on their team.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="mephisto">Mephisto</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Malicious Intent [E]</strong>
+<ul>
+<li>Spellpower bonus increased from 20% to 25%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Animosity [W]</strong>
+<ul>
+<li>Bonus duration increased from .5 seconds to 1 second.</li>
+<li>No longer increases the duration of Lightning Nova as a result of Basic Attacking enemy Heroes.</li>
+<li>Additional functionality: Increase the maximum bonus damage of Lightning Nova from 30% to 36%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Mephisto's talents are in a much better place since
+  our last changes, but Malicious Intent and Animosity were underperforming so
+  we're giving them some buffs.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="nazeebo">Nazeebo</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Ravenous Spirit [R2]</strong>
+<ul>
+<li>Damage increased from 108 to 115.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Yep.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="orphea">Orphea</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Growing Nightmare [E]</strong>
+<ul>
+<li>Additional functionality: Increase the damage of Dread's explosion by 25%.</li>
+<li>Now shows Crit kickers when hitting 2 or more enemy Heroes.</li>
+</ul></li>
+<li><strong>Ancestral Strength [Trait]</strong>
+<ul>
+<li>No longer grants additional Chaos when hitting Stunned, Rooted, Silenced, or Slowed enemy Heroes.</li>
+<li>Additional functionality: Enemy Heroes who are hit with Overflowing Chaos are Slowed by 20% for 2.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Fright [E]</strong>
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li><strong>New talent: Chaotic Assault [Trait]</strong>
+<ul>
+<li>Basic attacks against enemy Heroes while having 3 stacks of Chaos deal an additional 50% bonus damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Lurking terror [Active]</strong>
+<ul>
+<li>Additional functionality: If Chomp is cast in this way, then it Slows enemy Heroes hit by 70% for 1 second.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're trying to solve a few issues with Orphea's
+  current talent tree. Firstly, we're getting rid of the necessary synergy
+  between Ancestral Strength and Fright, opting to instead bake a more reliable
+  way to Slow enemies into Ancestral Strength. We're also buffing Growing
+  Nightmare so that it's the premier E talent in an E build, as well as giving
+  Lurking Terror some love. Ideally, Lurking Terror can now be used as a more
+  unique way to set up Q and W hits on enemies who are far away from Orphea,
+  particularly when combined with Insatiable for quick double W combos.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="probius">Probius</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Particle Accelerator [Q]</strong>
+<ul>
+<li>Maximum bonus damage for enemies hit reduced from 50% to 40%.</li>
+<li>Additional functionality: Reduce the cooldown of Disruption Pulse by .5 seconds, plus an additional .5 seconds whenever Warp Rift explodes.</li>
+</ul></li>
+<li><strong>Tower Defense [E]</strong>
+<ul>
+<li>New functionality: Reduce the cooldown of Photon Cannon by 4 seconds whenever Probius damages an enemy Hero with Disruption Pulse or Warp Rift.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Repulsor [W]</strong>
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li><strong>Interference [W]</strong>
+<ul>
+<li>Additional functionality: Enemies that are hit by Warp Rift's explosion are knocked away from its center.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We haven't done many functionality changes to
+  Probius's talents since his release, so we're now taking a look at places that
+  could use some design love. We're targeting Tower Defense and Particle
+  Accelerator as talents that should feel more prominent in their respective
+  builds, as well as removing Repulsor and baking its functionality into
+  Interference, as it wasn't enough of a stand-alone talent to be worth picking
+  the majority of the time.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="sgt-hammer">Sgt. Hammer</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Barricade [W]</strong>
+<ul>
+<li>Additional functionality: Reduce the cooldown of Concussive Blast by 3 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Pulse Detonation Core [Q]</strong>
+<ul>
+<li>Additional functionality: Basic Attacks against enemy Heroes grant 5 Mana and reduce the cooldown of Spider Mines by 1 second. Increase this bonus to 1.5 seconds while in Siege Mode.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Both Barricade and Pulse Detonation Core have very
+  low pick rates, so we're giving them some love, which should hopefully
+  incentivize players to try them out more often.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Updated missing tooltips in a certain language.</li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Arthas</strong>
+<ul>
+<li>Updated the Deathlord's advanced tooltip description.</li>
+</ul></li>
+<li><strong>Deathwing</strong>
+<ul>
+<li>Fixed an issue where Lava Burst's targeting guide range indicator could be shorter than its cast range.</li>
+<li>Fixed an issue where Deathwing could be affected by Blinds.</li>
+</ul></li>
+<li><strong>Samuro</strong>
+<ul>
+<li>Fixed an issue where Casting Image Transmission while selecting an Illusion, could place the ability on the wrong cooldown with Illusion Master.</li>
+<li>Phantom Pain's bonus damage no longer affects non-Heroic targets.</li>
+<li>Updated a few tooltip descriptions.</li>
+</ul></li>
+<li><strong>Whitemane</strong>
+<ul>
+<li>Fixed an issue where Saintly Greatstaff could be doubling Zeal healing from basic attacks.</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+]]></content>
+  </entry>
   <entry>
     <title type="text">2019-12-17 Hotfix Patch</title>
     <published>2019-12-18T01:12:00.000Z</published>
@@ -7639,376 +8509,6 @@ fixes! Read on for details.</p>
 <ul>
 <li>Impaler Mercenary Basic attack damage has been increased from 50 to 65</li>
 </ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-06-18 Patch Notes</title>
-    <published>2019-06-18T17:05:00.000Z</published>
-    <updated>2019-06-18T17:05:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-june-18-2019">Heroes of the Storm Live Patch Notes - June 18, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23013882" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23013882" target="_blank">Official Patch Notes</a> <small>v 2.46.0</small></div>
-
-<p>Our next Heroes of the Storm patch is live and brings several bug fixes, a new
-event, new bundles, skins and mounts, along with a Chen rework and more! Read
-on for more information.</p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p>Many seasonal items have made their way back into the collection and will be
-available for crafting and in Loot Chests for a limited time!</p>
-
-<p><strong>New Bundles (Limited Time Only!)</strong></p>
-
-<ul>
-<li>MechasStorm II Bundle</li>
-<li>Mecha Yrel Skin Pack</li>
-<li>Mecha Valla Skin Pack</li>
-<li>Xenotech Malthael Skin Pack</li>
-<li>Seraph Wing Bundle</li>
-</ul>
-
-<p><strong>New Skins (Limited Time Only!)</strong></p>
-
-<ul>
-<li><strong>Mecha Yrel</strong>
-<ul>
-<li>Prototype Mecha Yrel</li>
-<li>Master Mecha Yrel</li>
-<li>Lunar Mecha Yrel</li>
-<li>Carbon Fiber Mecha Yrel</li>
-</ul></li>
-<li><strong>Mecha Valla</strong>
-<ul>
-<li>​Prototype Mecha Valla </li>
-<li>Master Mecha Valla</li>
-<li>Solar Mecha Valla</li>
-<li>Alloy Mecha Valla</li>
-</ul></li>
-<li><strong>Xenotech Malthael</strong>
-<ul>
-<li>Apex Xenotech Malthael</li>
-<li>Twilight Xenotech Malthael</li>
-<li>Umbral Xenotech Malthael</li>
-<li>Gamma Xenotech Malthael</li>
-</ul></li>
-<li><strong>Hunter Mecha Dehaka</strong></li>
-<li><strong>Galactic Xenotech Abathur</strong></li>
-<li><strong>Maritime Dropkick Kharazim</strong></li>
-</ul>
-
-<p><strong>New Mounts (Limited Time Only!)</strong></p>
-
-<ul>
-<li><strong>Seraph Wing</strong>
-<ul>
-<li>Holy Seraph Wing</li>
-<li>Fierce Seraph Wing</li>
-<li>Eternal Seraph Wing</li>
-<li>Guardian Seraph Wing</li>
-<li>Prototype Seraph Wing</li>
-</ul></li>
-<li><strong>Fel Razorgrin</strong></li>
-</ul>
-
-<p><strong>New Portraits and Sprays (Limited Time Only!)</strong></p>
-
-<ul>
-<li>Several new sprays and portraits have also been added to the game.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="mechastorm-ii">MechaStorm II</h3>
-
-<p>Xenotech threatens the planet once again. This new invasion is being led by
-Mecha Malthael, sowing havoc and destruction across Neo-Stormwind. Many
-outposts and cities have already felt the wrath of the Mecha Archangel of
-Death.</p>
-
-<p>&nbsp;</p>
-
-<p>A new generation of Heroes arise to defend the innocent. Equipped with cutting
-edge Mecha technology provided by Neo-President Anduin, the young pilots
-prepare for the battles ahead.</p>
-
-<p>&nbsp;</p>
-
-<p>You must stand together alongside Valla and Yrel as members of the MechaStorm
-to help bring Xenotech's Mecha Malthael's advance to a halt. However, you must
-first make sure your equipment is up to the task.</p>
-
-<h3 id="mechastorm-ii-quest-chain">MechaStorm II Quest Chain</h3>
-
-<p>Repair, upgrade and run repeatable combat simulation missions for each part of
-Mecha Tyrael. Join the Neo-Stormwind's mobile Mecha squadron alongside Valla
-and Yrel to help push back the Xenotech invasion being led by Mecha Malthael.</p>
-
-<p>&nbsp;</p>
-
-<p>Earn Mecha-themed sprays, portraits and loot boxes while working to unlock
-Tyrael the Hero as well as the unique Perfect Mecha Tyrael skin.</p>
-
-<h3 id="mechastorm-ii-loot-chests">MechaStorm II Loot Chests</h3>
-
-<p>From June 17th to August 5th, your main goal will be working to thwart the
-Xenotech invasion. During this time all Loot Chests earned or bought with Gold
-will be Mechastorm II Loot Chests (excluding Hero-specific ones). These Loot
-Chests guarantee at least one item from either MechaStorm II or previous
-years' Summer Events.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Note:</strong> Loot Chests earned prior to the start of this event will not become MechaStorm II Loot Chests.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>UPDATE:</strong> The Ranked Season naming convention has been changed. We are changing the naming convention to be a numbers and year string instead. </p>
-
-<p>Examples:</p>
-
-<ul>
-<li>For the 1st season ending in 2019 the string would be "2019 Season 1"</li>
-<li>Storm League Preseason would be "2019 Season 2"</li>
-<li>Storm League initial season would be "2019 Season 3"</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bruiser">Bruiser</h3>
-
-<h4 id="chen">Chen</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Keg Smash [W]</strong>
-<ul>
-<li>Brew cost increased from 20 to 30</li>
-<li><strong>New functionality:</strong> Smash Chen's keg, dealing damage, drenching affected enemies in Brew for 3 seconds, and Slowing them by 10% for 1.5 seconds. After 1.5 seconds, the Slow is increased to 40% for 1.5 seconds. After being used, this ability becomes Breath of Fire.</li>
-</ul></li>
-<li><strong>Breath of Fire [E]</strong>
-<ul>
-<li>This ability has been moved to the W button, and is available after Keg Smash has been used</li>
-<li>Cooldown reduced from 5 seconds to 1.5 seconds</li>
-<li>Impact damage reduced from 96 to 85</li>
-<li>Periodic damage increased from 32 to 55</li>
-<li>Brew cost reduced from 30 to 10</li>
-<li><strong>Adjusted functionality:</strong> Using Breath of Fire on Brew-soaked enemy causes them to be Ignited, dealing damage over 3 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash. After being used or after 6 seconds, this ability becomes Keg Smash</li>
-</ul></li>
-<li><strong>New Ability: Stagger [E]</strong>
-<ul>
-<li>Damage taken over the next 3 seconds is prevented. Once this effect ends, Chen receives 75% of the damage taken over 5 seconds. 18-second CD</li>
-</ul></li>
-<li><strong>Fortifying Brew [Trait]</strong>
-<ul>
-<li>No longer grants 25 Brew instantly</li>
-<li>Brew regeneration increased from 30 to 50 per second</li>
-<li>Cooldown increased from 5 to 7 seconds</li>
-<li>Channel time reduced from 5 to 4 seconds</li>
-<li>Shield amount decreased from 196 to 180 per second</li>
-<li>This reduces the total shields for fully drinking from 588 to 540</li>
-<li>Shield duration increased from 2 to 4 seconds</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Stormstout Secret Recipe [Passive]</strong>
-<ul>
-<li>Moved from Level 20</li>
-<li>Healing increased from 1.5% to 2% of Chen's maximum health</li>
-</ul></li>
-<li><strong>New Talent: Eye of the Tiger [Passive]</strong>
-<ul>
-<li>Basic Attacks against Brew-soaked enemy Heroes deal 50% more damage and heal Chen for 50% of the damage done</li>
-</ul></li>
-<li><strong>Freshest Ingredients [Trait]</strong>
-<ul>
-<li><strong>Adjusted functionality - Quest:</strong> Increase Regeneration Globe Healing duration by 100%. Reward: After collecting 15 Regeneration Globes, 50% of the Shield from Fortifying Brew persists indefinitely after drinking</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Keg Toss [W]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>Withering Flames [W]</strong>
-<ul>
-<li>Moved from Level 13</li>
-<li>Duration increased from 3 to 4 seconds</li>
-</ul></li>
-<li><strong>Accumulating Flame [W]</strong>
-<ul>
-<li>Moved from Level 1</li>
-<li><strong>New functionality:</strong> Increase Ignited damage by 25% and Basic Attacks against enemy Heroes who are Ignited increase its duration by .75 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Bolder Flavor [Trait]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>Elusive Brawler [Active]</strong>
-<ul>
-<li>Moved from Level 1</li>
-<li>Additional functionality: While active, also grants Chen 30% Movement Speed</li>
-</ul></li>
-<li><strong>New Talent: Gift of the Ox [E]</strong>
-<ul>
-<li>Increase Stagger's duration by .5 seconds, and reduce the amount of damage taken over time to 60% of damage taken</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Wandering Keg [R1]</strong>
-<ul>
-<li>Wandering Keg's Movement Speed bonus no longer stacks with other Movement Speed bonuses.</li>
-<li>Movement speed bonus increased from 60% to 70% </li>
-<li>Knockback duration increased by ~28%</li>
-<li>Knockback speed increased by ~53%</li>
-</ul></li>
-<li><strong>Storm Earth Fire [R2]</strong>
-<ul>
-<li>Spirit Health reduced from 75% of Chen's Health to 70%</li>
-<li>Each ability can only be cast once. The final ability that is cast is empowered.</li>
-<li><strong>Storm [Q]</strong>
-<ul>
-<li><strong>New functionality:</strong> The spirits gain a shield for 400 over 3 seconds. If this is the final ability cast, the shield amount is increased to 750 with no limited duration, and the duration of Storm Earth Fire is increased by 5 seconds.</li>
-</ul></li>
-<li><strong>Earth [W]</strong>
-<ul>
-<li><strong>New functionality:</strong> Fire and Earth leap to the target location, dealing 32 damage and slowing enemies in a large area by 70% for 1.5 seconds. If this is the final ability cast, increase the damage dealt by 300% and the leap instead roots enemy Heroes hit for 1.75 seconds.</li>
-<li>Earth Ability range increased from 7 to 9</li>
-<li>Earth Unit basic attack Slow reduced from 2 seconds to 1.75 seconds</li>
-<li>Earth Unit attack period increased from 2 to 1.5</li>
-</ul></li>
-<li><strong>Fire [E]</strong>
-<ul>
-<li><strong>New functionality:</strong> Increase the attack speed and attack damage of the spirits by 50% for 5 seconds. If this is the final ability cast, increase the attack speed and attack damage bonus to 75% and the spirits gain 50% movement speed for its duration</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Ring of Fire [W]</strong>
-<ul>
-<li>Moved from Level 4</li>
-<li>Adjusted functionality: After Igniting an enemy, burst into flames, dealing damage to nearby enemies</li>
-<li>Duration increased from 3 to 5 seconds</li>
-<li>Damage increased from 52 to 60</li>
-</ul></li>
-<li><strong>Enough to Share [Trait]</strong>
-<ul>
-<li>Moved from Level 16</li>
-<li>Additional functionality:Duration increased from 2 to 4 seconds</li>
-<li>Allied Shield amount increased from 27 to 70</li>
-<li>Additional functionality: Now also instantly Shields Chen for 180</li>
-</ul></li>
-<li><strong>Pressure Point [Q]</strong>
-<ul>
-<li><strong>Adjusted functionality:</strong> Flying Kick Slows the target enemy for 35% for 1 second, or by 70% if Chen has Shields from Fortifying Brew</li>
-</ul></li>
-<li><strong>A Touch of Honey [W]</strong>
-<ul>
-<li>New functionality: Increase the Slow from Keg Smash by 10% and its duration by .5 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Another Round [W]</strong>
-<ul>
-<li>Removed</li>
-</ul></li>
-<li><strong>New Talent: Celerity [E]</strong>
-<ul>
-<li>Basic Attacks against Slowed, Rooted, or Stunned enemy Heroes reduce the cooldown of Stagger by 1.5 seconds and grant Chen 15 Armor for 3 seconds</li>
-</ul></li>
-<li><strong>New Talent: Combo Strikes [Trait]</strong>
-<ul>
-<li>Every 3rd Basic Attack against the same target deals 75% bonus damage. While Chen has Shields from Fortifying Brew and for 2 seconds after, he gains 50% Attack Speed</li>
-</ul></li>
-<li><strong>Flying Leap [Q]</strong>
-<ul>
-<li>Additional Functionality: Reduce the cooldown of Flying Leap by .5 seconds each time an enemy Hero takes damage from being Ignited</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Purifying Brew [Trait]</strong>
-<ul>
-<li>Moved from Level 7</li>
-<li>New functionality: Casting Fortifying Brew grants Chen Unstoppable for 1.5 seconds</li>
-</ul></li>
-<li><strong>New Talent: Energizing Brew [Trait]</strong>
-<ul>
-<li>If Chen fully completes his cast of Fortifying Brew, then he gains 20% maximum Health and 20% increased damage for 25 seconds</li>
-</ul></li>
-<li><strong>Untapped Potential [R1]</strong>
-<ul>
-<li>Armor bonus increased from 60 to 75</li>
-<li>Armor bonus now lasts for 3 seconds after Wandering Keg expires</li>
-<li>Movement Speed increased from 100% to 125%</li>
-</ul></li>
-<li><strong>Elemental Conduit [R2]</strong>
-<ul>
-<li>New functionality: Increase the spirits' Health to 100% of Chen's maximum Health and all of their abilities are empowered</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> The new Chen has finally arrived! We had a blast tinkering with him, and look forward to seeing him unleashed to his full potential in your hands. When taking a look at how to best change him, we primarily focused on adding more opportunities for Chen to make plays and for his opponents to interact with him. Some of his power has been taken out of Fortifying Brew and put into his new ability, Stagger, as well as into his talents. While he may take a bit of time to master, proper management of Chen's cooldowns should result in a formidable hero that will make a great addition to any team.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><strong>FIXED:</strong> Tassadar displays the 'Support' role icon, and is not selected as a valid healer pick when both sides are given a Healer in Shuffle Pick.</li>
-<li><strong>FIXED:</strong> Mercenary Camp captures will show Score Credit Tracking to always match the amount of experience that is being awarded. </li>
-<li><strong>FIXED:</strong> Minions on Tomb of the Spider Queen no longer gain an extra minute of scaling at the start of the game.</li>
-<li><strong>FIXED:</strong> Players will get credit for capturing a Mercenary Camp if you are within an extra 5 radius of the capture point (and on the same team)</li>
-<li><strong>FIXED:</strong> TargetUnit Abilities that can be placed on allies no longer appear invisible to enemy Heroes hit by their area.</li>
-<li><strong>FIXED:</strong> Respec on Try Me Mode map now respawns the player Hero to properly reset all Talents and Quests that Hero had chosen.</li>
-<li><strong>FIXED:</strong> Mecha Valla plays ability sounds that were missing.</li>
-<li><strong>FIXED:</strong> Sledgehammer no longer grants additional Stormbolt Quest stacks on non-Heroic targets.</li>
-</ul>
-
-<p><strong>Heroes, Abilities, &amp; Talents</strong></p>
-
-<ul>
-<li><strong>Jaina:</strong> Jaina's Water Elemental mimic damage from Wintermute now correctly reflects the tooltip and Balance Update. 50% of Jaina's Basic Frostbolt and Cone of Cold damage is mimicked by the Water Elemental.</li>
-<li><strong>D.Va:</strong> D.Va's Mech is no longer immune to friendly abilities.</li>
-<li><strong>Chromie:</strong> Here and There no longer requires Chromie to have vision of her target location, or the clone she is swapping with. </li>
-<li><strong>Sylvanas:</strong> Using any attack on any previously enemy footmen who have been affected by Possession and turned allied, will still receive friendly fire damage from attacks.</li>
-<li><strong>Raynor:</strong> Raynor's Hyperion Splat now properly matches both its warning splat and its targeting guide.</li>
-<li><strong>Anub'arak:</strong> Cocoon is no longer disjointed by teleports. Cocoon will now redirect, similarly to pyroblast, and fall off if the teleport is far enough away.</li>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
