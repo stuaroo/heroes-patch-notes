@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2020-01-23T01:50:00.000Z</updated>
+  <updated>2020-02-13T01:45:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-02-12 Balance Update v 2.49.3</title>
+    <published>2020-02-13T01:45:00.000Z</published>
+    <updated>2020-02-13T01:45:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-02-12-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-02-12-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/abathur.html#patch2020-02-12" target="_blank">Abathur</a>, 
+          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2020-02-12" target="_blank">Auriel</a>, 
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2020-02-12" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/cho.html#patch2020-02-12" target="_blank">Cho</a>, 
+          <a href="https://heroespatchnotes.com/hero/deathwing.html#patch2020-02-12" target="_blank">Deathwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2020-02-12" target="_blank">Fenix</a>, 
+          <a href="https://heroespatchnotes.com/hero/gall.html#patch2020-02-12" target="_blank">Gall</a>, 
+          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2020-02-12" target="_blank">Jaina</a>, 
+          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2020-02-12" target="_blank">Maiev</a>, 
+          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2020-02-12" target="_blank">Malfurion</a>, 
+          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2020-02-12" target="_blank">Mal'Ganis</a>, 
+          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2020-02-12" target="_blank">Malthael</a>, 
+          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2020-02-12" target="_blank">Muradin</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2020-02-12" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2020-02-12" target="_blank">Sgt. Hammer</a>, 
+          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2020-02-12" target="_blank">Stitches</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2020-02-12" target="_blank">Tyrael</a>, 
+          <a href="https://heroespatchnotes.com/hero/uther.html#patch2020-02-12" target="_blank">Uther</a>, 
+          <a href="https://heroespatchnotes.com/hero/zarya.html#patch2020-02-12" target="_blank">Zarya</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2020-01-22 Balance Update v 2.49.2</title>
     <published>2020-01-23T01:50:00.000Z</published>
@@ -289,24 +322,6 @@
           <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2019-07-10" target="_blank">Zeratul</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-06-18 Patch Notes v 2.46.0</title>
-    <published>2019-06-18T17:05:00.000Z</published>
-    <updated>2019-06-18T17:05:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-06-18-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/chen.html#patch2019-06-18" target="_blank">Chen</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/chen.png" href="https://heroespatchnotes.com/hero/chen.html#patch2019-06-18" alt="Chen Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
