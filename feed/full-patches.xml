@@ -696,16 +696,16 @@ for details.</p>
 <li>Adjusted functionality: Inhibiting Energy's Slow can now spread from itself.</li>
 <li>Slow duration reduced from 3 to 2.5 seconds.</li>
 </ul></li>
-<li><strong>Emergency Protocal [Trait]</strong>
+<li><strong>Emergency Protocol [Trait]</strong>
 <ul>
-<li>New functionality: While Fenix has shields from Shield Capacitor, he gains 10% Movement Speed. This bonus is increased to 15% when Fenix loses shields from Shield Capacitor.</li>
+<li>New functionality: While Fenix has Shields from Shield Capacitor, he gains 10% Movement Speed. This bonus is increased to 15% when Fenix loses Shields from Shield Capacitor.</li>
 </ul></li>
 </ul></li>
 <li><strong>Level 13</strong>
 <ul>
 <li><strong>Rapid Recharge [Trait]</strong>
 <ul>
-<li>Additional functionality: Reduce the period before Shield Capacitor begins regenerating shields from 5 to 3 seconds.</li>
+<li>Additional functionality: Reduce the period before Shield Capacitor begins regenerating Shields from 5 to 3 seconds.</li>
 </ul></li>
 </ul></li>
 </ul>
