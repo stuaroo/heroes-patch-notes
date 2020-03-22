@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2020-03-12T00:49:00.000Z</updated>
+  <updated>2020-03-22T09:45:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-03-17 Hotfix Patch</title>
+    <published>2020-03-22T09:45:00.000Z</published>
+    <updated>2020-03-22T09:45:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-03-17-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-03-17-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-march-17-2020">Heroes of the Storm Hotfix Patch Notes – March 17, 2020</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/" target="_blank">Official Patch Notes</a> <small>v 2.49.4</small></div>
+
+<p>We've released a hotfix today with updates below.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li>Samuro
+<ul>
+<li><span class="text-warning">Fixed an issue where Phantom Pain talent could grant permanent bonus damage to Critical Strike</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/fhx844/samuros_7lv_talent_phantom_pain_grants_additional/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+<li>Xul
+<ul>
+<li><span class="text-warning">Fixed an issue where Skeletons spawned from Spectral Scythe and Jailors talent could explode twice when they die</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/fhqhq9/xul_is_strong_but_also_bugged/fkfz2u1/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Skeletons spawned from Spectral Scythe and Jailors no longer count towards the Raise Skeleton maximum</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/fhqhq9/xul_is_strong_but_also_bugged/fkfz2u1/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+<li>Mal'Ganis
+<ul>
+<li><span class="text-warning">Fixed an issue where a stack of Winged Guard was not removed after taking Basic Attack damage from an enemy Hero</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/e4c5zh/malganis_infinite_winged_guard_should_probably/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+<li>Azmodan
+<ul>
+<li><span class="text-warning">Fixed an issue where Globe of Annihilation would travel slower when using the Azmodunk skins</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/eusb3m/azmodunks_q_is_slower_than_regular_one/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong>A big thank you to <a href="https://www.reddit.com/r/heroesofthestorm/comments/fkclgy/100_mb_patch/fkrz9t4/">u/Spazzo965 for providing details</a> to this hotfix patch!</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2020-03-11 Balance Update</title>
     <published>2020-03-12T00:49:00.000Z</published>
@@ -8381,356 +8428,6 @@ bugs. Read on for details.</p>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-08-06 Patch Notes</title>
-    <published>2019-08-06T16:45:00.000Z</published>
-    <updated>2019-08-06T16:45:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-08-06-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-08-06-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-august-6-2019">Heroes of the Storm Live Patch Notes - August 6, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23066828" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23066828" target="_blank">Official Patch Notes</a> <small>v 2.47.0</small></div>
-
-<p>The next Heroes of the Storm patch has arrived! The update brings a new Hero,
-Qhira the Iresian Bounty Hunter, alongside bug fixes, new bundles, new skins,
-and much more! Dive on in for more information.</p>
-
-<p><span class="text-warning"><strong>NOTE: Orange text indicates a change between PTR and Live notes.</strong></span></p>
-
-<hr />
-
-<h2 id="general">General</h2>
-
-<p><strong>On-Fire System</strong></p>
-
-<ul>
-<li>Hero name-plates will now display that a Hero is On-Fire when they are performing well during a match</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h2 id="new-hero-qhira-iresian-bounty-hunter">New Hero: Qhira, Iresian Bounty Hunter</h2>
-
-<p>A sworn knight and holder of a singularity shard, Qhira's only desire is to
-seek out others who may have escaped the destruction of her doomed home realm,
-Iresia. While she searches, she gets by as a bounty hunter--- a job she
-loathes, despite her exceptional skill.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>Grappling Hook [D]</strong>
-<ul>
-<li>Qhira fires a Grappling Hook that pulls her to any terrain it contacts. If an enemy Hero is hit, they take 36 damage and Qhira launches at them, dealing an additional 112 damage on impact. Can be used while Revolving Sweep is active.
-<ul>
-<li>Cooldown: 25 Seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Carnage [Q]</strong>
-<ul>
-<li>Unleash your sword in a targeted direction, continuously dealing 31 damage to enemies caught in its path.
-<ul>
-<li>Cost: 40 Mana</li>
-<li>Cooldown: 6 seconds</li>
-</ul></li>
-</ul></li>
-<li>​​<strong>Blood Rage [W]</strong>
-<ul>
-<li>​Passive: Basic Attack and Ability damage cause enemies to bleed for 46 damage over 4 seconds. Stacks 5 times.</li>
-<li>Active: <em>Qhira</em> deals 33 damage and heals for 88 health per enemy Hero affected. Damage and healing is increased by 50% per each additional stack on that Hero.
-<ul>
-<li>Cost: 35 Mana</li>
-<li>Cooldown: 8 seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Revolving Sweep [E]</strong>
-<ul>
-<li>​Attach your sword to the first enemy Hero hit, Stunning them for .25 seconds. Once attached, Qhira becomes immune to all effects, swinging around the target for 2.75 seconds, and dealing 109 damage to any enemies between you and the target. Reactivate to send you to the target's location, knocking them back, dealing 112 damage and Stunning them for .75 seconds.
-<ul>
-<li>Cost: 70 Mana</li>
-<li>Cooldown: 16 Seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Unrelenting Strikes [R1]</strong>
-<ul>
-<li>Deal 46 damage to all nearby enemies every .5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 86 damage to all nearby enemy Heroes and Stun them for .75 seconds.
-<ul>
-<li>Cost: 60 Mana</li>
-<li>Cooldown: 75 Seconds</li>
-</ul></li>
-</ul></li>
-<li><strong>Final Strike [R2]</strong>
-<ul>
-<li>After 1 second, strike your sword in a line to deal 432 damage to all enemies in its path. This damage is increased by 25% to any enemy below 50% Health.
-<ul>
-<li>Cost: 45 Mana</li>
-<li>Cooldown: 40 Seconds</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p>​<a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h2 id="storm-league">Storm League</h2>
-
-<h3 id="storm-league-season-1-2019">Storm League - Season 1, 2019</h3>
-
-<ul>
-<li>Ranked Points are now directly mapped to a player's Storm League MMR.
-<ul>
-<li>Rank is no longer considered by the matchmaker.</li>
-<li>Leaving a Ranked Match Lobby or Game results in a 500 Rank Point penalty which can be slowly regained in future matches.</li>
-</ul></li>
-<li>Placement Matches have been reduced from 10 to 3.</li>
-<li>Promotion and Demotion games have been removed and players will seamlessly transition through Leagues and Divisions.
-<ul>
-<li>The MMR range has been rebuilt and remapped to handle this.</li>
-</ul></li>
-<li>A Team Leader (banning player in Ranked Draft) is selected on the highest Rank for placed players, or MMR for unplaced ones. In mixed teams, placed players have priority.</li>
-<li>Rank Decay has been adjusted
-<ul>
-<li>Only players that are Diamond 5 or higher and that have finished their Placement Matches are eligible for decay</li>
-<li>If a player's decay timer is less than 3 days, it resets to 3 days upon playing a Storm League game. If the timer is at or above 3 days, players will gain an additional grace day for each game played (up to a maximum of 30).</li>
-</ul></li>
-<li>A Ranked Seasonal Questline is now available to players
-<ul>
-<li>This Questline will be available each Season and must be completed in order to be eligible for both the Ranked Seasonal Rewards and the Grand Master Leaderboards.</li>
-</ul></li>
-</ul>
-
-<p><span class="text-warning"><strong>[NEW] The Storm League pool is now:</strong></span></p>
-
-<ul>
-<li><span class="text-warning">Alterac Pass</span></li>
-<li><span class="text-warning">Battlefield of Eternity</span></li>
-<li><span class="text-warning">Braxis Holdout</span></li>
-<li><span class="text-warning">Cursed Hollow</span></li>
-<li><span class="text-warning">Dragon Shire</span></li>
-<li><span class="text-warning">Hanamura Temple</span></li>
-<li><span class="text-warning">Infernal Shrines</span></li>
-<li><span class="text-warning">Sky Temple</span></li>
-<li><span class="text-warning">Tomb of the Spider Queen</span></li>
-<li><span class="text-warning">Towers of Doom</span></li>
-<li><span class="text-warning">Volskaya Foundry</span></li>
-</ul>
-
-<p><span class="text-warning"><strong>The Quick Match pool is now:</strong></span></p>
-
-<ul>
-<li><span class="text-warning">All maps that are available in Storm League</span></li>
-<li><span class="text-warning">Blackheart's Bay</span></li>
-<li><span class="text-warning">Garden of Terror</span></li>
-<li><span class="text-warning">Warhead Junction</span></li>
-</ul>
-
-<blockquote>
-  <p><span class="text-warning"><em><strong>[NEW] Dev Comment:</strong></em> Due to player feedback about their favorite
-  Battleground being removed or least favorite added, and also us questioning
-  the value that we were gaining by having a Battleground rotation, we've
-  decided to get our Storm League pool to 11 Battlegrounds and probably leave it
-  there for the immediate future. The original idea behind a rotation was to
-  facilitate a different metagame and make the game feel fresh and different,
-  but we found that this wasn't really panning out this way and in fact created
-  more confusion and volatility than enjoyment. We still think that altering the
-  game from season to season is important to keep things feeling fresh, and
-  we'll be exploring ways to do this beyond our regular Hero updates and new
-  Heroes in the future.</span></p>
-</blockquote>
-
-<p>​<a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h2 id="map-updates">Map Updates</h2>
-
-<h3 id="braxis-holdout">Braxis Holdout</h3>
-
-<ul>
-<li>Functionality of the Braxis control-point is now consistent with that of Dragon Shire</li>
-<li>Zerg Waves
-<ul>
-<li>Make-up and stats of the Zerg Wave units have been adjusted</li>
-<li>Zergling
-<ul>
-<li>Health reduced from 750 to 450</li>
-<li>Health scaling over time increased</li>
-<li>Damage increased from 5 to 10</li>
-<li>Damage scaling over time decreased</li>
-<li>No longer has a 10% damage penalty to Structures</li>
-</ul></li>
-<li>Baneling
-<ul>
-<li>Health reduced from 500 to 450</li>
-<li>Health scaling over time increased</li>
-<li>Damage increased from 55 to 150</li>
-<li>Damage scaling over time decreased</li>
-<li>Now have a 50% damage bonus to Heroes</li>
-<li>No longer have a 50% damage bonus to Structures</li>
-<li>Explosion radius increased from 2.75 to 3</li>
-<li>Now prefers attacking Structures</li>
-</ul></li>
-<li>Hydralisk
-<ul>
-<li>Health reduced from 1500 to 850</li>
-<li>Health scaling over time increased</li>
-<li>Damage increased from 25 to 70</li>
-<li>Damage scaling over time decreased</li>
-<li>No longer have a 10% damage penalty to Structures</li>
-</ul></li>
-<li>Guardian
-<ul>
-<li>Health reduced from 2250 to 1000</li>
-<li>Health scaling over time increased</li>
-<li>Damage increased from 80 to 110</li>
-<li>Damage scaling over time decreased</li>
-<li>No longer have a 25% damage penalty to Structures</li>
-</ul></li>
-<li>Ultralisk
-<ul>
-<li>Health reduced from 6000 to 4700</li>
-<li>Health scaling over time increased</li>
-<li>Damage increased from 50 to 100</li>
-<li>Damage scaling over time decreased</li>
-<li>No longer have a 10% damage penalty to Structures</li>
-</ul></li>
-<li>While attacking, Guardian and Ultralisks now spawn Drop Pods with 3 Zerglings and 1 Hydralisk (can occur once every 13 seconds)​</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We've made some changes to Braxis to even out the
-  power curve of Zerg waves and introduce what we've found is a fun new mechanic
-  in Drop Pods. By causing reinforcements of Zerg to periodically appear via
-  Drop Pods, it makes some effects like Planet Cracker and Lava Wave a little
-  less powerful against them. It also provides a stronger focus for single
-  target characters, as removing Ultralisks and Guardians earlier will cause
-  fewer Drop Pods to spawn, thereby indirectly helping against the massive zerg
-  onslaught. The tuning changes get the zerg in line with most of our other
-  Mercenaries and Minions, which mostly mirror a Hero's power level over the
-  course of a game (though Battleground events tend to get more deadly in the
-  late game to force a conclusion to matches). Overall, we think you'll enjoy
-  these small changes to Braxis. It won't greatly change the way the
-  Battleground feels but introduce a little freshness to the map while helping
-  balance a few longstanding issues with over the top Hero imbalances on the
-  Battleground.</p>
-</blockquote>
-
-<p>​<a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h4 id="qhira">Qhira</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><span class="text-warning">Siphoning Link (E)</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/cqal9d/heroes_deep_delve_qhiras_data" target="_blank">Undocumented <i class="fa fa-external-link"></i></a>
-<ul>
-<li><span class="text-warning">Health regeneration stacks up to 5 times</span></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h2 id="collection">Collection</h2>
-
-<p><strong>New Bundles (Limited Time Only!)</strong></p>
-
-<ul>
-<li>Qhira Heroic Bundle</li>
-<li>Warchrome Commanders Bundle</li>
-<li>Deathranger Nova Bundle</li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li>Fearless Qhira</li>
-<li>Jade Qhira</li>
-<li><strong>Scrapper Queen Qhira</strong>
-<ul>
-<li>Berserk Scrapper Queen Qhira</li>
-<li>Executor Scrapper Queen Qhira</li>
-<li>Desert Scrapper Queen Qhira</li>
-<li>Vanquisher Scrapper Queen Qhira</li>
-</ul></li>
-<li><strong>Deathranger Nova (Limited Time Only!)</strong>
-<ul>
-<li>Mirage Deathranger Nova</li>
-<li>Rugged Deathranger Nova</li>
-<li>Dusk Deathranger Nova</li>
-<li>Ember Deathranger Nova</li>
-</ul></li>
-<li>Daredevil Roadraider Raynor</li>
-<li>Molten Diesel Speaker Nazeebo</li>
-</ul>
-
-<p><strong>New Mounts</strong></p>
-
-<ul>
-<li>Daredevil Helldorado</li>
-<li>Scavenger's Ripper</li>
-<li>Outrider's Ripper</li>
-<li>Soldier's Ripper</li>
-</ul>
-
-<p><strong>New Announcer</strong></p>
-
-<ul>
-<li>Qhira Announcer</li>
-</ul>
-
-<p><strong>New Content</strong></p>
-
-<ul>
-<li>Several emojis, portraits, banners and other items have been added to the collection!</li>
-</ul>
-
-<p>​<a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h2 id="bug-fixes">Bug Fixes</h2>
-
-<ul>
-<li><span class="text-warning"><strong>[NEW]</strong> Interrupting Brightwing's Intensive Winds cast will now set the cooldown to 5 seconds.</span></li>
-<li><span class="text-warning"><strong>[NEW]</strong> Fixed various Movement Speed bugs that had occurred with the increased Movement Speed patch.</span></li>
-<li>Zeratul no longer auto-acquires targets that walk within range while Cloaked.</li>
-<li>Taking the Snowstorm talent on Jaina in the middle of a Blizzard cast no longer changes the damage value for the rest of the game.</li>
-<li>Learning Yrel's Seraphim talent while channeling or disabled no longer leaves it permanently disabled.</li>
-<li>Blinding Wind, Shadow Dagger, Seeker Swarm, Frost Blast, Unstable Compound, and Weak Spot Acquired will no longer apply their effects to Heroes in Time Stop.</li>
-<li>Critical Strike, Oil Spill, Lightning Fury, Ravage, Keg Smash, and Particle Grenade are now affected by cooldown reduction effects.</li>
-<li>Sgt. Hammer's Siege Mode can no longer out-range kill credit for the Salvaging the Stables questline.</li>
-<li>Varian's Banner of Ironforge now correctly displays the plus-Healing UI when augmented with Glory to the Alliance.</li>
-<li>Uther can now /dance and /taunt during Eternal Vanguard.</li>
-</ul>
-
-<p>​<a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
 ]]></content>
   </entry>
 </feed>
