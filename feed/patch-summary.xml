@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2020-03-12T00:49:00.000Z</updated>
+  <updated>2020-04-14T19:35:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-04-14 Patch Notes v 2.50.0</title>
+    <published>2020-04-14T19:35:00.000Z</published>
+    <updated>2020-04-14T19:35:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-04-14-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-04-14-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2020-04-14" target="_blank">Tassadar</a>, 
+          <a href="https://heroespatchnotes.com/hero/xul.html#patch2020-04-14" target="_blank">Xul</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/tassadar.png" href="https://heroespatchnotes.com/hero/tassadar.html#patch2020-04-14" alt="Tassadar Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2020-03-11 Balance Update v 2.49.4</title>
     <published>2020-03-12T00:49:00.000Z</published>
@@ -285,32 +304,6 @@
           <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2019-08-28" target="_blank">Tyrande</a>, 
           <a href="https://heroespatchnotes.com/hero/valla.html#patch2019-08-28" target="_blank">Valla</a>, 
           <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2019-08-28" target="_blank">Zeratul</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-08-06 Patch Notes v 2.47.0</title>
-    <published>2019-08-06T16:45:00.000Z</published>
-    <updated>2019-08-06T16:45:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-08-06-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-08-06-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/qhira.png" alt="Qhira" height="60" width="60" /> Qhira</h3>
-      <h4>Play Mode</h4>
-      <ul>
-        <li><p>Storm League: "Ranked Points are now directly mapped to a player's Storm League MMR"</p>
-</li>
-        <li><p>Storm League: placement matches "reduced from 10 to 3"; "Promotion and Demotion games have been removed"</p>
-</li>
-        <li><p>Storm League: "A Ranked Seasonal Questline is now available to players...and must be completed in order to be eligible for both the Ranked Seasonal Rewards and the Grand Master Leaderboards"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/qhira.html#patch2019-08-06" target="_blank">Qhira</a>
         </li>
       </ul>
       ]]></content>

@@ -2,10 +2,557 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2020-04-06T19:55:00.000Z</updated>
+  <updated>2020-04-14T19:35:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-04-14 Patch Notes</title>
+    <published>2020-04-14T19:35:00.000Z</published>
+    <updated>2020-04-14T19:35:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-04-14-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-04-14-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-april-14-2020">Heroes of the Storm Live Patch Notes - April 14, 2020</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23389388" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23389388" target="_blank">Official Patch Notes</a> <small>v 2.50.0</small></div>
+
+<p>Our next Heroes of the Storm patch is live and brings a new Dark Nexus II
+event, new skins and mounts, along with a Tassadar rework and more! Read on
+for more information.</p>
+
+<p><span class="text-warning"><strong>NOTE: Orange text indicates a change between PTR and Live notes.</strong></span></p>
+
+<hr />
+
+<h3 id="nexus-anomaly-a-call-for-help">Nexus Anomaly - A Call For Help</h3>
+
+<p>We've heard feedback over the years that a lot of you would like to feel more
+protected by nearby friendly structures. Currently, Minions, Summons, and non-
+Heroic units can hold a structure's attention for so long that defending
+players feel that they're offered no additional protection when taking refuge
+under their Cannon Towers, Forts, Keeps and Cores. In order to address this
+issue, we will be making the following changes to structures:</p>
+
+<p><strong>Cannon Towers, Forts, Keeps and Cores</strong></p>
+
+<ul>
+<li>A beam is now created from these structures to their targets, making it easier to see what is being attacked at a glance.</li>
+<li>Allied Heroes of the structures who are being attacked by enemy Heroes will cause the structure to focus the offender until the offender is dead or leaves tower range.</li>
+<li>A bright beam indicates that the structure is defending an ally Hero and is focusing on the beam target.</li>
+<li>Structures reset targeting when the Call for Help target becomes invalid.</li>
+<li>Structures reset targeting logic when they recover from being disabled.</li>
+</ul>
+
+<p><strong>Cannon Towers, Forts and Keeps</strong></p>
+
+<ul>
+<li>Damage to Heroes increased by 10%.</li>
+<li>Attacks reduce Hero Armor by up to -40.</li>
+<li>Cannon Tower attacks reduce enemy Hero Armor by 5.</li>
+<li>Forts and Keeps attacks reduce enemy Hero Armor by 10.</li>
+<li>Forts and Keeps no longer slow enemy Heroes.</li>
+</ul>
+
+<p><strong>New Core Abilities</strong></p>
+
+<ul>
+<li>We want fights around the Core to feel like exciting ends to cap off great games, and we feel like we can do more to deliver on that front. To that end, this Seasonal Nexus Anomaly will introduce themed abilities to non-ARAM Battleground Cores: 
+<ul>
+<li><strong>Battlefield of Eternity</strong>
+<ul>
+<li><span class="text-warning"><strong>Every 12 seconds</strong></span>, the Core will spawn 2 volleys of Frozen Orbs that explode, dealing 5% maximum Health as damage and Rooting enemy Heroes hit for 1.5 seconds.</li>
+</ul></li>
+<li><strong>Blackheart's Bay</strong>
+<ul>
+<li>Every 4 seconds, the Core will shoot a cannonball at 2 nearby enemy Heroes, dealing 5% maximum Health as damage, slowing them by 70% for 1.5 seconds, and knocking them back.</li>
+</ul></li>
+<li><strong>Braxis Holdout</strong>
+<ul>
+<li>Every 4 seconds, the Core will shoot 5 missiles at a nearby enemy Hero, dealing 5% maximum Health as damage per missile.</li>
+</ul></li>
+<li><strong>Cursed Hollow</strong>
+<ul>
+<li>Every 3 seconds, the Core will spawn a Curse under a nearby enemy Hero. If they are Cursed, they take 5% maximum Health as damage and their Armor is reduced by 75 for 4 seconds.</li>
+</ul></li>
+<li><strong>Dragonshire</strong>
+<ul>
+<li>Every 6 seconds, the Core will throw 2 boulders at a nearby enemy Hero. Heroes hit are turned to stone, damaged for 5% of their maximum Health, and Stunned for 1.75 seconds.</li>
+</ul></li>
+<li><strong>Garden of Terror</strong>
+<ul>
+<li>Every 5 seconds, the Core shoots a seed under a nearby enemy Hero. When the seed explodes, Heroes inside are Polymorphed for 3 seconds.</li>
+</ul></li>
+<li><strong>Hanamura</strong>
+<ul>
+<li>Every 8 seconds, the Core fires 2 volleys of missiles around it, dealing 5% maximum Health to enemy Heroes and slowing them by 70% for 1.25 seconds.</li>
+</ul></li>
+<li><strong>Infernal Shrines</strong>
+<ul>
+<li><span class="text-warning"><strong>Every 12 seconds</strong></span>, the Core will spawn 2 volleys of Frozen Orbs that explode, dealing 5% maximum Health as damage and Rooting enemy Heroes hit for 1.5 seconds.</li>
+</ul></li>
+<li><strong>Sky Temple</strong>
+<ul>
+<li>Every 23 seconds, the Core will spawn 2 sets of 6 tornadoes which swirl around it, dealing 25 damage to enemy Heroes and knocking them back.</li>
+</ul></li>
+<li><strong>Tomb of the Spider Queen</strong>
+<ul>
+<li>Every 5 seconds, the Core will shoot a Death Wave, dealing 5% maximum Health as damage to enemy Heroes and slowing them by 70% for 1.25 seconds.</li>
+</ul></li>
+<li><strong>Volskaya</strong>
+<ul>
+<li>Every 6 seconds, the Core shoots 3 Rocket Fists at nearby enemy Heroes, dealing 150 damage and knocking them back.</li>
+</ul></li>
+<li><strong>Warhead Junction</strong>
+<ul>
+<li>Every 18 seconds, the Core launches a Nuke at a nearby enemy Hero, dealing 30% maximum health to enemy Heroes hit.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="general">General</h3>
+
+<p><strong>Mastery Rings - Tier 3</strong></p>
+
+<ul>
+<li>Get ready to show off your dedication to your favorite Heroes with the next level of Hero Mastery Rings! These new rings become purchasable once a Hero reaches level 50 and you already own the first and second rings for that Hero.</li>
+</ul>
+
+<p><strong>A.I.</strong></p>
+
+<ul>
+<li>A.I. trees have been refactored in order to reduce conflicts between the tactical and goal systems.</li>
+<li>Agents will attempt to stage and wait for backup around objectives before attempting to contest.</li>
+<li>Disconnected players will have their A.I. return to base and remain there unless they are pinged to follow. 
+<ul>
+<li>Follow behavior is the same for disconnected player A.I. and normal A.I.</li>
+<li>While following, the agent will attempt to fight while remaining close to their follow target, leashing back if they wander too far away.</li>
+<li>While following, the agent will mount or use their Hearthstone if their follow target uses their mount or Hearthstone.</li>
+</ul></li>
+<li>Adjusting A.I. Healing Well goal health threshold from 75% to 60%.</li>
+<li>Bringing an A.I. who is on follow close enough to Doubloon turn-in on Blackheart's Bay, Soul Gem turn-in on Tomb of the Spider Queen, or a healing fountain will cause the A.I. to interact with them appropriately if they are able.</li>
+</ul>
+
+<p><strong>Favorite Talents</strong></p>
+
+<ul>
+<li><strong>Create your favorite talent builds</strong>
+<ul>
+<li>Players can pick their favorite talents on the talent panel from Hero select or draft screen.</li>
+<li>In order to favorite a talent, simply click the talent. Once it's selected, you can click the talent again to unselect it.</li>
+<li>Players can create up to 3 builds per each Hero and can activate one build at a time.</li>
+<li>To switch to a different build, click the build buttons shown on the top of the talent panel.</li>
+<li>If any significant change happens to a talent tier due to a balance patch, the selection for the tier will be reset.</li>
+</ul></li>
+<li><strong>Share your favorite builds</strong>
+<ul>
+<li>You can generate a hyperlink for a talent build by clicking the cog menu next to talent build buttons on the Hero select screen.</li>
+<li>If you paste this link on the chat, it shows as a hyperlink in the chat history.</li>
+<li>If you left click the link, it shows the preview of the talent build.</li>
+<li>By right clicking the link, you can copy the link to your clipboard or directly save it to your Hero's corresponding build slots.</li>
+<li>The format of the talent hyperlink is as follows. [T1231231,Lucio]</li>
+</ul></li>
+<li><strong>In-Game &amp; End of the match screen</strong>
+<ul>
+<li>A favorited talent will display a favorite icon on top of it.</li>
+<li>You can switch the build in the middle of the game based on your strategy.</li>
+<li>For the future tiers, you can adjust your favorites by clicking the talent button in the same way you would do in the Hero select screen.</li>
+<li>All changes made in game are saved.</li>
+<li>After game ends, you can use the cog menu on the talent tab to copy other players' talent builds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Storm League</strong></p>
+
+<ul>
+<li><strong>Matchmaking Changes for GM &amp; Masters</strong>
+<ul>
+<li>Master and Grand Master players are no longer restricted to queuing with only one other player.</li>
+<li>Master and Grand Master players are no longer restricted to queuing with players who are within 5000 ranked points.</li>
+<li>Made some changes to matchmaking rules that should improve the quality of matches for Master and Grand Master players.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We have been actively monitoring matchmaking
+  throughout the season and are going to be making some changes which will help
+  the player experience. Firstly, we found that our party size restrictions for
+  Masters players didn't give the experience that we had envisioned, so we are
+  reverting these changes. The limit for queueing as a party will require
+  players to be within 2 leagues of each other, with Diamond players being able
+  to queue up with Master and Grand Master players. Additionally, we have made
+  some changes to all regions so that players who are Masters and above should
+  find games being made with as many high level players as possible, which
+  should result in better matches.</p>
+</blockquote>
+
+<p><strong>Experience</strong></p>
+
+<ul>
+<li>Floating Combat Text for experience earned from killing blows now has a unique purple color and displays at the position of the killed unit. Floating Combat Text from experience earned from Experience Globes remains unchanged.</li>
+</ul>
+
+<p><strong>Experience Globes</strong></p>
+
+<ul>
+<li>Pickup Radius increased from 1.5 to 1.75.</li>
+<li>Experience Globes that are actively travelling to a Hero will attempt to follow more closely.</li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're making some small improvements to Experience
+  Globes to make them more readable and to improve how they feel to pick up by
+  adding a unique purple text that displays where they are killed. With these
+  changes, players should more clearly see when they gained experience via a
+  killing blow. We also found that sometimes picking up experience globes while
+  mounted could be a bit of a hassle due to the pickup radius of the globes as
+  well as how quickly they travel to players, so we are slightly buffing both of
+  these aspects to make them a little easier to collect in these instances.</p>
+</blockquote>
+
+<p><strong>US Region Selection</strong></p>
+
+<ul>
+<li>After looking at the causes for North American players' longer wait times and instances of not queuing together, we are bundling matchmaking for our US regions together. This will only happen for players if they have good pings to both sites, and our simulations have shown that we can create better games faster this way. If you don't experience this, please let us know!</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p>Many seasonal items will be returning to the collection, and will be available
+for crafting and in Loot Chests for a limited time!</p>
+
+<p><strong>New Bundles (Limited Time Only!)</strong></p>
+
+<ul>
+<li>Fragments of the Dark Nexus Bundle</li>
+<li>Dark Nexus Harbingers Bundle</li>
+<li>Dark Nexus Deathwing Bundle</li>
+<li>Dark Nexus Fenix Bundle</li>
+<li>Dark Nexus Tassadar Bundle</li>
+<li>Dark Nexus Beast Pack</li>
+<li>Caldeum Complex Bundle</li>
+</ul>
+
+<p><strong>New Skins</strong></p>
+
+<ul>
+<li>The following skins will be available for a limited time: 
+<ul>
+<li><strong>Dark Nexus Deathwing</strong>
+<ul>
+<li>Shattered Dark Nexus Deathwing</li>
+<li>Forgotten Dark Nexus Deathwing</li>
+<li>Awakened Dark Nexus Deathwing</li>
+<li>Astral Dark Nexus Deathwing</li>
+</ul></li>
+<li><strong>Dark Nexus Fenix</strong>
+<ul>
+<li>Imperial Dark Nexus Fenix</li>
+<li>Awakened Dark Nexus Fenix</li>
+<li>Eldritch Dark Nexus Fenix</li>
+<li>Astral Dark Nexus Fenix</li>
+</ul></li>
+<li><strong>Dark Nexus Tassadar</strong>
+<ul>
+<li>Forgotten Dark Nexus Tassadar</li>
+<li>Awakened Dark Nexus Tassadar</li>
+<li>Eldritch Dark Nexus Tassadar</li>
+<li>Astral Dark Nexus Tassadar</li>
+</ul></li>
+<li><strong>Dark Nexus Gul'dan</strong>
+<ul>
+<li>Entropic Dark Nexus Gul'dan</li>
+<li>Sadistic Dark Nexus Gul'dan</li>
+</ul></li>
+<li><strong>Dark Nexus Alarak</strong>
+<ul>
+<li>Astral Dark Nexus Alarak</li>
+<li>Awakened Dark Nexus Alarak</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><strong>New Mounts</strong></p>
+
+<ul>
+<li>The following mounts will be available for a limited time: 
+<ul>
+<li><strong>Dark Nexus Beast</strong>
+<ul>
+<li>Shattered Dark Nexus Beast</li>
+<li>Forgotten Dark Nexus Beast</li>
+<li>Wild Dark Nexus Beast</li>
+<li>Awakened Dark Nexus Beast</li>
+<li>Astral Dark Nexus Beast</li>
+</ul></li>
+<li>Astral Dark Nexus Hound</li>
+<li>Awakened Dark Nexus Hound</li>
+<li>Astral Dark Nexus Manta</li>
+<li>Awakened Dark Nexus Manta</li>
+</ul></li>
+</ul>
+
+<p><strong>New Content</strong></p>
+
+<ul>
+<li>Several new portraits, sprays and other items have been added to the collection for a limited time!</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h4 id="tassadar">Tassadar</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Resonance Beam [Trait]</strong>
+<ul>
+<li>Tassadar's Basic Attack is a long range channeled beam that deals 14 damage every .25 seconds and Slows its target for 10%. While channeling, your Basic Attack damage and Mana Regeneration increase by 25% a second, to a maximum of 100% bonus. While fully charged, gain an additional 3 mana per second. This bonus is lost after 6 seconds of not channeling.</li>
+</ul></li>
+<li><strong>Shock Ray [Q]</strong>
+<ul>
+<li>After a .375 second cast, channel a fast moving electric beam that deals 280 damage and slows all enemies in a line by 25% for 2 seconds.</li>
+<li>Mana: 55 Mana.</li>
+<li>Cooldown: 7 seconds.</li>
+</ul></li>
+<li><strong>Psionic Storm [W]</strong>
+<ul>
+<li>Create a storm of psionic energy at the targeted location, dealing 38 damage every .5 seconds to enemies within its area for 3 seconds. This damage increases by 10% for each consecutive hit, to a maximum of 50% increased damage.</li>
+<li>Mana: 60 Mana.</li>
+<li>Cooldown: 8 seconds.</li>
+</ul></li>
+<li><strong>Force Wall [E]</strong>
+<ul>
+<li>After a .5 second delay, create a wall that blocks all units from moving through it for 2 seconds.</li>
+<li>Mana: 70 Mana.</li>
+<li>Cooldown: 21 seconds.</li>
+</ul></li>
+<li><strong>Archon [R1]</strong>
+<ul>
+<li>Transform into a powerful Archon, gaining 40% of your maximum health as a shield and empowering Basic Attacks for 12 seconds. Empowered Basic Attacks deal more damage, splash in a small area, and reduce the Spell Armor of Heroes by 20 for 2 seconds. While in Archon form, Resonance Beam is fully charged.</li>
+<li>Mana: 100 Mana.</li>
+<li>Cooldown: 90 seconds.</li>
+</ul></li>
+<li><strong>Black Hole [R2]</strong>
+<ul>
+<li>After a .5 second cast, launch a Black Hole that travels in a long line. While travelling, the Black Hole quickly pulls enemy Heroes towards its center. Touching the center deals 310 damage and stuns for 1.25 seconds.</li>
+<li>Mana: 80 Mana.</li>
+<li>Cooldown: 70 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Static Charge [Q]</strong>
+<ul>
+<li>Quest: Heroes hit by Shock Ray permanently increase its damage by 4 and grant 33% Resonance Beam charge.</li>
+<li>Maximum of 200 additional damage.</li>
+</ul></li>
+<li><strong>Psi-Infusion [W]</strong>
+<ul>
+<li>Increase Psionic Storm's range by 33%. Each non-structure enemy hit by Psionic Storm restores .5 mana, increased to 5 against Heroes.</li>
+</ul></li>
+<li><strong>Khaydarin Amulet [Trait]</strong>
+<ul>
+<li>Quest: Resonance Beam charges 50% faster.</li>
+<li>Reward: After remaining at full charge for 80 seconds, Resonance Beam bounces to hit 1 additional target for 50% damage.</li>
+<li>Reward: After remaining at full charge for 160 seconds, Resonance Beam bounces to hit 2 additional targets for 50% damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Induction [Q]</strong>
+<ul>
+<li>Casting Shock Ray increases Tassadar's move speed by 15% for 3 seconds. If an enemy Hero is hit, increase this bonus by 10%.</li>
+</ul></li>
+<li><strong>Electric Fence [E]</strong>
+<ul>
+<li>Enemies near Force Wall take 46 damage every .5 seconds and are slowed by 35%.</li>
+</ul></li>
+<li><strong>Plasma Shield [Trait]</strong>
+<ul>
+<li>While Resonance Beam is fully charged, gain a shield equal to 3% of max health every second. Stacking up to 15% maximum health.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Beam Alignment [Q]</strong>
+<ul>
+<li>When Resonance Beam is fully charged, your Basic Attack range is increased by 1 and the cooldown of Shock Ray refreshes 100% faster.</li>
+</ul></li>
+<li><strong>Psionic Echo [Q/E]</strong>
+<ul>
+<li>Casting Psionic Storm causes your next Shock Ray within 3 seconds to cost 30 mana and create a Psionic Storm on the first Hero it hits.</li>
+</ul></li>
+<li><strong>Arc Discharge [Trait]</strong>
+<ul>
+<li>After reaching full charge, the next instance of Resonance Beam damage creates a Psionic Storm at the target's location. This effect has a 20 second cooldown that decays twice as fast while Resonance Beam is at full charge.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Feedback [W/Trait]</strong>
+<ul>
+<li>On targets afflicted with Psionic Storm, Resonance Beam's slow is increased to 60% and it also reduces Physical Armor by 25.</li>
+</ul></li>
+<li><strong>Shadow Walk [Active]</strong>
+<ul>
+<li>Activate to gain unrevealable Stealth, 40% movement speed and 25 Armor for 1.5 seconds. 60 second cooldown. Can be cast while channeling Shock Ray or Black Hole.</li>
+</ul></li>
+<li><strong>Oracle [Active]</strong>
+<ul>
+<li>While stationary, gain 30 Spell Armor for .75 seconds and heal for 12 health each second. Activate to channel for up to 4 seconds, revealing a gradually increasing area anywhere on the map. 45 second cooldown.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Thermal Lance [Q]</strong>
+<ul>
+<li>The first enemy Hero hit by Shock Ray takes 8% of their maximum health as damage.</li>
+</ul></li>
+<li><strong>Psychic Shock [W]</strong>
+<ul>
+<li>Psionic Storm deals damage 25% faster.</li>
+</ul></li>
+<li><strong>Executor's Will [Active]</strong>
+<ul>
+<li>Activate to gain full Resonance Beam charge, 15 Spell Power, and cause Ability cooldowns to refresh 25% faster. This effect lasts as long as Resonance Beam is fully charged. 60 sec cooldown.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Twilight Archon [R1]</strong>
+<ul>
+<li>Basic Attacks while in Archon form increase its duration by 2 seconds.</li>
+</ul></li>
+<li><strong>Kugelblitz [R2]</strong>
+<ul>
+<li>Each Hero hit by Black Hole creates a Psionic Storm at their location.</li>
+</ul></li>
+<li><strong>Force Barrier [E]</strong>
+<ul>
+<li>Increases the range of Force Wall by 50%, its duration by .5 seconds, and reduces its cooldown by 10 seconds.</li>
+</ul></li>
+<li><strong>Khala's Gift [Passive]</strong>
+<ul>
+<li>Gain 4 spell power for yourself and each nearby ally Hero, up to 20. Your total bonus is shared with all contributing allies.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We've been teasing the Tassadar rework for a long
+  time and it's finally here! Tassadar was previously considered a support Hero,
+  but we felt there was a disconnect between his kit/playstyle and the core
+  fantasy of a High Templar or the other Protoss magic users. Because of this,
+  we've re-imagined Tassadar from the ground up as an ability based Ranged
+  Assassin, similar to characters like Kael'thas and Gul'dan. He retains his
+  Psionic Storm, Force Wall and Archon abilities and has gained two new
+  abilities: Shock Ray and Black Hole. His talent tree has also been radically
+  transformed, giving him a slew of powerful new ways to play. We're very
+  excited to finally get Tassadar into your hands and hope you all enjoy the
+  rework as much as we have!</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<h4 id="xul">Xul</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2200 to 2080.</li>
+<li>Health Regeneration reduced from 4.58 to 4.33.</li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're happy with how Xul's rework has gone overall in
+  improving his gameplay and talent diversity. He is, however, overperforming,
+  so while we wait for more data, we're doing a reduction in the Health he
+  gained to bring him more in line.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li><strong>Toy Train Mount</strong>
+<ul>
+<li>Worgen Greymane, Metamorphosis Illidan, Dragonqueen Alexstrasza, Odin Tychus, and Archon Tassadar can no longer mount as a caboose on the Toy Train.</li>
+</ul></li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><span class="text-warning"><strong>Damage that ignores positive Armor should no longer incorrectly ignore negative Armor.</strong></span></li>
+<li>Fixed an issue where various Physical Armor buffs were not appropriately reducing damage from non-Heroic targets.</li>
+<li><strong>Arthas</strong>
+<ul>
+<li>Army of the Dead Ghouls no longer stop following Arthas when affected by certain abilities.</li>
+</ul></li>
+<li><strong>Deathwing</strong>
+<ul>
+<li>Deathwing's Energy tooltip while in Dragonflight now is correctly called Energy instead of Mana.</li>
+</ul></li>
+<li><strong>Garrosh</strong>
+<ul>
+<li>Fixed an issue where Garrosh would fail to throw moving targets.</li>
+</ul></li>
+<li><strong>Imperius</strong>
+<ul>
+<li>Imperius' Flash of Anger will now properly trigger if it kills a target.</li>
+<li>Clarified Flash of Anger's tooltip to reflect that it deals damage to the target as well as all targets around them.</li>
+<li>Fixed an issue where players were unable to issue attack commands while using Celestial Charge, causing them to auto-acquire nearby targets.</li>
+</ul></li>
+<li><strong>Nazeebo</strong>
+<ul>
+<li>Crowd Control effects on Nazeebo's Zombie Wall with Dead Rush no longer causes Zombie Wall to become unresponsive.</li>
+</ul></li>
+<li><strong>Stukov</strong>
+<ul>
+<li>Fixed an issue where Weighted Pustule was removed by Unstoppable.</li>
+</ul></li>
+<li><strong>Tracer</strong>
+<ul>
+<li>Fixed an issue where Tracer's A.I. would sometimes stop using her weapons to auto-attack targets.</li>
+</ul></li>
+<li><strong>Xul</strong>
+<ul>
+<li>Fixed an issue where Corpse Explosion did not link to an ability in the Death Recap.</li>
+</ul></li>
+<li><strong>Zarya</strong>
+<ul>
+<li>Zarya's To The Limit no longer causes Zarya's weapon beam to appear shorter at certain energy levels.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2020-04-06 PTR Patch Notes</title>
     <published>2020-04-06T19:55:00.000Z</published>
@@ -7798,1244 +8345,6 @@ bugs. Read on for details.</p>
 </ul>
 
 <p><a href="#top">Return to Top</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-08-28 Balance Update</title>
-    <published>2019-08-28T21:34:00.000Z</published>
-    <updated>2019-08-28T21:34:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-08-28-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-08-28-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-august-28-2019">Heroes of the Storm Balance Patch Notes - August 28, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23090872" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23090872" target="_blank">Official Patch Notes</a> <small>v 2.47.2</small></div>
-
-<p>Heroes of the Storm has just been updated with Hero balance changes and bug
-fixes! Read on for details.</p>
-
-<hr />
-
-<h3 id="battlegrounds">Battlegrounds</h3>
-
-<ul>
-<li><strong>Volskaya Foundry</strong>
-<ul>
-<li><strong>Triglav Protector</strong>
-<ul>
-<li>Health increased from 10450 to 11500.</li>
-<li>Health scaling in minutes 1-5 increased from 550 to 575.</li>
-<li>Health scaling over time increased by a proportional amount.</li>
-<li>Starting Basic Attack damage increased from 140 to 155.</li>
-<li>Charge [Q] 
-<ul>
-<li>Starting damage increased from 140 to 160.</li>
-<li>Damage bonus vs. non-Heroic targets increased from 400% to 500%.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Since our last round of changes, game times have gone
-  up on Volskaya Foundry a little more than we would like. We're buffing the
-  Triglav Protector's pushing power so that it can get more damage done when
-  it's taken.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#tank">TANK</a></th>
-  <th><a href="#bruiser">BRUISER</a></th>
-  <th><a href="#support">SUPPORT</a></th>
-  <th><a href="#healer">HEALER</a></th>
-  <th><a href="#melee-assassin">MELEE ASSASSIN</a></th>
-  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#blaze">Blaze</a></td>
-  <td><a href="#chen">Chen</a></td>
-  <td><a href="#medivh">Medivh</a></td>
-  <td><a href="#auriel">Auriel</a></td>
-  <td><a href="#alarak">Alarak</a></td>
-  <td><a href="#chromie">Chromie</a></td>
-</tr>
-<tr>
-  <td><a href="#diablo">Diablo</a></td>
-  <td><a href="#imperius">Imperius</a></td>
-  <td><a href="#tassadar">Tassadar</a></td>
-  <td><a href="#deckard">Deckard</a></td>
-  <td><a href="#murky">Murky</a></td>
-  <td><a href="#guldan">Gul'dan</a></td>
-</tr>
-<tr>
-  <td><a href="#johanna">Johanna</a></td>
-  <td><a href="#leoric">Leoric</a></td>
-  <td></td>
-  <td><a href="#kharazim">Kharazim</a></td>
-  <td><a href="#qhira">Qhira</a></td>
-  <td><a href="#hanzo">Hanzo</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#rehgar">Rehgar</a></td>
-  <td><a href="#zeratul">Zeratul</a></td>
-  <td><a href="#kelthuzad">Kel'Thuzad</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#stukov">Stukov</a></td>
-  <td></td>
-  <td><a href="#li-ming">Li-Ming</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#tyrande">Tyrande</a></td>
-  <td></td>
-  <td><a href="#tychus">Tychus</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#valla">Valla</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="tank">Tank</h3>
-
-<h4 id="blaze">Blaze</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li>Jet Propulsion [E]
-<ul>
-<li>Delay before charging reduced from .5 to .375 seconds.</li>
-<li>Cooldown increased from 8 to 10 seconds.</li>
-<li>Mana cost increased from 40 to 45.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> To help Blaze be a better front line for his team,
-  we're slightly reducing the delay on Jet Propulsion to make it more reliable,
-  and increasing its cooldown to compensate.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="diablo">Diablo</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Eternal Flames [W]
-<ul>
-<li>Additional functionality: Also refunds 35 Mana when Stunning enemy Heroes with Shadow Charge or Overpower.</li>
-</ul></li>
-<li>Diabolical Momentum [Passive]
-<ul>
-<li>Cooldown reduction increased from 1 to 1.25 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Adjusted the order of talents to match other heroes (Q, W, E, etc.).</li>
-<li>Devastating Charge [Q]
-<ul>
-<li>Damage bonus reduced from 80% to 50%.</li>
-<li>Adjusted functionality: 
-<ul>
-<li>Quest: Hit 5 enemy Heroes against terrain with Shadow Charge.</li>
-<li>Reward: Hitting enemy Heroes against terrain with Shadow Charge reduces their Armor by 15 for 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li>Hellfire [W]
-<ul>
-<li>Additional functionality: When at maximum stacks, Diablo deals 15 damage to nearby enemies.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We've had a lot of discussion recently on Diablo's
-  place in the meta and what makes him such a consistently popular pick, despite
-  having a low win rate. We love the hero, and believe he's an incredibly fun
-  Warrior to play, but we've heard complaints from players about his burst
-  potential, and we agree that it can be a bit much to be killed in a double
-  Shadow Charge combo post 16. To help free up other options on his 13 and 16
-  tiers and to address issues with his burst, we are changing Devastating Charge
-  to be a little less about his own burst damage, and more about debuffing his
-  target so that his team can take advantage of his powerful initiation. In
-  addition, we're buffing up his other builds so that they can be more viable
-  compared to the double wall-stun combo that currently dominates his late-game
-  playstyle. We hope that these changes still retain the fun of lining up the
-  perfect Domination combo for those who love the playstyle while also bringing
-  other ways to play him into the forefront.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="johanna">Johanna</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Reinforce [Passive]
-<ul>
-<li>Physical Armor amount reduced from 75 to 50.</li>
-<li>Adjusted functionality: Casting a Basic Ability gives Johanna 60 Physical Armor for 2.5 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Reinforce has been a bit of an awkward talent
-  compared to others on the tier. Instead of giving Johanna charges of Block,
-  we're changing it to give her Physical Armor for a duration. This should give
-  Johanna the option to space her Abilities out to maximize the duration of the
-  bonus.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bruiser">Bruiser</h3>
-
-<h4 id="chen">Chen</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Eye of the Tiger [W]
-<ul>
-<li>Bonus damage and healing reduced from 50% to 40%.</li>
-</ul></li>
-<li>Stormstout Secret Recipe [Passive]
-<ul>
-<li>Healing increased from 2.5% to 3% of Chen's maximum Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Accumulating Flame [W]
-<ul>
-<li>Increased Ignited damage reduced from 25% to 20%.</li>
-</ul></li>
-<li>Withering Flames [W]
-<ul>
-<li>Spell Power reduction increased from 40% to 50%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Gift of the Ox [E]
-<ul>
-<li>Stagger's damage duration increased from .5 seconds to 1 second.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li>Storm, Earth, Fire [R2]
-<ul>
-<li>Cooldown increased from 100 to 120 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Ring of Fire [W]
-<ul>
-<li>Damage reduced from 60 to 55.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Celerity [E]
-<ul>
-<li>Armor bonus increased from 20 to 30.</li>
-</ul></li>
-<li>Combo Strikes [Trait]
-<ul>
-<li>Attack Speed bonus reduced from 50% to 35%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Now that Chen's rework has had some time to settle,
-  we're doing some larger talent tuning due to a few talents outperforming
-  others. Eye of the Tiger and Combo Strikes in particular are too powerful
-  compared to other options, and his Stagger-related talents are
-  underperforming. These tuning changes should better round out his talent
-  options while still ensuring that he remain a viable member of the team.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="imperius">Imperius</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li>Valorous Brand [Trait]
-<ul>
-<li>Healing amount increased from 70 to 75.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Impaling Light [Q]
-<ul>
-<li>Damage increased from 50% to 100%.</li>
-<li>Cooldown reduction increased from 1 second to 1.25 seconds.</li>
-</ul></li>
-<li>Consuming Flame [W]
-<ul>
-<li>Center damage bonus increased from 100% to 125%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Battle Hunger [Trait]
-<ul>
-<li>Healing increased from 50% to 60%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Pathetic Mortals [Q]
-<ul>
-<li>Damage reduction increased from 35% to 40%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Celestial Swiftness [Q]
-<ul>
-<li>Movement Speed bonus increased from 20% to 25%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Imperius has lost a bit of his teeth since our talent
-  revamp, and these changes should bring him back to his former glory.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="leoric">Leoric</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 2468 to 2550.</li>
-<li>Health Regeneration increased from 5.141 to 5.313.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li>Hardened Bones [W]
-<ul>
-<li>Armor increased from 40 to 50.</li>
-</ul></li>
-<li>Shroud of the Dead King [Active]
-<ul>
-<li>Cooldown reduced from 60 to 30 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Too many traitors have escaped Leoric's grasp lately.
-  It's time that they paid.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="medivh">Medivh</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li>Dust of Disappearance [Active]
-<ul>
-<li>Allied Heroes who are given Stealth are unable to be revealed for .5 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We heard feedback that Medivh's Dust of Disappearance
-  should mirror Brightwing's Invisible Friends when it comes to its reliability
-  in being able to give allies Stealth, and we agree!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tassadar">Tassadar</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 1287 to 1350.</li>
-<li>Health Regeneration increased from 2.68 to 2.81.</li>
-<li>Basic Attack damage increased from 14 to 15.</li>
-<li>Distortion Beam Slow increased from 20% to 25%.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Khaydarin Resonance [Passive]
-<ul>
-<li>Regeneration Globe amounts for quest completion reduced from 15/30 to 10/20.</li>
-<li>Plasma Shield quest completion bonuses reduced from 20%/40% to 15%/30%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Resonation [W]
-<ul>
-<li>Slow amount increased from 50% to 60%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Adun's Wisdom [Trait]
-<ul>
-<li>Cooldown reduction increased from 50% to 75%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Phase Disruption [W]
-<ul>
-<li>Physical Armor reduction increased from 25 to 35.</li>
-</ul></li>
-<li>Focused Beam [Trait]
-<ul>
-<li>Bonus damage increased from 1% to 1.5% maximum Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Prismatic Link [Passive]
-<ul>
-<li>Damage increased from 40% to 50%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Leaving him on a good note ahead of nipping out some
-  of his kit was important to us, so while we wait for Tassadar's rework to come
-  to the Nexus, we thought it would be fun to buff him a bit in the meantime.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="healer">Healer</h3>
-
-<h4 id="auriel">Auriel</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li>Bestow Hope [Trait]
-<ul>
-<li>Hope generation from damage that Auriel deals to enemy Heroes increased from 40% to 60%.</li>
-<li>Hope generation from damage that Auriel deals to non-Heroes increased from 10% to 20%.</li>
-<li>Hope generation from damage that allied Heroes deals to enemy Heroes decreased from 40% to 30%.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Heavy Burden [E]
-<ul>
-<li>Slow amount increased from 40% to 50%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're experimenting with changing Auriel to be a
-  little less dependent on her Hope target in order to be effective. While we
-  still want the connection between her and her chosen teammate to be a central
-  part of the Hero, this should allow her to shine in more compositions, and
-  reward good Auriel players with an increased effectiveness in their games.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="deckard">Deckard</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 1598 to 1700.</li>
-<li>Health Regeneration increased from 3.328 to 3.542.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Cube Mastery [W]
-<ul>
-<li>Mana cost reduction of Scroll of Sealing changed from 30 to 25.</li>
-<li>Scroll of Sealing cooldown reduction increased from 3 to 4.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Safety in Numbers [Passive]
-<ul>
-<li>Additional functionality: When 3 allied Heroes are nearby, Deckard's Mana Regeneration is also increased by 50%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> OK, Deckard. We have to have a talk. We've been
-  buffing you since December and you still don't want to become meta. At this
-  point it's not me, it's you. Seriously we love Deckard. Hope you all enjoy
-  these buffs!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kharazim">Kharazim</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Heavenly Zeal [W]
-<ul>
-<li>Breath of Heaven bonus Healing duration increased from 3 to 3.5 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> To help smooth out the interaction between Heavenly
-  Zeal and Echo of Heaven, we're slightly increasing the bonus Healing duration
-  so that they can more reliably benefit from one another.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="rehgar">Rehgar</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage reduced from 113 to 106.</li>
-<li>Health reduced from 2049 to 2000.</li>
-<li>Health Regeneration reduced from 4.27 to 4.167.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Electric Charge [W]
-<ul>
-<li>Additional functionality: Damage done with Lightning Shield to enemy Heroes heals Rehgar for 30% of the damage dealt.</li>
-</ul></li>
-<li>Colossal Totem [E]
-<ul>
-<li>Additional functionality: Earthbind Totem can be reactivated to move an existing totem to a new location once.</li>
-</ul></li>
-<li>Wolf Run [Z]
-<ul>
-<li>Additional functionality: Hitting an enemy Hero with Ghost Form's Lunge attack reduces the cooldown of Ghost Wolf by 1 second.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Totemic Projection [E]
-<ul>
-<li>Removed.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Farsight [Active]
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li>New talent: Grounded Totem [E]
-<ul>
-<li>Increase the Health of Earthbind Totem by 100%. Enemy Heroes who are Slowed by Earthbind Totem also have their Attack Speed Slowed by 40%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li>Bloodlust [R2]
-<ul>
-<li>Range increased from 8 to 12.</li>
-<li>Movement Speed bonus increased from 25% to 35%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Rehgar currently sits at the top of the Healer totem
-  pole with the highest win-rate in the game. While he's not the most popular
-  yet, we wanted to make some of his talents more interesting, and at the same
-  time we want to get ahead of how blatantly, obviously, incredibly, stunningly,
-  and astonishingly overpowered he is.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stukov">Stukov</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 10</strong>
-<ul>
-<li>Flailing Swipe [R1]
-<ul>
-<li>Cooldown reduced from 80 to 60 seconds.</li>
-<li>Mana cost reduced from 80 to 60.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Controlled Chaos [R1]
-<ul>
-<li>Cooldown of Flailing Swipe changed from 30 to 25 seconds.</li>
-<li>Mana cost of Flailing Swipe changed from 30 to 25.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're buffing Flailing Swipe to be a more viable
-  option compared to Massive Shove. With this reduced cooldown, Stukov should
-  feel more free to peel for his teammates between team fights without risking
-  Flailing Swipe being on cooldown during the next engagement.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tyrande">Tyrande</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Everlasting Light [Q]
-<ul>
-<li>Healing increased from 40% to 45%.</li>
-</ul></li>
-<li>Mark of Mending [Trait]
-<ul>
-<li>Self-healing increased from 2% to 2.5% maximum Health.</li>
-</ul></li>
-<li>Elune's Chosen [Active]
-<ul>
-<li>Healing reduced from 200% to 175% of the damage dealt.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>The talents on this tier have been moved to follow normal talent ordering conventions (Q, W, E, etc.).</li>
-<li>Ranger [Active]
-<ul>
-<li>Cooldown reduced from 30 to 25 seconds.</li>
-</ul></li>
-<li>Trueshot Aura [Active]
-<ul>
-<li>Cooldown reduced from 60 to 45 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Huntress' Fury [Trait]
-<ul>
-<li>Moved from Level 16.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Ranger's Mark [Trait]
-<ul>
-<li>Basic Attacks against marked targets no longer increase the duration of Hunter's Mark.</li>
-<li>New functionality: Basic Attacks against marked targets reduce the cooldown of Lunar Flare by 1.5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Celestial Attunement [Q]
-<ul>
-<li>Moved from Level 7.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Outside of normal talent tuning changes, we wanted to
-  move Celestial Attunement to a later talent tier. While it wasn't unreasonably
-  blowing out games from a win rate perspective, we feel that it comes online
-  too early for its powerful effect due to how it can make many other Heroes
-  significantly less effective and fun to play for too much of a match. We like
-  that it's a unique reason to bring Tyrande, but, similar to Kharazim's
-  Cleansing Touch, we think it's more appropriate for these kinds of effects to
-  come online later in the game.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="melee-assassin">Melee Assassin</h3>
-
-<h4 id="alarak">Alarak</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Ruthless Momentum [W]
-<ul>
-<li>Cooldown recharge rate reduced from 100% to 75%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Show of Force [Trait]
-<ul>
-<li>Damage reduced from 68 to 65.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Hindered Motion [W]
-<ul>
-<li>Slow duration increased from 2 to 3 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We went a little overboard with our changes to
-  Ruthless Momentum and Show of Force. We're toning both of these talents down a
-  bit, while at the same time giving Hindered Motion a small buff.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="murky">Murky</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Slime Time [Q]
-<ul>
-<li>Required number of times enemy Heroes need to be Slimed to receive quest rewards reduced from 15/30 to 10/20.</li>
-</ul></li>
-<li>Living the Dream [Passive]
-<ul>
-<li>Maximum Spell Power bonus increased from 20% to 25%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Mrrgl mrrgl mrrrrrrrgl. Mrrrrrgl! Mrgl?</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="qhira">Qhira</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 2075 to 1950.</li>
-<li>Health Regeneration reduced from 4.32 to 4.06</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li>Grappling Hook [Trait]
-<ul>
-<li>Range reduced from 12 to 11.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Maximum Effort [Q]
-<ul>
-<li>Slow increased from 20% for 2 seconds to 25% for 2.5 seconds.</li>
-</ul></li>
-<li>Fatal Wounds [W]
-<ul>
-<li>Quest completion requirement increased from 125 to 200.</li>
-<li>Bonus Blood Rage bleed damage reduced from 50% to 40%.</li>
-</ul></li>
-<li>Finishing Touch [Passive]
-<ul>
-<li>Bonus damage increased from 25% to 30%.</li>
-<li>Duration increased from 2.5 to 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>Ensnaring Swing [E]
-<ul>
-<li>Primary target Slow increased from 25% to 30%.</li>
-<li>Secondary target Slow increased from 35% to 40%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Healmonger [W]
-<ul>
-<li>Healing reduced from 205 to 190.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li>Unrelenting Strikes [R1]
-<ul>
-<li>Stun duration increased from .75 seconds to 1 second.</li>
-<li>Final damage increased from 83 to 160.</li>
-</ul></li>
-<li>Final Strike [R2]
-<ul>
-<li>Damage reduced from 415 to 395.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Qhira has been performing well since her release,
-  though due to a bug with Fatal Wounds that we recently fixed she was initially
-  quite a bit more powerful than intended. We're making these changes in the
-  meantime to get her into a more appropriate place while we wait for more data
-  to come in.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="zeratul">Zeratul</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li>Shroud of Adun [Trait]
-<ul>
-<li>Shield amount increased from 15% to 20%.</li>
-<li>Shield gain reduced from being over 5 seconds to over 3 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Shroud of Adun is slightly underperforming compared
-  to its alternatives. It now has synergy with Move Unseen due to our last round
-  of changes to Zeratul, and hopefully with this buff Shroud of Adun gets pushed
-  into the limelight.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="ranged-assassin">Ranged Assassin</h3>
-
-<h4 id="chromie">Chromie</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Timewalker's Pursuit [Active]
-<ul>
-<li>Spellpower bonus increased from 10% to 15%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Bronze Talons [Q]
-<ul>
-<li>Bonus Basic Attack damage increased from 30% to 40%.</li>
-</ul></li>
-<li>Mobius Loop [W]
-<ul>
-<li>Cooldown reduction increased from 1.5 to 1.75 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Here and There [Active]
-<ul>
-<li>Cooldown reduced from 25 to 20 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Fast Forward [Q]
-<ul>
-<li>Additional functionality: Also refunds 10 Mana when Sand Blast travels 50% of its base distance and hits an enemy Hero.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Blessing of the Bronze [Active]
-<ul>
-<li>Additional functionality: Hitting enemy Heroes with Sand Blast from Chromie or her Echoes reduces the cooldown of Blessing of the Bronze by 8 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Chromie's fallen a bit out of favor in recent months,
-  so we are beefing her up to be a bit more viable.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="guldan">Gul'dan</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 10</strong>
-<ul>
-<li>Rain of Destruction [R2]
-<ul>
-<li>Cooldown reduced from 100 to 70 seconds.</li>
-<li>Mana cost reduced from 90 to 80.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li>Darkness Within [Trait]
-<ul>
-<li>New functionality: Dealing 600 damage to enemy Heroes causes the next cast of Life Tap to cost no Health and grant Gul'dan 25% Spell Power for 5 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Darkness Within has always been a bit of an outlier
-  compared to Gul'dan's other talents at 16. We're trying something new with
-  this iteration, which is now about keeping a rolling Spell Power buff going by
-  continuing to deal damage to enemy Heroes and, if Gul'dan can do this, having
-  a better engine to fuel his abilities. We're hoping that this makes Darkness
-  Within a powerful and different feeling option compared to the other talents
-  on the tier.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="hanzo">Hanzo</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>Explosive Arrows [Q]
-<ul>
-<li>Bonus damage reduced from 75% to 60%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li>Dragonstrike [R1]
-<ul>
-<li>Cooldown reduced from 100 to 60 seconds.</li>
-<li>Mana cost reduced from 100 to 60.</li>
-<li>Damage increased from 70 to 78.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Mounted Archery [Passive]
-<ul>
-<li>Movement Speed bonus increased from 20% to 25%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>The Dragon Awakens [R1]
-<ul>
-<li>Cooldown reduction reduced from 5 to 4 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're nerfing the dominance of Explosive Arrows while
-  also giving Dragonstrike a much needed buff. Yep.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kelthuzad">Kel'Thuzad</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li>Accelerated Decay [Q]
-<ul>
-<li>Bonus damage increased from 20% to 25%.</li>
-<li>Maximum stacks reduced from 6 to 4.</li>
-</ul></li>
-<li>Ice Cold [Passive]
-<ul>
-<li>Cooldown reduction increased from 5 to 8 seconds.</li>
-<li>Bonus damage increased from 300% to 400%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li>Frost Blast [R1]
-<ul>
-<li>Cooldown reduced from 60 to 50 seconds.</li>
-<li>Mana cost reduced from 50 to 45.</li>
-<li>Root duration increased from 1.75 to 2 seconds.</li>
-</ul></li>
-<li>Shadow Fissure [R2]
-<ul>
-<li>Mana cost reduced from 45 to 40.</li>
-<li>Damage reduced from 360 to 320.</li>
-<li>New functionality: Damaging an enemy Hero with Shadow Fissure resets its cooldown.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Icy Grasp [W]
-<ul>
-<li>Damaging enemy Heroes who are slowed by Frost Nova no longer increases its slow duration.</li>
-<li>New functionality: Damaging enemy Heroes who are slowed by Frost Nova reduces the cooldown of Frost Nova by .4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li>Might of the Scourge [R2]
-<ul>
-<li>If an enemy Hero is hit by Shadow Fissure, then it will explode a second time below them 1 second later. This second cast will not duplicate itself.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're making some changes to Kel'Thuzad to reduce his
-  burst damage combo with Shadow Fissure, as well as to make some adjustments to
-  his talents to make them more competitive with one another.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="li-ming">Li-Ming</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li>Magic Missiles [Q]
-<ul>
-<li>Damage scaling increased from 3% to 3.5%.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li>Rearranged talents at Levels 1 and 13 to appear in the same order as other Heroes (Q, W, E, etc.).</li>
-<li><strong>Level 1</strong>
-<ul>
-<li>Astral Presence [Passive]
-<ul>
-<li>Mana threshold for Mana gain increased from 25% to 35%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>Seeker [Q]
-<ul>
-<li>Damage increased from 125 to 140.</li>
-</ul></li>
-<li>Zei's Vengeance [W]
-<ul>
-<li>Damage increase bonus for distance traveled increased from 25% to 30%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li>Disintegrate [R1]
-<ul>
-<li>Damage increased from 11 to 12.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li>Glass Cannon [Passive]
-<ul>
-<li>Spell Power bonus increased from 15% to 20%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While we haven't seen a huge change in Li-Ming's
-  overall power since the Movement Speed changes to the game, we took a look at
-  her and wanted to give her a few buffs, particularly to under-powered talents.
-  While a popular suggestion, we don't feel that it's necessary yet to increase
-  the speed of her Ability casts. We'll continue to keep an eye on her as we get
-  more data on her performance over time.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tychus">Tychus</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Press the Advantage [E]
-<ul>
-<li>Duration increased from 3 to 5 seconds.</li>
-</ul></li>
-<li>Dash [E]
-<ul>
-<li>No longer has a quest component.</li>
-<li>Adjusted functionality: Increase the range of Run and Gun by 50%. Casting Run and Gun grants Tychus 20% Movement Speed for 2.5 seconds.</li>
-</ul></li>
-<li>Combat Tactician [E]
-<ul>
-<li>New functionality: Casting Run and Gun reduces the cooldown of Minigun by 8 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Tychus's Level 1 talents have traditionally not been
-  the most exciting or impactful. We're making some changes to make them feel
-  more powerful and different from one another.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="valla">Valla</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>Caltrops [E]
-<ul>
-<li>Additional functionality: Upon completing the quest, Vault's Mana cost is reduced from 50 to 25.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Since Valla has a fair bit of Mana tension, and to be
-  consistent with other talents that significantly reduce the cooldown of an
-  ability, we're giving a Mana reduction to Vault on Caltrops so that it remains
-  Mana-neutral when the quest is completed.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<ul>
-<li><strong>Qhira</strong>
-<ul>
-<li>Qhira's Grappling Hook should no longer pull her after she has been Rooted.</li>
-<li>Qhira's Grappling Hook visuals should clean up correctly if she dies at the same time it connects.</li>
-<li>Qhira's Revolving Sweep kinetics have been cleaned up and should play nicer with sub-game-loop interactions.</li>
-<li>Qhira's Unleashed Potential talent will no longer cause ability resets when killing Illusions.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
 ]]></content>
   </entry>
 </feed>
