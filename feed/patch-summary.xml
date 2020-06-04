@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2020-05-07T01:59:00.000Z</updated>
+  <updated>2020-06-03T04:34:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-06-03 Balance Update v 2.50.2</title>
+    <published>2020-06-03T04:34:00.000Z</published>
+    <updated>2020-06-03T04:34:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-06-03-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-06-03-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2020-06-03" target="_blank">Anub'arak</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2020-06-03" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2020-06-03" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/guldan.html#patch2020-06-03" target="_blank">Gul'dan</a>, 
+          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2020-06-03" target="_blank">Hanzo</a>, 
+          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2020-06-03" target="_blank">Lt. Morales</a>, 
+          <a href="https://heroespatchnotes.com/hero/qhira.html#patch2020-06-03" target="_blank">Qhira</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2020-06-03" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2020-06-03" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2020-06-03" target="_blank">Stitches</a>, 
+          <a href="https://heroespatchnotes.com/hero/thelostvikings.html#patch2020-06-03" target="_blank">The Lost Vikings</a>, 
+          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2020-06-03" target="_blank">Tracer</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2020-06-03" target="_blank">Tyrael</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2020-06-03" target="_blank">Tyrande</a>, 
+          <a href="https://heroespatchnotes.com/hero/uther.html#patch2020-06-03" target="_blank">Uther</a>, 
+          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2020-06-03" target="_blank">Whitemane</a>, 
+          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2020-06-03" target="_blank">Zagara</a>, 
+          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2020-06-03" target="_blank">Zeratul</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2020-05-06 Balance Update v 2.50.1</title>
     <published>2020-05-07T01:59:00.000Z</published>
@@ -290,32 +322,6 @@
           <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2019-10-15" target="_blank">Whitemane</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-09-24 Patch Notes v 2.48.0</title>
-    <published>2019-09-24T17:05:00.000Z</published>
-    <updated>2019-09-24T17:05:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-09-24-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-09-24-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Sky Temple: <a href="https://www.reddit.com/r/heroesofthestorm/comments/d5ftwe/sky_temple_gets_new_lighting_on_ptr/f0md19w/">Art and Lighting adjusted to improve clarity of certain FX</a></p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2019-09-24" target="_blank">Junkrat</a>, 
-          <a href="https://heroespatchnotes.com/hero/kelthuzad.html#patch2019-09-24" target="_blank">Kel'Thuzad</a>, 
-          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2019-09-24" target="_blank">Whitemane</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/whitemane.png" href="https://heroespatchnotes.com/hero/whitemane.html#patch2019-09-24" alt="Whitemane Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/junkrat.png" href="https://heroespatchnotes.com/hero/junkrat.html#patch2019-09-24" alt="Junkrat Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
