@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2020-06-03T04:34:00.000Z</updated>
+  <updated>2020-06-23T19:31:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-06-23 Patch Notes v 2.51.0</title>
+    <published>2020-06-23T19:31:00.000Z</published>
+    <updated>2020-06-23T19:31:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-06-23-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-06-23-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/mei.png" alt="Mei" height="60" width="60" /> Mei</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2020-06-23" target="_blank">Mal'Ganis</a>, 
+          <a href="https://heroespatchnotes.com/hero/mei.html#patch2020-06-23" target="_blank">Mei</a>, 
+          <a href="https://heroespatchnotes.com/hero/murky.html#patch2020-06-23" target="_blank">Murky</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2020-06-03 Balance Update v 2.50.2</title>
     <published>2020-06-03T04:34:00.000Z</published>
@@ -296,35 +315,6 @@
           <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2019-11-22" target="_blank">Tyrande</a>, 
           <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2019-11-22" target="_blank">Whitemane</a>, 
           <a href="https://heroespatchnotes.com/hero/zagara.html#patch2019-11-22" target="_blank">Zagara</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-10-15 Balance Update v 2.48.2</title>
-    <published>2019-10-15T21:39:00.000Z</published>
-    <updated>2019-10-15T21:39:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-10-15-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-10-15-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li><p>Hero Mastery Rings: purchasable for Heroes over level 15, "placed over the top of the normal Hero Ring...[and] visible to all players while in a match"</p>
-</li>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/ana.html#patch2019-10-15" target="_blank">Ana</a>, 
-          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2019-10-15" target="_blank">Artanis</a>, 
-          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2019-10-15" target="_blank">Deckard</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2019-10-15" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2019-10-15" target="_blank">Junkrat</a>, 
-          <a href="https://heroespatchnotes.com/hero/lili.html#patch2019-10-15" target="_blank">Li Li</a>, 
-          <a href="https://heroespatchnotes.com/hero/liming.html#patch2019-10-15" target="_blank">Li-Ming</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2019-10-15" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2019-10-15" target="_blank">Malfurion</a>, 
-          <a href="https://heroespatchnotes.com/hero/qhira.html#patch2019-10-15" target="_blank">Qhira</a>, 
-          <a href="https://heroespatchnotes.com/hero/rexxar.html#patch2019-10-15" target="_blank">Rexxar</a>, 
-          <a href="https://heroespatchnotes.com/hero/varian.html#patch2019-10-15" target="_blank">Varian</a>, 
-          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2019-10-15" target="_blank">Whitemane</a>
         </li>
       </ul>
       ]]></content>
