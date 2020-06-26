@@ -15,6 +15,18 @@
     <content type="html"><![CDATA[
       <h4>New</h4>
         <h3><img src="https://heroespatchnotes.com/images/hero/mei.png" alt="Mei" height="60" width="60" /> Mei</h3>
+      <h4>Gameplay</h4>
+      <ul>
+        <li><p>Nexus Anomaly - Structures: "we are removing both the negative Armor debuff that front towers used to provide and also reverting their aggro systems to no longer prioritize Heroes who attack other Heroes in their range. Forts, Keeps, and the Core will still prioritize enemy Heroes who attack other Heroes"</p>
+</li>
+        <li><p>Nexus Anomaly - Climate Phenomena: "Each battleground has a specific type of weather event that will occur every 4 minutes, with the first event starting at the beginning of the match. Each weather event lasts for 2 minutes before clearing up"</p>
+</li>
+      </ul>
+      <h4>Play Mode</h4>
+      <ul>
+        <li><p>Storm League: Gold rewards removed starting 2020 Season 3, reward mount returning 2020 Season 3"which will be awarded after winning 50 games in Ranked Play"</p>
+</li>
+      </ul>
       <h4>Heroes Affected</h4>
       <ul>
         <li>
@@ -23,6 +35,8 @@
           <a href="https://heroespatchnotes.com/hero/murky.html#patch2020-06-23" target="_blank">Murky</a>
         </li>
       </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/malganis.png" href="https://heroespatchnotes.com/hero/malganis.html#patch2020-06-23" alt="Mal'Ganis Rework" height="44" width="44" />
       ]]></content>
   </entry>
   <entry>
