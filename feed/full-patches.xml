@@ -1039,6 +1039,33 @@ for details.</p>
 </ul></li>
 </ul>
 
+<p><span class="text-warning"><strong>Undocumented</strong></span></p>
+
+<ul>
+<li><span class="text-warning">Big thanks to <a href="https://www.reddit.com/user/Spazzo965">u/Spazzo965</a> for sharing his findings!</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/hs1v6j/undocumented_changes_from_the_2511_patch/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Fixed an issue where Control Points could be contested by Hallucinations while in Stasis or Stopped</span></li>
+<li><span class="text-warning"><strong>Brightwing</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where Brightwing's Soothing Mist coud remain active while in cargo, dead, or in Stasis</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Tassadar</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where Tassadar's Electric Fence would not damage Unstoppable enemies, and would damage relentless enemies more frequently</span></li>
+<li><span class="text-warning">Fixed an issue where Tassadar's Feedback would apply to non-Heroes</span></li>
+<li><span class="text-warning">Tassadar's Oracle now reveals for 2 seconds, up from 0.4 seconds</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Cassia</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where Cassia's Martial Law would be reduced by Armor or Defense Matrix</span></li>
+<li><span class="text-warning">Fixed an issue where Cassia's Imprisoning Light could apply to the target affected by the initial Valkyrie pull</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Mei</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where Mei's Flash Freeze would cause the trigger enemy to have their movement locked</span></li>
+<li><span class="text-warning">Mei's Avalanche now has a FinishTime of 0.0625s</span></li>
+</ul></li>
+</ul>
+
 <hr />
 
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
