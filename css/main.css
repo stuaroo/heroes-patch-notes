@@ -25,11 +25,11 @@ table a:not(.btn), .table a:not(.btn) { text-decoration: none; }
 th > a { cursor: pointer; }
 
 .sort { color: #2c3e50; }
-a.sort > i.fa-sort-asc, a.sort > i.fa-sort-desc { display: none; }
+a.sort > i.fa-sort-up, a.sort > i.fa-sort-down { display: none; }
 a.sort.asc > i.fa-sort { display: none; }
-a.sort.asc > i.fa-sort-asc { display: inherit; }
+a.sort.asc > i.fa-sort-up { display: inherit; }
 a.sort.desc > i.fa-sort { display: none; }
-a.sort.desc > i.fa-sort-desc { display: inherit; }
+a.sort.desc > i.fa-sort-down { display: inherit; }
 
 /* Table and table-in-panel CSS for hero rework talents */
 table {
