@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2020-07-16T04:35:00.000Z</updated>
+  <updated>2020-08-20T02:55:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-08-19 Balance Update v 2.51.2</title>
+    <published>2020-08-20T02:55:00.000Z</published>
+    <updated>2020-08-20T02:55:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-08-19-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-08-19-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2020-08-19" target="_blank">Anub'arak</a>, 
+          <a href="https://heroespatchnotes.com/hero/arthas.html#patch2020-08-19" target="_blank">Arthas</a>, 
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2020-08-19" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2020-08-19" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/chen.html#patch2020-08-19" target="_blank">Chen</a>, 
+          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2020-08-19" target="_blank">Chromie</a>, 
+          <a href="https://heroespatchnotes.com/hero/deathwing.html#patch2020-08-19" target="_blank">Deathwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2020-08-19" target="_blank">Deckard</a>, 
+          <a href="https://heroespatchnotes.com/hero/etc.html#patch2020-08-19" target="_blank">E.T.C.</a>, 
+          <a href="https://heroespatchnotes.com/hero/illidan.html#patch2020-08-19" target="_blank">Illidan</a>, 
+          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2020-08-19" target="_blank">Junkrat</a>, 
+          <a href="https://heroespatchnotes.com/hero/mei.html#patch2020-08-19" target="_blank">Mei</a>, 
+          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2020-08-19" target="_blank">Muradin</a>, 
+          <a href="https://heroespatchnotes.com/hero/qhira.html#patch2020-08-19" target="_blank">Qhira</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2020-08-19" target="_blank">Tyrande</a>, 
+          <a href="https://heroespatchnotes.com/hero/uther.html#patch2020-08-19" target="_blank">Uther</a>, 
+          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2020-08-19" target="_blank">Zeratul</a>, 
+          <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2020-08-19" target="_blank">Zul'jin</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2020-07-15 Balance Update v 2.51.1</title>
     <published>2020-07-16T04:35:00.000Z</published>
@@ -315,29 +347,6 @@
           <a href="https://heroespatchnotes.com/hero/varian.html#patch2019-12-16" target="_blank">Varian</a>, 
           <a href="https://heroespatchnotes.com/hero/yrel.html#patch2019-12-16" target="_blank">Yrel</a>, 
           <a href="https://heroespatchnotes.com/hero/zagara.html#patch2019-12-16" target="_blank">Zagara</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-12-03 Patch Notes v 2.49.0</title>
-    <published>2019-12-03T18:40:00.000Z</published>
-    <updated>2019-12-03T18:40:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-12-03-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-12-03-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/deathwing.png" alt="Deathwing" height="60" width="60" /> Deathwing</h3>
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>Nexus Anomaly - <a href="https://heroesofthestorm.com/en-us/blog/23227977">Experience Globes</a>: "Minions no longer give Experience by killing them, but instead drop an Experience Globe that must be collected"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/mephisto.html#patch2019-12-03" target="_blank">Mephisto</a>, 
-          <a href="https://heroespatchnotes.com/hero/thelostvikings.html#patch2019-12-03" target="_blank">The Lost Vikings</a>
         </li>
       </ul>
       ]]></content>
