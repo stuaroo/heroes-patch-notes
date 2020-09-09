@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2020-08-20T02:55:00.000Z</updated>
+  <updated>2020-09-09T00:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-09-08 Patch Notes v 2.52.0</title>
+    <published>2020-09-09T00:30:00.000Z</published>
+    <updated>2020-09-09T00:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-09-08-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-09-08-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2020-09-08" target="_blank">Alarak</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2020-09-08" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2020-09-08" target="_blank">Chromie</a>, 
+          <a href="https://heroespatchnotes.com/hero/dva.html#patch2020-09-08" target="_blank">D.Va</a>, 
+          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2020-09-08" target="_blank">Deckard</a>, 
+          <a href="https://heroespatchnotes.com/hero/etc.html#patch2020-09-08" target="_blank">E.T.C.</a>, 
+          <a href="https://heroespatchnotes.com/hero/gazlowe.html#patch2020-09-08" target="_blank">Gazlowe</a>, 
+          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2020-09-08" target="_blank">Imperius</a>, 
+          <a href="https://heroespatchnotes.com/hero/orphea.html#patch2020-09-08" target="_blank">Orphea</a>, 
+          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2020-09-08" target="_blank">Stitches</a>, 
+          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2020-09-08" target="_blank">Tassadar</a>, 
+          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2020-09-08" target="_blank">Yrel</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/dva.png" href="https://heroespatchnotes.com/hero/dva.html#patch2020-09-08" alt="D.Va Rework" height="44" width="44" />
+        <img src="https://heroespatchnotes.com/images/hero/gazlowe.png" href="https://heroespatchnotes.com/hero/gazlowe.html#patch2020-09-08" alt="Gazlowe Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2020-08-19 Balance Update v 2.51.2</title>
     <published>2020-08-20T02:55:00.000Z</published>
@@ -310,43 +340,6 @@
           <a href="https://heroespatchnotes.com/hero/stukov.html#patch2020-01-22" target="_blank">Stukov</a>, 
           <a href="https://heroespatchnotes.com/hero/thrall.html#patch2020-01-22" target="_blank">Thrall</a>, 
           <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2020-01-22" target="_blank">Whitemane</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-12-16 Balance Update v 2.49.1</title>
-    <published>2019-12-16T22:47:00.000Z</published>
-    <updated>2019-12-16T22:47:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-12-16-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-12-16-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>Unstoppable: "Gaining Unstoppable now prevents and removes Blinds"</p>
-</li>
-        <li><p>Experience Globes: are now immediately collectible and will be automatically collected from Minions killed by Hero Abilities or Basic Attacks</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2019-12-16" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2019-12-16" target="_blank">Auriel</a>, 
-          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2019-12-16" target="_blank">Brightwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/cho.html#patch2019-12-16" target="_blank">Cho</a>, 
-          <a href="https://heroespatchnotes.com/hero/deathwing.html#patch2019-12-16" target="_blank">Deathwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/gall.html#patch2019-12-16" target="_blank">Gall</a>, 
-          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2019-12-16" target="_blank">Greymane</a>, 
-          <a href="https://heroespatchnotes.com/hero/illidan.html#patch2019-12-16" target="_blank">Illidan</a>, 
-          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2019-12-16" target="_blank">Johanna</a>, 
-          <a href="https://heroespatchnotes.com/hero/nazeebo.html#patch2019-12-16" target="_blank">Nazeebo</a>, 
-          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2019-12-16" target="_blank">Samuro</a>, 
-          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2019-12-16" target="_blank">Thrall</a>, 
-          <a href="https://heroespatchnotes.com/hero/uther.html#patch2019-12-16" target="_blank">Uther</a>, 
-          <a href="https://heroespatchnotes.com/hero/varian.html#patch2019-12-16" target="_blank">Varian</a>, 
-          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2019-12-16" target="_blank">Yrel</a>, 
-          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2019-12-16" target="_blank">Zagara</a>
         </li>
       </ul>
       ]]></content>
