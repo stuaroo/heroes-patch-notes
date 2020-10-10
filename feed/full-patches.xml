@@ -3875,7 +3875,10 @@ for details.</p>
 <ul>
 <li><strong>Nexus Anomaly - Climate Phenomena</strong>
 <ul>
-<li>The Climate Phenomena Anomaly has been disabled.</li>
+<li>The Climate Phenomena Anomaly has been disabled.
+<ul>
+<li><span class="text-warning">Please review our recent <a href="https://us.forums.blizzard.com/en/heroes/t/update-on-climate-phenomena-anomaly/40990">forum post</a> for more details.</span></li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -5422,7 +5425,7 @@ reward structure of Storm League.</p>
 </ul></li>
 <li><strong>Black Claws [Q]</strong>
 <ul>
-<li>Additional functionality: Basic Attacks after hitting enemy Heroes with Fel Claws also reduces their Armor by 15 for 2 seconds.</li>
+<li>Additional functionality: Basic Attacks after hitting enemy Heroes with Fel Claws also reduce their Armor by 15 for 2 seconds.</li>
 </ul></li>
 <li><strong>Will of Tichondrius [Q]</strong>
 <ul>
@@ -5448,7 +5451,7 @@ reward structure of Storm League.</p>
 </ul></li>
 <li><strong>Blind as a Bat [Active]</strong>
 <ul>
-<li>Additional functionality: Enemy Heroes hit by the final slash of Fel Claws reduces the cooldown of this Ability by 5 seconds.</li>
+<li>Additional functionality: Enemy Heroes hit by the final slash of Fel Claws reduce the cooldown of this Ability by 5 seconds.</li>
 </ul></li>
 </ul></li>
 <li><strong>Level 20</strong>
