@@ -2,10 +2,829 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2020-10-08T01:40:00.000Z</updated>
+  <updated>2020-11-05T07:25:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-11-04 Balance Update</title>
+    <published>2020-11-05T07:25:00.000Z</published>
+    <updated>2020-11-05T07:25:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-11-04-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-11-04-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-november-4-2020">Heroes of the Storm Balance Patch Notes - November 4, 2020</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23557933" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23557933" target="_blank">Official Patch Notes</a> <small>v 2.52.2</small></div>
+
+<p>Heroes of the Storm has just been updated with Hero balance changes! Read on
+for details.</p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<p><strong>Warhead Junction</strong></p>
+
+<ul>
+<li><strong>Layout Changes</strong>
+<ul>
+<li>Sewage Tunnels have been added to the top and bottom of the Battleground.</li>
+<li>The bottom one has replaced the Junk Swarm Host.</li>
+<li>An additional Sight Tower has been added below mid lane.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Since the release of the Battleground, we have been
+  hearing two resounding pieces of feedback: the map is very large and teams
+  find it difficult to engage with each other due to the amount of ground needed
+  to cover while picking up Warheads, and very often the game either ends up
+  being a base-race as each team takes a Junk Swarm Host and tries to push
+  opposite lanes to end fastest. To address this we have added a couple of
+  Sewage Tunnels (think teleporters) to the map, one of which replaces the
+  bottom Junk Swarm Host, and added an additional Sight Tower to allow teams to
+  keep an eye on the bottom tunnel. We feel like these changes have been a
+  breath of fresh air for Warhead Junction and are excited to hear your
+  feedback!</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#tank">TANK</a></th>
+  <th><a href="#bruiser">BRUISER</a></th>
+  <th><a href="#healer">HEALER</a></th>
+  <th><a href="#melee-assassin">MELEE ASSASSIN</a></th>
+  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#anubarak">Anub'arak</a></td>
+  <td><a href="#chen">Chen</a></td>
+  <td><a href="#alexstrasza">Alexstrasza</a></td>
+  <td><a href="#alarak">Alarak</a></td>
+  <td><a href="#azmodan">Azmodan</a></td>
+</tr>
+<tr>
+  <td><a href="#malganis">Mal'Ganis</a></td>
+  <td><a href="#dehaka">Dehaka</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#falstad">Falstad</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#dva">D.Va</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#lunara">Lunara</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#gazlowe">Gazlowe</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#orphea">Orphea</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#leoric">Leoric</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#sgt-hammer">Sgt. Hammer</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#malthael">Malthael</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#sylvanas">Sylvanas</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#varian">Varian</a></td>
+  <td></td>
+  <td></td>
+  <td><a href="#tychus">Tychus</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="tank">Tank</h3>
+
+<h4 id="anubarak">Anub'arak</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Hive Master [R1]</strong>
+<ul>
+<li>Damage increased from 153 to 165.</li>
+<li>Healing increased from 50 to 80.</li>
+</ul></li>
+<li><strong>Cryptweave [R2]</strong>
+<ul>
+<li>Additional functionality: Upon exiting the Cocoon, enemies take 50 damage over 4 seconds. This damage is increased by 100% for each second that they were inside.</li>
+</ul></li>
+<li><strong>Hardened Shield [Active]</strong>
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li><strong>New Talent: The Traitor King [Active]</strong>
+<ul>
+<li>Gain 10% bonus maximum Health and 20 Spell Armor. Activate to gain 75 Armor for 4 seconds. 60-second CD.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're making some changes to Anub'arak's Level 20
+  talents to make them feel more heroic to take. Currently Rewind is dominating
+  this tier due to being both very powerful on its own and fitting Anub'arak's
+  kit in a great way. We like this and don't want to take away from it, so we're
+  looking to make his other choices also feel great when picked.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="malganis">Mal'Ganis</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 2450 to 2550.</li>
+<li>Health Regeneration increased from 5.11 to 5.31.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Echo of Doom [W]</strong>
+<ul>
+<li>Damage increased from 60 to 66.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Mal'ganis is underperforming compared to other
+  Warriors. His talents are in a great place since his rework, so we're giving
+  back some of his Health so that he can more effectively tank for his team.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bruiser">Bruiser</h3>
+
+<h4 id="chen">Chen</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Freshest Ingredients [Trait]</strong>
+<ul>
+<li>Cooldown reduction upon quest completion increased from 1 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Deadly Strike [Q]</strong>
+<ul>
+<li>Damage bonus increased from 100% to 125%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Gift of the Ox [E]</strong>
+<ul>
+<li>Damage taken over time reduced from 60% to 50% of damage taken.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These are some fairly minor buffs to underperforming
+  talents. We don't expect huge shifts with these changes, but saw room to make
+  Chen players' lives a little more fun, so we're doing it!</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="dehaka">Dehaka</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Dark Swarm [W]</strong>
+<ul>
+<li>Damage increased from 49 to 52.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li>Level 13 and 20 talents have been reordered to follow our normal conventions (Q, W, E, etc.)</li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Lurker Strain [E]</strong>
+<ul>
+<li>Cooldown reduction increased from 4 to 6 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Paralyzing Enzymes [Q]</strong>
+<ul>
+<li>Slow amount increased from 30% to 35%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Primal Rage [Trait]</strong>
+<ul>
+<li>Damage bonus increased from 1% to 1.25% per Essence stored.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Change is Survival [R2]</strong>
+<ul>
+<li>Cooldown reduction increased from 30 to 40 seconds.</li>
+</ul></li>
+<li><strong>Apex Predator [Z]</strong>
+<ul>
+<li>Cooldown reduction increased from 35 to 50 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Over the years we've nerfed heroes like Dehaka quite
+  a bit due to how effective players became at utilizing the power of their
+  global presence on large maps. Dehaka has had a lower win-rate for quite some
+  time due to this, so we're looking to give him back some of the power he
+  previously had.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="dva">D.Va</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Rush Down [Q]</strong>
+<ul>
+<li>Damage and healing against enemy Heroes reduced from 3% to 2% maximum Health.</li>
+<li>Damage bonus to non-Heroic enemies reduced from 75% to 70%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're generally very happy with where D.Va has landed
+  since her rework, but Rush Down is still a little too strong and is a large
+  part of D.Va's power pie, so we're continuing to tone it down.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="gazlowe">Gazlowe</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Rock-It! Turret [Q]</strong>
+<ul>
+<li>Damage reduced from 40 to 38.</li>
+</ul></li>
+<li><strong>Deth Lazor [W]</strong>
+<ul>
+<li>Damage reduced from 184 to 180.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Big Game Hunter [Trait]</strong>
+<ul>
+<li>Cooldown reduction reduced from 2 to 1.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Rock It Sock It [Q]</strong>
+<ul>
+<li>Shield amount reduced from 215 to 200.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Superior Schematics [Q]</strong>
+<ul>
+<li>Splash damage reduced from 75% to 60%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Ark Reaktor [E]</strong>
+<ul>
+<li>Cooldown reduction reduced from 3 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Gazlowe is a little bit too powerful after our last
+  round of changes to him, so we're pulling back a bit on some of our buffs and
+  on some of his overperforming talents. Overall, he's in a much healthier
+  place, and we both desire and expect that he'll be a relevant part of the
+  meta, even after these nerfs.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="leoric">Leoric</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Basic Attack damage increased from 109 to 115.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Unyielding Despair [W]</strong>
+<ul>
+<li>Cooldown reduction while Drain Hope is active increased from .5 to .75 seconds.</li>
+<li>Cooldown reduction if Drain Hope lasts its full duration reduced from 3 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Hardened Bones [W]</strong>
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li><strong>Burning Despair [W]</strong>
+<ul>
+<li>Added Crit kickers when Burning Despair deals bonus damage during Drain Hope.</li>
+<li>Additional functionality: While Drain Hope is active, gain 40 Armor.</li>
+</ul></li>
+<li><strong>Shroud of the Dead King [Active]</strong>
+<ul>
+<li>Cooldown reduced from 30 to 25 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Leoric is slightly out of the meta and is currently
+  sitting at around a 48% win rate. We're giving him some small buffs with a
+  focus on his Level 20 talents to make them more interesting and powerful to
+  use.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="malthael">Malthael</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Throwing Shade [E]</strong>
+<ul>
+<li>Additional functionality: Death Shroud's initial impact deals 2% maximum Health as damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Memento Mori [Trait]</strong>
+<ul>
+<li>Damage bonus increased from 80% to 90%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Malthael's talents and overall performance are in a
+  good place but Throwing Shade and Memento Mori have been lesser picked talents
+  for some time. We're adding some new functionality to Throwing Shade to make
+  it more attractive, and buffing Memento Mori's damage bonus to help it compete
+  against his other Level 16 options.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="varian">Varian</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 2116 to 2220.</li>
+<li>Health Regeneration increased from 4.41 to 4.63.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Lion's Maw [Q]</strong>
+<ul>
+<li>Damage bonus increased from 5 to 6 per stack.</li>
+</ul></li>
+<li><strong>High King's Quest [Passive]</strong>
+<ul>
+<li>Regeneration Globe collection requirement for quest completion reduced from 20 to 15.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Demoralizing Shout [Active]</strong>
+<ul>
+<li>Cooldown reduced from 25 to 20 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Despite some other recent buffs, Varian is still a
+  bit behind other heroes in regards to his general power level. Since this is
+  true for all 3 ways to build him, we're giving him a pretty decent Health buff
+  as well as buffing up a few of his talents to help him out.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="healer">Healer</h3>
+
+<h4 id="alexstrasza">Alexstrasza</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Abundance [W]</strong>
+<ul>
+<li>Range increased from 10 to 11.5.</li>
+</ul></li>
+<li><strong>Preservation [W]</strong>
+<ul>
+<li>Range increased from 10.5 to 11.5.</li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We read some feedback that since our global Movement
+  Speed increase many patches ago, Alexstrasza has a bit of awkwardness where
+  she can outrun her Abundance proc, even when it is cast at max range. We agree
+  and feel she can use a small buff in general, so we're giving Abundance a
+  range increase.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="melee-assassin">Melee Assassin</h3>
+
+<h4 id="alarak">Alarak</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Mocking Strikes [Passive]</strong>
+<ul>
+<li>Adjusted functionality: Basic Attacks against enemy Heroes reduce the cooldown of Alarak's Basic Abilities by 1.5 seconds. This bonus is doubled against enemy Heroes who are Stunned, Silenced, Slowed, or Rooted.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Mocking Strikes is slightly underperforming compared
+  to other options, so we're taking its benefit and making half of it more
+  universally available, which should make the talent less risky to take and get
+  value from.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="ranged-assassin">Ranged Assassin</h3>
+
+<h4 id="azmodan">Azmodan</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li>Talent bonuses related to All Shall Burn will now proc their effects if the target dies while All Shall Burn is channeling on an enemy.</li>
+<li>This includes effects for Master of Destruction, Cydaea's Kiss, Hell Rift, and Sin's Grasp.</li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We saw some feedback that Azmodan's All Shall Burn
+  felt awkward due to not getting various procs if the target dies while he is
+  channeling on them. This was initially intended by us due to concerns of it
+  being too powerful and resulting in some strange moments when playing against
+  it, but we've since come around and agree the lack of usability is hurting
+  these talents and Azmodan as a whole more than it's helping, so we're going to
+  try allowing these procs to occur, even if the target dies.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="falstad">Falstad</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Gathering Storm [Q]</strong>
+<ul>
+<li>Damage bonus increased from 1.5 to 2.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li>​<strong>​Updraft [E]</strong>
+<ul>
+<li>Shield bonus increased from 60% to 70%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li>​<strong>Secret Weapon [Q]</strong>
+<ul>
+<li>Damage bonus increased from 80% to 90%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li>​<strong>Hinterland Blast [R1]</strong>
+<ul>
+<li>Mana cost reduced from 100 to 80.</li>
+<li>Cooldown reduction when hitting enemy Heroes increased from 25 to 30 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li>​<strong>Epic Mount [Z]</strong>
+<ul>
+<li>Cooldown reduction increased from 40 to 50 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> It's been a long time since we updated Falstad, so we
+  took a look at him and saw a few talents that could be improved. In general
+  many of his talent tiers have two choices that players seem to heavily prefer
+  over the third option, so we're trying to create a larger incentive for
+  players to think about choosing those talents that they currently aren't
+  picking.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lunara">Lunara</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Blossom Swell [Q]</strong>
+<ul>
+<li>Adjusted functionality: Increase Noxious Blossom's range by 25% and its radius by 20%. Blossom Swell applies 2 stacks of Nature's Toxin to enemies hit.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Accelerated Contamination [Q]</strong>
+<ul>
+<li>Adjusted functionality: Reduce the Mana cost of Noxious Blossom from 60 to 40. While at least 1 enemy Hero is afflicted by Nature's Toxin, Noxious Blossom's cooldown recharges 75% faster.</li>
+</ul></li>
+<li><strong>Starwood Spear [W]</strong>
+<ul>
+<li>Adjusted functionality: Increase Lunara's Basic Attack range by .5. Using Crippling Spores increases Lunara's Basic Attack range by an additional 2.25 for 6 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're making some functionality changes to some of
+  Lunara's talents, particularly when it comes to her Q build, with the aim of
+  making their benefits more easily accessible. We're also giving a small range
+  increase to Lunara's Basic Attacks to Starwood Spear as a baseline buff for
+  picking the talent. While we know the range increase is small, we are nervous
+  about giving too much of a range increase to a Hero who has a Movement Speed
+  bonus as a baseline feature of the character, so we'll be keeping an eye on
+  this buff and will increase the bonus more if we feel it is appropriate.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="orphea">Orphea</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Allegrissimo [Q]</strong>
+<ul>
+<li>Additional functionality: Reduce the cooldown of Shadow Waltz by 1 second.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Insatiable [W]</strong>
+<ul>
+<li>Cooldown on successful Chomp hit changed from 1.5 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Monster Within [R1]</strong>
+<ul>
+<li>New functionality: Eternal Feast grants 1 Chaos each time it hits a Hero. While Eternal Feast is active, the cooldowns of Orphea's Basic Abilities recharge 150% faster.</li>
+</ul></li>
+<li><strong>Engulfing Oblivion [R2]</strong>
+<ul>
+<li>Armor reduction duration increased from 2 to 3 seconds.</li>
+</ul></li>
+<li><strong>Final Toccata [Active]</strong>
+<ul>
+<li>Cooldown reduced from 30 to 20 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're taking a look at Orphea's Level 20 talents and
+  adding some power to them to make them more fun to choose between. While doing
+  this pass, we saw a couple places to improve her overall talent picks, so we
+  adjusted Allegrissimo and Insatiable as well.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="sgt-hammer">Sgt. Hammer</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Maelstrom Rounds [Active]</strong>
+<ul>
+<li>Bonus damage reduced from 35% to 30%.</li>
+<li>Cooldown increased from 90 to 100 seconds.</li>
+<li>Additional functionality: Basic Attacks against enemy Heroes while in Siege Mode reduce the cooldown of Maelstrom Rounds by 5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Barricade [W]</strong>
+<ul>
+<li>Cooldown reduction increased from 3 to 4 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Pulse Detonation Core [Q]</strong>
+<ul>
+<li>Cooldown reduction increased from 1 to 1.5 seconds, and from 1.5 to 2.5 seconds while in Siege Mode.</li>
+</ul></li>
+<li><strong>Graduating Range [Trait]</strong>
+<ul>
+<li>Duration between Basic Attack range increases reduced from 3 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Mechanical Know-how [E]</strong>
+<ul>
+<li>Shield amount increased from 5% to 20% maximum Health.</li>
+<li>Basic Attack damage reduced from 50% to 30%.</li>
+<li>No longer requires the Shield to be destroyed to gain bonus damage.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Sgt. Hammer hasn't seen large changes for some time,
+  particularly to talents like Maelstrom Rounds and Mechanical Know-how. As
+  you've probably seen as a theme of this patch, these talents aren't too
+  popular so we're helping them out by giving them bonuses that should be more
+  consistently achievable.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="sylvanas">Sylvanas</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>​Mind Control [R2]</strong>
+<ul>
+<li>Cooldown reduced from 50 to 40 seconds.</li>
+<li>Mana cost reduced from 75 to 50.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Dark Lady's Call [R2]</strong>
+<ul>
+<li>Cooldown reduction reduced from 30 to 25 seconds.</li>
+</ul></li>
+<li><strong>Withering Barrage [Q]</strong>
+<ul>
+<li>Additional functionality: Withering Fire applies Banshee's Curse.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're doing a small additional buff to Mind Control,
+  as well as trying to give Withering Barrage some functionality that is worthy
+  of a Level 20 talent.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="tychus">Tychus</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Quarterback [W]</strong>
+<ul>
+<li>Additional functionality: Increase the damage of Frag Grenade by 20%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We anticipated that Tychus's early game talents would
+  have a shake-up with how much power we added to them, but we had a bit of an
+  oversight with Quarterback. While moving a talent from Level 7 to Level 1
+  would seem competitive in and of itself, the power we added to its
+  alternatives caused the talent to be overshadowed, so we're adding some more
+  beef to it and to the W build in general to make it more of a compelling way
+  to build Tychus.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2020-10-07 Balance Update</title>
     <published>2020-10-08T01:40:00.000Z</published>
@@ -13760,492 +14579,6 @@ time!</p>
 </blockquote>
 
 <p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed an issue where some parts of Sky Temple and Blackheart's Bay would be invisible when using Low graphics settings.</li>
-</ul>
-
-<p><strong>Heroes</strong></p>
-
-<ul>
-<li><strong>Genji</strong>
-<ul>
-<li>Fixed an issue where Swift Strike's reset UI appeared when Genji hit an enemy Hero with Dragonblade but did not have The Dragon Becomes Me talent.</li>
-</ul></li>
-<li><strong>Nova</strong>
-<ul>
-<li>Nova Holo Decoy Snipe no longer deals full damage if the Decoy dies while Snipe is in flight.</li>
-</ul></li>
-<li><strong>Samuro</strong>
-<ul>
-<li>Samuro's Press The Attack Talent will now correctly grant Attack Speed on his first Basic Attack.</li>
-</ul></li>
-</ul>
-
-<p><strong>Mac</strong></p>
-
-<ul>
-<li>Fixed an issue that could cause Blackheart's Bay to crash on load.</li>
-<li>Fixed an issue where some parts of Sky Temple and Blackheart's Bay would render with a strobing/flickering effect when using Low graphics settings.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-
-<hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-11-25 PTR Patch Notes</title>
-    <published>2019-11-25T22:50:00.000Z</published>
-    <updated>2019-11-25T22:50:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-11-25-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-11-25-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-november-25-2019">Heroes of the Storm PTR Patch Notes - November 25, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23227809" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23227809" target="_blank">Official Patch Notes</a> <small>v 2.49.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until the week of December 2, PST. As always, if
-you encounter any bugs during your PTR play sessions, please stop by the <a href="https://us.forums.blizzard.com/en/heroes/c/ptr-bug-report">PTR
-Bug Report forum</a>
-to let us know about your experiences.</p>
-
-<hr />
-
-<h3 id="nexus-anomaly-experience-globes">Nexus Anomaly – Experience Globes</h3>
-
-<p>Nexus Anomalies are seasonal gameplay changes that directly affect all game
-modes in Heroes of the Storm. These events will last the entire season,
-allowing us time to receive feedback on them. Depending on this evaluation,
-some of them may become permanent additions to the game, while others may just
-be a limited time event.</p>
-
-<p>&nbsp;</p>
-
-<p>The first Nexus Anomaly has arrived! In order to make collecting experience
-more satisfying and intuitive, we're changing how experience is collected from
-Minions in the Heroes of the Storm. Players will no longer get experience from
-simply being nearby, but instead need to gather an Experience Globe dropped by
-dying Minions.</p>
-
-<p><strong>Experience Globes</strong></p>
-
-<ul>
-<li>Minions no longer give Experience by killing them, but instead drop an Experience Globe that must be collected. 
-<ul>
-<li>Footman and Archer Minions (and their equivalent on different Battlegrounds) drop an Experience Globe that lasts for 6 seconds and awards 80 experience (plus 2 every minute).</li>
-<li>Wizard Minions no longer give Experience, but Experience Globe values have been increased to compensate.</li>
-<li>Experience Globes slowly move toward the closest allied Hero within 6 range, and are collected when an allied Hero comes within 1.5 range.</li>
-<li>Experience Globes will not move toward Heroes that are hidden in bushes or Stealthed, but they can be still collected by these Heroes if they move within 1.5 range.</li>
-</ul></li>
-<li>A few Heroes have special interactions with Experience Globes. 
-<ul>
-<li>Ragnaros Lava Wave will now instantly collect Experience Globes as it passes by.</li>
-<li>Abathur's Symbiote is treated as a Hero for the purposes of collecting Experience Globes.</li>
-<li>Hallucinations like Samuro's Mirror Images or Nova's Holo Clones are treated as a Hero for the purposes of collecting Experience Globes.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<p><strong>Storm League</strong></p>
-
-<ul>
-<li>Players who are Master or above may only queue for Storm League in a party with a maximum of one other player. The second player must also be Master or above. Both players in the party must be within 5000 Rank Points of each other.</li>
-<li>Players who have completed their placement games may no longer play Storm League in a party with players who have not completed their placement games.</li>
-</ul>
-
-<p><strong>Toys 2 Event Quests</strong></p>
-
-<ul>
-<li>Toys 2 is the winter event for Heroes of the Storm running from the week of December 16 to week of February 3, PST. Roll dice, complete quests, and join Tickle Mephisto on a board game adventure in the Nexus for awesome rewards... and sweet revenge!</li>
-</ul>
-
-<p><strong>Loot Chests</strong></p>
-
-<ul>
-<li>During the Toys 2 event, all Loot Chests you earn through progression, Heroes Brawl, or by spending gold will be Toy 2 Loot Chests. (Except Hero-specific Chests, which will remain unchanged.) Most limited-time items shown above have a chance to drop from Toy 2 Loot Chests only. You can also score Items from previous years' winter events limited-time loot chests!</li>
-</ul>
-
-<p><strong>User Interface</strong></p>
-
-<ul>
-<li>User Interface improvements for heroes with multiple forms have been added to the Hero Collection and Hero Select Ability screens for Deathwing and to the Hero Select Ability screen for Greymane.</li>
-</ul>
-
-<p><strong>AI</strong></p>
-
-<ul>
-<li>AI will now pay more attention to lanes that need to be defended or attacked.</li>
-<li>AI will no longer be aware of the status of mercenary camps they cannot see.</li>
-<li>AI will path through enemy towns less often.</li>
-<li>AI will more highly value preventing a mercenary camp from leashing.</li>
-<li>Mercenary camp goal base scores have been standardized on all maps. This will make it easier to observe and tweak AI agent mercenary capture behavior.</li>
-<li>Many map goal objective scores have been standardized on all maps. This will make it easier to observe and tweak AI agent objective behavior.</li>
-<li>Volskaya Foundry 
-<ul>
-<li>AI will no longer wait 8 seconds before using the Triglav Protector unless there is a human player on their team.</li>
-<li>Agents will be much more consistent and willing to pick up and use Turrets and Bio Emitters on Volskaya Foundry.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="new-hero-deathwing-the-destroyer">New Hero: Deathwing, The Destroyer</h3>
-
-<p>Now prepare for the unmaking of your world as Deathwing descends upon the
-Nexus. The Worldbreaker has set his sights on the realms of the Nexus to
-spread his reign of death and destruction.</p>
-
-<p><strong>Trait</strong></p>
-
-<ul>
-<li><strong>The Aspect of Death</strong>
-<ul>
-<li>Deathwing is covered by Adamantium Armor Plates, granting him Armor.</li>
-<li>He deals double damage to Heroes and is permanently Unstoppable but is unable to be affected by allied abilities.</li>
-</ul></li>
-</ul>
-
-<p><strong>Mount</strong></p>
-
-<ul>
-<li><strong>Dragonflight [Z]</strong>
-<ul>
-<li>After 3 seconds, fly into the air becoming immune to all effects and heal for 2.5% of your maximum Health per second. Once cast, this ability cannot be interrupted. Cannot be cast 4 seconds after taking damage, Basic Attacking or casting an Ability.</li>
-<li>After remaining in the air for at least 8 seconds, Deathwing can channel for 1.75 seconds and land anywhere that his team has vision of in either Destroyer or Worldbreaker forms, dealing 75 damage to enemies. His abilities are put on a 3 second cooldown upon landing. 
-<ul>
-<li>Energy: No Energy cost.</li>
-<li>Cooldown: 45 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Molten Flame [Q]</strong>
-<ul>
-<li>Breathe a stream of molten flame, dealing 192 damage per second. 
-<ul>
-<li>Molten Flame has an initial cost of 10 Energy, then drains 30 Energy per second.</li>
-<li>Cooldown: 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Incinerate [W - Destroyer]</strong>
-<ul>
-<li>Flap your wings in a downward blast, dealing 85 damage to nearby enemies. 
-<ul>
-<li>Energy: 15 Energy.</li>
-<li>Cooldown: 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Lava Burst [W - Worldbreaker]</strong>
-<ul>
-<li>After a 1 second delay, create a pool of magma that deals 16 damage per second and slows enemies by 35%. Lasts 6 seconds. 
-<ul>
-<li>Energy: 20 Energy.</li>
-<li>Cooldown: 6 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Onslaught [E - Destroyer]</strong>
-<ul>
-<li>Lunge in a targeted direction, dealing 42 damage and slowing enemies by 35% for 2 seconds.</li>
-<li>At the end of the lunge, Deathwing bites enemies for an additional 80 damage. 
-<ul>
-<li>Energy: 20 Energy.</li>
-<li>Cooldown: 5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Earth Shatter [E - Worldbreaker]</strong>
-<ul>
-<li>Create a fissure in the earth that deals 80 damage to enemies and stuns them for .75 seconds. 
-<ul>
-<li>Energy: 25 Energy.</li>
-<li>Cooldown: 12 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Ability</strong></p>
-
-<ul>
-<li><strong>Cataclysm [R]</strong>
-<ul>
-<li>After 2 seconds, fly in the targeted direction, dealing 90 damage on impact and leave scorched ground that deals an additional 48 damage per second for 6 seconds. 
-<ul>
-<li>Energy: No Energy cost.</li>
-<li>Cooldown: 90 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p>Many seasonal items will be returning to the Collection the week of December
-10, PST, and will be available for crafting and in Loot Chests for a limited
-time!</p>
-
-<p><strong>New Bundles</strong></p>
-
-<ul>
-<li>The following new bundles are only available for a limited time! 
-<ul>
-<li>Destroyer Brightwing Bundle</li>
-<li>Lil' Destroyers Bundle</li>
-</ul></li>
-<li>The following bundles will be available starting the week of December 10, PST: 
-<ul>
-<li>Toys 2019 Bundle</li>
-<li>Toys 2018 Bundle</li>
-<li>Cosmonaut Qhira Bundle</li>
-<li>Tickle Mephisto Bundle</li>
-<li>Green Army Bundle</li>
-<li>Train Bundle</li>
-</ul></li>
-</ul>
-
-<p><strong>New Skins</strong></p>
-
-<ul>
-<li><strong>Deathwing</strong>
-<ul>
-<li>Tyrannical Deathwing</li>
-<li>Iron Deathwing</li>
-<li>Glorious Deathwing</li>
-</ul></li>
-<li><strong>Destroyer Brightwing</strong>
-<ul>
-<li>Savage Destroyer Brightwing</li>
-<li>Ancient Destroyer Brightwing</li>
-<li>Tyrannical Destroyer Brightwing</li>
-<li>Iron Destroyer Brightwing</li>
-<li>Glorious Destroyer Brightwing</li>
-</ul></li>
-</ul>
-
-<p>The following skins will be available for a limited time starting the week of
-December 10, PST:</p>
-
-<ul>
-<li><strong>Tickle Mephisto</strong>
-<ul>
-<li>Grumpy Tickle Mephisto</li>
-<li>Crazed Tickle Mephisto</li>
-<li>Shocking Tickle Mephisto</li>
-<li>Cuddly Tickle Mephisto</li>
-<li>Unlucky Tickle Mephisto</li>
-</ul></li>
-<li><strong>Cosmonaut Qhira</strong>
-<ul>
-<li>Commander Cosmonaut Qhira</li>
-<li>Blazing Cosmonaut Qhira</li>
-<li>Explorer Cosmonaut Qhira</li>
-<li>Eternal Cosmonaut Qhira</li>
-<li>Super Cosmonaut Qhira</li>
-</ul></li>
-<li>Green Army Deckard Pain</li>
-<li>Green Army Commandant Varian</li>
-<li>Green Army Raynor</li>
-<li>Bitter Bear Stitches</li>
-<li>Shabby Bear Stitches</li>
-<li>Fuzzy Bear Stitches</li>
-<li>Galactic Force Valeera</li>
-<li>Proto Force Valeera</li>
-<li>Ferocious Dehakasaurus Rex</li>
-<li>X-Treme Dehakasaurus Rex</li>
-</ul>
-
-<p><strong>New Mount</strong></p>
-
-<p>The following mounts will be available for a limited time starting the week of
-December 10, PST:</p>
-
-<ul>
-<li><strong>Toy Train</strong>
-<ul>
-<li>Speedy Toy Train</li>
-<li>Blazing Toy Train</li>
-<li>Cosmic Toy Train</li>
-<li>Royal Toy Train</li>
-<li>Grimrail Toy Train</li>
-</ul></li>
-<li>Galactic Lion</li>
-<li>Proto Lion</li>
-<li>Gloomy Plush Unicorn</li>
-<li>Shabby Plush Unicorn</li>
-<li>Mellow Snowflake</li>
-<li>Periwinkle Snowflake</li>
-</ul>
-
-<p><strong>New Announcer</strong></p>
-
-<ul>
-<li>Deathwing Announcer</li>
-</ul>
-
-<p><strong>New Content</strong></p>
-
-<ul>
-<li>Several new portraits, sprays and other items have been added to the collection!</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#support">SUPPORT</a></th>
-  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#the-lost-vikings">The Lost Vikings</a></td>
-  <td><a href="#mephisto">Mephisto</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h4 id="the-lost-vikings">The Lost Vikings</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li><strong>Baleog</strong>
-<ul>
-<li>Health increased from 1095 to 1180.</li>
-<li>Health Regeneration increased from 2.22 to 2.46.</li>
-<li>Basic Attack damage increased from 73 to 78.</li>
-</ul></li>
-<li><strong>Erik</strong>
-<ul>
-<li>Health increased from 767 to 840.</li>
-<li>Health Regeneration increased from 1.6 to 1.75.</li>
-<li>Basic Attack damage increased from 60 to 65.</li>
-</ul></li>
-<li><strong>Olaf</strong>
-<ul>
-<li>Health increased from 1424 to 1540.</li>
-<li>Health Regeneration increased from 2.97 to 3.21.</li>
-<li>Basic Attack damage increased from 52 to 57.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talent</strong></p>
-
-<ul>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Longboat Raid [R1]</strong>
-<ul>
-<li>Mortar damage increased from 205 to 228.</li>
-<li>Viking Stun duration when the Longboat is destroyed reduced from 1.5 to 1 second.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Due to the changes to how experience is gathered, we
-  expect the Lost Vikings to have a harder time filling their role on a team. To
-  help them out a bit, we're giving them a bit of a baseline buff, as well as
-  buffing Longboat Raid.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="mephisto">Mephisto</h4>
-
-<p><strong>Talent</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Furious Spark [W]</strong>
-<ul>
-<li>Bonus damage is now dealt every 3rd hit.</li>
-<li>Damage reduced from 95 to 72.</li>
-<li>Additional functionality: Now also grants Mephisto 2 Mana when dealing damage with Furious Spark.</li>
-</ul></li>
-<li><strong>Malicious Intent [E]</strong>
-<ul>
-<li>Additional functionality: If Mephisto hits enemy Heroes at least 20 times with Basic Abilities while Shade of Mephisto is active, then increase the duration of the Spell Power bonus to 10 seconds after it ends.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Spite [Passive]</strong>
-<ul>
-<li>Regeneration Globe duration increased from 125% to 150%.</li>
-<li>Cooldown reduction increased from .75 seconds to 1 second.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Frost Storm [E]</strong>
-<ul>
-<li>No longer Slows enemy Heroes near the Shade of Mephisto.</li>
-<li>Additional functionality: Enemy Heroes who are hit by Lightning Nova while Shade of Mephisto is active are Slowed by 15% for 1 second.</li>
-</ul></li>
-<li><strong>Trickery [E]</strong>
-<ul>
-<li>No longer removes Slows and Roots from Mephisto.</li>
-<li>Additional functionality: If Mephisto hits enemy Heroes at least 20 times with Basic Abilities while Shade of Mephisto is active, then reset its cooldown.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Hysteria [Trait]</strong>
-<ul>
-<li>Additional functionality: Mephisto gains 15% of his maximum Health and Mana when he casts his Heroic Ability.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Animosity [W]</strong>
-<ul>
-<li>New functionality: Increase the duration of Lightning Nova by .5 seconds Basic Attacks against enemy Heroes while Lightning Nova is active increase the duration of Lightning Nova by an additional .25 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Mephisto's talents have been largely unchanged since
-  his release. While many of them seem to be in a good spot, some talents and
-  talent tiers had some systemic issues that we felt could be improved with some
-  changed functionality. We're not looking to overhaul the Mephisto that you
-  know and love, but we felt that he could use some new builds to play with.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
 
 <hr />
 
