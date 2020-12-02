@@ -7,7 +7,7 @@
 .small-hero-six, .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-seven, .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-hero-eight, .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
-.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20200623.png") 0 0 no-repeat; background-size: 44px 427.08695691px; height: 44px; width: 44px; }
+.small-hero-nine, .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20201201.png") 0 0 no-repeat; background-size: 44px 474.91304391px; height: 44px; width: 44px; }
 .small-battleground, .medium-battleground {
   background:url("//heroespatchnotes.com/images/sprite/bg-sprite-v20180612.png") 0 0 no-repeat; 
   background-size: 50.6px 814.0px; width: 44px; height: 44px;
@@ -81,6 +81,8 @@
 .hero-guldan{ background: url("//heroespatchnotes.com/images/hero/guldan.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-hanzo, .medium-hanzo{ background-position: 0px -191.304348px; }
 .hero-hanzo{ background: url("//heroespatchnotes.com/images/hero/hanzo.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
+.small-hogger, .medium-hogger{ background-position: 0px -430.434783px; }
+.hero-hogger{ background: url("//heroespatchnotes.com/images/hero/hogger.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-illidan, .medium-illidan{ background-position: 0px -334.782609px; }
 .hero-illidan{ background: url("//heroespatchnotes.com/images/hero/illidan.png") 0 0 no-repeat; background-size: 92px 93px; height: 93px; width: 92px; }
 .small-imperius, .medium-imperius{ background-position: 0px -191.304348px; }
@@ -276,6 +278,7 @@
 #greymane{ background: url("//heroespatchnotes.com/images/hero/greymane.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #guldan{ background: url("//heroespatchnotes.com/images/hero/guldan.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #hanzo{ background: url("//heroespatchnotes.com/images/hero/hanzo.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
+#hogger{ background: url("//heroespatchnotes.com/images/hero/hogger.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #illidan{ background: url("//heroespatchnotes.com/images/hero/illidan.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #imperius{ background: url("//heroespatchnotes.com/images/hero/imperius.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
 #jaina{ background: url("//heroespatchnotes.com/images/hero/jaina.png") 0 0 no-repeat; background-size: 76.82px 77.655px; }
@@ -345,7 +348,7 @@
   .medium-hero-six { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-six-v20170516.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-seven { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-seven-v20170808.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-hero-eight { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-eight-v20180612.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
-  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20200623.png") 0 0 no-repeat; background-size: 60px 582.391304309px; height: 60px; width: 60px; }
+  .medium-hero-nine { background:url("//heroespatchnotes.com/images/sprite/hero-sprite-nine-v20201201.png") 0 0 no-repeat; background-size: 60px 647.608695609px; height: 60px; width: 60px; }
   .medium-battleground { 
     background-size: 69px 1110.0px; width: 60px; height: 60px; 
   }
@@ -382,6 +385,7 @@
   .medium-greymane{ background-position: 0px -391.3043478px; }
   .medium-guldan{ background-position: 0px -195.6521739px; }
   .medium-hanzo{ background-position: 0px -260.8695652px; }
+  .medium-hogger{ background-position: 0px -586.9565217px; }
   .medium-illidan{ background-position: 0px -456.5217391px; }
   .medium-imperius{ background-position: 0px -260.8695652px; }
   .medium-jaina{ background-position: 0px -521.7391304px; }

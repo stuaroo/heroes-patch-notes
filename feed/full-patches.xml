@@ -2,10 +2,508 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2020-11-24T00:30:00.000Z</updated>
+  <updated>2020-12-01T10:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-12-01 Patch Notes</title>
+    <published>2020-12-01T10:30:00.000Z</published>
+    <updated>2020-12-01T10:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-12-01-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-12-01-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-decmeber-1-2020">Heroes of the Storm Live Patch Notes - Decmeber 1, 2020</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23572859" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23572859" target="_blank">Official Patch Notes</a> <small>v 2.53.0</small></div>
+
+<p>Our next Heroes of the Storm patch is live and brings a new Hero Hogger! Read
+on for more information.</p>
+
+<p><strong>NOTE: Orange text indicates a change between PTR and Live notes.</strong></p>
+
+<hr />
+
+<h3 id="new-hero-hogger-scourge-of-elwynn">New Hero: Hogger, Scourge of Elwynn</h3>
+
+<p>Hogger, a chaotic, mobile, bruiser who creates terrain and deals heavy area
+damage, now joins the battle in the Nexus!</p>
+
+<p><strong>Trait [D]</strong></p>
+
+<ul>
+<li><strong>Loot Hoard</strong>
+<ul>
+<li>Throw a pile of junk that deals 102 damage in a small area and acts as terrain for 5 seconds. Upon expiration, a scrap of Meat is dislodged from the Hoard that Hogger can collect to restore 3% of his maximum Health every second for 5 seconds.</li>
+<li>Cooldown: 20 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Trait [Passive]</strong></p>
+
+<ul>
+<li><strong>Rage</strong>
+<ul>
+<li>Rage is gained by taking damage or dealing Basic Attack damage. Hogger's Basic Ability cooldowns refresh 1% faster for every 2 points of Rage. After 3 seconds of not gaining Rage, it begins to quickly decay.</li>
+</ul></li>
+</ul>
+
+<p><strong>Basic Abilities</strong></p>
+
+<ul>
+<li><strong>Staggering Blow [Q]</strong>
+<ul>
+<li>Swing your chain in a wide arc, dealing 140 damage to enemies hit and knocking them away. If an enemy collides with terrain, they are dealt an additional 150 damage, Stunned for .75 seconds, and grant Hogger 10 Rage.</li>
+<li>Cooldown: 12 seconds.</li>
+</ul></li>
+<li><strong>Ez-Thro Dynamite [W]</strong>
+<ul>
+<li>Toss a boot full of Dynamite with a 1.5 second fuse. Upon detonation, enemies take 180 damage and are Slowed by 30% for 2 seconds. The Dynamite instantly detonates when landing directly on an enemy Hero and grants Hogger 10 Rage.</li>
+<li>Cooldown: 8 seconds.</li>
+</ul></li>
+<li><strong>Hogg Wild [E]</strong>
+<ul>
+<li>After .25 seconds, become Unstoppable and uncontrollably spin towards the targeted direction, ricocheting off any terrain encountered. Every .25 seconds, deal 36 damage to nearby enemies, increased by 1% for each current point of Rage. Ricocheting off terrain refreshes the duration of the spin.</li>
+<li>Cooldown: 14 seconds.</li>
+<li><span class="text-warning"><strong>No longer deals damage to Structures.</strong></span></li>
+</ul></li>
+</ul>
+
+<p><strong>Heroic Abilities</strong></p>
+
+<ul>
+<li><strong>Hoardapult [R1]</strong>
+<ul>
+<li>Launch an empowered Loot Hoard with Hogger attached, dealing 140 damage and Slowing enemies by 50% for 2 seconds. Hoardapult's Loot Hoard lasts for up to 20 seconds, but decays rapidly while Hogger isn't nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard.</li>
+<li>Cooldown: 50 seconds.</li>
+</ul></li>
+<li><strong>Shockwave [R2]</strong>
+<ul>
+<li>After .5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 306 damage and are Stunned for 1.25 seconds. Enemies only hit by the shockwave take 210 damage and are Stunned for .75 seconds.</li>
+<li>Cooldown: 70 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talent</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Journeyman Cooking [W]</strong>
+<ul>
+<li>Quest: Hitting an enemy Hero with Ez-Thro Dynamite restores 6% of Hogger's maximum Health and permanently increases Hogger's Health by 10, to a maximum of 750 bonus Health.</li>
+</ul></li>
+<li><strong>Bones to Gnaw [Trait]</strong>
+<ul>
+<li>Loot Hoard creates Meat on ground impact. While Meat is active, gain 10 armor.</li>
+</ul></li>
+<li><strong>On The Prowl [Active]</strong>
+<ul>
+<li>Activate to gain 30 Rage over 8 seconds. Passive: Hogger heals for 6 Health every second, increased by 2% for each point of Rage he has.</li>
+<li>Cooldown: 45 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Brute Strength [Q]</strong>
+<ul>
+<li>Increase the range of Loot Hoard by 15%. Each Hero hit by Staggering Blow will permanently increase Hogger's Basic Attack damage by 1, up to 100 bonus damage. Terrain collision impacts grant 2 stacks of this effect.</li>
+</ul></li>
+<li><strong>Aggro Range [E]</strong>
+<ul>
+<li>Increase Hogg Wild's area by 25% and generate 1 Rage per enemy hit, increased to 3 against Heroes.</li>
+</ul></li>
+<li><strong>Hogger's Joggers [Passive]</strong>
+<ul>
+<li>While at or above 30 Rage, Hogger gains 10% increased Movement Speed and healing received. When above 50 Rage, increase these bonuses to 15%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Seeing Red [Q/E]</strong>
+<ul>
+<li>While above 50 Rage, Staggering Blow and Hogg Wild's cooldowns refresh 30% faster and Hogger gains 25% increased Attack Speed.</li>
+</ul></li>
+<li><strong>Dense Blasting Powder [W]</strong>
+<ul>
+<li>Direct hits launch an additional stack of dynamite beyond the target. Hitting an Ez-Thro Dynamite with Staggering Blow launches 3 sticks of Dynamite.</li>
+</ul></li>
+<li><strong>Garbage Fire [W/Trait]</strong>
+<ul>
+<li>Reduce the cooldown of Loot Hoard by 4 seconds. Loot Hoard deals 22 damage every .5 seconds and Slows nearby enemies by 20% in a large area.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Dust Devil [E]</strong>
+<ul>
+<li>Hogg Wild grants <s>40</s> <span class="text-warning"><strong>30</strong></span> Armor while active and for 3 seconds after it ends. Increase this Armor value to <s>60</s> <span class="text-warning"><strong>50</strong></span> if Hogger has 50 or more Rage.</li>
+</ul></li>
+<li><strong>Pummel [E]</strong>
+<ul>
+<li>Enemies hit by Hogg Wild are Slowed by 10% for 1.5 seconds, stacking up to 5 times. Heroes hit also have their Spell Power reduced by 50% for 3 seconds.</li>
+</ul></li>
+<li><strong>Bloodthirst [Passive]</strong>
+<ul>
+<li>Hogger is healed for 33% of the damage dealt to Heroes by Basic Attacks, Hogg Wild, and Staggering Blow.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Headbanger [Q]</strong>
+<ul>
+<li>Heroes that collide with terrain from Staggering Blow take an additional 8% of maximum health as damage and are stunned for an additional .5 seconds.</li>
+</ul></li>
+<li><strong>Kablooie! [W]</strong>
+<ul>
+<li>Direct Hits with Ez-Thro Dynamite deal 40% more damage, reduce its cooldown by 1.5 seconds and increase its Slow amount to 50%.</li>
+<li><strong>[Passive]</strong> Ez-Thro Dynamite's range is increased by 25%.</li>
+</ul></li>
+<li><strong>Furzerker [Passive]</strong>
+<ul>
+<li>Hitting Heroes with Staggering Blow or Ez-Thro Dynamite increases the damage of Hogger's next Basic Attack by 50%. Stacking up to 2 Basic Attacks.</li>
+<li>When Hogg Wild ends, Hogger gains 30% Movement Speed for 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Secret Stash [R1]</strong>
+<ul>
+<li>Every 2 seconds, Hoardapult's Loot Hoard launches Ez-Thro Dynamite towards a random nearby enemy Hero. Every 5 seconds, a chunk or Meat is also launched towards Hogger.</li>
+</ul></li>
+<li><strong>Power Spike [R2]</strong>
+<ul>
+<li>Each Hero hit by Shockwave has their Armor reduced by 15 for 4 seconds and grants Hogger 20 Rage.</li>
+<li><strong>[Passive]</strong> Shockwave's cooldown is affected by Rage.</li>
+</ul></li>
+<li><strong>No Control <s>[E]</s> <span class="text-warning">[Active]</span></strong>
+<ul>
+<li>Activate to cast an untalented Hogg Wild and chase an enemy Hero. After reaching the Hero, Hogger will switch to chasing another nearby enemy Hero. If no other enemy Heroes are within range of a chase target, this abilities' duration will begin to rapidly decay. Lasts for up to <s>6</s> <span class="text-warning"><strong>5</strong></span> seconds. Cannot be canceled. 60 second cooldown.</li>
+</ul></li>
+<li><strong>Anger Management [Passive]</strong>
+<ul>
+<li>Increase Hogger's maximum Rage by 50. Basic Attacks generate 5 additional Rage.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="nexus-anomaly">Nexus Anomaly</h3>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> <br />
+  Hello fellow Heroes!  </p>
+  
+  <p>We've decided to remove our last Seasonal Nexus Anomaly, the Gladiator's
+  Medallion. While there were many things that we both did and did not like with
+  this experimental change, it wasn't a clear enough win for us to keep it going
+  forward.  </p>
+  
+  <p>We liked how the Medallion gave players some agency over countering CC chains,
+  and how it added a new vector of skill expression that was universally
+  available to everyone who played the game, no matter which hero or role they
+  played as.  </p>
+  
+  <p>However, over time, we felt that, as a whole, the Medallion took away from
+  cool plays more than it added them to the game. Setting up combos with
+  teammates is a large part of what makes Heroes of the Storm exciting to both
+  play and watch, and having 5 possible instances every 5 minutes of these plays
+  not working anymore was taking away a bit too much from the game. We had tried
+  some other iterations of the Medallion internally to solve this exact problem,
+  such as only having it available once per game for each player, but found that
+  lowering the frequency too much led to Medallions only being used during the
+  last fight, which ended up not hitting the mark for a new feature that should
+  made the game better as a whole.  </p>
+  
+  <p>Despite the issues we have with the Medallion, we believe the idea still has
+  some promise, so you may see some more experimentation in the future. We also
+  wanted to remind you that we will not be doing seasonal Nexus Anomalies going
+  forward. We will, however, continue to iterate and pursue other ways to
+  improve Heroes of the Storm, and will release those updates when we feel they
+  are ready. As always, thank you so much for playing this game that we all
+  love.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<p>Many seasonal items will be returning to the collection, and will be available
+for crafting and in Loot Chests for a limited time!</p>
+
+<ul>
+<li><strong>New Bundles (Limited Time Only!)</strong>
+<ul>
+<li>Hogger Heroic Bundle</li>
+<li>Winter Veil Classic Bundle</li>
+</ul></li>
+<li><strong>Returning Bundles (Limited Time Only!)</strong>
+<ul>
+<li>Toys 2018 Bundle</li>
+<li>Toys 2019 Bundle</li>
+</ul></li>
+<li><strong>New Skins</strong>
+<ul>
+<li>Stormwind Hogger</li>
+<li>Redridge Hogger</li>
+<li>Duskwood Hogger</li>
+<li><strong>Shipwrecker Hogger</strong>
+<ul>
+<li>Admiral Shipwrecker Hogger</li>
+<li>Drowned Shipwrecker Hogger</li>
+<li>Stately Shipwrecker Hogger</li>
+</ul></li>
+</ul></li>
+<li><strong>New Mounts</strong>
+<ul>
+<li><strong>Bottleship</strong>
+<ul>
+<li>Grog Bottleship</li>
+<li>Seaweed Bottleship</li>
+</ul></li>
+</ul></li>
+<li><strong>New Announcer</strong>
+<ul>
+<li>Hogger Announcer</li>
+</ul></li>
+<li><strong>New Content</strong>
+<ul>
+<li>Several new Portraits, Emoji Packs and other items have been added to the Collection!</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="storm-league">Storm League</h3>
+
+<ul>
+<li><span class="text-warning"><strong>When queued as a party, Storm League now looks for matches based solely on the highest player's MMR.</strong></span></li>
+</ul>
+
+<blockquote>
+  <p><span class="text-warning"><em><strong>Developer Comment:</strong></em> While we know that this isn't a 'silver bullet' fix
+  for all types of account smurfing, it should help make trying to climb the
+  leaderboard feel more fair for both parties and individuals.</span></p>
+</blockquote>
+
+<ul>
+<li><strong>Storm League Reward Mounts</strong>
+<ul>
+<li>The final reward of the 2020 Season 5 Questline will be the Quillbear Mount, which will be awarded after winning 35 games in Ranked Play.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><a href="#bruiser">BRUISER</a></th>
+  <th><a href="#healer">HEALER</a></th>
+  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#imperius">Imperius</a></td>
+  <td><a href="#brightwing">Brightwing</a></td>
+  <td><a href="#jaina">Jaina</a></td>
+</tr>
+<tr>
+  <td><a href="#sonya">Sonya</a></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="#thrall">Thrall</a></td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h4 id="brightwing">Brightwing</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Hyper Shift [Z]</strong>
+<ul>
+<li>Bonus healing reduced from 10% to 8% maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Hyper Shift is dominating Brightwing's Level 1 talent
+  choices, and she has recently risen greatly in prominence, in part due to its
+  power. We don't believe she is greatly overperforming at this time, so we're
+  giving it a slight nerf and will be keeping an eye on her to see if any future
+  adjustments are needed.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="imperius">Imperius</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2450 to 2375.</li>
+<li>Health Regeneration reduced from 5.11 to 4.95.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Blaze of Glory [W]</strong>
+<ul>
+<li>Damage increased from 135 to 150.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Imperius is still a dominating pick, particularly at
+  the higher ranks of play. We're slighting reducing his overall power while
+  also buffing his Blaze of Glory to help it compete better on his Level 7 tier.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="jaina">Jaina</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Icefury Wand [Passive]</strong>
+<ul>
+<li>Adjusted functionality: Basic Attacks against Chilled targets deal 50% bonus damage and reduce the cooldown of Blizzard by 1.25 seconds, doubled against enemy Heroes.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We've heard fairly consistent feedback that players
+  would like Icefury Wand to give a benefit to non-Heroic targets. We like the
+  idea, so we are giving some of its power as a bonus against all targets.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="sonya">Sonya</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Shattered Ground [W]</strong>
+<ul>
+<li>Damage increased from 100% to 125% of Seismic Slam's base damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Ruthless [E]</strong>
+<ul>
+<li>Now shows Crit kickers when bonus damage is dealt.</li>
+<li>Health threshold for bonus damage increased from 33% to 50%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Giant Slammer [W]</strong>
+<ul>
+<li>Damage increased from 1.25% to 1.5% maximum Health.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're buffing some of Sonya's under-used talents to
+  help them compete with her more standard builds. Many of her [W] talents in
+  particular, have been slightly underperforming for some time, so we're hoping
+  these buffs cause players to give the build another look.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="thrall">Thrall</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Feral Resilience [W]</strong>
+<ul>
+<li>Physical Armor increased from 50 to 75.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Spirit Shield [Active]</strong>
+<ul>
+<li>Spell Armor duration increased from 1.5 to 2.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Worldbreaker [R1]</strong>
+<ul>
+<li>Cooldown reduction increased from 20 to 40 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> It's been quite some time since we've had any updates
+  to Thrall. Truth be told, his talents have been in a fairly healthy place, so
+  we didn't see the need to make adjustments. Even so, we believe these changes
+  will make his talent tiers more healthy, and should incentivize some
+  alternative ways to play him.</p>
+</blockquote>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<ul>
+<li>Fixed an issue where Alarak could become Protected and move without proccing Counter-Strike's cooldown.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2020-11-23 PTR Patch Notes</title>
     <published>2020-11-24T00:30:00.000Z</published>
@@ -14588,40 +15086,6 @@ for crafting and in Loot Chests for a limited time!</p>
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
 
 <hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2019-12-04 Hotfix Patch</title>
-    <published>2019-12-05T22:00:00.000Z</published>
-    <updated>2019-12-05T22:00:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2019-12-04-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2019-12-04-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-december-4-2019">Heroes of the Storm Hotfix Patch Notes – December 4, 2019</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-december-4-2019/30208" target="_blank"></a><a href="https://us.forums.blizzard.com/en/heroes/t/hotfix-patch-notes-december-4-2019/30208" target="_blank">Official Patch Notes</a> <small>v 2.49.0</small></div>
-
-<p>We've released a hotfix today to address a bug below.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed a bug with shaders that was causing crashes to occur.</li>
-</ul>
-
-<p><strong>Heroes</strong></p>
-
-<ul>
-<li><strong>Abathur</strong>
-<ul>
-<li><span class="text-warning">Abathur's Symbiote Experience Globe collection range increased from 0 to 1.5</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/e67au1/undocumented_abathur_symbiote_buff_in_hotfix_patch" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
 ]]></content>
   </entry>
 </feed>

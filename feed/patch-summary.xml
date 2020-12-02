@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2020-11-05T07:25:00.000Z</updated>
+  <updated>2020-12-01T10:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2020-12-01 Patch Notes v 2.53.0</title>
+    <published>2020-12-01T10:30:00.000Z</published>
+    <updated>2020-12-01T10:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2020-12-01-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-12-01-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+        <h3><img src="https://heroespatchnotes.com/images/hero/hogger.png" alt="Hogger" height="60" width="60" /> Hogger</h3>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2020-12-01" target="_blank">Brightwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2020-12-01" target="_blank">Imperius</a>, 
+          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2020-12-01" target="_blank">Jaina</a>, 
+          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2020-12-01" target="_blank">Sonya</a>, 
+          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2020-12-01" target="_blank">Thrall</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2020-11-04 Balance Update v 2.52.2</title>
     <published>2020-11-05T07:25:00.000Z</published>
@@ -323,37 +344,6 @@
       </ul>
       <h4>Reworks</h4>
         <img src="https://heroespatchnotes.com/images/hero/tassadar.png" href="https://heroespatchnotes.com/hero/tassadar.html#patch2020-04-14" alt="Tassadar Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-03-11 Balance Update v 2.49.4</title>
-    <published>2020-03-12T00:49:00.000Z</published>
-    <updated>2020-03-12T00:49:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-03-11-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-03-11-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/anduin.html#patch2020-03-11" target="_blank">Anduin</a>, 
-          <a href="https://heroespatchnotes.com/hero/arthas.html#patch2020-03-11" target="_blank">Arthas</a>, 
-          <a href="https://heroespatchnotes.com/hero/butcher.html#patch2020-03-11" target="_blank">Butcher</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2020-03-11" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2020-03-11" target="_blank">Imperius</a>, 
-          <a href="https://heroespatchnotes.com/hero/kerrigan.html#patch2020-03-11" target="_blank">Kerrigan</a>, 
-          <a href="https://heroespatchnotes.com/hero/kharazim.html#patch2020-03-11" target="_blank">Kharazim</a>, 
-          <a href="https://heroespatchnotes.com/hero/mephisto.html#patch2020-03-11" target="_blank">Mephisto</a>, 
-          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2020-03-11" target="_blank">Raynor</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2020-03-11" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/rexxar.html#patch2020-03-11" target="_blank">Rexxar</a>, 
-          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2020-03-11" target="_blank">Samuro</a>, 
-          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2020-03-11" target="_blank">Stukov</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2020-03-11" target="_blank">Tyrael</a>, 
-          <a href="https://heroespatchnotes.com/hero/xul.html#patch2020-03-11" target="_blank">Xul</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/xul.png" href="https://heroespatchnotes.com/hero/xul.html#patch2020-03-11" alt="Xul Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
