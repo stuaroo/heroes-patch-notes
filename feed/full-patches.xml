@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2021-01-20T05:15:00.000Z</updated>
+  <updated>2021-01-22T20:15:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2021-01-21 Hotfix Patch</title>
+    <published>2021-01-22T20:15:00.000Z</published>
+    <updated>2021-01-22T20:15:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2021-01-21-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-01-21-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-january-21-2021">Heroes of the Storm Hotfix Patch Notes – January 21, 2021</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/" target="_blank">Official Patch Notes</a> <small>v 2.53.1</small></div>
+
+<p>We've released a hotfix today with updates below.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li>Zul'jin
+<ul>
+<li><span class="text-warning">Fixed an issue where No Mercy's percent damage bonus was available without taking the talent</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/l2cja9/new_patch_available_just_had_to_restart/gk4l5fi/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Fixed an issue where No Mercy's percent damage would not apply on the attack that removed the Grevious Throw marker</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/l2cja9/new_patch_available_just_had_to_restart/gk4l5fi/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Fixed an issue where No Mercy's percent damage would affect non-heroic targets</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/l2cja9/new_patch_available_just_had_to_restart/gk4l5fi/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+<li>Ragnaros
+<ul>
+<li><span class="text-warning">Fixed an issue where Molten Power would not increase in stack count for enemy Heroes hit with the initial impact</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/l2cja9/new_patch_available_just_had_to_restart/gk4l5fi/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong>A big thank you to <a href="https://www.reddit.com/r/heroesofthestorm/comments/l2cja9/new_patch_available_just_had_to_restart/gk4l5fi/">u/Spazzo965 for providing details</a> to this hotfix patch!</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2021-01-19 Balance Update</title>
     <published>2021-01-20T05:15:00.000Z</published>
@@ -692,18 +732,18 @@ for details.</p>
 <li>Energy cost reduction reduced from 15 to 10.</li>
 </ul></li>
 </ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Smoke Bomb [R1]</strong>
+<ul>
+<li>Smoke Bomb Armor increased from 30 to 60.</li>
+</ul></li>
+</ul></li>
 <li><strong>Level 16</strong>
 <ul>
 <li><strong>Thistle Tea [Active]</strong>
 <ul>
 <li>Cooldown reduced from 40 to 20 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Adrenaline Rush [R1]</strong>
-<ul>
-<li>Additional functionality: Smoke Bomb Armor increased from 30 to 60.</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -930,6 +970,35 @@ for details.</p>
 <li><strong>Tychus</strong>
 <ul>
 <li>Melting Point now properly follows DoT rules.</li>
+</ul></li>
+</ul>
+
+<p><span class="text-warning"><strong>Undocumented</strong></span></p>
+
+<ul>
+<li><span class="text-warning">Big thanks to <a href="https://www.reddit.com/user/Spazzo965">u/Spazzo965</a> for sharing his findings!</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/l0wjnx/heroes_of_the_storm_balance_patch_notes_january/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning"><strong>Deathwing</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where Draconic Might would grant protected when Deathwing gained less than 4 Armor Plates</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>D.Va</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where the Mech could grant experience and takedown credit multiple times</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Hogger</strong></span>
+<ul>
+<li><span class="text-warning">The system for handling Hogger going out of bounds now lasts 0.5 seconds, rather than as long as Hogg Wild is active</span></li>
+<li><span class="text-warning">No Control is now removed by Devouring Maw</span></li>
+<li><span class="text-warning">No Control will no longer track dead, stopped or heroes in stasis</span></li>
+<li><span class="text-warning">No Control now looks in 1.75 radius for targets to decelerate, down from 2 radius</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Thrall</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where the Shields provided by Earthen Shields would grant 15% of Thrall's Maximum Health as Shields, rather than 15% of the target's Maximum Health as Shields</span></li>
+</ul></li>
+<li><span class="text-warning"><strong>Tassadar</strong></span>
+<ul>
+<li><span class="text-warning">Fixed an issue where Archon would not extend the duration of Feedback's Armor Reduction while it remained active</span></li>
 </ul></li>
 </ul>
 
@@ -14262,876 +14331,6 @@ for details.</p>
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
 
 <hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-01-22 Balance Update</title>
-    <published>2020-01-23T01:50:00.000Z</published>
-    <updated>2020-01-23T01:50:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-01-22-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-01-22-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-january-22-2020">Heroes of the Storm Balance Patch Notes - January 22, 2020</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/23237905" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/23237905" target="_blank">Official Patch Notes</a> <small>v 2.49.2</small></div>
-
-<p>Heroes of the Storm has just been updated with Hero balance changes! Read on
-for details.</p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<ul>
-<li><strong>Toys 2 Event</strong>
-<ul>
-<li>Toys 2 Event has been extended to April 7, 2020, PT.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#tank">TANK</a></th>
-  <th><a href="#bruiser">BRUISER</a></th>
-  <th><a href="#support">SUPPORT</a></th>
-  <th><a href="#healer">HEALER</a></th>
-  <th><a href="#melee-assassin">MELEE ASSASSIN</a></th>
-  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#anubarak">Anub'arak</a></td>
-  <td><a href="#chen">Chen</a></td>
-  <td><a href="#abathur">Abathur</a></td>
-  <td><a href="#auriel">Auriel</a></td>
-  <td><a href="#maiev">Maiev</a></td>
-  <td><a href="#azmodan">Azmodan</a></td>
-</tr>
-<tr>
-  <td><a href="#arthas">Arthas</a></td>
-  <td><a href="#deathwing">Deathwing</a></td>
-  <td></td>
-  <td><a href="#kharazim">Kharazim</a></td>
-  <td><a href="#samuro">Samuro</a></td>
-  <td><a href="#mephisto">Mephisto</a></td>
-</tr>
-<tr>
-  <td><a href="#cho">Cho</a></td>
-  <td><a href="#thrall">Thrall</a></td>
-  <td></td>
-  <td><a href="#stukov">Stukov</a></td>
-  <td></td>
-  <td><a href="#nazeebo">Nazeebo</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#whitemane">Whitemane</a></td>
-  <td></td>
-  <td><a href="#orphea">Orphea</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#probius">Probius</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#sgt-hammer">Sgt. Hammer</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="tank">Tank</h3>
-
-<h4 id="anubarak">Anub'arak</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Beetle, Juiced [Trait]</strong>
-<ul>
-<li>Bonus Health increased from 20% to 40%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Hive Master [R1]</strong>
-<ul>
-<li>Healing increased from 37 to 50.</li>
-</ul></li>
-<li><strong>Cryptweave [R2]</strong>
-<ul>
-<li>Bonus Cocoon duration increased from 4 to 6 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're giving Anub'arak some additional small buffs to
-  underused talents, which should help increase his diversity in the latter
-  portions of the game.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="arthas">Arthas</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Deathlord [Q]</strong>
-<ul>
-<li>Additional functionality: Increase the range of Death Coil by 30%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We heard you Kyle and Garrett. We're sorry we took it
-  away. Here, have it back.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="cho">Cho</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 2850 to 2950.</li>
-<li>Health Regeneration increased from 5.94 to 6.15.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Upheaval [R2]</strong>
-<ul>
-<li>Cooldown reduced from 60 to 40 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Favor of the Old Gods [R2]</strong>
-<ul>
-<li>Root duration increased from 1.5 to 2 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Cho like buffs.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bruiser">Bruiser</h3>
-
-<h4 id="chen">Chen</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Stormstout Secret Recipe [Passive]</strong>
-<ul>
-<li>Healing increased from 3% to 3.5% maximum Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Withering Flames [W]</strong>
-<ul>
-<li>Spell Power reduction increased from 50% to 60%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Gift of the Ox [E]</strong>
-<ul>
-<li>Bonus Stagger duration increased from 1 to 1.5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Wandering Keg [R1]</strong>
-<ul>
-<li>Cooldown reduced from 60 to 50 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Pressure Point [Q]</strong>
-<ul>
-<li>Slow amount increased from 35% to 40%.</li>
-<li>Slow amount when Chen has Shields from Fortifying Brew increased from 70% to 80%.</li>
-</ul></li>
-<li><strong>A Touch of Honey [W]</strong>
-<ul>
-<li>Slow amount bonus increased from 15% to 20%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While Chen's talents are in a relatively good spot,
-  there is generally one talent on every tier that is being picked a bit less
-  than its counter-parts. We're giving some significant buffs to the talents
-  that aren't currently as popular in hopes that players try out new ways to
-  play the Panderan Brewmaster.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="deathwing">Deathwing</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 2920 to 2850.</li>
-<li>Health Regeneration reduced from 6.08 to 5.94.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Incinerate [W]</strong>
-<ul>
-<li>Damage reduced from 80 to 75.</li>
-</ul></li>
-<li><strong>Onslaught [E]</strong>
-<ul>
-<li>Damage reduced from 40 to 38.</li>
-<li>Damage at the end of the lunge reduced from 75 to 72.</li>
-</ul></li>
-<li><strong>Lava Burst [W]</strong>
-<ul>
-<li>Periodic damage increased from 8 to 10 per second.</li>
-</ul></li>
-<li><strong>Earth Shatter [E]</strong>
-<ul>
-<li>Damage increased from 80 to 90.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Molten Blood [Trait]</strong>
-<ul>
-<li>Healing increased from .4 to .5% per second.</li>
-</ul></li>
-<li><strong>Draconic Might [Trait]</strong>
-<ul>
-<li>Healing reduced from 30% to 25% damage dealt.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Heat Wave [W]</strong>
-<ul>
-<li>Damage after using Incinerate reduced from 16 to 14 per second.</li>
-</ul></li>
-<li><strong>Dragon's Ire [Trait]</strong>
-<ul>
-<li>Bonus damage reduced from 30% to 25%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Firestorm [Z]</strong>
-<ul>
-<li>Cooldown reduction increased from 12 to 25 seconds.</li>
-</ul></li>
-<li><strong>Skyfall [E]</strong>
-<ul>
-<li>Cooldown reduction reduced from 1.5 seconds to 1 second.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Burn Beneath My Shadow [R1]</strong>
-<ul>
-<li>Bonus damage reduced from 100% to 80%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While in a much better spot, Deathwing is still
-  overperforming, so we're bringing him down a peg in various ways. This time,
-  however, we are including some buffs to parts of his kit that could use it,
-  particularly to his Worldbreaker form and to some of his talents.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="thrall">Thrall</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Rolling Thunder [Q]</strong>
-<ul>
-<li>Bonus damage and healing on Heroic targets increased from 2% to 3%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Rolling Thunder's tuning was a bit low initially.
-  This should make it much more appropriately attractive compared to the other
-  powerful options Thrall has on the tier.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="support">Support</h3>
-
-<h4 id="abathur">Abathur</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Locust Strain [Trait]</strong>
-<ul>
-<li>Locust Health increased from 316 to 350.</li>
-<li>Additional functionality: Locusts deal 50% bonus damage to enemy Structures.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Envenomed Nest [W]</strong>
-<ul>
-<li>Additional functionality: Enemy Heroes who are hit by Toxic Nests have their Armor reduced by 10 for 4 seconds.</li>
-</ul></li>
-<li><strong>Reinforced Carapace [E]</strong>
-<ul>
-<li>Shield amount increased from 30% to 40%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Volatile Mutation [R]</strong>
-<ul>
-<li>Healing increased from 75% to 100% of damage dealt.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Evolutionary Link [R1]</strong>
-<ul>
-<li>Shield amount Increased from 25% to 35% maximum Health.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> In addition to buffing underperforming talents, we're
-  experimenting with giving Locusts a larger presence in Abathur's kit. If left
-  unattended, they will now do increased damage to Structures, which will reward
-  good Abathur players who pay close attention to their position on the map and
-  the state of the game.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="healer">Healer</h3>
-
-<h4 id="auriel">Auriel</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Resurrect [R1]</strong>
-<ul>
-<li>Cast range reduced from 7 to 5.</li>
-<li>Cast time increased from .5 seconds to 1 second.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We knew Auriel's Resurrect changes were going to be a
-  big deal, and for the most part they have been going fairly well. It's now
-  picked much more often, and, to our pleasant surprise, isn't winning by a
-  large margin over Crystal Aegis. While we like the epic moment of power that
-  the current iteration offers, there is understandably a bit of frustration
-  with Heroic now. To add some more counter-play, we're reducing its cast range
-  and adding more to its cast time to give opponents a better chance to
-  interrupt her. Auriel players will now have to choose their moments much more
-  wisely if they hope to get a Resurrect off on a key ally who recently died.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="kharazim">Kharazim</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Basic Attack damage increased from 60 to 64.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Transcendence [Trait]</strong>
-<ul>
-<li>Movement Speed bonus duration increased from 2 to 2.5 seconds.</li>
-</ul></li>
-<li><strong>Iron Fists [Trait]</strong>
-<ul>
-<li>Movement Speed bonus duration increased from 2 to 2.5 seconds.</li>
-</ul></li>
-<li><strong>Insight [Trait]</strong>
-<ul>
-<li>Movement Speed bonus duration increased from 2 to 2.5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Air Ally [Active]</strong>
-<ul>
-<li>Cooldown increased from 20 to 30 seconds.</li>
-<li>Health increased from 75 to 200.</li>
-<li>Duration reduced from 40 to 10 seconds.</li>
-<li>Charges reduced from 2 to 1.</li>
-<li>Additional functionality: Now also grants nearby allied Heroes 15% Spell Power for its duration.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Play Kharazim! Also, Air Ally does cool things now.
-  Play that too.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stukov">Stukov</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Bio-Explosion Switch [Trait]</strong>
-<ul>
-<li>Silence duration increased from 2 to 2.5 seconds.</li>
-<li>Additional functionality: Detonating Lurking Arm also deals 230 damage to enemies caught in its explosion.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Bio-Explosion Switch has always been in a bit of an
-  awkward spot due to the opportunity cost of ending Lurking Arm early. To make
-  the talent more obviously powerful, we're adding some significant damage to
-  the explosion and a larger Silence duration to the detonation to make up for
-  the fact that Stukov's Lurking Arm goes away when the explosion happens. Now,
-  if Stukov players properly detonate the Lurking Arm right as their enemies are
-  leaving it, they should have a significant benefit when taking this talent.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="whitemane">Whitemane</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Saintly Greatstaff [E]</strong>
-<ul>
-<li>Damage increased from 50 to 55.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Due to an issue with Saintly Greatstaff causing
-  Whitemane's Basic Attacks to heal for more than intended, we are buffing the
-  talent to compensate for the fix.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="melee-assassin">Melee Assassin</h3>
-
-<h4 id="maiev">Maiev</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Cruel Chain [W]</strong>
-<ul>
-<li>New functionality: Umbral Bind grants 25% Movement Speed for 2.5 seconds, and its pull damage is increased by 30% for each tethered target beyond the first, up to 120%.</li>
-</ul></li>
-<li><strong>Vengeful Knives [E]</strong>
-<ul>
-<li>New functionality: for 5 seconds after teleporting with Spirit of Vengeance, Fan of Knives will deal 1% maximum Health as bonus damage to enemy Heroes. Increase this damage bonus by an additional 1% for each enemy Hero hit by Spirit of Vengeance.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While Maiev is a terror in the hands of the more
-  elite portion of our playerbase, we don't want that to be a reason to not
-  improve talents that we feel could use the help. Cruel Chain and Vengeful
-  Knives have parts of their functionality that didn't feel particularly
-  impactful, so we're adding more clear and useful benefits to each of them,
-  which should make them more usable.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="samuro">Samuro</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Way of Illusion [Q]</strong>
-<ul>
-<li>Quest reward bonus damage increased from 20 to 30.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Deflection [Passive]</strong>
-<ul>
-<li>Armor bonus increased from 30 to 35.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Samuro's rework, statistically, has gone very well.
-  His pick and win rates across his talents are in a better spot, and we believe
-  his frustration levels have decreased since the changes. We're being tame with
-  our initial changes due to some bug fixes that can change how some talents pan
-  out over the long haul. While we wait, we wanted to buff a couple
-  underperforming talents that shouldn't be affected by these fixes.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="ranged-assassin">Ranged Assassin</h3>
-
-<h4 id="azmodan">Azmodan</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Summon Demon Warrior [W]</strong>
-<ul>
-<li>Basic Attack damage increased from 30 to 35.</li>
-<li>Damage per second to nearby enemies increased from 16 to 18.</li>
-</ul></li>
-<li><strong>All Shall Burn [E]</strong>
-<ul>
-<li>Periodic damage per second increased from 120 to 128.</li>
-<li>Final explosion damage increased from 320 to 340.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Battleborn [Passive]</strong>
-<ul>
-<li>Additional functionality: Reduce the Mana cost of Summon Demon Warrior from 25 to 20.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Bombardment [Q]</strong>
-<ul>
-<li>Empowered Basic Attacks duration increased from 3 to 4 seconds.</li>
-</ul></li>
-<li><strong>Master of Destruction [E]</strong>
-<ul>
-<li>Bonus Annihilation per Hero hit increased from 3 to 4.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Azmodan's been in a decent spot in regards to his
-  talent diversity for some time, but he has been slightly underperforming
-  compared to other heroes as a whole. We're giving him some buffs to his base
-  kit and to a couple underperforming talents, which should help players feel
-  better about having the Lord of Sin on their team.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="mephisto">Mephisto</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Malicious Intent [E]</strong>
-<ul>
-<li>Spellpower bonus increased from 20% to 25%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Animosity [W]</strong>
-<ul>
-<li>Bonus duration increased from .5 seconds to 1 second.</li>
-<li>No longer increases the duration of Lightning Nova as a result of Basic Attacking enemy Heroes.</li>
-<li>Additional functionality: Increase the maximum bonus damage of Lightning Nova from 30% to 36%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Mephisto's talents are in a much better place since
-  our last changes, but Malicious Intent and Animosity were underperforming so
-  we're giving them some buffs.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="nazeebo">Nazeebo</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Ravenous Spirit [R2]</strong>
-<ul>
-<li>Damage increased from 108 to 115.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Yep.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="orphea">Orphea</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Growing Nightmare [E]</strong>
-<ul>
-<li>Additional functionality: Increase the damage of Dread's explosion by 25%.</li>
-<li>Now shows Crit kickers when hitting 2 or more enemy Heroes.</li>
-</ul></li>
-<li><strong>Ancestral Strength [Trait]</strong>
-<ul>
-<li>No longer grants additional Chaos when hitting Stunned, Rooted, Silenced, or Slowed enemy Heroes.</li>
-<li>Additional functionality: Enemy Heroes who are hit with Overflowing Chaos are Slowed by 20% for 2.5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Fright [E]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>New talent: Chaotic Assault [Trait]</strong>
-<ul>
-<li>Basic attacks against enemy Heroes while having 3 stacks of Chaos deal an additional 50% bonus damage.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Lurking terror [Active]</strong>
-<ul>
-<li>Additional functionality: If Chomp is cast in this way, then it Slows enemy Heroes hit by 70% for 1 second.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're trying to solve a few issues with Orphea's
-  current talent tree. Firstly, we're getting rid of the necessary synergy
-  between Ancestral Strength and Fright, opting to instead bake a more reliable
-  way to Slow enemies into Ancestral Strength. We're also buffing Growing
-  Nightmare so that it's the premier E talent in an E build, as well as giving
-  Lurking Terror some love. Ideally, Lurking Terror can now be used as a more
-  unique way to set up Q and W hits on enemies who are far away from Orphea,
-  particularly when combined with Insatiable for quick double W combos.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="probius">Probius</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Particle Accelerator [Q]</strong>
-<ul>
-<li>Maximum bonus damage for enemies hit reduced from 50% to 40%.</li>
-<li>Additional functionality: Reduce the cooldown of Disruption Pulse by .5 seconds, plus an additional .5 seconds whenever Warp Rift explodes.</li>
-</ul></li>
-<li><strong>Tower Defense [E]</strong>
-<ul>
-<li>New functionality: Reduce the cooldown of Photon Cannon by 4 seconds whenever Probius damages an enemy Hero with Disruption Pulse or Warp Rift.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Repulsor [W]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Interference [W]</strong>
-<ul>
-<li>Additional functionality: Enemies that are hit by Warp Rift's explosion are knocked away from its center.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We haven't done many functionality changes to
-  Probius's talents since his release, so we're now taking a look at places that
-  could use some design love. We're targeting Tower Defense and Particle
-  Accelerator as talents that should feel more prominent in their respective
-  builds, as well as removing Repulsor and baking its functionality into
-  Interference, as it wasn't enough of a stand-alone talent to be worth picking
-  the majority of the time.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="sgt-hammer">Sgt. Hammer</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Barricade [W]</strong>
-<ul>
-<li>Additional functionality: Reduce the cooldown of Concussive Blast by 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Pulse Detonation Core [Q]</strong>
-<ul>
-<li>Additional functionality: Basic Attacks against enemy Heroes grant 5 Mana and reduce the cooldown of Spider Mines by 1 second. Increase this bonus to 1.5 seconds while in Siege Mode.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Both Barricade and Pulse Detonation Core have very
-  low pick rates, so we're giving them some love, which should hopefully
-  incentivize players to try them out more often.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Updated missing tooltips in a certain language.</li>
-</ul>
-
-<p><strong>Heroes</strong></p>
-
-<ul>
-<li><strong>Arthas</strong>
-<ul>
-<li>Updated the Deathlord's advanced tooltip description.</li>
-</ul></li>
-<li><strong>Deathwing</strong>
-<ul>
-<li>Fixed an issue where Lava Burst's targeting guide range indicator could be shorter than its cast range.</li>
-<li>Fixed an issue where Deathwing could be affected by Blinds.</li>
-</ul></li>
-<li><strong>Samuro</strong>
-<ul>
-<li>Fixed an issue where Casting Image Transmission while selecting an Illusion, could place the ability on the wrong cooldown with Illusion Master.</li>
-<li>Phantom Pain's bonus damage no longer affects non-Heroic targets.</li>
-<li>Updated a few tooltip descriptions.</li>
-</ul></li>
-<li><strong>Whitemane</strong>
-<ul>
-<li>Fixed an issue where Saintly Greatstaff could be doubling Zeal healing from basic attacks.</li>
-</ul></li>
-</ul>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
 ]]></content>
   </entry>
 </feed>
