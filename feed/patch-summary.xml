@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2021-01-20T05:15:00.000Z</updated>
+  <updated>2021-03-03T09:33:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2021-03-02 Balance Update v 2.53.2</title>
+    <published>2021-03-03T09:33:00.000Z</published>
+    <updated>2021-03-03T09:33:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2021-03-02-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-03-02-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2021-03-02" target="_blank">Alexstrasza</a>, 
+          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2021-03-02" target="_blank">Artanis</a>, 
+          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2021-03-02" target="_blank">Chromie</a>, 
+          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2021-03-02" target="_blank">Diablo</a>, 
+          <a href="https://heroespatchnotes.com/hero/falstad.html#patch2021-03-02" target="_blank">Falstad</a>, 
+          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2021-03-02" target="_blank">Fenix</a>, 
+          <a href="https://heroespatchnotes.com/hero/hogger.html#patch2021-03-02" target="_blank">Hogger</a>, 
+          <a href="https://heroespatchnotes.com/hero/illidan.html#patch2021-03-02" target="_blank">Illidan</a>, 
+          <a href="https://heroespatchnotes.com/hero/lili.html#patch2021-03-02" target="_blank">Li Li</a>, 
+          <a href="https://heroespatchnotes.com/hero/lucio.html#patch2021-03-02" target="_blank">Lucio</a>, 
+          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2021-03-02" target="_blank">Malfurion</a>, 
+          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2021-03-02" target="_blank">Mal'Ganis</a>, 
+          <a href="https://heroespatchnotes.com/hero/mephisto.html#patch2021-03-02" target="_blank">Mephisto</a>, 
+          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2021-03-02" target="_blank">Muradin</a>, 
+          <a href="https://heroespatchnotes.com/hero/ragnaros.html#patch2021-03-02" target="_blank">Ragnaros</a>, 
+          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2021-03-02" target="_blank">Tracer</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2021-03-02" target="_blank">Tyrael</a>, 
+          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2021-03-02" target="_blank">Whitemane</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2021-01-19 Balance Update v 2.53.1</title>
     <published>2021-01-20T05:15:00.000Z</published>
@@ -336,48 +368,6 @@
           <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2020-06-03" target="_blank">Zeratul</a>
         </li>
       </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-05-06 Balance Update v 2.50.1</title>
-    <published>2020-05-07T01:59:00.000Z</published>
-    <updated>2020-05-07T01:59:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-05-06-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-05-06-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>"Tower, Fort, and Keep structure damage reduced by 10%"</p>
-</li>
-        <li><p>Self-damage, DoT effects, and Burning Rage-like talents "will no longer cause structures to focus Heroes"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2020-05-06" target="_blank">Alarak</a>, 
-          <a href="https://heroespatchnotes.com/hero/anduin.html#patch2020-05-06" target="_blank">Anduin</a>, 
-          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2020-05-06" target="_blank">Artanis</a>, 
-          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2020-05-06" target="_blank">Brightwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2020-05-06" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2020-05-06" target="_blank">Chromie</a>, 
-          <a href="https://heroespatchnotes.com/hero/deathwing.html#patch2020-05-06" target="_blank">Deathwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/deckard.html#patch2020-05-06" target="_blank">Deckard</a>, 
-          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2020-05-06" target="_blank">Dehaka</a>, 
-          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2020-05-06" target="_blank">Imperius</a>, 
-          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2020-05-06" target="_blank">Jaina</a>, 
-          <a href="https://heroespatchnotes.com/hero/liming.html#patch2020-05-06" target="_blank">Li-Ming</a>, 
-          <a href="https://heroespatchnotes.com/hero/orphea.html#patch2020-05-06" target="_blank">Orphea</a>, 
-          <a href="https://heroespatchnotes.com/hero/probius.html#patch2020-05-06" target="_blank">Probius</a>, 
-          <a href="https://heroespatchnotes.com/hero/ragnaros.html#patch2020-05-06" target="_blank">Ragnaros</a>, 
-          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2020-05-06" target="_blank">Tassadar</a>, 
-          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2020-05-06" target="_blank">Tracer</a>, 
-          <a href="https://heroespatchnotes.com/hero/xul.html#patch2020-05-06" target="_blank">Xul</a>
-        </li>
-      </ul>
-      <h4>Reworks</h4>
-        <img src="https://heroespatchnotes.com/images/hero/cassia.png" href="https://heroespatchnotes.com/hero/cassia.html#patch2020-05-06" alt="Cassia Rework" height="44" width="44" />
-        <img src="https://heroespatchnotes.com/images/hero/tracer.png" href="https://heroespatchnotes.com/hero/tracer.html#patch2020-05-06" alt="Tracer Rework" height="44" width="44" />
       ]]></content>
   </entry>
 </feed>
