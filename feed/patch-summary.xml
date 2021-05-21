@@ -2,10 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2021-03-03T09:33:00.000Z</updated>
+  <updated>2021-05-20T05:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2021-05-18 Patch Notes v 2.54.0</title>
+    <published>2021-05-20T05:00:00.000Z</published>
+    <updated>2021-05-20T05:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2021-05-18-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-05-18-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/anduin.html#patch2021-05-18" target="_blank">Anduin</a>, 
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2021-05-18" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/dva.html#patch2021-05-18" target="_blank">D.Va</a>, 
+          <a href="https://heroespatchnotes.com/hero/falstad.html#patch2021-05-18" target="_blank">Falstad</a>, 
+          <a href="https://heroespatchnotes.com/hero/hogger.html#patch2021-05-18" target="_blank">Hogger</a>, 
+          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2021-05-18" target="_blank">Johanna</a>, 
+          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2021-05-18" target="_blank">Junkrat</a>, 
+          <a href="https://heroespatchnotes.com/hero/lucio.html#patch2021-05-18" target="_blank">Lucio</a>, 
+          <a href="https://heroespatchnotes.com/hero/mei.html#patch2021-05-18" target="_blank">Mei</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2021-05-18" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2021-05-18" target="_blank">Sonya</a>, 
+          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2021-05-18" target="_blank">Stitches</a>, 
+          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2021-05-18" target="_blank">Tassadar</a>, 
+          <a href="https://heroespatchnotes.com/hero/thelostvikings.html#patch2021-05-18" target="_blank">The Lost Vikings</a>, 
+          <a href="https://heroespatchnotes.com/hero/uther.html#patch2021-05-18" target="_blank">Uther</a>, 
+          <a href="https://heroespatchnotes.com/hero/valla.html#patch2021-05-18" target="_blank">Valla</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/anduin.png" href="https://heroespatchnotes.com/hero/anduin.html#patch2021-05-18" alt="Anduin Rework" height="44" width="44" />
+        <img src="https://heroespatchnotes.com/images/hero/johanna.png" href="https://heroespatchnotes.com/hero/johanna.html#patch2021-05-18" alt="Johanna Rework" height="44" width="44" />
+        <img src="https://heroespatchnotes.com/images/hero/raynor.png" href="https://heroespatchnotes.com/hero/raynor.html#patch2021-05-18" alt="Raynor Rework" height="44" width="44" />
+        <img src="https://heroespatchnotes.com/images/hero/stitches.png" href="https://heroespatchnotes.com/hero/stitches.html#patch2021-05-18" alt="Stitches Rework" height="44" width="44" />
+        <img src="https://heroespatchnotes.com/images/hero/valla.png" href="https://heroespatchnotes.com/hero/valla.html#patch2021-05-18" alt="Valla Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2021-03-02 Balance Update v 2.53.2</title>
     <published>2021-03-03T09:33:00.000Z</published>
@@ -331,43 +368,6 @@
       </ul>
       <h4>Reworks</h4>
         <img src="https://heroespatchnotes.com/images/hero/malganis.png" href="https://heroespatchnotes.com/hero/malganis.html#patch2020-06-23" alt="Mal'Ganis Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-06-03 Balance Update v 2.50.2</title>
-    <published>2020-06-03T04:34:00.000Z</published>
-    <updated>2020-06-03T04:34:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-06-03-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-06-03-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>"Tower, Fort, and Keep damage to enemy Heroes reduced by 10%. Maximum Armor reduction from Structures reduced from -40 to -20."</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2020-06-03" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2020-06-03" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/genji.html#patch2020-06-03" target="_blank">Genji</a>, 
-          <a href="https://heroespatchnotes.com/hero/guldan.html#patch2020-06-03" target="_blank">Gul'dan</a>, 
-          <a href="https://heroespatchnotes.com/hero/hanzo.html#patch2020-06-03" target="_blank">Hanzo</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2020-06-03" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/qhira.html#patch2020-06-03" target="_blank">Qhira</a>, 
-          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2020-06-03" target="_blank">Raynor</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2020-06-03" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2020-06-03" target="_blank">Stitches</a>, 
-          <a href="https://heroespatchnotes.com/hero/thelostvikings.html#patch2020-06-03" target="_blank">The Lost Vikings</a>, 
-          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2020-06-03" target="_blank">Tracer</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2020-06-03" target="_blank">Tyrael</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2020-06-03" target="_blank">Tyrande</a>, 
-          <a href="https://heroespatchnotes.com/hero/uther.html#patch2020-06-03" target="_blank">Uther</a>, 
-          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2020-06-03" target="_blank">Whitemane</a>, 
-          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2020-06-03" target="_blank">Zagara</a>, 
-          <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2020-06-03" target="_blank">Zeratul</a>
-        </li>
-      </ul>
       ]]></content>
   </entry>
 </feed>
