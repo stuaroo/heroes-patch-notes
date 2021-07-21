@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2021-06-16T10:59:00.000Z</updated>
+  <updated>2021-07-21T06:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2021-07-20 Balance Update v 2.54.3</title>
+    <published>2021-07-21T06:30:00.000Z</published>
+    <updated>2021-07-21T06:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2021-07-20-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-07-20-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2021-07-20" target="_blank">Artanis</a>, 
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2021-07-20" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2021-07-20" target="_blank">Blaze</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2021-07-20" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2021-07-20" target="_blank">Dehaka</a>, 
+          <a href="https://heroespatchnotes.com/hero/falstad.html#patch2021-07-20" target="_blank">Falstad</a>, 
+          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2021-07-20" target="_blank">Jaina</a>, 
+          <a href="https://heroespatchnotes.com/hero/kharazim.html#patch2021-07-20" target="_blank">Kharazim</a>, 
+          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2021-07-20" target="_blank">Lt. Morales</a>, 
+          <a href="https://heroespatchnotes.com/hero/lucio.html#patch2021-07-20" target="_blank">Lucio</a>, 
+          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2021-07-20" target="_blank">Muradin</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2021-07-20" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2021-07-20" target="_blank">Tyrande</a>, 
+          <a href="https://heroespatchnotes.com/hero/zagara.html#patch2021-07-20" target="_blank">Zagara</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2021-06-15 Balance Update v 2.54.1</title>
     <published>2021-06-16T10:59:00.000Z</published>
@@ -318,47 +346,6 @@
           <a href="https://heroespatchnotes.com/hero/uther.html#patch2020-08-19" target="_blank">Uther</a>, 
           <a href="https://heroespatchnotes.com/hero/zeratul.html#patch2020-08-19" target="_blank">Zeratul</a>, 
           <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2020-08-19" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-07-15 Balance Update v 2.51.1</title>
-    <published>2020-07-16T04:35:00.000Z</published>
-    <updated>2020-07-16T04:35:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-07-15-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-07-15-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>Nexus Anomaly - Climate Phenomena: "The Climate Phenomena Anomaly <a href="https://us.forums.blizzard.com/en/heroes/t/update-on-climate-phenomena-anomaly/40990">has been disabled</a>."</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2020-07-15" target="_blank">Blaze</a>, 
-          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2020-07-15" target="_blank">Cassia</a>, 
-          <a href="https://heroespatchnotes.com/hero/cho.html#patch2020-07-15" target="_blank">Cho</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2020-07-15" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/etc.html#patch2020-07-15" target="_blank">E.T.C.</a>, 
-          <a href="https://heroespatchnotes.com/hero/gall.html#patch2020-07-15" target="_blank">Gall</a>, 
-          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2020-07-15" target="_blank">Garrosh</a>, 
-          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2020-07-15" target="_blank">Greymane</a>, 
-          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2020-07-15" target="_blank">Johanna</a>, 
-          <a href="https://heroespatchnotes.com/hero/kharazim.html#patch2020-07-15" target="_blank">Kharazim</a>, 
-          <a href="https://heroespatchnotes.com/hero/ltmorales.html#patch2020-07-15" target="_blank">Lt. Morales</a>, 
-          <a href="https://heroespatchnotes.com/hero/maiev.html#patch2020-07-15" target="_blank">Maiev</a>, 
-          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2020-07-15" target="_blank">Mal'Ganis</a>, 
-          <a href="https://heroespatchnotes.com/hero/mei.html#patch2020-07-15" target="_blank">Mei</a>, 
-          <a href="https://heroespatchnotes.com/hero/mephisto.html#patch2020-07-15" target="_blank">Mephisto</a>, 
-          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2020-07-15" target="_blank">Muradin</a>, 
-          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2020-07-15" target="_blank">Rehgar</a>, 
-          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2020-07-15" target="_blank">Stitches</a>, 
-          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2020-07-15" target="_blank">Tassadar</a>, 
-          <a href="https://heroespatchnotes.com/hero/tychus.html#patch2020-07-15" target="_blank">Tychus</a>, 
-          <a href="https://heroespatchnotes.com/hero/xul.html#patch2020-07-15" target="_blank">Xul</a>, 
-          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2020-07-15" target="_blank">Yrel</a>
         </li>
       </ul>
       ]]></content>
