@@ -2,10 +2,693 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2021-07-21T06:30:00.000Z</updated>
+  <updated>2021-08-22T02:30:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2021-08-20 Balance Update</title>
+    <published>2021-08-22T02:30:00.000Z</published>
+    <updated>2021-08-22T02:30:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2021-08-20-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-08-20-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-august-20-2021">Heroes of the Storm Balance Patch Notes - August 20, 2021</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23712194" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23712194" target="_blank">Official Patch Notes</a> <small>v 2.54.3</small></div>
+
+<p>Heroes of the Storm has just been updated with Hero balance changes! Read on
+for details.</p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><strong><a href="#tank">TANK</a></strong></th>
+  <th><strong><a href="#bruiser">BRUISER</a></strong></th>
+  <th><strong><a href="#healer">HEALER</a></strong></th>
+  <th><strong><a href="#melee-assassin">MELEE ASSASSIN</a></strong></th>
+  <th><strong><a href="#ranged-assassin">RANGED ASSASSIN</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#stitches">Stitches</a></td>
+  <td><a href="#leoric">Leoric</a></td>
+  <td><a href="#deckard">Deckard</a></td>
+  <td><a href="#qhira">Qhira</a></td>
+  <td><a href="#hanzo">Hanzo</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><a href="#lt-morales">Lt. Morales</a></td>
+  <td></td>
+  <td><a href="#lunara">Lunara</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#nazeebo">Nazeebo</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#valla">Valla</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#zagara">Zagara</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="tank">Tank</h3>
+
+<h4 id="stitches">Stitches</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 3060 to 3020.</li>
+<li>Health regeneration reduced from 6.38 to 6.29.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Shambling Horror [D]</strong>
+<ul>
+<li>Duration reduced from 5 to 4 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Tenderizer [Passive]</strong>
+<ul>
+<li>Slow amount reduced from 25% to 20%.</li>
+<li>Slow duration reduced from 2.5 to 1.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Pulverize [W]</strong>
+<ul>
+<li>Slow reduced from 80% to 70%.</li>
+<li>Armor reduction duration reduced from 4 to 3 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're overall happy with Stitches' position, but his
+  stickiness is overshadowing why players pick other Tanks.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bruiser">Bruiser</h3>
+
+<h4 id="leoric">Leoric</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Skeletal Swing [Q]</strong>
+<ul>
+<li>Additional functionality: Skeletal Swing deals an additional 75% damage to Minions.</li>
+</ul></li>
+<li><strong>Wrath of the Bone King [Trait]</strong>
+<ul>
+<li>Third Basic Attack damage bonus increased from 100% to 125%.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Kneel, Peasants! [Q]</strong>
+<ul>
+<li>Changed functionality: Skeletal Swing deals an additional 75% damage to Mercenaries and Monsters, and they activate Skeletal Swing's cost and cooldown refund.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Being the King brings many duties, and being the
+  Skeleton King is no different. Leoric players are often expected to fill a
+  wave clearing role that is dependent on the current Kneel, Peasants! to
+  succeed. We're bringing much of its benefit baseline, and trying something a
+  little weird with Kneel, Peasants! Let us know if you consider it treasonous.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="healer">Healer</h3>
+
+<h4 id="deckard">Deckard</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Potion [Q]</strong>
+<ul>
+<li>Medium range flight time reduced from .4375 to .375 seconds.</li>
+<li>Far range flight time reduced from .6125 to .5 seconds.</li>
+<li>Heal amount increased from 270 to 285.</li>
+</ul></li>
+<li><strong>Horadric Cube [W]</strong>
+<ul>
+<li>Slow duration increased from 1.75 to 2 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Scroll of Identify [E]</strong>
+<ul>
+<li>New functionality: 
+<ul>
+<li>Quest: Hitting a Hero with Scroll of Sealing permanently increases its damage by 2.</li>
+<li>Reward: Hitting 15 Heroes causes Scroll of Sealing to reveal and reduce the Armor of Heroes by 10 for 4 seconds.</li>
+<li>Reward: Hitting 30 Heroes increases the amount of Armor reduction against Heroes to 15 and its duration to 6 seconds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Potion of Shielding [Q]</strong>
+<ul>
+<li>Shield increased from 122 to 140.</li>
+</ul></li>
+<li><strong>Rejuvenation Potion [Q]</strong>
+<ul>
+<li>Healing increased from 108 over 4 seconds to 114 over 3 seconds.</li>
+<li>Mana restoration increased from 10 to 15.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Lorenado [R2]</strong>
+<ul>
+<li>Additional functionality: Deals 20 damage to Heroes hit.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Super Healing Potion [Q]</strong>
+<ul>
+<li>Healing bonus reduced from 120 to 100%.</li>
+<li>Additional functionality: 
+<ul>
+<li>Passive: Potions heal for 25% more against Heroes under 50% health.</li>
+</ul></li>
+</ul></li>
+<li><strong>Potion of Revival [Q]</strong>
+<ul>
+<li>Area healing increased from 50 to 75%.</li>
+</ul></li>
+<li><strong>Ancient Blessings [Trait]</strong>
+<ul>
+<li>Cooldown reduced from 60 to 45 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Deckard's healing related talents have been
+  underperforming lately, so we're hitting their numbers as well as cutting down
+  some of the travel time on his potions. Scroll of Identify is also getting a
+  blast of ~<em>spice</em>~, because why not.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lt-morales">Lt. Morales</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 1515 to 1560.</li>
+<li>Health regeneration increased from 3.16 to 3.25.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Healing Beam [Q]</strong>
+<ul>
+<li>Energy regeneration per interval increased from 2.5 to 3.</li>
+</ul></li>
+<li><strong>Safeguard [W]</strong>
+<ul>
+<li>Armor increased from 30 to 35.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Trauma Trigger [Passive]</strong>
+<ul>
+<li>Cooldown reduced from 40 to 30 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Vanadium Plating [W]</strong>
+<ul>
+<li>Armor reduced from 25 to 20.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> When we shuffle a Hero's talents, we often reduce
+  their base power so we can make their talents more exciting. In Lt. Morales'
+  case, we've found we don't have to pay as high a price as we expected.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="melee-assassin">Melee Assassin</h3>
+
+<h4 id="qhira">Qhira</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Fatal Wounds [W]</strong>
+<ul>
+<li>Quest requirement reduced from 200 to 150 Hero hits.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Ensnaring Swing [E]</strong>
+<ul>
+<li>Primary target Slow increased from 40% to 60%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Pulsing Pain [E]</strong>
+<ul>
+<li>Damage increased from 115 to 135.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Lingering Ailment [E]</strong>
+<ul>
+<li>Armor reduction increased from 15 to 25.</li>
+</ul></li>
+<li><strong>Swing Life Away [E]</strong>
+<ul>
+<li>Spell Armor increased from 50 to 60.</li>
+<li>Spell Armor duration increased from 2.5 to 5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Utility Belt [E]</strong>
+<ul>
+<li>Cooldown reduced from 5 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Many of Qhira's Revolving Swing talents have never
+  really captured the attention of Qhira players, as they often leave Qhira
+  spinning out. We're giving these buffs a whirl to see how they play out.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="ranged-assassin">Ranged Assassin</h3>
+
+<h4 id="hanzo">Hanzo</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 1323 to 1375.</li>
+<li>Health regeneration increased from 2.75 to 2.86.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Natural Agility [D]</strong>
+<ul>
+<li>Cooldown reduced from 30 to 25 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>The Dragon Hungers [Q]</strong>
+<ul>
+<li>Duration increased from 10 to 12 seconds.</li>
+</ul></li>
+<li><strong>Sharpened Arrowheads [Passive]</strong>
+<ul>
+<li>Armor reduction per stack increased from 2 to 3.</li>
+<li>Maximum Armor reduction remains 20.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Dragonstrike [R1]</strong>
+<ul>
+<li>Center damage bonus increased from 50% to 75%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Hanzo has slowly become a less reliable choice for
+  most players, so we're increasing his health and adding some quality of life
+  changes.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="lunara">Lunara</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Hippity Hop [Z]</strong>
+<ul>
+<li>Cooldown reduced from 4 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Choking Pollen [Q]</strong>
+<ul>
+<li>Damage against enemies with 3 stacks of Nature's Toxin increased from 150% to 200%.</li>
+</ul></li>
+<li><strong>Wild Vigor [W]</strong>
+<ul>
+<li>Damage bonus increased from 50% to 70%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Thornwood Vine [R1]</strong>
+<ul>
+<li>Damage increased from 176 to 184.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Abolish Magic [Active]</strong>
+<ul>
+<li>Cooldown reduced from 30 to 20 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Lunara has been doing some weeding, and now some of
+  her lesser picked talents have begun to bloom.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="nazeebo">Nazeebo</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Corpse Spiders [Q]</strong>
+<ul>
+<li>Cooldown decreased from 9 to 8 seconds.</li>
+<li>Mana cost reduced from 50 to 40.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Widowmakers [Q]</strong>
+<ul>
+<li>New functionality: 
+<ul>
+<li>Enemies hit by Corpse Spiders' jar are Slowed by 30% for 1.5 seconds.</li>
+<li>Reward: After attacking Heroes 100 times, Corpse Spiders deal 30% more damage and last for an additional second.</li>
+</ul></li>
+</ul></li>
+<li><strong>Pandemic [E]</strong>
+<ul>
+<li>Additional functionality: After Hitting 80 Heroes with Plague of Toads, it reduces the damage Heroes deal by 5%, stacking up to 25%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Blood Ritual [Trait]</strong>
+<ul>
+<li>Additional functionality: 
+<ul>
+<li>Passive: Takedowns grant 5 stacks of Voodoo Ritual.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Spirit of Arachyr [Q]</strong>
+<ul>
+<li>New functionality: 
+<ul>
+<li>Corpse Spiders spawns an additional spider.</li>
+<li>If Corpse Spiders' jar hits only one target, spawn an additional spider.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Guardian Toads [E]</strong>
+<ul>
+<li>Stack duration increased from 1.5 to 2 seconds.</li>
+<li>Max duration increased from 4 to 6 seconds.</li>
+</ul></li>
+<li><strong>Superstition [Passive]</strong>
+<ul>
+<li>Additional functionality: Heroic Basic Attacks that cancel the Spell Armor effect spawn a Corpse Spider to attack the Hero.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Spider Colony [Q]</strong>
+<ul>
+<li>Additional functionality: Corpse Spider Attacks against Heroes also reduce the cooldown of Corpse Spiders by .125 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Humongoid [R1]</strong>
+<ul>
+<li>Additional functionality: Gargantuan Stomps' area is increased by 25% and its Slow amount is increased to 50%.</li>
+</ul></li>
+<li><strong>Annihilating Spirit [R2]</strong>
+<ul>
+<li>Additional functionality: Heroes hit by Ravenous Spirit have their healing received reduced by 50% for 1 second.</li>
+</ul></li>
+<li><strong>Fury of the Storm [Passive]</strong>
+<ul>
+<li>Removed.</li>
+</ul></li>
+<li><strong>(New) Bad Medicine [Active]</strong>
+<ul>
+<li>Consume 5 Stacks of Voodoo Ritual to become Unstoppable, gain 20% Movement Speed, and 50 Armor for 2 seconds. 30 second cooldown.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> It's been a hot minute since we touched the Naz man.
+  We like that he's a late-game PvE powerhouse, but we feel there's room for him
+  to have more PvP impact early on. We're adjusting both his Spider and Toad
+  builds to have more of a unique identity and to make them a little more
+  consistent. We're also dumping a pile of jungle spices on his 20s to make them
+  more competitive with the ever-popular Vile Infection.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="valla">Valla</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Arsenal [W]</strong>
+<ul>
+<li>Damage reduced from 120 to 100.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Hot Pursuit [Trait]</strong>
+<ul>
+<li>Movement Speed per stack of Hatred reduced from 2.5% to 2%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Gloom [Active]</strong>
+<ul>
+<li>Healing per second reduced from 2.5 to 1.25.</li>
+<li>Healing per second now scales with level.</li>
+<li>Passive Spell Armor reduced from 20 to 15.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Death Siphon [R1]</strong>
+<ul>
+<li>Removed functionality: Penetrating bolts no longer heals Valla for their damage dealt.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Valla's damage is nearing close to where we'd like it
+  to be – but her safety while doing so is a bit high.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="zagara">Zagara</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 1575 to 1500.</li>
+<li>Health regeneration reduced from 3.82 to 3.12.</li>
+<li>Basic Attack damage reduced from 85 to 83.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Baneling Barrage [Q]</strong>
+<ul>
+<li>Mana cost increased from 10 to 15.</li>
+<li>Cooldown increased from 3 to 4.</li>
+<li>Damage reduced from 86 to 80.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Volatile Acid [Q]</strong>
+<ul>
+<li>Removed functionality: No longer increases Baneling Barrage's damage.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Baneling Massacre [Q]</strong>
+<ul>
+<li>Changed functionality: Gain two additional charges of Baneling Barrage, but increase its cooldown by 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Pack Instinct [W]</strong>
+<ul>
+<li>Damage bonus reduced from 25% to 20%.</li>
+<li>Duration reduced from 3 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> In contrast to our usual ethos, Zagara is seeing her
+  talents pay the price for an increase in power in her base ability. While the
+  immediate effect is Zagara has less impactful Baneling talents, we feel that
+  Baneling Barrage is a more interesting ability than from where we started, and
+  we have more room for future changes.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Valla</strong>
+<ul>
+<li>Gloom's healing per second updates to Hatred stacks when the talent is first chosen.</li>
+<li>Tempered by Discipline's bonus healing updates to Hatred stacks when the talent is first chosen.</li>
+<li>Death Dealer's damage bonus updated to reflect its tooltip.</li>
+<li>Death Dealer now refunds Vault's mana and cooldown when Spell damage kills the target.</li>
+<li>Caltrops ignore Invulnerable enemies</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p>Click <a href="https://us.forums.blizzard.com/en/heroes/">here</a> to discuss this post
+with other players in the official Heroes of the Storm forums.</p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2021-07-20 Balance Update</title>
     <published>2021-07-21T06:30:00.000Z</published>
@@ -14341,623 +15024,6 @@ reward structure of Storm League.</p>
 <li><span class="text-warning"><strong>Tychus</strong></span>
 <ul>
 <li><span class="text-warning">Fixed an issue where Tychus' Health Regeneration would scale at 4.5% instead of 4%</span></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-
-<hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-06-15 PTR Patch Notes</title>
-    <published>2020-06-15T23:55:00.000Z</published>
-    <updated>2020-06-15T23:55:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-06-15-ptr-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-06-15-ptr-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-ptr-patch-notes-june-15-2020">Heroes of the Storm PTR Patch Notes - June 15, 2020</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23442720" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23442720" target="_blank">Official Patch Notes</a> <small>v 2.51.0</small></div>
-
-<p>Our next Heroes of the Storm patch has just hit the Public Test Realm and will
-be available for playtesting until the week of June 22, PDT. As always, if you
-encounter any bugs during your PTR play sessions, please stop by the <a href="https://us.forums.blizzard.com/en/heroes/c/ptr-bug-report">PTR Bug
-Report forum</a> to
-let us know about your experiences.</p>
-
-<hr />
-
-<h3 id="new-hero-mei-a-climatologist">New Hero: Mei, A Climatologist</h3>
-
-<p>A brilliant mind with a sunny disposition, Dr. Mei-Ling Zhou joined Overwatch
-to help solve the world's growing climate problems. Armed with a host of
-weather-altering technologies, Mei now fights to protect her friends and
-secure a future for a troubled world.</p>
-
-<p><strong>Trait [D]</strong></p>
-
-<ul>
-<li><strong>Cryo-Freeze</strong>
-<ul>
-<li>Mei encases herself in ice, gaining a rapidly decaying Shield that absorbs up to 1104 damage. While active, this Shield grants Unstoppable and restores up to 35% maximum Health.</li>
-<li>Cooldown: 40 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Basic Abilities</strong></p>
-
-<ul>
-<li><strong>Snow Blind [Q]</strong>
-<ul>
-<li>Throw a snowball that hits all enemies in an area. Enemies hit take 70 damage, are Slowed by 35%, and are Blinded for 1.5 seconds.</li>
-<li>Cost: 35 Mana.</li>
-<li>Cooldown: 10 seconds.</li>
-</ul></li>
-<li><strong>Blizzard [W]</strong>
-<ul>
-<li>Command Snowball to create a blizzard at the target location for 2 seconds. Enemies within the blizzard take 13 damage every .25 seconds and are Slowed by 7%, stacking up to 35%. When the blizzard ends, enemies within its area take an additional 75 damage and are stunned for 1.25 seconds.</li>
-<li>Cost: 70 Mana.</li>
-<li>Cooldown: 14 seconds.</li>
-</ul></li>
-<li><strong>Icing [E]</strong>
-<ul>
-<li>Slide quickly in the targeted direction. When this effect ends, enemies near Mei are knocked back, take 52 damage, and are Slowed by 80%, rapidly decaying over 1.5 seconds.</li>
-<li>Cost: 70 Mana.</li>
-<li>Cooldown: 14 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Heroic Abilities</strong></p>
-
-<ul>
-<li><strong>Avalanche [R1]</strong>
-<ul>
-<li>After .5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 damage and stunning them for .5 per Hero consumed.</li>
-<li>Cost: 70 Mana.</li>
-<li>Cooldown: 65 seconds.</li>
-</ul></li>
-<li><strong>Ice Wall [R2]</strong>
-<ul>
-<li>After a .75 second delay, create an impassible wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are slowed by 75% decaying over 3 seconds.</li>
-<li>Cost: 60 Mana.</li>
-<li>Cooldown: 90 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talent</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Heavy Pack [Q]</strong>
-<ul>
-<li>Increases the duration of Snow Blind's Slow by 100%. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by .125 seconds.</li>
-</ul></li>
-<li><strong>Ice Storm [W]</strong>
-<ul>
-<li>Every 3rd hit of Blizzard against enemy Heroes deals an additional 45 damage. Blizzard's final stun damage is increased by 125% against all enemies.</li>
-</ul></li>
-<li><strong>Heat Transfer [Passive]</strong>
-<ul>
-<li>Basic Attacks against Rooted, Stunned, or Slowed Heroes deal 33% more damage. Each time Mei Stuns or Slows an enemy Hero she heals for 18 Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Slushball [Q]</strong>
-<ul>
-<li>Snow Blind deals 50% increased damage and Structures hit are disabled for 3 seconds.</li>
-</ul></li>
-<li><strong>Cold Front [E]</strong>
-<ul>
-<li>If Mei enters her own Blizzard while Icing is active, the cooldown of Icing is reduced by 7 seconds and she gains 50 Mana.</li>
-</ul></li>
-<li><strong>Crystallize [Trait]</strong>
-<ul>
-<li>Reduce the cooldown of Cryo-Freeze by 15 seconds. Mei gains 50 Spell Armor while Cryo-Freeze is active and for 2 seconds after.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Induce Hibernation [W]</strong>
-<ul>
-<li>Enemy Heroes inside of Blizzard's area have their damage dealt reduced by 40%. When Blizzard ends, enemy Heroes within its area gain this effect for an additional 4 seconds.</li>
-</ul></li>
-<li><strong>Skating Away [E]</strong>
-<ul>
-<li>When Icing ends, grant Mei and nearby allies 20% Movement Speed and 50 Physical Armor for 3 seconds.</li>
-</ul></li>
-<li><strong>Backup Battery [Active]</strong>
-<ul>
-<li>Activate to remove all Roots and Slows and regenerate 20% of maximum Health over 2 seconds. The cooldown of this ability is reduced by 10 seconds each time Mei picks up a Regeneration Globe.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Flurry [W]</strong>
-<ul>
-<li>While in her own Blizzard, Mei gains 50% increased attack speed and Blizzard's cooldown refreshes 75% faster. If Mei is in her own Blizzard when it ends, gain these bonuses for 3 additional seconds.</li>
-</ul></li>
-<li><strong>Cooling Servos [Trait]</strong>
-<ul>
-<li>Basic Attacks Slow their target by 20% for 1.5 seconds. While Cryo-Freeze is active, Mei's Basic Ability cooldowns recover 200% faster.</li>
-</ul></li>
-<li><strong>Polar Vortex [Passive]</strong>
-<ul>
-<li>Using an ability causes Mei to deal 24 damage a second to nearby enemies for 4 seconds. Enemy Heroes damaged by this effect also have their movement and attack speed Slowed by 20%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Fresh Powder [Q]</strong>
-<ul>
-<li>Snow Blind gains an additional charge and its range is increased by 33%.</li>
-</ul></li>
-<li><strong>Black Ice [E]</strong>
-<ul>
-<li>Icing's Slow effect no longer decays over its duration. Icing deals 300% more damage to enemies very close to Mei.</li>
-</ul></li>
-<li><strong>Acclimation [Passive]</strong>
-<ul>
-<li>Each time Mei Slows or Stuns an enemy Hero, the damage she deals and healing she receives is increased by 1%, stacking up to 20 times. While at maximum stacks, Mei also gains 10 armor. Lasts 8 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Cascade [R1]</strong>
-<ul>
-<li>Reduce the cooldown of Avalanche by 25 seconds. While traveling, Avalanche constantly launches a volley of untalented Snow Blind snowballs ahead of itself.</li>
-</ul></li>
-<li><strong>Shatter [R2]</strong>
-<ul>
-<li>When Ice Wall expires, trapped enemy Heroes hit take 210 damage and have their Armor reduced by 25 for 5 seconds.</li>
-</ul></li>
-<li><strong>The Big One [Q]</strong>
-<ul>
-<li>Every 15 seconds, your next Snow Blind has 66% increased area and 200% increased damage.</li>
-</ul></li>
-<li><strong>Flash Freeze [Trait]</strong>
-<ul>
-<li>Upon taking fatal damage, Mei instantly gains Cryo-Freeze. This effect has a 180 second cooldown.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="nexus-anomaly">Nexus Anomaly</h3>
-
-<ul>
-<li><strong>A Call For Help</strong></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Firstly, thank you all for the overwhelming amount of
-  feedback related to the Call for Help Anomaly. We appreciate the time you took
-  to write out your responses, and it greatly helped us make a decision on where
-  to go going forward. In regards to the changes, we decided to keep the tower
-  aggro system with some adjustments. To help reward aggression in the laning
-  phase of the game, we are removing both the negative Armor debuff that front
-  towers used to provide and also reverting their aggro systems to no longer
-  prioritize Heroes who attack other Heroes in their range. Forts, Keeps, and
-  the Core will still prioritize enemy Heroes who attack other Heroes, which
-  will make them stand out as important structures to both defend and take down.
-  We will continue to monitor how these changes play out, and will adjust these
-  systems more in the future if we believe it to be necessary.</p>
-</blockquote>
-
-<ul>
-<li><strong>New Nexus Anomaly - Climate Phenomena</strong></li>
-</ul>
-
-<p>Strange weather disturbances have been spotted across the Nexus, with realms
-experiencing rain storms, snow flurries, and foggy mists! Mei's arrival is
-just in time to help analyze and study these strange weather conditions that
-have begun occurring. Climate Phenomena is our newest Nexus Anomaly, bringing
-a variety of fun weather effects to the game. Each battleground has a specific
-type of weather event that will occur periodically. Each weather event lasts
-for a few minutes at a time before clearing up. This cycle will repeat
-periodically until the game ends. While these weather events are active,
-Heroes can gain a unique buff based on the type of active weather. These buffs
-are:</p>
-
-<ul>
-<li><strong>Rain Storms</strong>
-<ul>
-<li>Periodically strike all heroes with lightning, increasing Movement Speed and granting a Lightning Shield that damages nearby enemies. 
-<ul>
-<li>Movement Speed increased by 25%.</li>
-<li>Damage nearby enemies for 64 damage per second.</li>
-<li>Buff lasts 8 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Snow Flurries</strong>
-<ul>
-<li>Heroes accumulate a small shield over time while out of combat. 
-<ul>
-<li>Shield starts at 28 and slowly accumulates up to 224.</li>
-<li>Shield lasts until destroyed or until the Snow stops falling.</li>
-</ul></li>
-</ul></li>
-<li><strong>Foggy Mists</strong>
-<ul>
-<li>Allows Heroes to gain Stealth after standing in shrubs for a few seconds. 
-<ul>
-<li>After standing in a shrub for 1.5 seconds, Heroes gain Stealth.</li>
-<li>Stealth lasts 40 seconds or until attacking, taking damage, using an ability, or until the Foggy weather dissipates.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p>Weather events will be active on these Battlegrounds:</p>
-
-<ul>
-<li><strong>Rain Storms</strong>
-<ul>
-<li>Garden of Terror</li>
-<li>Sky Temple</li>
-<li>Warhead Junction</li>
-<li>Braxis Holdout</li>
-<li>Dragon Shire</li>
-<li>Blackheart's Bay</li>
-</ul></li>
-<li><strong>Snow Flurries</strong>
-<ul>
-<li>Cursed Hollow</li>
-<li>Infernal Shrines</li>
-<li>Volskaya Foundry</li>
-<li>Alterac Pass</li>
-</ul></li>
-<li><strong>Foggy Mists</strong>
-<ul>
-<li>Tomb of the Spider Queen</li>
-<li>Battlefield of Eternity</li>
-<li>Hanamura Temple</li>
-<li>Towers of Doom</li>
-</ul></li>
-<li>All other Battlegrounds will use a random weather, including Brawls mode.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<ul>
-<li><strong>A.I.</strong>
-<ul>
-<li>The maximum follow distance for A.I. agents has been increased from 5 to 7. This will allow melee Heroes who are following ranged Heroes to attack targets at maximum range.</li>
-</ul></li>
-<li><strong>Favorite Talents</strong>
-<ul>
-<li>New hotkey named "Quick Talent Selection Favorite (Ctrl + `)" has been added under the Hero Management section in Advanced Hotkey settings.</li>
-<li>You can press this hotkey to select the favorite talent you prepicked when the quick talent selection panel is open.</li>
-<li>If the prepicked talent is disabled or a future tier is selected, pressing this hotkey will have no effect.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="event">Event</h3>
-
-<ul>
-<li><strong>Nexomania II Event Quests</strong>
-<ul>
-<li>Nexomania II is the summer event for Heroes of the Storm running from the week of June 23 to week of September 7, PDT.</li>
-<li>One of the most prestigious stops on the Nexomania circuit is the Intermultiversal Nexoweight Championship: No rules, no mercy, just nonstop, bicep-busting carnage. This time, many fans expected Mal'gaucho Mal'Ganis to win it all. The Swingin' Scourge of Stratholme tore a bloody path through his side of the bracket, burying opponents beneath a deluge of demonic blows. But on the other side of the bracket, a mysterious upstart known only as La Gata de Batalla has proven herself a worthy challenger, defeating foes many times her size en route to the championship match. The arena is packed, with Nexomania legend MC Tombstone roaring away on the mic, and the final battle is about to begin. Whose side are you on?</li>
-</ul></li>
-<li><strong>Loot Chests</strong>
-<ul>
-<li>During the Nexomania II event, all Loot Chests you earn through progression, Heroes Brawl, or by spending gold will be Nexomania II Loot Chests. (Except Hero-specific Chests, which will remain unchanged.) Most limited-time items shown above have a chance to drop from Nexomania II Loot Chests only. You can also score Items from previous years' summer events limited-time loot chests!</li>
-<li><strong>Note:</strong> Loot Chests earned prior to the start of this event will not become Nexomania II Loot Chests.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p>Many seasonal items will be returning to the collection, and will be available
-for crafting and in Loot Chests for a limited time!</p>
-
-<ul>
-<li><strong>New Bundles (Limited Time Only!)</strong>
-<ul>
-<li>Pajama Party Mei Heroic Bundle</li>
-<li>Nexoweight Championship Bundle</li>
-<li>Mal'gaucho Mal'Ganis Skin Pack</li>
-<li>El Bandido Imperius Skin Pack</li>
-<li>Gata de Batalla Li Li Skin Pack</li>
-<li>Nexomania Best Bros Bundle</li>
-<li>Nexomania Bitter Rivals Bundle</li>
-<li>Pumped up Pato Bundle</li>
-</ul></li>
-<li><strong>New Skins</strong>
-<ul>
-<li>Renowned Mei</li>
-<li>Vanguard Mei</li>
-<li><strong>Pajama Party Mei</strong>
-<ul>
-<li>Panda Pajama Party Mei</li>
-<li>Gnoll Pajama Party Mei</li>
-</ul></li>
-<li><strong>Mal'gaucho Mal'Ganis</strong>
-<ul>
-<li>Nemesis Mal'gaucho Mal'Ganis</li>
-<li>Underworld Mal'gaucho Mal'Ganis</li>
-</ul></li>
-<li><strong>El Bandido Imperius</strong>
-<ul>
-<li>El Fuego Imperius</li>
-<li>Sinister El Bandido Imperius</li>
-<li>Vigilante El Bandido Imperius</li>
-</ul></li>
-<li><strong>Gata de Batalla Li Li</strong>
-<ul>
-<li>Comeback Gata de Batalla Li Li</li>
-<li>Underworld Gata de Batalla Li Li</li>
-</ul></li>
-<li>Hulking El Chamuco Diablo</li>
-<li>Pink Singlet El Chamuco Diablo</li>
-<li>El Festejo Garrosh</li>
-<li>El Jefe Amarillo Garrosh</li>
-<li>La Medianoche Lunara</li>
-<li>La Rosa Lunara</li>
-<li>La Campeona Sonya</li>
-<li>Pink Pantera Sonya</li>
-<li>Championship El Mariachi E.T.C.</li>
-<li>El Cielo E.T.C.</li>
-</ul></li>
-<li><strong>New Mounts</strong>
-<ul>
-<li><strong>Ratón de Batalla</strong>
-<ul>
-<li>Comeback Ratón de Batalla</li>
-<li>Underworld Ratón de Batalla</li>
-</ul></li>
-<li><strong>Pumped Up Pato</strong>
-<ul>
-<li>Pumped Up Swan</li>
-<li>Underworld Pumped Up Pato</li>
-</ul></li>
-<li>Championship Luchihuahua</li>
-<li>Festive Luchihuahua</li>
-<li>Wild Pigñata</li>
-<li>Festive Pigñata</li>
-<li>Thraller Bill</li>
-</ul></li>
-<li><strong>New Announcer</strong>
-<ul>
-<li>Mei Announcer</li>
-</ul></li>
-<li><strong>New Content</strong>
-<ul>
-<li>Several new Portraits, Sprays and other items have been added to the Collection!</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="storm-league">Storm League</h3>
-
-<p>With the upcoming third Season of 2020, we wanted to make some changes to the
-reward structure of Storm League.</p>
-
-<ul>
-<li><strong>Replacing Gold Rewards</strong>
-<ul>
-<li>Starting with Season 3 of 2020, we are removing all Gold rewards from Storm League, End of Season prizes and Seasonal Questlines. This will also affect Season 2 rewards. The new Seasonal Questline reward structure is as follows: a Nexomania II Chest after 5 wins, a Rare Nexomania II Chest after 15 wins, and an Epic Nexomania II Chest after 30 wins.</li>
-</ul></li>
-<li><strong>Storm League Reward Mounts</strong>
-<ul>
-<li>Since the inception of Storm League, we have received a lot of feedback about the retirement of Ranked Play reward Mounts. We have heard you and are extremely happy to announce the return of exclusive Storm League Mounts starting next season. The ultimate and final reward of the 2020 Season 3 Questline will be the Regal Tiger Mount, which will be awarded after winning 50 games in Ranked Play.</li>
-<li>As of Season 3, you won't have to wait for the end of the Season to claim your well-earned Regal Tiger. It will become available as soon as you complete the four-step Storm League Quest Line. The mount only requires you to win 50 games and will be granted to players in all Leagues and Divisions.</li>
-<li>As usual, we're happy to listen to your feedback. Please share your thoughts with us, so we can continue to adjust and evolve the Storm League rewards further.</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#tank">TANK</a></th>
-  <th><a href="#melee-assassin">MELEE ASSASSIN</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#malganis">Mal'Ganis</a></td>
-  <td><a href="#murky">Murky</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h4 id="malganis">Mal'Ganis</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health reduced from 2500 to 2375.</li>
-<li>Health Regeneration reduced from 5.21 to 4.95.</li>
-<li>Basic Attack damage reduced from 100 to 92.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fel Claws [Q]</strong>
-<ul>
-<li>Damage reduced from 69 to 63.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Vampiric Aura [Trait]</strong>
-<ul>
-<li>Additional functionality: Mal'Ganis heals for 30% of Physical Damage dealt.</li>
-</ul></li>
-<li><strong>Time to Feed [Passive]</strong>
-<ul>
-<li>Healing reduced from 52 to 44.</li>
-<li>Additional functionality: If Mal'Ganis damages a nearby enemy Hero with Fel Claws, double this healing.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Fueled By Torment [W]</strong>
-<ul>
-<li>Bonus Healing against enemy Heroes increased from 15% to 20%.</li>
-</ul></li>
-<li><strong>Might of Sargeras [W]</strong>
-<ul>
-<li>No longer reduces the duration of Necrotic Embrace.</li>
-</ul></li>
-<li><strong>Echo of Doom [W]</strong>
-<ul>
-<li>Explosion damage increased from 50 to 54.</li>
-<li>No longer increases the duration of Necrotic Embrace when its explosion damage hits enemy Heroes.</li>
-<li>Additional functionality: Gain 5 Mana and reduce the cooldown of Necrotic Embrace by .75 seconds for each enemy Hero hit by its explosion damage.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Nightmare Fuel [E]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Black Claws [Q]</strong>
-<ul>
-<li>Additional functionality: Basic Attacks after hitting enemy Heroes with Fel Claws also reduces their Armor by 15 for 2 seconds.</li>
-</ul></li>
-<li><strong>Will of Tichondrius [Q]</strong>
-<ul>
-<li>New functionality: Each enemy Hero hit by the first 2 slashes of Fel Claws causes the final slash to steal 1% maximum Health, up to 4%. If Mal'Ganis hits at least 4 enemy Heroes with the first 2 slashes of Fel Claws, then the final slash Stuns enemies for an additional .25 seconds.</li>
-</ul></li>
-<li><strong>Spreading Plague [E]</strong>
-<ul>
-<li>Adjusted functionality: Spreading Plague's effect now starts when Mal'Ganis begins using Night Rush instead of when Night Rush expires.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>The Night Beckons [E]</strong>
-<ul>
-<li>Additional functionality: Basic Attacks deal 200% more damage to Sleeping targets.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Frenzied Assault [Passive]</strong>
-<ul>
-<li>New functionality: Basic Attacks against enemy Heroes with a higher Health percentage heal for an additional 50% of damage dealt. Basic Attacks against enemy Heroes with a lower Health percentage grant 35% Attack Speed for 2 seconds.</li>
-</ul></li>
-<li><strong>Blind as a Bat [Active]</strong>
-<ul>
-<li>Additional functionality: Enemy Heroes hit by the final slash of Fel Claws reduces the cooldown of this Ability by 5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Vanquish the Weak [Q]</strong>
-<ul>
-<li>Slow amount increased from 15% to 25%.</li>
-</ul></li>
-<li><strong>Alone in the Dark [E]</strong>
-<ul>
-<li>Additional functionality: Reduce the cooldown of Night Rush by 4 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Our main goal with these changes is to make
-  Mal'Ganis's talent tree as a whole more interesting and impactful. While we
-  need to slightly nerf his base kit to keep him at a similar relative strength
-  compared to other Warriors, we believe these changes will overall leave him in
-  a powerful state while also giving players more expression in how they want to
-  play Mal'Ganis in regards to his survivability and in how he controls the flow
-  of battle.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h4 id="murky">Murky</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Spawn Egg [Trait]</strong>
-<ul>
-<li>Health increased from 324 to 420.</li>
-<li>Health Scaling changed from 30 to 4% per level.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're changing Murky's Spawn Egg to have the standard
-  4% scaling that is present in most other places throughout the game. This is a
-  buff to the egg's Health for most of the game, with its Health value being the
-  same as its current level at around the Level 20 mark.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li>Fixed an issue where Toys 1 Event reward Portraits could not be equipped for those who had earned them in Toys 1 Event in 2018.</li>
-</ul>
-
-<p><strong>Heroes</strong></p>
-
-<ul>
-<li><strong>Anduin</strong>
-<ul>
-<li>Anduin's Light of Stormwind now correctly removes damage over time effects.</li>
-</ul></li>
-<li><strong>Murky</strong>
-<ul>
-<li>Murky's Egg Health now properly scales at 4% per level.</li>
-</ul></li>
-<li><strong>Stitches</strong>
-<ul>
-<li>Fixed an issue where Slam would go on cooldown when Stitches was interrupted during its initial cast.</li>
-</ul></li>
-<li><strong>Tassadar</strong>
-<ul>
-<li>The Ranged Assassin tooltip at the bottom is now properly displaying for Tassadar.</li>
 </ul></li>
 </ul>
 
