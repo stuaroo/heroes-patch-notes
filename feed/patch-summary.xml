@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2021-09-28T10:30:00.000Z</updated>
+  <updated>2021-12-07T11:31:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2021-12-07 Patch Notes v 2.55.0</title>
+    <published>2021-12-07T11:31:00.000Z</published>
+    <updated>2021-12-07T11:31:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2021-12-07-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-12-07-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/auriel.html#patch2021-12-07" target="_blank">Auriel</a>, 
+          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2021-12-07" target="_blank">Brightwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2021-12-07" target="_blank">Dehaka</a>, 
+          <a href="https://heroespatchnotes.com/hero/falstad.html#patch2021-12-07" target="_blank">Falstad</a>, 
+          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2021-12-07" target="_blank">Imperius</a>, 
+          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2021-12-07" target="_blank">Jaina</a>, 
+          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2021-12-07" target="_blank">Johanna</a>, 
+          <a href="https://heroespatchnotes.com/hero/junkrat.html#patch2021-12-07" target="_blank">Junkrat</a>, 
+          <a href="https://heroespatchnotes.com/hero/lunara.html#patch2021-12-07" target="_blank">Lunara</a>, 
+          <a href="https://heroespatchnotes.com/hero/probius.html#patch2021-12-07" target="_blank">Probius</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2021-12-07" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2021-12-07" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2021-12-07" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2021-12-07" target="_blank">Tyrande</a>, 
+          <a href="https://heroespatchnotes.com/hero/zarya.html#patch2021-12-07" target="_blank">Zarya</a>
+        </li>
+      </ul>
+      <h4>Reworks</h4>
+        <img src="https://heroespatchnotes.com/images/hero/rehgar.png" href="https://heroespatchnotes.com/hero/rehgar.html#patch2021-12-07" alt="Rehgar Rework" height="44" width="44" />
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2021-09-27 Balance Update v 2.54.4</title>
     <published>2021-09-28T10:30:00.000Z</published>
@@ -283,49 +315,6 @@
           <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2020-11-04" target="_blank">Sylvanas</a>, 
           <a href="https://heroespatchnotes.com/hero/tychus.html#patch2020-11-04" target="_blank">Tychus</a>, 
           <a href="https://heroespatchnotes.com/hero/varian.html#patch2020-11-04" target="_blank">Varian</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-10-07 Balance Update v 2.52.1</title>
-    <published>2020-10-08T01:40:00.000Z</published>
-    <updated>2020-10-08T01:40:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-10-07-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-10-07-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>"Tower, Fort, and Keep damage to enemy Heroes increased by 10%"</p>
-</li>
-        <li><p>Healing Fountains: "Health and Shield values swapped. The Shield value now accounts for 75% of the total Health"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2020-10-07" target="_blank">Alexstrasza</a>, 
-          <a href="https://heroespatchnotes.com/hero/ana.html#patch2020-10-07" target="_blank">Ana</a>, 
-          <a href="https://heroespatchnotes.com/hero/anduin.html#patch2020-10-07" target="_blank">Anduin</a>, 
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2020-10-07" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/cho.html#patch2020-10-07" target="_blank">Cho</a>, 
-          <a href="https://heroespatchnotes.com/hero/dva.html#patch2020-10-07" target="_blank">D.Va</a>, 
-          <a href="https://heroespatchnotes.com/hero/deathwing.html#patch2020-10-07" target="_blank">Deathwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2020-10-07" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/etc.html#patch2020-10-07" target="_blank">E.T.C.</a>, 
-          <a href="https://heroespatchnotes.com/hero/gall.html#patch2020-10-07" target="_blank">Gall</a>, 
-          <a href="https://heroespatchnotes.com/hero/gazlowe.html#patch2020-10-07" target="_blank">Gazlowe</a>, 
-          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2020-10-07" target="_blank">Imperius</a>, 
-          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2020-10-07" target="_blank">Jaina</a>, 
-          <a href="https://heroespatchnotes.com/hero/kerrigan.html#patch2020-10-07" target="_blank">Kerrigan</a>, 
-          <a href="https://heroespatchnotes.com/hero/mephisto.html#patch2020-10-07" target="_blank">Mephisto</a>, 
-          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2020-10-07" target="_blank">Samuro</a>, 
-          <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2020-10-07" target="_blank">Sylvanas</a>, 
-          <a href="https://heroespatchnotes.com/hero/tassadar.html#patch2020-10-07" target="_blank">Tassadar</a>, 
-          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2020-10-07" target="_blank">Tracer</a>, 
-          <a href="https://heroespatchnotes.com/hero/tychus.html#patch2020-10-07" target="_blank">Tychus</a>, 
-          <a href="https://heroespatchnotes.com/hero/uther.html#patch2020-10-07" target="_blank">Uther</a>, 
-          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2020-10-07" target="_blank">Yrel</a>
         </li>
       </ul>
       ]]></content>
