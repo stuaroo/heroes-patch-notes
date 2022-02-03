@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2021-12-07T11:31:00.000Z</updated>
+  <updated>2022-02-03T08:55:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2022-02-01 Balance Update v 2.55.1</title>
+    <published>2022-02-03T08:55:00.000Z</published>
+    <updated>2022-02-03T08:55:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2022-02-01-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2022-02-01-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2022-02-01" target="_blank">Azmodan</a>, 
+          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2022-02-01" target="_blank">Diablo</a>, 
+          <a href="https://heroespatchnotes.com/hero/etc.html#patch2022-02-01" target="_blank">E.T.C.</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2022-02-01" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/greymane.html#patch2022-02-01" target="_blank">Greymane</a>, 
+          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2022-02-01" target="_blank">Malfurion</a>, 
+          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2022-02-01" target="_blank">Malthael</a>, 
+          <a href="https://heroespatchnotes.com/hero/nova.html#patch2022-02-01" target="_blank">Nova</a>, 
+          <a href="https://heroespatchnotes.com/hero/probius.html#patch2022-02-01" target="_blank">Probius</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2022-02-01" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2022-02-01" target="_blank">Stukov</a>, 
+          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2022-02-01" target="_blank">Tracer</a>, 
+          <a href="https://heroespatchnotes.com/hero/yrel.html#patch2022-02-01" target="_blank">Yrel</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2021-12-07 Patch Notes v 2.55.0</title>
     <published>2021-12-07T11:31:00.000Z</published>
@@ -278,43 +305,6 @@
           <a href="https://heroespatchnotes.com/hero/jaina.html#patch2020-12-01" target="_blank">Jaina</a>, 
           <a href="https://heroespatchnotes.com/hero/sonya.html#patch2020-12-01" target="_blank">Sonya</a>, 
           <a href="https://heroespatchnotes.com/hero/thrall.html#patch2020-12-01" target="_blank">Thrall</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-11-04 Balance Update v 2.52.2</title>
-    <published>2020-11-05T07:25:00.000Z</published>
-    <updated>2020-11-05T07:25:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-11-04-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-11-04-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Battleground</h4>
-      <ul>
-        <li><p>Warhead Junction: "Sewage Tunnels have been added to the top and bottom of the Battleground", extra watchtower added below mid</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2020-11-04" target="_blank">Alarak</a>, 
-          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2020-11-04" target="_blank">Alexstrasza</a>, 
-          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2020-11-04" target="_blank">Anub'arak</a>, 
-          <a href="https://heroespatchnotes.com/hero/azmodan.html#patch2020-11-04" target="_blank">Azmodan</a>, 
-          <a href="https://heroespatchnotes.com/hero/chen.html#patch2020-11-04" target="_blank">Chen</a>, 
-          <a href="https://heroespatchnotes.com/hero/dva.html#patch2020-11-04" target="_blank">D.Va</a>, 
-          <a href="https://heroespatchnotes.com/hero/dehaka.html#patch2020-11-04" target="_blank">Dehaka</a>, 
-          <a href="https://heroespatchnotes.com/hero/falstad.html#patch2020-11-04" target="_blank">Falstad</a>, 
-          <a href="https://heroespatchnotes.com/hero/gazlowe.html#patch2020-11-04" target="_blank">Gazlowe</a>, 
-          <a href="https://heroespatchnotes.com/hero/leoric.html#patch2020-11-04" target="_blank">Leoric</a>, 
-          <a href="https://heroespatchnotes.com/hero/lunara.html#patch2020-11-04" target="_blank">Lunara</a>, 
-          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2020-11-04" target="_blank">Mal'Ganis</a>, 
-          <a href="https://heroespatchnotes.com/hero/malthael.html#patch2020-11-04" target="_blank">Malthael</a>, 
-          <a href="https://heroespatchnotes.com/hero/orphea.html#patch2020-11-04" target="_blank">Orphea</a>, 
-          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2020-11-04" target="_blank">Sgt. Hammer</a>, 
-          <a href="https://heroespatchnotes.com/hero/sylvanas.html#patch2020-11-04" target="_blank">Sylvanas</a>, 
-          <a href="https://heroespatchnotes.com/hero/tychus.html#patch2020-11-04" target="_blank">Tychus</a>, 
-          <a href="https://heroespatchnotes.com/hero/varian.html#patch2020-11-04" target="_blank">Varian</a>
         </li>
       </ul>
       ]]></content>
