@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2022-02-03T08:55:00.000Z</updated>
+  <updated>2022-03-30T11:22:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2022-03-29 Balance Update v 2.55.2</title>
+    <published>2022-03-30T11:22:00.000Z</published>
+    <updated>2022-03-30T11:22:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2022-03-29-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2022-03-29-balance-update.html"/>
+    <content type="html"><![CDATA[
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/alarak.html#patch2022-03-29" target="_blank">Alarak</a>, 
+          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2022-03-29" target="_blank">Alexstrasza</a>, 
+          <a href="https://heroespatchnotes.com/hero/anubarak.html#patch2022-03-29" target="_blank">Anub'arak</a>, 
+          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2022-03-29" target="_blank">Artanis</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2022-03-29" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2022-03-29" target="_blank">Chromie</a>, 
+          <a href="https://heroespatchnotes.com/hero/guldan.html#patch2022-03-29" target="_blank">Gul'dan</a>, 
+          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2022-03-29" target="_blank">Johanna</a>, 
+          <a href="https://heroespatchnotes.com/hero/rehgar.html#patch2022-03-29" target="_blank">Rehgar</a>, 
+          <a href="https://heroespatchnotes.com/hero/sgthammer.html#patch2022-03-29" target="_blank">Sgt. Hammer</a>, 
+          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2022-03-29" target="_blank">Thrall</a>, 
+          <a href="https://heroespatchnotes.com/hero/varian.html#patch2022-03-29" target="_blank">Varian</a>, 
+          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2022-03-29" target="_blank">Whitemane</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2022-02-01 Balance Update v 2.55.1</title>
     <published>2022-02-03T08:55:00.000Z</published>
@@ -272,39 +299,6 @@
           <a href="https://heroespatchnotes.com/hero/tychus.html#patch2021-01-19" target="_blank">Tychus</a>, 
           <a href="https://heroespatchnotes.com/hero/valeera.html#patch2021-01-19" target="_blank">Valeera</a>, 
           <a href="https://heroespatchnotes.com/hero/zuljin.html#patch2021-01-19" target="_blank">Zul'jin</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-12-01 Patch Notes v 2.53.0</title>
-    <published>2020-12-01T10:30:00.000Z</published>
-    <updated>2020-12-01T10:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-12-01-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-12-01-patch-notes.html"/>
-    <content type="html"><![CDATA[
-      <h4>New</h4>
-        <h3><img src="https://heroespatchnotes.com/images/hero/hogger.png" alt="Hogger" height="60" width="60" /> Hogger</h3>
-      <h4>Gameplay</h4>
-      <ul>
-        <li><p>Nexus Anomaly - Gladiator's Medallion: Removed, "it wasn't a clear enough win for us to keep it going forward"</p>
-</li>
-        <li><p>Nexus Anomalies over, for now: "we will not be doing seasonal Nexus Anomalies going forward. We will, however, continue to iterate and pursue other ways to improve Heroes of the Storm"</p>
-</li>
-      </ul>
-      <h4>Play Mode</h4>
-      <ul>
-        <li><p>Storm League: "When queued as a party...now looks for matches based solely on the highest player's MMR"</p>
-</li>
-      </ul>
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2020-12-01" target="_blank">Brightwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2020-12-01" target="_blank">Imperius</a>, 
-          <a href="https://heroespatchnotes.com/hero/jaina.html#patch2020-12-01" target="_blank">Jaina</a>, 
-          <a href="https://heroespatchnotes.com/hero/sonya.html#patch2020-12-01" target="_blank">Sonya</a>, 
-          <a href="https://heroespatchnotes.com/hero/thrall.html#patch2020-12-01" target="_blank">Thrall</a>
         </li>
       </ul>
       ]]></content>

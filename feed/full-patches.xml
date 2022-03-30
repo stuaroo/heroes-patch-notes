@@ -2,10 +2,686 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2022-02-03T08:55:00.000Z</updated>
+  <updated>2022-03-30T11:22:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2022-03-29 Balance Update</title>
+    <published>2022-03-30T11:22:00.000Z</published>
+    <updated>2022-03-30T11:22:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2022-03-29-balance-update.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2022-03-29-balance-update.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-march-29-2022">Heroes of the Storm Balance Patch Notes - March 29, 2022</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23787368" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23787368" target="_blank">Official Patch Notes</a> <small>v 2.55.2</small></div>
+
+<p>Heroes of the Storm has just been updated with Hero balance changes! Read on
+for details.</p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<table>
+<thead>
+<tr>
+  <th><strong><a href="#tank">TANK</a></strong></th>
+  <th><strong><a href="#bruiser">BRUISER</a></strong></th>
+  <th><strong><a href="#healer">HEALER</a></strong></th>
+  <th><strong><a href="#melee-assassin">MELEE ASSASSIN</a></strong></th>
+  <th><strong><a href="#ranged-assassin">RANGED ASSASSIN</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><a href="#anubarak">Anub'arak</a></td>
+  <td><a href="#artanis">Artanis</a></td>
+  <td><a href="#alexstrasza">Alexstrasza</a></td>
+  <td><a href="#alarak">Alarak</a></td>
+  <td><a href="#cassia">Cassia</a></td>
+</tr>
+<tr>
+  <td><a href="#johanna">Johanna</a></td>
+  <td><a href="#thrall">Thrall</a></td>
+  <td><a href="#rehgar">Rehgar</a></td>
+  <td></td>
+  <td><a href="#chromie">Chromie</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td><a href="#varian">Varian</a></td>
+  <td><a href="#whitemane">Whitemane</a></td>
+  <td></td>
+  <td><a href="#guldan">Gul'dan</a></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><a href="#sgt-hammer">Sgt. Hammer</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="tank">Tank</h3>
+
+<h4 id="anubarak">Anub'arak</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Nerubian Armor [W]</strong>
+<ul>
+<li>Spell Armor increased from 20 to 25.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Subterranean Shield [E]</strong>
+<ul>
+<li>Shield increased from 345 to 400.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Urticating Spines [W]</strong>
+<ul>
+<li>Damage increased from 80 to 90.</li>
+</ul></li>
+<li><strong>Acid Drenched Mandibles [Passive]</strong>
+<ul>
+<li>Damage bonus increased from 70% to 80%.</li>
+<li>Duration increased from 3 to 4 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Cryptweave [R2]</strong>
+<ul>
+<li>Damage over time increased from 50 to 60.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> These talents weren't quite matching up against the
+  potential of a horde of beetles.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="johanna">Johanna</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Zealous Glare [E]</strong>
+<ul>
+<li>Bonus damage reduced from 125% to 75%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Roar [Q]</strong>
+<ul>
+<li>Maximum Punish damage bonus reduced from 175% to 150%.</li>
+</ul></li>
+<li><strong>Blessed Hammer [Active]</strong>
+<ul>
+<li>Basic Ability cooldown reduction reduced from 3 to 2.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Heaven's Fury [R1]</strong>
+<ul>
+<li>Maximum targets hit per barrage increased from 4 to 6.</li>
+<li>Cooldown reduction per bolt reduced from 2 to 1 second.</li>
+<li>Damage reduced from 68 to 50.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Johanna is dealing too much damage, so we're
+  partially reverting some of her recent buffs. We're also taking this
+  opportunity to alter how Heaven's Fury functions. Heaven's Fury previously
+  fired 8 barrages of bolts, hitting up to 2 enemies and up to 2 allies with
+  each barrage. We're increasing both enemies and allies hit up to 3 while
+  lowering its cooldown reduction to further differentiate good and great casts
+  of Falling Sword.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bruiser">Bruiser</h3>
+
+<h4 id="artanis">Artanis</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 2525 to 2490.</li>
+<li>Health regeneration reduced from 5.26 to 5.19.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Shield Overload [Trait]</strong>
+<ul>
+<li>Shield reduced from 385 to 365.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Shield Surge [Trait]</strong>
+<ul>
+<li>Shield bonus increased from 75% to 80%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Artanis has slowly gained the crowns of both our most
+  popular and most winning Bruiser, so he gets a nerf.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="thrall">Thrall</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health increased from 1876 to 1896.</li>
+<li>Health regeneration increased from 3.91 to 3.95.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Elemental Momentum [Passive]</strong>
+<ul>
+<li>Cooldown reduction against Heroes increased from doubled to tripled.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Thrall is very close to being a competitive choice,
+  but all his builds are just barely lagging behind.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="varian">Varian</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Heroic Strike [Trait]</strong>
+<ul>
+<li>Cooldown reduction from Basic Attacks increased from 2 to 3 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Lion's Maw [Q]</strong>
+<ul>
+<li>Damage bonus per stack increased from 6 to 7.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Colossus Smash [R2]</strong>
+<ul>
+<li>Damage increased from 160 to 185.</li>
+<li>Armor reduction increased from 20 to 25.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> The change to Heroic Strike is a mild buff to both
+  Taunt and Colossus Smash Varians, which we'd like to see more often.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="healer">Healer</h3>
+
+<h4 id="alexstrasza">Alexstrasza</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Gift of Life [Q]</strong>
+<ul>
+<li>Additional functionality: [Passive] Alexstrasza's Health regeneration is increased by 150%.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Tough Love [Q]</strong>
+<ul>
+<li>Changed functionality: Gift of Life grants its target 10 Armor for 2.5 seconds, increased to 30 Armor while Alexstrasza is above 75% Health.</li>
+</ul></li>
+<li><strong>Overprotective [W]</strong>
+<ul>
+<li>Shield duration increased from 3 to 6 seconds.</li>
+</ul></li>
+<li><strong>Draconic Discipline [D]</strong>
+<ul>
+<li>Additional functionality: Increase Dragonqueen's Basic Attack healing by 50%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Alexstrasza usually lingers among the lowest win
+  rates for our Healers. We're adding some baseline regeneration to keep her
+  healthier than before when sacrificing her health for healing. Also, we're
+  giving some oomph to her level 16 talents.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="rehgar">Rehgar</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Health reduced from 1935 to 1900.</li>
+<li>Health regeneration reduced from 4.03 to 3.96.</li>
+</ul>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Purge [D]</strong>
+<ul>
+<li>Cooldown increased from 45 to 60 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Colossal Totem [E]</strong>
+<ul>
+<li>Bonus Totem Health reduced from 50% to 25%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Earthliving Enchant [Q]</strong>
+<ul>
+<li>Healing reduced from 200 to 160.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Grounded Totem [E]</strong>
+<ul>
+<li>Attack Speed reduction reduced from 30% to 25%.</li>
+</ul></li>
+<li><strong>Purification [D]</strong>
+<ul>
+<li>Purge's cooldown reduction increased from 10 to 15 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Earthgrasp Totem [E]</strong>
+<ul>
+<li>Damage reduced from 145 to 115.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Rehgar's most powerful talents are still a cut above
+  their competition but they're not required for Rehgar to be a dominate force.
+  We're again cutting his base Health, and now targeting Purge's cooldown, to
+  lower his overall power.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="whitemane">Whitemane</h4>
+
+<p><strong>Abilities</strong></p>
+
+<ul>
+<li><strong>Desperate Plea [Q]</strong>
+<ul>
+<li>Mana cost reduced from 45 to 40.</li>
+<li>Mana cost increase per Desperation reduced from 45 to 40.</li>
+</ul></li>
+<li><strong>Zeal [D]</strong>
+<ul>
+<li>Armor reduction reduced from 25 to 15.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Intercession [Active]</strong>
+<ul>
+<li>Cast range increased from 7 to 7.5.</li>
+<li>Removed functionality: No longer gain a stack of Desperation.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Radiance [Q]</strong>
+<ul>
+<li>Changed functionality: Radiance's heal now re-applies Zeal, resetting its duration.</li>
+<li>No longer affects Whitemane's Armor.</li>
+</ul></li>
+<li><strong>Shared Punishment [W]</strong>
+<ul>
+<li>Chaining damage increased from 70% to 100% of Inquisition's damage.</li>
+</ul></li>
+<li><strong>Harsh Discipline [E]</strong>
+<ul>
+<li>Additional functionality: Reduce Inquisition's cooldown by 2 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Similar to Alexstrasza, Whitemane has often struggled
+  to compete with other Healers. We're hoping these baseline changes smooth out
+  her early game experience.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="melee-assassin">Melee Assassin</h3>
+
+<h4 id="alarak">Alarak</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Ruthless Momentum [W]</strong>
+<ul>
+<li>Cooldown recharge bonus increased from 75% to 100%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Negatively Charged [E]</strong>
+<ul>
+<li>Damage bonus per stack increased from 4% to 5%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Lightning Barrage [E]</strong>
+<ul>
+<li>Free cast duration increased from 2 to 3 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're happy with the success Alarak players are
+  finding with Discord Strike and melee talents, but his other builds have
+  slightly fallen behind.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="ranged-assassin">Ranged Assassin</h3>
+
+<h4 id="cassia">Cassia</h4>
+
+<p><strong>Stats</strong></p>
+
+<ul>
+<li>Weapon damage increased from 120 to 122.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Charged Strikes [Passive]</strong>
+<ul>
+<li>Damage bonus increased from 15% to 20%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Ring of the Leech [Passive]</strong>
+<ul>
+<li>Healing increased from 15% to 20%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Seraph's Hymn [W]</strong>
+<ul>
+<li>Cooldown reduction increased from 1.5 to 2 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Martial Law [Passive]</strong>
+<ul>
+<li>Additional functionality: Requirement for damage bonus is also met if target is Blinded.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Cassia's Basic Attack build requires a riskier
+  playstyle, and players are not viewing the danger as worth it, so we're
+  increasing the build's payoff across the board.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="chromie">Chromie</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 8</strong>
+<ul>
+<li><strong>Slowing Sands [R1]</strong>
+<ul>
+<li>Slowing Sands is no longer able to be picked in ARAM games.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> We're removing Slowing Sands from ARAM as it can be
+  frustrating to handle with less space to move.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="guldan">Gul'dan</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Improved Life Tap [D]</strong>
+<ul>
+<li>Mana restored increased from 35% to 40%.</li>
+</ul></li>
+<li><strong>Consume Soul [Active]</strong>
+<ul>
+<li>Cooldown reduced from 30 to 25 seconds.</li>
+<li>Maximum charges increased from 2 to 3.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Bound by Shadow [Q]</strong>
+<ul>
+<li>Cooldown reduction increased from 1.5 to 1.75 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Fel Armor [Q]</strong>
+<ul>
+<li>Spell Armor increased from 40 to 50.</li>
+</ul></li>
+<li><strong>Dark Bargain [Passive]</strong>
+<ul>
+<li>Health bonus increased from 30% to 40%.</li>
+</ul></li>
+<li><strong>Healthstone [Active]</strong>
+<ul>
+<li>Cooldown reduced from 60 to 45 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Rampant Hellfire [Q]</strong>
+<ul>
+<li>Damage bonus per stack increased from 10% to 12%.</li>
+</ul></li>
+<li><strong>Ruinous Affliction [E]</strong>
+<ul>
+<li>Third hit damage increased from 233 to 268.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Gul'dan's prominence is primarily tied to the
+  strength of his Drain Life build. We don't view this build as out of bounds,
+  so we're bringing both Fel Flame and Corruption up to par.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<h4 id="sgt-hammer">Sgt. Hammer</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Ambush [D]</strong>
+<ul>
+<li>Bonus damage increased from 100% to 125%.</li>
+</ul></li>
+<li><strong>Advanced Artillery [D]</strong>
+<ul>
+<li>Splash damage increased from 50% to 60%.</li>
+</ul></li>
+<li><strong>Maelstrom Rounds [Active]</strong>
+<ul>
+<li>Cooldown reduced from 100 to 80 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Hover Siege Mode [D]</strong>
+<ul>
+<li>Move speed increased from 40% to 50%.</li>
+</ul></li>
+<li><strong>Graduating Range [D]</strong>
+<ul>
+<li>Time between increased range reduced from 2 to 1.5 seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Shrapnel Mines [Q]</strong>
+<ul>
+<li>Maximum Armor reduction increased from 30 to 50.</li>
+</ul></li>
+<li><strong>Ultra Capacitors [D]</strong>
+<ul>
+<li>Attack Speed per stack increased from 5% to 10%.</li>
+<li>Maximum Attack Speed increased from 40% to 60%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<blockquote>
+  <p><em><strong>Developer Comment:</strong></em> Sgt. Hammer has decent talent parity, so we're just
+  increasing the power of some keystone talents to further separate the
+  different builds' identities.</p>
+</blockquote>
+
+<p><a href="#heroes">Return</a></p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Rehgar</strong>
+<ul>
+<li>Colossal and Ground Totem talents are appended in the correct order in Earthbind Totem's advanced tooltip.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p>Click <a href="https://us.forums.blizzard.com/en/heroes/">here</a> to discuss this post
+with other players in the official Heroes of the Storm forums.</p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2022-02-01 Balance Update</title>
     <published>2022-02-03T08:55:00.000Z</published>
@@ -14135,956 +14811,6 @@ for details.</p>
 <hr />
 
 <p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
-
-<hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-09-08 Patch Notes</title>
-    <published>2020-09-09T00:30:00.000Z</published>
-    <updated>2020-09-09T00:30:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-09-08-patch-notes.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-09-08-patch-notes.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-september-8-2020">Heroes of the Storm Live Patch Notes - September 8, 2020</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23513939" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23513939" target="_blank">Official Patch Notes</a> <small>v 2.52.0</small></div>
-
-<p>Our next Heroes of the Storm patch is live and brings a new Nexus Anomaly,
-ARAM mode, new skins and mounts, along with D.Va and Gazlowe reworks and more!
-Read on for more information.</p>
-
-<p><span class="text-warning"><strong>NOTE: Orange text indicates a change between PTR and Live notes.</strong></span></p>
-
-<hr />
-
-<h3 id="nexus-anomaly">Nexus Anomaly</h3>
-
-<ul>
-<li><strong>New Nexus Anomaly - Gladiator's Medallion</strong>
-<ul>
-<li>Heroes now start the game with a new item on their action bar <span class="text-warning">in slot 6</span>, the Gladiator's Medallion.</li>
-<li>The Gladiator's Medallion can be activated to become Unstoppable for 1 second.</li>
-<li>The cooldown is 300 seconds (5 minutes).</li>
-<li>Deathwing and Gall do not start with a Gladiator's Medallion.</li>
-<li>All 3 of The Lost Vikings gain the effect of the Medallion when activated.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Our goal for the Gladiator's Medallion is to give players more opportunities to commit to aggressive plays and relieve some of the helplessness felt when players get stuck in long CC chains.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<ul>
-<li><strong>Introducing ARAM Mode</strong>
-<ul>
-<li>With the Patch H.52, we're replacing Heroes Brawl mode with the new ARAM - All Random All Mid mode.</li>
-<li><strong>ARAM mode key features:</strong>
-<ul>
-<li>The map pool for ARAM mode consists of four one-lane maps.</li>
-<li>There are no additional objectives on the ARAM maps: destroy the enemy's Core to win.</li>
-<li>As match starts, every player must pick one out of three randomly selected heroes. Think fast: you have only 30 seconds!</li>
-<li>Hearthstones are disabled, and starting area does not regenerate health.</li>
-<li>Unlike Heroes Brawl, there's no dedicated Weekly Quest exclusive to this mode. Instead, ARAM games contribute to Daily Quests and Special Event Quests progress.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="collection">Collection</h3>
-
-<p>Many seasonal items will be returning to the collection, and will be available
-for crafting and in Loot Chests for a limited time!</p>
-
-<ul>
-<li><strong>New Bundles (Limited Time Only!)</strong>
-<ul>
-<li>Worlds Collide Bundle</li>
-<li>Interdimensional Fusion Bundle</li>
-<li>Terran Alliance Bundle</li>
-<li>Draenei Executor Artanis Skin Pack</li>
-<li>King of Blades Arthas Skin Pack</li>
-<li>Mineral Harvester Gazlowe Skin Pack</li>
-<li>Necrotoplogist Mei Skin Pack</li>
-<li>Invincilisk Bundle</li>
-</ul></li>
-<li><strong>Returning Bundles (Limited Time Only!)</strong>
-<ul>
-<li>Baby-Face Orphea Bundle</li>
-<li>Big Shot Sgt. Hammer Bundle</li>
-<li>Getaway Sidecar Bundle</li>
-<li>Raccoon Bundle</li>
-<li>Showstopper Whitemane Bundle</li>
-<li>Wiseguy Junkrat Bundle</li>
-</ul></li>
-<li><strong>New Skins</strong>
-<ul>
-<li><strong>King of Blades Arthas</strong>
-<ul>
-<li>Venomous King of Blades Arthas</li>
-<li>Lavawrought King of Blades Arthas</li>
-</ul></li>
-<li><strong>Draenei Executor Artanis</strong>
-<ul>
-<li>Royal Draenei Executor Artanis</li>
-<li>Darksteel Draenei Executor Artanis</li>
-</ul></li>
-<li><strong>Emperor of the Dominion Anduin</strong>
-<ul>
-<li>Glorious Emperor of the Dominion Anduin</li>
-<li>Studious Emperor of the Dominion Anduin</li>
-</ul></li>
-<li><strong>Necrotopologist Mei</strong>
-<ul>
-<li>Frostbitten Necrotopologist Mei</li>
-<li>Devilish Necrotopologist Mei</li>
-</ul></li>
-<li><strong>Mineral Harvester Gazlowe</strong>
-<ul>
-<li>Firebat Mineral Harvester Gazlowe</li>
-<li>Rich Mineral Harvester Gazlowe</li>
-</ul></li>
-<li>Galvanic Fel Reaver Blaze</li>
-<li>Angelic Medic Uther</li>
-<li>Angelic Raider Rexxar</li>
-<li>Acid Apothecary Morales</li>
-<li>Earthy Grunty Murky</li>
-<li>Scorch Spectre Illidan</li>
-<li>Shining D.Va</li>
-</ul></li>
-<li><strong>New Mounts</strong>
-<ul>
-<li><strong>Invincilisk</strong>
-<ul>
-<li>Slimeheart Invincilisk</li>
-<li>Sulphurous Invincilisk</li>
-</ul></li>
-<li><strong>Iron Kite</strong>
-<ul>
-<li>Stormgarde Iron Kite</li>
-<li>Kul Tiras Iron Kite</li>
-</ul></li>
-</ul></li>
-<li><strong>New Content</strong>
-<ul>
-<li>Several new Portraits, Sprays and other items have been added to the Collection!</li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="storm-league">Storm League</h3>
-
-<p>Seasonal Quest Line win requirements have been reduced in Season 4.</p>
-
-<ul>
-<li><strong>Steps and Rewards in Season 4 of 2020</strong>
-<ul>
-<li>5 Wins: Craft Wars Chest</li>
-<li>10 Wins: Rare Craft Wars Chest</li>
-<li>20 Wins: Epic Craft Wars Chest</li>
-<li>35 Wins: Tamed Ravasaur Mount</li>
-<li>35 Wins: Eligibility for End of Season 4 Rewards and Grand Master Leaderboards</li>
-</ul></li>
-<li><strong>Storm League Reward Mounts</strong>
-<ul>
-<li>The final reward of the 2020 Season 4 Questline will be the Tamed Ravasaur Mount, which will be awarded after winning 35 games in Ranked Play.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Upon reviewing the time commitment required on average for players to obtain seasonal quest rewards, we've made the decision to lower the requirements from 50 games to 35 games. We believe the lowering of this requirement should help Storm League to be more approachable to a larger portion of players, as they will not have to devote as much time each season to obtain their rewards.</p>
-</blockquote>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><a href="#tank">TANK</a></th>
-  <th><a href="#bruiser">BRUISER</a></th>
-  <th><a href="#healer">HEALER</a></th>
-  <th><a href="#melee-assassin">MELEE ASSASSIN</a></th>
-  <th><a href="#ranged-assassin">RANGED ASSASSIN</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#etc">E.T.C.</a></td>
-  <td><a href="#dva">D.Va</a></td>
-  <td><a href="#deckard">Deckard</a></td>
-  <td><a href="#alarak">Alarak</a></td>
-  <td><a href="#cassia">Cassia</a></td>
-</tr>
-<tr>
-  <td><a href="#stitches">Stitches</a></td>
-  <td><a href="#imperius">Imperius</a></td>
-  <td></td>
-  <td><a href="#gazlowe">Gazlowe</a></td>
-  <td><a href="#chromie">Chromie</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td><a href="#yrel">Yrel</a></td>
-  <td></td>
-  <td></td>
-  <td><a href="#orphea">Orphea</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><a href="#tassadar">Tassadar</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h4 id="alarak">Alarak</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 1900 to 1950.</li>
-<li>Health Regeneration increased from 3.96 to 4.06.</li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Negatively Charged [E]</strong>
-<ul>
-<li>Initial damage bonus increased from 150% to 175%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Alarak has fallen off a bit due to a few rounds of nerfs that have happened to him over time. We're giving him back some power via his general survivability as well the initial damage bonus that Negatively Charged gives when taking the talent.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="cassia">Cassia</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Surge of Light [Active]</strong>
-<ul>
-<li>Damage reduced from 250 to 240.</li>
-<li>Damage taken amount required to activate increased from 500 to 650.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Surge of Light continues to dominate Cassia's Level 7 talents, and has become a prime reason to take the hero. In addition to reducing its damage slightly further, we're also reducing its frequency by increasing how much damage she is required to take before she is able to use the ability.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="chromie">Chromie</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Deep Breathing [W]</strong>
-<ul>
-<li>Damage bonus reduced from 1.5% to 1% per stack.</li>
-<li>Cooldown reduction upon quest completion reduced from 5 seconds to 4 seconds.</li>
-<li>Mana cost upon quest completion changed from 30 to 40.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 5</strong>
-<ul>
-<li><strong>Mobius Loop [W]</strong>
-<ul>
-<li>Damage bonus reduced from 50% to 30%.</li>
-<li>Slow duration reduced from 1 second to .75 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Our goal with Chromie's recent changes was to present a viable alternative to Once Again the First Time, which we succeeded at a little too well. Chromie's W build is overall too powerful, so we're toning down its related talents to be more appropriate.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="deckard">Deckard</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Ruby [Active]</strong>
-<ul>
-<li>Cooldown increased from 10 to 20 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> After a slew of buffs over the years we finally crossed the threshold of making Ruby not only competitive, but too powerful of a pick. We're reverting our last buff to the talent that pushed it over the edge so that the tier is overall in a healthier place.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="dva">D.Va</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Boosters [Q]</strong>
-<ul>
-<li>Cooldown increased from 9 to 10 seconds.</li>
-<li>Duration decreased from 2 to 1.75 seconds.</li>
-<li>Speed bonus decreased from 125% to 115%.</li>
-<li>Area reduced from 1.5 to 1.375.</li>
-</ul></li>
-<li><strong>Defense Matrix [W]</strong>
-<ul>
-<li>Damage reduction reduced from 75% to 50%.</li>
-<li>Added Functionality: Can now be retargeted while active.</li>
-</ul></li>
-<li><strong>Self-Destruct/Call Mech [E]</strong>
-<ul>
-<li>Charge earned per 100% maximum life damage taken reduced from 33% to 25%.</li>
-<li>Maximum damage reduced from 1,200 to 1,100.</li>
-</ul></li>
-<li><strong>Mechanized Walker [Z]</strong>
-<ul>
-<li>New Functionality: D.Va's Mech can move while attacking. While attacking or channeling an ability, the Mech's speed is quickly reduced by 25%.</li>
-</ul></li>
-<li><strong>Mech Mode [Trait]</strong>
-<ul>
-<li>Health increased from 2150 to 2250.</li>
-<li>Health Regeneration increased from 4.48 to 4.69.</li>
-<li>Base damage reduced from 26 to 23.</li>
-<li>Added functionality: Enemies close to D.Va's Mech take 50% bonus damage.</li>
-</ul></li>
-<li><strong>Pilot Mode - Big Shot [Trait]</strong>
-<ul>
-<li>Ability now available baseline in Pilot form.</li>
-<li>Cooldown increased from 4 to 6 seconds.</li>
-<li>Call Mech cooldown reduction reduced from 8 to 5 seconds.</li>
-<li>Damage reduced from 200 to 150.</li>
-<li>Added Functionality: Enemy Heroes hit are slowed by 25% for 1.5 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Crash Course [Q]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Pro Moves [Trait]</strong>
-<ul>
-<li>New Functionality: Each time D.Va's Mech takes damage, its movement speed is increased by 2% and gains 2 Armor, stacking up to 10 times. A stack of this effect decays every .5 seconds. Basic Attacks in Pilot Mode against enemy Heroes reduce the cooldown of Call Mech by 1 additional second.</li>
-</ul></li>
-<li><strong>Expensive Plating [Passive]</strong>
-<ul>
-<li>Moved from level 13.</li>
-<li>Renamed to “Full Metal”.</li>
-<li>No longer increases the cooldown for Call Mech.</li>
-<li>Bonus Mech Health reduced from 20% to 10%.</li>
-<li>Added Functionality: Fusion Cannon bonus damage heals for 20% of the damage dealt.</li>
-</ul></li>
-<li><strong>(New) Liquid Cooling [Active]</strong>
-<ul>
-<li>When used in Mech Mode, the cooldown of Healing Fountain is decreased to 50 seconds and it lasts 25% longer. Activate to gain Healing Fountains effects and incur the reduced cooldown. 50 second cooldown.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Bring It On [E]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Rush-Down [Q]</strong>
-<ul>
-<li>Moved from level 1.</li>
-<li>New Functionality: Boosters steals 4% of maximum health from enemy Heroes and deals 100% increased damage to non-heroic enemies.</li>
-</ul></li>
-<li><strong>Aggression Matrix [W]</strong>
-<ul>
-<li>Moved from level 7.</li>
-<li>New Functionality: Basic Attacks against Heroes reduces the cooldown of Defense Matrix by .125 seconds. Enemy Heroes in your Defense Matrix receive 30% less healing.</li>
-</ul></li>
-<li><strong>Nuclear Option [E]</strong>
-<ul>
-<li>Moved from level 7.</li>
-<li>New Functionality: 
-<ul>
-<li>[Passive] Each time Fusion Cannons deals bonus damage to a Hero, gain .25 Self-Destruct Charge.</li>
-<li>Hitting your self-destructing Mech with Big Shot causes it to self-destruct 40% faster.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Coming Through [Q]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Dazer Zone [W]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Hit the Nitrous [Q]</strong>
-<ul>
-<li>Moved from level 1.</li>
-<li>New Functionality: The initial speed bonus of Boosters is increased to 300%, decaying to normal speed over .5 seconds. During this time, Boosters stuns for .5 seconds.</li>
-</ul></li>
-<li><strong>(New) Get On The Point! [Q]</strong>
-<ul>
-<li>Casting Boosters grants nearby allies 20% movement speed for 2 seconds. After being out of combat for 3 seconds, Boosters' cooldown refreshes 100% faster.</li>
-</ul></li>
-<li><strong>Fusion Generator [W]</strong>
-<ul>
-<li>Moved from level 4.</li>
-<li>Maximum Self-Destruct charge gained per cast increased from 15 to 20.</li>
-<li>Added Functionality: While at full Self-Destruct charge, Fusion Cannons' bonus damage is increased to 75%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Bunny Hop [R1]</strong>
-<ul>
-<li>Cooldown reduced from 100 to 80 seconds.</li>
-<li>Damage reduced from 60 to 52.</li>
-<li>Radius reduced from 5 to 4.5.</li>
-<li>New Functionality: Every 4th consecutive hit deals 100% increased damage and stuns for .5 seconds.</li>
-</ul></li>
-<li><strong>(New) Micro Missiles [R2]</strong>
-<ul>
-<li>After .375 seconds fire a stream of 12 missiles in a target direction. Upon impact, each missile deals a small amount of damage and slows in an area.</li>
-<li>Missiles deal 35 Damage and apply a 35% slow for 2 seconds.</li>
-<li>12 range.</li>
-<li>Holds 2 Charges. 20 second charge cooldown with a 5 second cooldown between charge uses.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>(New) Target Locked [W]</strong>
-<ul>
-<li>Enemy heroes that remain in Defense Matrix for 1.5 seconds have their armor reduced by 15 and are slowed by 25% for 3 seconds.</li>
-</ul></li>
-<li><strong>Pew! Pew! Pew! [Trait]</strong>
-<ul>
-<li>Moved from level 20.</li>
-<li>Damage per shot increased from 50% to 75%.</li>
-</ul></li>
-<li><strong>(New) Good To Go [Trait]</strong>
-<ul>
-<li>Unlock the Torpedo Dash and Concussive Pulse abilities while in Pilot Mode.</li>
-<li><strong>Torpedo Dash [Q]</strong>
-<ul>
-<li>Travel distance decreased from 6.75 to 4.5.</li>
-<li>Travel speed reduced from 17.5 to 14.</li>
-<li>Now has a .75 second coolup when exiting Mech Mode.</li>
-<li>Cooldown reduced from 12 to 10 seconds.</li>
-</ul></li>
-<li><strong>Concussive Pulse [Active]</strong>
-<ul>
-<li>Cooldown increased from 7 to 10 seconds.</li>
-<li>Damage reduced from 141 to 120.</li>
-<li>Knockback distance reduced by 40%.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>GG, WP [Trait]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Nanoweave Suit [Trait]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Suppressing Fire [Trait]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>(New) In For The Kill [Q]</strong>
-<ul>
-<li>Casting Boosters grants a shield equal to 10% maximum health for 2.5 seconds. Each enemy Hero hit by Boosters increases your Basic Attack damage by 10% for 5 seconds, stacking up to 5 times.</li>
-</ul></li>
-<li><strong>Diverting Power [W]</strong>
-<ul>
-<li>Moved from level 4.</li>
-<li>New Functionality: Drastically increases Defense Matrix's area and each time it reduces damage D.Va's mech is healed for 35.</li>
-</ul></li>
-<li><strong>Emergency Shielding [Trait]</strong>
-<ul>
-<li>Moved from level 13.</li>
-<li>Cooldown increased from 15 to 30 seconds.</li>
-<li>Shield increased from 210 to 280.</li>
-<li>Duration reduced from 6 to 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>MEKA Fall [Trait]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Stop And Pop [R1]</strong>
-<ul>
-<li>New functionality: While D.Va is stationary, Bunny Hop's duration is paused.</li>
-</ul></li>
-<li><strong>(New) Timing Attack [R2]</strong>
-<ul>
-<li>Micro Missiles gains an additional charge. Each time Micro Missiles deals damage to a Hero, reduce its cooldown by .5 seconds and its charge cooldown by .25 seconds.</li>
-</ul></li>
-<li><strong>(New) Headshot! [Trait]</strong>
-<ul>
-<li>Big Shot's damage is increased by 75% and its cooldown is reduced by 2 seconds.</li>
-</ul></li>
-<li><strong>Ablative Armor [Passive]</strong>
-<ul>
-<li>Moved from level 13.</li>
-<li>New Functionality: 45% of Ability damage taken by D.Va's Mech is returned as Health over 4 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> At long last, our favorite Pro Gamer is back and ready to pwn teh n00bs! With D.Va's rework we've given her tons of new tools and redistributed her power to help her fill more of a traditional bruiser role while still retaining a lot of her "supporty" essence. This new talent tree should allow her to flex to fill gaps in your team comp or to be her old aggro self. Her old Heroic option, Big Shot, is now baseline and has been replaced with Micro Missiles, giving her Mech some reach and soft CC that she didn't have before.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="etc">E.T.C.</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Encore [W]</strong>
-<ul>
-<li>Heroic cooldown reduction reduced from 8% to 6%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Overall E.T.C.'s talents are in a much healthier place after our last round of changes to them, but Encore stood out as being a little bit too powerful, so we're reducing its cooldown reduction to be more in line.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="gazlowe">Gazlowe</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Uses Scrap instead of Mana, max of 10 Scrap. 
-<ul>
-<li>Scrap pick up range increased from 1.25 to 1.5.</li>
-<li>Spawn pick up delay reduced from 0.45 to 0.0 seconds.</li>
-</ul></li>
-<li>Base Health increased from 1826 to 2275.</li>
-<li>Health regen increased from 3.8046 to 4.74.</li>
-<li>Basic Attack damage from 95 to 100.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Rock-It! Turrets [Q]</strong>
-<ul>
-<li>Costs 4 Scrap.</li>
-<li>Base damage decreased from 62 to 36.</li>
-<li>Base Health reduced from 593 to 510.</li>
-<li>Health scaling increased from 4% to 5%.</li>
-<li>Duration decreased from 30 to 15 seconds.</li>
-<li>GCD decreased from 2 to 0.5 seconds.</li>
-<li>Placement range increased from 2 to 3.</li>
-<li>Adjusted weapon range icons to be less noisy.</li>
-<li>Prioritizes nearest enemy Hero when first created.</li>
-</ul></li>
-<li><strong>Deth Lazor [W]</strong>
-<ul>
-<li>No longer has a cost.</li>
-<li>Cooldown decreased from 12 to 8 seconds.</li>
-<li>Damage increased from 137 to 174.</li>
-<li>Range increase from 6 to 10.</li>
-<li>Width increased from 2 to 2.5.</li>
-<li>Adjusted Functionality: After 0.65 seconds, deal 208 damage to enemies in a line. Heal 25% of damage dealt, this effect is increased to 75% against Heroes.</li>
-</ul></li>
-<li><strong>Xplodium Charge [E]</strong>
-<ul>
-<li>No longer has a cost.</li>
-<li>Cooldown decreased from 20 to 12 seconds.</li>
-<li>Damage reduced from 233 to 155.</li>
-<li>Missile travel speed increased substantially.</li>
-<li>Search area reduced from 3 to 2.85.</li>
-<li>Range decreased from 9.5 to 7.</li>
-<li>Explosion delay decreased from 2.5 to 1.25 seconds.</li>
-<li>Stun duration decreased from 1.75 to 1 second.</li>
-</ul></li>
-<li><strong>(New) Reduce, Reuse, Recycle [Trait]</strong>
-<ul>
-<li>Regenerate 1 Scrap every 4 seconds. Destroyed Rock-It! Turrets drop 1 Scrap, pick up dropped Scrap to regain it. Activate to destroy a target Rock-It! Turret.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Extra TNT [E]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Scrap-o-matic Smelter [Trait]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Break it down [Trait]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Goblin Repairs [Passive]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>(New) Rocket Boots [E]</strong>
-<ul>
-<li>Increase the cast range of Xplodium Charge by 30% and its damage by 20%. Hitting a Hero increases movement speed by 20% for 3 seconds.</li>
-</ul></li>
-<li><strong>(New) One Man Wrecking Crew [Passive]</strong>
-<ul>
-<li>Casting Basic Abilities cause Gazlowe's next Basic Attack within 6 seconds to deal 45% more damage. Stores up to 2 charges.</li>
-</ul></li>
-<li><strong>(New) Big Game Hunter [Passive]</strong>
-<ul>
-<li>Dealing damage with Basic Attacks to Heroes, Mercs or Monsters reduces the cooldown of Reduce, Reuse, Recycle by 2 seconds. Increase maximum Scrap by 2.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Clockwerk Steam Fists [Q]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Reduce, Reuse, Recycle [Trait]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Hired Goons [Passive]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>(New) Rock It Sock It [Q]</strong>
-<ul>
-<li>Placing a Rock-It! Turret grants Gazlowe a 215 point Shield for 2.5 seconds.</li>
-</ul></li>
-<li><strong>Hyperfocus Coils [W/E]</strong>
-<ul>
-<li>Moved from level 7.</li>
-<li>Adjusted Functionality: Heroes hit by Deth Lazor and Xplodium Charge take an additional 2% of their maximum Health in damage. Gazlowe is healed for 150% the amount.</li>
-<li>Crit kicker added.</li>
-</ul></li>
-<li><strong>EZ-PZ Dimensional Ripper [Active]</strong>
-<ul>
-<li>Moved from level 13.</li>
-<li>New Functionality: 
-<ul>
-<li>Cooldown: 40 seconds.</li>
-<li>Activate to gain 35 Armor for 3 seconds, reducing damage taken by 35%, and reduce damage dealt of all nearby Heroes and Summons by 50% for 3 seconds.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Rock-It! Turret XL [Q]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Engine Gunk [Q]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Goblin Fusion [Q/E]</strong>
-<ul>
-<li>Moved from level 13.</li>
-<li>Adjusted Functionality: Generate 3 Scrap for each Hero hit by Deth Lazor.</li>
-</ul></li>
-<li><strong>(New) Overload [W]</strong>
-<ul>
-<li>Deth Lazor can now store up to 2 charges. Each enemy Hero hit by Deth Lazor reduces the cooldown of Deth Lazor by 0.5 seconds.</li>
-</ul></li>
-<li><strong>(New) Master Blaster [E]</strong>
-<ul>
-<li>Deth Lazor and Xplodium Charge Slow by 35% for 2.5 seconds. Rock-It! Turret Basic Attacks extend the duration by 0.25 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Robo-Goblin [R1]</strong>
-<ul>
-<li>New Functionality: Activate to become Unstoppable for 1.5 seconds. Passive: Basic Attacks deal 80 bonus damage over 5 seconds, stacks up to 3 times.</li>
-</ul></li>
-<li><strong>Grav-O-Bomb 3000 [R2]</strong>
-<ul>
-<li>Cooldown decreased from 90 to 60 seconds.</li>
-<li>Damage reduced from 251 to 220.</li>
-<li>Added Functionality: Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>X-Tra Large Bombs [E]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>(New) Positive Reinforcement [Q]</strong>
-<ul>
-<li>Primary Turret attacks against Heroes increase Gazlowe's Attack Speed by 40% for 3 seconds.</li>
-</ul></li>
-<li><strong>(New) Superior Schematics [Q]</strong>
-<ul>
-<li>Moved from level 16.</li>
-<li>Adjusted Functionality: Rock-It! Turrets attack up to 2 additional target for 75% damage and have 50% increased range.</li>
-</ul></li>
-<li><strong>(New) Overcharged Capacitors [Q]</strong>
-<ul>
-<li>Gazlowe gains 5% Spell Power for each active turret, up to a maximum of 15%. Dealing Basic Attack damage extends the duration of Rock-It! Turrets by 1.5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Turret Storage [Q]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Kwik Release Charge [E]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Firin' Mah Lazorz [W]</strong>
-<ul>
-<li>Moved from level 20.</li>
-<li>Damage increased from 102 to 125.</li>
-</ul></li>
-<li><strong>Ark Reaktor [E]</strong>
-<ul>
-<li>Moved from level 4.</li>
-<li>Adjusted Functionality: Reduce the cooldown of Xplodium Charge by 3 seconds. Using Xplodium Charge creates 3 Rock-It! Turrets that last for 3 seconds. These Turrets do not drop Scrap or benefit from other Talents.</li>
-</ul></li>
-<li><strong>(New) Overklock [Passive]</strong>
-<ul>
-<li>Hitting enemy Heroes grants 15% bonus Movement Speed for 2 seconds. Hitting enemy Heroes with Basic Attacks causes them to take an additional 2.5% of their maximum Health in damage.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Mecha-Lord [R1]</strong>
-<ul>
-<li>Adjusted Functionality: Basic Attacks increase Gazlowe's Armor by 10 for 10 seconds, up to a maximum of 30. Basic Attacks deal 50% more damage to Stunned or Slowed targets.</li>
-</ul></li>
-<li><strong>Miniature Black Hole [R2]</strong>
-<ul>
-<li>Added Functionality: Each enemy Hero hit reduces the cooldown of Grav-O-Bomb by 12 seconds.</li>
-</ul></li>
-<li><strong>It's Raining Scrap [Q]</strong>
-<ul>
-<li>Adjusted Functionality: Reduce the Scrap cost of Rock-It! Turrets by 1. Regain 2 Scrap for each Scrap pickup.</li>
-</ul></li>
-<li><strong>(New) Bomb Toss [E]</strong>
-<ul>
-<li>Xplodium Charge launches 2 more bombs when it detonates.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Our resident one man wrecking crew is receiving a fairly large revamp, designed to fully embrace him as a formidable Bruiser, acting as a front-line member of his team who specializes in disruption and zone control. He now sports a new resource system with Scrap, as well as some design changes to both Deth Lazor and Xplodium Charge, which should make them more consistently useful throughout the course of the game. We had a blast tinkering with our favorite Goblin, and hope you also enjoy what we've done with him!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="imperius">Imperius</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Flash of Anger [Q]</strong>
-<ul>
-<li>Damage reduced from 180 to 165.</li>
-<li>Shield amount reduced from 300 to 275.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While Imperius is a great addition to any team and is within our bounds of overall performance, Flash of Anger is dominating its tier and has become too much of his power pie.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="orphea">Orphea</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Ancestral Strength [Trait]</strong>
-<ul>
-<li>Bonus damage reduced from 20% to 15%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Mind Devourer [E]</strong>
-<ul>
-<li>Damage per enemy Hero hit increased from 4 to 5.</li>
-<li>Maximum bonus damage reduced from 160 to 150.</li>
-<li>Heroes hit required for quest completion reduced from 40 to 30.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Abyssal Symbiosis [W]</strong>
-<ul>
-<li>Shield amount reduced from 180 to 170.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Dead Magic [Trait]</strong>
-<ul>
-<li>Damage reduced from 95 to 90.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Our last round of buffs have done a lot to bring Orphea into the meta. A few of her talents are simply too powerful compared to their alternatives, so we're toning them down as well as trying to incentivize players to try building around her Dread ability by making its key quest easier to complete.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="stitches">Stitches</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Slam [W]</strong>
-<ul>
-<li>Bonus damage to Minions and Mercenaries increased from 50% to 60%.</li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Our previous buff to Slam did well for Stitches, but we don't believe it was enough to give him the distinction of being a uniquely powerful wave clearing Warrior. We're buffing it a bit further so that he is more able to fill this role.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tassadar">Tassadar</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Static Charge [Q]</strong>
-<ul>
-<li>Maximum damage bonus reduced from 250 to 200.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Archon [R1]</strong>
-<ul>
-<li>Shield amount reduced from 30% to 25% maximum Health.</li>
-<li>Basic Attack damage reduced from 150 to 140.</li>
-<li>Basic Attack splash damage reduced from 75 to 70.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While not dominating in regards to his win rate, Tassadar is performing a little too well for how popular he is. Both Static Charge and Archon are dominating their talent tiers, so rather than nerfing Tassadar's base kit, we're reducing the power of these two talents in hopes of creating more competitive talent tiers while also slightly reducing his overall impact.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="yrel">Yrel</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Dauntless [Passive]</strong>
-<ul>
-<li>Physical Armor amount reduced from 40 to 35.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Dauntless is still overperforming compared to its other options, so we're slightly nerfing its power.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<ul>
-<li>Fixed an issue where Mercenaries would not be Stunned by Haunting Wave when the Mercenary Queen and Festering Wounds talents were taken.</li>
-<li>Fixed an issue where Executor's Will did not have a buff bar.</li>
-<li>Fixed an issue where Trauma Trigger did not have a button.</li>
-<li>Toy Train Mount - Metamorphosis Illidan, Dragonqueen Alexstrasza, Odin Tychus, and Archon Tassadar can no longer mount as a caboose on the Toy Train.</li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a></strong>.</p>
 
 <hr />
 ]]></content>
