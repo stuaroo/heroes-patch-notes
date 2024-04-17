@@ -2,10 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2024-04-12T17:00:00.000Z</updated>
+  <updated>2024-04-16T17:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2023-09-23 Hotfix Patch</title>
+    <published>2024-04-16T17:00:00.000Z</published>
+    <updated>2024-04-16T17:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2023-09-23-hotfix-patch.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2023-09-23-hotfix-patch.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-september-23-2023">Heroes of the Storm Hotfix Patch Notes – September 23, 2023</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/" target="_blank">Official Patch Notes</a> <small>v 2.55.3</small></div>
+
+<p>We've released a hotfix today with updates below.</p>
+
+<hr />
+
+<h3 id="bug-fixes">Bug Fixes</h3>
+
+<p><strong>Interface</strong></p>
+
+<ul>
+<li><span class="text-warning">Fixed a typo in the Battlegrounds list for Storm League.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<ul>
+<li><strong>Alexstrasza</strong>
+<ul>
+<li><span class="text-warning">Fixed an issue that caused Dragon Scales to be temporarily disabled after activation when Rooted, Stunned or Silenced.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+<li><strong>Brightwing</strong>
+<ul>
+<li><span class="text-warning">Fixed an issue that caused Brightwing to be able to cast Phase Shift on allied Hero in Stasis.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+<li><strong>Johanna</strong>
+<ul>
+<li><span class="text-warning">Fixed an issue that prevented Heaven's Fury from healing Invulnerable allied Heroes.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+<li><strong>Tychus</strong>
+<ul>
+<li><span class="text-warning">Fixed an issue that caused Armor Piercing Rounds to display in the Status Bar.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong>A big thank you to <a href="https://github.com/stuaroo/heroes-patch-notes/issues/1">@Elitesparkle for providing details</a> to this hotfix patch!</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2023-09-20 Hotfix Patch</title>
     <published>2024-04-12T17:00:00.000Z</published>
@@ -12187,48 +12239,6 @@ for details.</p>
 
 <p><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of
 the Storm forums.</a></p>
-
-<hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2020-12-07 Hotfix Patch</title>
-    <published>2020-12-10T10:55:00.000Z</published>
-    <updated>2020-12-10T10:55:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2020-12-07-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2020-12-07-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-december-7-2020">Heroes of the Storm Hotfix Patch Notes – December 7, 2020</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/" target="_blank">Official Patch Notes</a> <small>v 2.53.0</small></div>
-
-<p>We've released a hotfix today with updates below.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>General</strong></p>
-
-<ul>
-<li><span class="text-warning">Fixed an issue where several skins and mounts would not be available for selection in the loadout after purchasing</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/k6v8kn/patch_253083077hogger_hotfix_patch/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-<li><span class="text-warning">Removed access to the D.Va's Speederbike</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/k6v8kn/patch_253083077hogger_hotfix_patch/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul>
-
-<p><strong>Heroes</strong></p>
-
-<ul>
-<li>Hogger
-<ul>
-<li><span class="text-warning">Fixed an issue where Hogger's mesh collision hitbox would not be reduced while Hogg Wild is active</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/k6v8kn/patch_253083077hogger_hotfix_patch/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-<li><span class="text-warning">Fixed an issue where Hogger's voice lines could not be properly purchased</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/k6v8kn/patch_253083077hogger_hotfix_patch/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong>A big thank you to <a href="https://www.reddit.com/r/heroesofthestorm/comments/k6v8kn/patch_253083077hogger_hotfix_patch/">u/Spazzo965 for providing details</a> to this hotfix patch!</strong></p>
 
 <hr />
 ]]></content>
