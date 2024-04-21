@@ -2,10 +2,1165 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2024-04-17T19:00:00.000Z</updated>
+  <updated>2024-04-19T19:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2023-11-16 Patch Notes</title>
+    <published>2024-04-19T19:00:00.000Z</published>
+    <updated>2024-04-19T19:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2023-11-16-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2023-11-16-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-patch-notes-november-16-2023">Heroes of the Storm Patch Notes - November 16, 2023</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24031812" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/24031812" target="_blank">Official Patch Notes</a> <small>v 2.55.4</small></div>
+
+<p>Heroes of the Storm has just been updated with the patch! We would like to
+take a moment to thank the community for providing insight and feedback for
+these changes.</p>
+
+<hr />
+
+<h3 id="collection">Collection</h3>
+
+<ul>
+<li><span class="text-warning">Garrosh's Into the Fray added to Hero Page.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Spectral Butcher is no longer flagged as a Limited Time Item.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Spectral Buccaneer Falstad is no longer flagged as a Limited Time Item.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Deathranger Nova is no longer flagged as Limited Time Item.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Dark Mecha Rehgar is no longer flagged as a Limited Time Item.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Dark Mecha Tyrael is no longer flagged as a Limited Time Item.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Footman Varian is no longer flagged as Limited Time Item.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h3 id="general">General</h3>
+
+<ul>
+<li><span class="text-warning">Fixed an issue causing Regeneration Globe's healing to be modified by the targets Spell Power if the unit does not use Mana.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Fixed an issue causing Regeneration Globe's healing to display floating combat text if the unit does not use Mana.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Fixed an issue causing Heroes in Vehicles to gain bonuses from being stationary while Stealthed.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Targets may now be revealed by Ability damage from up to 10 different casters at a time.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">All forms of generic Block will now display Block visuals.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<p><strong>Game Camera</strong></p>
+
+<ul>
+<li>Camera Follow releash timer increased from 6 seconds to 12 seconds.</li>
+<li>You can now pan the camera further away from your Hero with Camera Lock enabled before it will prevent further panning.</li>
+</ul>
+
+<p><strong>User Interface</strong></p>
+
+<ul>
+<li>Floating text display for last hits updated to golden display.</li>
+<li>Fixed an issue that allowed the Active Ability Hotkey Buttons to be dragged in the Hotkey Menu.</li>
+<li>Holding down Shift or Control will now also register as having the announcement modifier held for clicking on in the Top Bar.</li>
+</ul>
+
+<p><strong>ARAM</strong></p>
+
+<ul>
+<li>Base experience value of Experience Globes increased from 80 to 160.</li>
+<li>Experience value of Melee Minions reduced from 84 to 0.</li>
+<li>Experience value of Wizard Minions reduced from 75 to 0.</li>
+<li>Experience value of Ranged Minions reduced from 72 to 0.</li>
+</ul>
+
+<p><strong>Observer</strong></p>
+
+<ul>
+<li>Experience Globes will now be displayed as Blue for the team on the left and Grey for the team on the right.</li>
+<li>The Interface has been updated to display Misha, Olaf, Baleog, and Erik's health bars.</li>
+<li>Fixed an issue that caused D.Va's health bar in the Interface to only display the Pilot's health.</li>
+</ul>
+
+<p><strong>Recap</strong></p>
+
+<ul>
+<li>Combat Healing will no longer register Mana or Shields restored to allied Heroes as Healing.</li>
+<li>Clutch Healer will now only register healing done to Health.</li>
+<li>Protector will now register damage prevented by Protected as Protection.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="battlegrounds">Battlegrounds</h3>
+
+<p><strong>Alterac Pass</strong></p>
+
+<ul>
+<li>Fixed an issue that caused Gnolls to reduce the armor of Evading targets.</li>
+</ul>
+
+<p><strong>Braxis Holdout</strong></p>
+
+<ul>
+<li>Fixed an issue that caused Hellbats to reduce the armor of Evading targets.</li>
+</ul>
+
+<p><strong>Hanamura Temple</strong></p>
+
+<ul>
+<li>Fixed an issue that caused the Recon Camp to have the scaling value reset when captured.</li>
+</ul>
+
+<p><strong>Warhead Junction</strong></p>
+
+<ul>
+<li>Fixed an issue that caused Hellbats to reduce the armor of Evading targets.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h3 id="heroes">Heroes</h3>
+
+<h4 id="abathur">Abathur</h4>
+
+<ul>
+<li>Fixed an issue that caused Envenomed Nest's Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Adrenal Overload to not apply to channeled Basic Attacks.</li>
+<li>Fixed an issue that caused Bombard Strain Locusts to not deal bonus damage to enemy Structures.</li>
+<li>Fixed an issue that caused Monstrosity to gain more than intended damage from Minion kills.</li>
+<li>Toxic Nest will no longer reveal attackers to Abathur during the Arming phase.</li>
+<li>Locust damage will no longer display as a critical against Structures. The damage bonus remains unaltered.</li>
+<li>Stab no longer reveals the area around the target and will now only reveal the target itself for 2 seconds.</li>
+<li>Spike Burst will now reveal the effected area for 0.75 seconds.</li>
+<li>Bombard Strain icon updated.</li>
+</ul>
+
+<h4 id="alarak">Alarak</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Blade of the Highlord while Blinded or if the target is Evading.</li>
+<li>Lightning Surge now reveal the primary target for 2 seconds.</li>
+<li>Deadly Charge will now reveal targets hit for 2 seconds.</li>
+</ul>
+
+<h4 id="alexstrasza">Alexstrasza</h4>
+
+<ul>
+<li>Fixed an issue that caused Cleansing Flame to grant Alexstrasza healing equal to the bonus health provided by Dragonqueen if Dragonqueen is active when activated.</li>
+<li>Fixed an issue that caused Abundance to display the healing preview after the heal has activated.</li>
+<li>Fixed an issue that caused Preservation to display the healing preview after the heal has activated.</li>
+<li>Fixed an issue that caused Pacify and Life Unbound to activate their on-heal from Dragonqueen Basic Attacks while Alexstrasza is Blinded.</li>
+<li>Fixed an issue that caused Dragonqueen Basic Attacks to not heal Invulnerable allies if they are in Alexstrasza's space.</li>
+<li>Fixed an issue that caused Cleansing Flame's cooldown to not be displayed on the talents tab of the scoreboard while Dragonqueen is active.</li>
+<li>Ancient Flame icon updated.</li>
+<li><span class="text-warning">Dragonqueen Basic Attack will now reveal the area immediately inside Alexstrasza.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Ancient Flame icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="ana">Ana</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Basic Attacks to grant stacks of Dynamic Optics while Blinded or if the target is Evading.</li>
+<li>Contact Healing will now only cause Biotic Grenade's Healing and Damage to display as a critical if at least 2 Heroes are hit, instead of only requiring the talent to be taken.</li>
+</ul>
+
+<h4 id="anduin">Anduin</h4>
+
+<ul>
+<li>Fixed an issue that caused Moral Compass to hit Invulnerable enemies.</li>
+<li><span class="text-warning">Holy Nova now reveals enemy targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Divine Star now reveals enemy targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Chastise target reveal updated from 1.25 seconds to 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Light Bomb now reveals targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="anubarak">Anub'arak</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that allowed select abilities to be activated while disabled if selected during the effects of Cocoon.</li>
+<li>Chitinous Plating icon updated.</li>
+<li><span class="text-warning">Burrow Charge will now reveal the effect area, extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Urticating Spines area reveal updated from area for 1 second to area extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Burning Beetles is now flagged as a Trait Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="artanis">Artanis</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Shield Overload to be reduced in cooldown from Basic Attacks while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Blade of a Templar to slow targets while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Reactive Parry to grant stacks of Block from Twin Blades while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Reactive Parry to not grant a stack of Block from the third strike of Twin Blades.</li>
+<li>Fixed an issue that caused Plasma Burn's damage aura to display as a critical when damage was not increased.</li>
+<li><span class="text-warning">Blade Dash will now reveal targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Suppression Pulse will now reveal targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="arthas">Arthas</h4>
+
+<ul>
+<li><span class="text-warning">Sindragosa will now reveal targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="auriel">Auriel</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Reservoir of Hope to not display on the talents tab of the scoreboard as a quest talent.</li>
+<li>Sacred Sweep will now reveal targets hit for 2 seconds.</li>
+<li>Detainment Strike will now reveal targets knocked back for 2 seconds.</li>
+<li>Crystal Aegis will now reveal targets hit for 2 seconds.</li>
+</ul>
+
+<h4 id="azmodan">Azmodan</h4>
+
+<ul>
+<li>Fixed an issue that caused All Shall Burn to detonate twice if Cydaea's Kiss is selected while active.</li>
+<li>Fixed an issue that caused Globe of Annihilation's warning indicator to be removed if another Azmodan's Globe of Annihilation lands nearby.</li>
+<li>Globe of Annihilation will now reveal targets hit for 2 seconds.</li>
+</ul>
+
+<h4 id="blaze">Blaze</h4>
+
+<ul>
+<li>Fixed an issue that allowed select abilities to be activated while disabled if selected while inside the Bunker.</li>
+<li>Fixed an issue that caused Heat Treatment to not heal for a portion of the damage dealt by Pyromania.</li>
+<li>Basic Attack will now reveal the area for 0.75 seconds.</li>
+<li>Flame Stream will now reveal target hit for 2 seconds.</li>
+<li>Combustion will now reveal the effect area for 0.75 seconds.</li>
+<li>Oil Spills created by Fuel Leak sight reduced from 7 to 1.5.</li>
+<li>Incinerator Gauntlets icon updated.</li>
+</ul>
+
+<h4 id="brightwing">Brightwing</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Easy.</li>
+<li>Fixed an issue that caused Phase Shift to heal the target briefly after arrival, instead of on arrival.</li>
+<li>Fixed an issue that caused Blink Heal to heal Vehicles when cast on them.</li>
+<li>Invisible Friends will now preview the total healing that will be provided.</li>
+<li>Unstable Anomaly area reveal duration reduced from 1.5 seconds to 0.75 seconds.</li>
+<li>Unstable Anomaly will now reveal targets hit for 2 seconds.</li>
+</ul>
+
+<h4 id="cassia">Cassia</h4>
+
+<ul>
+<li>Fixed an issue that caused Basic Attacks to activate Martial Law while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Static Electricity Lightning Bolts to heal for less than intended from Ring of the Leech.</li>
+<li>Fixed an issue that caused Static Electricity Lightning Bolts to not play impact sounds.</li>
+<li>Fixed an issue that caused Static Electricty Lightning Bolts to not display as criticals against Blinded targets.</li>
+<li>Fixed an issue that caused Lightning Fury Lightning Bolts to be considered as Static Electricity Lightning Bolts.</li>
+<li>Fend will now reveal targets hit for 2 seconds.</li>
+<li>Surge of Light will now reveal targets hit for 2 seconds.</li>
+<li>Surge of Light will now reveal the effect area for 0.75 seconds.</li>
+<li>Martial Law icon updated.</li>
+<li>Imprisoning Light icon updated.</li>
+<li>Infinite Lightning icon updated.</li>
+</ul>
+
+<h4 id="chen">Chen</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Medium.</li>
+<li>Fixed an issue that caused Accumulating Flame's duration increase to proc while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused the Earth Spirit's Basic Attacks to be incapable of killing Sgt. Hammer's Spider Mines.</li>
+<li>Earth Spirit's Basic Attacks will now reveal the effect area for 0.75 seconds.</li>
+</ul>
+
+<h4 id="cho">Cho</h4>
+
+<ul>
+<li>Fixed an issue that caused Fuel for the Flame to deal damage to targets Evading near the primary Basic Attack target.</li>
+<li>Fixed an issue that caused Fuel for the Flame to deal damage to the primary target while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Cthun's Gift to slow targets while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Consuming Blaze to not interrupt Mounts, Objective Channels, Sleeping on application.</li>
+<li>Fixed an issue that caused Molten Block's damage aura to display as a critical when damage was not increased.</li>
+<li>Fuel for the Flame will no longer always display as a critical.</li>
+<li>Consuming Blaze will now reveal targets hit for 2 seconds.</li>
+<li><span class="text-warning">Fuel for the Flame icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="gall">Gall</h4>
+
+<ul>
+<li>Will of Gall is now considered a Quest talent.</li>
+<li>Shadowflame will now reveal targets hit for 2 seconds.</li>
+<li>Dread Orb will now reveal targets hit for 2 seconds.</li>
+<li>Runic Blast will now reveal targets hit for 2 seconds.</li>
+<li>Twisting Nether will now reveal targets hit for 2 seconds.</li>
+<li>Shadowbolt Volley will now reveal targets hit for 2 seconds.</li>
+<li>Dread Orb will no longer grant sight into nearby Shrubs.</li>
+<li>Shadowbolt Volley will no longer grant sight into nearby Shrubs.</li>
+</ul>
+
+<h4 id="chromie">Chromie</h4>
+
+<ul>
+<li>Fixed an issue that caused Sand Echo Basic Attacks to activate A Proper Greeting while Chromie is Blinded.</li>
+<li>Fixed an issue that caused Unravelling Sands's Spell Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Time Trouble's Armor increase to be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Shifting Sands active bonuses to be lost when slain.</li>
+<li>Fixed an issue that caused Shifting Sands to be granted before Sand Blast deals damage.</li>
+<li>Time Trap will no longer cause allies to be incapable of collecting Experience Globes while inside a Shrub for 2 seconds.</li>
+</ul>
+
+<h4 id="deathwing">Deathwing</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Death Drop's Spell Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Molten Flame's button to be highlight while Deathwing is inside a Vehicle and the bonuses from Infernus would be active.</li>
+</ul>
+
+<h4 id="deckard">Deckard</h4>
+
+<ul>
+<li>Fixed an issue that caused Potion of Shielding to increase Deckard's Self Healing when damage is prevented to allied Heroes.</li>
+<li>Fixed an issue that caused Horadric Staff to not be placed on cooldown while Blinded.</li>
+<li>Fixed an issue that caused Rejuvenation Potion to heal Leoric while Undying is active.</li>
+<li>Fixed an issue that caused Scroll of Identify to detect targets before the first quest milestone.</li>
+<li>Ancient Blessings will now reveal the area for 0.75 seconds.</li>
+<li><span class="text-warning">Horadric Cube now reveals targets hit.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="dehaka">Dehaka</h4>
+
+<ul>
+<li>Fixed an issue that caused Dehaka to be immune to allied effects while Burrow is active.</li>
+<li>Fixed an issue that caused Burrow to not reveal negative effects when activated.</li>
+<li>Fixed an issue that caused Lurker Strain's knockback to be treated as a Stun.</li>
+<li>Fixed an issue that caused Lurker Strain's knockback to reveal the Dehaka while active.</li>
+<li>Fixed an issue that caused Lurker Strain's slow to reveal the target while active.</li>
+<li>Lurker Strain will now reveal targets hit for 2 seconds.</li>
+<li>Lurker Strain no longer reveals around targets while they are being knocked back.</li>
+<li>Elongated Tongue icon updated.</li>
+</ul>
+
+<h4 id="diablo">Diablo</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Black Soulstone's health bonuses to stack multiplicatively with other health bonuses.</li>
+<li>Fixed an issue that caused Hell Fire's damage aura to display as a critical when damage was not increased.</li>
+<li>Fixed an issue that caused Dying Breath Apocalypse to display incorrectly in the Death Recap.</li>
+<li>Soul Shield icon updated.</li>
+<li><span class="text-warning">Fire Stomp no longer grants vision-obscured sight.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Fire Stomp now reveals the area extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="dva">D.Va</h4>
+
+<ul>
+<li>Fixed an issue that caused D.Va's AI to not activate Self-Destruct.</li>
+<li>Fixed an issue that caused D.Va to be ejected early if the Mech takes select types of damage after being slain.</li>
+<li>Fixed an issue that caused D.Va's Mech Basic Attacks to be capable of hitting multiple Sgt. Hammer Spider Mines at once.</li>
+<li>Fixed an issue that caused Basic Attacks against Heroes in the bonus attack area to activate Nuclear Option while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused D.Va's scoreboard entry on the talents tab to display incorrectly when she first spawns into the battleground.</li>
+<li>Fixed an issue that caused D.Va's entry in the killfeed to display incorrectly if she is slain by a unit that has since been removed from the battleground (Example: Minions after they have been killed).</li>
+<li>Fixed an issue that caused D.Va's Hero unit reference to not be updated correctly when D.Va respawns.</li>
+<li>Ejecting from the Mech will no longer cause Pilot D.Va to be capable of collecting Experience Globes while inside a Shrub for 2 seconds.</li>
+<li>Self-Destruct will now reveal the effect area for 0.75 seconds.</li>
+<li>Self-Destruct will now reveal targets hit for 2 seconds.</li>
+<li>Big Shot will now reveal targets hit for 2 seconds.</li>
+<li>Boosters will now reveal targets hit for 2 seconds.</li>
+<li>Mech Basic Attacks will now reveal the effect area for 0.75 seconds.</li>
+<li>Concussive Pulse will now reveal the effect area for 0.75 seconds.</li>
+<li>Boosters damage will no longer display as a critical if the target is a valid bonus damage target for Rush-down.</li>
+<li>Aggression Matrix will now display floating text for the healing prevented.</li>
+<li>D.Va is now capable of pinging her Self-Destruct charge to her team.</li>
+<li>D.Va's Mech will now fill out the Death Recap when slain.</li>
+</ul>
+
+<h4 id="etc">E.T.C.</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Hard.</li>
+<li>Fixed an issue that caused Guitar Hero to increase Guitar Solo duration while Blinded or if the target is Evading.</li>
+</ul>
+
+<h4 id="falstad">Falstad</h4>
+
+<ul>
+<li>Fixed an issue that caused BOOMerang's Spell Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Hammerang Reactivation will now reveal targets hit for 2 seconds.</li>
+<li>Hammerang's Returning projectile will now reveal targets hit for 2 seconds.</li>
+<li>Selecting BOOMerang will no longer cause Hammerang's Reactivation to permanently display as a critical.</li>
+<li>Frequent Flyer icon updated.</li>
+<li>Sustained Winds icon updated.</li>
+<li><span class="text-warning">Hammerang Reactivation now reveals the area extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Hammerang Return area reveal updated from 2.625 for 0.33 seconds to area (0.65) extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Hammerang outward area reveal updated from 2.625 for 0.33 seconds to area (1.25 x 2.1) extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Frequent Flyer icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Sutained Winds icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="fenix">Fenix</h4>
+
+<ul>
+<li>Phase Bomb Splash now triggers Physical Attack-limited on-hit effects(meaning Block charges being consumed, Medivh's Raven Familiar firing if the target is a Hero).</li>
+<li>Fixed an issue that caused Mobile Offensive to not activate if Fenix only moves very briefly.</li>
+<li>Fixed an issue that caused Basic Attacks to refresh Divert Power: Weapons duration while Blinded or if the target is Evading.</li>
+<li>Phase Bomb Splash will now reveal the effect area for 0.75 seconds.</li>
+<li>Mobile Offensive icon updated.</li>
+<li>Singularity Charge icon updated.</li>
+<li>Offensive Cadence icon updated.</li>
+<li>Divert Power: Weapons icon updated.</li>
+<li><span class="text-warning">Plasma Cutter will now reveal targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Planet Cracker will now reveal targets hit for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">The splash of Arsenal Synergy's Phase Bomb will no longer reveal targets hit.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Mobile Offensive icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Singularity Charge icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Offensive Cadence icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Divert Power: Weapons icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="garrosh">Garrosh</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Wrecking Ball, Into the Fray will now reveal targets hit by the landing for 2 seconds.</li>
+<li>Decimate will now reveal targets hit for 2 seconds.</li>
+<li><span class="text-warning">Seasoned Soldier icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Mortal Combo icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Earthshaker icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="gazlowe">Gazlowe</h4>
+
+<ul>
+<li>Fixed an issue that caused Basic Attacks to activate Mecha-Lord's Armor increase while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Ark Reaktor turrets to deal increased damage.</li>
+<li>Fixed an isssue causing Gazlowe to be incapable to pinging the cooldown of EZ-PZ Dimensional Ripper to his team.</li>
+</ul>
+
+<h4 id="genji">Genji</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Genji's Self Healing to not increase for the full damage prevented by Deflect.</li>
+<li>Deflect will no longer reveal the area it searches for targets when Genji takes damage with Deflect active.</li>
+<li>Zanshin icon updated.</li>
+</ul>
+
+<h4 id="greymane">Greymane</h4>
+
+<ul>
+<li>Fixed an issue that caused Running Wild to not grant the cooldown reduction when casting Go For the Throat.</li>
+<li>Fixed an issue that caused Alpha Killer to be capable of activating on-death effects multiple times on enemies.</li>
+<li>Fixed an issue that caused Thick Skin to display duplicate Block visuals.</li>
+</ul>
+
+<h4 id="guldan">Gul'dan</h4>
+
+<ul>
+<li>Fixed an issue that caused Fel Flame to be visible outside of the intended area after Pursuit of Flame is completed.</li>
+<li>Fixed an issue that caused Hunger for Power's healing modifications to be disabled while under the effects of Xul's Mortal Wound.</li>
+<li>Fixed an issue that caused Hunger for Power's healing increase to not be the correct value.</li>
+</ul>
+
+<h4 id="hanzo">Hanzo</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Storm Bow to not activate Sharpened Arrowheads while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Storm Bow to activate Sharpened Arrowheads before the damage is dealt.</li>
+<li>Fixed an issue that caused Storm Bow's range bonus from charging to not be reset correctly.</li>
+</ul>
+
+<h4 id="hogger">Hogger</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Aggro Range to grant Rage if a Structure is within the search radius of Hogg Wild.</li>
+<li>Fixed an issue that allowed targeted abilities against the Ez-Thro Dynamite unit.</li>
+<li>Fixed an issue that allowed targeted abilities against the Loot Hoard unit.</li>
+<li>Fixed an issue that allowed targeted abilities against the chunk of Meat unit.</li>
+<li><span class="text-warning">Seeing Red is now flagged as a Passive Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Seeing Red icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Seeing Red moved to the last slot in the Tier.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="illidan">Illidan</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Very Hard.</li>
+<li>Fixed an issue that caused Unending Hatred to stop displaying bonus damage on the talents tab of the scoreboard after reaching the quest milestone.</li>
+<li>Fiery Brand icon updated.</li>
+<li><span class="text-warning">Dive now reveal the enemy target for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Sweeping Strikes now reveal the targets for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="imperius">Imperius</h4>
+
+<ul>
+<li>Holy Fervor cleave reveals the area for 0.75 seconds.</li>
+</ul>
+
+<h4 id="jaina">Jaina</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Medium.</li>
+<li>Fixed an issue that caused Frost Bolt to deal damage on enemies behind the projectile.</li>
+<li>Fixed an issue that caused Frost Bolt to continue to deal damage after it has hit the maximum number of targets with Frost Shards selected.</li>
+<li>Frostbite Armor will now display Block visuals.</li>
+<li>Icefury Wand icon updated.</li>
+<li>Advanced Ice Block icon updated.</li>
+</ul>
+
+<h4 id="johanna">Johanna</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Easy.</li>
+<li>Fixed an issue that caused Blessed Momentum's Attack Speed bonuses to stack multiplicatively with other Attack Speed bonuses and maluses.</li>
+<li>Fixed an issue that caused Holy Fury's damage aura to display as a critical when damage was not increased.</li>
+<li>Fixed an issue that caused Blessed Shield to hit and target Invulnerable enemies.</li>
+<li>Heaven's Fury will no longer cause allies to be incapable of collecting Experience Globes while inside a Shrub for 2 seconds.</li>
+<li>Blessed Hammer will now reveal the effect area for 0.75 seconds.</li>
+<li><span class="text-warning">Holy Fury is now flagged as a Condemn Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="junkrat">Junkrat</h4>
+
+<ul>
+<li>Difficulty increased from Medium to Hard.</li>
+<li>Basic Attack Splash now triggers Physical Attack-limited on-hit effects (Example: Block charges will be consumed).</li>
+<li>Fixed an issue that caused Basic Attack splash to hit Invulnerable enemies.</li>
+<li>Fixed an issue that caused Frag Launcher to hit Invulnerable enemies.</li>
+<li>Fixed an issue that caused Frag Launcher to gain more than intended damage from Hero hits.</li>
+<li><span class="text-warning">Basic Attack Splash area reveal is now extended by 1.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="kaelthas">Kael'thas</h4>
+
+<ul>
+<li>Difficulting updated from Hard to Medium.</li>
+<li>Fixed an issue that caused Gravity Lapse to hit Invulnerable enemies.</li>
+<li>Burned Flesh will now display as a critical effect.</li>
+</ul>
+
+<h4 id="kelthuzad">Kel'Thuzad</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Deathchill's marker to remain on the target if they gain Unstoppable.</li>
+<li>Fixed an issue that caused Power of Icecrown's active bonuses to be lost when slain.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Icy Grasp while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Hungering Cold while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused the Chilling Touch Basic Attacks to be incapable of killing Sgt. Hammer's Spider Mines.</li>
+<li>Kel'Thuzad can now attempt to cast Frost Nova over unpathable terrain.</li>
+<li>Kel'Thuzad's abilities in the command bar will no longer flash when Kel'Thuzad gains 15 stacks of Master of the Cold Dark.</li>
+</ul>
+
+<h4 id="kerrigan">Kerrigan</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Assimilation to increase Kerrigan's Self Healing when Shields granted.</li>
+<li>Fixed an issue that caused Sharpened Blades to gain quest progress from Hallucination Heroes (Nova Holo Decoys, Samuro Mirror Images, Abathur Ultimate Evolutions).</li>
+<li>Ultralisk Basic Attacks will now reveal the effect area for 0.75 seconds.</li>
+<li>Fury of the Swarm empowered Basic Attacks will now reveal the effect area for 0.75 seconds.</li>
+<li>Fury of the Swarm will no longer reveal targets hit by the splash area.</li>
+<li>Impaling Blades will now reveal targets hit for 2 seconds.</li>
+<li>Primal Grasp's secondary explosion will now reveal targets hit for 2 seconds.</li>
+<li>Psionic Shift will now reveal targets hit for 2 seconds.</li>
+<li><span class="text-warning">Ultralisk Splash no longer reveals the target.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="kharazim">Kharazim</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Deadly Reach's Attack Speed bonuses to stack multiplicatively with other Attack Speed bonuses.</li>
+<li>Fixed an issue that caused Insight to grant quest progress while Blinded or if the triggering enemy is Evading.</li>
+<li>Fixed an issue that caused non-Heroes to not be revealed by Spirit Ally.</li>
+</ul>
+
+<h4 id="leoric">Leoric</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Medium.</li>
+<li>Fixed an issue that caused Buried Alive's silence to be reduced in duration by Abolish Magic's duration reduction.</li>
+<li>Fixed an issue that caused Burning Despair's damage aura to display as a critical when damage was not increased.</li>
+<li>Fixed an issue that caused Drain Hope and Drain Essence to remain active on targets after they enter a Vehicle.</li>
+<li>Leoric's Self Healing is no longer increased by Drain Essence's Undying death timer reduction.</li>
+<li>Leoric is no longer capable of activating Ossein Renewal while Undying is active.</li>
+<li>Wrath of the Bone King effect reveal duration reduced from 1 second to 0.75 seconds.</li>
+<li><span class="text-warning">Burning Despair is now flagged as a Drain Hope Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="li-li">Li Li</h4>
+
+<ul>
+<li>Lightning Serpent's Bounces will now bounce to targets immune to area damage (Example: Sgt. Hammer Spider Mines).</li>
+<li>Lightning Serpent's Bounces will now target Passive targets (Example: Kharazim's Earth Ally and Spirit Ally).</li>
+<li><span class="text-warning">Tooltip for Healing Brew fixed.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="li-ming">Li-Ming</h4>
+
+<ul>
+<li>Fixed an issue that caused Magic Missiles to not grant stacks of Force Armor when Tal Rasha's has been selected and Magic Missiles has not granted Spell Power.</li>
+<li>Fixed an issue that caused Teleport to not be completely refunded by Critical Mass and Illusionist while Aether Walker is active.</li>
+<li>Fixed an issue that caused Magic Missiles to hit Invulnerable enemies.</li>
+</ul>
+
+<h4 id="lunara">Lunara</h4>
+
+<ul>
+<li>Fixed an issue that caused Invigorating Spores to be capable of activating on-death effects multiple times on enemies.</li>
+<li>Fixed an issue that caused Invigorating Spores to deal damage while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Invigorating Spores to deal damage on an attack that brings the target to full stacks of Nature's Toxin.</li>
+<li>Splintered Spear will no longer target Hidden or Neutral targets.</li>
+<li><span class="text-warning">Let Them Wither icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Siphoning Toxin and Nature's Culling location in Tier swapped.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="lt-morales">Lt. Morales</h4>
+
+<ul>
+<li>Fixed an issue that caused Medidrone to be capable of healing Leoric while Undying is active.</li>
+<li>Fixed an issue that caused Healing Beam to remain active on a Minion after Sylvanas has cast Possession on the Minion.</li>
+<li><span class="text-warning">Tooltip for Bedside Manner fixed.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="lucio">Lucio</h4>
+
+<ul>
+<li><span class="text-warning">Good Vibrations icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="maiev">Maiev</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Vengeful Knives to gain bonus damage from Physical damage while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Basic Attacks empowered by Umbral Bind to not grant Vengeful Knives stacks against the primary target.</li>
+<li>Fixed an issue that caused Containment Disc's Silence to be bypassable by casting an ability making the target immune to Silence as soon as the Time Stop expires.</li>
+<li>Fixed an issue that caused Bonds of Justice to stop displaying bonus damage on the talents tab of the scoreboard after reaching the quest milestone.</li>
+<li>Naisha's Memento's Bounces will now bounce to targets immune to area damage.</li>
+<li>Naisha's Memento will no longer bounce to Mercenaries that are not currently active.</li>
+</ul>
+
+<h4 id="malganis">Mal'Ganis</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Vanquish the Weak to apply the slow before the damage is dealt.</li>
+<li>Winged Guard will now display a Block visual.</li>
+<li>Blind as a Bat will now remove any nearby reveals placed by Mal'Ganis when cast.</li>
+<li>Fel Claws will now reveal targets for 2 seconds if Blind as a Bat is not active.</li>
+<li>Necrotic Embrace will now reveal targets for 2 seconds if Blind as a Bat is not active.</li>
+<li>Echo of Doom will now reveal targets for 2 seconds if Blind as a Bat is not active.</li>
+<li>Plague Bats will now reveal targets for 2 seconds if Blind as a Bat is not active.</li>
+<li>Seeker Swarm Bats will now only reveal targets for 2 seconds if Blind as a Bat is not active.</li>
+<li>The Night Beckons icon updated.</li>
+<li><span class="text-warning">The Night Beckons icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="malfurion">Malfurion</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Hard.</li>
+<li>Fixed an issue that caused Ysera's Gift to grant bonus healing while Malfurion is dead.</li>
+<li>Fixed an issue that caused Malfurion to be incapable to pinging the cooldown of Astral Communinion to his team.</li>
+<li><span class="text-warning">Lunar Shower icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="malthael">Malthael</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Touch of Death to display floating text for healing prevented twice.</li>
+<li>Ethereal Existence will now display a Block visual at maximum stacks.</li>
+<li>Soul Rip no longer reveals the area.</li>
+</ul>
+
+<h4 id="medivh">Medivh</h4>
+
+<ul>
+<li>Fixed an issue that caused the Hall of Storms to increase Raven Form's Movement Speed by more than intended.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Temporal Flux while Blinded or if the target is Evading.</li>
+<li>Using a Portal will no longer move the user's Camera.</li>
+<li><span class="text-warning">Force of Magic icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="mei">Mei</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Polar Vortex's Attack Speed malus to stack multiplicatively with other Attack Speed bonuses and maluses.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Cooling Servos while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Induce Hibernation to apply to non-Heroes.</li>
+<li>Skating Away now displays a Block visual.</li>
+</ul>
+
+<h4 id="mephisto">Mephisto</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Lightning Reaction to not be affected by damage reduction if caused by a Shade of Mephisto's Lightning Nova.</li>
+</ul>
+
+<h4 id="muradin">Muradin</h4>
+
+<ul>
+<li>Fixed an issue that caused Bronzebeard Rage's damage aura to display as a critical when damage was not increased.</li>
+<li>Fixed an issue that caused Basic Attacks to grant Perfect Storm progress while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Give Em' The Ax while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Grand Slam to grant a charge of Haymaker for each Hero that took part in the takedown.</li>
+<li>Storm Bolt will no reveal the target for 2 seconds.</li>
+<li>Muradin is no longer revealed to the enemy if unseen when Thunder Burn empowered by Thunderstrike damages an enemy.</li>
+<li>Perfect Storm quest tracker icon updated.</li>
+</ul>
+
+<h4 id="murky">Murky</h4>
+
+<ul>
+<li>Fixed an issue that caused Big Tuna Kahuna's health bonuses to stack multiplicatively with other health bonuses.</li>
+<li>Fixed an issue that caused Time To Krill to heal the target Murky if they have selected Fish Tank.</li>
+<li>Fixed an issue that caused Time To Krill to not heal the applying Murky if they have selected Fish Tank.</li>
+<li>Murky no longer reveals in area around him after his Egg is slain.</li>
+<li>Octo-Grab will now reveal the target while active, instead of for a fixed 4 seconds in a 0.75 radius.</li>
+<li>Octo-Grab will now reveal the target for 2 seconds when first cast.</li>
+<li>Slime will now reveal targets hit for 2 seconds.</li>
+<li>Pufferfish will now reveal targets hit for 2 seconds.</li>
+<li><span class="text-warning">Octo-Grab damage target reveal updated from 0.75 radius for 1 second to target for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="nazeebo">Nazeebo</h4>
+
+<ul>
+<li>Fixed an issue that caused Plague of Toads to hit Invulnerable enemies.</li>
+<li>Fixed an issue that allowed targeted abilities against the Plague of Toads unit.</li>
+</ul>
+
+<h4 id="nova">Nova</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Holo Decoys to be revealed to the enemy when their border becomes visible.</li>
+<li>Fixed an issue that caused Holo Decoys to reveal the area around them when slain for 1 second.</li>
+<li>Fixed an issue that caused Anti Armor Shell's Physical Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Holo Decoy's damage readout in the Target Info Panel to display incorrectly with Anti-Armor Shells selected while their Basic Attack is on cooldown.</li>
+<li>Fixed an issue that caused Anti-Armor Shells to reduce the Physical Armor of the target before the damage is dealt.</li>
+<li>Triple Tap will now reveal targets hit for 2 seconds.</li>
+<li>Precision Strike will now reveal targets hit for 2 seconds.</li>
+<li>Explosive Snipe will now reveal targets hit for 2 seconds.</li>
+<li>Snipe no longer reveals in an area around the target.</li>
+<li>Rapid Reprojection icon updated.</li>
+<li><span class="text-warning">Fixed an issue causing Permanent Cloak to not be applied when available after selecting Apollo Suit.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="orphea">Orphea</h4>
+
+<ul>
+<li>Difficulty increased from Medium to Hard.</li>
+<li>Fixed an issue that caused Eldritch Conduit to not be empowered when gaining the 10th stack.</li>
+<li>Fixed an issue that caused Eldritch Conduit's empowered to be lost when slain.</li>
+<li>Fixed an issue that caused Eternal Feast to search for dead units.</li>
+<li>Fixed an issue that caused Dead Magic to deal damage if the splashed to target is Evading.</li>
+<li>Dead Magic now reveals the area for 0.75 seconds.</li>
+</ul>
+
+<h4 id="probius">Probius</h4>
+
+<ul>
+<li>Fixed an issue that caused Construct Additional Pylons to increase the damage of Pylon Overcharge by more than intended.</li>
+</ul>
+
+<h4 id="qhira">Qhira</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Blood Rage to track units after they have been slain.</li>
+<li>Fixed an issue that caused Upstage to not be granted if the number of tracked targets is not reached due to targets dying from Blood Rage.</li>
+<li>Fixed an issue that caused Blood Rage's activation to grant a stack of Fatal Wounds.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Your Pain, My Gain while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Finishing Touch while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Finishing Touch to grant attack speed if the target is brought to below 50% of their Maximum Health.</li>
+<li>Basic Attacks no longer reveal targets hit.</li>
+<li>Swing Life Away now display Spell Armor visuals.</li>
+</ul>
+
+<h4 id="ragnaros">Ragnaros</h4>
+
+<ul>
+<li>Lava Wave will no longer collect Experience Globes (NOTE: Last hits will still function).</li>
+<li>Fixed an issue that caused Tempered Flame to increase Ragnaros's Self Healing when Shields granted.</li>
+<li>Fixed an issue that caused Cauterize Wounds to not display correctly in the Death Recap.</li>
+<li>Fixed an issue that caused non-Heroes to not reduce the cooldown of Blistering Attacks with Empower Sulfuras.</li>
+</ul>
+
+<h4 id="raynor">Raynor</h4>
+
+<ul>
+<li>Fixed an issue that caused Give em' Some Pepper damage to not display in the Death Recap.</li>
+<li>Fixed an issue that caused Give em' Some Pepper damage to not increase Raynor's relevant score entries.</li>
+<li>Fixed an issue that caused Give em' Some Pepper to only reveal Raynor's non-updating position if unseen when dealing damage to an enemy.</li>
+<li>Fixed an issue that caused Give em' Some Pepper to not be correctly modified by damage modification from other Heroes.</li>
+<li>Fixed an issue that caused damage dealt by Hyperion created by Execute Orders to display incorrectly in the Death Recap.</li>
+<li>Give em' Some Pepper will now reveal the area for 0.75 seconds.</li>
+</ul>
+
+<h4 id="rehgar">Rehgar</h4>
+
+<ul>
+<li>Fixed an issue that caused Elemental Conduit to increase Rehgar's Self Healing when damage is prevented to allied Heroes.</li>
+<li>Fixed an issue that caused Colossal Totem's recast to be available for less than the duration of Earthbind Totem.</li>
+<li>Fixed an issue that caused Hunger of the Wolf to activate while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Bloodlust to not apply to channeled Basic Attacks.</li>
+</ul>
+
+<h4 id="rexxar">Rexxar</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Aspect of The Hawk's Attack Speed bonuses to stack multiplicatively with other Attack Speed bonuses and maluses.</li>
+<li>Fixed an issue that caused Misha to gain more Movement Speed than intended while Rexxar is Mounted.</li>
+<li>Fixed an issue that caused Unleash the Boars damage to not be modified by most forms of damage modification.</li>
+<li>Fixed an issue that caused Kill Command's damage bonus to be multiplicative.</li>
+<li>Fixed an issue that caused Wildfire's damage aura to display as a critical when damage was not increased.</li>
+<li>Fixed an issue that caused Misha to lose the benefits of Primal Intimidation once slain.</li>
+<li>Wildfire Bear now reveals the target for 2 seconds.</li>
+</ul>
+
+<h4 id="samuro">Samuro</h4>
+
+<ul>
+<li>Difficulty increased from Hard to Very Hard.</li>
+<li>Wind Walk healing increased from 1% to 3%.</li>
+<li>Way of the Wind healing reduced from 5% to 4%.</li>
+<li>Fixed an issue that caused Way of the Wind to increase Samuro's Healing score instead of his Self Healing score.</li>
+<li>Mirror Image reveal of nearby units on death now matches other Heroic units.</li>
+<li><span class="text-warning">Mirror Image &amp; Image Transmission will no longer cause Samuro and his Mirror Images to have Experience Globes magentise towards them while inside a Shrub for 2 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Burning Blade area reveal is now extended by 1.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="sgt-hammer">Sgt. Hammer</h4>
+
+<ul>
+<li>Tank Mode Splash now triggers Physical Attack-limited on-hit effects (Example: Block charges will now be consumed).</li>
+<li>Tank Mode Splash will now trigger if the Sgt. Hammer is Blinded. Splash damage and triggering effects will still be prevented.</li>
+<li>Tank Mode Splash will now reveal the effect area for 0.75 seconds.</li>
+<li>Tank Mode Splash attacks will no longer reveal targets hit.</li>
+<li><span class="text-warning">Maelstrom Rounds icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Advanced Artillery icon updated</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Ambush icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="sonya">Sonya</h4>
+
+<ul>
+<li>Fixed an issue that caused Leap to not grant Unstoppable while active.</li>
+<li>Rampage icon updated.</li>
+</ul>
+
+<h4 id="stitches">Stitches</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Putrid Bile's Pools to not have their damage modified by other Heroes effects placed onto Stitches.</li>
+<li><span class="text-warning">Flare Up is now flagged as a Trait Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="stukov">Stukov</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Reactive Ballistospores to not be reset correctly by Try Mode, Sandbox reset cooldowns.</li>
+<li>Fixed an issue that caused Reactive Ballistospores to deal more damage than intended when applying Weighted Pustule.</li>
+<li>Fetid Touch icon updated.</li>
+<li>Reactive Ballistospores icon updated.</li>
+<li>Reactive Ballistospores is now considered an active talent, instead of a Weighted Pustule talent.</li>
+<li><span class="text-warning">Fetid Touch icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Reactive Ballistospores icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="sylvanas">Sylvanas</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Might of the Banshee Queen's active bonuses to be lost when slain.</li>
+<li>Fixed an issue that caused Remorseless to apply Overwhelming Affliction's slow when fired.</li>
+<li>Fixed an issue that caused Remorseless to not apply Black Arrows stacks while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Remorseless to not apply Black Arrows activated non-Hero Stun.</li>
+<li>Fixed an issue that caused Remorseless to not apply Mercenary Queen's Mercenary Stun.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Evasive Fire's duration refresh while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Lost Soul's cooldown reduction while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused enemies hit by Deafening Blast's bonus damge area to not be revealed for 2 seconds.</li>
+<li>Fixed an issue that caused enemies hit by Deafeaning Blast's bonus damage area to not be affected by Black Arrow's activated non-Hero stun.</li>
+<li>Fixed an issue that caused Catapults to grant more Experience than intended when Possessed.</li>
+<li>Remorseless will no longer bounce to Mercenaries that are not currently active.</li>
+<li>Remorseless will now bounce to targets immune to area damage.</li>
+<li>Wailing Arrow no longer reveals in a radius around Sylvanas when cast.</li>
+<li>Wailing Arrow will now reveal the search area for 0.75 seconds.</li>
+<li>Remorseless icon updated.</li>
+<li><span class="text-warning">Life Drain icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Remorseless is now flagged as a Trait Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Life Drain is now flagged as a Trait Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="tassadar">Tassadar</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Feedback's Physical Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Archon's Basic Attacks Spell Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Executor's Will to not increase Healing dealt.</li>
+<li>Fixed an issue that caused Oracle's passive healing to not be displayed in the Death Recap.</li>
+<li>Fixed an issue that caused Archon's Basic Attacks to reduce the Spell Armor of targets while Blinded or if the target is Evading.</li>
+<li>Khaydarin Amulet now requires the target to be visible to start the link.</li>
+<li>Khaydarin Amulet will now reveal the target for so long as the link remains active.</li>
+<li>Khaydarin Amulet will now bounce to targets immune to area damage.</li>
+<li>Khaydarin Amulet will no longer bounce to Invulnerable enemies.</li>
+<li>Archon Basic Attacks Splash will no longer reveal targets.</li>
+<li>Archon Basic Attacks will now reveal the effect area for 0.75 seconds.</li>
+</ul>
+
+<h4 id="butcher">Butcher</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Butcher to lose more Meat than intended when slain.</li>
+<li>Cleaver no longer reveals targets hit.</li>
+<li>Cleaver will now reveal the search area for 0.75 seconds.</li>
+<li>Furnace Blast will now reveal targets hit for 2 seconds.</li>
+<li>Butcher is no longer revealed to the enemy if unseen when Lamb to the Slaughter damages an enemy.</li>
+<li><span class="text-warning">Hamstring area reveal updated from area for 0.5 seconds to area extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Furnace Blast area reveal updated from area for 0.5 seconds to area extended by 1 for 0.75 seconds.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="the-lost-vikings">The Lost Vikings</h4>
+
+<ul>
+<li>Viking Hoard will now display the stacks as a baseline quest in the talents tab of the scoreboard.</li>
+<li>Fixed an issue that caused It's a Sabotate to apply while Erik is Blinded.</li>
+<li>Fixed an issue that caused Hunka Burning Olaf's damage aura to display as a critical when damage was not increased.</li>
+<li>Fixed an issue that caused Nordic Attack Squad to not be displayed correctly in the Death Recap.</li>
+<li>Baleog's Basic Attacks when fired from a distance effect reveal duration increased from 0.5 seconds to 0.75 seconds.</li>
+<li>Baleog's Basic Attacks when fired at close range will now reveal the effect area for 0.75 seconds.</li>
+<li>Hunka Burning Olaf will now reveal the target for 2 seconds.</li>
+<li>Nordic Attack Squad icon updated.</li>
+<li><span class="text-warning">Tooltip for Viking Bribery updated to no longer display stacks in the Talents Panel (English only).</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="thrall">Thrall</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Medium.</li>
+<li>Fixed an issue that caused Basic Attacks while Windfury is active to grant stacks of Frostwolf Resilience while Blinded or if the target is Evading.</li>
+<li>Feral Resilience will now display Block visuals.</li>
+<li><span class="text-warning">Maelstrom Weapon icon updated.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="tracer">Tracer</h4>
+
+<ul>
+<li>Fixed an issue that caused Heavy Handed's Armor reduction to not be removed by Stasis or Invulnerability.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Telefrag while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Quantum Spike Pulse Bombs will now explode at the same time as other Pulse Bombs when a unit is Hit, instead of 0.3125 seconds later.</li>
+<li>Fixed an issue that caused Is That a Healthpack?! to heal Vehicles if selected.</li>
+<li>Fixed an issue that caused Composition B + Quantum Spike to deal percent damage to non-Heroes.</li>
+<li>Fixed an issue that caused Parting Gift to hit Invulnerable enemies.</li>
+<li>Total Recall will now increase Tracer's Self Healing when Tracer is healed.</li>
+<li>Total Recall will now display floating combat text when Tracer is healed.</li>
+<li>Total Recall will now display in the Death Recap.</li>
+<li>Completing a Reload will now display floating combat text for the amount of Ammo restored.</li>
+<li>Locked and Loaded will no longer cause Basic Attacks to display as criticals.</li>
+<li>Locked and Loaded will cause the floating combat text for ammo restored by Reload to display as a critical.</li>
+<li>While Locked and Loaded is active, Tracer's Ammo Bar will have a slight pulsing glow around it. This is only visible to Tracer and her Allies.</li>
+<li>While Locked and Loaded is active, Tracer's Reload button on the Command Bar will have a pulsing glow around it.</li>
+<li>Ricochet now requires Tracer to have selected Tracer Rounds to reveal targets.</li>
+<li>Ricochet will now only bounce to visible targets.</li>
+<li>Ricochet will now bounce to targets immune to area damage.</li>
+<li>Ricochet will no longer bounce to Mercenaries that are not currently active.</li>
+<li>Bullet Spray will now reveal targets hit.</li>
+<li>Quantum Spike Pulse Bomb will now reveal identically to other Pulse Bombs, instead of in a larger radius.</li>
+<li>Untouchable icon updated.</li>
+<li><span class="text-warning">Alpha of the Ammo Bar while Locked and Loaded is active changed from 90-140 to 110-160.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Untouchable icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="tychus">Tychus</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Bob and Weave's Basic Attack range increase to display incorrectly in the status buff bar.</li>
+<li>Sizzlin' Attacks icon updated.</li>
+</ul>
+
+<h4 id="tyrael">Tyrael</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Swift Retribution to not apply to channeled Basic Attacks.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Bound By Law while Blinded or if the target is Evading.</li>
+<li>Fixed an issue that caused Burning Halo's damage aura to display as a critical when damage was not increased.</li>
+<li>Archangel's Wrath explosion will now reveal targets hit for 2 seconds.</li>
+<li>Burning Halo icon updated.</li>
+<li>Burning Halo is now classed as a Passive talent.</li>
+<li>Horadric Reforging icon updated.</li>
+<li>Horadric Reforging is now classed as a Passive talent.</li>
+<li><span class="text-warning">Burning Halo is now flagged as an El'Druin's Might Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Horadric Reforging is now classed as an El'Druin's Might Talent.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="tyrande">Tyrande</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Fixed an issue that caused Shadowstalk's healing over time to remain active on Leoric while Undying is active.</li>
+<li>Fixed an issue that caused Huntress Fury to not bounce to Deathwing.</li>
+<li>Fixed an issue that caused Sentinel's cooldown to be reset if a Hallucination is slain while revealed by Sentinel.</li>
+<li>Fixed an issue that caused Mark of Mending to not heal Evading allies.</li>
+<li>Fixed an issue that caused Basic Attacks to activate Mark of Mending if the target is Evading.</li>
+<li>Fixed an issue that caused Elune's Chosen to heal for overkill damage.</li>
+<li>Tyrande is no longer revealed to the enemy if unseen when Empower damages an enemy.</li>
+<li>Shooting Star icon updated.</li>
+<li><span class="text-warning">Fixed an issue causing Shadowstalk to not apply to targets featuring passive Cloak effects.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Shadowstalk will now remove any active reveals on the target.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+<li><span class="text-warning">Tooltip for Huntress' Fury fixed.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="uther">Uther</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Hard.</li>
+<li>Uther's Heroics will no longer be hidden while Spirit Form is active. He will not be capable of casting them.</li>
+<li>Fixed an issue that caused Holy Fire's damage aura to display as a critical when damage was not increased.</li>
+<li>Holy Radiance will now reveal the effect area for 0.75 seconds.</li>
+<li>Holy Radiance will now reveal enemy targets hit.</li>
+<li>Divine Storm will now reveal the effect area for 0.75 seconds.</li>
+<li>Divine Storm will reveal the target for 2 seconds.</li>
+<li>Holy Fire icon updated.</li>
+<li><span class="text-warning">Holy Fire icon updated and then reverted.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="valeera">Valeera</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Fixed an issue that caused Garrote to display incorrectly in the Death Recap after extended by Rupture.</li>
+<li>Eviscerate will now reveal the target for 2 seconds.</li>
+<li>Ambush will now reveal the target for 2 seconds.</li>
+<li>Cheap Shot will now reveal the target for 2 seconds.</li>
+<li>Garrote will now reveal the target for 2 seconds.</li>
+<li>Sinister Strike will now reveal targets hit for 2 seconds.</li>
+<li>Blade Flurry will now reveal the effect area for 0.75 seconds.</li>
+<li>Blade Flurry will now reveal targets hit for 2 seconds.</li>
+</ul>
+
+<h4 id="valla">Valla</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Medium.</li>
+<li>Fixed an issue that caused Manticore's stack display to be displayed incorrectly.</li>
+<li>Manticore icon updated.</li>
+</ul>
+
+<h4 id="varian">Varian</h4>
+
+<ul>
+<li>Fixed an issue that caused Second Wind to display as uncastable.</li>
+<li>Fixed an issue that caused Twin Blades of Fury's Attack Speed bonuses to stack multiplicatively with other Attack Speed bonuses and maluses.</li>
+<li>Fixed an issue that caused Juggernaut to be capable of activating on-death effects multiple times on enemies.</li>
+<li>Master at Arms will now reveal targets hit for 2 seconds.</li>
+<li>Master at Arms will now reveal the effect area for 0.75 seconds.</li>
+</ul>
+
+<h4 id="whitemane">Whitemane</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Very Hard.</li>
+<li>Inquisition will now reveal targets for 2 seconds upon removal and for 0.5625 seconds each time damage is dealt.</li>
+<li>Inquisition will no longer reveal around the target.</li>
+<li>Divine Reckoning will now reveal targets hit for 2 seconds.</li>
+<li>Searing Lash will now reveal targets hit for 2 seconds.</li>
+<li>Saintly Greatstaff icon updated.</li>
+</ul>
+
+<h4 id="xul">Xul</h4>
+
+<ul>
+<li>Fixed an issue that caused Cursed Strikes to hit targets immune to area damage.</li>
+<li>Cursed Strikes will now reveal the effect area for 0.75 seconds.</li>
+<li>Backlash will now reveal the area for 0.75 seconds.</li>
+<li>Shackler no longer reveals the area.</li>
+<li>Cursed Strikes no longer reveals targets hit.</li>
+</ul>
+
+<h4 id="yrel">Yrel</h4>
+
+<ul>
+<li>Difficulty updated from Medium to Hard.</li>
+<li>Holy Wrath Splash now triggers Physical Attack-limited on-hit effects(meaning Block charges being consumed, Medivh's Raven Familiar firing if the target is a Hero).</li>
+<li>Dauntless will now display Block visuals.</li>
+<li>Holy Wrath area reveal duration reduced from 1 second to 0.75 seconds.</li>
+<li>Aegis of Light no longer reveals the area.</li>
+<li>Vindication will now reveal targets hit for 2 seconds.</li>
+<li>Righteous Hammer will now reveal targets hit for 2 seconds.</li>
+<li>Avenging Wrath will now reveal targets hit for 2 seconds.</li>
+</ul>
+
+<h4 id="zagara">Zagara</h4>
+
+<ul>
+<li>Fixed an issue that caused Banelings to not be affected by Defense Matrix.</li>
+<li>Mutalisk Basic Attacks will no longer bounce to Mercenaries that are not currently active.</li>
+<li>Mutalisk Basic Attacks will now bounce targets immune to area damage.</li>
+</ul>
+
+<h4 id="zarya">Zarya</h4>
+
+<ul>
+<li>Difficulty updated from Easy to Medium.</li>
+<li>Fixed an issue that caused Defensive Shielding to not apply if the target already has select forms of Block.</li>
+<li>Fixed an issue that caused Basic Attack Splash to work incorrectly with Time Stop.</li>
+<li>Basic Attacks will now reveal the effect area for 0.75 seconds.</li>
+<li>Basic Attacks no longer reveal targets hit.</li>
+<li>Explosive Barrier will now reveal targets hit for 2 seconds.</li>
+<li>Explosive Barrier will now reveal the effect area for 0.75 seconds.</li>
+<li>Feel the Heat icon updated.</li>
+<li><span class="text-warning">Expulsion Zone now reveals targets hit.</span> <a class="label label-warning" href="https://github.com/stuaroo/heroes-patch-notes/issues/1" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<h4 id="zeratul">Zeratul</h4>
+
+<ul>
+<li>Difficulty updated from Hard to Very Hard.</li>
+<li>Cleave will now reveal the effect area for 0.75 seconds.</li>
+</ul>
+
+<h4 id="zuljin">Zul'jin</h4>
+
+<ul>
+<li>A Surprise For Ya no longer reveal targets.</li>
+<li>A Surprise For Ya will now only bounce to visible targets.</li>
+<li>A Surprise For Ya will now bounce to targets immune to area damage.</li>
+<li>A Surprise For Ya will no longer bounce to Mercenaries that are not currently active.</li>
+<li>Grievous Throw will now reveal targets hit for 2 seconds.</li>
+<li>Twin Cleave will now reveal targets hit for 2 seconds.</li>
+<li>Guillotine will now reveal targets hit for 2 seconds.</li>
+<li>Buzzsaw will now reveal targets hit for 2 seconds.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong>A big thank you to <a href="https://github.com/stuaroo/heroes-patch-notes/issues/1">@Elitesparkle for providing details</a> to the undocumented changes above!</strong></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2023-10-23 PTR Patch Notes</title>
     <published>2024-04-17T19:00:00.000Z</published>
@@ -10814,1108 +11969,6 @@ know about your experiences.</p>
 <p><strong>A big thank you to <a href="https://www.reddit.com/r/heroesofthestorm/comments/ly0mqt/patch_84249_hotfix_changes_datamined/">u/iku_19</a> and <a href="https://www.reddit.com/r/heroesofthestorm/comments/ly0mqt/patch_84249_hotfix_changes_datamined/gpq2oly/">u/Spazzo965 for providing details</a> to this hotfix patch!</strong></p>
 
 <hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2021-03-02 Balance Update</title>
-    <published>2021-03-03T09:33:00.000Z</published>
-    <updated>2021-03-03T09:33:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2021-03-02-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-03-02-balance-update.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-balance-patch-notes-march-2-2021">Heroes of the Storm Balance Patch Notes - March 2, 2021</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1485586192/balanceupdate.png"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23623169" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/23623169" target="_blank">Official Patch Notes</a> <small>v 2.53.2</small></div>
-
-<p>Heroes of the Storm has just been updated with Hero balance changes! Read on
-for details.</p>
-
-<hr />
-
-<h3 id="heroes">Heroes</h3>
-
-<table>
-<thead>
-<tr>
-  <th><strong><a href="#tank">TANK</a></strong></th>
-  <th><strong><a href="#bruiser">BRUISER</a></strong></th>
-  <th><strong><a href="#healer">HEALER</a></strong></th>
-  <th><strong><a href="#melee-assassin">MELEE ASSASSIN</a></strong></th>
-  <th><strong><a href="#ranged-assassin">RANGED ASSASSIN</a></strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><a href="#diablo">Diablo</a></td>
-  <td><a href="#artanis">Artanis</a></td>
-  <td><a href="#alexstrasza">Alexstrasza</a></td>
-  <td><a href="#illidan">Illidan</a></td>
-  <td><a href="#chromie">Chromie</a></td>
-</tr>
-<tr>
-  <td><a href="#malganis">Mal'Ganis</a></td>
-  <td><a href="#hogger">Hogger</a></td>
-  <td><a href="#li-li">Li Li</a></td>
-  <td></td>
-  <td><a href="#falstad">Falstad</a></td>
-</tr>
-<tr>
-  <td><a href="#muradin">Muradin</a></td>
-  <td><a href="#ragnaros">Ragnaros</a></td>
-  <td><a href="#lucio">Lucio</a></td>
-  <td></td>
-  <td><a href="#fenix">Fenix</a></td>
-</tr>
-<tr>
-  <td><a href="#tyrael">Tyrael</a></td>
-  <td></td>
-  <td><a href="#malfurion">Malfurion</a></td>
-  <td></td>
-  <td><a href="#mephisto">Mephisto</a></td>
-</tr>
-<tr>
-  <td></td>
-  <td></td>
-  <td><a href="#whitemane">Whitemane</a></td>
-  <td></td>
-  <td><a href="#tracer">Tracer</a></td>
-</tr>
-</tbody>
-</table>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<h3 id="tank">Tank</h3>
-
-<h4 id="diablo">Diablo</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Feast on Fear [Q/E]</strong>
-<ul>
-<li>Healing per second reduced from 4% to 2.5%.</li>
-<li>Additional functionality: Now heals immediately when first applied.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Sacrificial Soul [Q]</strong>
-<ul>
-<li>Base Armor reduced from 25 to 20.</li>
-<li>Armor at 100 Souls reduced from 50 to 40.</li>
-<li>Armor duration reduced from 4 to 3 seconds.</li>
-</ul></li>
-<li><strong>Life Leech [Passive]</strong>
-<ul>
-<li>Base healing reduced from 2% to 1.75%.</li>
-<li>Healing at 100 Souls reduced from 4% to 3.5%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Hellfire [W]</strong>
-<ul>
-<li>Damage per second increased from 17 to 30.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Debilitating Flames [W]</strong>
-<ul>
-<li>Slow per hit increased from 5% to 6%.</li>
-<li>Slow amount required to affect damage dealt reduced from 25% to 24%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're happy with the Lord of Terror's ability to wage
-  wanton destruction, but we think he should do so at greater risk to himself.
-  The hits to his survivability may be too heavy handed, in which case we are
-  ready to grovel for Diablo's forgiveness and resolve it with our next update.
-  While we're here, we had an excuse to tune up Fire Stomp's later tier talents.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malganis">Mal'Ganis</h4>
-
-<p><strong>Stats</strong></p>
-
-<ul>
-<li>Health increased from 2550 to 2600.</li>
-<li>Health Regeneration increased from 5.31 to 5.41.</li>
-<li>Basic Attack damage increased from 92 to 96.</li>
-</ul>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Fel Claws [Q]</strong>
-<ul>
-<li>Damage increased from 63 to 66.</li>
-</ul></li>
-<li><strong>Night Rush [E]</strong>
-<ul>
-<li>Cooldown reduced from 16 to 14 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Time to Feed [Passive]</strong>
-<ul>
-<li>Adjusted functionality: Mal'Ganis heals for 70 when damaging an enemy Hero. This can only occur every 6 seconds per enemy, but is also refreshed when they are Slept by Night Rush.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Fueled by Torment [W]</strong>
-<ul>
-<li>Healing increased from 11 to 12.</li>
-</ul></li>
-<li><strong>Echo of Doom [W]</strong>
-<ul>
-<li>Damage increased from 66 to 68.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Will of Tichondrius [Q]</strong>
-<ul>
-<li>Additional Stun duration increased from 0.25 seconds to 0.5 seconds.</li>
-</ul></li>
-<li><strong>Spreading Plague [E]</strong>
-<ul>
-<li>Damage increased from 30 to 33.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Blood Rush [Trait]</strong>
-<ul>
-<li>Duration reduced from 8 to 6 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Frenzied Assault [Passive]</strong>
-<ul>
-<li>Attack Speed duration increased from 2 to 3 seconds.</li>
-</ul></li>
-<li><strong>Blind as a Bat [Active]</strong>
-<ul>
-<li>Cooldown reduced from 80 to 60 seconds.</li>
-<li>Cooldown reduction from final slash of Fel Claws reduced from 5 to 4 seconds.</li>
-<li>No longer sets Fel Claws on cooldown when it expires.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Mal'Ganis has fallen off the list of tanks that are
-  considered when drafting, and we hope this lift upwards leaves him on more
-  solid footing. We also looked to level out the benefit from some
-  underperforming talents, in particular Time to Feed now always heals for 80%
-  of its previously conditional amount, and has a new bonus for Sleeping
-  enemies. That said, Blood Rush has had a mild reduction in duration that
-  should not be noticed while fighting, but will increase how often it is reset
-  between scuffles.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="muradin">Muradin</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Perfect Storm [Q]</strong>
-<ul>
-<li>Damage bonus reduced from 5 to 4.</li>
-</ul></li>
-<li><strong>Dwarf Block [E]</strong>
-<ul>
-<li>Block charges no longer have a duration.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Thunder Burn [W]</strong>
-<ul>
-<li>Damage increased from 50% to 75%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Avatar [R1]</strong>
-<ul>
-<li>Bonus Health reduced from 1053 to 1000.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Bronzebeard Rage [Q]</strong>
-<ul>
-<li>Adjusted functionality: Deal 15 damage per second, healing for 75% of the damage dealt. Hitting an enemy Hero with Storm Bolt increases this damage by 200% for 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Dwarf Launch [E]</strong>
-<ul>
-<li>Dwarf Toss cooldown reduction reduced from 3 to 2 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Muradin has spent a long time being a consistent
-  Tank, and has slowly drifted upwards in power. Sharpening Bronzebeard Rage
-  should reduce Muradin's overall healing while allowing skillful play to earn a
-  moment of its previous strength.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tyrael">Tyrael</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Archangel's Wrath [Trait]</strong>
-<ul>
-<li>Duration increased from 3.5 to 4 seconds.</li>
-<li>Damage reduced from 550 to 450.</li>
-<li>Movement Speed increased by 20%.</li>
-<li>Additional functionality: Enemies within Archangel Wrath's radius deal 50% less damage. Enemies hit by Archangel's Wrath deal 50% less damage for 3 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Justice for All [W]</strong>
-<ul>
-<li>Shield bonus for allies increased from 75% to 80%.</li>
-</ul></li>
-<li><strong>Ardent Restoration [Passive]</strong>
-<ul>
-<li>Additional functionality: Quest: Every Regeneration Globe collected increases the heal-over-time effect by 1%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Stalwart Angel [Q]</strong>
-<ul>
-<li>Armor duration increased from 2 to 3 seconds.</li>
-</ul></li>
-<li><strong>Bound by Law [Q]</strong>
-<ul>
-<li>No longer increases El'Druin's Might's Slow.</li>
-<li>Additional functionality: Every enemy Hero hit by El'Druin's Might heals Tyrael for 3% of his maximum Health.</li>
-</ul></li>
-<li><strong>Divine Vigor [E]</strong>
-<ul>
-<li>Basic Attack heal decreased from 75% to 70%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Reciprocate [W]</strong>
-<ul>
-<li>Shield expiration damage increased from 170 to 190.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Sanctification [R2]</strong>
-<ul>
-<li>Cooldown reduced from 100 to 90 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Horadric Reforging [Q]</strong>
-<ul>
-<li>Cooldown per Basic Attack increased from 1.5 to 2 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> There are so many things that we want to do with
-  Tyrael in the future but for the time being we wanted to add some more utility
-  to his Trait while adding some fun additions to some other under-performing
-  Talents.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="bruiser">Bruiser</h3>
-
-<h4 id="artanis">Artanis</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Blade Dash [Q]</strong>
-<ul>
-<li>Initial damage increased from 57 to 63.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Psionic Synergy [E]</strong>
-<ul>
-<li>Duration increased from 3 to 5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Solarite Reaper [Q]</strong>
-<ul>
-<li>Damage bonus increased from 150% to 175%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Graviton Vortex [E]</strong>
-<ul>
-<li>Phase Prism cooldown reduction increased from 1.75 to 2 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Artanis has been finding more and more of his success
-  by focusing on taking Basic Attack talents, so we're trying to even out his
-  choices.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="hogger">Hogger</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Hogg Wild [E]</strong>
-<ul>
-<li>Damage reduced from 36 to 32.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Brute Force [Q/Trait]</strong>
-<ul>
-<li>Damage bonus from hitting Heroes with Staggering Blow increased from 1 to 2.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> The last set of balance adjustments have left Hogger
-  in a pretty good spot, but Hogg Wild's damage could stand to drop slightly.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="ragnaros">Ragnaros</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Sulfuras Hungers [Q]</strong>
-<ul>
-<li>Quest requirement reduced from 30 to 25.</li>
-<li>Quest reward damage bonus increased from 90 to 100.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Hand of Ragnaros [Q]</strong>
-<ul>
-<li>Adjusted functionality: If Empower Sulfuras hits 2 Heroes, refund 10 mana and its cooldown recharges 100% faster for 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Cauterize Wounds [Q]</strong>
-<ul>
-<li>Healing increased from 40% to 45%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Meteor Bomb [W]</strong>
-<ul>
-<li>Additional functionality: Meteor Bomb deals an additional 30% damage near its center.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> These changes are simply looking to help out some
-  weaker talents. Hand of Ragnaros is still providing the same benefit in the
-  same situations as before, and now also helps Ragnaros recover from a swing
-  that failed to meet its requirement.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="healer">Healer</h3>
-
-<h4 id="alexstrasza">Alexstrasza</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Live and Let Live [Q]</strong>
-<ul>
-<li>Gift of Life's cooldown recharge increased from 100% to 125%.</li>
-</ul></li>
-<li><strong>Circle of Life [W]</strong>
-<ul>
-<li>Globes required for unlocking second tier quest reduced from 20 to 15.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Lifeblossom [Q]</strong>
-<ul>
-<li>Additional functionality: Reduces the cost of Gift of Life to 10% maximum Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Draconic Discipline [D]</strong>
-<ul>
-<li>Dragonqueen duration bonus reduced from 7 to 6 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> While our Dragon Queen's Talent Tree is in a pretty
-  healthy spot, there were a couple of outliers that could be improved. On the
-  opposite side Draconic Discipline was slightly stronger than we would like so
-  we removed a second from the duration increase.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="li-li">Li Li</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Blinding Wind [E]</strong>
-<ul>
-<li>Additional functionality: Slows enemies hit by 15% for 1.5 seconds.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Serpent Sidekick [W]</strong>
-<ul>
-<li>Moved from level 4.</li>
-<li>New functionality: Cloud Serpent no longer costs Mana and while Fast Feet is active its cooldown refreshes an additional 75% faster.</li>
-</ul></li>
-<li><strong>Eager Adventurer [Trait]</strong>
-<ul>
-<li>Duration and Mana Regeneration bonuses increased from 125% to 150%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Wind Serpent [W]</strong>
-<ul>
-<li>Moved from level 1.</li>
-<li>New functionality: Cloud Serpent grants it bearer 10% increased Move Speed. Casting Blinding Wind increases this bonus to 20% for 3 seconds. Passive: Cloud Serpent attacks 25% faster.</li>
-</ul></li>
-<li><strong>Safety Sprint [Active/Trait]</strong>
-<ul>
-<li>New functionality: Activate to gain Fast Feet, 30 Armor, and 30% Movement Speed for 3 seconds. Passive: While Fast Feet is active, gain 10 Armor.</li>
-<li>Cooldown increased from 25 to 30 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Mass Vortex [E]</strong>
-<ul>
-<li>Moved from level 13.</li>
-</ul></li>
-<li><strong>Let's Go! [Active]</strong>
-<ul>
-<li>Healing amount increased from 140 to 160.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Water Dragon [R2]</strong>
-<ul>
-<li>Cooldown increased from 45 to 50 seconds.</li>
-<li>Mana cost increased from 50 to 60.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Lightning Serpent [W]</strong>
-<ul>
-<li>Moved from level 7.</li>
-<li>Bounce attack no longer requires Heroic targets.</li>
-</ul></li>
-<li><strong>Gale Force [E]</strong>
-<ul>
-<li>Basic Attack damage bonus increased from 75% to 100%.</li>
-</ul></li>
-<li><strong>Hindering Winds [E]</strong>
-<ul>
-<li>New functionality: Increase Blinding Wind's Slow amount to 30% and its duration to 2 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Blessings Of Yu'lon [W]</strong>
-<ul>
-<li>New functionality: Cloud Serpent grants its bearer 10% increased healing received and heals them for 0.5% of their maximum health each time it attacks.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>Shake It Off (Trait)</strong>
-<ul>
-<li>New unctionality: Gain 35 Armor while Stunned, Silenced, or Rooted. Passive: Increase Fast Feet's cooldown refresh bonus to 75%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> After a brief visit to far-away fields of eternal
-  conflict, Li Li returns to the Nexus with a new-found penchant for friendship.
-  We didn't like how mandatory the old Hindering Winds talent felt, so we made
-  some of its functionality baseline and repositioned some Blinding Wind talents
-  to make her 'offensive' build more potent. We've also redesigned many of Li
-  Li's Cloud Serpent talents to make them more individually meaningful and to
-  make the collective Cloud Serpent build have more of an identity and purpose
-  of its own.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="lucio">Lucio</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>High Five [R2]</strong>
-<ul>
-<li>Movement speed while skating to target increased by 25%.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Let's gooooooooo!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="malfurion">Malfurion</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li>All Level 1 Talents have been moved to Level 4.</li>
-<li><strong>Strangling Vines [E]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>New Talent: Emerald Dreams [E]</strong>
-<ul>
-<li>Entangling Roots Sleeps enemies for 2 seconds after its Root expires.</li>
-</ul></li>
-<li><strong>Deep Roots [E]</strong>
-<ul>
-<li>Quest: Hitting enemy Heroes with Entangling Roots permanently grants 10 Mana.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li>All Level 4 Talents have been moved to Level 1.</li>
-<li><strong>Shan'do's Clarity [D]</strong>
-<ul>
-<li>Additional functionality: Gain an extra charge of Innervate.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Hindering Moonfire</strong>
-<ul>
-<li>Slow duration increased from 2 to 3 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We decided to add an additional quest to Malf's
-  Talent Tree and in doing so wanted to bring them online earlier in the game.
-  Swapping the level 1 and 4 Talent tiers will allow players more time to stack
-  their Broccoli...errrr, Treant damage or Mana Pool. On the same tier,
-  Strangling Vines was always a bit of an oddball Talent so we decided to bring
-  in something a bit more flavorful!</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="whitemane">Whitemane</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Righteous Flame [E]</strong>
-<ul>
-<li>Attack Speed bonus increased from 25% to 40%.</li>
-<li>Attack Speed duration reduced from 4 to 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Unwavering Faith [Q]</strong>
-<ul>
-<li>Attack Damage bonus from 15% to 20%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 10</strong>
-<ul>
-<li><strong>Scarlet Aegis [R1]</strong>
-<ul>
-<li>Heal increased from 250 to 300.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Scarlet Wrath [Trait]</strong>
-<ul>
-<li>Duration bonus of Zeal for Basic Attacks increased from .5 to .75 seconds.</li>
-<li>Cooldown reduction of Zeal Activation from Basic Attacks increased from 1 to 4 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Radiance [Q]</strong>
-<ul>
-<li>Armor gain increased from 10 to 15.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> When Whitemane's rework first came out her Basic
-  Attack build was slightly too strong and we pulled back on it quite a bit.
-  Since then it has started to wane so we are giving back some of its previous
-  punch.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="melee-assassin">Melee Assassin</h3>
-
-<h4 id="illidan">Illidan</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li>All Level 4 Talents have been moved to Level 7.</li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li>All Level 7 Talents have been moved to Level 4.</li>
-<li><strong>Unbound [W]</strong>
-<ul>
-<li>Hero hits for quest completion reduced from 30 to 15.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We don't mind when Illidan players prefer to shy away
-  from teamfights earlier in the game, but we want to make sure it's not the
-  only option. We're swapping his healing talent tier with his mobility talent
-  tier to help achieve this.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<h3 id="ranged-assassin">Ranged Assassin</h3>
-
-<h4 id="chromie">Chromie</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Time Trap [E]</strong>
-<ul>
-<li>Health reduced from 500 to 400.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Once Again the First Time [Q]</strong>
-<ul>
-<li>Additional functionality: Quest reward increases Echo mimic damage from 40% to 45%.</li>
-</ul></li>
-<li><strong>Timewalker's Pursuit [Passive]</strong>
-<ul>
-<li>Area reveal duration increased from 2 to 4 seconds.</li>
-<li>Spell Power reduced from 15% to 10%.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 2</strong>
-<ul>
-<li><strong>Time Troubles [E]</strong>
-<ul>
-<li>Enemy Armor reduction reduced from 20 to 15.</li>
-<li>Allied Armor increased from 20 to 30.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 5</strong>
-<ul>
-<li><strong>A Proper Greeting [Passive]</strong>
-<ul>
-<li>Additional damage dealt reduced from 25% to 20%.</li>
-<li>Duration reduced from 5 to 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 8</strong>
-<ul>
-<li><strong>Slowing Sands [R1]</strong>
-<ul>
-<li>Mana cost increased from 3 to 5 per second.</li>
-<li>Cast range reduced from 10 to 8.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 18</strong>
-<ul>
-<li><strong>Unraveling [R1]</strong>
-<ul>
-<li>Spell Armor reduction increased from 7 to 10.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> We're seeing a trend of high level Chromie players
-  combining easy and consistent talents. We like these talents, but we don't
-  believe that they should continue to be the best options for our best players,
-  so we're reducing their raw power. We're also increasing available counterplay
-  for Time Trap and Slowing Sands.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="falstad">Falstad</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Hammerang [Q]</strong>
-<ul>
-<li>Hammerang damage reduced from 121 to 80.</li>
-<li>Additional functionality: Hammerang can be reactivated mid-flight to explode, dealing 95 damage around the Hammer.</li>
-</ul></li>
-<li><strong>Lightning Rod [W]</strong>
-<ul>
-<li>Additional functionality: Lightning Rod deals 100% additional damage to Minions and Mercenaries.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Wingman [Active]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Seasoned Marksman [Passive]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>Gathering Storm [Q]</strong>
-<ul>
-<li>Damage bonus per quest stack changed from 2 to 0.2%.</li>
-<li>Mana refund reduced from 10 to 6.</li>
-<li>Additional functionality: Quest progress is gained from Hammerang's explosion.</li>
-</ul></li>
-<li><strong>New Talent: Dishonorable Discharge [W]</strong>
-<ul>
-<li>Reduce Lightning Rod's cooldown by 3 seconds, and Takedowns reset its cooldown.</li>
-<li>Quest: After 3 Lightning Rod strikes, subsequent strikes on enemy Heroes increases its damage by 1%, up to 75%.</li>
-</ul></li>
-<li><strong>New Talent: Frequent Flyer [Active]</strong>
-<ul>
-<li>Activate Frequent Flyer to gain 40% Attack Speed and Tailwind for 5 seconds.</li>
-<li>Quest: Minion kills grant 0.2 Basic Attack Damage, and Hero Takedowns grant 0.5 Basic Attack Damage.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>BOOMerang [Q]</strong>
-<ul>
-<li>New functionality: Hammerang's explosion deals 75% additional damage, and reduces Spell Armor of enemy Heroes hit by 15 for 3 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Giant Killer [Passive]</strong>
-<ul>
-<li>Removed.</li>
-</ul></li>
-<li><strong>New Talent: Sustained Winds [D]</strong>
-<ul>
-<li>Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health, increased to 2% while Tailwind is active.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Crippling Hammer [Q]</strong>
-<ul>
-<li>Bonus Hammerang Slow reduced from 35% to 25%.</li>
-<li>Additional functionality: Hammerang's explosion also Slows.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> For as long as Falstad has had the BOOMerang talent,
-  there have been players that have wanted it to be a part of Falstad's base
-  kit. So, we're giving it a try and seeing what happens! We've also altered
-  early talents to be less reliant on slaying Minions to unlock their strength.
-  While Falstad is no longer able to Bribe Mercenaries with Wingman, we hope the
-  Lightning Rod bonus damage makes up for it.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="fenix">Fenix</h4>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Inhibiting Energy [W]</strong>
-<ul>
-<li>New functionality: Every 10 seconds, your next Basic Attack with Phase Bomb active Slows targets hit by 60%, rapidly decaying over 1.5 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Dampening Field [Trait]</strong>
-<ul>
-<li>Spell Armor increased from 25 to 30.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 16</strong>
-<ul>
-<li><strong>Photonic Weaponry [Trait]</strong>
-<ul>
-<li>Damage bonus increased from 15% to 20%.</li>
-</ul></li>
-<li><strong>Arsenal Overcharge [Passive]</strong>
-<ul>
-<li>Additional functionality: Basic Attacks with Phase Bomb active reduce Ability cooldowns by .5 seconds per Hero hit.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 20</strong>
-<ul>
-<li><strong>New Talent: Armageddon Beam [R2]</strong>
-<ul>
-<li>Planet Cracker's width increases by 100% over 1.5 seconds. Passive: Reduce the cooldown of Planet Cracker by 40 seconds.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Get your side steps and shoop de whoops ready, cause
-  there's a big new lazer in town. Overall, Fenix is in a good spot, but there
-  are still some talents that are underperforming compared to other choices at
-  their tier. We've also taken Inhibiting Energy in a new direction as the old
-  version was a bit too inconsistent.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="mephisto">Mephisto</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Skull Missile [Q]</strong>
-<ul>
-<li>Launch delay reduced from .75 to .625 seconds.</li>
-<li>Missile speed increased from 17 to 19.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Unyielding Power [Q]</strong>
-<ul>
-<li>Adjusted functionality: Second tier quest reward now grants an additional charge of Skull Missile.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 7</strong>
-<ul>
-<li><strong>Ghastly Armor [E]</strong>
-<ul>
-<li>Armor increased from 20 to 25.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Abhorred Skull [Q]</strong>
-<ul>
-<li>Adjusted functionality: Skull Missile deals 40% more damage to Heroes under 50% health.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Mephisto's Skull Missile talents are underperforming
-  across the board, so we're looking to make the ability slightly more
-  consistent baseline and injecting a little more power into its talents.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<h4 id="tracer">Tracer</h4>
-
-<p><strong>Abilities</strong></p>
-
-<ul>
-<li><strong>Melee [W]</strong>
-<ul>
-<li>Pulse Bomb charge generation reduced from 6/12 to 5/10.</li>
-</ul></li>
-<li><strong>Pulse Bomb [R]</strong>
-<ul>
-<li>Target damage increased from 288 to 298.</li>
-<li>AoE damage increased from 144 to 149.</li>
-</ul></li>
-</ul>
-
-<p><strong>Talents</strong></p>
-
-<ul>
-<li><strong>Level 1</strong>
-<ul>
-<li><strong>Parting Gift [E]</strong>
-<ul>
-<li>Number of bombs increased from 3 to 6.</li>
-<li>Pulse Bomb Charge increased from 5 to 7 %.</li>
-<li>Damage reduced from 250 to 240.</li>
-<li>Added functionality: Heroes hit by bombs are also slowed by 60% for .75 seconds.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 4</strong>
-<ul>
-<li><strong>Leeching Rounds [Trait]</strong>
-<ul>
-<li>New functionality: Increase the healing from Basic Attacks by up to 200%, increasing based on Tracer's missing health.</li>
-</ul></li>
-<li><strong>Is That a Health Pack?! [Passive]</strong>
-<ul>
-<li>New functionality: Collecting a Regen Globe instantly heals Tracer for 10% of her maximum Health and reduces the cooldown of Healing Fountain by 15 seconds.</li>
-<li>New functionality: Drinking from a Healing Fountain instantly heals Tracer for 20% of her maximum Health.</li>
-</ul></li>
-</ul></li>
-<li><strong>Level 13</strong>
-<ul>
-<li><strong>Untouchable [Q/Trait]</strong>
-<ul>
-<li>Maximum damage bonus reduced from 30 to 25%.</li>
-<li>Movement speed bonus duration reduced from 2 to 1.5 seconds.</li>
-</ul></li>
-<li><strong>Jumper [Q]</strong>
-<ul>
-<li>Cooldown reduction increased from 125 to 150%.</li>
-<li>Shield amount increased from 6 to 8% maximum Health.</li>
-</ul></li>
-<li><strong>Telefrag [E]</strong>
-<ul>
-<li>Cooldown reduction reduced from .3125 to .1875.</li>
-<li>Damage increased from 160 to 175.</li>
-<li>Added functionality: Tracer becomes Unkillable for 1 second after arriving at the recall location.</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<blockquote>
-  <p><em><strong>Developer Comment:</strong></em> Tracer's Recall talents are underperforming while a
-  few other talents are overperforming, so we're making adjustments to both to
-  even her out a bit.</p>
-</blockquote>
-
-<p><a href="#heroes">Return</a></p>
-
-<hr />
-
-<p><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of
-the Storm forums.</a></p>
 ]]></content>
   </entry>
 </feed>
