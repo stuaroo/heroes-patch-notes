@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2024-04-19T19:00:00.000Z</updated>
+  <updated>2024-04-21T19:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2024-02-06 Patch Notes v 2.55.4</title>
+    <published>2024-04-21T19:00:00.000Z</published>
+    <updated>2024-04-21T19:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2024-02-06-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2024-02-06-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/lili.html#patch2024-02-06" target="_blank">Li Li</a>, 
+          <a href="https://heroespatchnotes.com/hero/medivh.html#patch2024-02-06" target="_blank">Medivh</a>, 
+          <a href="https://heroespatchnotes.com/hero/nova.html#patch2024-02-06" target="_blank">Nova</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2023-11-16 Patch Notes v 2.55.4</title>
     <published>2024-04-19T19:00:00.000Z</published>
@@ -343,38 +361,6 @@
         <img src="https://heroespatchnotes.com/images/hero/raynor.png" href="https://heroespatchnotes.com/hero/raynor.html#patch2021-05-18" alt="Raynor Rework" height="44" width="44" />
         <img src="https://heroespatchnotes.com/images/hero/stitches.png" href="https://heroespatchnotes.com/hero/stitches.html#patch2021-05-18" alt="Stitches Rework" height="44" width="44" />
         <img src="https://heroespatchnotes.com/images/hero/valla.png" href="https://heroespatchnotes.com/hero/valla.html#patch2021-05-18" alt="Valla Rework" height="44" width="44" />
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2021-03-02 Balance Update v 2.53.2</title>
-    <published>2021-03-03T09:33:00.000Z</published>
-    <updated>2021-03-03T09:33:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2021-03-02-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-03-02-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/alexstrasza.html#patch2021-03-02" target="_blank">Alexstrasza</a>, 
-          <a href="https://heroespatchnotes.com/hero/artanis.html#patch2021-03-02" target="_blank">Artanis</a>, 
-          <a href="https://heroespatchnotes.com/hero/chromie.html#patch2021-03-02" target="_blank">Chromie</a>, 
-          <a href="https://heroespatchnotes.com/hero/diablo.html#patch2021-03-02" target="_blank">Diablo</a>, 
-          <a href="https://heroespatchnotes.com/hero/falstad.html#patch2021-03-02" target="_blank">Falstad</a>, 
-          <a href="https://heroespatchnotes.com/hero/fenix.html#patch2021-03-02" target="_blank">Fenix</a>, 
-          <a href="https://heroespatchnotes.com/hero/hogger.html#patch2021-03-02" target="_blank">Hogger</a>, 
-          <a href="https://heroespatchnotes.com/hero/illidan.html#patch2021-03-02" target="_blank">Illidan</a>, 
-          <a href="https://heroespatchnotes.com/hero/lili.html#patch2021-03-02" target="_blank">Li Li</a>, 
-          <a href="https://heroespatchnotes.com/hero/lucio.html#patch2021-03-02" target="_blank">Lucio</a>, 
-          <a href="https://heroespatchnotes.com/hero/malfurion.html#patch2021-03-02" target="_blank">Malfurion</a>, 
-          <a href="https://heroespatchnotes.com/hero/malganis.html#patch2021-03-02" target="_blank">Mal'Ganis</a>, 
-          <a href="https://heroespatchnotes.com/hero/mephisto.html#patch2021-03-02" target="_blank">Mephisto</a>, 
-          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2021-03-02" target="_blank">Muradin</a>, 
-          <a href="https://heroespatchnotes.com/hero/ragnaros.html#patch2021-03-02" target="_blank">Ragnaros</a>, 
-          <a href="https://heroespatchnotes.com/hero/tracer.html#patch2021-03-02" target="_blank">Tracer</a>, 
-          <a href="https://heroespatchnotes.com/hero/tyrael.html#patch2021-03-02" target="_blank">Tyrael</a>, 
-          <a href="https://heroespatchnotes.com/hero/whitemane.html#patch2021-03-02" target="_blank">Whitemane</a>
-        </li>
-      </ul>
       ]]></content>
   </entry>
 </feed>
