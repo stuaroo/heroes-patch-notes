@@ -2,10 +2,2078 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Full Patches - Heroes Patch Notes.com</title>
-  <updated>2024-04-24T09:00:00.000Z</updated>
+  <updated>2024-05-27T18:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/full-patches.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/full-patches.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2024-05-21 Patch Notes</title>
+    <published>2024-05-27T18:00:00.000Z</published>
+    <updated>2024-05-27T18:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2024-05-21-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2024-05-21-patch-notes.html"/>
+    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-live-patch-notes-may-21-2024">Heroes of the Storm Live Patch Notes - May 21, 2024</h1>
+
+<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24096021" target="_blank"></a><a href="https://news.blizzard.com/en-us/heroes-of-the-storm/24096021" target="_blank">Official Patch Notes</a> <small>v 2.55.5</small></div>
+
+<p>Our next Heroes of the Storm patch is live! Read on for more information.</p>
+
+<p><span class="text-warning"><strong>NOTE: Orange text indicates a change between PTR and Live notes.</strong></span></p>
+
+<hr />
+
+<h2 id="aram">ARAM</h2>
+
+<p><strong>General</strong></p>
+
+<ul>
+<li>Varian is now classified as a Tank.</li>
+</ul>
+
+<p><strong>Same Hero Mode</strong></p>
+
+<ul>
+<li>Artanis has been added.</li>
+<li>Hogger has been added.</li>
+<li>Leoric has been added. (Leoric is still disabled for Normal Mode).</li>
+<li>Whitemane has been added.</li>
+<li>Zarya has been added.</li>
+<li>Nova has been removed.</li>
+<li>Probius has been removed.</li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h2 id="balance-updates">Balance Updates</h2>
+
+<h3 id="heroes">Heroes</h3>
+
+<h4 id="arthas">Arthas</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li>Health Regeneration increased from 5.957 to <span class="text-warning"><strong>6.208</strong></span>.</li>
+<li>Maximum Health increased from 2860 to 2980.</li>
+<li><strong>Death Coil [Q]</strong>
+<ul>
+<li>Healing increased from 262 to 285.</li>
+</ul></li>
+<li><strong>Frozen Tempest [E]</strong>
+<ul>
+<li>Mana cost per second reduced from 13 to 11.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Biting Cold [E]</strong>
+<ul>
+<li>Damage increase is now additive.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Embrace Death [Q]</strong>
+<ul>
+<li>Now grants an additive bonus to Death Coil's damage.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h4 id="hogger">Hogger</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li>Rage decay rate increased from 10 per second to 13 per second.</li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>On the Prowl [Active]</strong>
+<ul>
+<li>Activating On the Prowl now prevents Rage decay instantly.</li>
+<li>Cooldown increased from 40 seconds to 45 seconds.</li>
+<li>Healing per second reduced from 8 to 7.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Brute Force [Q]</strong>
+<ul>
+<li>Damage bonus when enemy Heroes hit terrain reduced from 8 to 6.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Dust Devil [E]</strong>
+<ul>
+<li>Duration increased from 3 seconds to 4 seconds.</li>
+<li>Sub-50 rage Armor increased from 20 to 25.</li>
+</ul></li>
+<li><strong>Pummel [E]</strong>
+<ul>
+<li>Spellpower reduction reduced from 50% to 30%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h4 id="junkrat">Junkrat</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Steel Trap [E]</strong>
+<ul>
+<li>Cooldown increased from 12 seconds to 15 seconds.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Extra-Wound Timers [Q]</strong>
+<ul>
+<li>Damage bonus reduced from 120% to 100%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Dirty Trickster [D]</strong>
+<ul>
+<li>Cooldown increased from 12 seconds to 20 seconds.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h4 id="rehgar">Rehgar</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Basic Attack</strong>
+<ul>
+<li>Damage reduced from 115 to 110.</li>
+<li>Ghost Wolf Basic Attack bonus decreased from 75% to 60%.</li>
+</ul></li>
+<li><strong>Lightning Shield [W]</strong>
+<ul>
+<li>Mana restored per enemy hit reduced from 2 to 1.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Stormcaller [W]</strong>
+<ul>
+<li>Maximum stacks reduced from 300 to 200.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Blood and Thunder [D]</strong>
+<ul>
+<li>Mana restoration reduced from 5% of max mana to 4% of max mana.</li>
+</ul></li>
+<li><strong>Grounded Totem [E]</strong>
+<ul>
+<li>Attack speed slow reduced from 25% to 15%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Earthgrasp Totem [E]</strong>
+<ul>
+<li>Damage reduced from 115 to 90.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h4 id="yrel">Yrel</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Maraad's Insight [Passive]</strong>
+<ul>
+<li>Healing increased from 140 to 160.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Aegis of Light [E]</strong>
+<ul>
+<li>Armor bonus increased from 30 to <span class="text-warning"><strong>40</strong></span>.</li>
+<li>Duration increased from 4 seconds to <span class="text-warning"><strong>5</strong></span> seconds.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Sacred Ground [R2]</strong>
+<ul>
+<li>Cooldown reduced from 40 seconds to 25 seconds.</li>
+<li>Mana cost removed.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Templar's Verdict [W]</strong>
+<ul>
+<li>Armor reduction reduced from 20 to 15.</li>
+<li>Percent damage reduced from 7% to 6%.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h2 id="hero-updates">Hero Updates</h2>
+
+<h4 id="alarak">Alarak</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Ruthless Momentum [Passive]</strong>
+<ul>
+<li>Added a health threshold indicator.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Deadly Charge [R1]</strong>
+<ul>
+<li>Added cast and channel bars.</li>
+</ul></li>
+<li><strong>Counter-Strike [R2]</strong>
+<ul>
+<li>Added cast and channel bars.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="ana">Ana</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Rapid Reload shares Quickcast settings with Healing Dart.</li>
+<li>Removed Cancel Eye of Horus.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="anduin">Anduin</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Lightwell [Active]</strong>
+<ul>
+<li>Added a button indicator for remaining activations.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Renew [Q]</strong>
+<ul>
+<li>Added a duration indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="artanis">Artanis</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Shield Surge [D]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+<li>Trait is now highlighted when below 25%.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Final Cut [Passive]</strong>
+<ul>
+<li>Conditional part of the ability has been added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="arthas-2">Arthas</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Sacrifice Ghoul.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Icy Talons [E]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="auriel">Auriel</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed self-cast Resurrect.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="blaze">Blaze</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Added the Bunker's abilities.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Adrenaline Stimpack [Active]</strong>
+<ul>
+<li>Added a health threshold indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="chromie">Chromie</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel Slowing Sands.</li>
+<li>Removed Detonate Time Trap.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 14</strong>
+<ul>
+<li><strong>Quantum Overdrive [Active]</strong>
+<ul>
+<li>Added a duration indicator.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Blessing of the Bronze [Passive]</strong>
+<ul>
+<li>Added a duration indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="deathwing">Deathwing</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Heat Wave [W]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="deckard">Deckard</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel Stay Awhile and Listen.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="dehaka">Dehaka</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel Burrow.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="dva">D.Va</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>D.Va Mech's Attack now shares Quickcast settings with other Attack Quickcast settings.</li>
+<li>Removed Cancel Defense Matrix.</li>
+<li>Retarget Defense Matrix now inherits Quickcast settings from Defense Matrix.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="etc">E.T.C.</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Rockstar.</li>
+</ul></li>
+<li><strong>Guitar Solo [E]</strong>
+<ul>
+<li>Added a duration indicator.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="gall">Gall</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Ogre Rampage [D]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="garrosh">Garrosh</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Double Up.</li>
+<li>Removed Seasoned Soldier.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="guldan">Gul'dan</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed duplicate Life Tap and Cancel Drain Life.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="hanzo">Hanzo</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Fleet of Foot [Q]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="hogger-2">Hogger</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel abilities.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="johanna">Johanna</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Holy Fury [Passive]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="junkrat-2">Junkrat</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Detonate Mine.</li>
+<li>Removed RIP-Tire abilities.</li>
+</ul></li>
+<li><strong>Frag Launcher [Q]</strong>
+<ul>
+<li>Added a pulsing red/blue indicator to grenades empowered by Extra-Wound Timers.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>RIP-Tire [R1]</strong>
+<ul>
+<li>Added a range indicator for full damage.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="li-ming">Li-Ming</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Disintegrate [R1]</strong>
+<ul>
+<li>Can now be cancelled by pressing Stop or Hold Fire.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="lucio">Lucio</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Attack now shares Quickcast settings with other Attack Quickcast settings.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="lunara">Lunara</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Hippity Hop [Z]</strong>
+<ul>
+<li>Will now show on the Buff Bar while active.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Splintered Spear [Q]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+<li><strong>Wild Vigor [W]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Endless Spores [W]</strong>
+<ul>
+<li>Now causes the Crippling Spores button to pulse when activating it would grant reduced cooldown.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Accelerated Contamination [Q]</strong>
+<ul>
+<li>Now causes the Noxious Blossom button to glow when the cooldown is recharging faster.</li>
+</ul></li>
+<li><strong>Invigorating Spores [W]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+<li><strong>Star Wood Spear [W]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="malganis">Mal'Ganis</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Seeker Swarm [R1]</strong>
+<ul>
+<li>Added a range indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="malfurion">Malfurion</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Ysera's Gift [Q]</strong>
+<ul>
+<li>Added a health indicator.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Lunar Shower [W]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="medivh">Medivh</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Portal [E]</strong>
+<ul>
+<li>Added remaining duration to button.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="muradin">Muradin</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Third Wind [D]</strong>
+<ul>
+<li>Added a health threshold indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="murky">Murky</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel March of the Murlocs.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Fish Eye [D]</strong>
+<ul>
+<li>Added a range indicator for Fish Eye once the Respawn Egg has been placed.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="orphea">Orphea</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Lurking Terror [Active]</strong>
+<ul>
+<li>Added an activation timer.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="qhira">Qhira</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li>Talents are now sorted in tier order in the Buff Bar.</li>
+<li><strong>Blood Rage [W]</strong>
+<ul>
+<li>Added UI indicator for Blood Rage's heal value.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Chainsaw [Q]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+<li><strong>The Hunted [Passive]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="ragnaros">Ragnaros</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Molten Core's Sulfuras Smash now shares Quickcast settings with Ragnaros' Sulfuras Smash.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Submerge [Active]</strong>
+<ul>
+<li>Added a healing preview.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="samuro">Samuro</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li>Added a sound indicator to Dance of Death.</li>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel Bladestorm.</li>
+<li>Removed duplicate Critical Strike.</li>
+</ul></li>
+<li><strong>Image Transmission [Trait]</strong>
+<ul>
+<li>Disabled while there are no Mirror Images active.</li>
+<li>Now removes targeting when there is only one active Mirror Image.</li>
+</ul></li>
+<li><strong>Mirror Image [Q]</strong>
+<ul>
+<li>Added guide indicators to their targeting.</li>
+</ul></li>
+<li><strong>Wind Walk [E]</strong>
+<ul>
+<li>Added Healing over Time preview.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Deflection [D]</strong>
+<ul>
+<li>Updated to display its remaining duration while active.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Press the Attack [D]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="stitches">Stitches</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Shambling Horror [Trait]</strong>
+<ul>
+<li>Added a duration indicator.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="stukov">Stukov</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel Lurking Arm.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Reactive Ballistospores [W]</strong>
+<ul>
+<li>Added a health indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="butcher">Butcher</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Fresh Meat.</li>
+</ul></li>
+<li><strong>Butcher's Brand [W]</strong>
+<ul>
+<li>Added a duration indicator to the button.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Enraged [Passive]</strong>
+<ul>
+<li>Added a health indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="the-lost-vikings">The Lost Vikings</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Slowing Charge [Olaf]</strong>
+<ul>
+<li>Cooldown now displays a circular indicator around his shield in The Lost Viking's Hero status.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="tracer">Tracer</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Attack now shares Quickcast settings with other Attack Quickcast setting.</li>
+<li>Removed Locked and Loaded.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="tychus">Tychus</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Run and Gun while Overkill is active shares Quickcast settings with Run and Gun.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="tyrande">Tyrande</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Darnassian Archery [Passive]</strong>
+<ul>
+<li>Added a duration indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="uther">Uther</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Holy Fire [Passive]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Beacon of Light [Q]</strong>
+<ul>
+<li>Added a health threshold indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="valeera">Valeera</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel Vanish.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Smoke Bomb [R1]</strong>
+<ul>
+<li>Button now has a duration indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="varian">Varian</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Second Wind [Passive]</strong>
+<ul>
+<li>Added a health threshold indicator.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="whitemane">Whitemane</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Cancel Inquisition.</li>
+</ul></li>
+<li><strong>Zeal [Trait]</strong>
+<ul>
+<li>Now has a duration indicator while active.</li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="xul">Xul</h4>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Rapid Harvest [W]</strong>
+<ul>
+<li>Added to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="zeratul">Zeratul</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed Seeker in the Dark.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Psionic Strength [Passive]</strong>
+<ul>
+<li>Added the stack count to the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return</a></p>
+
+<h4 id="zuljin">Zul'jin</h4>
+
+<p><strong>Base</strong></p>
+
+<ul>
+<li><strong>Quickcast Settings</strong>
+<ul>
+<li>Removed duplicate Cancel Berserker.</li>
+<li>Removed duplicate Regeneration.</li>
+</ul></li>
+</ul>
+
+<p><strong>Talents</strong></p>
+
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Recklessness [Passive]</strong>
+<ul>
+<li>Added health threshold indicators.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<h2 id="bug-fixes">Bug Fixes</h2>
+
+<h3 id="general">General</h3>
+
+<ul>
+<li>Added XP Value to Death Recap.</li>
+<li>Fixed an issue that caused location targeted abilities to be cancelled by conveyor belts.</li>
+<li>Fixed an issue that caused talent text to be truncated on hero select screens.</li>
+<li>Talents Quests updated to display quest progress at the caster if the triggering enemy is out of vision.</li>
+<li>Updated Homescreen and Startup Music.</li>
+<li>Updated Time Stop to display above all other effects in the health plate.</li>
+<li><span class="text-warning"><strong>Updated Shop Bundles and Items.</strong></span></li>
+<li>Fixed display issues with some Block talents.</li>
+<li>Fixed an issue that caused Heroes with non standard height to cause target-facing effects to face the incorrect location.</li>
+</ul>
+
+<h3 id="maps">Maps</h3>
+
+<ul>
+<li><strong>Blackheart's Bay</strong>
+<ul>
+<li>Updated coin warning indicator to be consistently colored.</li>
+</ul></li>
+<li><strong>Cursed Hollow</strong>
+<ul>
+<li>Fixed an issue that caused Cursed Hallow Call for Help ability warning to display incorrectly.</li>
+</ul></li>
+<li><strong>Warhead Junction</strong>
+<ul>
+<li>Sewers are now clickable while they are in the fog of war.</li>
+<li>Warheads now interact with physics objects.</li>
+</ul></li>
+</ul>
+
+<h3 id="heroes-2">Heroes</h3>
+
+<ul>
+<li><strong>Abathur</strong>
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Ultimate Evolution [R1]</strong>
+<ul>
+<li>No longer plays quest progress visual effects.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Volatile Mutation [R]</strong>
+<ul>
+<li>No longer displays an empty icon in the Death Recap.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Alarak</strong>
+<ul>
+<li><strong>Telekinesis [W]</strong>
+<ul>
+<li>Fixed an issue that caused Telekinesis to not interact with map objects.</li>
+</ul></li>
+</ul></li>
+<li><strong>Alexstrasza</strong>
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Cleansing Flame [R2]</strong>
+<ul>
+<li>Fixed an issue that caused Cleansing Flame to cast at the incorrect location.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Anduin</strong>
+<ul>
+<li>Can once again hold his sword high and proud.</li>
+</ul></li>
+<li><strong>Anubarak</strong>
+<ul>
+<li>Fixed an issue where the AI was not using Locust Swarm.</li>
+<li>Fixed an issue that caused Anub'arak's abilities to not interact with map objects.</li>
+<li><strong>Burrow Charge [E]</strong>
+<ul>
+<li>Impoved the visibility of the erupt location indicator.</li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Cocoon [R2]</strong>
+<ul>
+<li>Fixed an issue that caused Cocoon to not properly hide things attached to the target.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Artanis</strong>
+<ul>
+<li>Fixed an issue that caused some of Artanis' abilities to not interact with map objects.</li>
+<li>Fixed an issue that caused Arthas' abilities to not interact with map objects.</li>
+<li><strong>Phase Prism [E]</strong>
+<ul>
+<li>Fixed an issue that caused Phase Prism to not properly detect structures after the target becomes Time Stopped.</li>
+</ul></li>
+</ul></li>
+<li><strong>Auriel</strong>
+<ul>
+<li><strong>Detainment Strike [E]</strong>
+<ul>
+<li>Terrain impact will now always display as a crit.</li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Empathic Link [D]</strong>
+<ul>
+<li>Fixed an issue that caused Empathic Link to grant Hope when an ally deals damage to themselves.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Piercing Lash [E]</strong>
+<ul>
+<li>Fixed an issue that caused Piercing Lash to not hit multiple Heroes with Detainment Strike.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Azmodan</strong>
+<ul>
+<li>Fixed an issue that caused Azmodan's abilities to not interact with map and physics objects.</li>
+<li><strong>Summon Demon Warrior [W]</strong>
+<ul>
+<li>Fixed an issue that caused Demon Warriors to leave permanent burning visuals if killed at the moment they spawn.</li>
+</ul></li>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Wrath [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Wrath to increase damage of Wrath's marker.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Bombardment [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Bombardment to increase damage of Wrath's marker.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Brightwing</strong>
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Unstable Anomaly [W]</strong>
+<ul>
+<li>Fixed an issue that caused Unstable Anomaly to leave behind a permanent visual.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Emerald Wind [R2]</strong>
+<ul>
+<li>Fixed an issue that caused Emerald Wind to not interact with map objects.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Invisible Friends [R1]</strong>
+<ul>
+<li>No longer displays an empty icon in the Death Recap.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Cassia</strong>
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Surge of Light [D]</strong>
+<ul>
+<li>Fixed an issue that caused Surge of Light to not destroy map objects.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>War Traveler [D]</strong>
+<ul>
+<li>Instant mount is now more responsive.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Chen</strong>
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Wandering Keg [R1]</strong>
+<ul>
+<li>Fixed an issue that caused Wandering Keg to cease targeting the mouse cursor if another Chen's Wandering Keg expires.</li>
+<li>Will now actively target the mouse cursor instead of targeting the mouse cursor only when its position has changed.</li>
+</ul></li>
+<li><strong>Storm, Earth, Fire [R2]</strong>
+<ul>
+<li>Earth's damage is now Physical.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>ChoGall</strong>
+<ul>
+<li>Fixed Gall's damage not gaining all benefits from Cho's buffs.</li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Rising Dread [W]</strong>
+<ul>
+<li>No longer causes the third bounce of Dread Orb display as a crit.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Double Trouble [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Double Trouble's quest completion to not stack with Twilight Frenzy.</li>
+<li>Fixed an issue that caused Gall to lose the benefits of Double Trouble's completion after Twilight Frenzy expires.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Chromie</strong>
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Bronze Talons [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Bronze Talons visuals to persist after Chromie's death.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 11</strong>
+<ul>
+<li><strong>Here and There [Active]</strong>
+<ul>
+<li>No longer dismounts or decloaks when used.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Quantum Overdrive [Active]</strong>
+<ul>
+<li>Fixed an issue that caused Quantum Overdrive visuals to persist after death.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Deathwing</strong>
+<ul>
+<li>Fixed an issue that caused Deathwing to be a valid ping target in the party frame while Dragonflight is active.</li>
+<li>Fixed an issue that caused Deathwing to enter an invalid state if the target of his landing becomes invalid.</li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Death Drop [Z]</strong>
+<ul>
+<li>Fixed an issue that caused Death Drop to not reduce all forms of Spell Armor.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Deckard</strong>
+<ul>
+<li>Fixed an issue that allowed Deckard to dance without incurring movement restriction.</li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Ancient Blessings [D]</strong>
+<ul>
+<li>Fixed an issue that caused Ancient Blessings to not heal the attacker when dealing damage to enemy Heroes that are immune to friendly abilities.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Morenados! [R2]</strong>
+<ul>
+<li>Fixed an issue that caused the cooldown reduction to be prevented when Lorenado hits a non-Hero.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Diablo</strong>
+<ul>
+<li><strong>Shadow Charge [Q]</strong>
+<ul>
+<li>Terrain impact will now always display as a crit.</li>
+</ul></li>
+<li><strong>Fire Stomp [W]</strong>
+<ul>
+<li>Now combines damage text.</li>
+</ul></li>
+</ul></li>
+<li><strong>D.Va</strong>
+<ul>
+<li>Fixed an issue that caused some of D.Va's abilities to not interact with map and physics objects.</li>
+<li><strong>Self-Destruct [E]</strong>
+<ul>
+<li>Fixed an issue that caused D.Va's Mech to continue moving if it was Rooted when Self-Destruct was cast.</li>
+<li>Fixed an issue that caused Self-Destruct to not feature a pulse animation when fully charged.</li>
+<li>Starts decaying in damage after 4 range.</li>
+</ul></li>
+<li><strong>Big Shot [R]</strong>
+<ul>
+<li>Fixed an issue that caused Big Shot to hit Invulnerable enemies.</li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Ablative Armor [D]</strong>
+<ul>
+<li>Now includes damage dealt to D.Va's Shields.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Fenix</strong>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Dampening Field [D]</strong>
+<ul>
+<li>Fixed an issue that caused Dampening Field to not grant Spell Armor against all sources.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Garrosh</strong>
+<ul>
+<li><strong>Into the Fray [1]</strong>
+<ul>
+<li>Fixed an issue that caused Into the Fray to display as Lok-tar Ogar! in Quickcast menu.</li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Lok-tar Ogar! [1]</strong>
+<ul>
+<li>Now display as an active upgrade instead of a passive.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Genji</strong>
+<ul>
+<li><strong>Swift Strike [E]</strong>
+<ul>
+<li>Adjusted color display for Swift Strike refund timer on the button.</li>
+<li>Fixed an issue that caused Swift Strike's mana refund to be displayed for the killed enemy player.</li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Strike At The Heart [E]</strong>
+<ul>
+<li>Fixed an issue with Genji's Strike At The Heart text.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Way of The Shimada [E]</strong>
+<ul>
+<li>Now only causes Genji's attacks to display as a crit at 10+ stacks.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Final Cut [E]</strong>
+<ul>
+<li>Fixed an issue that caused Final Cut's damage to not be modified by any damage modifiers.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Gul'dan</strong>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Chaotic Energy [W]</strong>
+<ul>
+<li>Fixed an issue that caused Chaotic Energy to not increase the healing of Regeneration Globes by the correct value in ARAM.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Healthstone [Active]</strong>
+<ul>
+<li>No longer dismounts or decloaks Gul'dan.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Ruinous Affliction [E]</strong>
+<ul>
+<li>Third strike damage now displays as a crit.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Hanzo</strong>
+<ul>
+<li>Fixed an issue that caused weapons to fire multiple times when used in conjunction with select abilities.</li>
+<li><strong>Scatter Arrow [W]</strong>
+<ul>
+<li>Now combines damage text.</li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Giant Slayer [Passive]</strong>
+<ul>
+<li>Bonus damage from Scatter Arrow will now combine damage text.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Hogger</strong>
+<ul>
+<li>Rage has been added to the Hero page.</li>
+<li><strong>Staggering Blows [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Staggering Blows to not interact with map objects.</li>
+</ul></li>
+<li><strong>Ez-Thro Dynamite [W]</strong>
+<ul>
+<li>Will always display as a crit on direct hit damage.</li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Brute Force [Q]</strong>
+<ul>
+<li>No longer causes Loot Hoard to display as a crit.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Imperius</strong>
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Angelic Armaments [R1]</strong>
+<ul>
+<li>Will combine damage text with Heavenly Host.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Junkrat</strong>
+<ul>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>RIP-Tire [R1]</strong>
+<ul>
+<li>Starts decaying in damage after 1.5 range.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Leoric</strong>
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Willing Vessel [W]</strong>
+<ul>
+<li>Now displays as a crit.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Li Li</strong>
+<ul>
+<li><strong>Fast Feet [Trait]</strong>
+<ul>
+<li>Adjusted color display for duration indicator.</li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Jug of 1,000 Cups [R1]</strong>
+<ul>
+<li>Fixed an issue that caused Jug of 1,000 Cups' cooldown to be increased while in Stasis.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Gale Force [E]</strong>
+<ul>
+<li>Fixed an issue that caused Gale Force to not properly increase Blinding Wind's duration.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Lt. Morales</strong>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Bedside Manner [E]</strong>
+<ul>
+<li>Proc bonus now displays as a crit.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Lunara</strong>
+<ul>
+<li><strong>Nature's Toxin [Trait]</strong>
+<ul>
+<li>Now acts similarly to other heals.</li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Abolish Magic [Active]</strong>
+<ul>
+<li>Fixed an issue that caused Abolish Magic to not reduce the duration of Silences, Fears, and Taunts.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Maiev</strong>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Bonds of Justice [W]</strong>
+<ul>
+<li>No longer causes attacks to display as crits when using Umbral Bind.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Blade Dance [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Blade Dance to not grant stacks of Vengeful Knives.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Containment Disc [R1]</strong>
+<ul>
+<li>Removed Silence display while Time Stopped.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Mal'Ganis</strong>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Blood Rush [D]</strong>
+<ul>
+<li>Fixed an issue that caused Blood Rush to activate from Healing Fountains and Regeneration Globes.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Malthael</strong>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Shroud of Wisdom [Active]</strong>
+<ul>
+<li>Fixed an issue that caused Shroud of Wisdom to not grant Spell Armor against all sources.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Angel of Death [R2]</strong>
+<ul>
+<li>Fixed an issue that caused Angel of Death to be affected by Spellpower modifiers.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Mei</strong>
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Cascade [R1]</strong>
+<ul>
+<li>Fixed an issue that caused Cascade's Snow Blinds to Blind for less duration than untalented Snow Blinds.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Nazeebo</strong>
+<ul>
+<li><strong>Zombie Wall [W]</strong>
+<ul>
+<li>Updated zombies to face inside the Zombie Wall when created.</li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Annihilating Spirits [R2]</strong>
+<ul>
+<li>Fixed an issue that caused Annihilating Spirits healing reduction to display floating text multiple times.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Nova</strong>
+<ul>
+<li><strong>Holo Decoys [E]</strong>
+<ul>
+<li>Will now move towards uncollected Experience Globes if they are idle.</li>
+</ul></li>
+</ul></li>
+<li><strong>Orphea</strong>
+<ul>
+<li>Fixed an issue that caused weapons to fire multiple times when used in conjunction with select abilities.</li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Chaotic Assault [Trait]</strong>
+<ul>
+<li>Fixed an issue that caused Chaotic Assault to not apply while Orphea has 3 stacks of Chaos.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Invasive Miasma [Trait]</strong>
+<ul>
+<li>Fixed an issue that caused Invasive Miasma to hit dead Heroes.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Eldritch Conduit [Trait]</strong>
+<ul>
+<li>Fixed an issue that caused Eldritch Conduit's visuals to persist after death.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Probius</strong>
+<ul>
+<li><strong>Disruption Pulse [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Disruption Pulse to hit targets hit by previous Disruption Pulses.</li>
+</ul></li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Photon Barrier [D]</strong>
+<ul>
+<li>Fixed an issue that caused Photon Barrier to display while Probius is dead.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Pylon Overcharge [R1]</strong>
+<ul>
+<li>Fixed an issue that caused Pylon Overcharge to not properly grant Pylons Invulnerability.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Qhira</strong>
+<ul>
+<li><strong>Grappling Hook [Trait]</strong>
+<ul>
+<li>Adjusted Grappling Hook guide and terrain indicator to match its cast range.</li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>The Hunted [Passive]</strong>
+<ul>
+<li>Fixed an issue that caused The Hunted to lose stacks when hitting a non-Hero.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Raynor</strong>
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Sergeant Pepper [Trait]</strong>
+<ul>
+<li>Fixed an issue that caused Sergeant Pepper to not properly apply if selected while at 0 stacks of Give Em' Some Pepper.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Rehgar</strong>
+<ul>
+<li>Fixed an issue that caused duplicate entries in the Death Recap.</li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Wellspring [E]</strong>
+<ul>
+<li>Fixed an issue that caused Wellspring's beam to not appear when the heal occurs.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Rexxar</strong>
+<ul>
+<li>Fixed an issue that caused Rexxar and Misha to not share their Healing Fountain healing with each other.</li>
+</ul></li>
+<li><strong>Samuro</strong>
+<ul>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>One With The Wind [E]</strong>
+<ul>
+<li>Fixed an issue that caused One With The Wind to display a duration while Wind Walk is active.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Crushing Blows [W]</strong>
+<ul>
+<li>Fixed an issue that caused Crushing Blows to be located in the wrong location in the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Sgt. Hammer</strong>
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Giant Killer [Passive]</strong>
+<ul>
+<li>Fixed an issue that caused Giant Killer to damage Invulnerable targets.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Sonya</strong>
+<ul>
+<li><strong>Fury [Trait]</strong>
+<ul>
+<li>Adjusted the color display for remaining duration on the button.</li>
+</ul></li>
+</ul></li>
+<li><strong>Stitches</strong>
+<ul>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Digestive Juices [E]</strong>
+<ul>
+<li>Fixed an issue that caused Digestive Juices to not display a damage preview.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Stukov</strong>
+<ul>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Fetid Touch [W]</strong>
+<ul>
+<li>Fetid Touch's ranged attack no longer displays an empty icon in the Death Recap.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Tassadar</strong>
+<ul>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Psionic Echo [W]</strong>
+<ul>
+<li>Adjusted color display for Psionic Echo indicator on Shock Ray button.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>The Butcher</strong>
+<ul>
+<li>Fixed an issue that caused Butcher's charge to be cancelled prematurely.</li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Cleaver [Passive]</strong>
+<ul>
+<li>Can now trigger while Blinded.</li>
+<li>Now heals if the cleaved-to-target has The Butcher's Brand.</li>
+</ul></li>
+</ul></li>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Fires of Hell [R1]</strong>
+<ul>
+<li>No longer displays an empty icon in the Death Recap.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Thrall</strong>
+<ul>
+<li><strong>Feral Spirit [E]</strong>
+<ul>
+<li>Fixed an issue that caused Feral Spirit to hit Invulnerable non-Heroes.</li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Frostwolf's Grace [D]</strong>
+<ul>
+<li>No longer dismounts Thrall.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Tracer</strong>
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Composition B [R]</strong>
+<ul>
+<li>Fixed an issue that caused Composition B's outer radius to not gain the benefit of Quantum Spike.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Tyrande</strong>
+<ul>
+<li><strong>Sentinel [E]</strong>
+<ul>
+<li>Fixed an issue that caused Sentinel to pierce incorrectly.</li>
+</ul></li>
+</ul></li>
+<li><strong>Uther</strong>
+<ul>
+<li><strong>Holy Radiance [W]</strong>
+<ul>
+<li>Displays as a crit when Uther has Spellpower bonuses.</li>
+</ul></li>
+<li><strong>Level 16</strong>
+<ul>
+<li><strong>Beacon of Light [Q]</strong>
+<ul>
+<li>Only causes Holy Light to display as a crit when under 50% health.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Valeera</strong>
+<ul>
+<li>Deep Shadows duration indicator will now fill, rather than empty.</li>
+<li><strong>Level 4</strong>
+<ul>
+<li><strong>Wound Poison [Active]</strong>
+<ul>
+<li>Fixed an issue that caused Wound Poison to display floating text multiple times.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Valla</strong>
+<ul>
+<li><strong>Multishot [W]</strong>
+<ul>
+<li>Fixed an issue that caused Multishot to not apply all hit effects when hitting enemies inside Valla's space.</li>
+</ul></li>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Gloom [Active]</strong>
+<ul>
+<li>No longer displays an empty icon in the Death Recap.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Varian</strong>
+<ul>
+<li><strong>Level 13</strong>
+<ul>
+<li><strong>Mortal Strike [D]</strong>
+<ul>
+<li>Fixed an issue that caused Mortal Strike to display floating text multiple times.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Whitemane</strong>
+<ul>
+<li><strong>Zeal [Trait]</strong>
+<ul>
+<li>Fixed an issue that caused Zeal's active visuals to persist after death.</li>
+</ul></li>
+<li><strong>Searing Lash [E]</strong>
+<ul>
+<li>The second strike always displays as a crit.</li>
+</ul></li>
+</ul></li>
+<li><strong>Xul</strong>
+<ul>
+<li><strong>Level 20</strong>
+<ul>
+<li><strong>Mortal Wounds [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Mortal Wounds to display floating text multiple times.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Yrel</strong>
+<ul>
+<li>Fixed an issue with abilities causing all players to highlight enemies.</li>
+<li><strong>Avenging Wrath [E]</strong>
+<ul>
+<li>Fixed an issue that caused Avenging Wrath's VFX to display incorrectly.</li>
+</ul></li>
+<li><strong>Level 10</strong>
+<ul>
+<li><strong>Ardent Defender [R1]</strong>
+<ul>
+<li>Increases Yrel's Self Healing when it prevents damage to her.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Zarya</strong>
+<ul>
+<li>Fixed an issue that caused Basic Attacks to not damage enemies in the cleave area if the primary target dies to the attack.</li>
+<li><strong>Level 7</strong>
+<ul>
+<li><strong>Deep Burn [Q]</strong>
+<ul>
+<li>Fixed an issue that caused Deep Burn to display the incorrect floating text value.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Zul'jin</strong>
+<ul>
+<li>Fixed an issue that caused duplicate entries in the Death Recap.</li>
+<li><strong>Level 1</strong>
+<ul>
+<li><strong>Recklessness [Passive]</strong>
+<ul>
+<li>Adjusted position in the Buff Bar.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p><a href="#top">Return to Top</a></p>
+
+<hr />
+
+<p><strong><a href="https://us.forums.blizzard.com/en/heroes/">Click here to discuss this post with other players in the official Heroes of the Storm forums</a>.</strong></p>
+
+<hr />
+]]></content>
+  </entry>
   <entry>
     <title type="text">2024-04-16 PTR Patch Notes</title>
     <published>2024-04-24T09:00:00.000Z</published>
@@ -10883,56 +12951,6 @@ for details.</p>
 
 <p>Click <a href="https://us.forums.blizzard.com/en/heroes/">here</a> to discuss this post
 with other players in the official Heroes of the Storm forums.</p>
-
-<hr />
-]]></content>
-  </entry>
-  <entry>
-    <title type="text">2021-06-21 Hotfix Patch</title>
-    <published>2021-06-23T11:23:00.000Z</published>
-    <updated>2021-06-23T11:23:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2021-06-21-hotfix-patch.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-06-21-hotfix-patch.html"/>
-    <content type="html"><![CDATA[<h1 id="heroes-of-the-storm-hotfix-patch-notes-june-21-2021">Heroes of the Storm Hotfix Patch Notes – June 21, 2021</h1>
-
-<div><img class="img-responsive center-block" src="https://res.cloudinary.com/heroespatches/image/upload/v1494956881/patchlogo2017-05-16.jpg"></div><div class="official-link"><a class="official" href="https://heroesofthestorm.com/en-us/blog/" target="_blank"></a><a href="https://heroesofthestorm.com/en-us/blog/" target="_blank">Official Patch Notes</a> <small>v 2.54.2</small></div>
-
-<p>We've released a hotfix today with updates below.</p>
-
-<hr />
-
-<h3 id="bug-fixes">Bug Fixes</h3>
-
-<p><strong>Battlegrounds</strong></p>
-
-<ul>
-<li>Towers of Doom
-<ul>
-<li><span class="text-warning">Waygate Entrance can no longer be hit by area of effect and skillshot-based Abilities</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/o571os/heroes_of_the_storm_bug_notes_june_21_2021/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul></li>
-</ul>
-
-<p><strong>Heroes</strong></p>
-
-<ul>
-<li>Muradin
-<ul>
-<li><span class="text-warning">Sledgehammer tooltip updated to not give extra stacks for Baseline Quest</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/o571os/heroes_of_the_storm_bug_notes_june_21_2021/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul></li>
-<li>Stukov
-<ul>
-<li><span class="text-warning">Fetid Touch now has ranged Basic Attack sound and animations previously used by Spine Launcher</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/o571os/heroes_of_the_storm_bug_notes_june_21_2021/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-<li><span class="text-warning">It Hungers now resets its counter when Lurking Arm is cast</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/o571os/heroes_of_the_storm_bug_notes_june_21_2021/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-<li><span class="text-warning">Reactive Ballistospores cooldown is no longer increased by the number of seconds equal to your Death Timer</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/o571os/heroes_of_the_storm_bug_notes_june_21_2021/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-<li><span class="text-warning">Bio-Kill Switch now has a 0.0625 second cooldown between uses</span> <a class="label label-warning" href="https://www.reddit.com/r/heroesofthestorm/comments/o571os/heroes_of_the_storm_bug_notes_june_21_2021/" target="_blank">Undocumented <i class="fa fa-external-link"></i></a></li>
-</ul></li>
-</ul>
-
-<p><a href="#top">Return to Top</a></p>
-
-<hr />
-
-<p><strong>A big thank you to <a href="https://www.reddit.com/r/heroesofthestorm/comments/o571os/heroes_of_the_storm_bug_notes_june_21_2021/">u/Elitesparkle for compiling details</a> to this hotfix patch!</strong></p>
 
 <hr />
 ]]></content>
