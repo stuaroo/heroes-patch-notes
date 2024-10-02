@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
   <author xmlns="http://www.w3.org/2005/Atom"><name>Heroes Patch Notes</name></author>
   <title type="text">Patch Summary - Heroes Patch Notes.com</title>
-  <updated>2024-05-27T18:00:00.000Z</updated>
+  <updated>2024-10-01T02:00:00.000Z</updated>
   <id>https://heroespatchnotes.com/feed/patch-summary.xml</id>
   <link rel="self" href="https://heroespatchnotes.com/feed/patch-summary.xml" />
   <icon>https://heroespatchnotes.com/favicon-32x32.png</icon>
+  <entry>
+    <title type="text">2024-08-12 Patch Notes v 2.55.6</title>
+    <published>2024-10-01T02:00:00.000Z</published>
+    <updated>2024-10-01T02:00:00.000Z</updated>
+    <id>https://heroespatchnotes.com/patch/2024-08-12-patch-notes.html</id>
+    <link rel="alternate" href="https://heroespatchnotes.com/patch/2024-08-12-patch-notes.html"/>
+    <content type="html"><![CDATA[
+      <h4>New</h4>
+      <h4>Heroes Affected</h4>
+      <ul>
+        <li>
+          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2024-08-12" target="_blank">Brightwing</a>, 
+          <a href="https://heroespatchnotes.com/hero/cassia.html#patch2024-08-12" target="_blank">Cassia</a>, 
+          <a href="https://heroespatchnotes.com/hero/gazlowe.html#patch2024-08-12" target="_blank">Gazlowe</a>, 
+          <a href="https://heroespatchnotes.com/hero/genji.html#patch2024-08-12" target="_blank">Genji</a>, 
+          <a href="https://heroespatchnotes.com/hero/mephisto.html#patch2024-08-12" target="_blank">Mephisto</a>, 
+          <a href="https://heroespatchnotes.com/hero/qhira.html#patch2024-08-12" target="_blank">Qhira</a>, 
+          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2024-08-12" target="_blank">Raynor</a>, 
+          <a href="https://heroespatchnotes.com/hero/samuro.html#patch2024-08-12" target="_blank">Samuro</a>, 
+          <a href="https://heroespatchnotes.com/hero/uther.html#patch2024-08-12" target="_blank">Uther</a>, 
+          <a href="https://heroespatchnotes.com/hero/zarya.html#patch2024-08-12" target="_blank">Zarya</a>
+        </li>
+      </ul>
+      ]]></content>
+  </entry>
   <entry>
     <title type="text">2024-05-21 Patch Notes v 2.55.5</title>
     <published>2024-05-27T18:00:00.000Z</published>
@@ -347,32 +372,6 @@
           <a href="https://heroespatchnotes.com/hero/stukov.html#patch2021-07-20" target="_blank">Stukov</a>, 
           <a href="https://heroespatchnotes.com/hero/tyrande.html#patch2021-07-20" target="_blank">Tyrande</a>, 
           <a href="https://heroespatchnotes.com/hero/zagara.html#patch2021-07-20" target="_blank">Zagara</a>
-        </li>
-      </ul>
-      ]]></content>
-  </entry>
-  <entry>
-    <title type="text">2021-06-15 Balance Update v 2.54.1</title>
-    <published>2021-06-16T10:59:00.000Z</published>
-    <updated>2021-06-16T10:59:00.000Z</updated>
-    <id>https://heroespatchnotes.com/patch/2021-06-15-balance-update.html</id>
-    <link rel="alternate" href="https://heroespatchnotes.com/patch/2021-06-15-balance-update.html"/>
-    <content type="html"><![CDATA[
-      <h4>Heroes Affected</h4>
-      <ul>
-        <li>
-          <a href="https://heroespatchnotes.com/hero/anduin.html#patch2021-06-15" target="_blank">Anduin</a>, 
-          <a href="https://heroespatchnotes.com/hero/blaze.html#patch2021-06-15" target="_blank">Blaze</a>, 
-          <a href="https://heroespatchnotes.com/hero/brightwing.html#patch2021-06-15" target="_blank">Brightwing</a>, 
-          <a href="https://heroespatchnotes.com/hero/garrosh.html#patch2021-06-15" target="_blank">Garrosh</a>, 
-          <a href="https://heroespatchnotes.com/hero/imperius.html#patch2021-06-15" target="_blank">Imperius</a>, 
-          <a href="https://heroespatchnotes.com/hero/johanna.html#patch2021-06-15" target="_blank">Johanna</a>, 
-          <a href="https://heroespatchnotes.com/hero/muradin.html#patch2021-06-15" target="_blank">Muradin</a>, 
-          <a href="https://heroespatchnotes.com/hero/orphea.html#patch2021-06-15" target="_blank">Orphea</a>, 
-          <a href="https://heroespatchnotes.com/hero/raynor.html#patch2021-06-15" target="_blank">Raynor</a>, 
-          <a href="https://heroespatchnotes.com/hero/stitches.html#patch2021-06-15" target="_blank">Stitches</a>, 
-          <a href="https://heroespatchnotes.com/hero/stukov.html#patch2021-06-15" target="_blank">Stukov</a>, 
-          <a href="https://heroespatchnotes.com/hero/valla.html#patch2021-06-15" target="_blank">Valla</a>
         </li>
       </ul>
       ]]></content>
